@@ -241,12 +241,11 @@ F = Duplicate or overlapping address ranges (Pseudo DAPS)</attrdef>
 		</distrib>
 		<stdorder>
 			<digform>
-				<digtinfo/>
+				<digtinfo>
+					<formname>GeoPackage</formname>
+					<formspec>zip</formspec>
+				</digtinfo>
 			</digform>
-			<digtinfo>
-				<formname>geopackage</formname>
-				<formspec>zip</formspec>
-			</digtinfo>
 		</stdorder>
 		<resdesc>doitt_addresspoints_2015</resdesc>
 	</distinfo>
