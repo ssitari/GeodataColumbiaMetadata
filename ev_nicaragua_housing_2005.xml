@@ -1,1361 +1,1361 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Nicaragua (3617476)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Nicaragua</placekey>
-<placekey>Nicaragua</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2005</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-87.692194</westbc>
-<eastbc>-82.970746</eastbc>
-<northbc>15.029491</northbc>
-<southbc>10.707382</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Nicaragua (3617476)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Nicaragua</placekey>
+				<placekey>Nicaragua</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2005</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-87.692194</westbc>
+				<eastbc>-82.970746</eastbc>
+				<northbc>15.029491</northbc>
+				<southbc>10.707382</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Nicaragua Housing Census Data, 2005 is a polygon theme representing Barrios (4th level administrative units) in Nicaragua as of 2005.  Attribute data include housing variables from the 2005 Nicaraguan census.
 Official population and housing data for Nicaragua from the 2005 census. This census is provided at the barrio administrative level (ADM4) and includes 8,136 polygons with 352 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Miembro Del Hogar Falleció Desde El 1 De Enero De 2004: Si" was updated to D001 and given the alias "Member Of The Household Has Died Since January 1st 2004: Yes[Miembro Del Hogar Falleció Desde El 1 De Enero De 2004: Si]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Nicaragua Housing Census Data, 2005</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Nicaragua Housing Census Data, 2005</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_nicaragua_housing_2005.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2005</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2005</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Nicaragua_2005</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H001</attrlabl>
-    <attrdef>Type Of House: Home[Tipo De Vivienda: Casa]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H002</attrlabl>
-    <attrdef>Type Of House: Farm[Tipo De Vivienda: Quinta]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H003</attrlabl>
-    <attrdef>Type Of House: Apartment[Tipo De Vivienda: Apartamento]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H004</attrlabl>
-    <attrdef>Type Of House: Room In Bunkhouse[Tipo De Vivienda: Cuarto En Cuartería]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H005</attrlabl>
-    <attrdef>Type Of House: Ranch Or Hut[Tipo De Vivienda: Rancho O Choza]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H006</attrlabl>
-    <attrdef>Type Of House: Improvised Housing[Tipo De Vivienda: Vivienda Improvisada]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H007</attrlabl>
-    <attrdef>Type Of House: Local Used As Housing[Tipo De Vivienda: Local Usado Como Vivienda]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H008</attrlabl>
-    <attrdef>Type Of House: Hotel[Tipo De Vivienda: Hotel]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H009</attrlabl>
-    <attrdef>Type Of House: Pension Motel[Tipo De Vivienda: Pensión Motel]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H010</attrlabl>
-    <attrdef>Type Of House: Guesthouse[Tipo De Vivienda: Casa De Huespedes]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H011</attrlabl>
-    <attrdef>Type Of House: Hospital Or Clinic[Tipo De Vivienda: Hospital Or Clínica]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H012</attrlabl>
-    <attrdef>Type Of House: Rehabilitation Center[Tipo De Vivienda: Centro De Rehabilitación]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H013</attrlabl>
-    <attrdef>Type Of House: Asylum[Tipo De Vivienda: Asilo]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H014</attrlabl>
-    <attrdef>Type Of House: Orphanage[Tipo De Vivienda: Orfanato]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H015</attrlabl>
-    <attrdef>Type Of House: Religious Institution[Tipo De Vivienda: Institución Religiosa]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H016</attrlabl>
-    <attrdef>Type Of House: Jail Or Guardianship[Tipo De Vivienda: Carcel O Tutelar]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H017</attrlabl>
-    <attrdef>Type Of House: Other[Tipo De Vivienda: Otro]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H018</attrlabl>
-    <attrdef>Type Of House: Without Housing[Tipo De Vivienda: Sin Vivienda]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H019</attrlabl>
-    <attrdef>Condition Of Occupation: With Residents Present[Condición De Ocupación: Con Moradores Presentes]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H020</attrlabl>
-    <attrdef>Condition Of Occupation: With Absent Dwellers[Condición De Ocupación: Con Moradores Ausentes]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H021</attrlabl>
-    <attrdef>Condition Of Occupation: For Sale/Rent[Condición De Ocupación: En Venta/Alquiler]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H022</attrlabl>
-    <attrdef>Condition Of Occupation: Temporary Use[Condición De Ocupación: Es De Uso Temporal ]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H023</attrlabl>
-    <attrdef>Condition Of Occupation: Under Construction[Condición De Ocupación: En Construcción]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H024</attrlabl>
-    <attrdef>Condition Of Occupation: In Repair[Condición De Ocupación: En Reparación]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H025</attrlabl>
-    <attrdef>Condition Of Occupation: Temporarily Empty[Condición De Ocupación: Desocupada Temporalmente ]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H026</attrlabl>
-    <attrdef>Condition Of Occupation: Abandoned[Condición De Ocupación: Abandonada]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H027</attrlabl>
-    <attrdef>Condition Of Occupation: In Ruins Or Destroyed[Condición De Ocupación: En Ruinas O Destruida]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H028</attrlabl>
-    <attrdef>Primary Source Of Water: Piped Inside The House[Fuente Primaria De Agua: Tuberla Dentro De La Vivienda]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H029</attrlabl>
-    <attrdef>Primary Source Of Water: Pipe Outside The House But Inside The Land[Fuente Primaria De Agua: Tuberia Fuera De La Vivienda Pero Dentro Del Terreno]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H030</attrlabl>
-    <attrdef>Primary Source Of Water: Other[Fuente Primaria De Agua: Otro]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H031</attrlabl>
-    <attrdef>Primary Source Of Water: Ignored[Fuente Primaria De Agua: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H032</attrlabl>
-    <attrdef>Primary Source Of Water: Piped Inside The House[Fuente Primaria De Agua: Tuberla Dentro De La Vivienda]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H033</attrlabl>
-    <attrdef>Primary Source Of Water: Pipe Outside The House[Fuente Primaria De Agua: Tuberia Fuera De La Vivienda]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H034</attrlabl>
-    <attrdef>Primary Source Of Water: Public Post[Fuente Primaria De Agua: Puesto Público]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H035</attrlabl>
-    <attrdef>Primary Source Of Water: Private Well[Fuente Primaria De Agua: Pozo Privado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H036</attrlabl>
-    <attrdef>Primary Source Of Water: Public Well[Fuente Primaria De Agua: Pozo Público]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H037</attrlabl>
-    <attrdef>Primary Source Of Water: Waterhole or Spring[Fuente Primaria De Agua: Ojo De Agua O Manantial]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H038</attrlabl>
-    <attrdef>Primary Source Of Water: River/Ravine/Stream[Fuente Primaria De Agua: Rio/Quebrada/Arroyo]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H039</attrlabl>
-    <attrdef>Primary Source Of Water: Truck/Cart/Pipe[Fuente Primaria De Agua: Camión/Carreta/Pipa]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H040</attrlabl>
-    <attrdef>Primary Source Of Water: From Another House/Neighbor/Company[Fuente Primaria De Agua: De Otra Vivienda/Vecino/Empresa]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H041</attrlabl>
-    <attrdef>Primary Source Of Water: Other_1[Fuente Primaria De Agua: Otro_1]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H042</attrlabl>
-    <attrdef>Primary Source Of Water: NR[Fuente Primaria De Agua: NR]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H043</attrlabl>
-    <attrdef>Primary Source Of Water: Public Network[Fuente Primaria De Agua: Red Publica]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H044</attrlabl>
-    <attrdef>Primary Source Of Water: Other Supplier[Fuente Primaria De Agua: Otro Abastecimiento]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H045</attrlabl>
-    <attrdef>Primary Source Of Water: Ignored[Fuente Primaria De Agua: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H046</attrlabl>
-    <attrdef>Housing Occupied Is: Rented[Vivienda Que Ocupan Es: Alquilada]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H047</attrlabl>
-    <attrdef>Housing Occupied Is: Abandoned[Vivienda Que Ocupan Es: Cedida]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H048</attrlabl>
-    <attrdef>Housing Occupied Is: Paying For/Mortgaged[Vivienda Que Ocupan Es: Pagándose I Amortizándose]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H049</attrlabl>
-    <attrdef>Housing Occupied Is: Borrowed[Vivienda Que Ocupan Es: Prestada]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H050</attrlabl>
-    <attrdef>Housing Occupied Is: Own Without Deed[Vivienda Que Ocupan Es: Propia Sin Escritura]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H051</attrlabl>
-    <attrdef>Housing Occupied Is: Own With Deed[Vivienda Que Ocupan Es: Propia Con Escritura]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H052</attrlabl>
-    <attrdef>Housing Occupied Is: Other[Vivienda Que Ocupan Es: Otro]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H053</attrlabl>
-    <attrdef>Housing Occupied Is: NR[Vivienda Que Ocupan Es: NR]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H054</attrlabl>
-    <attrdef>Toilet Waste Removal: Water Closet Or Latrine[Eliminación De Residuos De Inodoro: Excusado O Letrina]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H055</attrlabl>
-    <attrdef>Toilet Waste Removal: Sewage Pipe[Eliminación De Residuos De Inodoro: Tubería De Aguas Negras]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H056</attrlabl>
-    <attrdef>Toilet Waste Removal: Tank Or Septic Tank[Eliminación De Residuos De Inodoro: Sumidero O Pozo Septico]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H057</attrlabl>
-    <attrdef>Toilet Waste Removal: River/Ravine[Eliminación De Residuos De Inodoro: Rio/Que Brada]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H058</attrlabl>
-    <attrdef>Toilet Waste Removal: None[Eliminación De Residuos De Inodoro: No Tiene]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H059</attrlabl>
-    <attrdef>Toilet For This House Exclusively: Yes[Aseo Para Esta Vivienda En Exclusiva: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H060</attrlabl>
-    <attrdef>Toilet For This House Exclusively: No[Aseo Para Esta Vivienda En Exclusiva: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H061</attrlabl>
-    <attrdef>Number Of Bedrooms: 0[Numero De Habitaciones: 0]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H062</attrlabl>
-    <attrdef>Number Of Bedrooms: 1[Numero De Habitaciones: 1]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H063</attrlabl>
-    <attrdef>Number Of Bedrooms: 2[Numero De Habitaciones: 2]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H064</attrlabl>
-    <attrdef>Number Of Bedrooms: 3[Numero De Habitaciones: 3]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H065</attrlabl>
-    <attrdef>Number Of Bedrooms: 4[Numero De Habitaciones: 4]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H066</attrlabl>
-    <attrdef>Number Of Bedrooms: 5[Numero De Habitaciones: 5]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H067</attrlabl>
-    <attrdef>Number Of Bedrooms: 6[Numero De Habitaciones: 6]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H068</attrlabl>
-    <attrdef>Number Of Bedrooms: 7[Numero De Habitaciones: 7]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H069</attrlabl>
-    <attrdef>Number Of Bedrooms: 8[Numero De Habitaciones: 8]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H070</attrlabl>
-    <attrdef>Number Of Bedrooms: 9[Numero De Habitaciones: 9]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H071</attrlabl>
-    <attrdef>Number Of Bedrooms: 10[Numero De Habitaciones: 10]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H072</attrlabl>
-    <attrdef>Number Of Bedrooms: 11[Numero De Habitaciones: 11]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H073</attrlabl>
-    <attrdef>Number Of Bedrooms: 12[Numero De Habitaciones: 12]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H074</attrlabl>
-    <attrdef>Number Of Bedrooms: 13[Numero De Habitaciones: 13]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H075</attrlabl>
-    <attrdef>Number Of Bedrooms: 14[Numero De Habitaciones: 14]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H076</attrlabl>
-    <attrdef>Number Of Bedrooms: 15[Numero De Habitaciones: 15]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H077</attrlabl>
-    <attrdef>Number Of Bedrooms: 16[Numero De Habitaciones: 16]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H078</attrlabl>
-    <attrdef>Number Of Bedrooms: 17[Numero De Habitaciones: 17]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H079</attrlabl>
-    <attrdef>Number Of Bedrooms: 18[Numero De Habitaciones: 18]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H080</attrlabl>
-    <attrdef>Number Of Bedrooms: 19[Numero De Habitaciones: 19]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H081</attrlabl>
-    <attrdef>Number Of Bedrooms: 20[Numero De Habitaciones: 20]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H082</attrlabl>
-    <attrdef>Room Just For Cooking: Yes[Habitación Solo Para Cocinar: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H083</attrlabl>
-    <attrdef>Room Just For Cooking: No[Habitación Solo Para Cocinar: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H084</attrlabl>
-    <attrdef>Fuel Used For Cooking: Butane/Propane (Cylinder)[Combustible Usado Para Cocinar: Gas Butano/Gas Propano (Cilindro)]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H085</attrlabl>
-    <attrdef>Fuel Used For Cooking: Firewood[Combustible Usado Para Cocinar: Leña]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H086</attrlabl>
-    <attrdef>Fuel Used For Cooking: Carbon[Combustible Usado Para Cocinar: Carbón]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H087</attrlabl>
-    <attrdef>Fuel Used For Cooking: Gas Kerosene[Combustible Usado Para Cocinar: Gas Kerosen]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H088</attrlabl>
-    <attrdef>Fuel Used For Cooking: Electricity[Combustible Usado Para Cocinar: Electricidad]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H089</attrlabl>
-    <attrdef>Fuel Used For Cooking: Other[Combustible Usado Para Cocinar: Otro]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H090</attrlabl>
-    <attrdef>Fuel Used For Cooking: Do Not Cook[Combustible Usado Para Cocinar: No Cocinan]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H091</attrlabl>
-    <attrdef>Fuel Used For Cooking: Ignored[Combustible Usado Para Cocinar: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H092</attrlabl>
-    <attrdef>Eliminate Most Of The Garbage: Garbage Truck[Eliminar La Mayor Parte De La Basura: Camión De Basura]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H093</attrlabl>
-    <attrdef>Eliminate Most Of The Garbage: Dumpster/Authorized Garbage Can[Eliminar La Mayor Parte De La Basura: Contenedor/Contenedor Autorizado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H094</attrlabl>
-    <attrdef>Eliminate Most Of The Garbage: Burn[Eliminar La Mayor Parte De La Basura: Quemar]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H095</attrlabl>
-    <attrdef>Eliminate Most Of The Garbage: Bury[Eliminar La Mayor Parte De La Basura: Enterrar]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H096</attrlabl>
-    <attrdef>Eliminate Most Of The Garbage: Throw To Vacant Lot/Channel/Street [Eliminar La Mayor Parte De La Basura: Tiran A Predio Baldío Cauce Calle]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H097</attrlabl>
-    <attrdef>Eliminate Most Of The Garbage: River/Lagoon/Stream/Creek[Eliminar La Mayor Parte De La Basura: Río/Laguna/Arroyo/Arroyo]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H098</attrlabl>
-    <attrdef>Eliminate Most Of The Garbage: Pay To Be Thrown Out[Eliminar La Mayor Parte De La Basura: Paga Para Que La Boten]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H099</attrlabl>
-    <attrdef>Eliminate Most Of The Garbage: Organic Fertilizer[Eliminar La Mayor Parte De La Basura: Fertilizante Orgánico]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H100</attrlabl>
-    <attrdef>Eliminate Most Of The Garbage: Other[Eliminar La Mayor Parte De La Basura: Otro]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H101</attrlabl>
-    <attrdef>Radio Recorder: Yes[Radio Grabadora: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H102</attrlabl>
-    <attrdef>Radio Recorder: No[Radio Grabadora: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H103</attrlabl>
-    <attrdef>Radio Recorder: Ignored[Radio Grabadora: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H104</attrlabl>
-    <attrdef>Stereo: Yes[Equipo De Sonido: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H105</attrlabl>
-    <attrdef>Stereo: No[Equipo De Sonido: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H106</attrlabl>
-    <attrdef>Stereo: Ignored[Equipo De Sonido: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H107</attrlabl>
-    <attrdef>Radio: Yes[Radio: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H108</attrlabl>
-    <attrdef>Radio: No[Radio: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H109</attrlabl>
-    <attrdef>Radio: Ignored[Radio: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H110</attrlabl>
-    <attrdef>Stove (Butane, Electric): Yes[Cocina (Butano, Electrica): Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H111</attrlabl>
-    <attrdef>Stove (Butane, Electric): No[Cocina (Butano, Electrica): No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H112</attrlabl>
-    <attrdef>Stove (Butane, Electric): Ignored[Cocina (Butano, Electrica): Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H113</attrlabl>
-    <attrdef>TV: Yes[Televisor: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H114</attrlabl>
-    <attrdef>TV: No[Televisor: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H115</attrlabl>
-    <attrdef>TV: Ignored[Televisor: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H116</attrlabl>
-    <attrdef>Refrigerator: Yes[Refrigeradora: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H117</attrlabl>
-    <attrdef>Refrigerator: No[Refrigeradora: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H118</attrlabl>
-    <attrdef>Refrigerator: Ignored[Refrigeradora: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H119</attrlabl>
-    <attrdef>Fan: Yes[Abanico: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H120</attrlabl>
-    <attrdef>Fan: No[Abanico: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H121</attrlabl>
-    <attrdef>Fan: Ignored[Abanico: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H122</attrlabl>
-    <attrdef>Sewing Machine: Yes[Máquina De Coser: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H123</attrlabl>
-    <attrdef>Sewing Machine: No[Máquina De Coser: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H124</attrlabl>
-    <attrdef>Sewing Machine: Ignored[Máquina De Coser: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H125</attrlabl>
-    <attrdef>Electric Iron: Yes[Plancha Electrica: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H126</attrlabl>
-    <attrdef>Electric Iron: No[Plancha Electrica: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H127</attrlabl>
-    <attrdef>Electric Iron: Ignored[Plancha Electrica: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H128</attrlabl>
-    <attrdef>Washing Machine: Yes[Lavadora De Ropa: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H129</attrlabl>
-    <attrdef>Washing Machine: No[Lavadora De Ropa: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H130</attrlabl>
-    <attrdef>Washing Machine: Ignored[Lavadora De Ropa: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H131</attrlabl>
-    <attrdef>Air Conditioner: Yes[Aire Acondicionado: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H132</attrlabl>
-    <attrdef>Air Conditioner: No[Aire Acondicionado: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H133</attrlabl>
-    <attrdef>Air Conditioner: Ignored[Aire Acondicionado: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H134</attrlabl>
-    <attrdef>Cable TV Service: Yes[Servicio De Cable TV: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H135</attrlabl>
-    <attrdef>Cable TV Service: No[Servicio De Cable TV: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H136</attrlabl>
-    <attrdef>Cable TV Service: Ignored[Servicio De Cable TV: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H137</attrlabl>
-    <attrdef>Computer: Yes[Computadora: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H138</attrlabl>
-    <attrdef>Computer: No[Computadora: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H139</attrlabl>
-    <attrdef>Computer: Ignored[Computadora: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H140</attrlabl>
-    <attrdef>Internet: Yes[Internet: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H141</attrlabl>
-    <attrdef>Internet: No[Internet: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H142</attrlabl>
-    <attrdef>Internet: Ignored[Internet: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H143</attrlabl>
-    <attrdef>Lives With Overcrowding: Yes[Vivir Con Hacinamiento: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H144</attrlabl>
-    <attrdef>Lives With Overcrowding: No[Vivir Con Hacinamiento: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H145</attrlabl>
-    <attrdef>Lives With Inadequate Housing: Yes[Vivir Con Vivienda Inadecuada: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H146</attrlabl>
-    <attrdef>Lives With Inadequate Housing: No[Vivir Con Vivienda Inadecuada: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H147</attrlabl>
-    <attrdef>Lives With Insufficient Services: Yes[Vivir Con Servicios Insuficientes: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H148</attrlabl>
-    <attrdef>Lives With Insufficient Services: No[Vivir Con Servicios Insuficientes: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Nicaragua_2005</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H001</attrlabl>
+			<attrdef>Type Of House: Home[Tipo De Vivienda: Casa]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H002</attrlabl>
+			<attrdef>Type Of House: Farm[Tipo De Vivienda: Quinta]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H003</attrlabl>
+			<attrdef>Type Of House: Apartment[Tipo De Vivienda: Apartamento]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H004</attrlabl>
+			<attrdef>Type Of House: Room In Bunkhouse[Tipo De Vivienda: Cuarto En Cuartería]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H005</attrlabl>
+			<attrdef>Type Of House: Ranch Or Hut[Tipo De Vivienda: Rancho O Choza]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H006</attrlabl>
+			<attrdef>Type Of House: Improvised Housing[Tipo De Vivienda: Vivienda Improvisada]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H007</attrlabl>
+			<attrdef>Type Of House: Local Used As Housing[Tipo De Vivienda: Local Usado Como Vivienda]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H008</attrlabl>
+			<attrdef>Type Of House: Hotel[Tipo De Vivienda: Hotel]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H009</attrlabl>
+			<attrdef>Type Of House: Pension Motel[Tipo De Vivienda: Pensión Motel]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H010</attrlabl>
+			<attrdef>Type Of House: Guesthouse[Tipo De Vivienda: Casa De Huespedes]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H011</attrlabl>
+			<attrdef>Type Of House: Hospital Or Clinic[Tipo De Vivienda: Hospital Or Clínica]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H012</attrlabl>
+			<attrdef>Type Of House: Rehabilitation Center[Tipo De Vivienda: Centro De Rehabilitación]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H013</attrlabl>
+			<attrdef>Type Of House: Asylum[Tipo De Vivienda: Asilo]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H014</attrlabl>
+			<attrdef>Type Of House: Orphanage[Tipo De Vivienda: Orfanato]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H015</attrlabl>
+			<attrdef>Type Of House: Religious Institution[Tipo De Vivienda: Institución Religiosa]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H016</attrlabl>
+			<attrdef>Type Of House: Jail Or Guardianship[Tipo De Vivienda: Carcel O Tutelar]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H017</attrlabl>
+			<attrdef>Type Of House: Other[Tipo De Vivienda: Otro]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H018</attrlabl>
+			<attrdef>Type Of House: Without Housing[Tipo De Vivienda: Sin Vivienda]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H019</attrlabl>
+			<attrdef>Condition Of Occupation: With Residents Present[Condición De Ocupación: Con Moradores Presentes]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H020</attrlabl>
+			<attrdef>Condition Of Occupation: With Absent Dwellers[Condición De Ocupación: Con Moradores Ausentes]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H021</attrlabl>
+			<attrdef>Condition Of Occupation: For Sale/Rent[Condición De Ocupación: En Venta/Alquiler]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H022</attrlabl>
+			<attrdef>Condition Of Occupation: Temporary Use[Condición De Ocupación: Es De Uso Temporal ]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H023</attrlabl>
+			<attrdef>Condition Of Occupation: Under Construction[Condición De Ocupación: En Construcción]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H024</attrlabl>
+			<attrdef>Condition Of Occupation: In Repair[Condición De Ocupación: En Reparación]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H025</attrlabl>
+			<attrdef>Condition Of Occupation: Temporarily Empty[Condición De Ocupación: Desocupada Temporalmente ]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H026</attrlabl>
+			<attrdef>Condition Of Occupation: Abandoned[Condición De Ocupación: Abandonada]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H027</attrlabl>
+			<attrdef>Condition Of Occupation: In Ruins Or Destroyed[Condición De Ocupación: En Ruinas O Destruida]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H028</attrlabl>
+			<attrdef>Primary Source Of Water: Piped Inside The House[Fuente Primaria De Agua: Tuberla Dentro De La Vivienda]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H029</attrlabl>
+			<attrdef>Primary Source Of Water: Pipe Outside The House But Inside The Land[Fuente Primaria De Agua: Tuberia Fuera De La Vivienda Pero Dentro Del Terreno]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H030</attrlabl>
+			<attrdef>Primary Source Of Water: Other[Fuente Primaria De Agua: Otro]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H031</attrlabl>
+			<attrdef>Primary Source Of Water: Ignored[Fuente Primaria De Agua: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H032</attrlabl>
+			<attrdef>Primary Source Of Water: Piped Inside The House[Fuente Primaria De Agua: Tuberla Dentro De La Vivienda]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H033</attrlabl>
+			<attrdef>Primary Source Of Water: Pipe Outside The House[Fuente Primaria De Agua: Tuberia Fuera De La Vivienda]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H034</attrlabl>
+			<attrdef>Primary Source Of Water: Public Post[Fuente Primaria De Agua: Puesto Público]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H035</attrlabl>
+			<attrdef>Primary Source Of Water: Private Well[Fuente Primaria De Agua: Pozo Privado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H036</attrlabl>
+			<attrdef>Primary Source Of Water: Public Well[Fuente Primaria De Agua: Pozo Público]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H037</attrlabl>
+			<attrdef>Primary Source Of Water: Waterhole or Spring[Fuente Primaria De Agua: Ojo De Agua O Manantial]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H038</attrlabl>
+			<attrdef>Primary Source Of Water: River/Ravine/Stream[Fuente Primaria De Agua: Rio/Quebrada/Arroyo]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H039</attrlabl>
+			<attrdef>Primary Source Of Water: Truck/Cart/Pipe[Fuente Primaria De Agua: Camión/Carreta/Pipa]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H040</attrlabl>
+			<attrdef>Primary Source Of Water: From Another House/Neighbor/Company[Fuente Primaria De Agua: De Otra Vivienda/Vecino/Empresa]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H041</attrlabl>
+			<attrdef>Primary Source Of Water: Other_1[Fuente Primaria De Agua: Otro_1]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H042</attrlabl>
+			<attrdef>Primary Source Of Water: NR[Fuente Primaria De Agua: NR]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H043</attrlabl>
+			<attrdef>Primary Source Of Water: Public Network[Fuente Primaria De Agua: Red Publica]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H044</attrlabl>
+			<attrdef>Primary Source Of Water: Other Supplier[Fuente Primaria De Agua: Otro Abastecimiento]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H045</attrlabl>
+			<attrdef>Primary Source Of Water: Ignored[Fuente Primaria De Agua: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H046</attrlabl>
+			<attrdef>Housing Occupied Is: Rented[Vivienda Que Ocupan Es: Alquilada]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H047</attrlabl>
+			<attrdef>Housing Occupied Is: Abandoned[Vivienda Que Ocupan Es: Cedida]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H048</attrlabl>
+			<attrdef>Housing Occupied Is: Paying For/Mortgaged[Vivienda Que Ocupan Es: Pagándose I Amortizándose]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H049</attrlabl>
+			<attrdef>Housing Occupied Is: Borrowed[Vivienda Que Ocupan Es: Prestada]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H050</attrlabl>
+			<attrdef>Housing Occupied Is: Own Without Deed[Vivienda Que Ocupan Es: Propia Sin Escritura]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H051</attrlabl>
+			<attrdef>Housing Occupied Is: Own With Deed[Vivienda Que Ocupan Es: Propia Con Escritura]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H052</attrlabl>
+			<attrdef>Housing Occupied Is: Other[Vivienda Que Ocupan Es: Otro]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H053</attrlabl>
+			<attrdef>Housing Occupied Is: NR[Vivienda Que Ocupan Es: NR]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H054</attrlabl>
+			<attrdef>Toilet Waste Removal: Water Closet Or Latrine[Eliminación De Residuos De Inodoro: Excusado O Letrina]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H055</attrlabl>
+			<attrdef>Toilet Waste Removal: Sewage Pipe[Eliminación De Residuos De Inodoro: Tubería De Aguas Negras]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H056</attrlabl>
+			<attrdef>Toilet Waste Removal: Tank Or Septic Tank[Eliminación De Residuos De Inodoro: Sumidero O Pozo Septico]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H057</attrlabl>
+			<attrdef>Toilet Waste Removal: River/Ravine[Eliminación De Residuos De Inodoro: Rio/Que Brada]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H058</attrlabl>
+			<attrdef>Toilet Waste Removal: None[Eliminación De Residuos De Inodoro: No Tiene]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H059</attrlabl>
+			<attrdef>Toilet For This House Exclusively: Yes[Aseo Para Esta Vivienda En Exclusiva: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H060</attrlabl>
+			<attrdef>Toilet For This House Exclusively: No[Aseo Para Esta Vivienda En Exclusiva: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H061</attrlabl>
+			<attrdef>Number Of Bedrooms: 0[Numero De Habitaciones: 0]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H062</attrlabl>
+			<attrdef>Number Of Bedrooms: 1[Numero De Habitaciones: 1]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H063</attrlabl>
+			<attrdef>Number Of Bedrooms: 2[Numero De Habitaciones: 2]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H064</attrlabl>
+			<attrdef>Number Of Bedrooms: 3[Numero De Habitaciones: 3]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H065</attrlabl>
+			<attrdef>Number Of Bedrooms: 4[Numero De Habitaciones: 4]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H066</attrlabl>
+			<attrdef>Number Of Bedrooms: 5[Numero De Habitaciones: 5]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H067</attrlabl>
+			<attrdef>Number Of Bedrooms: 6[Numero De Habitaciones: 6]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H068</attrlabl>
+			<attrdef>Number Of Bedrooms: 7[Numero De Habitaciones: 7]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H069</attrlabl>
+			<attrdef>Number Of Bedrooms: 8[Numero De Habitaciones: 8]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H070</attrlabl>
+			<attrdef>Number Of Bedrooms: 9[Numero De Habitaciones: 9]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H071</attrlabl>
+			<attrdef>Number Of Bedrooms: 10[Numero De Habitaciones: 10]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H072</attrlabl>
+			<attrdef>Number Of Bedrooms: 11[Numero De Habitaciones: 11]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H073</attrlabl>
+			<attrdef>Number Of Bedrooms: 12[Numero De Habitaciones: 12]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H074</attrlabl>
+			<attrdef>Number Of Bedrooms: 13[Numero De Habitaciones: 13]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H075</attrlabl>
+			<attrdef>Number Of Bedrooms: 14[Numero De Habitaciones: 14]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H076</attrlabl>
+			<attrdef>Number Of Bedrooms: 15[Numero De Habitaciones: 15]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H077</attrlabl>
+			<attrdef>Number Of Bedrooms: 16[Numero De Habitaciones: 16]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H078</attrlabl>
+			<attrdef>Number Of Bedrooms: 17[Numero De Habitaciones: 17]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H079</attrlabl>
+			<attrdef>Number Of Bedrooms: 18[Numero De Habitaciones: 18]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H080</attrlabl>
+			<attrdef>Number Of Bedrooms: 19[Numero De Habitaciones: 19]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H081</attrlabl>
+			<attrdef>Number Of Bedrooms: 20[Numero De Habitaciones: 20]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H082</attrlabl>
+			<attrdef>Room Just For Cooking: Yes[Habitación Solo Para Cocinar: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H083</attrlabl>
+			<attrdef>Room Just For Cooking: No[Habitación Solo Para Cocinar: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H084</attrlabl>
+			<attrdef>Fuel Used For Cooking: Butane/Propane (Cylinder)[Combustible Usado Para Cocinar: Gas Butano/Gas Propano (Cilindro)]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H085</attrlabl>
+			<attrdef>Fuel Used For Cooking: Firewood[Combustible Usado Para Cocinar: Leña]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H086</attrlabl>
+			<attrdef>Fuel Used For Cooking: Carbon[Combustible Usado Para Cocinar: Carbón]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H087</attrlabl>
+			<attrdef>Fuel Used For Cooking: Gas Kerosene[Combustible Usado Para Cocinar: Gas Kerosen]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H088</attrlabl>
+			<attrdef>Fuel Used For Cooking: Electricity[Combustible Usado Para Cocinar: Electricidad]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H089</attrlabl>
+			<attrdef>Fuel Used For Cooking: Other[Combustible Usado Para Cocinar: Otro]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H090</attrlabl>
+			<attrdef>Fuel Used For Cooking: Do Not Cook[Combustible Usado Para Cocinar: No Cocinan]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H091</attrlabl>
+			<attrdef>Fuel Used For Cooking: Ignored[Combustible Usado Para Cocinar: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H092</attrlabl>
+			<attrdef>Eliminate Most Of The Garbage: Garbage Truck[Eliminar La Mayor Parte De La Basura: Camión De Basura]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H093</attrlabl>
+			<attrdef>Eliminate Most Of The Garbage: Dumpster/Authorized Garbage Can[Eliminar La Mayor Parte De La Basura: Contenedor/Contenedor Autorizado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H094</attrlabl>
+			<attrdef>Eliminate Most Of The Garbage: Burn[Eliminar La Mayor Parte De La Basura: Quemar]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H095</attrlabl>
+			<attrdef>Eliminate Most Of The Garbage: Bury[Eliminar La Mayor Parte De La Basura: Enterrar]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H096</attrlabl>
+			<attrdef>Eliminate Most Of The Garbage: Throw To Vacant Lot/Channel/Street [Eliminar La Mayor Parte De La Basura: Tiran A Predio Baldío Cauce Calle]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H097</attrlabl>
+			<attrdef>Eliminate Most Of The Garbage: River/Lagoon/Stream/Creek[Eliminar La Mayor Parte De La Basura: Río/Laguna/Arroyo/Arroyo]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H098</attrlabl>
+			<attrdef>Eliminate Most Of The Garbage: Pay To Be Thrown Out[Eliminar La Mayor Parte De La Basura: Paga Para Que La Boten]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H099</attrlabl>
+			<attrdef>Eliminate Most Of The Garbage: Organic Fertilizer[Eliminar La Mayor Parte De La Basura: Fertilizante Orgánico]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H100</attrlabl>
+			<attrdef>Eliminate Most Of The Garbage: Other[Eliminar La Mayor Parte De La Basura: Otro]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H101</attrlabl>
+			<attrdef>Radio Recorder: Yes[Radio Grabadora: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H102</attrlabl>
+			<attrdef>Radio Recorder: No[Radio Grabadora: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H103</attrlabl>
+			<attrdef>Radio Recorder: Ignored[Radio Grabadora: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H104</attrlabl>
+			<attrdef>Stereo: Yes[Equipo De Sonido: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H105</attrlabl>
+			<attrdef>Stereo: No[Equipo De Sonido: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H106</attrlabl>
+			<attrdef>Stereo: Ignored[Equipo De Sonido: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H107</attrlabl>
+			<attrdef>Radio: Yes[Radio: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H108</attrlabl>
+			<attrdef>Radio: No[Radio: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H109</attrlabl>
+			<attrdef>Radio: Ignored[Radio: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H110</attrlabl>
+			<attrdef>Stove (Butane, Electric): Yes[Cocina (Butano, Electrica): Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H111</attrlabl>
+			<attrdef>Stove (Butane, Electric): No[Cocina (Butano, Electrica): No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H112</attrlabl>
+			<attrdef>Stove (Butane, Electric): Ignored[Cocina (Butano, Electrica): Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H113</attrlabl>
+			<attrdef>TV: Yes[Televisor: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H114</attrlabl>
+			<attrdef>TV: No[Televisor: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H115</attrlabl>
+			<attrdef>TV: Ignored[Televisor: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H116</attrlabl>
+			<attrdef>Refrigerator: Yes[Refrigeradora: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H117</attrlabl>
+			<attrdef>Refrigerator: No[Refrigeradora: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H118</attrlabl>
+			<attrdef>Refrigerator: Ignored[Refrigeradora: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H119</attrlabl>
+			<attrdef>Fan: Yes[Abanico: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H120</attrlabl>
+			<attrdef>Fan: No[Abanico: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H121</attrlabl>
+			<attrdef>Fan: Ignored[Abanico: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H122</attrlabl>
+			<attrdef>Sewing Machine: Yes[Máquina De Coser: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H123</attrlabl>
+			<attrdef>Sewing Machine: No[Máquina De Coser: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H124</attrlabl>
+			<attrdef>Sewing Machine: Ignored[Máquina De Coser: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H125</attrlabl>
+			<attrdef>Electric Iron: Yes[Plancha Electrica: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H126</attrlabl>
+			<attrdef>Electric Iron: No[Plancha Electrica: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H127</attrlabl>
+			<attrdef>Electric Iron: Ignored[Plancha Electrica: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H128</attrlabl>
+			<attrdef>Washing Machine: Yes[Lavadora De Ropa: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H129</attrlabl>
+			<attrdef>Washing Machine: No[Lavadora De Ropa: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H130</attrlabl>
+			<attrdef>Washing Machine: Ignored[Lavadora De Ropa: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H131</attrlabl>
+			<attrdef>Air Conditioner: Yes[Aire Acondicionado: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H132</attrlabl>
+			<attrdef>Air Conditioner: No[Aire Acondicionado: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H133</attrlabl>
+			<attrdef>Air Conditioner: Ignored[Aire Acondicionado: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H134</attrlabl>
+			<attrdef>Cable TV Service: Yes[Servicio De Cable TV: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H135</attrlabl>
+			<attrdef>Cable TV Service: No[Servicio De Cable TV: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H136</attrlabl>
+			<attrdef>Cable TV Service: Ignored[Servicio De Cable TV: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H137</attrlabl>
+			<attrdef>Computer: Yes[Computadora: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H138</attrlabl>
+			<attrdef>Computer: No[Computadora: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H139</attrlabl>
+			<attrdef>Computer: Ignored[Computadora: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H140</attrlabl>
+			<attrdef>Internet: Yes[Internet: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H141</attrlabl>
+			<attrdef>Internet: No[Internet: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H142</attrlabl>
+			<attrdef>Internet: Ignored[Internet: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H143</attrlabl>
+			<attrdef>Lives With Overcrowding: Yes[Vivir Con Hacinamiento: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H144</attrlabl>
+			<attrdef>Lives With Overcrowding: No[Vivir Con Hacinamiento: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H145</attrlabl>
+			<attrdef>Lives With Inadequate Housing: Yes[Vivir Con Vivienda Inadecuada: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H146</attrlabl>
+			<attrdef>Lives With Inadequate Housing: No[Vivir Con Vivienda Inadecuada: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H147</attrlabl>
+			<attrdef>Lives With Insufficient Services: Yes[Vivir Con Servicios Insuficientes: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H148</attrlabl>
+			<attrdef>Lives With Insufficient Services: No[Vivir Con Servicios Insuficientes: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_nicaragua_housing_2005</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_nicaragua_housing_2005</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

@@ -1,102 +1,106 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>United States. Bureau of the Census. Geography Division</origin>
-<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-<pubdate>2008</pubdate>
-<title>United States Census Urbanized Areas, 2008</title>
-<edition>2008</edition>
-<geoform>vector digital data</geoform>
-<serinfo>
-<sername>ESRI Data &amp; Maps</sername>
-<issue>2008 World, Europe, United States, Canada, and Mexico</issue>
-</serinfo>
-<pubinfo>
-<pubplace>Redlands, California, USA</pubplace>
-<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
-</pubinfo>
-<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2008_usa_urban.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>United States. Bureau of the Census. Geography Division</origin>
+				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+				<pubdate>2008</pubdate>
+				<title>United States Census Urbanized Areas, 2008</title>
+				<edition>2008</edition>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>ESRI Data &amp; Maps</sername>
+					<issue>2008 World, Europe, United States, Canada, and Mexico</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Redlands, California, USA</pubplace>
+					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
+				</pubinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2008_usa_urban.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
 <abstract>United States Census Urbanized Areas is a polygon theme representing the Census 2000 Urbanized Areas (UA) and Urban Clusters (UC). A UA consists of contiguous, densely settled census block groups (BGs) and census blocks that meet minimum population density requirements (1000ppsm /500ppsm), along with adjacent densely settled census blocks that together encompass a population of at least 50,000 people. A UC consists of contiguous, densely settled census BGs and census blocks that meet minimum population density requirements, along with adjacent densely settled census blocks that together encompass a population of at least 2,500 people, but fewer than 50,000 people. The dataset covers the 50 States plus the District of Columbia within United States.  Attribute information includes a variety of demographic variables from the 2000 U.S. Census.
 
 This dataset is a part of the 2008 ESRI Data &amp; Maps collection.</abstract>
-<purpose>United States Census Urbanized Areas provides information about the locations, names, and urban codes of urbanized areas primarily for national planning applications.</purpose>
-<supplinf>Largest scale when displaying the data: 1:300,000.</supplinf>
-</descript>
-<timeperd>
+			<purpose>United States Census Urbanized Areas provides information about the locations, names, and urban codes of urbanized areas primarily for national planning applications.</purpose>
+			<supplinf>Largest scale when displaying the data: 1:300,000.</supplinf>
+		</descript>
+		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2008</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2008</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>publication date</current>
 		</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Annually</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -166.542186</westbc>
-<eastbc>
+					<eastbc>
 -67.251657</eastbc>
-<northbc>
+						<northbc>
 71.306820</northbc>
-<southbc>
+							<southbc>
 19.469934</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>None</themekt>
-<themekey>polygon</themekey>
-<themekey>urbanized areas</themekey>
-<themekey>cities</themekey>
-<themekey>census</themekey>
-<themekey>urban areas</themekey>
-</theme>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>boundaries</themekey>
-<themekey>society</themekey>
-<themekey>location</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>United States (6252001)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>United States</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2000</tempkey>
-<tempkey>2003</tempkey>
-</temporal>
-</keywords>
-<accconst>For current Columbia affiliates only.</accconst>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>polygon</themekey>
+								<themekey>urbanized areas</themekey>
+								<themekey>cities</themekey>
+								<themekey>census</themekey>
+								<themekey>urban areas</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>boundaries</themekey>
+								<themekey>society</themekey>
+								<themekey>location</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>United States (6252001)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>United States</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2000</tempkey>
+								<tempkey>2003</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
 
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>ESRI</cntorg>
-<cntper>Data Team</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>909-793-2853</cntvoice>
-<cntfax>909-793-5953</cntfax>
-<cntemail>info@esri.com</cntemail>
-<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>ESRI</cntorg>
+									<cntper>Data Team</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>380 New York Street</address>
+									<city>Redlands</city>
+									<state>California</state>
+									<postal>92373-8100</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>909-793-2853</cntvoice>
+								<cntfax>909-793-5953</cntfax>
+								<cntemail>info@esri.com</cntemail>
+								<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
 <cntinst>In the United States:
 Please direct all inquiries regarding software/data pricing and consulting services to your local ESRI Regional Office.  For support, you may contact ESRI Support Center by telephone (voice) between 6:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing 888-377-4575; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com/; ESRI holidays excluded. 
 
@@ -104,75 +108,75 @@ Outside the United States
 Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.  
 
 For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_urban.jpg</browsen>
-<browsed>Thumbnail</browsed>
-<browset>JPEG</browset>
-</browse>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.1.0.722</native>
-</idinfo>
-<dataqual>
-<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
-<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-<lineage>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Department of Commerce, Census Bureau, Geography Division</origin>
-<pubdate>20000101</pubdate>
-<title>2000 Urbanized Areas, 2008</title>
-<edition>2000</edition>
-<geoform>vector digital data</geoform>
-<serinfo>
-<sername>Urbanized Areas</sername>
-<issue>2000</issue>
-</serinfo>
-<pubinfo>
-<pubplace>online</pubplace>
-<publish>Department of Commerce, Census Bureau</publish>
-</pubinfo>
-<onlink>http://www.census.gov/geo/www/cob/ua2000.html</onlink>
-</citeinfo>
-</srccite>
-<typesrc>online</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>20000101</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>Census - Urban</srccitea>
-<srccontr>Attribute and geospatial data</srccontr>
-</srcinfo>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-<pubdate>2003</pubdate>
-<geoform>tabular digital data</geoform>
-<pubinfo>
-<pubplace>Redlands, California, USA</pubplace>
-<publish>ESRI</publish>
-</pubinfo>
-</citeinfo>
-</srccite>
-<typesrc>CD-ROM</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>2003</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>ESRI Community</srccitea>
-<srccontr>Attribute and geospatial data</srccontr>
-</srcinfo>
-<procstep>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_urban.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.1.0.722</native>
+					</idinfo>
+					<dataqual>
+						<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Department of Commerce, Census Bureau, Geography Division</origin>
+										<pubdate>20000101</pubdate>
+										<title>2000 Urbanized Areas, 2008</title>
+										<edition>2000</edition>
+										<geoform>vector digital data</geoform>
+										<serinfo>
+											<sername>Urbanized Areas</sername>
+											<issue>2000</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>online</pubplace>
+											<publish>Department of Commerce, Census Bureau</publish>
+										</pubinfo>
+										<onlink>http://www.census.gov/geo/www/cob/ua2000.html</onlink>
+									</citeinfo>
+								</srccite>
+								<typesrc>online</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>20000101</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>Census - Urban</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+										<pubdate>2003</pubdate>
+										<geoform>tabular digital data</geoform>
+										<pubinfo>
+											<pubplace>Redlands, California, USA</pubplace>
+											<publish>ESRI</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<typesrc>CD-ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>2003</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>ESRI Community</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<procstep>
 <procdesc>An urbanized area (UA) consists of densely settled territory that contains 50,000 or more people. A UA may contain both place and nonplace territory. The U.S. Census Bureau delineates UAs to provide a better separation of urban and rural territory, population, and housing in the vicinity of large places. At least 35,000 people in a UA must live in an area that is not part of a military reservation. 
 
 For Census 2000, UA delineations constitute a "zero-based" approach that requires no "grandfathering" of UA boundaries from the 1990 census. Because of the more stringent density requirements (and the less restrictive extended place criteria), some territory that was classified as urbanized for the 1990 census has been reclassified as rural. In addition, some areas that were identified as UAs for the 1990 census have been reclassified as urban clusters. 
@@ -180,217 +184,217 @@ For Census 2000, UA delineations constitute a "zero-based" approach that require
 The title of a UA may contain up to three incorporated place names, and will include the two-letter U.S. Postal Service abbreviation for each state into which the UA extends. However, if the UA does not contain an incorporated place, the UA title will include the single name of the geographic entity that occurs first from the following list: census designated place, minor civil division, or populated place recognized by the U.S. Geological Survey. 
 
 Each UA is assigned a five-digit census code in alphabetical sequence on a nationwide basis, interspersed with the codes for urban clusters (UCs), also in alphabetical sequence. For the 1990 census, the U.S. Census Bureau assigned a four-digit UA code based on the MA codes. For Census 2000, a separate flag is included in data tabulation files to differentiate between UAs and UCs. In printed reports, this differentiation is included in the name.</procdesc>
-<procdate>2002</procdate>
-<srcprod>Census - Urban</srcprod>
-</procstep>
-<procstep>
-<procdesc>The following steps were performed by ESRI: Downloaded ua99_doo.shp from the Census web site in October 2003. Deleted areas outside Alaska, Hawaii, and the contiguous United States--Puerto Rico, Guam, etc. Made shapes multi-part. Converted Hawaii to North American Datum of 1983 (NAD83). Clipped features to the 2004 U.S. States coastline. Added POP2000 attribute by aggregating ESRI block pop points. Removed state abbreviations from NAME attribute (i.e., Riverside, CA became just Riverside). Deleted records that were prisons. Added SQMI attribute and calculated its values. Converted the data set to SDC. Created the projection file (.prj) and spatial indices.</procdesc>
-<srcused>Census - Urban</srcused>
-<srcused>ESRI Community</srcused>
-<procdate>20040316</procdate>
-</procstep>
-<procstep>
-<procdesc>The following steps were performed by ESRI: Added attribute POP00_SQMI and calculated its values. Reduced attribute widths for UA_ID, NAME, LSAD, and LSAD_DESC.</procdesc>
-<procdate>20050320</procdate>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-<ptvctcnt>3580</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<geograph>
-<latres>0.000009</latres>
-<longres>0.000009</longres>
-<geogunit>Decimal degrees</geogunit>
-</geograph>
-<geodetic>
-<horizdn>D_WGS_1984</horizdn>
-<ellips>WGS_1984</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257224</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+								<procdate>2002</procdate>
+								<srcprod>Census - Urban</srcprod>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Downloaded ua99_doo.shp from the Census web site in October 2003. Deleted areas outside Alaska, Hawaii, and the contiguous United States--Puerto Rico, Guam, etc. Made shapes multi-part. Converted Hawaii to North American Datum of 1983 (NAD83). Clipped features to the 2004 U.S. States coastline. Added POP2000 attribute by aggregating ESRI block pop points. Removed state abbreviations from NAME attribute (i.e., Riverside, CA became just Riverside). Deleted records that were prisons. Added SQMI attribute and calculated its values. Converted the data set to SDC. Created the projection file (.prj) and spatial indices.</procdesc>
+								<srcused>Census - Urban</srcused>
+								<srcused>ESRI Community</srcused>
+								<procdate>20040316</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Added attribute POP00_SQMI and calculated its values. Reduced attribute widths for UA_ID, NAME, LSAD, and LSAD_DESC.</procdesc>
+								<procdate>20050320</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>G-polygon</sdtstype>
+								<ptvctcnt>3580</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000009</latres>
+								<longres>0.000009</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 urban</enttypl>
-<enttypd>An urbanized area (UA) consists of densely settled territory that contains 50,000 or more people. A UA may contain both place and nonplace territory. The U.S. Census Bureau delineates UAs to provide a better separation of urban and rural territory, population, and housing in the vicinity of large places. At least 35,000 people in a UA must live in an area that is not part of a military reservation.</enttypd>
-<enttypds>Department of Commerce, Census Bureau, Geography Division</enttypds>
-</enttyp>
-<attr>
-<attrlabl>ObjectID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>UA_ID</attrlabl>
-<attrdef>Unique identification number of the Urban Area feature.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Urbanized Area Five-Digit Census Codes</codesetn>
-<codesets>Department of Commerce, Census Bureau</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>NAME</attrlabl>
-<attrdef>Urban Area name of the feature.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Names for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LSAD</attrlabl>
-<attrdef>Legal/Statistical area code of the feature.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<edom>
-<edomv>75</edomv>
-<edomvd>Urbanized Area.</edomvd>
-<edomvds>Department of Commerce, Census Bureau</edomvds>
-</edom>
-<edom>
-<edomv>76</edomv>
-<edomvd>Urban Cluster.</edomvd>
-<edomvds>Department of Commerce, Census Bureau</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LSAD_DESC</attrlabl>
-<attrdef>Legal/Statistical area description of the feature.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<edom>
-<edomv>Urbanized Area, Urban Cluster.</edomv>
-<edomvd>Legal/Statistical area descriptions of the feature.</edomvd>
-<edomvds>Department of Commerce, Census Bureau</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>POP2000</attrlabl>
-<attrdef>The 2000 population of the feature.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Populations for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>POP00_SQMI</attrlabl>
-<attrdef>The 2000 population per square mile of the feature.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Calculated populations per square mile for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>HOUSEHOLDS</attrlabl>
-<attrdef>Number of households for the feature in 2000.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Numbers for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>HSE_UNITS</attrlabl>
-<attrdef>Number of housing units for the feature in 2000.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Numbers for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>SQMI</attrlabl>
-<attrdef>The area in square miles for the feature.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Calculated areas for the features.</udom>
-</attrdomv>
-</attr>
-</detailed>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>ESRI; ESRI International Distributors</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>800-447-9778</cntvoice>
+									<enttypd>An urbanized area (UA) consists of densely settled territory that contains 50,000 or more people. A UA may contain both place and nonplace territory. The U.S. Census Bureau delineates UAs to provide a better separation of urban and rural territory, population, and housing in the vicinity of large places. At least 35,000 people in a UA must live in an area that is not part of a military reservation.</enttypd>
+									<enttypds>Department of Commerce, Census Bureau, Geography Division</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>ObjectID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>UA_ID</attrlabl>
+									<attrdef>Unique identification number of the Urban Area feature.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Urbanized Area Five-Digit Census Codes</codesetn>
+											<codesets>Department of Commerce, Census Bureau</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME</attrlabl>
+									<attrdef>Urban Area name of the feature.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Names for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LSAD</attrlabl>
+									<attrdef>Legal/Statistical area code of the feature.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>75</edomv>
+											<edomvd>Urbanized Area.</edomvd>
+											<edomvds>Department of Commerce, Census Bureau</edomvds>
+										</edom>
+										<edom>
+											<edomv>76</edomv>
+											<edomvd>Urban Cluster.</edomvd>
+											<edomvds>Department of Commerce, Census Bureau</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LSAD_DESC</attrlabl>
+									<attrdef>Legal/Statistical area description of the feature.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>Urbanized Area, Urban Cluster.</edomv>
+											<edomvd>Legal/Statistical area descriptions of the feature.</edomvd>
+											<edomvds>Department of Commerce, Census Bureau</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>POP2000</attrlabl>
+									<attrdef>The 2000 population of the feature.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Populations for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>POP00_SQMI</attrlabl>
+									<attrdef>The 2000 population per square mile of the feature.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Calculated populations per square mile for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>HOUSEHOLDS</attrlabl>
+									<attrdef>Number of households for the feature in 2000.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Numbers for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>HSE_UNITS</attrlabl>
+									<attrdef>Number of housing units for the feature in 2000.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Numbers for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>SQMI</attrlabl>
+									<attrdef>The area in square miles for the feature.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Calculated areas for the features.</udom>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>ESRI; ESRI International Distributors</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>380 New York Street</address>
+										<city>Redlands</city>
+										<state>California</state>
+										<postal>92373-8100</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>800-447-9778</cntvoice>
 <cntinst>In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data.
 
 Outside the United States, please direct all inquiries to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.</cntinst>
-</cntinfo>
-</distrib>
-<resdesc>esri_2008_usa_urban</resdesc>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>SDC</formname>
-<formspec>zip</formspec>
-<transize>2.370</transize>
-</digtinfo>
-<digtopt>
-</digtopt>
-</digform>
-<fees>Software purchase price</fees>
-<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
-</stdorder>
-<techpreq>To use this data requires software that supports SDC files.</techpreq>
-</distinfo>
-<metainfo>
-<metd>20090715</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+								</cntinfo>
+							</distrib>
+							<resdesc>esri_2008_usa_urban</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>SDC</formname>
+										<formspec>zip</formspec>
+										<transize>2.370</transize>
+									</digtinfo>
+									<digtopt>
+									</digtopt>
+								</digform>
+								<fees>Software purchase price</fees>
+								<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
+							</stdorder>
+							<techpreq>To use this data requires software that supports SDC files.</techpreq>
+						</distinfo>
+						<metainfo>
+							<metd>20090715</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

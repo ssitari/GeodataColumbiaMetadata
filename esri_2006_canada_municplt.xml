@@ -28,7 +28,10 @@
 		</descript>
 		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2006</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2006</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>publication date</current>
 		</timeperd>
 		<status>
@@ -39,67 +42,67 @@
 			<bounding>
 				<westbc>
 -141.001870</westbc>
-				<eastbc>
+					<eastbc>
 -52.619173</eastbc>
-				<northbc>
+						<northbc>
 83.115063</northbc>
-				<southbc>
+							<southbc>
 41.687973</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>polygon</themekey>
-				<themekey>municipalities</themekey>
-				<themekey>cities</themekey>
-				<themekey>cantons</themekey>
-				<themekey>hamlets</themekey>
-				<themekey>towns/ville</themekey>
-				<themekey>parishes/paroisse</themekey>
-				<themekey>communities</themekey>
-				<themekey>districts</themekey>
-				<themekey>terre Inuite</themekey>
-			</theme>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>boundaries</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Canada (6251999)</placekey>
-			</place>
-			<place>
-				<placekt>None</placekt>
-				<placekey>Canada</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2004</tempkey>
-				<tempkey>2001</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>polygon</themekey>
+								<themekey>municipalities</themekey>
+								<themekey>cities</themekey>
+								<themekey>cantons</themekey>
+								<themekey>hamlets</themekey>
+								<themekey>towns/ville</themekey>
+								<themekey>parishes/paroisse</themekey>
+								<themekey>communities</themekey>
+								<themekey>districts</themekey>
+								<themekey>terre Inuite</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>boundaries</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Canada (6251999)</placekey>
+							</place>
+							<place>
+								<placekt>None</placekt>
+								<placekey>Canada</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2004</tempkey>
+								<tempkey>2001</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
 
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI</cntorg>
-					<cntper>Data Team</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>909-793-2853</cntvoice>
-				<cntfax>909-793-5953</cntfax>
-				<cntemail>info@esri.com</cntemail>
-				<hours>7:00 a.m.5:30 p.m. Pacific time, MondayFriday</hours>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>ESRI</cntorg>
+									<cntper>Data Team</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>380 New York Street</address>
+									<city>Redlands</city>
+									<state>California</state>
+									<postal>92373-8100</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>909-793-2853</cntvoice>
+								<cntfax>909-793-5953</cntfax>
+								<cntemail>info@esri.com</cntemail>
+								<hours>7:00 a.m.5:30 p.m. Pacific time, MondayFriday</hours>
 				<cntinst>In the United States
 Please direct all inquiries regarding software/data pricing and consulting services to your local ESRI Regional Office.  For support, you may contact Technical Support by telephone (voice) between 6:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing 888-377-4575; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com; ESRI holidays excluded.
 
@@ -107,539 +110,539 @@ Outside the United States
 Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contactint.cfm.
 
 For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-			</cntinfo>
-		</ptcontac>
+							</cntinfo>
+						</ptcontac>
 
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.1.0.706</native>
-	</idinfo>
-	<dataqual>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-		<posacc>
-			<horizpa>
-				<horizpar>The positional accuracy ranges from sub-meter (GPS derived) to 5 meters (1:50,000 National Topographic Data Base (NTDB) areas) or greater, in the case of Northern areas in Canada not covered by NTDB, namely, most of Nunavut, much of Northwest Territories and northern parts of British Columbia, Alberta, Manitoba, Ontario and Quebec.</horizpar>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>DMTI Spatial Inc.</origin>
-						<pubdate>200411</pubdate>
-						<title>DMTI Spatial? Canadian Data Bundle</title>
-						<edition>2004</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>DMTI Spatial Canadian Data Bundle</sername>
-							<issue>2004</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Markham, Ontario, Canada</pubplace>
-							<publish>DMTI Spatial Inc.</publish>
-						</pubinfo>
-						<othercit>From CanMap.</othercit>
-						<onlink>http://www.dmtispatial.com/</onlink>
-					</citeinfo>
-				</srccite>
-				<srcscale>2000?50000</srcscale>
-				<typesrc>CD?ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>200411</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>2001</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>DMTI Spatial Inc.</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.1.0.706</native>
+					</idinfo>
+					<dataqual>
+						<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+						<posacc>
+							<horizpa>
+								<horizpar>The positional accuracy ranges from sub-meter (GPS derived) to 5 meters (1:50,000 National Topographic Data Base (NTDB) areas) or greater, in the case of Northern areas in Canada not covered by NTDB, namely, most of Nunavut, much of Northwest Territories and northern parts of British Columbia, Alberta, Manitoba, Ontario and Quebec.</horizpar>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>DMTI Spatial Inc.</origin>
+										<pubdate>200411</pubdate>
+										<title>DMTI Spatial? Canadian Data Bundle</title>
+										<edition>2004</edition>
+										<geoform>vector digital data</geoform>
+										<serinfo>
+											<sername>DMTI Spatial Canadian Data Bundle</sername>
+											<issue>2004</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Markham, Ontario, Canada</pubplace>
+											<publish>DMTI Spatial Inc.</publish>
+										</pubinfo>
+										<othercit>From CanMap.</othercit>
+										<onlink>http://www.dmtispatial.com/</onlink>
+									</citeinfo>
+								</srccite>
+								<srcscale>2000?50000</srcscale>
+								<typesrc>CD?ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<mdattim>
+											<sngdate>
+												<caldate>200411</caldate>
+											</sngdate>
+											<sngdate>
+												<caldate>2001</caldate>
+											</sngdate>
+										</mdattim>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>DMTI Spatial Inc.</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<procstep>
 				<procdesc>The data set is a fully georeferenced, purely digital product. The boundaries are digitized from CanMap. The Municipalities layer is comprised of political administrative entities such as cities, towns, or villages. The DMTI Spatial Municipalities layer corresponds to the Statistics Canada 2001 Census Subdivisions (CSD). Source data ranges from municipal mapping at a very large scale of 1:2,000 or larger, to a medium scale of 1:50,000 scale from NTDB*.  Source time period of content ranges from a few to several years (as in the case of NTDB*).
 
 *NTDB is the National Topographic Data Base, developed and maintained by Natural Resources Canada.</procdesc>
-				<srcprod>DMTI Spatial Inc.</srcprod>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Extracted data set from DMTI Spatial Canadian Data Bundle. Clipped the features to the coastline. Adjusted the width of attribute NAME. Renamed attribute AREA_SQKM to SHORE_AREA. Added attribute SQKM and calculated its values. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-				<srcused>DMTI Spatial Inc.</srcused>
-				<procdate>20050302</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>G-polygon</sdtstype>
-				<ptvctcnt>5600</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.000000</latres>
-				<longres>0.000000</longres>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>North American Datum of 1983</horizdn>
-				<ellips>Geodetic Reference System 80</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257222</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+								<srcprod>DMTI Spatial Inc.</srcprod>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Extracted data set from DMTI Spatial Canadian Data Bundle. Clipped the features to the coastline. Adjusted the width of attribute NAME. Renamed attribute AREA_SQKM to SHORE_AREA. Added attribute SQKM and calculated its values. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+								<srcused>DMTI Spatial Inc.</srcused>
+								<procdate>20050302</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>G-polygon</sdtstype>
+								<ptvctcnt>5600</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000000</latres>
+								<longres>0.000000</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 municplt</enttypl>
-				<enttypd>The polygons represent the municipal political units for Canada.</enttypd>
-				<enttypds>DMTI Spatial Inc.</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>ObjectID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>PROV</attrlabl>
-				<attrdef>The two-letter abbreviation for the province or territory in which the municipality is located.</attrdef>
-				<attrdefs>DMTI Spatial Inc.</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>AB</edomv>
-						<edomvd>Alberta</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-					<edom>
-						<edomv>BC</edomv>
-						<edomvd>British Columbia</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-					<edom>
-						<edomv>MB</edomv>
-						<edomvd>Manitoba</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-					<edom>
-						<edomv>NB</edomv>
-						<edomvd>New Brunswick</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-					<edom>
-						<edomv>NL</edomv>
-						<edomvd>Newfoundland and Labrador</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-					<edom>
-						<edomv>NS</edomv>
-						<edomvd>Nova Scotia</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-					<edom>
-						<edomv>NT</edomv>
-						<edomvd>Northwest Territories</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-					<edom>
-						<edomv>NU</edomv>
-						<edomvd>Nunavut</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-					<edom>
-						<edomv>ON</edomv>
-						<edomvd>Ontario</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-					<edom>
-						<edomv>PE</edomv>
-						<edomvd>Prince Edward Island</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-					<edom>
-						<edomv>QC</edomv>
-						<edomvd>Quebec</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-					<edom>
-						<edomv>SK</edomv>
-						<edomvd>Saskatchewan</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-					<edom>
-						<edomv>YT</edomv>
-						<edomvd>Yukon Territory</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME</attrlabl>
-				<attrdef>The municipality name.</attrdef>
-				<attrdefs>DMTI Spatial Inc.</attrdefs>
-				<attrdomv>
-					<udom>Names for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>TYPE</attrlabl>
-				<attrdef>The type of municipality. Type is used to help distinguish municipalities having the same name from one another.</attrdef>
-				<attrdefs>DMTI Spatial Inc.</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>C</edomv>
-						<edomvd>City  Cit.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>CC</edomv>
-						<edomvd>Chartered Community.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>CM</edomv>
-						<edomvd>County (Municipality).</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>COM</edomv>
-						<edomvd>Community.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>CT</edomv>
-						<edomvd>Canton (Municipalit de).</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>CU</edomv>
-						<edomvd>Cantons Unis (Municipalit de).</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>DM</edomv>
-						<edomvd>District Municipality.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>HAM</edomv>
-						<edomvd>Hamlet.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>ID</edomv>
-						<edomvd>Improvement District.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>IGD</edomv>
-						<edomvd>Indian Government District.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>IM</edomv>
-						<edomvd>Island Municipality.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>LGD</edomv>
-						<edomvd>Local Government District.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>LOT</edomv>
-						<edomvd>Township and Royalty.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>M</edomv>
-						<edomvd>Municipalit.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>MD</edomv>
-						<edomvd>Municipal District.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>NH</edomv>
-						<edomvd>Northern Hamlet.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>NL</edomv>
-						<edomvd>Nisgaa Land.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>NV</edomv>
-						<edomvd>Northern Village.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>NVL</edomv>
-						<edomvd>Nisgaa Village.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>P</edomv>
-						<edomvd>Paroisse (Municipalit de).</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>PAR</edomv>
-						<edomvd>Parish.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>R</edomv>
-						<edomvd>Indian Reserve  Rserve indienne.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>RC</edomv>
-						<edomvd>Rural Community.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>RDA</edomv>
-						<edomvd>Regional District Electoral Area.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>RG</edomv>
-						<edomvd>Region.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>RGM</edomv>
-						<edomvd>Regional Municipality.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>RM</edomv>
-						<edomvd>Rural Municipality.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>RV</edomv>
-						<edomvd>Resort Village.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>S-E</edomv>
-						<edomvd>Indian Settlement  tablissement indien.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>SA</edomv>
-						<edomvd>Special Area.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>SCM</edomv>
-						<edomvd>Subdivision of County Municipality.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>SET</edomv>
-						<edomvd>Settlement.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>SM</edomv>
-						<edomvd>Specialized Municipality.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>SUN</edomv>
-						<edomvd>Subdivision of Unorganized.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>SV</edomv>
-						<edomvd>Summer Village.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>T</edomv>
-						<edomvd>Town.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>TI</edomv>
-						<edomvd>Terre Inuite.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>TL</edomv>
-						<edomvd>Teslin Land.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>TP</edomv>
-						<edomvd>Township.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>TR</edomv>
-						<edomvd>Terres Rserves.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>UNO</edomv>
-						<edomvd>Unorganized  Non organis.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>V</edomv>
-						<edomvd>Ville.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>VC</edomv>
-						<edomvd>Village Cri.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>VK</edomv>
-						<edomvd>Village Naskapi.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>VL</edomv>
-						<edomvd>Village.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>VN</edomv>
-						<edomvd>Village Nordique.</edomvd>
-						<edomvds>DMTI Spatial Inc.</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>POP2001</attrlabl>
-				<attrdef>The 2001 population of the municipality.</attrdef>
-				<attrdefs>DMTI Spatial Inc.</attrdefs>
-				<attrdomv>
-					<udom>Numbers for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>DWELL2001</attrlabl>
-				<attrdef>The 2001 dwelling counts of the municipality.</attrdef>
-				<attrdefs>DMTI Spatial Inc.</attrdefs>
-				<attrdomv>
-					<udom>Numbers for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>SHORE_AREA</attrlabl>
-				<attrdef>The land area of the municipality in square kilometers (not including any part of the municipality covered by water) using a Robinson projection.</attrdef>
-				<attrdefs>DMTI Spatial Inc.</attrdefs>
-				<attrdomv>
-					<udom>Numbers for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>SQKM</attrlabl>
-				<attrdef>The measure of area in square kilometers using Albers Equal Area projection.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Calculated area for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI; ESRI International Distributors</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>800-447-9778</cntvoice>
+									<enttypd>The polygons represent the municipal political units for Canada.</enttypd>
+									<enttypds>DMTI Spatial Inc.</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>ObjectID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>PROV</attrlabl>
+									<attrdef>The two-letter abbreviation for the province or territory in which the municipality is located.</attrdef>
+									<attrdefs>DMTI Spatial Inc.</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>AB</edomv>
+											<edomvd>Alberta</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+										<edom>
+											<edomv>BC</edomv>
+											<edomvd>British Columbia</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+										<edom>
+											<edomv>MB</edomv>
+											<edomvd>Manitoba</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+										<edom>
+											<edomv>NB</edomv>
+											<edomvd>New Brunswick</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+										<edom>
+											<edomv>NL</edomv>
+											<edomvd>Newfoundland and Labrador</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+										<edom>
+											<edomv>NS</edomv>
+											<edomvd>Nova Scotia</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+										<edom>
+											<edomv>NT</edomv>
+											<edomvd>Northwest Territories</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+										<edom>
+											<edomv>NU</edomv>
+											<edomvd>Nunavut</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+										<edom>
+											<edomv>ON</edomv>
+											<edomvd>Ontario</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+										<edom>
+											<edomv>PE</edomv>
+											<edomvd>Prince Edward Island</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+										<edom>
+											<edomv>QC</edomv>
+											<edomvd>Quebec</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+										<edom>
+											<edomv>SK</edomv>
+											<edomvd>Saskatchewan</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+										<edom>
+											<edomv>YT</edomv>
+											<edomvd>Yukon Territory</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME</attrlabl>
+									<attrdef>The municipality name.</attrdef>
+									<attrdefs>DMTI Spatial Inc.</attrdefs>
+									<attrdomv>
+										<udom>Names for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>TYPE</attrlabl>
+									<attrdef>The type of municipality. Type is used to help distinguish municipalities having the same name from one another.</attrdef>
+									<attrdefs>DMTI Spatial Inc.</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>C</edomv>
+											<edomvd>City  Cit.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>CC</edomv>
+											<edomvd>Chartered Community.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>CM</edomv>
+											<edomvd>County (Municipality).</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>COM</edomv>
+											<edomvd>Community.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>CT</edomv>
+											<edomvd>Canton (Municipalit de).</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>CU</edomv>
+											<edomvd>Cantons Unis (Municipalit de).</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>DM</edomv>
+											<edomvd>District Municipality.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>HAM</edomv>
+											<edomvd>Hamlet.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>ID</edomv>
+											<edomvd>Improvement District.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>IGD</edomv>
+											<edomvd>Indian Government District.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>IM</edomv>
+											<edomvd>Island Municipality.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>LGD</edomv>
+											<edomvd>Local Government District.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>LOT</edomv>
+											<edomvd>Township and Royalty.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>M</edomv>
+											<edomvd>Municipalit.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>MD</edomv>
+											<edomvd>Municipal District.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>NH</edomv>
+											<edomvd>Northern Hamlet.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>NL</edomv>
+											<edomvd>Nisgaa Land.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>NV</edomv>
+											<edomvd>Northern Village.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>NVL</edomv>
+											<edomvd>Nisgaa Village.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>P</edomv>
+											<edomvd>Paroisse (Municipalit de).</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>PAR</edomv>
+											<edomvd>Parish.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>R</edomv>
+											<edomvd>Indian Reserve  Rserve indienne.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>RC</edomv>
+											<edomvd>Rural Community.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>RDA</edomv>
+											<edomvd>Regional District Electoral Area.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>RG</edomv>
+											<edomvd>Region.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>RGM</edomv>
+											<edomvd>Regional Municipality.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>RM</edomv>
+											<edomvd>Rural Municipality.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>RV</edomv>
+											<edomvd>Resort Village.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>S-E</edomv>
+											<edomvd>Indian Settlement  tablissement indien.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>SA</edomv>
+											<edomvd>Special Area.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>SCM</edomv>
+											<edomvd>Subdivision of County Municipality.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>SET</edomv>
+											<edomvd>Settlement.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>SM</edomv>
+											<edomvd>Specialized Municipality.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>SUN</edomv>
+											<edomvd>Subdivision of Unorganized.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>SV</edomv>
+											<edomvd>Summer Village.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>T</edomv>
+											<edomvd>Town.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>TI</edomv>
+											<edomvd>Terre Inuite.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>TL</edomv>
+											<edomvd>Teslin Land.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>TP</edomv>
+											<edomvd>Township.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>TR</edomv>
+											<edomvd>Terres Rserves.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>UNO</edomv>
+											<edomvd>Unorganized  Non organis.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>V</edomv>
+											<edomvd>Ville.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>VC</edomv>
+											<edomvd>Village Cri.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>VK</edomv>
+											<edomvd>Village Naskapi.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>VL</edomv>
+											<edomvd>Village.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>VN</edomv>
+											<edomvd>Village Nordique.</edomvd>
+											<edomvds>DMTI Spatial Inc.</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>POP2001</attrlabl>
+									<attrdef>The 2001 population of the municipality.</attrdef>
+									<attrdefs>DMTI Spatial Inc.</attrdefs>
+									<attrdomv>
+										<udom>Numbers for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>DWELL2001</attrlabl>
+									<attrdef>The 2001 dwelling counts of the municipality.</attrdef>
+									<attrdefs>DMTI Spatial Inc.</attrdefs>
+									<attrdomv>
+										<udom>Numbers for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>SHORE_AREA</attrlabl>
+									<attrdef>The land area of the municipality in square kilometers (not including any part of the municipality covered by water) using a Robinson projection.</attrdef>
+									<attrdefs>DMTI Spatial Inc.</attrdefs>
+									<attrdomv>
+										<udom>Numbers for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>SQKM</attrlabl>
+									<attrdef>The measure of area in square kilometers using Albers Equal Area projection.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Calculated area for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>ESRI; ESRI International Distributors</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>380 New York Street</address>
+										<city>Redlands</city>
+										<state>California</state>
+										<postal>92373-8100</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>800-447-9778</cntvoice>
 				<cntinst>In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data.
 
 Outside the United States, please direct all inquiries to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contactint.cfm.</cntinst>
-			</cntinfo>
-		</distrib>
-		<resdesc>esri_2006_canada_municplt</resdesc>
-		<distliab>See use constraints.</distliab>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>SDC</formname>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
-					<filedec>ArcGIS software</filedec>
-					<transize>4.735</transize>
-				</digtinfo>
-				<digtopt>
-					<offoptn>
-						<offmedia>DVD?ROM</offmedia>
-						<reccap>
-							<recden>4.38</recden>
-							<recdenu>GB (gigabytes)</recdenu>
-						</reccap>
-						<recfmt>UDF (Universal Disc Format)</recfmt>
-					</offoptn>
-				</digtopt>
-			</digform>
-			<fees>Software purchase price</fees>
-			<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
-		</stdorder>
-		<techpreq>To use this data requires software that supports SDC files.</techpreq>
-	</distinfo>
-	<metainfo>
-		<metd>20070405</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-				<hours>7:00 a.m.5:30 p.m. Pacific time, MondayFriday</hours>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+								</cntinfo>
+							</distrib>
+							<resdesc>esri_2006_canada_municplt</resdesc>
+							<distliab>See use constraints.</distliab>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>SDC</formname>
+										<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+										<filedec>ArcGIS software</filedec>
+										<transize>4.735</transize>
+									</digtinfo>
+									<digtopt>
+										<offoptn>
+											<offmedia>DVD?ROM</offmedia>
+											<reccap>
+												<recden>4.38</recden>
+												<recdenu>GB (gigabytes)</recdenu>
+											</reccap>
+											<recfmt>UDF (Universal Disc Format)</recfmt>
+										</offoptn>
+									</digtopt>
+								</digform>
+								<fees>Software purchase price</fees>
+								<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
+							</stdorder>
+							<techpreq>To use this data requires software that supports SDC files.</techpreq>
+						</distinfo>
+						<metainfo>
+							<metd>20070405</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+									<hours>7:00 a.m.5:30 p.m. Pacific time, MondayFriday</hours>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

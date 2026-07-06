@@ -1,808 +1,808 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Uruguay (3439705)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Oriental Republic of Uruguay</placekey>
-<placekey>Uruguay</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2011</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-58.439349</westbc>
-<eastbc>-53.181051</eastbc>
-<northbc>-30.085502</northbc>
-<southbc>-34.974054</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Uruguay (3439705)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Oriental Republic of Uruguay</placekey>
+				<placekey>Uruguay</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2011</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-58.439349</westbc>
+				<eastbc>-53.181051</eastbc>
+				<northbc>-30.085502</northbc>
+				<southbc>-34.974054</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Uruguay Social Census Data, 2011 is a polygon theme representing Census Tracts (3rd level administrative units) in Uruguay as of 2011.  Attribute data include social variables from the 2011 Uruguayan census.
 Official population and housing data for Uruguay from the 2011 census. This census is provided at the census tract administrative level (ADM3) and includes 4,313 polygons with 730 attribute variables. Attribute descriptions retain Source-language names and unique identifier codes. All variable names were translated from Source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo: Hombre" was updated to D001 and given the alias "Sex: Man[Sexo: Hombre]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
 
 
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Uruguay Social Census Data, 2011</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Uruguay Social Census Data, 2011</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_uruguay_social_2011.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2011</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2011</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Uruguay_2011</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S001</attrlabl>
-    <attrdef>Self-Identification: Afroamerican Or Black[Autoidentificación: Afro O Negra]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S002</attrlabl>
-    <attrdef>Self-Identification: Asian[Autoidentificación: Asiática O Amarilla]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S003</attrlabl>
-    <attrdef>Self-Identification: White[Autoidentificación: Blanca]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S004</attrlabl>
-    <attrdef>Self-Identification: Indigenous[Autoidentificación: Indígena]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S005</attrlabl>
-    <attrdef>Self-Identification: Other[Autoidentificación: Otra]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S006</attrlabl>
-    <attrdef>Self-Identification: No (There Is No Principal)[Autoidentificación: Ninguna (No Hay Una Principal)]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S007</attrlabl>
-    <attrdef>Self-Identification: Not Relieved[Autoidentificación: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S008</attrlabl>
-    <attrdef>Self-Identification: Ignored[Autoidentificación: Ignorado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S009</attrlabl>
-    <attrdef>Permanent Difficulty To See (Even With Glasses): Does Not Have[Dificultad Permanente Para Ver (Aun Con Anteojos): No Tiene]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S010</attrlabl>
-    <attrdef>Permanent Difficulty To See (Even With Glasses): Yes, Some[Dificultad Permanente Para Ver (Aun Con Anteojos): Si, Alguna]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S011</attrlabl>
-    <attrdef>Permanent Difficulty To See (Even With Glasses): Yes, Many[Dificultad Permanente Para Ver (Aun Con Anteojos): Si, Mucha]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S012</attrlabl>
-    <attrdef>Permanent Difficulty To See (Even With Glasses): Yes, You Can Not Do It[Dificultad Permanente Para Ver (Aun Con Anteojos): Si, No Puede Hacerlo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S013</attrlabl>
-    <attrdef>Permanent Difficulty To See (Even With Glasses): Not Relieved[Dificultad Permanente Para Ver (Aun Con Anteojos): No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S014</attrlabl>
-    <attrdef>Permanent Difficulty To See (Even With Glasses): Ignored[Dificultad Permanente Para Ver (Aun Con Anteojos): Ignorado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S015</attrlabl>
-    <attrdef>Permanent Difficulty To Hear (Hearing Aid Aun): Does Not Have[Dificultad Permanente Para Oir (Aun Con Audifonos): No Tiene]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S016</attrlabl>
-    <attrdef>Permanent Difficulty To Hear (Hearing Aid Aun): Yes, Some[Dificultad Permanente Para Oir (Aun Con Audifonos): Si, Alguna]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S017</attrlabl>
-    <attrdef>Permanent Difficulty To Hear (Hearing Aid Aun): Yes, Many[Dificultad Permanente Para Oir (Aun Con Audifonos): Si, Mucha]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S018</attrlabl>
-    <attrdef>Permanent Difficulty To Hear (Hearing Aid Aun): Yes, You Can Not Do It[Dificultad Permanente Para Oir (Aun Con Audifonos): Si, No Puede Hacerlo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S019</attrlabl>
-    <attrdef>Permanent Difficulty To Hear (Hearing Aid Aun): Not Relieved[Dificultad Permanente Para Oir (Aun Con Audifonos): No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S020</attrlabl>
-    <attrdef>Permanent Difficulty To Hear (Hearing Aid Aun): Ignored[Dificultad Permanente Para Oir (Aun Con Audifonos): Ignorado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S021</attrlabl>
-    <attrdef>Permanent Difficulty Walking Or Climbing Stairs : Does Not Have[Dificultad Permanente Para Caminar O Subir Escalones: No Tiene]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S022</attrlabl>
-    <attrdef>Permanent Difficulty Walking Or Climbing Stairs : Yes, Some[Dificultad Permanente Para Caminar O Subir Escalones: Si, Alguna]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S023</attrlabl>
-    <attrdef>Permanent Difficulty Walking Or Climbing Stairs : Yes, Many[Dificultad Permanente Para Caminar O Subir Escalones: Si, Mucha]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S024</attrlabl>
-    <attrdef>Permanent Difficulty Walking Or Climbing Stairs : Yes, You Can Not Do It[Dificultad Permanente Para Caminar O Subir Escalones: Si, No Puede Hacerlo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S025</attrlabl>
-    <attrdef>Permanent Difficulty Walking Or Climbing Stairs : Not Relieved[Dificultad Permanente Para Caminar O Subir Escalones: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S026</attrlabl>
-    <attrdef>Permanent Difficulty Walking Or Climbing Stairs : Ignored[Dificultad Permanente Para Caminar O Subir Escalones: Ignorado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S027</attrlabl>
-    <attrdef>Permanent Difficulty Understanding And / Or Learn: Does Not Have[Dificultad Permanente Para Entender Y/O Aprender: No Tiene]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S028</attrlabl>
-    <attrdef>Permanent Difficulty Understanding And / Or Learn: Yes, Some[Dificultad Permanente Para Entender Y/O Aprender: Si, Alguna]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S029</attrlabl>
-    <attrdef>Permanent Difficulty Understanding And / Or Learn: Yes, Many[Dificultad Permanente Para Entender Y/O Aprender: Si, Mucha]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S030</attrlabl>
-    <attrdef>Permanent Difficulty Understanding And / Or Learn: Yes, You Can Not Do It[Dificultad Permanente Para Entender Y/O Aprender: Si, No Puede Hacerlo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S031</attrlabl>
-    <attrdef>Permanent Difficulty Understanding And / Or Learn: Not Relieved[Dificultad Permanente Para Entender Y/O Aprender: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S032</attrlabl>
-    <attrdef>Permanent Difficulty Understanding And / Or Learn: Ignored[Dificultad Permanente Para Entender Y/O Aprender: Ignorado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S033</attrlabl>
-    <attrdef>NBI Education: No NBI[NBI Educación: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S034</attrlabl>
-    <attrdef>NBI Education: NBI[NBI Educación: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S035</attrlabl>
-    <attrdef>NBI Education: Not Relieved[NBI Educación: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S036</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 0[Total De Años De Estudio Aprobados: 0]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S037</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 1[Total De Años De Estudio Aprobados: 1]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S038</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 2[Total De Años De Estudio Aprobados: 2]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S039</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 3[Total De Años De Estudio Aprobados: 3]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S040</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 4[Total De Años De Estudio Aprobados: 4]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S041</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 5[Total De Años De Estudio Aprobados: 5]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S042</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 6[Total De Años De Estudio Aprobados: 6]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S043</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 7[Total De Años De Estudio Aprobados: 7]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S044</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 8[Total De Años De Estudio Aprobados: 8]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S045</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 9[Total De Años De Estudio Aprobados: 9]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S046</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 10[Total De Años De Estudio Aprobados: 10]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S047</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 11[Total De Años De Estudio Aprobados: 11]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S048</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 12[Total De Años De Estudio Aprobados: 12]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S049</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 13[Total De Años De Estudio Aprobados: 13]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S050</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 14[Total De Años De Estudio Aprobados: 14]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S051</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 15[Total De Años De Estudio Aprobados: 15]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S052</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 16[Total De Años De Estudio Aprobados: 16]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S053</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 17[Total De Años De Estudio Aprobados: 17]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S054</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 18[Total De Años De Estudio Aprobados: 18]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S055</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 19[Total De Años De Estudio Aprobados: 19]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S056</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 20[Total De Años De Estudio Aprobados: 20]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S057</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 21[Total De Años De Estudio Aprobados: 21]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S058</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 22[Total De Años De Estudio Aprobados: 22]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S059</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 23[Total De Años De Estudio Aprobados: 23]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S060</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 24[Total De Años De Estudio Aprobados: 24]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S061</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 25[Total De Años De Estudio Aprobados: 25]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S062</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 26[Total De Años De Estudio Aprobados: 26]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S063</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 27[Total De Años De Estudio Aprobados: 27]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S064</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: 28[Total De Años De Estudio Aprobados: 28]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S065</attrlabl>
-    <attrdef>Total Years Of Schooling Approved: Not Relieved[Total De Años De Estudio Aprobados: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S066</attrlabl>
-    <attrdef>Maximum Level Of Education: Preschool[Máximo Nivel Educativo Alcanzado: Preescolar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S067</attrlabl>
-    <attrdef>Maximum Level Of Education: Common Primary[Máximo Nivel Educativo Alcanzado: Primaria Común]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S068</attrlabl>
-    <attrdef>Maximum Level Of Education: Special Primary[Máximo Nivel Educativo Alcanzado: Primaria Especial]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S069</attrlabl>
-    <attrdef>Maximum Level Of Education: Basic Cycle[Máximo Nivel Educativo Alcanzado: Ciclo Básico]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S070</attrlabl>
-    <attrdef>Maximum Level Of Education: Baccalaureate[Máximo Nivel Educativo Alcanzado: Bachillerato]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S071</attrlabl>
-    <attrdef>Maximum Level Of Education: Technical Education / Vocational Utu[Máximo Nivel Educativo Alcanzado: Enseñanza Tecnica/Formación Profesional Utu]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S072</attrlabl>
-    <attrdef>Maximum Level Of Education: Teaching And Teacher[Máximo Nivel Educativo Alcanzado: Magisterio O Profesorado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S073</attrlabl>
-    <attrdef>Maximum Level Of Education: Non-University Tertiary[Máximo Nivel Educativo Alcanzado: Terciario No Universitario]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S074</attrlabl>
-    <attrdef>Maximum Level Of Education: University Or Similar[Máximo Nivel Educativo Alcanzado: Universidad O Similar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S075</attrlabl>
-    <attrdef>Maximum Level Of Education: Graduate (Diploma / Master / Phd)[Máximo Nivel Educativo Alcanzado: Posgrado (Diploma/Maestría/Doctorado)]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S076</attrlabl>
-    <attrdef>Maximum Level Of Education: Tertiary Unspecified[Máximo Nivel Educativo Alcanzado: Terciario Sin Especificar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S077</attrlabl>
-    <attrdef>Maximum Level Of Education: Never Attended [Máximo Nivel Educativo Alcanzado: Nunca Asistió]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S078</attrlabl>
-    <attrdef>Maximum Level Of Education: Ignored[Máximo Nivel Educativo Alcanzado: Ignorado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S079</attrlabl>
-    <attrdef>Maximum Level Of Education: Not Relieved[Máximo Nivel Educativo Alcanzado: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country Country</attrlabl>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Uruguay_2011</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S001</attrlabl>
+			<attrdef>Self-Identification: Afroamerican Or Black[Autoidentificación: Afro O Negra]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S002</attrlabl>
+			<attrdef>Self-Identification: Asian[Autoidentificación: Asiática O Amarilla]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S003</attrlabl>
+			<attrdef>Self-Identification: White[Autoidentificación: Blanca]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S004</attrlabl>
+			<attrdef>Self-Identification: Indigenous[Autoidentificación: Indígena]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S005</attrlabl>
+			<attrdef>Self-Identification: Other[Autoidentificación: Otra]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S006</attrlabl>
+			<attrdef>Self-Identification: No (There Is No Principal)[Autoidentificación: Ninguna (No Hay Una Principal)]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S007</attrlabl>
+			<attrdef>Self-Identification: Not Relieved[Autoidentificación: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S008</attrlabl>
+			<attrdef>Self-Identification: Ignored[Autoidentificación: Ignorado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S009</attrlabl>
+			<attrdef>Permanent Difficulty To See (Even With Glasses): Does Not Have[Dificultad Permanente Para Ver (Aun Con Anteojos): No Tiene]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S010</attrlabl>
+			<attrdef>Permanent Difficulty To See (Even With Glasses): Yes, Some[Dificultad Permanente Para Ver (Aun Con Anteojos): Si, Alguna]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S011</attrlabl>
+			<attrdef>Permanent Difficulty To See (Even With Glasses): Yes, Many[Dificultad Permanente Para Ver (Aun Con Anteojos): Si, Mucha]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S012</attrlabl>
+			<attrdef>Permanent Difficulty To See (Even With Glasses): Yes, You Can Not Do It[Dificultad Permanente Para Ver (Aun Con Anteojos): Si, No Puede Hacerlo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S013</attrlabl>
+			<attrdef>Permanent Difficulty To See (Even With Glasses): Not Relieved[Dificultad Permanente Para Ver (Aun Con Anteojos): No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S014</attrlabl>
+			<attrdef>Permanent Difficulty To See (Even With Glasses): Ignored[Dificultad Permanente Para Ver (Aun Con Anteojos): Ignorado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S015</attrlabl>
+			<attrdef>Permanent Difficulty To Hear (Hearing Aid Aun): Does Not Have[Dificultad Permanente Para Oir (Aun Con Audifonos): No Tiene]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S016</attrlabl>
+			<attrdef>Permanent Difficulty To Hear (Hearing Aid Aun): Yes, Some[Dificultad Permanente Para Oir (Aun Con Audifonos): Si, Alguna]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S017</attrlabl>
+			<attrdef>Permanent Difficulty To Hear (Hearing Aid Aun): Yes, Many[Dificultad Permanente Para Oir (Aun Con Audifonos): Si, Mucha]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S018</attrlabl>
+			<attrdef>Permanent Difficulty To Hear (Hearing Aid Aun): Yes, You Can Not Do It[Dificultad Permanente Para Oir (Aun Con Audifonos): Si, No Puede Hacerlo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S019</attrlabl>
+			<attrdef>Permanent Difficulty To Hear (Hearing Aid Aun): Not Relieved[Dificultad Permanente Para Oir (Aun Con Audifonos): No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S020</attrlabl>
+			<attrdef>Permanent Difficulty To Hear (Hearing Aid Aun): Ignored[Dificultad Permanente Para Oir (Aun Con Audifonos): Ignorado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S021</attrlabl>
+			<attrdef>Permanent Difficulty Walking Or Climbing Stairs : Does Not Have[Dificultad Permanente Para Caminar O Subir Escalones: No Tiene]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S022</attrlabl>
+			<attrdef>Permanent Difficulty Walking Or Climbing Stairs : Yes, Some[Dificultad Permanente Para Caminar O Subir Escalones: Si, Alguna]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S023</attrlabl>
+			<attrdef>Permanent Difficulty Walking Or Climbing Stairs : Yes, Many[Dificultad Permanente Para Caminar O Subir Escalones: Si, Mucha]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S024</attrlabl>
+			<attrdef>Permanent Difficulty Walking Or Climbing Stairs : Yes, You Can Not Do It[Dificultad Permanente Para Caminar O Subir Escalones: Si, No Puede Hacerlo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S025</attrlabl>
+			<attrdef>Permanent Difficulty Walking Or Climbing Stairs : Not Relieved[Dificultad Permanente Para Caminar O Subir Escalones: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S026</attrlabl>
+			<attrdef>Permanent Difficulty Walking Or Climbing Stairs : Ignored[Dificultad Permanente Para Caminar O Subir Escalones: Ignorado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S027</attrlabl>
+			<attrdef>Permanent Difficulty Understanding And / Or Learn: Does Not Have[Dificultad Permanente Para Entender Y/O Aprender: No Tiene]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S028</attrlabl>
+			<attrdef>Permanent Difficulty Understanding And / Or Learn: Yes, Some[Dificultad Permanente Para Entender Y/O Aprender: Si, Alguna]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S029</attrlabl>
+			<attrdef>Permanent Difficulty Understanding And / Or Learn: Yes, Many[Dificultad Permanente Para Entender Y/O Aprender: Si, Mucha]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S030</attrlabl>
+			<attrdef>Permanent Difficulty Understanding And / Or Learn: Yes, You Can Not Do It[Dificultad Permanente Para Entender Y/O Aprender: Si, No Puede Hacerlo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S031</attrlabl>
+			<attrdef>Permanent Difficulty Understanding And / Or Learn: Not Relieved[Dificultad Permanente Para Entender Y/O Aprender: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S032</attrlabl>
+			<attrdef>Permanent Difficulty Understanding And / Or Learn: Ignored[Dificultad Permanente Para Entender Y/O Aprender: Ignorado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S033</attrlabl>
+			<attrdef>NBI Education: No NBI[NBI Educación: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S034</attrlabl>
+			<attrdef>NBI Education: NBI[NBI Educación: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S035</attrlabl>
+			<attrdef>NBI Education: Not Relieved[NBI Educación: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S036</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 0[Total De Años De Estudio Aprobados: 0]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S037</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 1[Total De Años De Estudio Aprobados: 1]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S038</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 2[Total De Años De Estudio Aprobados: 2]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S039</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 3[Total De Años De Estudio Aprobados: 3]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S040</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 4[Total De Años De Estudio Aprobados: 4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S041</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 5[Total De Años De Estudio Aprobados: 5]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S042</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 6[Total De Años De Estudio Aprobados: 6]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S043</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 7[Total De Años De Estudio Aprobados: 7]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S044</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 8[Total De Años De Estudio Aprobados: 8]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S045</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 9[Total De Años De Estudio Aprobados: 9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S046</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 10[Total De Años De Estudio Aprobados: 10]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S047</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 11[Total De Años De Estudio Aprobados: 11]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S048</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 12[Total De Años De Estudio Aprobados: 12]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S049</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 13[Total De Años De Estudio Aprobados: 13]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S050</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 14[Total De Años De Estudio Aprobados: 14]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S051</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 15[Total De Años De Estudio Aprobados: 15]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S052</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 16[Total De Años De Estudio Aprobados: 16]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S053</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 17[Total De Años De Estudio Aprobados: 17]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S054</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 18[Total De Años De Estudio Aprobados: 18]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S055</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 19[Total De Años De Estudio Aprobados: 19]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S056</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 20[Total De Años De Estudio Aprobados: 20]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S057</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 21[Total De Años De Estudio Aprobados: 21]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S058</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 22[Total De Años De Estudio Aprobados: 22]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S059</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 23[Total De Años De Estudio Aprobados: 23]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S060</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 24[Total De Años De Estudio Aprobados: 24]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S061</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 25[Total De Años De Estudio Aprobados: 25]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S062</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 26[Total De Años De Estudio Aprobados: 26]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S063</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 27[Total De Años De Estudio Aprobados: 27]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S064</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: 28[Total De Años De Estudio Aprobados: 28]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S065</attrlabl>
+			<attrdef>Total Years Of Schooling Approved: Not Relieved[Total De Años De Estudio Aprobados: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S066</attrlabl>
+			<attrdef>Maximum Level Of Education: Preschool[Máximo Nivel Educativo Alcanzado: Preescolar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S067</attrlabl>
+			<attrdef>Maximum Level Of Education: Common Primary[Máximo Nivel Educativo Alcanzado: Primaria Común]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S068</attrlabl>
+			<attrdef>Maximum Level Of Education: Special Primary[Máximo Nivel Educativo Alcanzado: Primaria Especial]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S069</attrlabl>
+			<attrdef>Maximum Level Of Education: Basic Cycle[Máximo Nivel Educativo Alcanzado: Ciclo Básico]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S070</attrlabl>
+			<attrdef>Maximum Level Of Education: Baccalaureate[Máximo Nivel Educativo Alcanzado: Bachillerato]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S071</attrlabl>
+			<attrdef>Maximum Level Of Education: Technical Education / Vocational Utu[Máximo Nivel Educativo Alcanzado: Enseñanza Tecnica/Formación Profesional Utu]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S072</attrlabl>
+			<attrdef>Maximum Level Of Education: Teaching And Teacher[Máximo Nivel Educativo Alcanzado: Magisterio O Profesorado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S073</attrlabl>
+			<attrdef>Maximum Level Of Education: Non-University Tertiary[Máximo Nivel Educativo Alcanzado: Terciario No Universitario]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S074</attrlabl>
+			<attrdef>Maximum Level Of Education: University Or Similar[Máximo Nivel Educativo Alcanzado: Universidad O Similar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S075</attrlabl>
+			<attrdef>Maximum Level Of Education: Graduate (Diploma / Master / Phd)[Máximo Nivel Educativo Alcanzado: Posgrado (Diploma/Maestría/Doctorado)]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S076</attrlabl>
+			<attrdef>Maximum Level Of Education: Tertiary Unspecified[Máximo Nivel Educativo Alcanzado: Terciario Sin Especificar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S077</attrlabl>
+			<attrdef>Maximum Level Of Education: Never Attended [Máximo Nivel Educativo Alcanzado: Nunca Asistió]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S078</attrlabl>
+			<attrdef>Maximum Level Of Education: Ignored[Máximo Nivel Educativo Alcanzado: Ignorado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S079</attrlabl>
+			<attrdef>Maximum Level Of Education: Not Relieved[Máximo Nivel Educativo Alcanzado: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country Country</attrlabl>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_uruguay_social_2011</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_uruguay_social_2011</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

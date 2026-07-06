@@ -26,7 +26,8 @@
 					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
 				</pubinfo>
 				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_quakehis.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_quakehis.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>ground condition</current>
@@ -81,7 +82,11 @@
 				<tempkt>None</tempkt>
 				<tempkey>1568-2009</tempkey>
 			</temporal>
-			<theme><themekt>ISO 19115 Topic Category</themekt><themekey>geoscientificInformation</themekey></theme></keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>geoscientificInformation</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -113,30 +118,74 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_quakehis.jpg</browsen><browsed>Thumbnail</browsed><browset>JPEG</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_quakehis.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>JPEG</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Significant United States Earthquakes, 1568-2009</title>
+						<pubdate>201007</pubdate>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<publish>National Atlas of the United States</publish>
+							<pubplace>Reston, Virginia, USA</pubplace>
+						</pubinfo>
+						<origin>National Atlas of the United States and the United States Geological Survey</origin>
+						<onlink>http://nationalatlas.gov/atlasftp.html</onlink>
+						<othercit>Downloaded the data set in January 2012.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>2000000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1568</begdate>
+							<enddate>20090818</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>National Atlas</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Data for the years 1568 to 1989, from the Seismicity of the United States, 1568-1989 (Revised) (1993), were combined with the Preliminary Determination of Epicenters (2009) data for 1990 to 2009. The Earthquake History of the United States (1982) and the Project catalogue and seismic hazard maps, Seismic hazard in Latin America and the Caribbean (1997) were used to compile information for additional locations or for years not covered by the other sources. The resulting text file was loaded into ArcView and converted to a shapefile. Three records for Puerto Rico were dropped because they did not include values for longitude and latitude.</procdesc>
+				<procsv>ArcView</procsv>
+				<srcprod>National Atlas</srcprod>
+				<procdate>201006</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Downloaded the compressed file from the National Atlas of the United States and uncompressed the shapefile (quksigx020.shp). Removed unneeded fields. Renamed source fields MMIO to MMI, DEPTH_KM to DEPTH, and OTHER_MAG1 to MAG. Rearranged the remaining fields. Removed features near Guam. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<procsv>ArcGIS 10, ArcGIS 9</procsv>
+				<procdate>20120222</procdate>
+				<srcused>National Atlas</srcused>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>100 meters is the nominal precision of the reported instrumentally located coordinate values but accuracy is considerably less.  Accuracy depends upon numerous factors including imprecision of the velocity model of the earth, uneven distribution of seismic stations, and imprecision in the computational algorithm.  Following initial proofreading of the input data file, a preliminary map of the locations of the earthquakes was produced which was examined for gross errors in spatial location.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Although depths are reported to the nearest one kilometer, the accuracy is considerably less owing to uncertainties in the velocity model of the earth, uneven distribution of seismic stations, and imprecision in the computational algorithm.</vertaccr>
+			</vertacc>
+		</posacc>
+		<logic>No formal tests for logical consistency were performed on this data set, principally because the data set contains attribute values that were arrived at by either or both quantitative (i.e. instrumental) and qualitative (i.e. historical) methods.  Earthquakes that occurred prior to the introduction of seismological instrumentation are known only from written records, such as newspapers, books and journals, and diaries, which often may provide contradictory information that has to be carefully examined and weighed.  As seismographs became more common in the early 1960's, the origin time and location were both more precisely and accurately determined but the compilation and evaluation of intensity reports was, and still is, a process that involves considerable subjectivity.  As a result, all attributes associated with a given earthquake should be considered provisional and subject to further revision based on acquisition of new information and use of new analytical methods.
+
+The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
+		<complete>This data set contains information on significant, historical earthquakes that caused deaths, property damage, geological effects, or that were experienced by populations in the epicentral area, for the United States, Puerto Rico, and the U.S. Virgin Islands, and adjacent Canada and Mexico.  These data are limited to the best estimates of earthquake locations and to attributes such as magnitude and maximum intensity.
+
+After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+		<attracc>
+			<attraccr>The attribute table was scanned for unreasonable attribute values of depth and magnitude.</attraccr>
+		</attracc>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -527,66 +576,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_us_quakehis</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Significant United States Earthquakes, 1568-2009</title>
-						<pubdate>201007</pubdate>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<publish>National Atlas of the United States</publish>
-							<pubplace>Reston, Virginia, USA</pubplace>
-						</pubinfo>
-						<origin>National Atlas of the United States and the United States Geological Survey</origin>
-						<onlink>http://nationalatlas.gov/atlasftp.html</onlink>
-						<othercit>Downloaded the data set in January 2012.</othercit>
-					</citeinfo>
-				</srccite>
-				<srcscale>2000000</srcscale>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<rngdates>
-							<begdate>1568</begdate>
-							<enddate>20090818</enddate>
-						</rngdates>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>National Atlas</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>Data for the years 1568 to 1989, from the Seismicity of the United States, 1568-1989 (Revised) (1993), were combined with the Preliminary Determination of Epicenters (2009) data for 1990 to 2009. The Earthquake History of the United States (1982) and the Project catalogue and seismic hazard maps, Seismic hazard in Latin America and the Caribbean (1997) were used to compile information for additional locations or for years not covered by the other sources. The resulting text file was loaded into ArcView and converted to a shapefile. Three records for Puerto Rico were dropped because they did not include values for longitude and latitude.</procdesc>
-				<procsv>ArcView</procsv>
-				<srcprod>National Atlas</srcprod>
-				<procdate>201006</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Downloaded the compressed file from the National Atlas of the United States and uncompressed the shapefile (quksigx020.shp). Removed unneeded fields. Renamed source fields MMIO to MMI, DEPTH_KM to DEPTH, and OTHER_MAG1 to MAG. Rearranged the remaining fields. Removed features near Guam. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-				<procsv>ArcGIS 10, ArcGIS 9</procsv>
-				<procdate>20120222</procdate>
-				<srcused>National Atlas</srcused>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>100 meters is the nominal precision of the reported instrumentally located coordinate values but accuracy is considerably less.  Accuracy depends upon numerous factors including imprecision of the velocity model of the earth, uneven distribution of seismic stations, and imprecision in the computational algorithm.  Following initial proofreading of the input data file, a preliminary map of the locations of the earthquakes was produced which was examined for gross errors in spatial location.</horizpar>
-			</horizpa>
-			<vertacc>
-				<vertaccr>Although depths are reported to the nearest one kilometer, the accuracy is considerably less owing to uncertainties in the velocity model of the earth, uneven distribution of seismic stations, and imprecision in the computational algorithm.</vertaccr>
-			</vertacc>
-		</posacc>
-		<logic>No formal tests for logical consistency were performed on this data set, principally because the data set contains attribute values that were arrived at by either or both quantitative (i.e. instrumental) and qualitative (i.e. historical) methods.  Earthquakes that occurred prior to the introduction of seismological instrumentation are known only from written records, such as newspapers, books and journals, and diaries, which often may provide contradictory information that has to be carefully examined and weighed.  As seismographs became more common in the early 1960's, the origin time and location were both more precisely and accurately determined but the compilation and evaluation of intensity reports was, and still is, a process that involves considerable subjectivity.  As a result, all attributes associated with a given earthquake should be considered provisional and subject to further revision based on acquisition of new information and use of new analytical methods.
-
-The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
-		<complete>This data set contains information on significant, historical earthquakes that caused deaths, property damage, geological effects, or that were experienced by populations in the epicentral area, for the United States, Puerto Rico, and the U.S. Virgin Islands, and adjacent Canada and Mexico.  These data are limited to the best estimates of earthquake locations and to attributes such as magnitude and maximum intensity.
-
-After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-		<attracc>
-			<attraccr>The attribute table was scanned for unreasonable attribute values of depth and magnitude.</attraccr>
-		</attracc>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

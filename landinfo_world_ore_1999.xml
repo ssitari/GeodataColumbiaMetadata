@@ -1,527 +1,528 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>Geological Survey (U.S.)</origin>
-<pubdate>1999</pubdate>
-<title>World Ore Deposits, 1999</title>
-<geoform>vector digital data</geoform>
-<pubinfo>
-	<pubplace>Littleton, Colorado</pubplace>
-	<publish>Land Info (Firm)</publish>
-</pubinfo>
-<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/landinfo_world_ore_1999.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
-<abstract>Ore Deposits is a point theme representing ore deposits throughout the world, locational and attribute information is taken from the 1999 Mineral Resource Data System (MRDS).  MRDS contains variable-length records of metallic and nonmetallic mineral resources of the world. A record contains descriptive information about mineral deposits and mineral commodities. The types of information in the data base include deposit name, location, commodity, deposit description, geologic characteristics, production, reserves, potential resources, and references. The Mineral Resource Data System master database is not accessible via the WWW. The large number of multi-valued fields make it difficult to import all the fields into a data format that can be utilized by the ArcView Internet Map Server Software. This dataset contains all MRDS locations, but only 44 of the possible 226 fields. A data structure was created in Access 97. Data was imported into the file structure and then processed into Arc View, where it was transformed into shape files that are used by the IMS software to serve the MRDS data and permit access via the www.</abstract>
-<purpose>To make Mineral Resource Data System data available via the World Wide Web for use in future spatial analysis by a variety of users.</purpose>
-</descript>
-<timeperd>
-<timeinfo>
-<rngdates>
-<begdate>1972</begdate>
-<enddate>1998</enddate>
-</rngdates>
-</timeinfo>
-<current>ground condition</current>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Geological Survey (U.S.)</origin>
+				<pubdate>1999</pubdate>
+				<title>World Ore Deposits, 1999</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Littleton, Colorado</pubplace>
+					<publish>Land Info (Firm)</publish>
+				</pubinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/landinfo_world_ore_1999.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Ore Deposits is a point theme representing ore deposits throughout the world, locational and attribute information is taken from the 1999 Mineral Resource Data System (MRDS).  MRDS contains variable-length records of metallic and nonmetallic mineral resources of the world. A record contains descriptive information about mineral deposits and mineral commodities. The types of information in the data base include deposit name, location, commodity, deposit description, geologic characteristics, production, reserves, potential resources, and references. The Mineral Resource Data System master database is not accessible via the WWW. The large number of multi-valued fields make it difficult to import all the fields into a data format that can be utilized by the ArcView Internet Map Server Software. This dataset contains all MRDS locations, but only 44 of the possible 226 fields. A data structure was created in Access 97. Data was imported into the file structure and then processed into Arc View, where it was transformed into shape files that are used by the IMS software to serve the MRDS data and permit access via the www.</abstract>
+			<purpose>To make Mineral Resource Data System data available via the World Wide Web for use in future spatial analysis by a variety of users.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>1972</begdate>
+					<enddate>1998</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Unknown</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -176.729722</westbc>
-<eastbc>
+					<eastbc>
 179.549167</eastbc>
-<northbc>
+						<northbc>
 78.380556</northbc>
-<southbc>
+							<southbc>
 -73.000000</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>geoscientificinformation</themekey>
-</theme>
-<theme>
-<themekt>None</themekt>
-<themekey>Mineral Resource Data System</themekey>
-<themekey>MRDS</themekey>
-<themekey>mineral site location</themekey>
-<themekey>database</themekey>
-<themekey>mines</themekey>
-<themekey>prospects</themekey>
-<themekey>minerals</themekey>
-<themekey>mineral deposits</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Earth (6295630)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>World</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>1999</tempkey>
-</temporal>
-</keywords>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing address</addrtype>
-<address>PO Box 261961</address>
-<city>Highlands Ranch</city>
-<state>CO</state>
-<postal>80163-1951</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>303-790-9730</cntvoice>
-<cntemail>sales@landinfo.com</cntemail>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/usaa26.jpg</browsen>
-<browsed>Thumbnail Image</browsed>
-<browset>JPEG</browset>
-</browse>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.6.1500</native>
-</idinfo>
-<dataqual>
-<attracc>
-<attraccr>The data came from many different sources and there has been no consistent program to verify the accuracy of the information.</attraccr>
-</attracc>
-<logic>Because the data come from multiple sources, terminology varies and similar characteristics may be described differently.</logic>
-<complete>Although the dataset is global in extent, coverage varies from country to country and state to state because the data collection was contingent upon formal scientific collaboration or research programs being established by USGS in those areas.</complete>
-<posacc>
-<horizpa>
-<horizpar>Positional accuracy is variable among records in the database because the data came from multiple sources and no consistent program has been implemented to verify the accuracy of the positional information.</horizpar>
-</horizpa>
-</posacc>
-<lineage>
-<procstep>
-<procdesc>A data pull from the master MRDS database was performed for all MRDS locations, but only 44 of the possible 226 fields. A data structure was created in Access 97 and then the MRDS data was imported into this file structure. The Access database was imported into ESRI ArcView software via an SQL connection where it was processed. In ArcView it was transformed into a shape file. This shape file was used by the IMS software to serve the MRDS data and permit access via the www.</procdesc>
-<procdate>1999</procdate>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>Entity point</sdtstype>
-<ptvctcnt>109018</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<geograph>
-<latres>0.000000</latres>
-<longres>0.000000</longres>
-<geogunit>Decimal degrees</geogunit>
-</geograph>
-<geodetic>
-<horizdn>North American Datum of 1927</horizdn>
-<ellips>Clarke 1866</ellips>
-<semiaxis>6378206.400000</semiaxis>
-<denflat>294.978698</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>geoscientificinformation</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Mineral Resource Data System</themekey>
+								<themekey>MRDS</themekey>
+								<themekey>mineral site location</themekey>
+								<themekey>database</themekey>
+								<themekey>mines</themekey>
+								<themekey>prospects</themekey>
+								<themekey>minerals</themekey>
+								<themekey>mineral deposits</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Earth (6295630)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>World</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>1999</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing address</addrtype>
+									<address>PO Box 261961</address>
+									<city>Highlands Ranch</city>
+									<state>CO</state>
+									<postal>80163-1951</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>303-790-9730</cntvoice>
+								<cntemail>sales@landinfo.com</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/usaa26.jpg</browsen>
+							<browsed>Thumbnail Image</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.6.1500</native>
+					</idinfo>
+					<dataqual>
+						<attracc>
+							<attraccr>The data came from many different sources and there has been no consistent program to verify the accuracy of the information.</attraccr>
+						</attracc>
+						<logic>Because the data come from multiple sources, terminology varies and similar characteristics may be described differently.</logic>
+						<complete>Although the dataset is global in extent, coverage varies from country to country and state to state because the data collection was contingent upon formal scientific collaboration or research programs being established by USGS in those areas.</complete>
+						<posacc>
+							<horizpa>
+								<horizpar>Positional accuracy is variable among records in the database because the data came from multiple sources and no consistent program has been implemented to verify the accuracy of the positional information.</horizpar>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<procstep>
+								<procdesc>A data pull from the master MRDS database was performed for all MRDS locations, but only 44 of the possible 226 fields. A data structure was created in Access 97 and then the MRDS data was imported into this file structure. The Access database was imported into ESRI ArcView software via an SQL connection where it was processed. In ArcView it was transformed into a shape file. This shape file was used by the IMS software to serve the MRDS data and permit access via the www.</procdesc>
+								<procdate>1999</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>Entity point</sdtstype>
+								<ptvctcnt>109018</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000000</latres>
+								<longres>0.000000</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>North American Datum of 1927</horizdn>
+								<ellips>Clarke 1866</ellips>
+								<semiaxis>6378206.400000</semiaxis>
+								<denflat>294.978698</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 usaa26</enttypl>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>RECNO</attrlabl>
-<attrdef>Record Number</attrdef>
-</attr>
-<attr>
-<attrlabl>REC_TYPE</attrlabl>
-<attrdef>Record type</attrdef>
-</attr>
-<attr>
-<attrlabl>ENTRY_DATE</attrlabl>
-<attrdef>Entry Date</attrdef>
-</attr>
-<attr>
-<attrlabl>COMMOD</attrlabl>
-<attrdef>Commosity Type</attrdef>
-</attr>
-<attr>
-<attrlabl>PROD</attrlabl>
-<attrdef>PRODUCTION</attrdef>
-</attr>
-<attr>
-<attrlabl>PF_COMMOD</attrlabl>
-<attrdef>COMMODITY PROFILE</attrdef>
-</attr>
-<attr>
-<attrlabl>IDMARPLOT</attrlabl>
-<attrdef>LINK USED BY LANDVIEW</attrdef>
-</attr>
-<attr>
-<attrlabl>LATD</attrlabl>
-<attrdef>Latitude</attrdef>
-</attr>
-<attr>
-<attrlabl>LOND</attrlabl>
-<attrdef>Longitude</attrdef>
-</attr>
-<attr>
-<attrlabl>USER_FIELD</attrlabl>
-<attrdef>USER FIELD</attrdef>
-</attr>
-<attr>
-<attrlabl>REP_DATE</attrlabl>
-<attrdef>Date of report</attrdef>
-</attr>
-<attr>
-<attrlabl>FIL_LINK</attrlabl>
-<attrdef>FILE LINK IDENTIFICATION</attrdef>
-</attr>
-<attr>
-<attrlabl>REP</attrlabl>
-<attrdef>Nmae of Reporter</attrdef>
-</attr>
-<attr>
-<attrlabl>CTRY_CODE</attrlabl>
-<attrdef>Country Code</attrdef>
-</attr>
-<attr>
-<attrlabl>PHYS</attrlabl>
-<attrdef>Physiographic province</attrdef>
-</attr>
-<attr>
-<attrlabl>DRAIN_NAME</attrlabl>
-<attrdef>Drainage area</attrdef>
-</attr>
-<attr>
-<attrlabl>LAND_STATU</attrlabl>
-<attrdef>Land status</attrdef>
-</attr>
-<attr>
-<attrlabl>ELEV</attrlabl>
-<attrdef>Elevation</attrdef>
-</attr>
-<attr>
-<attrlabl>UTM_Z</attrlabl>
-<attrdef>UTM Zone</attrdef>
-</attr>
-<attr>
-<attrlabl>ACC</attrlabl>
-<attrdef>ACCURACY</attrdef>
-</attr>
-<attr>
-<attrlabl>MERIDIAN</attrlabl>
-<attrdef>MERIDIAN</attrdef>
-</attr>
-<attr>
-<attrlabl>POSITION</attrlabl>
-<attrdef>POSITION FROM NEAREST SIGNIFICANT LOCALITY</attrdef>
-</attr>
-<attr>
-<attrlabl>MAJOR_COMM</attrlabl>
-<attrdef>Major commodities</attrdef>
-</attr>
-<attr>
-<attrlabl>MINOR_COMM</attrlabl>
-<attrdef>Minor commodities</attrdef>
-</attr>
-<attr>
-<attrlabl>CLEARHOU</attrlabl>
-<attrdef>CLEARING HOUSE USE</attrdef>
-</attr>
-<attr>
-<attrlabl>TRACE_COMM</attrlabl>
-<attrdef>Trace commodities</attrdef>
-</attr>
-<attr>
-<attrlabl>LOCAL_STR</attrlabl>
-<attrdef>SIGNIFICANT LOCAL STRUCTURES</attrdef>
-</attr>
-<attr>
-<attrlabl>DEV_STATUS</attrlabl>
-<attrdef>Development status.</attrdef>
-</attr>
-<attr>
-<attrlabl>YR_DISC</attrlabl>
-<attrdef>Year discovered</attrdef>
-</attr>
-<attr>
-<attrlabl>NAT_DISC</attrlabl>
-<attrdef>NATURE OF DISCOVERY</attrdef>
-</attr>
-<attr>
-<attrlabl>YR_1ST_PRO</attrlabl>
-<attrdef>Year of first production</attrdef>
-</attr>
-<attr>
-<attrlabl>YR_LAST</attrlabl>
-<attrdef>Year of last production</attrdef>
-</attr>
-<attr>
-<attrlabl>ORE_DEP_TP</attrlabl>
-<attrdef>DEPTH TO TO</attrdef>
-</attr>
-<attr>
-<attrlabl>ORE_DEP_TU</attrlabl>
-<attrdef>UNITS (DEPTH TO TOP</attrdef>
-</attr>
-<attr>
-<attrlabl>ORE_DEP_BT</attrlabl>
-<attrdef>DEPTH TO BOTTOM</attrdef>
-</attr>
-<attr>
-<attrlabl>ORE_DEP_BU</attrlabl>
-<attrdef>UNITS (DEPTH TO BOTTOM</attrdef>
-</attr>
-<attr>
-<attrlabl>ORE_MAX_LN</attrlabl>
-<attrdef>MAX LENGTH</attrdef>
-</attr>
-<attr>
-<attrlabl>ORE_MAX_LU</attrlabl>
-<attrdef>UNITS (MAX LENGTH)</attrdef>
-</attr>
-<attr>
-<attrlabl>ORE_MAX_WD</attrlabl>
-<attrdef>MAX WIDTH</attrdef>
-</attr>
-<attr>
-<attrlabl>ORE_MAX_WU</attrlabl>
-<attrdef>UNITS (MAX WIDTH)</attrdef>
-</attr>
-<attr>
-<attrlabl>ORE_MAX_TH</attrlabl>
-<attrdef>MAX THICKNESS</attrdef>
-</attr>
-<attr>
-<attrlabl>ORE_MAX_TU</attrlabl>
-<attrdef>UNITS (MAX THICKNESS)</attrdef>
-</attr>
-<attr>
-<attrlabl>DEP_SIZE</attrlabl>
-<attrdef>Deposit Size</attrdef>
-</attr>
-<attr>
-<attrlabl>ORE_STRIKE</attrlabl>
-<attrdef>STRIKE OF OREBODY</attrdef>
-</attr>
-<attr>
-<attrlabl>ORE_DIP</attrlabl>
-<attrdef>DIP OF OREBODY</attrdef>
-</attr>
-<attr>
-<attrlabl>DEPTH_WK</attrlabl>
-<attrdef>DEPTH OF WORKINGS BELOW SURFACE</attrdef>
-</attr>
-<attr>
-<attrlabl>DEPTH_WK_U</attrlabl>
-<attrdef>UNITS (DEPTH OF WORKINGS BELOW SURFACE)</attrdef>
-</attr>
-<attr>
-<attrlabl>LEN_WK</attrlabl>
-<attrdef>LENGTH OF WORKINGS</attrdef>
-</attr>
-<attr>
-<attrlabl>LEN_WK_U</attrlabl>
-<attrdef>UNITS (LENGTH OF WORKINGS)</attrdef>
-</attr>
-<attr>
-<attrlabl>OV_LEN_WK</attrlabl>
-<attrdef>OVERALL LENGTH OF MINED AREA</attrdef>
-</attr>
-<attr>
-<attrlabl>OV_LEN_WU</attrlabl>
-<attrdef>UNITS (OVERALL LENGTH OF MINED AREA)</attrdef>
-</attr>
-<attr>
-<attrlabl>OV_WID_WK</attrlabl>
-<attrdef>OVERALL WIDTH OF MINED AREA</attrdef>
-</attr>
-<attr>
-<attrlabl>OV_WID_WU</attrlabl>
-<attrdef>UNITS (OVERALL WIDTH OF MINED AREA)</attrdef>
-</attr>
-<attr>
-<attrlabl>OV_AREA_WK</attrlabl>
-<attrdef>OVERALL AREA</attrdef>
-</attr>
-<attr>
-<attrlabl>OV_AREA_WU</attrlabl>
-<attrdef>UNITS (OVERALL AREA)</attrdef>
-</attr>
-<attr>
-<attrlabl>CONT_CODE</attrlabl>
-<attrdef>Continent Code</attrdef>
-</attr>
-<attr>
-<attrlabl>COMMOD_SP</attrlabl>
-<attrdef>COMMODITY SPECIALIST INFORMATION</attrdef>
-</attr>
-<attr>
-<attrlabl>WORK_TYPE</attrlabl>
-<attrdef>General type of workings at site</attrdef>
-</attr>
-<attr>
-<attrlabl>ENV_COM</attrlabl>
-<attrdef>ENVIRONMENT COMMENTS</attrdef>
-</attr>
-<attr>
-<attrlabl>PF_DEP_EV</attrlabl>
-<attrdef>PROFILE OF DEPOSIT ENVIRONMENT</attrdef>
-</attr>
-<attr>
-<attrlabl>UPD_DATE</attrlabl>
-<attrdef>UPDATER DATE</attrdef>
-</attr>
-<attr>
-<attrlabl>COMM_TYPE</attrlabl>
-<attrdef>Type of commodities present</attrdef>
-</attr>
-<attr>
-<attrlabl>DATE_ISSUE</attrlabl>
-<attrdef>Date Issued</attrdef>
-</attr>
-<attr>
-<attrlabl>UPD_AFFIL</attrlabl>
-<attrdef>UPDATER'S AFFILIATION</attrdef>
-</attr>
-<attr>
-<attrlabl>MODEL_NUM</attrlabl>
-<attrdef>USGS MODEL NUMBER</attrdef>
-</attr>
-<attr>
-<attrlabl>PF_ID</attrlabl>
-<attrdef>IDENTIFICATION PROFILE</attrdef>
-</attr>
-<attr>
-<attrlabl>PF_LOC</attrlabl>
-<attrdef>LOCATION PROFILE</attrdef>
-</attr>
-<attr>
-<attrlabl>PF_EXPL</attrlabl>
-<attrdef>EXPLORATION PROFILE</attrdef>
-</attr>
-<attr>
-<attrlabl>PF_DEP_DES</attrlabl>
-<attrdef>DESCRIPTION OF DEPOSIT PROFILE</attrdef>
-</attr>
-<attr>
-<attrlabl>PF_WRK_DES</attrlabl>
-<attrdef>DESCRIPTION OF WORKINGS PROFILE</attrdef>
-</attr>
-<attr>
-<attrlabl>PF_GEOL</attrlabl>
-<attrdef>GEOLOGY PROFILE</attrdef>
-</attr>
-<attr>
-<attrlabl>PF_REF</attrlabl>
-<attrdef>REFERENCE PROFILE</attrdef>
-</attr>
-<attr>
-<attrlabl>PF_PRD_RES</attrlabl>
-<attrdef>PRODUCTION AND RESERVES PROFILE</attrdef>
-</attr>
-<attr>
-<attrlabl>PF_CMPLT</attrlabl>
-<attrdef>COMPLETE PROFILE</attrdef>
-</attr>
-<attr>
-<attrlabl>HR_NUMBER</attrlabl>
-<attrdef>HOST ROCK NUMBER FOR SORTING MULTI-VALUES</attrdef>
-</attr>
-<attr>
-<attrlabl>AR_NUMBER</attrlabl>
-<attrdef>ASSOCIATED ROCK NUMBER FOR SORTING MULTI-VALUES</attrdef>
-</attr>
-<attr>
-<attrlabl>AFFIL</attrlabl>
-<attrdef>CREDIT AFFILIATION (REPORTER, UPDATER, EDITOR</attrdef>
-</attr>
-<attr>
-<attrlabl>DEP_CODE</attrlabl>
-<attrdef>DEPOSIT TYPE CODE</attrdef>
-</attr>
-<attr>
-<attrlabl>HUC</attrlabl>
-<attrdef>HYDROLOGIC UNIT</attrdef>
-</attr>
-</detailed>
-<overview>
-</overview>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing address</addrtype>
-<address>PO Box 261961</address>
-<city>Highlands Ranch</city>
-<state>CO</state>
-<postal>80163-1961</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>303-790-9730</cntvoice>
-<cntemail>sales@landinfo.com</cntemail>
-</cntinfo>
-</distrib>
-<resdesc>landinfo_world_ore_1999</resdesc>
-</distinfo>
-<metainfo>
-<metd>20080924</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212)854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>RECNO</attrlabl>
+									<attrdef>Record Number</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>REC_TYPE</attrlabl>
+									<attrdef>Record type</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ENTRY_DATE</attrlabl>
+									<attrdef>Entry Date</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>COMMOD</attrlabl>
+									<attrdef>Commosity Type</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PROD</attrlabl>
+									<attrdef>PRODUCTION</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PF_COMMOD</attrlabl>
+									<attrdef>COMMODITY PROFILE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>IDMARPLOT</attrlabl>
+									<attrdef>LINK USED BY LANDVIEW</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>LATD</attrlabl>
+									<attrdef>Latitude</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>LOND</attrlabl>
+									<attrdef>Longitude</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>USER_FIELD</attrlabl>
+									<attrdef>USER FIELD</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>REP_DATE</attrlabl>
+									<attrdef>Date of report</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>FIL_LINK</attrlabl>
+									<attrdef>FILE LINK IDENTIFICATION</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>REP</attrlabl>
+									<attrdef>Nmae of Reporter</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>CTRY_CODE</attrlabl>
+									<attrdef>Country Code</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PHYS</attrlabl>
+									<attrdef>Physiographic province</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>DRAIN_NAME</attrlabl>
+									<attrdef>Drainage area</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>LAND_STATU</attrlabl>
+									<attrdef>Land status</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ELEV</attrlabl>
+									<attrdef>Elevation</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>UTM_Z</attrlabl>
+									<attrdef>UTM Zone</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ACC</attrlabl>
+									<attrdef>ACCURACY</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>MERIDIAN</attrlabl>
+									<attrdef>MERIDIAN</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>POSITION</attrlabl>
+									<attrdef>POSITION FROM NEAREST SIGNIFICANT LOCALITY</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>MAJOR_COMM</attrlabl>
+									<attrdef>Major commodities</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>MINOR_COMM</attrlabl>
+									<attrdef>Minor commodities</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>CLEARHOU</attrlabl>
+									<attrdef>CLEARING HOUSE USE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TRACE_COMM</attrlabl>
+									<attrdef>Trace commodities</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>LOCAL_STR</attrlabl>
+									<attrdef>SIGNIFICANT LOCAL STRUCTURES</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>DEV_STATUS</attrlabl>
+									<attrdef>Development status.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>YR_DISC</attrlabl>
+									<attrdef>Year discovered</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>NAT_DISC</attrlabl>
+									<attrdef>NATURE OF DISCOVERY</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>YR_1ST_PRO</attrlabl>
+									<attrdef>Year of first production</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>YR_LAST</attrlabl>
+									<attrdef>Year of last production</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ORE_DEP_TP</attrlabl>
+									<attrdef>DEPTH TO TO</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ORE_DEP_TU</attrlabl>
+									<attrdef>UNITS (DEPTH TO TOP</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ORE_DEP_BT</attrlabl>
+									<attrdef>DEPTH TO BOTTOM</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ORE_DEP_BU</attrlabl>
+									<attrdef>UNITS (DEPTH TO BOTTOM</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ORE_MAX_LN</attrlabl>
+									<attrdef>MAX LENGTH</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ORE_MAX_LU</attrlabl>
+									<attrdef>UNITS (MAX LENGTH)</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ORE_MAX_WD</attrlabl>
+									<attrdef>MAX WIDTH</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ORE_MAX_WU</attrlabl>
+									<attrdef>UNITS (MAX WIDTH)</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ORE_MAX_TH</attrlabl>
+									<attrdef>MAX THICKNESS</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ORE_MAX_TU</attrlabl>
+									<attrdef>UNITS (MAX THICKNESS)</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>DEP_SIZE</attrlabl>
+									<attrdef>Deposit Size</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ORE_STRIKE</attrlabl>
+									<attrdef>STRIKE OF OREBODY</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ORE_DIP</attrlabl>
+									<attrdef>DIP OF OREBODY</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>DEPTH_WK</attrlabl>
+									<attrdef>DEPTH OF WORKINGS BELOW SURFACE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>DEPTH_WK_U</attrlabl>
+									<attrdef>UNITS (DEPTH OF WORKINGS BELOW SURFACE)</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>LEN_WK</attrlabl>
+									<attrdef>LENGTH OF WORKINGS</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>LEN_WK_U</attrlabl>
+									<attrdef>UNITS (LENGTH OF WORKINGS)</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>OV_LEN_WK</attrlabl>
+									<attrdef>OVERALL LENGTH OF MINED AREA</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>OV_LEN_WU</attrlabl>
+									<attrdef>UNITS (OVERALL LENGTH OF MINED AREA)</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>OV_WID_WK</attrlabl>
+									<attrdef>OVERALL WIDTH OF MINED AREA</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>OV_WID_WU</attrlabl>
+									<attrdef>UNITS (OVERALL WIDTH OF MINED AREA)</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>OV_AREA_WK</attrlabl>
+									<attrdef>OVERALL AREA</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>OV_AREA_WU</attrlabl>
+									<attrdef>UNITS (OVERALL AREA)</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>CONT_CODE</attrlabl>
+									<attrdef>Continent Code</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>COMMOD_SP</attrlabl>
+									<attrdef>COMMODITY SPECIALIST INFORMATION</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>WORK_TYPE</attrlabl>
+									<attrdef>General type of workings at site</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ENV_COM</attrlabl>
+									<attrdef>ENVIRONMENT COMMENTS</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PF_DEP_EV</attrlabl>
+									<attrdef>PROFILE OF DEPOSIT ENVIRONMENT</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>UPD_DATE</attrlabl>
+									<attrdef>UPDATER DATE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>COMM_TYPE</attrlabl>
+									<attrdef>Type of commodities present</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>DATE_ISSUE</attrlabl>
+									<attrdef>Date Issued</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>UPD_AFFIL</attrlabl>
+									<attrdef>UPDATER'S AFFILIATION</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>MODEL_NUM</attrlabl>
+									<attrdef>USGS MODEL NUMBER</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PF_ID</attrlabl>
+									<attrdef>IDENTIFICATION PROFILE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PF_LOC</attrlabl>
+									<attrdef>LOCATION PROFILE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PF_EXPL</attrlabl>
+									<attrdef>EXPLORATION PROFILE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PF_DEP_DES</attrlabl>
+									<attrdef>DESCRIPTION OF DEPOSIT PROFILE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PF_WRK_DES</attrlabl>
+									<attrdef>DESCRIPTION OF WORKINGS PROFILE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PF_GEOL</attrlabl>
+									<attrdef>GEOLOGY PROFILE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PF_REF</attrlabl>
+									<attrdef>REFERENCE PROFILE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PF_PRD_RES</attrlabl>
+									<attrdef>PRODUCTION AND RESERVES PROFILE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PF_CMPLT</attrlabl>
+									<attrdef>COMPLETE PROFILE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>HR_NUMBER</attrlabl>
+									<attrdef>HOST ROCK NUMBER FOR SORTING MULTI-VALUES</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AR_NUMBER</attrlabl>
+									<attrdef>ASSOCIATED ROCK NUMBER FOR SORTING MULTI-VALUES</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AFFIL</attrlabl>
+									<attrdef>CREDIT AFFILIATION (REPORTER, UPDATER, EDITOR</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>DEP_CODE</attrlabl>
+									<attrdef>DEPOSIT TYPE CODE</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>HUC</attrlabl>
+									<attrdef>HYDROLOGIC UNIT</attrdef>
+								</attr>
+							</detailed>
+							<overview>
+							</overview>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing address</addrtype>
+										<address>PO Box 261961</address>
+										<city>Highlands Ranch</city>
+										<state>CO</state>
+										<postal>80163-1961</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>303-790-9730</cntvoice>
+									<cntemail>sales@landinfo.com</cntemail>
+								</cntinfo>
+							</distrib>
+							<resdesc>landinfo_world_ore_1999</resdesc>
+						</distinfo>
+						<metainfo>
+							<metd>20080924</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

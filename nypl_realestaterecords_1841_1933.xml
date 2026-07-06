@@ -1,118 +1,118 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>location</themekey>
-<themekey>structure</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>New York City (5128581)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>New York City</placekey>
-<placekey>NYC</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>1841</tempkey>
-<tempkey>1933</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-74.02</westbc>
-<eastbc>-73.9628</eastbc>
-<northbc>40.7675</northbc>
-<southbc>40.701</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>location</themekey>
+				<themekey>structure</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>New York City (5128581)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>New York City</placekey>
+				<placekey>NYC</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>1841</tempkey>
+				<tempkey>1933</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-74.02</westbc>
+				<eastbc>-73.9628</eastbc>
+				<northbc>40.7675</northbc>
+				<southbc>40.701</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 New York City Emigrant Savings Bank Real Estate Records, 1841-1933 is a point theme representing the location of records from the Emigrant Savings Bank Records from the New York Public Libraries Digital Collections (https://digitalcollections.nypl.org/collections/emigrant-savings-bank-records#/?tab=about).  Attribute information includes details about the transaction and property as well as linkages to images of the relevant entries in the record book.  This dataset is part of the NYC Space/Time Directory created by the New York Public Library. The source data for this dataset was downloaded in October of 2020 at this link:  http://spacetime.nypl.org/#data which has further information about the creation of the data.  Columbia libraries staff converted the data package to the geopackage format.  All original filed are packaged in the direct download format.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>New York City Emigrant Savings Bank Real Estate Records, 1841-1933</title>
-<origin>New York Public Library</origin>
-<pubdate>2017</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>New York Public Library</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>New York City Emigrant Savings Bank Real Estate Records, 1841-1933</title>
+				<origin>New York Public Library</origin>
+				<pubdate>2017</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>New York Public Library</publish>
+				</pubinfo>
 <onlink>https://www.columbia.edu/acis/eds/gis/images/nypl_realestaterecords_1841_1933.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>1841-1933</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>None</accconst>
-<useconst>None</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>New York Public Library</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>1841-1933</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>None</accconst>
+	<useconst>None</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>New York Public Library</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>Entity point</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>Entity point</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>shapefile</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>nypl_realestaterecords_1841_1933</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20210816</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20210816</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>shapefile</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>nypl_realestaterecords_1841_1933</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

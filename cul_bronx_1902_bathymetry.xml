@@ -56,8 +56,15 @@
 			<theme>
 				<themekt>ISO 19115 Topic Category</themekt>
 				<themekey>imageryBaseMapsEarthCover</themekey>
-				<themekey>elevation</themekey><themekey>inlandWaters</themekey></theme>
-			<theme><themekey>depths</themekey><themekt>None</themekt><themekey>bathymetry</themekey></theme></keywords>
+				<themekey>elevation</themekey>
+				<themekey>inlandWaters</themekey>
+			</theme>
+			<theme>
+				<themekey>depths</themekey>
+				<themekt>None</themekt>
+				<themekey>bathymetry</themekey>
+			</theme>
+		</keywords>
 		<descript>
 			<purpose>This map set was digitized for general use.  This dataset may be used in a GIS.</purpose>
 			<abstract>Bronx 1902 Bathymetry Lines is a line theme representing water depths in the Bronx in 1902. The features were digitized from the map series entitled "Map or plan of that part of the Borough of the Bronx, City of New York, lying easterly of the Bronx River : compiled from surveys made under the direction of the Commissioner of Street Improvements of the 23 &amp; 24 Wards and the Board of Public Improvements " published in 1902 from the Bronx Office of the President.</abstract>
@@ -151,12 +158,33 @@ Includes ill.</othercit>
 			</srcinfo>
 		</lineage>
 	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>String</sdtstype>
+				<ptvctcnt>27</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn>D_WGS_1984</horizdn>
+				<ellips>WGS_1984</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
 	<eainfo>
 		<detailed Name="aquaduct">
 			<enttyp>
 				<enttypt>Feature Class</enttypt>
 				<enttypc>0</enttypc>
-				<enttypl>bathymetry</enttypl><enttypd>depth lines</enttypd></enttyp>
+				<enttypl>bathymetry</enttypl>
+				<enttypd>depth lines</enttypd>
+			</enttyp>
 			<attr>
 				<attrlabl>OBJECTID</attrlabl>
 				<attalias>OBJECTID</attalias>
@@ -189,7 +217,8 @@ Includes ill.</othercit>
 				<attwidth>150</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Depth</attrdef></attr>
+				<attrdef>Depth</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>Shape_Length</attrlabl>
 				<attalias>Shape_Length</attalias>
@@ -257,17 +286,4 @@ Includes ill.</othercit>
 		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
 		<metstdv>FGDC-STD-001-1998</metstdv>
 	</metainfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>String</sdtstype><ptvctcnt>27</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
-		<spref>
-		<horizsys>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
 </metadata>

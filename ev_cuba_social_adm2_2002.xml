@@ -14,7 +14,7 @@
 			<place>
 				<placekt>None</placekt>
 				<placekey>Republic of Cuba</placekey>
-        <placekey>Cuba</placekey>
+				<placekey>Cuba</placekey>
 			</place>
 			<temporal>
 				<tempkt>None</tempkt>
@@ -32,7 +32,7 @@
 		<descript>
 			<abstract>
 Cuba Social Census Data (Province), 2002 is a polygon theme representing Provinces (1st level administrative units) in Cuba as of 2002. Attribute data include summary results of the 2002 Cuban census questions regarding education and disability characteristics. The documentation of these variables can be found in the "Social" section from the accompanying code book. This dataset is part of Cuba 2002 Census collection.
-</abstract>
+			</abstract>
 		</descript>
 		<citation>
 			<citeinfo>
@@ -44,266 +44,266 @@ Cuba Social Census Data (Province), 2002 is a polygon theme representing Provinc
 					<publish>East View Geospatial (Firm)</publish>
 				</pubinfo>
 				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_cuba_social_adm2_2002.zip
-</onlink>
-			</citeinfo>
-		</citation>
-		<timeperd>
-			<current>Ground condition</current>
-			<timeinfo>
-				<sngdate>
-					<caldate>2002</caldate>
-				</sngdate>
-			</timeinfo>
-		</timeperd>
-		<status>
-			<progress>Complete</progress>
-			<update>Unknown</update>
-		</status>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntperp>
-					<cntorg>East View Cartographic, Incorporated</cntorg>
-				</cntperp>
-			</cntinfo>
-		</ptcontac>
-	</idinfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>G-polygon</sdtstype>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-  <eainfo>
-  <detailed>
-    <enttyp>
-      <enttypl>Cuba_2002</enttypl>
-      <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-      <enttypds>East View Geospatial</enttypds>
-    </enttyp>
-    <attr>
-    <attrlabl>ADM1_CODE</attrlabl>
-    <attrdef>Province Code [cod_prov]</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census cestor as a coded value</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>ADM1_NAME</attrlabl>
-    <attrdef>Province Name</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Name of Province the census sector falls in </udom>
-    </attrdomv>
-  </attr>
-	<attr>
-		<attrlabl>SUM_S001</attrlabl>
-		<attrdef>Level Of Education Completed: Not In Universe [F0_NIU__not_in_universe_]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S002</attrlabl>
-		<attrdef>Level Of Education Completed: No Schooling [F110_No_schooling]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S003</attrlabl>
-		<attrdef>Level Of Education Completed: Primary Schooling [F212_Primary__6_yrs__completed]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S004</attrlabl>
-		<attrdef>Level Of Education Completed: Lower Secondary General [F221_Lower_secondary_general_completed]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S005</attrlabl>
-		<attrdef>Level Of Education Completed: Lower Secondary Technical [F222_Lower_secondary_technical_completed]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S006</attrlabl>
-		<attrdef>Level Of Education Completed: Secondary General [F311_Secondary_general_track_completed]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S007</attrlabl>
-		<attrdef>Level Of Education Completed: Secondary Technical [F321_Secondary_technical_track_completed]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S008</attrlabl>
-		<attrdef>Level Of Education Completed: University [F400_University_completed]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S009</attrlabl>
-		<attrdef>Level Of Education Completed: Unknown [F999_Unknown_missing]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S010</attrlabl>
-		<attrdef>Education Using Cuban Codification: None [F1_None]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S011</attrlabl>
-		<attrdef>Education Using Cuban Codification: Primary [F2_Primary]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S012</attrlabl>
-		<attrdef>Education Using Cuban Codification: Lower Secondary Basic [F3_Lower_secondary__basic]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S013</attrlabl>
-		<attrdef>Education Using Cuban Codification: Lower Secondary Skilled Manual [F4_Lower_secondary__skilled_manual]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S014</attrlabl>
-		<attrdef>Education Using Cuban Codification: Upper Secondary Pre-University [F5_Upper_secondary__pre_university]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S015</attrlabl>
-		<attrdef>Education Using Cuban Codification: Upper Secondary Mid Level Technical [F6_Upper_secondary__mid_level_technical]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S016</attrlabl>
-		<attrdef>Education Using Cuban Codification: Upper Secondary Mid Level Teaching [F7_Upper_secondary__mid_level_teaching]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S017</attrlabl>
-		<attrdef>Education Using Cuban Codification: Post Secondary  [F8_Post_secondary]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S018</attrlabl>
-		<attrdef>Education Using Cuban Codification: Unknown [F9_Unknown]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S019</attrlabl>
-		<attrdef>Disability: Disabled [F1_Disabled]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S020</attrlabl>
-		<attrdef>Disability: Not Disabled [F2_Not_disabled]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_S021</attrlabl>
-		<attrdef>Disability: No Response [F9_NIU__not_in_universe_]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-  </detailed>
-  </eainfo>
-	<metainfo>
-		<metd>20210701</metd>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metc>
-			<cntinfo>
-				<cntperp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntperp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
-	<distinfo>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>Geopackage</formname>
-					<formspec>zip</formspec>
-				</digtinfo>
-			</digform>
-		</stdorder>
-		<resdesc>ev_cuba_social_adm2_2002</resdesc>
-		<distrib>
-		</distrib>
-	</distinfo>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2002</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+</idinfo>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<eainfo>
+	<detailed>
+		<enttyp>
+			<enttypl>Cuba_2002</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>ADM1_CODE</attrlabl>
+			<attrdef>Province Code [cod_prov]</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census cestor as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM1_NAME</attrlabl>
+			<attrdef>Province Name</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Name of Province the census sector falls in </udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S001</attrlabl>
+			<attrdef>Level Of Education Completed: Not In Universe [F0_NIU__not_in_universe_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S002</attrlabl>
+			<attrdef>Level Of Education Completed: No Schooling [F110_No_schooling]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S003</attrlabl>
+			<attrdef>Level Of Education Completed: Primary Schooling [F212_Primary__6_yrs__completed]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S004</attrlabl>
+			<attrdef>Level Of Education Completed: Lower Secondary General [F221_Lower_secondary_general_completed]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S005</attrlabl>
+			<attrdef>Level Of Education Completed: Lower Secondary Technical [F222_Lower_secondary_technical_completed]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S006</attrlabl>
+			<attrdef>Level Of Education Completed: Secondary General [F311_Secondary_general_track_completed]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S007</attrlabl>
+			<attrdef>Level Of Education Completed: Secondary Technical [F321_Secondary_technical_track_completed]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S008</attrlabl>
+			<attrdef>Level Of Education Completed: University [F400_University_completed]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S009</attrlabl>
+			<attrdef>Level Of Education Completed: Unknown [F999_Unknown_missing]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S010</attrlabl>
+			<attrdef>Education Using Cuban Codification: None [F1_None]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S011</attrlabl>
+			<attrdef>Education Using Cuban Codification: Primary [F2_Primary]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S012</attrlabl>
+			<attrdef>Education Using Cuban Codification: Lower Secondary Basic [F3_Lower_secondary__basic]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S013</attrlabl>
+			<attrdef>Education Using Cuban Codification: Lower Secondary Skilled Manual [F4_Lower_secondary__skilled_manual]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S014</attrlabl>
+			<attrdef>Education Using Cuban Codification: Upper Secondary Pre-University [F5_Upper_secondary__pre_university]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S015</attrlabl>
+			<attrdef>Education Using Cuban Codification: Upper Secondary Mid Level Technical [F6_Upper_secondary__mid_level_technical]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S016</attrlabl>
+			<attrdef>Education Using Cuban Codification: Upper Secondary Mid Level Teaching [F7_Upper_secondary__mid_level_teaching]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S017</attrlabl>
+			<attrdef>Education Using Cuban Codification: Post Secondary  [F8_Post_secondary]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S018</attrlabl>
+			<attrdef>Education Using Cuban Codification: Unknown [F9_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S019</attrlabl>
+			<attrdef>Disability: Disabled [F1_Disabled]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S020</attrlabl>
+			<attrdef>Disability: Not Disabled [F2_Not_disabled]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_S021</attrlabl>
+			<attrdef>Disability: No Response [F9_NIU__not_in_universe_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
+</eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_cuba_social_adm2_2002</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
+<metainfo>
+	<metd>20210701</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

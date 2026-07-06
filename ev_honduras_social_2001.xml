@@ -1,1048 +1,1048 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Honduras (3608932)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Honduras</placekey>
-<placekey>Honduras</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2001</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-89.356610</westbc>
-<eastbc>-83.149552</eastbc>
-<northbc>16.518630</northbc>
-<southbc>12.984875</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Honduras (3608932)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Honduras</placekey>
+				<placekey>Honduras</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2001</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-89.356610</westbc>
+				<eastbc>-83.149552</eastbc>
+				<northbc>16.518630</northbc>
+				<southbc>12.984875</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Honduras Social Census Data, 2001 is a polygon theme representing Aldeas in Honduras.  Attribute information includes social information from the 2001 Census.
 Official population and housing data for Honduras from the 2001 census. This census is provided at the Aldeas administrative level (ADM3) and includes 3727 polygons with 399 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "sexo Hombre" was updated to D001 and given the alias "Sex: Male", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.There are Currently 51 Aldeas that do not join correctly from the GIS data to the Tabular data. This is likely due to name or boundary changes. we are working with INE to solve this problem
- </abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Honduras Social Census Data, 2001</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2021</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Honduras Social Census Data, 2001</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_honduras_social_2001.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2001</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2001</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Honduras_2013</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-  <attrlabl>ADM3_Code</attrlabl>
-  <attrdef>Coded Value For ADM3 [Código]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM3_Name</attrlabl>
-  <attrdef>Name of ADM3 Unit [Nombre_de_la_Aldea]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S001</attrlabl>
-  <attrdef>Most Recent Year Completed In Formal Education: 0 [Ultimo Año Aprobado en la Enseñanza Formal F0]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S002</attrlabl>
-  <attrdef>Most Recent Year Completed In Formal Education: 1 [Ultimo Año Aprobado en la Enseñanza Formal F1]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S003</attrlabl>
-  <attrdef>Most Recent Year Completed In Formal Education: 2 [Ultimo Año Aprobado en la Enseñanza Formal F2]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S004</attrlabl>
-  <attrdef>Most Recent Year Completed In Formal Education: 3 [Ultimo Año Aprobado en la Enseñanza Formal F3]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S005</attrlabl>
-  <attrdef>Most Recent Year Completed In Formal Education: 4 [Ultimo Año Aprobado en la Enseñanza Formal F4]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S006</attrlabl>
-  <attrdef>Most Recent Year Completed In Formal Education: 5 [Ultimo Año Aprobado en la Enseñanza Formal F5]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S007</attrlabl>
-  <attrdef>Most Recent Year Completed In Formal Education: 6 [Ultimo Año Aprobado en la Enseñanza Formal F6]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S008</attrlabl>
-  <attrdef>Most Recent Year Completed In Formal Education: 7 [Ultimo Año Aprobado en la Enseñanza Formal F7]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S009</attrlabl>
-  <attrdef>Most Recent Year Completed In Formal Education: 8 [Ultimo Año Aprobado en la Enseñanza Formal F8]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S010</attrlabl>
-  <attrdef>Most Recent Year Completed In Formal Education: 9 [Ultimo Año Aprobado en la Enseñanza Formal F9]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S011</attrlabl>
-  <attrdef>Years Of Study: 1 [Años de Estudio F1]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S012</attrlabl>
-  <attrdef>Years Of Study: 2 [Años de Estudio F2]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S013</attrlabl>
-  <attrdef>Years Of Study: 3 [Años de Estudio F3]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S014</attrlabl>
-  <attrdef>Years Of Study: 4 [Años de Estudio F4]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S015</attrlabl>
-  <attrdef>Years Of Study: 5 [Años de Estudio F5]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S016</attrlabl>
-  <attrdef>Years Of Study: 6 [Años de Estudio F6]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S017</attrlabl>
-  <attrdef>Years Of Study: 7 [Años de Estudio F7]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S018</attrlabl>
-  <attrdef>Years Of Study: 8 [Años de Estudio F8]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S019</attrlabl>
-  <attrdef>Years Of Study: 9 [Años de Estudio F9]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S020</attrlabl>
-  <attrdef>Years Of Study: 10 [Años de Estudio F10]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S021</attrlabl>
-  <attrdef>Years Of Study: 11 [Años de Estudio F11]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S022</attrlabl>
-  <attrdef>Years Of Study: 12 [Años de Estudio F12]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S023</attrlabl>
-  <attrdef>Years Of Study: 13 [Años de Estudio F13]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S024</attrlabl>
-  <attrdef>Years Of Study: 14 [Años de Estudio F14]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S025</attrlabl>
-  <attrdef>Years Of Study: 15 [Años de Estudio F15]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S026</attrlabl>
-  <attrdef>Years Of Study: 16 [Años de Estudio F16]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S027</attrlabl>
-  <attrdef>Years Of Study: 17 [Años de Estudio F17]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S028</attrlabl>
-  <attrdef>Years Of Study: 18 [Años de Estudio F18]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S029</attrlabl>
-  <attrdef>Years Of Study: 19 [Años de Estudio F19]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S030</attrlabl>
-  <attrdef>Years Of Study: 20 [Años de Estudio F20]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S031</attrlabl>
-  <attrdef>Years Of Study: 21 [Años de Estudio F21]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S032</attrlabl>
-  <attrdef>Years Of Study: 22 [Años de Estudio F22]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S033</attrlabl>
-  <attrdef>Person Is Completely Blind: Yes [Alguna Persona presenta Cequera Total Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S034</attrlabl>
-  <attrdef>Person Is Completely Blind: No [Alguna Persona presenta Cequera Total No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S035</attrlabl>
-  <attrdef>Currently Studying In An Educational Center: Yes [Estudia Actualmente en algún Centro Educativo Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S036</attrlabl>
-  <attrdef>Currently Studying In An Educational Center: No [Estudia Actualmente en algún Centro Educativo No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S037</attrlabl>
-  <attrdef>Finished Studying For A Career Or Speciality: Yes [Finalizó el Estudio, Carrera o Especialidad Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S038</attrlabl>
-  <attrdef>Finished Studying For A Career Or Speciality: No [Finalizó el Estudio, Carrera o Especialidad No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S039</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: None [Ultimo Curso Aprobado en la Enseñanza Formal Ninguno]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S040</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Literacy 1 Year [Ultimo Curso Aprobado en la Enseñanza Formal Alfabetización 1 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S041</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Literacy Two Years [Ultimo Curso Aprobado en la Enseñanza Formal Alfabetización 2 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S042</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Literacy 3 Years [Ultimo Curso Aprobado en la Enseñanza Formal Alfabetización 3 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S043</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Pre Primary 1 Year [Ultimo Curso Aprobado en la Enseñanza Formal Pre primaria 1 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S044</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Pre Primary Two Years [Ultimo Curso Aprobado en la Enseñanza Formal Pre primaria 2 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S045</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Pre Primary 3 Years [Ultimo Curso Aprobado en la Enseñanza Formal Pre primaria 3 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S046</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Primary 1 Year [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 1 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S047</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Primary 2 Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 2 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S048</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Primary Three Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 3 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S049</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Primary Four Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 4 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S050</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Primary 5 Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 5 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S051</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Primary 6 Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 6 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S052</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Primary 7 Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 7 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S053</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Primary 8 Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 8 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S054</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Primary Nine Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 9 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S055</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Secondary Common Cycle 1 Year [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria ciclo común 1 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S056</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Secondary Common Cycle 2 Years [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria ciclo común 2 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S057</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Secondary Common Cycle 3 Years [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria ciclo común 3 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S058</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Secondary Diversified One Year [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria diversificado 1 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S059</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Diversified Secondary 2 Years [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria diversificado 2 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S060</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Diversified Secondary 3 Years [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria diversificado 3 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S061</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Diversified Secondary 4 Years [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria diversificado 4 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S062</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Higher Non-University One Year [Ultimo Curso Aprobado en la Enseñanza Formal Superior no universitaria 1 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S063</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Higher Non-University Two Years [Ultimo Curso Aprobado en la Enseñanza Formal Superior no universitaria 2 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S064</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Higher Non-University Three Years [Ultimo Curso Aprobado en la Enseñanza Formal Superior no universitaria 3 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S065</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: Higher Non-University Four Years [Ultimo Curso Aprobado en la Enseñanza Formal Superior no universitaria 4 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S066</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: University One Year [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 1 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S067</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: 2 Years College [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 2 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S068</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: University Three Years [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 3 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S069</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: University Four Years [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 4 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S070</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: University 5 Years [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 5 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S071</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: University Six Years [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 6 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S072</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: University Seven Years [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 7 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S073</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: University Eight Years [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 8 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S074</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: College Graduate 1 Year [Ultimo Curso Aprobado en la Enseñanza Formal Postgrado universitario 1 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S075</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: College Graduate 2 Years [Ultimo Curso Aprobado en la Enseñanza Formal Postgrado universitario 2 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S076</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: College Graduate Three Years [Ultimo Curso Aprobado en la Enseñanza Formal Postgrado universitario 3 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S077</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: College Graduate 4 Years [Ultimo Curso Aprobado en la Enseñanza Formal Postgrado universitario 4 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S078</attrlabl>
-  <attrdef>Most Recent Formal Education Course Was Completed: College Graduate 5 Years [Ultimo Curso Aprobado en la Enseñanza Formal Postgrado universitario 5 año]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S079</attrlabl>
-  <attrdef>Person Has A Cognitive Disability: Yes [Alguna Persona presenta Deficiencia Mental Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S080</attrlabl>
-  <attrdef>Person Has A Cognitive Disability: No [Alguna Persona presenta Deficiencia Mental No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S081</attrlabl>
-  <attrdef>Population Group Which Belongs: Garifuna [Grupo Poblacional al que Pertenece Garifuna]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S082</attrlabl>
-  <attrdef>Population Group Which Belongs: Negro Ingles [Grupo Poblacional al que Pertenece Negro ingles]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S083</attrlabl>
-  <attrdef>Population Group Which Belongs: Tolupán [Grupo Poblacional al que Pertenece Tolupán]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S084</attrlabl>
-  <attrdef>Population Group Which Belongs: Pech  Paya  [Grupo Poblacional al que Pertenece Pech  Paya ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S085</attrlabl>
-  <attrdef>Population Group Which Belongs: Misquito [Grupo Poblacional al que Pertenece Misquito]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S086</attrlabl>
-  <attrdef>Population Group Which Belongs: Lenca [Grupo Poblacional al que Pertenece Lenca]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S087</attrlabl>
-  <attrdef>Population Group Which Belongs: Tawahka  Sumo  [Grupo Poblacional al que Pertenece Tawahka  Sumo ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S088</attrlabl>
-  <attrdef>Population Group Which Belongs: Chortí [Grupo Poblacional al que Pertenece Chortí]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S089</attrlabl>
-  <attrdef>Population Group Which Belongs: Otro [Grupo Poblacional al que Pertenece Otro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S090</attrlabl>
-  <attrdef>Person Is Literate: Yes [Sabe Leer y Escribir Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S091</attrlabl>
-  <attrdef>Person Is Literate: No [Sabe Leer y Escribir No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S092</attrlabl>
-  <attrdef>Person Is Missing Or Has A Disability Related To An Arm Or Leg: Yes [Alguna Persona presenta Perida o Invalidez de alguna Pierna o Brazo Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S093</attrlabl>
-  <attrdef>Person Is Missing Or Has A Disability Related To An Arm Or Leg: No [Alguna Persona presenta Perida o Invalidez de alguna Pierna o Brazo No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S094</attrlabl>
-  <attrdef>Person Who Hasa Communication Disability: Yes [Alguna Persona presenta Mudez Total Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S095</attrlabl>
-  <attrdef>Person Who Hasa Communication Disability: No [Alguna Persona presenta Mudez Total No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S096</attrlabl>
-  <attrdef>With Age Children Not Enrolled In Basic Education: With Nbi (Unsatisfied Basic Needs) [NBI - Educación Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S097</attrlabl>
-  <attrdef>With Age Children Not Enrolled In Basic Education: No Nbi (Unsatisfied Basic Needs) [NBI - Educación No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S098</attrlabl>
-  <attrdef>Subsistence: With Nbi (Unsatisfied Basic Needs) [NBI - Subsistencia Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S099</attrlabl>
-  <attrdef>Subsistence: No Nbi (Unsatisfied Basic Needs) [NBI - Subsistencia No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S100</attrlabl>
-  <attrdef>Last Level Or Degree In Formal Education: None [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Ninguno]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S101</attrlabl>
-  <attrdef>Last Level Or Degree In Formal Education: Literacy [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Alfabetización]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S102</attrlabl>
-  <attrdef>Last Level Or Degree In Formal Education: Pre Primary [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Pre primaria]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S103</attrlabl>
-  <attrdef>Last Level Or Degree In Formal Education: Primary [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Primaria]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S104</attrlabl>
-  <attrdef>Last Level Or Degree In Formal Education: Secondary Common Cycle [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Secundaria ciclo común]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S105</attrlabl>
-  <attrdef>Last Level Or Degree In Formal Education: I Secondary Diversified [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Secundaria diversificado]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S106</attrlabl>
-  <attrdef>Last Level Or Degree In Formal Education: Higher Non-University [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Superior no universitaria]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S107</attrlabl>
-  <attrdef>Last Level Or Degree In Formal Education: University [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Universitaria]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S108</attrlabl>
-  <attrdef>Last Level Or Degree In Formal Education: Post University Degree [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Post grado universitario]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S109</attrlabl>
-  <attrdef>Person Is Deaf: Yes [Alguna Persona presenta Sordera Total Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S110</attrlabl>
-  <attrdef>Person Is Deaf: No [Alguna Persona presenta Sordera Total No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv/>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Honduras_2013</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>ADM3_Code</attrlabl>
+			<attrdef>Coded Value For ADM3 [Código]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM3_Name</attrlabl>
+			<attrdef>Name of ADM3 Unit [Nombre_de_la_Aldea]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S001</attrlabl>
+			<attrdef>Most Recent Year Completed In Formal Education: 0 [Ultimo Año Aprobado en la Enseñanza Formal F0]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S002</attrlabl>
+			<attrdef>Most Recent Year Completed In Formal Education: 1 [Ultimo Año Aprobado en la Enseñanza Formal F1]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S003</attrlabl>
+			<attrdef>Most Recent Year Completed In Formal Education: 2 [Ultimo Año Aprobado en la Enseñanza Formal F2]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S004</attrlabl>
+			<attrdef>Most Recent Year Completed In Formal Education: 3 [Ultimo Año Aprobado en la Enseñanza Formal F3]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S005</attrlabl>
+			<attrdef>Most Recent Year Completed In Formal Education: 4 [Ultimo Año Aprobado en la Enseñanza Formal F4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S006</attrlabl>
+			<attrdef>Most Recent Year Completed In Formal Education: 5 [Ultimo Año Aprobado en la Enseñanza Formal F5]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S007</attrlabl>
+			<attrdef>Most Recent Year Completed In Formal Education: 6 [Ultimo Año Aprobado en la Enseñanza Formal F6]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S008</attrlabl>
+			<attrdef>Most Recent Year Completed In Formal Education: 7 [Ultimo Año Aprobado en la Enseñanza Formal F7]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S009</attrlabl>
+			<attrdef>Most Recent Year Completed In Formal Education: 8 [Ultimo Año Aprobado en la Enseñanza Formal F8]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S010</attrlabl>
+			<attrdef>Most Recent Year Completed In Formal Education: 9 [Ultimo Año Aprobado en la Enseñanza Formal F9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S011</attrlabl>
+			<attrdef>Years Of Study: 1 [Años de Estudio F1]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S012</attrlabl>
+			<attrdef>Years Of Study: 2 [Años de Estudio F2]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S013</attrlabl>
+			<attrdef>Years Of Study: 3 [Años de Estudio F3]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S014</attrlabl>
+			<attrdef>Years Of Study: 4 [Años de Estudio F4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S015</attrlabl>
+			<attrdef>Years Of Study: 5 [Años de Estudio F5]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S016</attrlabl>
+			<attrdef>Years Of Study: 6 [Años de Estudio F6]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S017</attrlabl>
+			<attrdef>Years Of Study: 7 [Años de Estudio F7]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S018</attrlabl>
+			<attrdef>Years Of Study: 8 [Años de Estudio F8]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S019</attrlabl>
+			<attrdef>Years Of Study: 9 [Años de Estudio F9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S020</attrlabl>
+			<attrdef>Years Of Study: 10 [Años de Estudio F10]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S021</attrlabl>
+			<attrdef>Years Of Study: 11 [Años de Estudio F11]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S022</attrlabl>
+			<attrdef>Years Of Study: 12 [Años de Estudio F12]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S023</attrlabl>
+			<attrdef>Years Of Study: 13 [Años de Estudio F13]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S024</attrlabl>
+			<attrdef>Years Of Study: 14 [Años de Estudio F14]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S025</attrlabl>
+			<attrdef>Years Of Study: 15 [Años de Estudio F15]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S026</attrlabl>
+			<attrdef>Years Of Study: 16 [Años de Estudio F16]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S027</attrlabl>
+			<attrdef>Years Of Study: 17 [Años de Estudio F17]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S028</attrlabl>
+			<attrdef>Years Of Study: 18 [Años de Estudio F18]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S029</attrlabl>
+			<attrdef>Years Of Study: 19 [Años de Estudio F19]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S030</attrlabl>
+			<attrdef>Years Of Study: 20 [Años de Estudio F20]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S031</attrlabl>
+			<attrdef>Years Of Study: 21 [Años de Estudio F21]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S032</attrlabl>
+			<attrdef>Years Of Study: 22 [Años de Estudio F22]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S033</attrlabl>
+			<attrdef>Person Is Completely Blind: Yes [Alguna Persona presenta Cequera Total Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S034</attrlabl>
+			<attrdef>Person Is Completely Blind: No [Alguna Persona presenta Cequera Total No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S035</attrlabl>
+			<attrdef>Currently Studying In An Educational Center: Yes [Estudia Actualmente en algún Centro Educativo Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S036</attrlabl>
+			<attrdef>Currently Studying In An Educational Center: No [Estudia Actualmente en algún Centro Educativo No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S037</attrlabl>
+			<attrdef>Finished Studying For A Career Or Speciality: Yes [Finalizó el Estudio, Carrera o Especialidad Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S038</attrlabl>
+			<attrdef>Finished Studying For A Career Or Speciality: No [Finalizó el Estudio, Carrera o Especialidad No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S039</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: None [Ultimo Curso Aprobado en la Enseñanza Formal Ninguno]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S040</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Literacy 1 Year [Ultimo Curso Aprobado en la Enseñanza Formal Alfabetización 1 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S041</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Literacy Two Years [Ultimo Curso Aprobado en la Enseñanza Formal Alfabetización 2 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S042</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Literacy 3 Years [Ultimo Curso Aprobado en la Enseñanza Formal Alfabetización 3 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S043</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Pre Primary 1 Year [Ultimo Curso Aprobado en la Enseñanza Formal Pre primaria 1 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S044</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Pre Primary Two Years [Ultimo Curso Aprobado en la Enseñanza Formal Pre primaria 2 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S045</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Pre Primary 3 Years [Ultimo Curso Aprobado en la Enseñanza Formal Pre primaria 3 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S046</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Primary 1 Year [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 1 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S047</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Primary 2 Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 2 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S048</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Primary Three Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 3 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S049</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Primary Four Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 4 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S050</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Primary 5 Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 5 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S051</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Primary 6 Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 6 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S052</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Primary 7 Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 7 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S053</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Primary 8 Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 8 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S054</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Primary Nine Years [Ultimo Curso Aprobado en la Enseñanza Formal Primaria 9 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S055</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Secondary Common Cycle 1 Year [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria ciclo común 1 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S056</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Secondary Common Cycle 2 Years [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria ciclo común 2 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S057</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Secondary Common Cycle 3 Years [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria ciclo común 3 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S058</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Secondary Diversified One Year [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria diversificado 1 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S059</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Diversified Secondary 2 Years [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria diversificado 2 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S060</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Diversified Secondary 3 Years [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria diversificado 3 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S061</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Diversified Secondary 4 Years [Ultimo Curso Aprobado en la Enseñanza Formal Secundaria diversificado 4 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S062</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Higher Non-University One Year [Ultimo Curso Aprobado en la Enseñanza Formal Superior no universitaria 1 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S063</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Higher Non-University Two Years [Ultimo Curso Aprobado en la Enseñanza Formal Superior no universitaria 2 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S064</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Higher Non-University Three Years [Ultimo Curso Aprobado en la Enseñanza Formal Superior no universitaria 3 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S065</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: Higher Non-University Four Years [Ultimo Curso Aprobado en la Enseñanza Formal Superior no universitaria 4 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S066</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: University One Year [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 1 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S067</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: 2 Years College [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 2 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S068</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: University Three Years [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 3 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S069</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: University Four Years [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 4 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S070</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: University 5 Years [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 5 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S071</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: University Six Years [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 6 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S072</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: University Seven Years [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 7 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S073</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: University Eight Years [Ultimo Curso Aprobado en la Enseñanza Formal Universitaria 8 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S074</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: College Graduate 1 Year [Ultimo Curso Aprobado en la Enseñanza Formal Postgrado universitario 1 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S075</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: College Graduate 2 Years [Ultimo Curso Aprobado en la Enseñanza Formal Postgrado universitario 2 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S076</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: College Graduate Three Years [Ultimo Curso Aprobado en la Enseñanza Formal Postgrado universitario 3 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S077</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: College Graduate 4 Years [Ultimo Curso Aprobado en la Enseñanza Formal Postgrado universitario 4 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S078</attrlabl>
+			<attrdef>Most Recent Formal Education Course Was Completed: College Graduate 5 Years [Ultimo Curso Aprobado en la Enseñanza Formal Postgrado universitario 5 año]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S079</attrlabl>
+			<attrdef>Person Has A Cognitive Disability: Yes [Alguna Persona presenta Deficiencia Mental Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S080</attrlabl>
+			<attrdef>Person Has A Cognitive Disability: No [Alguna Persona presenta Deficiencia Mental No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S081</attrlabl>
+			<attrdef>Population Group Which Belongs: Garifuna [Grupo Poblacional al que Pertenece Garifuna]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S082</attrlabl>
+			<attrdef>Population Group Which Belongs: Negro Ingles [Grupo Poblacional al que Pertenece Negro ingles]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S083</attrlabl>
+			<attrdef>Population Group Which Belongs: Tolupán [Grupo Poblacional al que Pertenece Tolupán]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S084</attrlabl>
+			<attrdef>Population Group Which Belongs: Pech  Paya  [Grupo Poblacional al que Pertenece Pech  Paya ]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S085</attrlabl>
+			<attrdef>Population Group Which Belongs: Misquito [Grupo Poblacional al que Pertenece Misquito]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S086</attrlabl>
+			<attrdef>Population Group Which Belongs: Lenca [Grupo Poblacional al que Pertenece Lenca]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S087</attrlabl>
+			<attrdef>Population Group Which Belongs: Tawahka  Sumo  [Grupo Poblacional al que Pertenece Tawahka  Sumo ]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S088</attrlabl>
+			<attrdef>Population Group Which Belongs: Chortí [Grupo Poblacional al que Pertenece Chortí]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S089</attrlabl>
+			<attrdef>Population Group Which Belongs: Otro [Grupo Poblacional al que Pertenece Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S090</attrlabl>
+			<attrdef>Person Is Literate: Yes [Sabe Leer y Escribir Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S091</attrlabl>
+			<attrdef>Person Is Literate: No [Sabe Leer y Escribir No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S092</attrlabl>
+			<attrdef>Person Is Missing Or Has A Disability Related To An Arm Or Leg: Yes [Alguna Persona presenta Perida o Invalidez de alguna Pierna o Brazo Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S093</attrlabl>
+			<attrdef>Person Is Missing Or Has A Disability Related To An Arm Or Leg: No [Alguna Persona presenta Perida o Invalidez de alguna Pierna o Brazo No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S094</attrlabl>
+			<attrdef>Person Who Hasa Communication Disability: Yes [Alguna Persona presenta Mudez Total Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S095</attrlabl>
+			<attrdef>Person Who Hasa Communication Disability: No [Alguna Persona presenta Mudez Total No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S096</attrlabl>
+			<attrdef>With Age Children Not Enrolled In Basic Education: With Nbi (Unsatisfied Basic Needs) [NBI - Educación Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S097</attrlabl>
+			<attrdef>With Age Children Not Enrolled In Basic Education: No Nbi (Unsatisfied Basic Needs) [NBI - Educación No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S098</attrlabl>
+			<attrdef>Subsistence: With Nbi (Unsatisfied Basic Needs) [NBI - Subsistencia Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S099</attrlabl>
+			<attrdef>Subsistence: No Nbi (Unsatisfied Basic Needs) [NBI - Subsistencia No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S100</attrlabl>
+			<attrdef>Last Level Or Degree In Formal Education: None [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Ninguno]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S101</attrlabl>
+			<attrdef>Last Level Or Degree In Formal Education: Literacy [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Alfabetización]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S102</attrlabl>
+			<attrdef>Last Level Or Degree In Formal Education: Pre Primary [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Pre primaria]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S103</attrlabl>
+			<attrdef>Last Level Or Degree In Formal Education: Primary [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Primaria]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S104</attrlabl>
+			<attrdef>Last Level Or Degree In Formal Education: Secondary Common Cycle [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Secundaria ciclo común]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S105</attrlabl>
+			<attrdef>Last Level Or Degree In Formal Education: I Secondary Diversified [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Secundaria diversificado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S106</attrlabl>
+			<attrdef>Last Level Or Degree In Formal Education: Higher Non-University [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Superior no universitaria]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S107</attrlabl>
+			<attrdef>Last Level Or Degree In Formal Education: University [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Universitaria]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S108</attrlabl>
+			<attrdef>Last Level Or Degree In Formal Education: Post University Degree [Ultimo Nivel o Grado Aprobado en la Enseñanza Formal Post grado universitario]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S109</attrlabl>
+			<attrdef>Person Is Deaf: Yes [Alguna Persona presenta Sordera Total Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S110</attrlabl>
+			<attrdef>Person Is Deaf: No [Alguna Persona presenta Sordera Total No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv/>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_honduras_social_2001</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 <metainfo>
-<metd>20220801</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220801</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_honduras_social_2001</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

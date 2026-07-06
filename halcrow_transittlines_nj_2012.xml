@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata xml:lang="en">
-<idinfo>
+	<idinfo>
 		<citation>
 			<citeinfo>
 				<origin>Halcrow Group Limited</origin>
@@ -38,253 +38,297 @@
 			<bounding>
 				<westbc>
 -75.213953</westbc>
-				<eastbc>
+					<eastbc>
 -73.979069</eastbc>
-				<northbc>
+						<northbc>
 41.488692</northbc>
-				<southbc>
+							<southbc>
 39.361404</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>transportation</themekey>
-			</theme>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>Passenger trains</themekey>
-				<themekey>Rail lines</themekey>
-				<themekey>Railroad</themekey>
-				<themekey>Public Transit</themekey>
-				<themekey>New Jersey Transit</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>New Jersey (5101760)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>New Jersey</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2012</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Halcrow</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>22 Cortlandt Street</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10007</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>212-608-3990</cntvoice>
-				<cntfax>212-566-5059</cntfax>
-			</cntinfo>
-		</ptcontac>
-	</idinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>New Jersey Port Authority</origin>
-						<title>MapInfo files from the New Jersey Port Authority</title>
-						<geoform>vector digital data</geoform>
-					</citeinfo>
-				</srccite>
-				<srcscale>100000</srcscale>
-				<typesrc>GIS vector layers</typesrc>
-				<srccitea>MapInfo files from the New Jersey Port Authority</srccitea>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>New Jersey Department of Environmental Protection</origin>
-						<pubdate>2002</pubdate>
-						<title>NJ DEP Orthophotos</title>
-						<geoform>raster digital data</geoform>
-					</citeinfo>
-				</srccite>
-				<srccitea>NJ DEP Orthophotos</srccitea>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>New Jersey Transit</origin>
-						<title>New Jersey Transit Passenger Rail System map</title>
-						<geoform>map</geoform>
-						<onlink>http://www.njtransit.com</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>Pdf</typesrc>
-				<srccitea>NJ Transit Passenger Rail System map</srccitea>
-			</srcinfo>
-			<procstep>
-				<procdesc>The New Jersey rail data is derived from MapInfo files with a source scale of 1:100,000.  Data were converted to shapefiles and projected to NAD27 NY-E (feet) to align with NYC data.</procdesc>
-				<srcused>MapInfo files from the New Jersey Port Authority</srcused>
-				<procdate>19990617</procdate>
-				<proccont><cntinfo><cntorgp><cntorg>CommunityCartography</cntorg></cntorgp></cntinfo></proccont></procstep>
-			<procstep>
-				<procdesc>Data reprojected to NAD83 NY-Long Island (feet) to align with new NYC data. Separate file created for Port Authority facilities.</procdesc>
-				<procdate>20051107</procdate>
-				<proccont><cntinfo><cntorgp><cntorg>CommunityCartography</cntorg></cntorgp></cntinfo></proccont></procstep>
-			<procstep>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>transportation</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Passenger trains</themekey>
+								<themekey>Rail lines</themekey>
+								<themekey>Railroad</themekey>
+								<themekey>Public Transit</themekey>
+								<themekey>New Jersey Transit</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>New Jersey (5101760)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>New Jersey</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2012</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Halcrow</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing address</addrtype>
+									<address>22 Cortlandt Street</address>
+									<city>New York</city>
+									<state>NY</state>
+									<postal>10007</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>212-608-3990</cntvoice>
+								<cntfax>212-566-5059</cntfax>
+							</cntinfo>
+						</ptcontac>
+					</idinfo>
+					<dataqual>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>New Jersey Port Authority</origin>
+										<title>MapInfo files from the New Jersey Port Authority</title>
+										<geoform>vector digital data</geoform>
+									</citeinfo>
+								</srccite>
+								<srcscale>100000</srcscale>
+								<typesrc>GIS vector layers</typesrc>
+								<srccitea>MapInfo files from the New Jersey Port Authority</srccitea>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>New Jersey Department of Environmental Protection</origin>
+										<pubdate>2002</pubdate>
+										<title>NJ DEP Orthophotos</title>
+										<geoform>raster digital data</geoform>
+									</citeinfo>
+								</srccite>
+								<srccitea>NJ DEP Orthophotos</srccitea>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>New Jersey Transit</origin>
+										<title>New Jersey Transit Passenger Rail System map</title>
+										<geoform>map</geoform>
+										<onlink>http://www.njtransit.com</onlink>
+									</citeinfo>
+								</srccite>
+								<typesrc>Pdf</typesrc>
+								<srccitea>NJ Transit Passenger Rail System map</srccitea>
+							</srcinfo>
+							<procstep>
+								<procdesc>The New Jersey rail data is derived from MapInfo files with a source scale of 1:100,000.  Data were converted to shapefiles and projected to NAD27 NY-E (feet) to align with NYC data.</procdesc>
+								<srcused>MapInfo files from the New Jersey Port Authority</srcused>
+								<procdate>19990617</procdate>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>CommunityCartography</cntorg>
+										</cntorgp>
+									</cntinfo>
+								</proccont>
+							</procstep>
+							<procstep>
+								<procdesc>Data reprojected to NAD83 NY-Long Island (feet) to align with new NYC data. Separate file created for Port Authority facilities.</procdesc>
+								<procdate>20051107</procdate>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>CommunityCartography</cntorg>
+										</cntorgp>
+									</cntinfo>
+								</proccont>
+							</procstep>
+							<procstep>
 				<procdesc>Several updates: New shapefiles were obtained from New Jersey Transit and reprojected. The original source file was created by NJ Transit in March 2001 by tracing from 1995/97 USGS 1-meter resolution orthophotography.
 
 Separated passenger lines from freight/inactive lines.  Separate shapefiles created for NJT Rail, NJT Hudson-Bergen Light Rail, NJT Newark Subway, NJT Riverline, Amtrak, PATCO, and SEPTA  lines.
 
 Lines were snapped to station points and split.  Features at transit hubs were redrawn based on the NJ DEP Orthophotos (2002).  Attributes were added. The January 2007 NJ Transit Passenger Rail System map (http://www.njtransit.com) was used as a reference.
-</procdesc>
-				<srcused>NJ DEP Orthophotos</srcused>
-				<srcused>NJ Transit Passenger Rail System map</srcused>
-				<procdate>20071001</procdate>
-				<proccont><cntinfo><cntorgp><cntorg>CommunityCartography</cntorg></cntorgp></cntinfo></proccont></procstep>
-			<procstep><proccont><cntinfo><cntorgp><cntorg>Halcrow</cntorg></cntorgp></cntinfo></proccont><procdesc>Data reviewed and updated based on the current NJ Transit system map. New station and line added for Meadowlands Sports Complex. New station added for Mount Arlington. North Hackensack Station renamed to New Bridge Landing. Geometry fields were recalculated.</procdesc><procdate>20091201</procdate></procstep><procstep><proccont><cntinfo><cntorgp><cntorg>Halcrow / CH2M Hill&lt;</cntorg></cntorgp></cntinfo></proccont><procdesc>File renamed with "_line". Data was reviewed based on current service information. Great Notch station was removed; Wayne Route 23 station was added. Metadata was updated to 10.1 format.</procdesc><procdate>20121015</procdate></procstep></lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>String</sdtstype>
-				<ptvctcnt>187</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<planar>
-				<gridsys>
-					<gridsysn>State Plane Coordinate System</gridsysn>
-					<spcs>
-						<spcszone>2900</spcszone>
-						<transmer>
-							<sfctrmer>0.999900</sfctrmer>
-							<longcm>-74.500000</longcm>
-							<latprjo>38.833333</latprjo>
-							<feast>492125.000000</feast>
-							<fnorth>0.000000</fnorth>
-						</transmer>
-					</spcs>
-				</gridsys>
-				<planci>
-					<plance>coordinate pair</plance>
-					<coordrep>
-						<absres>0.000000</absres>
-						<ordres>0.000000</ordres>
-					</coordrep>
-					<plandu>survey feet</plandu>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>North American Datum of 1983</horizdn>
-				<ellips>Geodetic Reference System 80</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257222</denflat>
-			</geodetic>
-		</horizsys>
-		<vertdef>
-			<altsys>
-				<altres>0.000010</altres>
-				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-			</altsys>
-		</vertdef>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</procdesc>
+							<srcused>NJ DEP Orthophotos</srcused>
+							<srcused>NJ Transit Passenger Rail System map</srcused>
+							<procdate>20071001</procdate>
+							<proccont>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>CommunityCartography</cntorg>
+									</cntorgp>
+								</cntinfo>
+							</proccont>
+						</procstep>
+						<procstep>
+							<proccont>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Halcrow</cntorg>
+									</cntorgp>
+								</cntinfo>
+							</proccont>
+							<procdesc>Data reviewed and updated based on the current NJ Transit system map. New station and line added for Meadowlands Sports Complex. New station added for Mount Arlington. North Hackensack Station renamed to New Bridge Landing. Geometry fields were recalculated.</procdesc>
+							<procdate>20091201</procdate>
+						</procstep>
+						<procstep>
+							<proccont>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Halcrow / CH2M Hill&lt;</cntorg>
+									</cntorgp>
+								</cntinfo>
+							</proccont>
+							<procdesc>File renamed with "_line". Data was reviewed based on current service information. Great Notch station was removed; Wayne Route 23 station was added. Metadata was updated to 10.1 format.</procdesc>
+							<procdate>20121015</procdate>
+						</procstep>
+					</lineage>
+				</dataqual>
+				<spdoinfo>
+					<direct>Vector</direct>
+					<ptvctinf>
+						<sdtsterm>
+							<sdtstype>String</sdtstype>
+							<ptvctcnt>187</ptvctcnt>
+						</sdtsterm>
+					</ptvctinf>
+				</spdoinfo>
+				<spref>
+					<horizsys>
+						<planar>
+							<gridsys>
+								<gridsysn>State Plane Coordinate System</gridsysn>
+								<spcs>
+									<spcszone>2900</spcszone>
+									<transmer>
+										<sfctrmer>0.999900</sfctrmer>
+										<longcm>-74.500000</longcm>
+										<latprjo>38.833333</latprjo>
+										<feast>492125.000000</feast>
+										<fnorth>0.000000</fnorth>
+									</transmer>
+								</spcs>
+							</gridsys>
+							<planci>
+								<plance>coordinate pair</plance>
+								<coordrep>
+									<absres>0.000000</absres>
+									<ordres>0.000000</ordres>
+								</coordrep>
+								<plandu>survey feet</plandu>
+							</planci>
+						</planar>
+						<geodetic>
+							<horizdn>North American Datum of 1983</horizdn>
+							<ellips>Geodetic Reference System 80</ellips>
+							<semiaxis>6378137.000000</semiaxis>
+							<denflat>298.257222</denflat>
+						</geodetic>
+					</horizsys>
+					<vertdef>
+						<altsys>
+							<altres>0.000010</altres>
+							<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+						</altsys>
+					</vertdef>
+				</spref>
+				<eainfo>
+					<detailed>
+						<enttyp>
+							<enttypl>
 nj_transit</enttypl>
-				<enttypd>Rail line</enttypd>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME</attrlabl>
-				<attrdef>rail line route</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>LINE</attrlabl>
-				<attrdef>Rail Line</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>SERVICE</attrlabl>
-				<attrdef>rail service</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>LENGTH</attrlabl>
-				<attrdef>calculated length in feet</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>LENGTH_MI</attrlabl>
-				<attrdef>calculated length in miles</attrdef>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Halcrow / CH2M Hill</cntorg>
-				</cntorgp>
-				<cntpos>Geomatics</cntpos>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>22 Cortlandt Street</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10007</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>212-608-3990</cntvoice>
-				<cntfax>212-566-5059</cntfax>
-			</cntinfo>
-		</distrib>
-		<resdesc>halcrow_transittlines_nj_2012</resdesc>
+								<enttypd>Rail line</enttypd>
+							</enttyp>
+							<attr>
+								<attrlabl>FID</attrlabl>
+								<attrdef>Internal feature number.</attrdef>
+								<attrdomv>
+									<udom>Sequential unique whole numbers that are automatically generated.</udom>
+								</attrdomv>
+							</attr>
+							<attr>
+								<attrlabl>Shape</attrlabl>
+								<attrdef>Feature geometry.</attrdef>
+								<attrdomv>
+									<udom>Coordinates defining the features.</udom>
+								</attrdomv>
+							</attr>
+							<attr>
+								<attrlabl>NAME</attrlabl>
+								<attrdef>rail line route</attrdef>
+							</attr>
+							<attr>
+								<attrlabl>LINE</attrlabl>
+								<attrdef>Rail Line</attrdef>
+							</attr>
+							<attr>
+								<attrlabl>SERVICE</attrlabl>
+								<attrdef>rail service</attrdef>
+							</attr>
+							<attr>
+								<attrlabl>LENGTH</attrlabl>
+								<attrdef>calculated length in feet</attrdef>
+							</attr>
+							<attr>
+								<attrlabl>LENGTH_MI</attrlabl>
+								<attrdef>calculated length in miles</attrdef>
+							</attr>
+						</detailed>
+					</eainfo>
+					<distinfo>
+						<distrib>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Halcrow / CH2M Hill</cntorg>
+								</cntorgp>
+								<cntpos>Geomatics</cntpos>
+								<cntaddr>
+									<addrtype>mailing address</addrtype>
+									<address>22 Cortlandt Street</address>
+									<city>New York</city>
+									<state>NY</state>
+									<postal>10007</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>212-608-3990</cntvoice>
+								<cntfax>212-566-5059</cntfax>
+							</cntinfo>
+						</distrib>
+						<resdesc>halcrow_transittlines_nj_2012</resdesc>
 
-	</distinfo>
-	<metainfo>
-		<metd>20140325</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo></metadata>
+					</distinfo>
+					<metainfo>
+						<metd>20140325</metd>
+						<metc>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+									<cntper>GIS/Metadata Librarian</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>420 W. 118th St., 215 IAB, MC 3301</address>
+									<city>New York</city>
+									<state>NY</state>
+									<postal>10027</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>(212)854-6012</cntvoice>
+								<cntemail>data@library.columbia.edu</cntemail>
+							</cntinfo>
+						</metc>
+						<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+						<metstdv>FGDC-STD-001-1998</metstdv>
+						<mettc>local time</mettc>
+					</metainfo>
+				</metadata>

@@ -15,7 +15,7 @@
 			<place>
 				<placekt>None</placekt>
 				<placekey>Republic of Cuba</placekey>
-        <placekey>Cuba</placekey>
+				<placekey>Cuba</placekey>
 			</place>
 			<temporal>
 				<tempkt>None</tempkt>
@@ -33,7 +33,7 @@
 		<descript>
 			<abstract>
 Cuba Economic Census Data (Province), 2012 is a polygon theme representing Provinces (1st level administrative units) in Cuba as of 2012. Attribute data include summary results of the 2012 Cuban census questions regarding economic characteristics. The documentation of these variables can be found in the "Economic" section from the accompanying code book. This dataset is part of Cuba 2012 Census collection.
-</abstract>
+			</abstract>
 		</descript>
 		<citation>
 			<citeinfo>
@@ -45,466 +45,466 @@ Cuba Economic Census Data (Province), 2012 is a polygon theme representing Provi
 					<publish>East View Geospatial (Firm)</publish>
 				</pubinfo>
 				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_cuba_economic_adm1_2012.zip
-</onlink>
-			</citeinfo>
-		</citation>
-		<timeperd>
-			<current>Ground condition</current>
-			<timeinfo>
-				<sngdate>
-					<caldate>2012</caldate>
-				</sngdate>
-			</timeinfo>
-		</timeperd>
-		<status>
-			<progress>Complete</progress>
-			<update>Unknown</update>
-		</status>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntperp>
-					<cntorg>East View Cartographic, Incorporated</cntorg>
-				</cntperp>
-			</cntinfo>
-		</ptcontac>
-	</idinfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>G-polygon</sdtstype>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-  <eainfo>
-  <detailed>
-    <enttyp>
-      <enttypl>Cuba_2012</enttypl>
-      <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-      <enttypds>East View Geospatial</enttypds>
-    </enttyp>
-    <attr>
-    <attrlabl>ADM1_CODE</attrlabl>
-    <attrdef>Province Code [cod_prov]</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census cestor as a coded value</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>ADM1_NAME</attrlabl>
-    <attrdef>Province Name</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Name of Province the census sector falls in </udom>
-    </attrdomv>
-  </attr>
-	<attr>
-	  <attrlabl>SUM_E001</attrlabl>
-	  <attrdef>Economic Activity: Unknown [F0_NIU__not_in_universe_]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E002</attrlabl>
-	  <attrdef>Economic Activity: Employed [F1_Employed]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E003</attrlabl>
-	  <attrdef>Economic Activity: Unemployed [F2_Unemployed]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E004</attrlabl>
-	  <attrdef>Economic Activity: Inactive [F3_Inactive]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E005</attrlabl>
-	  <attrdef>Economic Activity: Uknown [F0_NIU__not_in_universe_]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E006</attrlabl>
-	  <attrdef>Economic Activity: At Work [F110_At_work]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E007</attrlabl>
-	  <attrdef>Economic Activity: Employed But Not At Work  [F120_Have_job_not_at_work_in_reference_period]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E008</attrlabl>
-	  <attrdef>Economic Activity: Unemployed  [F210_Unemployed_experienced_worker]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E009</attrlabl>
-	  <attrdef>Economic Activity: Unemployed [F220_Unemployed_new_worker]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E010</attrlabl>
-	  <attrdef>Economic Activity: Housework [F310_Housework]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E011</attrlabl>
-	  <attrdef>Economic Activity: Unable To Work Due To Disability Or Health Problems [F320_Unable_to_work_disabled_or_health_reasons]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E012</attrlabl>
-	  <attrdef>Economic Activity: In School [F330_In_school]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E013</attrlabl>
-	  <attrdef>Economic Activity: Living On Ren Or Pension [F342_Living_on_rents_or_pension]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E014</attrlabl>
-	  <attrdef>Economic Activity: Retiree Or Pensioner [F343_Retirees_pensioners]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E015</attrlabl>
-	  <attrdef>Economic Activity: Instituationalized [F360_Institutionalized]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E016</attrlabl>
-	  <attrdef>Economic Activity: Inactive Or Other Reasons [F390_Inactive_other_reasons]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E017</attrlabl>
-	  <attrdef>Activity In Labor Force: Not Active [F1_No_not_in_the_labor_force]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E018</attrlabl>
-	  <attrdef>Activity In Labor Force: Active [F2_Yes_in_the_labor_force]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E019</attrlabl>
-	  <attrdef>Activity In Labor Force: No Response [F9_NIU__not_in_universe_]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E020</attrlabl>
-	  <attrdef>Occupation: Legislators, Senior Officials, Managers [F1_Legislators_senior_officials_and_managers]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E021</attrlabl>
-	  <attrdef>Occupation: Professionals [F2_Professionals]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E022</attrlabl>
-	  <attrdef>Occupation: Technicians And Associate Profesionals [F3_Technicians_and_associate_professionals]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E023</attrlabl>
-	  <attrdef>Occupation: Clerks [F4_Clerks]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E024</attrlabl>
-	  <attrdef>Occupation: Service Workers And Shop Market Sales [F5_Service_workers_and_shop_and_market_sales]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E025</attrlabl>
-	  <attrdef>Occupation: Skilled Agriculture And Fisheries Workers [F6_Skilled_agricultural_and_fishery_workers]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E026</attrlabl>
-	  <attrdef>Occupation: Crafts And Related Trades Workers [F7_Crafts_and_related_trades_workers]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E027</attrlabl>
-	  <attrdef>Occupation: Plant And Machine Operators And Assemblers [F8_Plant_and_machine_operators_and_assemblers]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E028</attrlabl>
-	  <attrdef>Occupation: Elementary Occupations [F9_Elementary_occupations]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E029</attrlabl>
-	  <attrdef>Occupation: Unknown [F98_Unknown]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E030</attrlabl>
-	  <attrdef>Occupation: No Response [F99_NIU__not_in_universe_]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E031</attrlabl>
-	  <attrdef>Industry: No Response [F0_NIU__not_in_universe_]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E032</attrlabl>
-	  <attrdef>Industry: Agriculture Fishing And Forestry [F10_Agriculture_fishing_and_forestry]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E033</attrlabl>
-	  <attrdef>Industry: Mining And Extraction [F20_Mining_and_extraction]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E034</attrlabl>
-	  <attrdef>Industry: Manufacturing [F30_Manufacturing]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E035</attrlabl>
-	  <attrdef>Industry: Electricity, Gas, Water, And Waste Management [F40_Electricity_gas_water_and_waste_management]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E036</attrlabl>
-	  <attrdef>Industry: Construction [F50_Construction]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E037</attrlabl>
-	  <attrdef>Industry: Wholesale And Retail Trade [F60_Wholesale_and_retail_trade]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E038</attrlabl>
-	  <attrdef>Industry: Hotels And Restaurants [F70_Hotels_and_restaurants]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E039</attrlabl>
-	  <attrdef>Industry: Transportation Storage And Communications [F80_Transportation_storage__and_communications]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E040</attrlabl>
-	  <attrdef>Industry: Financial Services And Communications [F90_Financial_services_and_insurance]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E041</attrlabl>
-	  <attrdef>Industry: Public Administration And Defense [F100_Public_administration_and_defense]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E042</attrlabl>
-	  <attrdef>Industry: Business Services And Real Estate [F111_Business_services_and_real_estate]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E043</attrlabl>
-	  <attrdef>Industry: Education [F112_Education]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E044</attrlabl>
-	  <attrdef>Industry: Health And Social Work [F113_Health_and_social_work]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E045</attrlabl>
-	  <attrdef>Industry: Other Services [F114_Other_services]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_E046</attrlabl>
-	  <attrdef>Industry: Unknown [F999_Unknown]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-  </detailed>
-  </eainfo>
-	<metainfo>
-		<metd>20210701</metd>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metc>
-			<cntinfo>
-				<cntperp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntperp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
-	<distinfo>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>Geopackage</formname>
-					<formspec>zip</formspec>
-				</digtinfo>
-			</digform>
-		</stdorder>
-		<resdesc>ev_cuba_economic_adm1_2012</resdesc>
-		<distrib>
-		</distrib>
-	</distinfo>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2012</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+</idinfo>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<eainfo>
+	<detailed>
+		<enttyp>
+			<enttypl>Cuba_2012</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>ADM1_CODE</attrlabl>
+			<attrdef>Province Code [cod_prov]</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census cestor as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM1_NAME</attrlabl>
+			<attrdef>Province Name</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Name of Province the census sector falls in </udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E001</attrlabl>
+			<attrdef>Economic Activity: Unknown [F0_NIU__not_in_universe_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E002</attrlabl>
+			<attrdef>Economic Activity: Employed [F1_Employed]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E003</attrlabl>
+			<attrdef>Economic Activity: Unemployed [F2_Unemployed]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E004</attrlabl>
+			<attrdef>Economic Activity: Inactive [F3_Inactive]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E005</attrlabl>
+			<attrdef>Economic Activity: Uknown [F0_NIU__not_in_universe_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E006</attrlabl>
+			<attrdef>Economic Activity: At Work [F110_At_work]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E007</attrlabl>
+			<attrdef>Economic Activity: Employed But Not At Work  [F120_Have_job_not_at_work_in_reference_period]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E008</attrlabl>
+			<attrdef>Economic Activity: Unemployed  [F210_Unemployed_experienced_worker]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E009</attrlabl>
+			<attrdef>Economic Activity: Unemployed [F220_Unemployed_new_worker]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E010</attrlabl>
+			<attrdef>Economic Activity: Housework [F310_Housework]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E011</attrlabl>
+			<attrdef>Economic Activity: Unable To Work Due To Disability Or Health Problems [F320_Unable_to_work_disabled_or_health_reasons]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E012</attrlabl>
+			<attrdef>Economic Activity: In School [F330_In_school]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E013</attrlabl>
+			<attrdef>Economic Activity: Living On Ren Or Pension [F342_Living_on_rents_or_pension]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E014</attrlabl>
+			<attrdef>Economic Activity: Retiree Or Pensioner [F343_Retirees_pensioners]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E015</attrlabl>
+			<attrdef>Economic Activity: Instituationalized [F360_Institutionalized]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E016</attrlabl>
+			<attrdef>Economic Activity: Inactive Or Other Reasons [F390_Inactive_other_reasons]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E017</attrlabl>
+			<attrdef>Activity In Labor Force: Not Active [F1_No_not_in_the_labor_force]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E018</attrlabl>
+			<attrdef>Activity In Labor Force: Active [F2_Yes_in_the_labor_force]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E019</attrlabl>
+			<attrdef>Activity In Labor Force: No Response [F9_NIU__not_in_universe_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E020</attrlabl>
+			<attrdef>Occupation: Legislators, Senior Officials, Managers [F1_Legislators_senior_officials_and_managers]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E021</attrlabl>
+			<attrdef>Occupation: Professionals [F2_Professionals]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E022</attrlabl>
+			<attrdef>Occupation: Technicians And Associate Profesionals [F3_Technicians_and_associate_professionals]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E023</attrlabl>
+			<attrdef>Occupation: Clerks [F4_Clerks]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E024</attrlabl>
+			<attrdef>Occupation: Service Workers And Shop Market Sales [F5_Service_workers_and_shop_and_market_sales]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E025</attrlabl>
+			<attrdef>Occupation: Skilled Agriculture And Fisheries Workers [F6_Skilled_agricultural_and_fishery_workers]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E026</attrlabl>
+			<attrdef>Occupation: Crafts And Related Trades Workers [F7_Crafts_and_related_trades_workers]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E027</attrlabl>
+			<attrdef>Occupation: Plant And Machine Operators And Assemblers [F8_Plant_and_machine_operators_and_assemblers]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E028</attrlabl>
+			<attrdef>Occupation: Elementary Occupations [F9_Elementary_occupations]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E029</attrlabl>
+			<attrdef>Occupation: Unknown [F98_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E030</attrlabl>
+			<attrdef>Occupation: No Response [F99_NIU__not_in_universe_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E031</attrlabl>
+			<attrdef>Industry: No Response [F0_NIU__not_in_universe_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E032</attrlabl>
+			<attrdef>Industry: Agriculture Fishing And Forestry [F10_Agriculture_fishing_and_forestry]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E033</attrlabl>
+			<attrdef>Industry: Mining And Extraction [F20_Mining_and_extraction]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E034</attrlabl>
+			<attrdef>Industry: Manufacturing [F30_Manufacturing]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E035</attrlabl>
+			<attrdef>Industry: Electricity, Gas, Water, And Waste Management [F40_Electricity_gas_water_and_waste_management]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E036</attrlabl>
+			<attrdef>Industry: Construction [F50_Construction]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E037</attrlabl>
+			<attrdef>Industry: Wholesale And Retail Trade [F60_Wholesale_and_retail_trade]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E038</attrlabl>
+			<attrdef>Industry: Hotels And Restaurants [F70_Hotels_and_restaurants]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E039</attrlabl>
+			<attrdef>Industry: Transportation Storage And Communications [F80_Transportation_storage__and_communications]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E040</attrlabl>
+			<attrdef>Industry: Financial Services And Communications [F90_Financial_services_and_insurance]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E041</attrlabl>
+			<attrdef>Industry: Public Administration And Defense [F100_Public_administration_and_defense]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E042</attrlabl>
+			<attrdef>Industry: Business Services And Real Estate [F111_Business_services_and_real_estate]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E043</attrlabl>
+			<attrdef>Industry: Education [F112_Education]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E044</attrlabl>
+			<attrdef>Industry: Health And Social Work [F113_Health_and_social_work]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E045</attrlabl>
+			<attrdef>Industry: Other Services [F114_Other_services]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_E046</attrlabl>
+			<attrdef>Industry: Unknown [F999_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
+</eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_cuba_economic_adm1_2012</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
+<metainfo>
+	<metd>20210701</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

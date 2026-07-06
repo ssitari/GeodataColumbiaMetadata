@@ -115,32 +115,59 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			</cntinfo>
 		</ptcontac>
 	</idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20110729</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Tele Atlas MultiNet North America</title>
+						<origin>Tele Atlas North America, Inc.</origin>
+						<pubdate>201003</pubdate>
+						<edition>Version 2010.03</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>Tele Atlas MultiNet North America</sername>
+							<issue>Version 2010.03</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>Tele Atlas North America, Inc.</publish>
+							<pubplace>Lebanon, New Hampshire, USA</pubplace>
+						</pubinfo>
+						<onlink>http://www.teleatlas.com/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>DVD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>201003</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Tele Atlas MultiNet North America v. 2010.03</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdate>20100504</procdate>
+				<procdesc>The following steps were performed by ESRI: Extracted the U.S. major road features from Tele Atlas MultiNet North America v. 2010.03. Deleted unnecessary fields. Added field FRC_DESC and copied its values from MultiNet FRC descriptions. Added field SHIELD and calculated its values based on MultiNet RTETYP equivalents. Renamed field SHIELDNUM to HWY_NUM. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+			</procstep>
+		</lineage>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Horizontal positional accuracy is dependent on geographic area. In most areas, accuracy is between 5 and 25 meters (16 and 82 feet). In some areas, accuracy is off by up to several tens of meters (100 feet or more). In the poorest areas, accuracy is off by up to 100 meters (328 feet).</horizpar>
+			</horizpa>
+		</posacc>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>String</sdtstype></sdtsterm></ptvctinf>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>String</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
 	</spdoinfo>
 	<spref>
 		<horizsys>
@@ -351,50 +378,27 @@ Outside the United States, please direct all inquiries to your local ESRI Office
 			</cntinfo>
 		</distrib>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Tele Atlas MultiNet North America</title>
-						<origin>Tele Atlas North America, Inc.</origin>
-						<pubdate>201003</pubdate>
-						<edition>Version 2010.03</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>Tele Atlas MultiNet North America</sername>
-							<issue>Version 2010.03</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>Tele Atlas North America, Inc.</publish>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-						</pubinfo>
-						<onlink>http://www.teleatlas.com/</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>DVD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>201003</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>Tele Atlas MultiNet North America v. 2010.03</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdate>20100504</procdate>
-				<procdesc>The following steps were performed by ESRI: Extracted the U.S. major road features from Tele Atlas MultiNet North America v. 2010.03. Deleted unnecessary fields. Added field FRC_DESC and copied its values from MultiNet FRC descriptions. Added field SHIELD and calculated its values based on MultiNet RTETYP equivalents. Renamed field SHIELDNUM to HWY_NUM. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-			</procstep>
-		</lineage>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-		<posacc>
-			<horizpa>
-				<horizpar>Horizontal positional accuracy is dependent on geographic area. In most areas, accuracy is between 5 and 25 meters (16 and 82 feet). In some areas, accuracy is off by up to several tens of meters (100 feet or more). In the poorest areas, accuracy is off by up to 100 meters (328 feet).</horizpar>
-			</horizpa>
-		</posacc>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20110729</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

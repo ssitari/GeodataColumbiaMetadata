@@ -1,1423 +1,1423 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Panama (3703430)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Panama</placekey>
-<placekey>Panama</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2000</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-82.876697</westbc>
-<eastbc>-77.964005</eastbc>
-<northbc>9.548949</northbc>
-<southbc>7.402479</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Panama (3703430)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Panama</placekey>
+				<placekey>Panama</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2000</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-82.876697</westbc>
+				<eastbc>-77.964005</eastbc>
+				<northbc>9.548949</northbc>
+				<southbc>7.402479</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
   Panama Economic Census Data, 2000 is a polygon theme representing Barrios (5th level administrative units) in Panama.  Attribute information includes economic variables from the 2000 Census.
 
   Official population and housing data for Panama from the 2000 census. This census is provided a combination of barrio administrative level polygons (ADM5) and populated place administrative level polygons (ADM4), for 2000 compared to 2010 these two administrative units are combined into one shapefile. for a total of 11,647 polygons. Each census theme has 759 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "MUERTE DE ALGUN MIEMBRO: SI" was updated to D001 and given the alias "A Household Member Has Died In The Past Year: Yes [MUERTE DE ALGUN MIEMBRO: SI]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social. All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Panama Economic Census Data, 2000</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2021</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Panama Economic Census Data, 2000</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_panama_economic_2000.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2000</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2000</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-  <horizsys>
-    <gridsys>GCS_WGS_1984</gridsys>
-  </horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 
 <eainfo>
-  <detailed>
-    <enttyp>
-      <enttypl>Panama_2000</enttypl>
-      <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-      <enttypds>East View Geospatial</enttypds>
-    </enttyp>
-    <attr>
-      <attrlabl>Código</attrlabl>
-      <attrdef>Join_CODE [Código]</attrdef>
-      <attrdefs>National Insstitute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a coded value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>BARR_NOMB</attrlabl>
-      <attrdef>Barrio_Name</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a named value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>LUPO_NOMB</attrlabl>
-      <attrdef>Lupo_Name</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a named value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>LUPO_TIPO</attrlabl>
-      <attrdef>Lupo_Type</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a named value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>ADM1</attrlabl>
-      <attrdef>ADM1 Coded Value</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a coded value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>ADM2</attrlabl>
-      <attrdef>ADM2 Coded Value</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a coded value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>ADM3</attrlabl>
-      <attrdef>ADM3 Coded Value</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a coded value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>ADM4</attrlabl>
-      <attrdef>ADM4 Coded Value</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a coded value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>ADM5</attrlabl>
-      <attrdef>ADM5 Coded Value</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a coded value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E001</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: No Income [INGRESO DEL HOGAR RECODIFICADO: Sin_ingreso]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E002</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: Less Than 100  [INGRESO DEL HOGAR RECODIFICADO: Menos_de_100]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E003</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 100-124 [INGRESO DEL HOGAR RECODIFICADO: F100_124]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E004</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 125-174 [INGRESO DEL HOGAR RECODIFICADO: F125_174]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E005</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 175-249 [INGRESO DEL HOGAR RECODIFICADO: F175_249]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E006</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 250-399 [INGRESO DEL HOGAR RECODIFICADO: F250_399]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E007</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 400-599 [INGRESO DEL HOGAR RECODIFICADO: F400_599]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E008</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 600-799 [INGRESO DEL HOGAR RECODIFICADO: F600_799]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E009</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 800-999 [INGRESO DEL HOGAR RECODIFICADO: F800_999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E010</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 1499-1000 [INGRESO DEL HOGAR RECODIFICADO: F1000_1499]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E011</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 1500-1999 [INGRESO DEL HOGAR RECODIFICADO: F1500_1999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E012</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 2499-2000 [INGRESO DEL HOGAR RECODIFICADO: F2000_2499]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E013</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 2999-2500 [INGRESO DEL HOGAR RECODIFICADO: F2500_2999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E014</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 3999-3000 [INGRESO DEL HOGAR RECODIFICADO: F3000_3999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E015</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 4999-4000 [INGRESO DEL HOGAR RECODIFICADO: F4000_4999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E016</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: 5000 And More [INGRESO DEL HOGAR RECODIFICADO: F5000_y_mÃ¡s]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E017</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: Income Not Declared [INGRESO DEL HOGAR RECODIFICADO: No_declarado]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E018</attrlabl>
-      <attrdef>Household Income In Either USD Or Panamanian Balboa: Number Of Responses [INGRESO DEL HOGAR RECODIFICADO: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E019</attrlabl>
-      <attrdef>Occupation: Executives And Legislators [OCUPACION RECODIFICADA: Miembros_del_poder_ejec__y_legi]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E020</attrlabl>
-      <attrdef>Occupation: Scientists And Other Professionals [OCUPACION RECODIFICADA: Profesionales__cient__y_otros]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E021</attrlabl>
-      <attrdef>Occupation: Technicians And Middle-Level Professionals [OCUPACION RECODIFICADA: Tecnicos_y_prof__de_nivel_medio]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E022</attrlabl>
-      <attrdef>Occupation: Office Employees [OCUPACION RECODIFICADA: Empleados_de_Oficina]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E023</attrlabl>
-      <attrdef>Occupation: Serv Workers And See [OCUPACION RECODIFICADA: Trabajadores_de_los_serv__y_ven]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E024</attrlabl>
-      <attrdef>Occupation: Trab Agrop Fishing And C [OCUPACION RECODIFICADA: Trab__agrop__de_la_pesca_y_la_c]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E025</attrlabl>
-      <attrdef>Occupation: Artisans And The Job Min [OCUPACION RECODIFICADA: Artesanos_y_trab__de_la_min_]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E026</attrlabl>
-      <attrdef>Occupation: Ijf Plant Operators [OCUPACION RECODIFICADA: Operadores_de_instalaciones_fij]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E027</attrlabl>
-      <attrdef>Occupation: Peddlers Trab Not [OCUPACION RECODIFICADA: Vendedores_ambulantes__trab__no]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E028</attrlabl>
-      <attrdef>Occupation: Trab Allied Occupation Forces Not [OCUPACION RECODIFICADA: Trab__de_las_fuerzas__ocup__no_]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E029</attrlabl>
-      <attrdef>Occupation: He Never Worked [OCUPACION RECODIFICADA: Nunca_ha_trabajado]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E030</attrlabl>
-      <attrdef>Occupation: Number Of Responses [OCUPACION RECODIFICADA: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E031</attrlabl>
-      <attrdef>Person Worked Last Week: Yes [TRABAJO LA SEMANA PASADA: SI]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E032</attrlabl>
-      <attrdef>Person Worked Last Week: No [TRABAJO LA SEMANA PASADA: NO_]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E033</attrlabl>
-      <attrdef>Person Worked Last Week: Number Of Responses [TRABAJO LA SEMANA PASADA: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E034</attrlabl>
-      <attrdef>Person Was Looking For Work Last Week: Yes [BUSCO TRABAJO LA SEMANA PASADA: SI]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E035</attrlabl>
-      <attrdef>Person Was Looking For Work Last Week: Do Not [BUSCO TRABAJO LA SEMANA PASADA: NO_]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E036</attrlabl>
-      <attrdef>Person Was Looking For Work Last Week: Number Of Responses [BUSCO TRABAJO LA SEMANA PASADA: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E037</attrlabl>
-      <attrdef>Person Was Looking Ofr Work Last Month: Yes [BUSCO TRABAJO EL MES PASADO: SI]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E038</attrlabl>
-      <attrdef>Person Was Looking Ofr Work Last Month: Do Not [BUSCO TRABAJO EL MES PASADO: NO_]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E039</attrlabl>
-      <attrdef>Person Was Looking Ofr Work Last Month: Number Of Responses [BUSCO TRABAJO EL MES PASADO: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E040</attrlabl>
-      <attrdef>Persons Reason For Not Looking For Work : Occasional Worker [PORQUE MOTIVO NO BUSCO TRABAJO: TRABAJO_OCASIONALES]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E041</attrlabl>
-      <attrdef>Persons Reason For Not Looking For Work : Was Looking And Is Waiting For Offers [PORQUE MOTIVO NO BUSCO TRABAJO: BUSCO_ANTES_Y_ESPERA_NOTICIAS]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E042</attrlabl>
-      <attrdef>Persons Reason For Not Looking For Work : Unable To Find Work [PORQUE MOTIVO NO BUSCO TRABAJO: IMPOSIBLE_ENCONTRAR_TRABAJO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E043</attrlabl>
-      <attrdef>Persons Reason For Not Looking For Work : Retired Or Pensioner [PORQUE MOTIVO NO BUSCO TRABAJO: JUBILADO_O_PENSIONADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E044</attrlabl>
-      <attrdef>Persons Reason For Not Looking For Work : Student [PORQUE MOTIVO NO BUSCO TRABAJO: ESTUDIANTE]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E045</attrlabl>
-      <attrdef>Persons Reason For Not Looking For Work : Works At Home [PORQUE MOTIVO NO BUSCO TRABAJO: TRABAJADOR_A__DEL_HOGAR]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E046</attrlabl>
-      <attrdef>Persons Reason For Not Looking For Work : Landlord Or Person Who Recieves Income From Properties [PORQUE MOTIVO NO BUSCO TRABAJO: RENTISTA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E047</attrlabl>
-      <attrdef>Persons Reason For Not Looking For Work : Other Condition [PORQUE MOTIVO NO BUSCO TRABAJO: OTRA_CONDICION]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E048</attrlabl>
-      <attrdef>Persons Reason For Not Looking For Work : Number Of Responses [PORQUE MOTIVO NO BUSCO TRABAJO: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E049</attrlabl>
-      <attrdef>Employment Type: Employee Of The Government [CATEGORIA DE OCUPACION: EMPLEADO_DEL_GOBIERNO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E050</attrlabl>
-      <attrdef>Employment Type: Private Company Employee [CATEGORIA DE OCUPACION: EMPLEADO_DE_EMPRESA_PRIVADA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E051</attrlabl>
-      <attrdef>Employment Type: Employed By Canal Comission Or Defence Sites [CATEGORIA DE OCUPACION: EMPLEADO_DE_LA_COMISION_CANAL_O]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E052</attrlabl>
-      <attrdef>Employment Type: Nonprofit Institution [CATEGORIA DE OCUPACION: INSTITUCION_SIN_FINES_DE_LUCRO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E053</attrlabl>
-      <attrdef>Employment Type: Domestic Service [CATEGORIA DE OCUPACION: SERVICIO_DOMESTICO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E054</attrlabl>
-      <attrdef>Employment Type: Separate Account Or Prop [CATEGORIA DE OCUPACION: INDEPENDIENTE_O_POR_CUENTA_PROP]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E055</attrlabl>
-      <attrdef>Employment Type: Patron Or Employer [CATEGORIA DE OCUPACION: PATRONO_O_EMPLEADOR]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E056</attrlabl>
-      <attrdef>Employment Type: Family Worker [CATEGORIA DE OCUPACION: TRABAJADOR_FAMILIAR]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E057</attrlabl>
-      <attrdef>Employment Type: Member Of Production Cooperative [CATEGORIA DE OCUPACION: MIEMBRO_DE_COOPERATIVA_DE_PRODU]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E058</attrlabl>
-      <attrdef>Employment Type: Number Of Responses [CATEGORIA DE OCUPACION: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E059</attrlabl>
-      <attrdef>Type Of Work Contract: Permanent [TIPO DE CONTRATACION: PERMANENTE]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E060</attrlabl>
-      <attrdef>Type Of Work Contract: Determined By Work Contract [TIPO DE CONTRATACION: CONTRATO_POR_OBRA_DETERMINADA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E061</attrlabl>
-      <attrdef>Type Of Work Contract: Contract Defined [TIPO DE CONTRATACION: CONTRATO_DEFINIDO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E062</attrlabl>
-      <attrdef>Type Of Work Contract: Indefinite Contract [TIPO DE CONTRATACION: CONTRATO_INDEFINIDO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E063</attrlabl>
-      <attrdef>Type Of Work Contract: Number Of Responses [TIPO DE CONTRATACION: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E064</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: No Income [INGRESO DE LA PERSONA RECODIFICADO: Sin_ingreso]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E065</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: Less Than 100 [INGRESO DE LA PERSONA RECODIFICADO: Menos_de_100]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E066</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 100-124 [INGRESO DE LA PERSONA RECODIFICADO: F100_124]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E067</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 125-174 [INGRESO DE LA PERSONA RECODIFICADO: F125_174]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E068</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 175-249 [INGRESO DE LA PERSONA RECODIFICADO: F175_249]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E069</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 250-399 [INGRESO DE LA PERSONA RECODIFICADO: F250_399]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E070</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 400-599 [INGRESO DE LA PERSONA RECODIFICADO: F400_599]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E071</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 600-799 [INGRESO DE LA PERSONA RECODIFICADO: F600_799]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E072</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 800-999 [INGRESO DE LA PERSONA RECODIFICADO: F800_999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E073</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 1499-1000 [INGRESO DE LA PERSONA RECODIFICADO: F1000_1499]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E074</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 1500-1999 [INGRESO DE LA PERSONA RECODIFICADO: F1500_1999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E075</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 2499-2000 [INGRESO DE LA PERSONA RECODIFICADO: F2000_2499]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E076</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 2999-2500 [INGRESO DE LA PERSONA RECODIFICADO: F2500_2999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E077</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 3999-3000 [INGRESO DE LA PERSONA RECODIFICADO: F3000_3999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E078</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 4999-4000 [INGRESO DE LA PERSONA RECODIFICADO: F4000_4999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E079</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: 5000 And More [INGRESO DE LA PERSONA RECODIFICADO: F5000_y_mÃ¡s]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E080</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: Undeclared [INGRESO DE LA PERSONA RECODIFICADO: No_declarado]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E081</attrlabl>
-      <attrdef>Income Of Person Recorded In USD Or Balboa: Number Of Responses [INGRESO DE LA PERSONA RECODIFICADO: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E082</attrlabl>
-      <attrdef>Field Of Economic Activity: Farming [RAMA DE ACTIVIDAD RECODIFICADA: Agricultura]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E083</attrlabl>
-      <attrdef>Field Of Economic Activity: Fishing [RAMA DE ACTIVIDAD RECODIFICADA: Pesca]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E084</attrlabl>
-      <attrdef>Field Of Economic Activity: Mining [RAMA DE ACTIVIDAD RECODIFICADA: Explotación_de_minas]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E085</attrlabl>
-      <attrdef>Field Of Economic Activity: Manufacturing Industry [RAMA DE ACTIVIDAD RECODIFICADA: Industria_manufacturera]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E086</attrlabl>
-      <attrdef>Field Of Economic Activity: Electricity [RAMA DE ACTIVIDAD RECODIFICADA: Electricidad]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E087</attrlabl>
-      <attrdef>Field Of Economic Activity: Construction [RAMA DE ACTIVIDAD RECODIFICADA: Construcción]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E088</attrlabl>
-      <attrdef>Field Of Economic Activity: Trade [RAMA DE ACTIVIDAD RECODIFICADA: Comercio]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E089</attrlabl>
-      <attrdef>Field Of Economic Activity: Hotels Restaurants [RAMA DE ACTIVIDAD RECODIFICADA: Hoteles_restaurantes]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E090</attrlabl>
-      <attrdef>Field Of Economic Activity: Transport [RAMA DE ACTIVIDAD RECODIFICADA: Transporte]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E091</attrlabl>
-      <attrdef>Field Of Economic Activity: Financial [RAMA DE ACTIVIDAD RECODIFICADA: Financieras]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E092</attrlabl>
-      <attrdef>Field Of Economic Activity: Real Estate Activities [RAMA DE ACTIVIDAD RECODIFICADA: Actividades_inmobiliarias]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E093</attrlabl>
-      <attrdef>Field Of Economic Activity: Public Administration [RAMA DE ACTIVIDAD RECODIFICADA: Administración_PÃºblica]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E094</attrlabl>
-      <attrdef>Field Of Economic Activity: Teaching [RAMA DE ACTIVIDAD RECODIFICADA: EnseÃ±anza]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E095</attrlabl>
-      <attrdef>Field Of Economic Activity: Social Services [RAMA DE ACTIVIDAD RECODIFICADA: Servicios_sociales]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E096</attrlabl>
-      <attrdef>Field Of Economic Activity: Community Activities [RAMA DE ACTIVIDAD RECODIFICADA: Actividades_comunitarias]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E097</attrlabl>
-      <attrdef>Field Of Economic Activity: Private Homes [RAMA DE ACTIVIDAD RECODIFICADA: Hogares_privados]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E098</attrlabl>
-      <attrdef>Field Of Economic Activity: Extraterritorial Organizations [RAMA DE ACTIVIDAD RECODIFICADA: Organismos_extraterritoriales]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E099</attrlabl>
-      <attrdef>Field Of Economic Activity: Unspecified Activities [RAMA DE ACTIVIDAD RECODIFICADA: Actividades_no_especificadas]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E100</attrlabl>
-      <attrdef>Field Of Economic Activity: Number Of Responses [RAMA DE ACTIVIDAD RECODIFICADA: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E101</attrlabl>
-      <attrdef>Occupation: Part Time Government  [CATEGORIA DE OCUPACION RECODIFICADA: EVENTUAL_GOBIERNO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E102</attrlabl>
-      <attrdef>Occupation: Part Time Private Company [CATEGORIA DE OCUPACION RECODIFICADA: EVENTUAL_EMPRESA_PRIVADA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E103</attrlabl>
-      <attrdef>Occupation: Part Time Canal Comission [CATEGORIA DE OCUPACION RECODIFICADA: EVENTUAL_COMISION_DEL_CANAL]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E104</attrlabl>
-      <attrdef>Occupation: Part Time Non-Profit [CATEGORIA DE OCUPACION RECODIFICADA: EVENTUAL_INSTITUCION_SIN_FINES_]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E105</attrlabl>
-      <attrdef>Occupation: Part Time Domestic Service [CATEGORIA DE OCUPACION RECODIFICADA: EVENTAUL_SERVICIO_DOMESTICO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E106</attrlabl>
-      <attrdef>Occupation: Full-Time Government [CATEGORIA DE OCUPACION RECODIFICADA: PERMANENTE_GOBIERNO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E107</attrlabl>
-      <attrdef>Occupation: Full-Time Private Company [CATEGORIA DE OCUPACION RECODIFICADA: PERMANENTE_EMPRESA_PRIVADA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E108</attrlabl>
-      <attrdef>Occupation: Full-Time Canal Comission [CATEGORIA DE OCUPACION RECODIFICADA: PERMANENTE_COMISION_DEL_CANAL]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E109</attrlabl>
-      <attrdef>Occupation: Full-Time Non-Profit [CATEGORIA DE OCUPACION RECODIFICADA: PERMANENTE_INSTITUCION_SIN_FINE]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E110</attrlabl>
-      <attrdef>Occupation: Full-Time Domestic Service [CATEGORIA DE OCUPACION RECODIFICADA: PERMANENTE_SERVICIO_DOMESTICO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E111</attrlabl>
-      <attrdef>Occupation: Self Employed [CATEGORIA DE OCUPACION RECODIFICADA: INDEPENDIENTE_O_CUENTA_PROPIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E112</attrlabl>
-      <attrdef>Occupation: Patron Or Employer [CATEGORIA DE OCUPACION RECODIFICADA: PATRONO_O_EMPLEADOR]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E113</attrlabl>
-      <attrdef>Occupation: Family Worker [CATEGORIA DE OCUPACION RECODIFICADA: TRABAJADOR_FAMILIAR]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E114</attrlabl>
-      <attrdef>Occupation: Member Of A Cooperative [CATEGORIA DE OCUPACION RECODIFICADA: MIEMBRO_DE_UNA_COOPERATIVA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E115</attrlabl>
-      <attrdef>Occupation: Number Of Responses [CATEGORIA DE OCUPACION RECODIFICADA: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E116</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: No Income [INGRESO DE LA VIVIENDA RECODIFICADO: Sin_ingreso]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E117</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: Less Than 100 [INGRESO DE LA VIVIENDA RECODIFICADO: Menos_de_100]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E118</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 100-124 [INGRESO DE LA VIVIENDA RECODIFICADO: F100_124]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E119</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 125-174 [INGRESO DE LA VIVIENDA RECODIFICADO: F125_174]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E120</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 175-249 [INGRESO DE LA VIVIENDA RECODIFICADO: F175_249]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E121</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 250-399 [INGRESO DE LA VIVIENDA RECODIFICADO: F250_399]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E122</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 400-599 [INGRESO DE LA VIVIENDA RECODIFICADO: F400_599]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E123</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 600-799 [INGRESO DE LA VIVIENDA RECODIFICADO: F600_799]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E124</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 800-999 [INGRESO DE LA VIVIENDA RECODIFICADO: F800_999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E125</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 1499-1000 [INGRESO DE LA VIVIENDA RECODIFICADO: F1000_1499]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E126</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 1500-1999 [INGRESO DE LA VIVIENDA RECODIFICADO: F1500_1999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E127</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 2499-2000 [INGRESO DE LA VIVIENDA RECODIFICADO: F2000_2499]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E128</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 2999-2500 [INGRESO DE LA VIVIENDA RECODIFICADO: F2500_2999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E129</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 3999-3000 [INGRESO DE LA VIVIENDA RECODIFICADO: F3000_3999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E130</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 4999-4000 [INGRESO DE LA VIVIENDA RECODIFICADO: F4000_4999]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E131</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: 5000 And More [INGRESO DE LA VIVIENDA RECODIFICADO: F5000_y_mÃ¡s]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E132</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: Undeclared [INGRESO DE LA VIVIENDA RECODIFICADO: No_declarado]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E133</attrlabl>
-      <attrdef>Household Income Recoded In USD Or Balboa: Number Of Responses [INGRESO DE LA VIVIENDA RECODIFICADO: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E134</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: Less Than 25 [PAGO MENSUAL RECODIFICADO: Menos_de_25]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E135</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: 25-49 [PAGO MENSUAL RECODIFICADO: F25_49]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E136</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: 50-99 [PAGO MENSUAL RECODIFICADO: F50_99]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E137</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: 100-149 [PAGO MENSUAL RECODIFICADO: F100_149]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E138</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: 150-199 [PAGO MENSUAL RECODIFICADO: F150_199]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E139</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: 200-249 [PAGO MENSUAL RECODIFICADO: F200_249]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E140</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: 250-299 [PAGO MENSUAL RECODIFICADO: F250_299]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E141</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: 300-399 [PAGO MENSUAL RECODIFICADO: F300_399]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E142</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: 400-499 [PAGO MENSUAL RECODIFICADO: F400_499]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E143</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: 500-599 [PAGO MENSUAL RECODIFICADO: F500_599]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E144</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: 600-699 [PAGO MENSUAL RECODIFICADO: F600_699]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E145</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: 700-799 [PAGO MENSUAL RECODIFICADO: F700_799]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E146</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: 800 And More [PAGO MENSUAL RECODIFICADO: F800_Y_MAS]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E147</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: Undeclared [PAGO MENSUAL RECODIFICADO: NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E148</attrlabl>
-      <attrdef>Monthly Income In USD Or Balboa: Number Of Responses [PAGO MENSUAL RECODIFICADO: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>country</attrlabl>
-      <attrdef>Country</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv>
-        <udom>Country where census took place as 3-digit ISO code</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>Year</attrlabl>
-      <attrdef>Year</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv/>
-    </attr>
-  </detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Panama_2000</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>Código</attrlabl>
+			<attrdef>Join_CODE [Código]</attrdef>
+			<attrdefs>National Insstitute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BARR_NOMB</attrlabl>
+			<attrdef>Barrio_Name</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a named value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LUPO_NOMB</attrlabl>
+			<attrdef>Lupo_Name</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a named value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LUPO_TIPO</attrlabl>
+			<attrdef>Lupo_Type</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a named value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM1</attrlabl>
+			<attrdef>ADM1 Coded Value</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM2</attrlabl>
+			<attrdef>ADM2 Coded Value</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM3</attrlabl>
+			<attrdef>ADM3 Coded Value</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM4</attrlabl>
+			<attrdef>ADM4 Coded Value</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM5</attrlabl>
+			<attrdef>ADM5 Coded Value</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E001</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: No Income [INGRESO DEL HOGAR RECODIFICADO: Sin_ingreso]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E002</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: Less Than 100  [INGRESO DEL HOGAR RECODIFICADO: Menos_de_100]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E003</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 100-124 [INGRESO DEL HOGAR RECODIFICADO: F100_124]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E004</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 125-174 [INGRESO DEL HOGAR RECODIFICADO: F125_174]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E005</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 175-249 [INGRESO DEL HOGAR RECODIFICADO: F175_249]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E006</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 250-399 [INGRESO DEL HOGAR RECODIFICADO: F250_399]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E007</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 400-599 [INGRESO DEL HOGAR RECODIFICADO: F400_599]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E008</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 600-799 [INGRESO DEL HOGAR RECODIFICADO: F600_799]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E009</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 800-999 [INGRESO DEL HOGAR RECODIFICADO: F800_999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E010</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 1499-1000 [INGRESO DEL HOGAR RECODIFICADO: F1000_1499]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E011</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 1500-1999 [INGRESO DEL HOGAR RECODIFICADO: F1500_1999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E012</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 2499-2000 [INGRESO DEL HOGAR RECODIFICADO: F2000_2499]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E013</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 2999-2500 [INGRESO DEL HOGAR RECODIFICADO: F2500_2999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E014</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 3999-3000 [INGRESO DEL HOGAR RECODIFICADO: F3000_3999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E015</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 4999-4000 [INGRESO DEL HOGAR RECODIFICADO: F4000_4999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E016</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: 5000 And More [INGRESO DEL HOGAR RECODIFICADO: F5000_y_mÃ¡s]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E017</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: Income Not Declared [INGRESO DEL HOGAR RECODIFICADO: No_declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E018</attrlabl>
+			<attrdef>Household Income In Either USD Or Panamanian Balboa: Number Of Responses [INGRESO DEL HOGAR RECODIFICADO: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E019</attrlabl>
+			<attrdef>Occupation: Executives And Legislators [OCUPACION RECODIFICADA: Miembros_del_poder_ejec__y_legi]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E020</attrlabl>
+			<attrdef>Occupation: Scientists And Other Professionals [OCUPACION RECODIFICADA: Profesionales__cient__y_otros]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E021</attrlabl>
+			<attrdef>Occupation: Technicians And Middle-Level Professionals [OCUPACION RECODIFICADA: Tecnicos_y_prof__de_nivel_medio]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E022</attrlabl>
+			<attrdef>Occupation: Office Employees [OCUPACION RECODIFICADA: Empleados_de_Oficina]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E023</attrlabl>
+			<attrdef>Occupation: Serv Workers And See [OCUPACION RECODIFICADA: Trabajadores_de_los_serv__y_ven]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E024</attrlabl>
+			<attrdef>Occupation: Trab Agrop Fishing And C [OCUPACION RECODIFICADA: Trab__agrop__de_la_pesca_y_la_c]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E025</attrlabl>
+			<attrdef>Occupation: Artisans And The Job Min [OCUPACION RECODIFICADA: Artesanos_y_trab__de_la_min_]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E026</attrlabl>
+			<attrdef>Occupation: Ijf Plant Operators [OCUPACION RECODIFICADA: Operadores_de_instalaciones_fij]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E027</attrlabl>
+			<attrdef>Occupation: Peddlers Trab Not [OCUPACION RECODIFICADA: Vendedores_ambulantes__trab__no]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E028</attrlabl>
+			<attrdef>Occupation: Trab Allied Occupation Forces Not [OCUPACION RECODIFICADA: Trab__de_las_fuerzas__ocup__no_]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E029</attrlabl>
+			<attrdef>Occupation: He Never Worked [OCUPACION RECODIFICADA: Nunca_ha_trabajado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E030</attrlabl>
+			<attrdef>Occupation: Number Of Responses [OCUPACION RECODIFICADA: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E031</attrlabl>
+			<attrdef>Person Worked Last Week: Yes [TRABAJO LA SEMANA PASADA: SI]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E032</attrlabl>
+			<attrdef>Person Worked Last Week: No [TRABAJO LA SEMANA PASADA: NO_]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E033</attrlabl>
+			<attrdef>Person Worked Last Week: Number Of Responses [TRABAJO LA SEMANA PASADA: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E034</attrlabl>
+			<attrdef>Person Was Looking For Work Last Week: Yes [BUSCO TRABAJO LA SEMANA PASADA: SI]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E035</attrlabl>
+			<attrdef>Person Was Looking For Work Last Week: Do Not [BUSCO TRABAJO LA SEMANA PASADA: NO_]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E036</attrlabl>
+			<attrdef>Person Was Looking For Work Last Week: Number Of Responses [BUSCO TRABAJO LA SEMANA PASADA: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E037</attrlabl>
+			<attrdef>Person Was Looking Ofr Work Last Month: Yes [BUSCO TRABAJO EL MES PASADO: SI]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E038</attrlabl>
+			<attrdef>Person Was Looking Ofr Work Last Month: Do Not [BUSCO TRABAJO EL MES PASADO: NO_]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E039</attrlabl>
+			<attrdef>Person Was Looking Ofr Work Last Month: Number Of Responses [BUSCO TRABAJO EL MES PASADO: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E040</attrlabl>
+			<attrdef>Persons Reason For Not Looking For Work : Occasional Worker [PORQUE MOTIVO NO BUSCO TRABAJO: TRABAJO_OCASIONALES]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E041</attrlabl>
+			<attrdef>Persons Reason For Not Looking For Work : Was Looking And Is Waiting For Offers [PORQUE MOTIVO NO BUSCO TRABAJO: BUSCO_ANTES_Y_ESPERA_NOTICIAS]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E042</attrlabl>
+			<attrdef>Persons Reason For Not Looking For Work : Unable To Find Work [PORQUE MOTIVO NO BUSCO TRABAJO: IMPOSIBLE_ENCONTRAR_TRABAJO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E043</attrlabl>
+			<attrdef>Persons Reason For Not Looking For Work : Retired Or Pensioner [PORQUE MOTIVO NO BUSCO TRABAJO: JUBILADO_O_PENSIONADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E044</attrlabl>
+			<attrdef>Persons Reason For Not Looking For Work : Student [PORQUE MOTIVO NO BUSCO TRABAJO: ESTUDIANTE]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E045</attrlabl>
+			<attrdef>Persons Reason For Not Looking For Work : Works At Home [PORQUE MOTIVO NO BUSCO TRABAJO: TRABAJADOR_A__DEL_HOGAR]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E046</attrlabl>
+			<attrdef>Persons Reason For Not Looking For Work : Landlord Or Person Who Recieves Income From Properties [PORQUE MOTIVO NO BUSCO TRABAJO: RENTISTA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E047</attrlabl>
+			<attrdef>Persons Reason For Not Looking For Work : Other Condition [PORQUE MOTIVO NO BUSCO TRABAJO: OTRA_CONDICION]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E048</attrlabl>
+			<attrdef>Persons Reason For Not Looking For Work : Number Of Responses [PORQUE MOTIVO NO BUSCO TRABAJO: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E049</attrlabl>
+			<attrdef>Employment Type: Employee Of The Government [CATEGORIA DE OCUPACION: EMPLEADO_DEL_GOBIERNO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E050</attrlabl>
+			<attrdef>Employment Type: Private Company Employee [CATEGORIA DE OCUPACION: EMPLEADO_DE_EMPRESA_PRIVADA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E051</attrlabl>
+			<attrdef>Employment Type: Employed By Canal Comission Or Defence Sites [CATEGORIA DE OCUPACION: EMPLEADO_DE_LA_COMISION_CANAL_O]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E052</attrlabl>
+			<attrdef>Employment Type: Nonprofit Institution [CATEGORIA DE OCUPACION: INSTITUCION_SIN_FINES_DE_LUCRO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E053</attrlabl>
+			<attrdef>Employment Type: Domestic Service [CATEGORIA DE OCUPACION: SERVICIO_DOMESTICO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E054</attrlabl>
+			<attrdef>Employment Type: Separate Account Or Prop [CATEGORIA DE OCUPACION: INDEPENDIENTE_O_POR_CUENTA_PROP]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E055</attrlabl>
+			<attrdef>Employment Type: Patron Or Employer [CATEGORIA DE OCUPACION: PATRONO_O_EMPLEADOR]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E056</attrlabl>
+			<attrdef>Employment Type: Family Worker [CATEGORIA DE OCUPACION: TRABAJADOR_FAMILIAR]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E057</attrlabl>
+			<attrdef>Employment Type: Member Of Production Cooperative [CATEGORIA DE OCUPACION: MIEMBRO_DE_COOPERATIVA_DE_PRODU]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E058</attrlabl>
+			<attrdef>Employment Type: Number Of Responses [CATEGORIA DE OCUPACION: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E059</attrlabl>
+			<attrdef>Type Of Work Contract: Permanent [TIPO DE CONTRATACION: PERMANENTE]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E060</attrlabl>
+			<attrdef>Type Of Work Contract: Determined By Work Contract [TIPO DE CONTRATACION: CONTRATO_POR_OBRA_DETERMINADA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E061</attrlabl>
+			<attrdef>Type Of Work Contract: Contract Defined [TIPO DE CONTRATACION: CONTRATO_DEFINIDO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E062</attrlabl>
+			<attrdef>Type Of Work Contract: Indefinite Contract [TIPO DE CONTRATACION: CONTRATO_INDEFINIDO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E063</attrlabl>
+			<attrdef>Type Of Work Contract: Number Of Responses [TIPO DE CONTRATACION: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E064</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: No Income [INGRESO DE LA PERSONA RECODIFICADO: Sin_ingreso]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E065</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: Less Than 100 [INGRESO DE LA PERSONA RECODIFICADO: Menos_de_100]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E066</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 100-124 [INGRESO DE LA PERSONA RECODIFICADO: F100_124]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E067</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 125-174 [INGRESO DE LA PERSONA RECODIFICADO: F125_174]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E068</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 175-249 [INGRESO DE LA PERSONA RECODIFICADO: F175_249]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E069</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 250-399 [INGRESO DE LA PERSONA RECODIFICADO: F250_399]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E070</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 400-599 [INGRESO DE LA PERSONA RECODIFICADO: F400_599]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E071</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 600-799 [INGRESO DE LA PERSONA RECODIFICADO: F600_799]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E072</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 800-999 [INGRESO DE LA PERSONA RECODIFICADO: F800_999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E073</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 1499-1000 [INGRESO DE LA PERSONA RECODIFICADO: F1000_1499]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E074</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 1500-1999 [INGRESO DE LA PERSONA RECODIFICADO: F1500_1999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E075</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 2499-2000 [INGRESO DE LA PERSONA RECODIFICADO: F2000_2499]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E076</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 2999-2500 [INGRESO DE LA PERSONA RECODIFICADO: F2500_2999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E077</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 3999-3000 [INGRESO DE LA PERSONA RECODIFICADO: F3000_3999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E078</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 4999-4000 [INGRESO DE LA PERSONA RECODIFICADO: F4000_4999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E079</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: 5000 And More [INGRESO DE LA PERSONA RECODIFICADO: F5000_y_mÃ¡s]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E080</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: Undeclared [INGRESO DE LA PERSONA RECODIFICADO: No_declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E081</attrlabl>
+			<attrdef>Income Of Person Recorded In USD Or Balboa: Number Of Responses [INGRESO DE LA PERSONA RECODIFICADO: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E082</attrlabl>
+			<attrdef>Field Of Economic Activity: Farming [RAMA DE ACTIVIDAD RECODIFICADA: Agricultura]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E083</attrlabl>
+			<attrdef>Field Of Economic Activity: Fishing [RAMA DE ACTIVIDAD RECODIFICADA: Pesca]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E084</attrlabl>
+			<attrdef>Field Of Economic Activity: Mining [RAMA DE ACTIVIDAD RECODIFICADA: Explotación_de_minas]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E085</attrlabl>
+			<attrdef>Field Of Economic Activity: Manufacturing Industry [RAMA DE ACTIVIDAD RECODIFICADA: Industria_manufacturera]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E086</attrlabl>
+			<attrdef>Field Of Economic Activity: Electricity [RAMA DE ACTIVIDAD RECODIFICADA: Electricidad]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E087</attrlabl>
+			<attrdef>Field Of Economic Activity: Construction [RAMA DE ACTIVIDAD RECODIFICADA: Construcción]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E088</attrlabl>
+			<attrdef>Field Of Economic Activity: Trade [RAMA DE ACTIVIDAD RECODIFICADA: Comercio]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E089</attrlabl>
+			<attrdef>Field Of Economic Activity: Hotels Restaurants [RAMA DE ACTIVIDAD RECODIFICADA: Hoteles_restaurantes]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E090</attrlabl>
+			<attrdef>Field Of Economic Activity: Transport [RAMA DE ACTIVIDAD RECODIFICADA: Transporte]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E091</attrlabl>
+			<attrdef>Field Of Economic Activity: Financial [RAMA DE ACTIVIDAD RECODIFICADA: Financieras]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E092</attrlabl>
+			<attrdef>Field Of Economic Activity: Real Estate Activities [RAMA DE ACTIVIDAD RECODIFICADA: Actividades_inmobiliarias]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E093</attrlabl>
+			<attrdef>Field Of Economic Activity: Public Administration [RAMA DE ACTIVIDAD RECODIFICADA: Administración_PÃºblica]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E094</attrlabl>
+			<attrdef>Field Of Economic Activity: Teaching [RAMA DE ACTIVIDAD RECODIFICADA: EnseÃ±anza]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E095</attrlabl>
+			<attrdef>Field Of Economic Activity: Social Services [RAMA DE ACTIVIDAD RECODIFICADA: Servicios_sociales]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E096</attrlabl>
+			<attrdef>Field Of Economic Activity: Community Activities [RAMA DE ACTIVIDAD RECODIFICADA: Actividades_comunitarias]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E097</attrlabl>
+			<attrdef>Field Of Economic Activity: Private Homes [RAMA DE ACTIVIDAD RECODIFICADA: Hogares_privados]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E098</attrlabl>
+			<attrdef>Field Of Economic Activity: Extraterritorial Organizations [RAMA DE ACTIVIDAD RECODIFICADA: Organismos_extraterritoriales]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E099</attrlabl>
+			<attrdef>Field Of Economic Activity: Unspecified Activities [RAMA DE ACTIVIDAD RECODIFICADA: Actividades_no_especificadas]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E100</attrlabl>
+			<attrdef>Field Of Economic Activity: Number Of Responses [RAMA DE ACTIVIDAD RECODIFICADA: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E101</attrlabl>
+			<attrdef>Occupation: Part Time Government  [CATEGORIA DE OCUPACION RECODIFICADA: EVENTUAL_GOBIERNO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E102</attrlabl>
+			<attrdef>Occupation: Part Time Private Company [CATEGORIA DE OCUPACION RECODIFICADA: EVENTUAL_EMPRESA_PRIVADA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E103</attrlabl>
+			<attrdef>Occupation: Part Time Canal Comission [CATEGORIA DE OCUPACION RECODIFICADA: EVENTUAL_COMISION_DEL_CANAL]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E104</attrlabl>
+			<attrdef>Occupation: Part Time Non-Profit [CATEGORIA DE OCUPACION RECODIFICADA: EVENTUAL_INSTITUCION_SIN_FINES_]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E105</attrlabl>
+			<attrdef>Occupation: Part Time Domestic Service [CATEGORIA DE OCUPACION RECODIFICADA: EVENTAUL_SERVICIO_DOMESTICO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E106</attrlabl>
+			<attrdef>Occupation: Full-Time Government [CATEGORIA DE OCUPACION RECODIFICADA: PERMANENTE_GOBIERNO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E107</attrlabl>
+			<attrdef>Occupation: Full-Time Private Company [CATEGORIA DE OCUPACION RECODIFICADA: PERMANENTE_EMPRESA_PRIVADA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E108</attrlabl>
+			<attrdef>Occupation: Full-Time Canal Comission [CATEGORIA DE OCUPACION RECODIFICADA: PERMANENTE_COMISION_DEL_CANAL]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E109</attrlabl>
+			<attrdef>Occupation: Full-Time Non-Profit [CATEGORIA DE OCUPACION RECODIFICADA: PERMANENTE_INSTITUCION_SIN_FINE]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E110</attrlabl>
+			<attrdef>Occupation: Full-Time Domestic Service [CATEGORIA DE OCUPACION RECODIFICADA: PERMANENTE_SERVICIO_DOMESTICO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E111</attrlabl>
+			<attrdef>Occupation: Self Employed [CATEGORIA DE OCUPACION RECODIFICADA: INDEPENDIENTE_O_CUENTA_PROPIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E112</attrlabl>
+			<attrdef>Occupation: Patron Or Employer [CATEGORIA DE OCUPACION RECODIFICADA: PATRONO_O_EMPLEADOR]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E113</attrlabl>
+			<attrdef>Occupation: Family Worker [CATEGORIA DE OCUPACION RECODIFICADA: TRABAJADOR_FAMILIAR]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E114</attrlabl>
+			<attrdef>Occupation: Member Of A Cooperative [CATEGORIA DE OCUPACION RECODIFICADA: MIEMBRO_DE_UNA_COOPERATIVA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E115</attrlabl>
+			<attrdef>Occupation: Number Of Responses [CATEGORIA DE OCUPACION RECODIFICADA: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E116</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: No Income [INGRESO DE LA VIVIENDA RECODIFICADO: Sin_ingreso]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E117</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: Less Than 100 [INGRESO DE LA VIVIENDA RECODIFICADO: Menos_de_100]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E118</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 100-124 [INGRESO DE LA VIVIENDA RECODIFICADO: F100_124]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E119</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 125-174 [INGRESO DE LA VIVIENDA RECODIFICADO: F125_174]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E120</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 175-249 [INGRESO DE LA VIVIENDA RECODIFICADO: F175_249]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E121</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 250-399 [INGRESO DE LA VIVIENDA RECODIFICADO: F250_399]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E122</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 400-599 [INGRESO DE LA VIVIENDA RECODIFICADO: F400_599]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E123</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 600-799 [INGRESO DE LA VIVIENDA RECODIFICADO: F600_799]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E124</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 800-999 [INGRESO DE LA VIVIENDA RECODIFICADO: F800_999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E125</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 1499-1000 [INGRESO DE LA VIVIENDA RECODIFICADO: F1000_1499]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E126</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 1500-1999 [INGRESO DE LA VIVIENDA RECODIFICADO: F1500_1999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E127</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 2499-2000 [INGRESO DE LA VIVIENDA RECODIFICADO: F2000_2499]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E128</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 2999-2500 [INGRESO DE LA VIVIENDA RECODIFICADO: F2500_2999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E129</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 3999-3000 [INGRESO DE LA VIVIENDA RECODIFICADO: F3000_3999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E130</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 4999-4000 [INGRESO DE LA VIVIENDA RECODIFICADO: F4000_4999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E131</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: 5000 And More [INGRESO DE LA VIVIENDA RECODIFICADO: F5000_y_mÃ¡s]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E132</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: Undeclared [INGRESO DE LA VIVIENDA RECODIFICADO: No_declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E133</attrlabl>
+			<attrdef>Household Income Recoded In USD Or Balboa: Number Of Responses [INGRESO DE LA VIVIENDA RECODIFICADO: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E134</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: Less Than 25 [PAGO MENSUAL RECODIFICADO: Menos_de_25]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E135</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: 25-49 [PAGO MENSUAL RECODIFICADO: F25_49]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E136</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: 50-99 [PAGO MENSUAL RECODIFICADO: F50_99]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E137</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: 100-149 [PAGO MENSUAL RECODIFICADO: F100_149]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E138</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: 150-199 [PAGO MENSUAL RECODIFICADO: F150_199]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E139</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: 200-249 [PAGO MENSUAL RECODIFICADO: F200_249]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E140</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: 250-299 [PAGO MENSUAL RECODIFICADO: F250_299]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E141</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: 300-399 [PAGO MENSUAL RECODIFICADO: F300_399]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E142</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: 400-499 [PAGO MENSUAL RECODIFICADO: F400_499]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E143</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: 500-599 [PAGO MENSUAL RECODIFICADO: F500_599]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E144</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: 600-699 [PAGO MENSUAL RECODIFICADO: F600_699]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E145</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: 700-799 [PAGO MENSUAL RECODIFICADO: F700_799]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E146</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: 800 And More [PAGO MENSUAL RECODIFICADO: F800_Y_MAS]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E147</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: Undeclared [PAGO MENSUAL RECODIFICADO: NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E148</attrlabl>
+			<attrdef>Monthly Income In USD Or Balboa: Number Of Responses [PAGO MENSUAL RECODIFICADO: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Year</attrlabl>
+			<attrdef>Year</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv/>
+		</attr>
+	</detailed>
 </eainfo>
 
-<metainfo>
-<metd>20220801</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-</metainfo>
-
 <distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_panama_economic_2000</resdesc>
-<distrib>
-</distrib>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_panama_economic_2000</resdesc>
+	<distrib>
+	</distrib>
 </distinfo>
+
+<metainfo>
+	<metd>20220801</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

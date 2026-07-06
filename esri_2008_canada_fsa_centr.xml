@@ -27,7 +27,10 @@
 		</descript>
 		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2008</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2008</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>publication date</current>
 		</timeperd>
 		<status>
@@ -38,64 +41,64 @@
 			<bounding>
 				<westbc>
 -136.444820</westbc>
-				<eastbc>
+					<eastbc>
 -52.701386</eastbc>
-				<northbc>
+						<northbc>
 68.809761</northbc>
-				<southbc>
+							<southbc>
 42.052078</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>point</themekey>
-				<themekey>zip codes</themekey>
-				<themekey>five-digit zip codes</themekey>
-				<themekey>post offices</themekey>
-				<themekey>enclosing zip codes</themekey>
-				<themekey>forward sortation area centroids</themekey>
-			</theme>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>society</themekey>
-				<themekey>location</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Canada (6251999)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>Canada</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2007</tempkey>
-				<tempkey>2006</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>point</themekey>
+								<themekey>zip codes</themekey>
+								<themekey>five-digit zip codes</themekey>
+								<themekey>post offices</themekey>
+								<themekey>enclosing zip codes</themekey>
+								<themekey>forward sortation area centroids</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>society</themekey>
+								<themekey>location</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Canada (6251999)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>Canada</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2007</tempkey>
+								<tempkey>2006</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
 
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI</cntorg>
-					<cntper>Data Team</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>909-793-2853</cntvoice>
-				<cntfax>909-793-5953</cntfax>
-				<cntemail>info@esri.com</cntemail>
-				<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>ESRI</cntorg>
+									<cntper>Data Team</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>380 New York Street</address>
+									<city>Redlands</city>
+									<state>California</state>
+									<postal>92373-8100</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>909-793-2853</cntvoice>
+								<cntfax>909-793-5953</cntfax>
+								<cntemail>info@esri.com</cntemail>
+								<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
 				<cntinst>In the United States
 Please direct all inquiries regarding software/data pricing and consulting services to your local ESRI Regional Office.  For support, you may contact ESRI Support Center by telephone (voice) between 6:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing 888-377-4575; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com/; ESRI holidays excluded.
 
@@ -103,512 +106,512 @@ Outside the United States
 Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.
 
 For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/canada_fsa_centr.jpg</browsen>
-			<browsed>Thumbnail</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
-	</idinfo>
-	<dataqual>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-		<posacc>
-			<horizpa>
-				<horizpar>The horizontal positional accuracy is 167 feet.</horizpar>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Tele Atlas North America, Inc.</origin>
-						<pubdate>200702</pubdate>
-						<title>Tele Atlas StreetMap Premium for ArcGIS v. 9.0</title>
-						<edition>Version 9.0</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>Tele Atlas StreetMap Premium for ArcGIS</sername>
-							<issue>Version 9.0</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-							<publish>Tele Atlas North America, Inc.</publish>
-						</pubinfo>
-						<onlink>http://www.teleatlas.com/</onlink>
-					</citeinfo>
-				</srccite>
-				<srcscale>100000</srcscale>
-				<typesrc>DVD?ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>200702</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>200611</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>ground condition: 200611; publication date: 200702</srccurr>
-				</srctime>
-				<srccitea>Tele Atlas StreetMap Premium v. 9.0</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Extracted the data set from Tele Atlas StreetMap Premium for ArcGIS v. 9.0. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-				<srcused>Tele Atlas StreetMap Premium v. 9.0</srcused>
-				<procdate>20080502</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>EDS staff clipped out the Canadian features and exported the result to the geopackage format</procdesc>
-				<procdate>2009</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>Entity point</sdtstype>
-				<ptvctcnt>1603</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.000000</latres>
-				<longres>0.000000</longres>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/canada_fsa_centr.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
+					</idinfo>
+					<dataqual>
+						<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+						<posacc>
+							<horizpa>
+								<horizpar>The horizontal positional accuracy is 167 feet.</horizpar>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Tele Atlas North America, Inc.</origin>
+										<pubdate>200702</pubdate>
+										<title>Tele Atlas StreetMap Premium for ArcGIS v. 9.0</title>
+										<edition>Version 9.0</edition>
+										<geoform>vector digital data</geoform>
+										<serinfo>
+											<sername>Tele Atlas StreetMap Premium for ArcGIS</sername>
+											<issue>Version 9.0</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Lebanon, New Hampshire, USA</pubplace>
+											<publish>Tele Atlas North America, Inc.</publish>
+										</pubinfo>
+										<onlink>http://www.teleatlas.com/</onlink>
+									</citeinfo>
+								</srccite>
+								<srcscale>100000</srcscale>
+								<typesrc>DVD?ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<mdattim>
+											<sngdate>
+												<caldate>200702</caldate>
+											</sngdate>
+											<sngdate>
+												<caldate>200611</caldate>
+											</sngdate>
+										</mdattim>
+									</timeinfo>
+									<srccurr>ground condition: 200611; publication date: 200702</srccurr>
+								</srctime>
+								<srccitea>Tele Atlas StreetMap Premium v. 9.0</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Extracted the data set from Tele Atlas StreetMap Premium for ArcGIS v. 9.0. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+								<srcused>Tele Atlas StreetMap Premium v. 9.0</srcused>
+								<procdate>20080502</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>EDS staff clipped out the Canadian features and exported the result to the geopackage format</procdesc>
+								<procdate>2009</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>Entity point</sdtstype>
+								<ptvctcnt>1603</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000000</latres>
+								<longres>0.000000</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 canada_fsa_centr</enttypl>
-				<enttypd>The points represent the five-digit ZIP Code areas of the United States and the three-character Forward Sortation Areas (FSA) of Canada as centroids.</enttypd>
-				<enttypds>Tele Atlas North America, Inc.</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>ObjectID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>POSTAL</attrlabl>
-				<attrdef>The five-digit (ZIP) or three-character (FSA) postal code.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>Five-digit number for the United States.</edomv>
-						<edomvd>The five-digit number used by the postal service to identify an area where mail is delivered.</edomvd>
-						<edomvds>United States Postal Service</edomvds>
-					</edom>
-					<edom>
-						<edomv>Three-character code for Canada.</edomv>
-						<edomvd>The Forward Sortation Area (FSA) Code.</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>ENC_POSTAL</attrlabl>
-				<attrdef>Enclosing ZIP or FSA.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>Five-digit number for the United States.</edomv>
-						<edomvd>The five-digit number used by the postal service to identify an area where mail is delivered.</edomvd>
-						<edomvds>United States Postal Service</edomvds>
-					</edom>
-					<edom>
-						<edomv>Three-character code for Canada.</edomv>
-						<edomvd>The Forward Sortation Area (FSA) Code.</edomvd>
-						<edomvds>Canada Post Corporation</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>STATE</attrlabl>
-				<attrdef>State or Province two-letter abbreviation.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File; Canadian Provinces and Territories</codesetn>
-						<codesets>United States Postal Service; Canada Post Corporation</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>STFIPS</attrlabl>
-				<attrdef>State FIPS or Province code.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards; Abbreviations and Codes for Provinces and Territories</codesetn>
-						<codesets>National Institute of Standards and Technology; Statistics Canada</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME</attrlabl>
-				<attrdef>ZIP or FSA post office name.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<udom>Names for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME_TYPE</attrlabl>
-				<attrdef>The type of facility that the postal code represents for the U.S.; Canada is always blank.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File</codesetn>
-						<codesets>United States Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>COUNTY1</attrlabl>
-				<attrdef>The first county in which the ZIP Code is located; Canada is always blank.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CTY1FIPS</attrlabl>
-				<attrdef>The FIPS code for the first county in which the ZIP Code is located; Canada is always '000'.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>COUNTY2</attrlabl>
-				<attrdef>The second county in which the ZIP Code is located; Canada is always blank.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CTY2FIPS</attrlabl>
-				<attrdef>The FIPS code for the second county in which the ZIP Code is located; Canada is always '000'.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>COUNTY3</attrlabl>
-				<attrdef>The third county in which the ZIP Code is located; Canada is always blank.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CTY3FIPS</attrlabl>
-				<attrdef>The FIPS code for the third county in which the ZIP Code is located; Canada is always '000'.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>AREA_MI</attrlabl>
-				<attrdef>Area in square miles.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Calculated areas for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>LATITUDE</attrlabl>
-				<attrdef>The latitude for the feature.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<udom>Latitude values for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>LONGITUDE</attrlabl>
-				<attrdef>The longitude for the feature.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<udom>Longitude values for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>RPO_FLAG</attrlabl>
-				<attrdef>The Residential Post Office (post office with mostly residential post office box customers) indicator.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>R</edomv>
-						<edomvd>The ZIP Code is a residential post office (RPO) ZIP Code.</edomvd>
-						<edomvds>United States Postal Service</edomvds>
-					</edom>
-					<edom>
-						<edomv>blank</edomv>
-						<edomvd>The ZIP Code is not a residential post office or the feature is in Canada.</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>PC_TYPE</attrlabl>
-				<attrdef>The postal code type.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File</codesetn>
-						<codesets>United States Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>PT_LOC</attrlabl>
-				<attrdef>Point location indicator.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>A</edomv>
-						<edomvd>Centroid point represents the actual location of the point ZIP.</edomvd>
-						<edomvds>Tele Atlas North America, Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>blank</edomv>
-						<edomvd>Centroid is calculated.</edomvd>
-						<edomvds>Tele Atlas North America, Inc.</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME1</attrlabl>
-				<attrdef>Alternate postal name 1.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File</codesetn>
-						<codesets>United States Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME_TYPE1</attrlabl>
-				<attrdef>Alternate postal name type 1.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File</codesetn>
-						<codesets>United States Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME2</attrlabl>
-				<attrdef>Alternate postal name 2.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File</codesetn>
-						<codesets>United States Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME_TYPE2</attrlabl>
-				<attrdef>Alternate postal name type 2.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File</codesetn>
-						<codesets>United States Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME3</attrlabl>
-				<attrdef>Alternate postal name 3.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File</codesetn>
-						<codesets>United States Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME_TYPE3</attrlabl>
-				<attrdef>Alternate postal name type 3.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File</codesetn>
-						<codesets>United States Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME4</attrlabl>
-				<attrdef>Alternate postal name 4.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File</codesetn>
-						<codesets>United States Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME_TYPE4</attrlabl>
-				<attrdef>Alternate postal name type 4.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File</codesetn>
-						<codesets>United States Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME5</attrlabl>
-				<attrdef>Alternate postal name 5.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File</codesetn>
-						<codesets>United States Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME_TYPE5</attrlabl>
-				<attrdef>Alternate postal name type 5.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>USPS City/State File</codesetn>
-						<codesets>United States Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI; ESRI International Distributors</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>800-447-9778</cntvoice>
+									<enttypd>The points represent the five-digit ZIP Code areas of the United States and the three-character Forward Sortation Areas (FSA) of Canada as centroids.</enttypd>
+									<enttypds>Tele Atlas North America, Inc.</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>ObjectID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>POSTAL</attrlabl>
+									<attrdef>The five-digit (ZIP) or three-character (FSA) postal code.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>Five-digit number for the United States.</edomv>
+											<edomvd>The five-digit number used by the postal service to identify an area where mail is delivered.</edomvd>
+											<edomvds>United States Postal Service</edomvds>
+										</edom>
+										<edom>
+											<edomv>Three-character code for Canada.</edomv>
+											<edomvd>The Forward Sortation Area (FSA) Code.</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>ENC_POSTAL</attrlabl>
+									<attrdef>Enclosing ZIP or FSA.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>Five-digit number for the United States.</edomv>
+											<edomvd>The five-digit number used by the postal service to identify an area where mail is delivered.</edomvd>
+											<edomvds>United States Postal Service</edomvds>
+										</edom>
+										<edom>
+											<edomv>Three-character code for Canada.</edomv>
+											<edomvd>The Forward Sortation Area (FSA) Code.</edomvd>
+											<edomvds>Canada Post Corporation</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STATE</attrlabl>
+									<attrdef>State or Province two-letter abbreviation.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File; Canadian Provinces and Territories</codesetn>
+											<codesets>United States Postal Service; Canada Post Corporation</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STFIPS</attrlabl>
+									<attrdef>State FIPS or Province code.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards; Abbreviations and Codes for Provinces and Territories</codesetn>
+											<codesets>National Institute of Standards and Technology; Statistics Canada</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME</attrlabl>
+									<attrdef>ZIP or FSA post office name.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<udom>Names for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME_TYPE</attrlabl>
+									<attrdef>The type of facility that the postal code represents for the U.S.; Canada is always blank.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File</codesetn>
+											<codesets>United States Postal Service</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>COUNTY1</attrlabl>
+									<attrdef>The first county in which the ZIP Code is located; Canada is always blank.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CTY1FIPS</attrlabl>
+									<attrdef>The FIPS code for the first county in which the ZIP Code is located; Canada is always '000'.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>COUNTY2</attrlabl>
+									<attrdef>The second county in which the ZIP Code is located; Canada is always blank.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CTY2FIPS</attrlabl>
+									<attrdef>The FIPS code for the second county in which the ZIP Code is located; Canada is always '000'.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>COUNTY3</attrlabl>
+									<attrdef>The third county in which the ZIP Code is located; Canada is always blank.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CTY3FIPS</attrlabl>
+									<attrdef>The FIPS code for the third county in which the ZIP Code is located; Canada is always '000'.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>AREA_MI</attrlabl>
+									<attrdef>Area in square miles.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Calculated areas for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LATITUDE</attrlabl>
+									<attrdef>The latitude for the feature.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<udom>Latitude values for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LONGITUDE</attrlabl>
+									<attrdef>The longitude for the feature.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<udom>Longitude values for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>RPO_FLAG</attrlabl>
+									<attrdef>The Residential Post Office (post office with mostly residential post office box customers) indicator.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>R</edomv>
+											<edomvd>The ZIP Code is a residential post office (RPO) ZIP Code.</edomvd>
+											<edomvds>United States Postal Service</edomvds>
+										</edom>
+										<edom>
+											<edomv>blank</edomv>
+											<edomvd>The ZIP Code is not a residential post office or the feature is in Canada.</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>PC_TYPE</attrlabl>
+									<attrdef>The postal code type.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File</codesetn>
+											<codesets>United States Postal Service</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>PT_LOC</attrlabl>
+									<attrdef>Point location indicator.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>A</edomv>
+											<edomvd>Centroid point represents the actual location of the point ZIP.</edomvd>
+											<edomvds>Tele Atlas North America, Inc.</edomvds>
+										</edom>
+										<edom>
+											<edomv>blank</edomv>
+											<edomvd>Centroid is calculated.</edomvd>
+											<edomvds>Tele Atlas North America, Inc.</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME1</attrlabl>
+									<attrdef>Alternate postal name 1.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File</codesetn>
+											<codesets>United States Postal Service</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME_TYPE1</attrlabl>
+									<attrdef>Alternate postal name type 1.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File</codesetn>
+											<codesets>United States Postal Service</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME2</attrlabl>
+									<attrdef>Alternate postal name 2.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File</codesetn>
+											<codesets>United States Postal Service</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME_TYPE2</attrlabl>
+									<attrdef>Alternate postal name type 2.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File</codesetn>
+											<codesets>United States Postal Service</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME3</attrlabl>
+									<attrdef>Alternate postal name 3.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File</codesetn>
+											<codesets>United States Postal Service</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME_TYPE3</attrlabl>
+									<attrdef>Alternate postal name type 3.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File</codesetn>
+											<codesets>United States Postal Service</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME4</attrlabl>
+									<attrdef>Alternate postal name 4.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File</codesetn>
+											<codesets>United States Postal Service</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME_TYPE4</attrlabl>
+									<attrdef>Alternate postal name type 4.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File</codesetn>
+											<codesets>United States Postal Service</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME5</attrlabl>
+									<attrdef>Alternate postal name 5.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File</codesetn>
+											<codesets>United States Postal Service</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME_TYPE5</attrlabl>
+									<attrdef>Alternate postal name type 5.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>USPS City/State File</codesetn>
+											<codesets>United States Postal Service</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>ESRI; ESRI International Distributors</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>380 New York Street</address>
+										<city>Redlands</city>
+										<state>California</state>
+										<postal>92373-8100</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>800-447-9778</cntvoice>
 				<cntinst>In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data.
 
 Outside the United States, please direct all inquiries to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.</cntinst>
-			</cntinfo>
-		</distrib>
-		<resdesc>esri_2008_canada_fsa_centr</resdesc>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>geopackage</formname>
-					<formspec>zip</formspec>
+								</cntinfo>
+							</distrib>
+							<resdesc>esri_2008_canada_fsa_centr</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>geopackage</formname>
+										<formspec>zip</formspec>
 		
-				</digtinfo>
-				<digtopt>
-					<offoptn>
-						<reccap>
-						</reccap>
-					</offoptn>
-				</digtopt>
-			</digform>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>20100304</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metextns>
-			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
-			<metprof>ESRI Metadata Profile</metprof>
-		</metextns>
-	</metainfo>
-</metadata>
+									</digtinfo>
+									<digtopt>
+										<offoptn>
+											<reccap>
+											</reccap>
+										</offoptn>
+									</digtopt>
+								</digform>
+							</stdorder>
+						</distinfo>
+						<metainfo>
+							<metd>20100304</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+							<metextns>
+								<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+								<metprof>ESRI Metadata Profile</metprof>
+							</metextns>
+						</metainfo>
+					</metadata>

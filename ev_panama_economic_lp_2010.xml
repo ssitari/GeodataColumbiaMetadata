@@ -1,1110 +1,1110 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Panama (3703430)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Panama</placekey>
-<placekey>Panama</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2010</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-82.876697</westbc>
-<eastbc>-77.964005</eastbc>
-<northbc>9.548949</northbc>
-<southbc>7.402479</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Panama (3703430)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Panama</placekey>
+				<placekey>Panama</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2010</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-82.876697</westbc>
+				<eastbc>-77.964005</eastbc>
+				<northbc>9.548949</northbc>
+				<southbc>7.402479</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Panama Economic Census Data (4th level ADM), 2010 is a polygon theme representing populated places (4th level administrative units) in Panama as of 2010.  Attribute data include economic variables of the 2010 Panamanian census.
 Official population and housing data for Panama from the 2010 census. This census is provided a combination of barrio administrative level polygons (ADM5) and populated place administrative level polygons (ADM4) for a total of 13,124 polygons. Each census sector has 1188 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo: Hombre" was updated to BT_D001 and given the alias "Sex: Man[Sexo: Hombre]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social. BT relates to the Barrios and LP relates to the populated places). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Panama Economic Census Data (4th level ADM), 2010</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Panama Economic Census Data (4th level ADM), 2010</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_panama_economic_lp_2010.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2010</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2010</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Panama_2010</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E001</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: Less than 100[Groupos de Ingreso de Hogares en Viviendas Particulares: Menos de 100]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E002</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 100-124[Groupos de Ingreso de Hogares en Viviendas Particulares: 100-124]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E003</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 125-174[Groupos de Ingreso de Hogares en Viviendas Particulares: 125-174]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E004</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 175-249[Groupos de Ingreso de Hogares en Viviendas Particulares: 175-249]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E005</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 250-399[Groupos de Ingreso de Hogares en Viviendas Particulares: 250-399]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E006</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 400-599[Groupos de Ingreso de Hogares en Viviendas Particulares: 400-599]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E007</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 600-799[Groupos de Ingreso de Hogares en Viviendas Particulares: 600-799]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E008</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 800-999[Groupos de Ingreso de Hogares en Viviendas Particulares: 800-999]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E009</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 1000-1499[Groupos de Ingreso de Hogares en Viviendas Particulares: 1000-1499]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E010</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 1500-1999[Groupos de Ingreso de Hogares en Viviendas Particulares: 1500-1999]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E011</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 2000-2499[Groupos de Ingreso de Hogares en Viviendas Particulares: 2000-2499]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E012</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 2500-2999[Groupos de Ingreso de Hogares en Viviendas Particulares: 2500-2999]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E013</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 3000-3999[Groupos de Ingreso de Hogares en Viviendas Particulares: 3000-3999]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E014</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 4000-4999[Groupos de Ingreso de Hogares en Viviendas Particulares: 4000-4999]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E015</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: 5000 and more[Groupos de Ingreso de Hogares en Viviendas Particulares: 5000 y más]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E016</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: Undeclared[Groupos de Ingreso de Hogares en Viviendas Particulares: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E017</attrlabl>
-    <attrdef>Household Income Groups in Private Houses: Total[Groupos de Ingreso de Hogares en Viviendas Particulares: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E018</attrlabl>
-    <attrdef>Income Groups in Private Houses: Less than 100[Groupos de Ingreso de la Vivienda Particular: Menos de 100]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E019</attrlabl>
-    <attrdef>Income Groups in Private Houses: 100-124[Groupos de Ingreso de la Vivienda Particular: 100-124]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E020</attrlabl>
-    <attrdef>Income Groups in Private Houses: 125-174[Groupos de Ingreso de la Vivienda Particular: 125-174]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E021</attrlabl>
-    <attrdef>Income Groups in Private Houses: 175-249[Groupos de Ingreso de la Vivienda Particular: 175-249]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E022</attrlabl>
-    <attrdef>Income Groups in Private Houses: 250-399[Groupos de Ingreso de la Vivienda Particular: 250-399]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E023</attrlabl>
-    <attrdef>Income Groups in Private Houses: 400-599[Groupos de Ingreso de la Vivienda Particular: 400-599]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E024</attrlabl>
-    <attrdef>Income Groups in Private Houses: 600-799[Groupos de Ingreso de la Vivienda Particular: 600-799]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E025</attrlabl>
-    <attrdef>Income Groups in Private Houses: 800-999[Groupos de Ingreso de la Vivienda Particular: 800-999]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E026</attrlabl>
-    <attrdef>Income Groups in Private Houses: 1000-1499[Groupos de Ingreso de la Vivienda Particular: 1000-1499]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E027</attrlabl>
-    <attrdef>Income Groups in Private Houses: 1500-1999[Groupos de Ingreso de la Vivienda Particular: 1500-1999]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E028</attrlabl>
-    <attrdef>Income Groups in Private Houses: 2000-2499[Groupos de Ingreso de la Vivienda Particular: 2000-2499]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E029</attrlabl>
-    <attrdef>Income Groups in Private Houses: 2500-2999[Groupos de Ingreso de la Vivienda Particular: 2500-2999]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E030</attrlabl>
-    <attrdef>Income Groups in Private Houses: 3000-3999[Groupos de Ingreso de la Vivienda Particular: 3000-3999]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E031</attrlabl>
-    <attrdef>Income Groups in Private Houses: 4000-4999[Groupos de Ingreso de la Vivienda Particular: 4000-4999]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E032</attrlabl>
-    <attrdef>Income Groups in Private Houses: 5000 and more[Groupos de Ingreso de la Vivienda Particular: 5000 y más]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E033</attrlabl>
-    <attrdef>Income Groups in Private Houses: Undeclared[Groupos de Ingreso de la Vivienda Particular: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E034</attrlabl>
-    <attrdef>Income Groups in Private Houses: Total[Groupos de Ingreso de la Vivienda Particular: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E035</attrlabl>
-    <attrdef>Work Last Week: Yes[Trabajo La Semana Pasada: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E036</attrlabl>
-    <attrdef>Work Last Week: No[Trabajo La Semana Pasada: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E037</attrlabl>
-    <attrdef>Work Last Week: Total[Trabajo La Semana Pasada: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E038</attrlabl>
-    <attrdef>Has Work, Absent From Work: Yes[Tiene Trabajo Del Cual Estuvo Ausente: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E039</attrlabl>
-    <attrdef>Has Work, Absent From Work: No[Tiene Trabajo Del Cual Estuvo Ausente: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E040</attrlabl>
-    <attrdef>Has Work, Absent From Work: Total[Tiene Trabajo Del Cual Estuvo Ausente: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E041</attrlabl>
-    <attrdef>Some Work Performed: Yes[Realizo Algun Trabajo: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E042</attrlabl>
-    <attrdef>Some Work Performed: No[Realizo Algun Trabajo: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E043</attrlabl>
-    <attrdef>Some Work Performed: Total[Realizo Algun Trabajo: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E044</attrlabl>
-    <attrdef>Looked for Work During the Last Week: Yes[Busco Trabajo La Semana Pasada: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E045</attrlabl>
-    <attrdef>Looked for Work During the Last Week: No[Busco Trabajo La Semana Pasada: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E046</attrlabl>
-    <attrdef>Looked for Work During the Last Week: Total[Busco Trabajo La Semana Pasada: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E047</attrlabl>
-    <attrdef>Looked for Work During the Last Month: Yes[Busco Trabajo el Mes Pasado: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E048</attrlabl>
-    <attrdef>Looked for Work During the Last Month: No[Busco Trabajo el Mes Pasado: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E049</attrlabl>
-    <attrdef>Looked for Work During the Last Month: Total[Busco Trabajo el Mes Pasado: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E050</attrlabl>
-    <attrdef>Reason for Not Looking for Work: Work for Fixed Periods [Porque Motivo No Busco Trabajo: Hace Trabajos por Periodos Fijos]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E051</attrlabl>
-    <attrdef>Reason for Not Looking for Work: Already Got a Job[Porque Motivo No Busco Trabajo: Ya Consiguió Trabajo]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E052</attrlabl>
-    <attrdef>Reason for Not Looking for Work: Sought Before and Awaits News[Porque Motivo No Busco Trabajo: Buscó Antes y Espera Noticias]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E053</attrlabl>
-    <attrdef>Reason for Not Looking for Work: Got Tired of Looking for Work[Porque Motivo No Busco Trabajo: Se Cansó de Buscar Trabajo]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E054</attrlabl>
-    <attrdef>Reason for Not Looking for Work: Retired or Old Age Pensioner[Porque Motivo No Busco Trabajo: Jubilado(a) o Pensionado(a) por Vejez]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E055</attrlabl>
-    <attrdef>Reason for Not Looking for Work: Accident or Illness Pensioner[Porque Motivo No Busco Trabajo: Pensionado(a) (Por Accidente o Enfermedad)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E056</attrlabl>
-    <attrdef>Reason for Not Looking for Work: Student Only[Porque Motivo No Busco Trabajo: Estudiante Solamente]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E057</attrlabl>
-    <attrdef>Reason for Not Looking for Work: Housewife Alone or Household Worker[Porque Motivo No Busco Trabajo: Ama de Casa Solamente o Trabajador del Hogar]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E058</attrlabl>
-    <attrdef>Reason for Not Looking for Work: Permanently Incapacitated to Work[Porque Motivo No Busco Trabajo: Incapacitado(a) Permanentemente Para Trabajar]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E059</attrlabl>
-    <attrdef>Reason for Not Looking for Work: Older Age (70 and More)[Porque Motivo No Busco Trabajo: Edad Avanzada (70 Años y Más)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E060</attrlabl>
-    <attrdef>Reason for Not Looking for Work: Other/Inactive[Porque Motivo No Busco Trabajo: Otros(as) Inactivos(as)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E061</attrlabl>
-    <attrdef>Reason for Not Looking for Work: Total[Porque Motivo No Busco Trabajo: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E062</attrlabl>
-    <attrdef>Occupational Category: Government Employee[Categoria de Ocupacion: Empleado(a) del Gobierno]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E063</attrlabl>
-    <attrdef>Occupational Category: Nonprofit Organization Employee [Categoria de Ocupacion: Empleado(a) de Una Organización Sin Fines de Lucro]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E064</attrlabl>
-    <attrdef>Occupational Category: Employee of a Cooperative[Categoria de Ocupacion: Empleado(a) de Una Cooperativa]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E065</attrlabl>
-    <attrdef>Occupational Category: Private Company Employee[Categoria de Ocupacion: Empleado(a) de Empresa Privada]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E066</attrlabl>
-    <attrdef>Occupational Category: Domestic Servant Employee[Categoria de Ocupacion: Empleado del Servicio Domestico]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E067</attrlabl>
-    <attrdef>Occupational Category: Employee of the Canal Commission or Defense Sites[Categoria de Ocupacion: Empleado de la Comisión del Canal o Sitios de Defensa]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E068</attrlabl>
-    <attrdef>Occupational Category: On Their Own[Categoria de Ocupacion: Por Cuenta Propia]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E069</attrlabl>
-    <attrdef>Occupational Category: Owner[Categoria de Ocupacion: Patrono(a) Dueño(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E070</attrlabl>
-    <attrdef>Occupational Category: Member of Cooperative Production[Categoria de Ocupacion: Miembro de Cooperativa de Producción]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E071</attrlabl>
-    <attrdef>Occupational Category: Family Worker[Categoria de Ocupacion: Trabajador(a) Familiar]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E072</attrlabl>
-    <attrdef>Occupational Category: Total[Categoria de Ocupacion: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E073</attrlabl>
-    <attrdef>Type of Contract: Permanent[Tipo de Contratacion: Permanente]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E074</attrlabl>
-    <attrdef>Type of Contract: Specific Works Contract[Tipo de Contratacion: Contrato por Obra Determinada]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E075</attrlabl>
-    <attrdef>Type of Contract: Term Contract [Tipo de Contratacion: Contrato Definido]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E076</attrlabl>
-    <attrdef>Type of Contract: Indefinte Contract[Tipo de Contratacion: Contrato Indefinido]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E077</attrlabl>
-    <attrdef>Type of Contract: No Written Contract[Tipo de Contratacion: Sin Contrato Escrito]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E078</attrlabl>
-    <attrdef>Type of Contract: Total[Tipo de Contratacion: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E079</attrlabl>
-    <attrdef>Has Income: Yes[Tiene Ingreso: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E080</attrlabl>
-    <attrdef>Has Income: No[Tiene Ingreso: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E081</attrlabl>
-    <attrdef>Has Income: Undeclared[Tiene Ingreso: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E082</attrlabl>
-    <attrdef>Has Income: Total[Tiene Ingreso: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E083</attrlabl>
-    <attrdef>Description of Other Help: Clothing/Shoes[Descripción de Otra Ayuda: Ropa/Zapato]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E084</attrlabl>
-    <attrdef>Description of Other Help: Gifts[Descripción de Otra Ayuda: Regalos]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E085</attrlabl>
-    <attrdef>Description of Other Help: Medicine, Eyeglasses, Etc.[Descripción de Otra Ayuda: Medicina, Lentes, Etc.]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E086</attrlabl>
-    <attrdef>Description of Other Help: School Supplies[Descripción de Otra Ayuda: Utiles Escolares]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E087</attrlabl>
-    <attrdef>Description of Other Help: Appliances[Descripción de Otra Ayuda: Electrodomesticos]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E088</attrlabl>
-    <attrdef>Description of Other Help: Payment of Electricity, Water or Telephone[Descripción de Otra Ayuda: Pago de Luz, Agua o Telefono]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E089</attrlabl>
-    <attrdef>Description of Other Help: Transportation[Descripción de Otra Ayuda: Transporte]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E090</attrlabl>
-    <attrdef>Description of Other Help: Bonds[Descripción de Otra Ayuda: Bonos]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E091</attrlabl>
-    <attrdef>Description of Other Help: Lease payment or Mortgage[Descripción de Otra Ayuda: Pago de Arrendamiento y-o Hipoteca]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E092</attrlabl>
-    <attrdef>Description of Other Help: Diet or Viatical[Descripción de Otra Ayuda: Dieta o Viático]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E093</attrlabl>
-    <attrdef>Description of Other Help: Tuition Payment[Descripción de Otra Ayuda: Pago de Matrícula]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E094</attrlabl>
-    <attrdef>Description of Other Help: Building Materials[Descripción de Otra Ayuda: Materiales de Construcción]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E095</attrlabl>
-    <attrdef>Description of Other Help: Food[Descripción de Otra Ayuda: Comida]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E096</attrlabl>
-    <attrdef>Description of Other Help: Program 100 for 70s[Descripción de Otra Ayuda: Programa 100 para los 70]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E097</attrlabl>
-    <attrdef>Description of Other Help: Opportunities Network[Descripción de Otra Ayuda: Red de Oportunidades]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E098</attrlabl>
-    <attrdef>Description of Other Help: SENAPAN or Bono Family Food[Descripción de Otra Ayuda: SENAPAN o Bono Familiar para Alimentos]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E099</attrlabl>
-    <attrdef>Description of Other Help: Not Stated[Descripción de Otra Ayuda: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E100</attrlabl>
-    <attrdef>Description of Other Help: Bono Disability (Office First Lady)[Descripción de Otra Ayuda: Bono por Discapacidad (Despacho Primera Dama)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E101</attrlabl>
-    <attrdef>Description of Other Help: SERPAN[Descripción de Otra Ayuda: SERPAN]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E102</attrlabl>
-    <attrdef>Description of Other Help: Total[Descripción de Otra Ayuda: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E103</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: Less than 25[Pago Mensual de Alquiler o Hipoteca: Menos de 25]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E104</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: 25-49[Pago Mensual de Alquiler o Hipoteca: 25-49]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E105</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: 50-99[Pago Mensual de Alquiler o Hipoteca: 50-99]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E106</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: 100-149[Pago Mensual de Alquiler o Hipoteca: 100-149]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E107</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: 150-199[Pago Mensual de Alquiler o Hipoteca: 150-199]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E108</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: 200-249[Pago Mensual de Alquiler o Hipoteca: 200-249]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E109</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: 250-299[Pago Mensual de Alquiler o Hipoteca: 250-299]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E110</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: 300-399[Pago Mensual de Alquiler o Hipoteca: 300-399]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E111</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: 400-499[Pago Mensual de Alquiler o Hipoteca: 400-499]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E112</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: 500-599[Pago Mensual de Alquiler o Hipoteca: 500-599]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E113</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: 600-699[Pago Mensual de Alquiler o Hipoteca: 600-699]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E114</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: 700-799[Pago Mensual de Alquiler o Hipoteca: 700-799]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E115</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: 800 and More[Pago Mensual de Alquiler o Hipoteca: 800 y Mas]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E116</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: Undeclared[Pago Mensual de Alquiler o Hipoteca: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_E117</attrlabl>
-    <attrdef>Monthly Rent or Mortage Payment: Total[Pago Mensual de Alquiler o Hipoteca: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Panama_2010</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E001</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: Less than 100[Groupos de Ingreso de Hogares en Viviendas Particulares: Menos de 100]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E002</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 100-124[Groupos de Ingreso de Hogares en Viviendas Particulares: 100-124]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E003</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 125-174[Groupos de Ingreso de Hogares en Viviendas Particulares: 125-174]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E004</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 175-249[Groupos de Ingreso de Hogares en Viviendas Particulares: 175-249]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E005</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 250-399[Groupos de Ingreso de Hogares en Viviendas Particulares: 250-399]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E006</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 400-599[Groupos de Ingreso de Hogares en Viviendas Particulares: 400-599]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E007</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 600-799[Groupos de Ingreso de Hogares en Viviendas Particulares: 600-799]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E008</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 800-999[Groupos de Ingreso de Hogares en Viviendas Particulares: 800-999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E009</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 1000-1499[Groupos de Ingreso de Hogares en Viviendas Particulares: 1000-1499]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E010</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 1500-1999[Groupos de Ingreso de Hogares en Viviendas Particulares: 1500-1999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E011</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 2000-2499[Groupos de Ingreso de Hogares en Viviendas Particulares: 2000-2499]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E012</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 2500-2999[Groupos de Ingreso de Hogares en Viviendas Particulares: 2500-2999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E013</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 3000-3999[Groupos de Ingreso de Hogares en Viviendas Particulares: 3000-3999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E014</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 4000-4999[Groupos de Ingreso de Hogares en Viviendas Particulares: 4000-4999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E015</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: 5000 and more[Groupos de Ingreso de Hogares en Viviendas Particulares: 5000 y más]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E016</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: Undeclared[Groupos de Ingreso de Hogares en Viviendas Particulares: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E017</attrlabl>
+			<attrdef>Household Income Groups in Private Houses: Total[Groupos de Ingreso de Hogares en Viviendas Particulares: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E018</attrlabl>
+			<attrdef>Income Groups in Private Houses: Less than 100[Groupos de Ingreso de la Vivienda Particular: Menos de 100]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E019</attrlabl>
+			<attrdef>Income Groups in Private Houses: 100-124[Groupos de Ingreso de la Vivienda Particular: 100-124]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E020</attrlabl>
+			<attrdef>Income Groups in Private Houses: 125-174[Groupos de Ingreso de la Vivienda Particular: 125-174]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E021</attrlabl>
+			<attrdef>Income Groups in Private Houses: 175-249[Groupos de Ingreso de la Vivienda Particular: 175-249]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E022</attrlabl>
+			<attrdef>Income Groups in Private Houses: 250-399[Groupos de Ingreso de la Vivienda Particular: 250-399]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E023</attrlabl>
+			<attrdef>Income Groups in Private Houses: 400-599[Groupos de Ingreso de la Vivienda Particular: 400-599]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E024</attrlabl>
+			<attrdef>Income Groups in Private Houses: 600-799[Groupos de Ingreso de la Vivienda Particular: 600-799]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E025</attrlabl>
+			<attrdef>Income Groups in Private Houses: 800-999[Groupos de Ingreso de la Vivienda Particular: 800-999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E026</attrlabl>
+			<attrdef>Income Groups in Private Houses: 1000-1499[Groupos de Ingreso de la Vivienda Particular: 1000-1499]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E027</attrlabl>
+			<attrdef>Income Groups in Private Houses: 1500-1999[Groupos de Ingreso de la Vivienda Particular: 1500-1999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E028</attrlabl>
+			<attrdef>Income Groups in Private Houses: 2000-2499[Groupos de Ingreso de la Vivienda Particular: 2000-2499]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E029</attrlabl>
+			<attrdef>Income Groups in Private Houses: 2500-2999[Groupos de Ingreso de la Vivienda Particular: 2500-2999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E030</attrlabl>
+			<attrdef>Income Groups in Private Houses: 3000-3999[Groupos de Ingreso de la Vivienda Particular: 3000-3999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E031</attrlabl>
+			<attrdef>Income Groups in Private Houses: 4000-4999[Groupos de Ingreso de la Vivienda Particular: 4000-4999]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E032</attrlabl>
+			<attrdef>Income Groups in Private Houses: 5000 and more[Groupos de Ingreso de la Vivienda Particular: 5000 y más]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E033</attrlabl>
+			<attrdef>Income Groups in Private Houses: Undeclared[Groupos de Ingreso de la Vivienda Particular: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E034</attrlabl>
+			<attrdef>Income Groups in Private Houses: Total[Groupos de Ingreso de la Vivienda Particular: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E035</attrlabl>
+			<attrdef>Work Last Week: Yes[Trabajo La Semana Pasada: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E036</attrlabl>
+			<attrdef>Work Last Week: No[Trabajo La Semana Pasada: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E037</attrlabl>
+			<attrdef>Work Last Week: Total[Trabajo La Semana Pasada: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E038</attrlabl>
+			<attrdef>Has Work, Absent From Work: Yes[Tiene Trabajo Del Cual Estuvo Ausente: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E039</attrlabl>
+			<attrdef>Has Work, Absent From Work: No[Tiene Trabajo Del Cual Estuvo Ausente: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E040</attrlabl>
+			<attrdef>Has Work, Absent From Work: Total[Tiene Trabajo Del Cual Estuvo Ausente: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E041</attrlabl>
+			<attrdef>Some Work Performed: Yes[Realizo Algun Trabajo: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E042</attrlabl>
+			<attrdef>Some Work Performed: No[Realizo Algun Trabajo: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E043</attrlabl>
+			<attrdef>Some Work Performed: Total[Realizo Algun Trabajo: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E044</attrlabl>
+			<attrdef>Looked for Work During the Last Week: Yes[Busco Trabajo La Semana Pasada: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E045</attrlabl>
+			<attrdef>Looked for Work During the Last Week: No[Busco Trabajo La Semana Pasada: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E046</attrlabl>
+			<attrdef>Looked for Work During the Last Week: Total[Busco Trabajo La Semana Pasada: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E047</attrlabl>
+			<attrdef>Looked for Work During the Last Month: Yes[Busco Trabajo el Mes Pasado: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E048</attrlabl>
+			<attrdef>Looked for Work During the Last Month: No[Busco Trabajo el Mes Pasado: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E049</attrlabl>
+			<attrdef>Looked for Work During the Last Month: Total[Busco Trabajo el Mes Pasado: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E050</attrlabl>
+			<attrdef>Reason for Not Looking for Work: Work for Fixed Periods [Porque Motivo No Busco Trabajo: Hace Trabajos por Periodos Fijos]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E051</attrlabl>
+			<attrdef>Reason for Not Looking for Work: Already Got a Job[Porque Motivo No Busco Trabajo: Ya Consiguió Trabajo]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E052</attrlabl>
+			<attrdef>Reason for Not Looking for Work: Sought Before and Awaits News[Porque Motivo No Busco Trabajo: Buscó Antes y Espera Noticias]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E053</attrlabl>
+			<attrdef>Reason for Not Looking for Work: Got Tired of Looking for Work[Porque Motivo No Busco Trabajo: Se Cansó de Buscar Trabajo]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E054</attrlabl>
+			<attrdef>Reason for Not Looking for Work: Retired or Old Age Pensioner[Porque Motivo No Busco Trabajo: Jubilado(a) o Pensionado(a) por Vejez]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E055</attrlabl>
+			<attrdef>Reason for Not Looking for Work: Accident or Illness Pensioner[Porque Motivo No Busco Trabajo: Pensionado(a) (Por Accidente o Enfermedad)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E056</attrlabl>
+			<attrdef>Reason for Not Looking for Work: Student Only[Porque Motivo No Busco Trabajo: Estudiante Solamente]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E057</attrlabl>
+			<attrdef>Reason for Not Looking for Work: Housewife Alone or Household Worker[Porque Motivo No Busco Trabajo: Ama de Casa Solamente o Trabajador del Hogar]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E058</attrlabl>
+			<attrdef>Reason for Not Looking for Work: Permanently Incapacitated to Work[Porque Motivo No Busco Trabajo: Incapacitado(a) Permanentemente Para Trabajar]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E059</attrlabl>
+			<attrdef>Reason for Not Looking for Work: Older Age (70 and More)[Porque Motivo No Busco Trabajo: Edad Avanzada (70 Años y Más)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E060</attrlabl>
+			<attrdef>Reason for Not Looking for Work: Other/Inactive[Porque Motivo No Busco Trabajo: Otros(as) Inactivos(as)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E061</attrlabl>
+			<attrdef>Reason for Not Looking for Work: Total[Porque Motivo No Busco Trabajo: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E062</attrlabl>
+			<attrdef>Occupational Category: Government Employee[Categoria de Ocupacion: Empleado(a) del Gobierno]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E063</attrlabl>
+			<attrdef>Occupational Category: Nonprofit Organization Employee [Categoria de Ocupacion: Empleado(a) de Una Organización Sin Fines de Lucro]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E064</attrlabl>
+			<attrdef>Occupational Category: Employee of a Cooperative[Categoria de Ocupacion: Empleado(a) de Una Cooperativa]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E065</attrlabl>
+			<attrdef>Occupational Category: Private Company Employee[Categoria de Ocupacion: Empleado(a) de Empresa Privada]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E066</attrlabl>
+			<attrdef>Occupational Category: Domestic Servant Employee[Categoria de Ocupacion: Empleado del Servicio Domestico]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E067</attrlabl>
+			<attrdef>Occupational Category: Employee of the Canal Commission or Defense Sites[Categoria de Ocupacion: Empleado de la Comisión del Canal o Sitios de Defensa]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E068</attrlabl>
+			<attrdef>Occupational Category: On Their Own[Categoria de Ocupacion: Por Cuenta Propia]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E069</attrlabl>
+			<attrdef>Occupational Category: Owner[Categoria de Ocupacion: Patrono(a) Dueño(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E070</attrlabl>
+			<attrdef>Occupational Category: Member of Cooperative Production[Categoria de Ocupacion: Miembro de Cooperativa de Producción]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E071</attrlabl>
+			<attrdef>Occupational Category: Family Worker[Categoria de Ocupacion: Trabajador(a) Familiar]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E072</attrlabl>
+			<attrdef>Occupational Category: Total[Categoria de Ocupacion: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E073</attrlabl>
+			<attrdef>Type of Contract: Permanent[Tipo de Contratacion: Permanente]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E074</attrlabl>
+			<attrdef>Type of Contract: Specific Works Contract[Tipo de Contratacion: Contrato por Obra Determinada]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E075</attrlabl>
+			<attrdef>Type of Contract: Term Contract [Tipo de Contratacion: Contrato Definido]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E076</attrlabl>
+			<attrdef>Type of Contract: Indefinte Contract[Tipo de Contratacion: Contrato Indefinido]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E077</attrlabl>
+			<attrdef>Type of Contract: No Written Contract[Tipo de Contratacion: Sin Contrato Escrito]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E078</attrlabl>
+			<attrdef>Type of Contract: Total[Tipo de Contratacion: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E079</attrlabl>
+			<attrdef>Has Income: Yes[Tiene Ingreso: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E080</attrlabl>
+			<attrdef>Has Income: No[Tiene Ingreso: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E081</attrlabl>
+			<attrdef>Has Income: Undeclared[Tiene Ingreso: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E082</attrlabl>
+			<attrdef>Has Income: Total[Tiene Ingreso: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E083</attrlabl>
+			<attrdef>Description of Other Help: Clothing/Shoes[Descripción de Otra Ayuda: Ropa/Zapato]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E084</attrlabl>
+			<attrdef>Description of Other Help: Gifts[Descripción de Otra Ayuda: Regalos]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E085</attrlabl>
+			<attrdef>Description of Other Help: Medicine, Eyeglasses, Etc.[Descripción de Otra Ayuda: Medicina, Lentes, Etc.]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E086</attrlabl>
+			<attrdef>Description of Other Help: School Supplies[Descripción de Otra Ayuda: Utiles Escolares]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E087</attrlabl>
+			<attrdef>Description of Other Help: Appliances[Descripción de Otra Ayuda: Electrodomesticos]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E088</attrlabl>
+			<attrdef>Description of Other Help: Payment of Electricity, Water or Telephone[Descripción de Otra Ayuda: Pago de Luz, Agua o Telefono]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E089</attrlabl>
+			<attrdef>Description of Other Help: Transportation[Descripción de Otra Ayuda: Transporte]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E090</attrlabl>
+			<attrdef>Description of Other Help: Bonds[Descripción de Otra Ayuda: Bonos]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E091</attrlabl>
+			<attrdef>Description of Other Help: Lease payment or Mortgage[Descripción de Otra Ayuda: Pago de Arrendamiento y-o Hipoteca]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E092</attrlabl>
+			<attrdef>Description of Other Help: Diet or Viatical[Descripción de Otra Ayuda: Dieta o Viático]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E093</attrlabl>
+			<attrdef>Description of Other Help: Tuition Payment[Descripción de Otra Ayuda: Pago de Matrícula]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E094</attrlabl>
+			<attrdef>Description of Other Help: Building Materials[Descripción de Otra Ayuda: Materiales de Construcción]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E095</attrlabl>
+			<attrdef>Description of Other Help: Food[Descripción de Otra Ayuda: Comida]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E096</attrlabl>
+			<attrdef>Description of Other Help: Program 100 for 70s[Descripción de Otra Ayuda: Programa 100 para los 70]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E097</attrlabl>
+			<attrdef>Description of Other Help: Opportunities Network[Descripción de Otra Ayuda: Red de Oportunidades]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E098</attrlabl>
+			<attrdef>Description of Other Help: SENAPAN or Bono Family Food[Descripción de Otra Ayuda: SENAPAN o Bono Familiar para Alimentos]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E099</attrlabl>
+			<attrdef>Description of Other Help: Not Stated[Descripción de Otra Ayuda: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E100</attrlabl>
+			<attrdef>Description of Other Help: Bono Disability (Office First Lady)[Descripción de Otra Ayuda: Bono por Discapacidad (Despacho Primera Dama)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E101</attrlabl>
+			<attrdef>Description of Other Help: SERPAN[Descripción de Otra Ayuda: SERPAN]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E102</attrlabl>
+			<attrdef>Description of Other Help: Total[Descripción de Otra Ayuda: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E103</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: Less than 25[Pago Mensual de Alquiler o Hipoteca: Menos de 25]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E104</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: 25-49[Pago Mensual de Alquiler o Hipoteca: 25-49]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E105</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: 50-99[Pago Mensual de Alquiler o Hipoteca: 50-99]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E106</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: 100-149[Pago Mensual de Alquiler o Hipoteca: 100-149]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E107</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: 150-199[Pago Mensual de Alquiler o Hipoteca: 150-199]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E108</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: 200-249[Pago Mensual de Alquiler o Hipoteca: 200-249]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E109</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: 250-299[Pago Mensual de Alquiler o Hipoteca: 250-299]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E110</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: 300-399[Pago Mensual de Alquiler o Hipoteca: 300-399]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E111</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: 400-499[Pago Mensual de Alquiler o Hipoteca: 400-499]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E112</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: 500-599[Pago Mensual de Alquiler o Hipoteca: 500-599]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E113</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: 600-699[Pago Mensual de Alquiler o Hipoteca: 600-699]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E114</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: 700-799[Pago Mensual de Alquiler o Hipoteca: 700-799]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E115</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: 800 and More[Pago Mensual de Alquiler o Hipoteca: 800 y Mas]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E116</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: Undeclared[Pago Mensual de Alquiler o Hipoteca: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_E117</attrlabl>
+			<attrdef>Monthly Rent or Mortage Payment: Total[Pago Mensual de Alquiler o Hipoteca: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_panama_economic_lp_2010</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_panama_economic_lp_2010</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

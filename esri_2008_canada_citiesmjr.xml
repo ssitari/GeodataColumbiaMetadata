@@ -27,7 +27,10 @@
 		</descript>
 		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2007</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2007</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>publication date</current>
 		</timeperd>
 		<status>
@@ -38,62 +41,62 @@
 			<bounding>
 				<westbc>
 -123.367161</westbc>
-				<eastbc>
+					<eastbc>
 -52.709744</eastbc>
-				<northbc>
+						<northbc>
 63.751278</northbc>
-				<southbc>
+							<southbc>
 42.982516</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>point</themekey>
-				<themekey>cities</themekey>
-				<themekey>capitals</themekey>
-				<themekey>population</themekey>
-			</theme>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>location</themekey>
-				<themekey>society</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Canada (6251999)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>Canada</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2005</tempkey>
-				<tempkey>2004</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>point</themekey>
+								<themekey>cities</themekey>
+								<themekey>capitals</themekey>
+								<themekey>population</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>location</themekey>
+								<themekey>society</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Canada (6251999)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>Canada</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2005</tempkey>
+								<tempkey>2004</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
 
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI</cntorg>
-					<cntper>Data Team</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>909-793-2853</cntvoice>
-				<cntfax>909-793-5953</cntfax>
-				<cntemail>info@esri.com</cntemail>
-				<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>ESRI</cntorg>
+									<cntper>Data Team</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>380 New York Street</address>
+									<city>Redlands</city>
+									<state>California</state>
+									<postal>92373-8100</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>909-793-2853</cntvoice>
+								<cntfax>909-793-5953</cntfax>
+								<cntemail>info@esri.com</cntemail>
+								<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
 				<cntinst>In the United States:
 Please direct all inquiries regarding software/data pricing and consulting services to your local ESRI Regional Office.  For support, you may contact ESRI Support Center by telephone (voice) between 6:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing 888-377-4575; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com/; ESRI holidays excluded.
 
@@ -101,289 +104,289 @@ Outside the United States
 Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.
 
 For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/canada_citiesmjr.jpg</browsen>
-			<browsed>Thumbnail</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
-	</idinfo>
-	<dataqual>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-		<posacc>
-			<horizpa>
-				<horizpar>The horizontal positional accuracy is 167 feet.</horizpar>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Tele Atlas North America, Inc.</origin>
-						<pubdate>200501</pubdate>
-						<title>Dynamap/Transportation v. 7.0</title>
-						<edition>Version 7.0</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>Tele Atlas Dynamap/Transportation</sername>
-							<issue>Version 7.0</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-							<publish>Tele Atlas North America, Inc.</publish>
-						</pubinfo>
-						<onlink>http://www.teleatlas.com</onlink>
-					</citeinfo>
-				</srccite>
-				<srcscale>100000</srcscale>
-				<typesrc>DVDROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>200501</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>Tele Atlas Dynamap/Transportation v. 7.0</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>200407</pubdate>
-						<title>ESRI Community Demographics, 2008</title>
-						<edition>2004 / 2009 United States</edition>
-						<geoform>tabular digital data</geoform>
-						<serinfo>
-							<sername>ESRI Community Demographics</sername>
-							<issue>2004 / 2009 United States</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Redlands, California, USA</pubplace>
-							<publish>ESRI</publish>
-						</pubinfo>
-						<othercit>Provides the POP04 attribute.</othercit>
-						<onlink>http://www.esri.com</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>200407</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>ESRI Community Demog</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>Tele Atlas creates this database using a proprietary process.</procdesc>
-				<srcprod>Tele Atlas Dynamap/Transportation v. 7.0</srcprod>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Added FIPS field. Updated FIPS field with two-digit STATE FIPS (Left(KEY,2) and five-digit PLACE FIPS (Right(KEY,5) from KEY field. Added POP04 from ESRI Community Demographics. Added CAPTYPE Field. Set CAPTYPE field = '2' Where CAPITAL = 'Y'. Manually set CAPTYPE = '1' for Ottawa, Canada and Washington, D.C., USA. Added COUNTRY field. Set COUNTRY field = 'CAN" Where Mid(KEY, 3,3) = '000'. Removed KEY field. Selected features into new shapefile where POP04 &gt;= '100000' OR CAPITAL = 'Y'. Compressed the data (new shapefile) to SDC format using Data Development Kit Professional 2 (DDKP2).</procdesc>
-				<srcused>Tele Atlas Dynamap/Transportation v. 7.0</srcused>
-				<srcused>ESRI Community Demog</srcused>
-				<procdate>20050525</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>EDS staff clipped out the Canadian features and exported the result to the geopackage format</procdesc>
-				<procdate>2009</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>Entity point</sdtstype>
-				<ptvctcnt>22</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.000000</latres>
-				<longres>0.000000</longres>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/canada_citiesmjr.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
+					</idinfo>
+					<dataqual>
+						<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+						<posacc>
+							<horizpa>
+								<horizpar>The horizontal positional accuracy is 167 feet.</horizpar>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Tele Atlas North America, Inc.</origin>
+										<pubdate>200501</pubdate>
+										<title>Dynamap/Transportation v. 7.0</title>
+										<edition>Version 7.0</edition>
+										<geoform>vector digital data</geoform>
+										<serinfo>
+											<sername>Tele Atlas Dynamap/Transportation</sername>
+											<issue>Version 7.0</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Lebanon, New Hampshire, USA</pubplace>
+											<publish>Tele Atlas North America, Inc.</publish>
+										</pubinfo>
+										<onlink>http://www.teleatlas.com</onlink>
+									</citeinfo>
+								</srccite>
+								<srcscale>100000</srcscale>
+								<typesrc>DVDROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>200501</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>Tele Atlas Dynamap/Transportation v. 7.0</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+										<pubdate>200407</pubdate>
+										<title>ESRI Community Demographics, 2008</title>
+										<edition>2004 / 2009 United States</edition>
+										<geoform>tabular digital data</geoform>
+										<serinfo>
+											<sername>ESRI Community Demographics</sername>
+											<issue>2004 / 2009 United States</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Redlands, California, USA</pubplace>
+											<publish>ESRI</publish>
+										</pubinfo>
+										<othercit>Provides the POP04 attribute.</othercit>
+										<onlink>http://www.esri.com</onlink>
+									</citeinfo>
+								</srccite>
+								<typesrc>CD-ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>200407</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>ESRI Community Demog</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<procstep>
+								<procdesc>Tele Atlas creates this database using a proprietary process.</procdesc>
+								<srcprod>Tele Atlas Dynamap/Transportation v. 7.0</srcprod>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Added FIPS field. Updated FIPS field with two-digit STATE FIPS (Left(KEY,2) and five-digit PLACE FIPS (Right(KEY,5) from KEY field. Added POP04 from ESRI Community Demographics. Added CAPTYPE Field. Set CAPTYPE field = '2' Where CAPITAL = 'Y'. Manually set CAPTYPE = '1' for Ottawa, Canada and Washington, D.C., USA. Added COUNTRY field. Set COUNTRY field = 'CAN" Where Mid(KEY, 3,3) = '000'. Removed KEY field. Selected features into new shapefile where POP04 &gt;= '100000' OR CAPITAL = 'Y'. Compressed the data (new shapefile) to SDC format using Data Development Kit Professional 2 (DDKP2).</procdesc>
+								<srcused>Tele Atlas Dynamap/Transportation v. 7.0</srcused>
+								<srcused>ESRI Community Demog</srcused>
+								<procdate>20050525</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>EDS staff clipped out the Canadian features and exported the result to the geopackage format</procdesc>
+								<procdate>2009</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>Entity point</sdtstype>
+								<ptvctcnt>22</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000000</latres>
+								<longres>0.000000</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 canada_citiesmjr</enttypl>
-				<enttypd>The points represent major cities of United States and Canada including national, state, and provincial capitals.</enttypd>
-				<enttypds>Tele Atlas North America, Inc.</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME</attrlabl>
-				<attrdef>The name of the major city.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<udom>Names for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>FIPS</attrlabl>
-				<attrdef>The FIPS code (seven-digit number) for the state or province FIPS code and the city FIPS code.</attrdef>
-				<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards Pub 55</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CAPITAL</attrlabl>
-				<attrdef>The capital city indicator.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>Y</edomv>
-						<edomvd>City is a capital.</edomvd>
-					</edom>
-					<edom>
-						<edomv>N</edomv>
-						<edomvd>City is not a capital.</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CAPTYPE</attrlabl>
-				<attrdef>The national or state/provincial capital city indicator.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>City is a national capital.</edomvd>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>City is a state/provincial capital.</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>POP04</attrlabl>
-				<attrdef>The 2004 estimated population of the city.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Estimated populations for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>COUNTRY</attrlabl>
-				<attrdef>Country where major city is located.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>USA</edomv>
-						<edomvd>Major city is located in the United States.</edomvd>
-					</edom>
-					<edom>
-						<edomv>CAN</edomv>
-						<edomvd>Major city is located in Canada.</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI; ESRI International Distributors</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>800-447-9778</cntvoice>
+									<enttypd>The points represent major cities of United States and Canada including national, state, and provincial capitals.</enttypd>
+									<enttypds>Tele Atlas North America, Inc.</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME</attrlabl>
+									<attrdef>The name of the major city.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<udom>Names for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FIPS</attrlabl>
+									<attrdef>The FIPS code (seven-digit number) for the state or province FIPS code and the city FIPS code.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards Pub 55</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CAPITAL</attrlabl>
+									<attrdef>The capital city indicator.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>Y</edomv>
+											<edomvd>City is a capital.</edomvd>
+										</edom>
+										<edom>
+											<edomv>N</edomv>
+											<edomvd>City is not a capital.</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CAPTYPE</attrlabl>
+									<attrdef>The national or state/provincial capital city indicator.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>1</edomv>
+											<edomvd>City is a national capital.</edomvd>
+										</edom>
+										<edom>
+											<edomv>2</edomv>
+											<edomvd>City is a state/provincial capital.</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>POP04</attrlabl>
+									<attrdef>The 2004 estimated population of the city.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Estimated populations for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>COUNTRY</attrlabl>
+									<attrdef>Country where major city is located.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>USA</edomv>
+											<edomvd>Major city is located in the United States.</edomvd>
+										</edom>
+										<edom>
+											<edomv>CAN</edomv>
+											<edomvd>Major city is located in Canada.</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>ESRI; ESRI International Distributors</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>380 New York Street</address>
+										<city>Redlands</city>
+										<state>California</state>
+										<postal>92373-8100</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>800-447-9778</cntvoice>
 				<cntinst>In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data.
 
 Outside the United States, please direct all inquiries to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.</cntinst>
-			</cntinfo>
-		</distrib>
-		<resdesc>esri_2008_canada_citiesmjr</resdesc>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>geopackage</formname>
-					<formspec>zip</formspec>
+								</cntinfo>
+							</distrib>
+							<resdesc>esri_2008_canada_citiesmjr</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>geopackage</formname>
+										<formspec>zip</formspec>
 
-				</digtinfo>
-				<digtopt>
-					<offoptn>
-						<reccap>
-						</reccap>
-					</offoptn>
-				</digtopt>
-			</digform>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>20100304</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metextns>
-			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
-			<metprof>ESRI Metadata Profile</metprof>
-		</metextns>
-	</metainfo>
-</metadata>
+									</digtinfo>
+									<digtopt>
+										<offoptn>
+											<reccap>
+											</reccap>
+										</offoptn>
+									</digtopt>
+								</digform>
+							</stdorder>
+						</distinfo>
+						<metainfo>
+							<metd>20100304</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+							<metextns>
+								<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+								<metprof>ESRI Metadata Profile</metprof>
+							</metextns>
+						</metainfo>
+					</metadata>

@@ -121,199 +121,6 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			</cntinfo>
 		</ptcontac>
 	</idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20110725</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype></sdtsterm></ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<geogunit>Decimal degrees</geogunit>
-				<latres>0.000000</latres>
-				<longres>0.000000</longres>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>ESRI_2010_us_cd111</enttypl>
-				<enttypd>An area established by state officials or the courts for the purpose of electing a person to the U.S. House of Representatives. Within each state, these areas must contain, as nearly as possible, an equal number of inhabitants. The number of congressional districts in each state may change after each decennial census, and the boundaries may be changed more than once during a decade.</enttypd>
-				<enttypds>Department of Commerce, Census Bureau</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>ObjectID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME</attrlabl>
-				<attrdef>The name of the representative for the congressional district.</attrdef>
-				<attrdefs>Clerk of the U.S. House of Representatives</attrdefs>
-				<attrdomv>
-					<udom>Names for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>PARTY</attrlabl>
-				<attrdef>The political party of the representative for the congressional district.</attrdef>
-				<attrdefs>Clerk of the U.S. House of Representatives</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>Democrat</edomv>
-						<edomvd>The representative is a Democrat.</edomvd>
-						<edomvds>ESRI</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>Independent</edomv>
-						<edomvd>The representative is an Independent.</edomvd>
-						<edomvds>ESRI</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>Republican</edomv>
-						<edomvd>The representative is a Republican.</edomvd>
-						<edomvds>ESRI</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>Vacant</edomv>
-						<edomvd>The representative has resigned, died, or declined to serve.</edomvd>
-						<edomvds>ESRI</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>DISTRICTID</attrlabl>
-				<attrdef>The congressional district code (four-digit number).</attrdef>
-				<attrdefs>Department of Commerce, Census Bureau</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards (PUB 9-1)</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>STFIPS</attrlabl>
-				<attrdef>The FIPS code (two-digit number) for the state in which the congressional district is located.</attrdef>
-				<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>STATE_ABBR</attrlabl>
-				<attrdef>The two-letter abbreviation for the state in which the congressional district is located.</attrdef>
-				<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards 5-2</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>POP2008</attrlabl>
-				<attrdef>The 2008 estimated population of the congressional district.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Populations for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>SQMI</attrlabl>
-				<attrdef>The area of the congressional district in square miles.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Calculated areas for the features.</udom>
-				</attrdomv>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<transize>3.478</transize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
-				</digtinfo>
-				<digtopt/>
-			</digform>
-			<fees>Software purchase price</fees>
-			<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
-		</stdorder>
-		<techpreq>To use this data requires software that supports SDC files.</techpreq>
-		<distliab>See use constraints.</distliab>
-		<resdesc>esri_2010_usa_cd111</resdesc>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI; ESRI Offices</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-				</cntaddr>
-				<cntvoice>800-447-9778</cntvoice>
-				<cntinst>In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data.
-
-Outside the United States, please direct all inquiries to your local ESRI Office.  This information can be found at http://www.esri.com/company/locations.html.</cntinst>
-			</cntinfo>
-		</distrib>
-	</distinfo>
 	<dataqual>
 		<lineage>
 			<srcinfo>
@@ -493,4 +300,201 @@ Converted the data set to SDC. Created projection file (.prj) and spatial indice
 
 Line simplification and smoothing was performed with a tolerance of 0.005 decimal degrees and a coordinate reduction using the Douglas-Peucker method with a tolerance of 0.0003 decimal degrees. Very small polygons were eliminated when the combination of geographic codes existed elsewhere.</complete>
 	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<geogunit>Decimal degrees</geogunit>
+				<latres>0.000000</latres>
+				<longres>0.000000</longres>
+			</geograph>
+			<geodetic>
+				<horizdn>D_WGS_1984</horizdn>
+				<ellips>WGS_1984</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>ESRI_2010_us_cd111</enttypl>
+				<enttypd>An area established by state officials or the courts for the purpose of electing a person to the U.S. House of Representatives. Within each state, these areas must contain, as nearly as possible, an equal number of inhabitants. The number of congressional districts in each state may change after each decennial census, and the boundaries may be changed more than once during a decade.</enttypd>
+				<enttypds>Department of Commerce, Census Bureau</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>ObjectID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attrdef>The name of the representative for the congressional district.</attrdef>
+				<attrdefs>Clerk of the U.S. House of Representatives</attrdefs>
+				<attrdomv>
+					<udom>Names for the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PARTY</attrlabl>
+				<attrdef>The political party of the representative for the congressional district.</attrdef>
+				<attrdefs>Clerk of the U.S. House of Representatives</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Democrat</edomv>
+						<edomvd>The representative is a Democrat.</edomvd>
+						<edomvds>ESRI</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Independent</edomv>
+						<edomvd>The representative is an Independent.</edomvd>
+						<edomvds>ESRI</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Republican</edomv>
+						<edomvd>The representative is a Republican.</edomvd>
+						<edomvds>ESRI</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Vacant</edomv>
+						<edomvd>The representative has resigned, died, or declined to serve.</edomvd>
+						<edomvds>ESRI</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DISTRICTID</attrlabl>
+				<attrdef>The congressional district code (four-digit number).</attrdef>
+				<attrdefs>Department of Commerce, Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Federal Information Processing Standards (PUB 9-1)</codesetn>
+						<codesets>National Institute of Standards and Technology</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STFIPS</attrlabl>
+				<attrdef>The FIPS code (two-digit number) for the state in which the congressional district is located.</attrdef>
+				<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Federal Information Processing Standards</codesetn>
+						<codesets>National Institute of Standards and Technology</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STATE_ABBR</attrlabl>
+				<attrdef>The two-letter abbreviation for the state in which the congressional district is located.</attrdef>
+				<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Federal Information Processing Standards 5-2</codesetn>
+						<codesets>National Institute of Standards and Technology</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>POP2008</attrlabl>
+				<attrdef>The 2008 estimated population of the congressional district.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Populations for the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SQMI</attrlabl>
+				<attrdef>The area of the congressional district in square miles.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Calculated areas for the features.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>3.478</transize>
+					<formname>SDC</formname>
+					<filedec>ArcGIS software</filedec>
+					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+				</digtinfo>
+				<digtopt/>
+			</digform>
+			<fees>Software purchase price</fees>
+			<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
+		</stdorder>
+		<techpreq>To use this data requires software that supports SDC files.</techpreq>
+		<distliab>See use constraints.</distliab>
+		<resdesc>esri_2010_usa_cd111</resdesc>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>ESRI; ESRI Offices</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>380 New York Street</address>
+					<city>Redlands</city>
+					<state>California</state>
+					<postal>92373-8100</postal>
+				</cntaddr>
+				<cntvoice>800-447-9778</cntvoice>
+				<cntinst>In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data.
+
+Outside the United States, please direct all inquiries to your local ESRI Office.  This information can be found at http://www.esri.com/company/locations.html.</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20110725</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

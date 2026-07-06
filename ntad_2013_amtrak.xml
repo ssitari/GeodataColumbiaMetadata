@@ -10,7 +10,9 @@
 					<pubplace>Washington, DC</pubplace>
 					<publish>United States. Bureau of Transportation Statistics</publish>
 				</pubinfo>
-				<pubdate>2013</pubdate><onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_amtrak.zip</onlink></citeinfo>
+				<pubdate>2013</pubdate>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_amtrak.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>United States Amtrak Lines, 2013 s a line theme representing Amtrack rain lines.
@@ -20,7 +22,8 @@ network analysis applications.</purpose>
 		</descript>
 		<status>
 			<update>Annually</update>
-			<progress>Complete</progress></status>
+			<progress>Complete</progress>
+		</status>
 		<spdom>
 			<bounding>
 				<westbc>-123.201588</westbc>
@@ -44,7 +47,8 @@ network analysis applications.</purpose>
 			</place>
 			<place>
 				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>United States</placekey></place>
+				<placekey>United States</placekey>
+			</place>
 			<temporal>
 				<tempkt>None</tempkt>
 				<tempkey>2013</tempkey>
@@ -71,7 +75,15 @@ network analysis applications.</purpose>
 				<cntemail>Raquel.Hunt@dot.gov</cntemail>
 			</cntinfo>
 		</ptcontac>
-		<timeperd><timeinfo><sngdate><caldate>2013</caldate></sngdate></timeinfo><current>publication date</current></timeperd></idinfo>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2013</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+	</idinfo>
 	<dataqual>
 		<lineage>
 			<srcinfo>
@@ -120,7 +132,8 @@ network analysis applications.</purpose>
 		<detailed>
 			<enttyp>
 				<enttypl>amtrak</enttypl>
-				<enttypd>Rail Lines</enttypd></enttyp>
+				<enttypd>Rail Lines</enttypd>
+			</enttyp>
 			<attr>
 				<attrlabl>FID</attrlabl>
 				<attrdef>Internal feature number.</attrdef>

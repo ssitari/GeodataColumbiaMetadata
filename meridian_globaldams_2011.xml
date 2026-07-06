@@ -1,382 +1,383 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>Meridian Data, Inc.</origin>
-<pubdate>2011</pubdate>
-<title>Global Dams</title>
-<geoform>vector digital data</geoform>
-<pubinfo>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Meridian Data, Inc.</origin>
+				<pubdate>2011</pubdate>
+				<title>Global Dams</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
 					<publish>Meridian Data, Inc.</publish>
 				</pubinfo>
-<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/meridian_globaldams_2011.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
-<abstract>Global Dams is a point theme representing dams Worldwide.  A variety of attribute information is provided, including names, type classifications, state-level information (1st level administrative division) and country data.  This dataset is provided in both .txt files and a ESRI Geodatabase format.</abstract>
-<purpose>For educational, non-commercial purposes</purpose>
-</descript>
-<timeperd>
-<timeinfo>
-<sngdate>
-<caldate>2011</caldate>
-</sngdate>
-</timeinfo>
-<current>ground condition</current>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>None planned</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/meridian_globaldams_2011.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Global Dams is a point theme representing dams Worldwide.  A variety of attribute information is provided, including names, type classifications, state-level information (1st level administrative division) and country data.  This dataset is provided in both .txt files and a ESRI Geodatabase format.</abstract>
+			<purpose>For educational, non-commercial purposes</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2011</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -176.735000</westbc>
-<eastbc>
+					<eastbc>
 174.516667</eastbc>
-<northbc>
+						<northbc>
 71.266667</northbc>
-<southbc>
+							<southbc>
 -43.683333</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>inlandWaters</themekey>
-<themekey>structure</themekey>
-</theme>
-<theme>
-<themekt>None</themekt>
-<themekey>Dams</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Earth (6295630)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>World</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2011</tempkey>
-</temporal>
-</keywords>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>Meridian World Data</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>23 Regulus Court</address>
-<city>Alameda</city>
-<state>CA</state>
-<postal>94501</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>1-800-388-5287</cntvoice>
-<cntemail>Info@MeridianWorldData.com</cntemail>
-<hours>8:00am to 4:00pm Pacific Monday thru Friday.</hours>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/GlobalDams.jpg</browsen>
-<browsed>Thumbnail</browsed>
-<browset>jpg</browset>
-</browse>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
-</idinfo>
-<dataqual>
-<lineage>
-<procstep>
-<procdesc>Converted to geodatabase and features added.</procdesc>
-<procdate>20110427</procdate>
-<proccont>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS)</cntorg>
-<cntper>GIS/Map Librarian</cntper>
-</cntorgp>
-</cntinfo>
-</proccont>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>Entity point</sdtstype>
-<ptvctcnt>58994</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<geograph>
-<latres>0.000000</latres>
-<longres>0.000000</longres>
-<geogunit>Decimal degrees</geogunit>
-</geograph>
-<geodetic>
-<horizdn>D_WGS_1984</horizdn>
-<ellips>WGS_1984</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257224</denflat>
-</geodetic>
-</horizsys>
-<vertdef>
-<altsys>
-<altres>0.000100</altres>
-<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-</altsys>
-</vertdef>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>inlandWaters</themekey>
+								<themekey>structure</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Dams</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Earth (6295630)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>World</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2011</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Meridian World Data</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>23 Regulus Court</address>
+									<city>Alameda</city>
+									<state>CA</state>
+									<postal>94501</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>1-800-388-5287</cntvoice>
+								<cntemail>Info@MeridianWorldData.com</cntemail>
+								<hours>8:00am to 4:00pm Pacific Monday thru Friday.</hours>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/GlobalDams.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>jpg</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+					</idinfo>
+					<dataqual>
+						<lineage>
+							<procstep>
+								<procdesc>Converted to geodatabase and features added.</procdesc>
+								<procdate>20110427</procdate>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>Research Data Services (RDS)</cntorg>
+											<cntper>GIS/Map Librarian</cntper>
+										</cntorgp>
+									</cntinfo>
+								</proccont>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>Entity point</sdtstype>
+								<ptvctcnt>58994</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000000</latres>
+								<longres>0.000000</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+						<vertdef>
+							<altsys>
+								<altres>0.000100</altres>
+								<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+							</altsys>
+						</vertdef>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 GlobalDamFeatures</enttypl>
-<enttypd>Dams</enttypd>
-</enttyp>
-<attr>
-<attrlabl>OBJECTID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Feature_int_id</attrlabl>
-<attrdef>Unique key value for Feature table.</attrdef>
-</attr>
-<attr>
-<attrlabl>Feature_int_variant_of_feature_int_id</attrlabl>
-<attrdef>If not null, indicates that this feature is a variant name for the feature with the given feature_int_id value.</attrdef>
-</attr>
-<attr>
-<attrlabl>FeatureType_str_code</attrlabl>
-<attrdef>Foreign key value into FeatureType table. See FeatureType fields.</attrdef>
-<attrdomv>
-<edom>
-<edomv>DAM</edomv>
-<edomvd>Dam - a barrier constructed across a stream to impound water</edomvd>
-</edom>
-<edom>
-<edomv>DAMQ</edomv>
-<edomvd>Ruined Dam - a destroyed or decayed dam which is no longer functional</edomvd>
-</edom>
-<edom>
-<edomv>DAMSB</edomv>
-<edomvd>Sub-Surface Dam- a dam put down to bedrock in a sand river</edomvd>
-</edom>
-<edom>
-<edomv>DIKE</edomv>
-<edomvd>Dike - an earth or stone embankment usually constructed for flood or stream control</edomvd>
-</edom>
-<edom>
-<edomv>SPLY</edomv>
-<edomvd>Spillway -  passage or outlet through which surplus water flows over, around or through a dam</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Admin1_str_code</attrlabl>
-<attrdef>Foreign key value into Admin1 table. See Admin1 fields.</attrdef>
-</attr>
-<attr>
-<attrlabl>Admin2_str_code</attrlabl>
-<attrdef>Foreign key value into Admin2 table. See Admin2 fields.</attrdef>
-</attr>
-<attr>
-<attrlabl>Country_str_code</attrlabl>
-<attrdef>Foreign key value into Country table. See country fields.</attrdef>
-</attr>
-<attr>
-<attrlabl>Timezone_int_id</attrlabl>
-<attrdef>Foreign key value into Timezone table. See Timezone fields.</attrdef>
-</attr>
-<attr>
-<attrlabl>Feature_int_population_tier</attrlabl>
-<attrdef>Code indicating the approximate population for populated places features (note: for countries other than the United States of America, the current release targets places with a population of more than 100,000 and capitals).</attrdef>
-<attrdomv>
-<edom>
-<edomv>1</edomv>
-<edomvd>more than 2,500,000</edomvd>
-</edom>
-<edom>
-<edomv>2</edomv>
-<edomvd>1,000,000 - 2,499,999</edomvd>
-</edom>
-<edom>
-<edomv>3</edomv>
-<edomvd>500,000 - 999,999</edomvd>
-</edom>
-<edom>
-<edomv>4</edomv>
-<edomvd>250,000 - 499,999</edomvd>
-</edom>
-<edom>
-<edomv>5</edomv>
-<edomvd>100,000 - 249,999</edomvd>
-</edom>
-<edom>
-<edomv>6</edomv>
-<edomvd>50,000 - 99,999</edomvd>
-</edom>
-<edom>
-<edomv>7</edomv>
-<edomvd>25,000 - 49,999</edomvd>
-</edom>
-<edom>
-<edomv>8</edomv>
-<edomvd>10,000 - 24,999</edomvd>
-</edom>
-<edom>
-<edomv>9</edomv>
-<edomvd>less than 10,000</edomvd>
-</edom>
-<edom>
-<edomv>10</edomv>
-<edomvd>notable populated place; population tier undetermined</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Feature_int_font_code</attrlabl>
-<attrdef>Code indicating which Unicode Windows-based font to use to display local names using special diacritic characters.</attrdef>
-<attrdomv>
-<edom>
-<edomv>1</edomv>
-<edomvd>Western Europe / Americas</edomvd>
-</edom>
-<edom>
-<edomv>2</edomv>
-<edomvd>Eastern Europe</edomvd>
-</edom>
-<edom>
-<edomv>3</edomv>
-<edomvd>Africa / Middle East</edomvd>
-</edom>
-<edom>
-<edomv>4</edomv>
-<edomvd>Central Asia</edomvd>
-</edom>
-<edom>
-<edomv>5</edomv>
-<edomvd>Asia / Pacific</edomvd>
-</edom>
-<edom>
-<edomv>6</edomv>
-<edomvd>Vietnam</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Feature_str_name</attrlabl>
-<attrdef>Conventional Romanized-language recognized name of the city in current and widespread use. Clean of any specialized language diacritics - uses only standard ASCII characters. Suitable for nearly all computer systems and for printing.</attrdef>
-</attr>
-<attr>
-<attrlabl>Feature_str_local_name</attrlabl>
-<attrdef>Feature_str_name using local native language characters and spelling. May contain special foreign characters with diacritic marks. Refer to the Feature_int_font_code section for further information.</attrdef>
-</attr>
-<attr>
-<attrlabl>Feature_dec_lat</attrlabl>
-<attrdef>Latitude of the feature in decimal degrees</attrdef>
-</attr>
-<attr>
-<attrlabl>Feature_dec_lon</attrlabl>
-<attrdef>Longitude of the feature in decimal degrees</attrdef>
-</attr>
-<attr>
-<attrlabl>Feature_str_lat</attrlabl>
-<attrdef>Latitude of the feature in degrees minutes seconds</attrdef>
-</attr>
-<attr>
-<attrlabl>Feature_str_lon</attrlabl>
-<attrdef>Longitude of the feature in degrees minutes seconds - based on the UTC (GMT</attrdef>
-</attr>
-<attr>
-<attrlabl>Feature_dec_source_lat</attrlabl>
-<attrdef>Latitude of the source of a linear feature, such as a river, in decimal degrees</attrdef>
-</attr>
-<attr>
-<attrlabl>Feature_dec_source_lon</attrlabl>
-<attrdef>Longitude of the source of a linear feature, such as a river, in decimal degrees</attrdef>
-</attr>
-<attr>
-<attrlabl>Feature_str_source_lat</attrlabl>
-<attrdef>Latitude of the source of a linear feature, such as a river, in degrees minutes seconds</attrdef>
-</attr>
-<attr>
-<attrlabl>Feature_str_source_lon</attrlabl>
-<attrdef>Longitude of the source of a linear feature, such as a river, in degrees minutes seconds - based on the UTC (GMT</attrdef>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-</detailed>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>Meridian World Data</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>23 Regulus Court</address>
-<city>Alameda</city>
-<state>CA</state>
-<postal>94501</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>1-800-388-5287</cntvoice>
-<cntemail>Info@MeridianWorldData.com</cntemail>
-<hours>8:00am to 4:00pm Pacific Monday thru Friday.</hours>
-</cntinfo>
-</distrib>
-<resdesc>meridian_globaldams_2011</resdesc>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-</digtinfo>
-</digform>
-</stdorder>
-</distinfo>
-<metainfo>
-<metd>20110607</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+									<enttypd>Dams</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>OBJECTID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Feature_int_id</attrlabl>
+									<attrdef>Unique key value for Feature table.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Feature_int_variant_of_feature_int_id</attrlabl>
+									<attrdef>If not null, indicates that this feature is a variant name for the feature with the given feature_int_id value.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>FeatureType_str_code</attrlabl>
+									<attrdef>Foreign key value into FeatureType table. See FeatureType fields.</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>DAM</edomv>
+											<edomvd>Dam - a barrier constructed across a stream to impound water</edomvd>
+										</edom>
+										<edom>
+											<edomv>DAMQ</edomv>
+											<edomvd>Ruined Dam - a destroyed or decayed dam which is no longer functional</edomvd>
+										</edom>
+										<edom>
+											<edomv>DAMSB</edomv>
+											<edomvd>Sub-Surface Dam- a dam put down to bedrock in a sand river</edomvd>
+										</edom>
+										<edom>
+											<edomv>DIKE</edomv>
+											<edomvd>Dike - an earth or stone embankment usually constructed for flood or stream control</edomvd>
+										</edom>
+										<edom>
+											<edomv>SPLY</edomv>
+											<edomvd>Spillway -  passage or outlet through which surplus water flows over, around or through a dam</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Admin1_str_code</attrlabl>
+									<attrdef>Foreign key value into Admin1 table. See Admin1 fields.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Admin2_str_code</attrlabl>
+									<attrdef>Foreign key value into Admin2 table. See Admin2 fields.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Country_str_code</attrlabl>
+									<attrdef>Foreign key value into Country table. See country fields.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Timezone_int_id</attrlabl>
+									<attrdef>Foreign key value into Timezone table. See Timezone fields.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Feature_int_population_tier</attrlabl>
+									<attrdef>Code indicating the approximate population for populated places features (note: for countries other than the United States of America, the current release targets places with a population of more than 100,000 and capitals).</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>1</edomv>
+											<edomvd>more than 2,500,000</edomvd>
+										</edom>
+										<edom>
+											<edomv>2</edomv>
+											<edomvd>1,000,000 - 2,499,999</edomvd>
+										</edom>
+										<edom>
+											<edomv>3</edomv>
+											<edomvd>500,000 - 999,999</edomvd>
+										</edom>
+										<edom>
+											<edomv>4</edomv>
+											<edomvd>250,000 - 499,999</edomvd>
+										</edom>
+										<edom>
+											<edomv>5</edomv>
+											<edomvd>100,000 - 249,999</edomvd>
+										</edom>
+										<edom>
+											<edomv>6</edomv>
+											<edomvd>50,000 - 99,999</edomvd>
+										</edom>
+										<edom>
+											<edomv>7</edomv>
+											<edomvd>25,000 - 49,999</edomvd>
+										</edom>
+										<edom>
+											<edomv>8</edomv>
+											<edomvd>10,000 - 24,999</edomvd>
+										</edom>
+										<edom>
+											<edomv>9</edomv>
+											<edomvd>less than 10,000</edomvd>
+										</edom>
+										<edom>
+											<edomv>10</edomv>
+											<edomvd>notable populated place; population tier undetermined</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Feature_int_font_code</attrlabl>
+									<attrdef>Code indicating which Unicode Windows-based font to use to display local names using special diacritic characters.</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>1</edomv>
+											<edomvd>Western Europe / Americas</edomvd>
+										</edom>
+										<edom>
+											<edomv>2</edomv>
+											<edomvd>Eastern Europe</edomvd>
+										</edom>
+										<edom>
+											<edomv>3</edomv>
+											<edomvd>Africa / Middle East</edomvd>
+										</edom>
+										<edom>
+											<edomv>4</edomv>
+											<edomvd>Central Asia</edomvd>
+										</edom>
+										<edom>
+											<edomv>5</edomv>
+											<edomvd>Asia / Pacific</edomvd>
+										</edom>
+										<edom>
+											<edomv>6</edomv>
+											<edomvd>Vietnam</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Feature_str_name</attrlabl>
+									<attrdef>Conventional Romanized-language recognized name of the city in current and widespread use. Clean of any specialized language diacritics - uses only standard ASCII characters. Suitable for nearly all computer systems and for printing.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Feature_str_local_name</attrlabl>
+									<attrdef>Feature_str_name using local native language characters and spelling. May contain special foreign characters with diacritic marks. Refer to the Feature_int_font_code section for further information.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Feature_dec_lat</attrlabl>
+									<attrdef>Latitude of the feature in decimal degrees</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Feature_dec_lon</attrlabl>
+									<attrdef>Longitude of the feature in decimal degrees</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Feature_str_lat</attrlabl>
+									<attrdef>Latitude of the feature in degrees minutes seconds</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Feature_str_lon</attrlabl>
+									<attrdef>Longitude of the feature in degrees minutes seconds - based on the UTC (GMT</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Feature_dec_source_lat</attrlabl>
+									<attrdef>Latitude of the source of a linear feature, such as a river, in decimal degrees</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Feature_dec_source_lon</attrlabl>
+									<attrdef>Longitude of the source of a linear feature, such as a river, in decimal degrees</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Feature_str_source_lat</attrlabl>
+									<attrdef>Latitude of the source of a linear feature, such as a river, in degrees minutes seconds</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Feature_str_source_lon</attrlabl>
+									<attrdef>Longitude of the source of a linear feature, such as a river, in degrees minutes seconds - based on the UTC (GMT</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Meridian World Data</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>23 Regulus Court</address>
+										<city>Alameda</city>
+										<state>CA</state>
+										<postal>94501</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>1-800-388-5287</cntvoice>
+									<cntemail>Info@MeridianWorldData.com</cntemail>
+									<hours>8:00am to 4:00pm Pacific Monday thru Friday.</hours>
+								</cntinfo>
+							</distrib>
+							<resdesc>meridian_globaldams_2011</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>Geopackage</formname>
+									</digtinfo>
+								</digform>
+							</stdorder>
+						</distinfo>
+						<metainfo>
+							<metd>20110607</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

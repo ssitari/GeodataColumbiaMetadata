@@ -94,49 +94,58 @@ Stations are listed alphabetically by state. The tables are arranged so that val
 
 		<useconst>None</useconst>
 	</idinfo>
-	<metainfo>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metd>201301214</metd>
-		<metstdn>	FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-	</metainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>The National Climatic Data Center</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>Room 120, 151 Patton Avenue</address>
-					<city>Asheville</city>
-					<state>NC</state>
-					<postal>28801-5001</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(828) 271-4800</cntvoice>
-				<cntfax>271-4876</cntfax>
-			</cntinfo>
-		</distrib>
-		<resdesc>cul_us_2012_windspeed</resdesc>
-		<stdorder><digform><digtinfo><formname>geopackage</formname><formspec>zip</formspec></digtinfo></digform></stdorder></distinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Comparative Climate Data, For the United States through 2011</title>
+						<origin>National Climatic Data Center (U.S.)</origin>
+						<pubdate>2011</pubdate>
+						<pubinfo>
+							<pubplace>National Climatic Data Center</pubplace>
+							<publish>Aseville, NC</publish>
+						</pubinfo>
+						<onlink>http://ols.nndc.noaa.gov/plolstore/plsql/olstore.prodspecific?prodnum=C00095-PUB-A0001</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2011</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Comparative Climate Data</srccitea>
+				<srccontr>weather data</srccontr>
+			</srcinfo>
+			<procstep>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+							<cntper>GIS/Map librarian</cntper>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>420 W. 118th St. 215 IAB, MC 3301</address>
+							<city>New York</city>
+							<state>NY</state>
+							<postal>10027</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(212) 854-6012</cntvoice>
+						<cntemail>data@library.columbia.edu</cntemail>
+					</cntinfo>
+				</proccont>
+				<procdesc>RDS staff combined weather data with station info and locations from NOAA website</procdesc>
+				<srcused>Comparative Climate Data</srcused>
+				<procdate>2012</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -280,56 +289,55 @@ Stations are listed alphabetically by state. The tables are arranged so that val
 			</attr>
 		</detailed>
 	</eainfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Comparative Climate Data, For the United States through 2011</title>
-						<origin>National Climatic Data Center (U.S.)</origin>
-						<pubdate>2011</pubdate>
-						<pubinfo>
-							<pubplace>National Climatic Data Center</pubplace>
-							<publish>Aseville, NC</publish>
-						</pubinfo>
-						<onlink>http://ols.nndc.noaa.gov/plolstore/plsql/olstore.prodspecific?prodnum=C00095-PUB-A0001</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2011</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>Comparative Climate Data</srccitea>
-				<srccontr>weather data</srccontr>
-			</srcinfo>
-			<procstep>
-				<proccont>
-					<cntinfo>
-						<cntorgp>
-							<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-							<cntper>GIS/Map librarian</cntper>
-						</cntorgp>
-						<cntaddr>
-							<addrtype>mailing and physical address</addrtype>
-							<address>420 W. 118th St. 215 IAB, MC 3301</address>
-							<city>New York</city>
-							<state>NY</state>
-							<postal>10027</postal>
-							<country>USA</country>
-						</cntaddr>
-						<cntvoice>(212) 854-6012</cntvoice>
-						<cntemail>data@library.columbia.edu</cntemail>
-					</cntinfo>
-				</proccont>
-				<procdesc>RDS staff combined weather data with station info and locations from NOAA website</procdesc>
-				<srcused>Comparative Climate Data</srcused>
-				<procdate>2012</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The National Climatic Data Center</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Room 120, 151 Patton Avenue</address>
+					<city>Asheville</city>
+					<state>NC</state>
+					<postal>28801-5001</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(828) 271-4800</cntvoice>
+				<cntfax>271-4876</cntfax>
+			</cntinfo>
+		</distrib>
+		<resdesc>cul_us_2012_windspeed</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>geopackage</formname>
+					<formspec>zip</formspec>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metd>201301214</metd>
+		<metstdn>	FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
 </metadata>

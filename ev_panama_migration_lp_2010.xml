@@ -1,278 +1,278 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Panama (3703430)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Panama</placekey>
-<placekey>Panama</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2010</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-82.876697</westbc>
-<eastbc>-77.964005</eastbc>
-<northbc>9.548949</northbc>
-<southbc>7.402479</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Panama (3703430)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Panama</placekey>
+				<placekey>Panama</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2010</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-82.876697</westbc>
+				<eastbc>-77.964005</eastbc>
+				<northbc>9.548949</northbc>
+				<southbc>7.402479</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Panama Migration Census Data (4th level ADM), 2010 is a polygon theme representing populated places (4th level administrative units) in Panama as of 2010.  Attribute data include migration variables of the 2010 Panamanian census.
 Official population and housing data for Panama from the 2010 census. This census is provided a combination of barrio administrative level polygons (ADM5) and populated place administrative level polygons (ADM4) for a total of 13,124 polygons. Each census sector has 1188 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo: Hombre" was updated to BT_D001 and given the alias "Sex: Man[Sexo: Hombre]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social. BT relates to the Barrios and LP relates to the populated places). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Panama Migration Census Data (4th level ADM), 2010</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Panama Migration Census Data (4th level ADM), 2010</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_panama_migration_lp_2010.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2010</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2010</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Panama_2010</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M001</attrlabl>
-    <attrdef>Family Member Went to Another County: Yes[Miembro se Fue a Otro Pais: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M002</attrlabl>
-    <attrdef>Family Member Went to Another County: No[Miembro se Fue a Otro Pais: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M003</attrlabl>
-    <attrdef>Family Member Went to Another County: Total[Miembro se Fue a Otro Pais: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M004</attrlabl>
-    <attrdef>Arrival in Panama: Before May- 2000[Periodo en Que Llego a Panama: Antes de Mayo de 2000]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M005</attrlabl>
-    <attrdef>Arrival in Panama: May-2000 to April- 2005[Periodo en Que Llego a Panama: De Mayo de 2000 a Abril de 2005]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M006</attrlabl>
-    <attrdef>Arrival in Panama: From May 2005 to Date[Periodo en Que Llego a Panama: De Mayo de 2005 a la Fecha]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M007</attrlabl>
-    <attrdef>Arrival in Panama: Undeclared[Periodo en Que Llego a Panama: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M008</attrlabl>
-    <attrdef>Arrival in Panama: Total[Periodo en Que Llego: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M009</attrlabl>
-    <attrdef>Arrival Period(Currently Live): Before May- 2000[Periodo en Que Llego: Antes de Mayo de 2000]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M010</attrlabl>
-    <attrdef>Arrival Period(Currently Live): May-2000 to April- 2005[Periodo en Que Llego: De Mayo de 2000 a Abril de 2005]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M011</attrlabl>
-    <attrdef>Arrival Period(Currently Live): From May 2005 to Date[Periodo en Que Llego: De Mayo de 2005 a la Fecha]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M012</attrlabl>
-    <attrdef>Arrival Period(Currently Live): Undeclared[Periodo en Que Llego: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_M013</attrlabl>
-    <attrdef>Arrival Period(Currently Live): Total[Periodo en Que Llego: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Panama_2010</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M001</attrlabl>
+			<attrdef>Family Member Went to Another County: Yes[Miembro se Fue a Otro Pais: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M002</attrlabl>
+			<attrdef>Family Member Went to Another County: No[Miembro se Fue a Otro Pais: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M003</attrlabl>
+			<attrdef>Family Member Went to Another County: Total[Miembro se Fue a Otro Pais: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M004</attrlabl>
+			<attrdef>Arrival in Panama: Before May- 2000[Periodo en Que Llego a Panama: Antes de Mayo de 2000]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M005</attrlabl>
+			<attrdef>Arrival in Panama: May-2000 to April- 2005[Periodo en Que Llego a Panama: De Mayo de 2000 a Abril de 2005]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M006</attrlabl>
+			<attrdef>Arrival in Panama: From May 2005 to Date[Periodo en Que Llego a Panama: De Mayo de 2005 a la Fecha]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M007</attrlabl>
+			<attrdef>Arrival in Panama: Undeclared[Periodo en Que Llego a Panama: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M008</attrlabl>
+			<attrdef>Arrival in Panama: Total[Periodo en Que Llego: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M009</attrlabl>
+			<attrdef>Arrival Period(Currently Live): Before May- 2000[Periodo en Que Llego: Antes de Mayo de 2000]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M010</attrlabl>
+			<attrdef>Arrival Period(Currently Live): May-2000 to April- 2005[Periodo en Que Llego: De Mayo de 2000 a Abril de 2005]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M011</attrlabl>
+			<attrdef>Arrival Period(Currently Live): From May 2005 to Date[Periodo en Que Llego: De Mayo de 2005 a la Fecha]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M012</attrlabl>
+			<attrdef>Arrival Period(Currently Live): Undeclared[Periodo en Que Llego: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_M013</attrlabl>
+			<attrdef>Arrival Period(Currently Live): Total[Periodo en Que Llego: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_panama_migration_lp_2010</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_panama_migration_lp_2010</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

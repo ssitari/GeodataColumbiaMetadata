@@ -38,215 +38,217 @@
 			<bounding>
 				<westbc>
 -74.257465</westbc>
-				<eastbc>
+					<eastbc>
 -73.699450</eastbc>
-				<northbc>
+						<northbc>
 40.915808</northbc>
-				<southbc>
+							<southbc>
 40.495805</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>Buildings</themekey>
-				<themekey>Building footprint</themekey>
-				<themekey>BIN</themekey>
-			</theme>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>structure</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>New York City (5128581)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>New York (N.Y.)</placekey>
-				<placekey>Brooklyn (New York, N.Y.)</placekey>
-				<placekey>Bronx (New York, N.Y.)</placekey>
-				<placekey>Queens (New York, N.Y.)</placekey>
-				<placekey>Manhattan (New York, N.Y.)</placekey>
-				<placekey>Staten Island (New York, N.Y.)</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2005</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>None</accconst>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Buildings</themekey>
+								<themekey>Building footprint</themekey>
+								<themekey>BIN</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>structure</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>New York City (5128581)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>New York (N.Y.)</placekey>
+								<placekey>Brooklyn (New York, N.Y.)</placekey>
+								<placekey>Bronx (New York, N.Y.)</placekey>
+								<placekey>Queens (New York, N.Y.)</placekey>
+								<placekey>Manhattan (New York, N.Y.)</placekey>
+								<placekey>Staten Island (New York, N.Y.)</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2005</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>None</accconst>
 
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>NYC Department of Information Technology and Telecommunication, Citywide GIS</cntorg>
-					<cntper>Marsha D. Kaunitz</cntper>
-				</cntorgp>
-				<cntpos>Deputy Director</cntpos>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>59 Maiden Lane, 33rd floor</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10038</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>212-232-1114</cntvoice>
-			</cntinfo>
-		</ptcontac>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>NYC Department of Information Technology and Telecommunication, Citywide GIS</cntorg>
+									<cntper>Marsha D. Kaunitz</cntper>
+								</cntorgp>
+								<cntpos>Deputy Director</cntpos>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>59 Maiden Lane, 33rd floor</address>
+									<city>New York</city>
+									<state>NY</state>
+									<postal>10038</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>212-232-1114</cntvoice>
+							</cntinfo>
+						</ptcontac>
 
-		<secinfo>
-		</secinfo>
-		<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.1.0.722</native>
-	</idinfo>
-	<dataqual>
-		<posacc>
-			<horizpa>
+						<secinfo>
+						</secinfo>
+						<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.1.0.722</native>
+					</idinfo>
+					<dataqual>
+						<posacc>
+							<horizpa>
 				<horizpar>All the NYCMap data was aerotriangulated and stereo-compiled to meet ASPRS Class 1 horizontal mapping standards and ASPRS vertical Class 2 accuracy specifications.  The mapping standards deal with Root Mean Square (RMS) calculations that states if a random number of clearly identifiable surveyed ground control points throughout the project were compared to the mapped features, the RMS of the points would not exceed 2'. In layman's terms,  95% of the data is accurate to +/- 2'.
 Estimated accuracy: 95% of the data is accurate to +/- 2 feet
 How this value was determined:
 95% of the data is accurate to +/- 2 feet</horizpar>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<procstep>
-				<procdesc>Dataset copied.</procdesc>
-				<srcused>Server=gis-stg-db; Service=port:5151; User=jkleczkowski; Version=JKLECZKOWSKI.jkleczkowski_edit</srcused>
-			</procstep>
-			<procstep>
-				<procdesc>Dataset copied.</procdesc>
-				<srcused>C:\Projects\BIN\buildings_061305</srcused>
-			</procstep>
-			<procstep>
-				<procdesc>Dataset moved.</procdesc>
-				<srcused>T:\GIS\Spatial Data\DOITT\Building footprint\Distribution\Public\buildings_061305</srcused>
-			</procstep>
-			<procstep>
-				<procdesc>Dataset copied.</procdesc>
-				<srcused></srcused>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>G-polygon</sdtstype>
-				<ptvctcnt>980681</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<planar>
-				<mapproj>
-					<mapprojn>Lambert Conformal Conic</mapprojn>
-					<lambertc>
-						<stdparll>40.666667</stdparll>
-						<stdparll>41.033333</stdparll>
-						<longcm>-74.000000</longcm>
-						<latprjo>40.166667</latprjo>
-						<feast>984250.000000</feast>
-						<fnorth>0.000000</fnorth>
-					</lambertc>
-				</mapproj>
-				<planci>
-					<plance>coordinate pair</plance>
-					<coordrep>
-						<absres>0.000256</absres>
-						<ordres>0.000256</ordres>
-					</coordrep>
-					<plandu>survey feet</plandu>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>North American Datum of 1983</horizdn>
-				<ellips>Geodetic Reference System 80</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257222</denflat>
-			</geodetic>
-		</horizsys>
-		<vertdef>
-			<altsys>
-				<altres>1.000000</altres>
-				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-			</altsys>
-		</vertdef>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<procstep>
+								<procdesc>Dataset copied.</procdesc>
+								<srcused>Server=gis-stg-db; Service=port:5151; User=jkleczkowski; Version=JKLECZKOWSKI.jkleczkowski_edit</srcused>
+							</procstep>
+							<procstep>
+								<procdesc>Dataset copied.</procdesc>
+								<srcused>C:\Projects\BIN\buildings_061305</srcused>
+							</procstep>
+							<procstep>
+								<procdesc>Dataset moved.</procdesc>
+								<srcused>T:\GIS\Spatial Data\DOITT\Building footprint\Distribution\Public\buildings_061305</srcused>
+							</procstep>
+							<procstep>
+								<procdesc>Dataset copied.</procdesc>
+								<srcused>
+								</srcused>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>G-polygon</sdtstype>
+								<ptvctcnt>980681</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<planar>
+								<mapproj>
+									<mapprojn>Lambert Conformal Conic</mapprojn>
+									<lambertc>
+										<stdparll>40.666667</stdparll>
+										<stdparll>41.033333</stdparll>
+										<longcm>-74.000000</longcm>
+										<latprjo>40.166667</latprjo>
+										<feast>984250.000000</feast>
+										<fnorth>0.000000</fnorth>
+									</lambertc>
+								</mapproj>
+								<planci>
+									<plance>coordinate pair</plance>
+									<coordrep>
+										<absres>0.000256</absres>
+										<ordres>0.000256</ordres>
+									</coordrep>
+									<plandu>survey feet</plandu>
+								</planci>
+							</planar>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+						<vertdef>
+							<altsys>
+								<altres>1.000000</altres>
+								<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+							</altsys>
+						</vertdef>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 buildings</enttypl>
-				<enttypd>Building footprints</enttypd>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>BIN</attrlabl>
-				<attrdef>Has been stripped</attrdef>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Department of Information Technology and Telecommunication</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>59 Madien Lane</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10038</postal>
-					<country>USA</country>
-				</cntaddr>
-			</cntinfo>
-		</distrib>
-		<resdesc>doitt_nyc_2005_buildings</resdesc></distinfo>
-	<metainfo>
-		<metd>20070424</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metextns>
-			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
-			<metprof>ESRI Metadata Profile</metprof>
-		</metextns>
-	</metainfo>
-</metadata>
+									<enttypd>Building footprints</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>BIN</attrlabl>
+									<attrdef>Has been stripped</attrdef>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Department of Information Technology and Telecommunication</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>59 Madien Lane</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10038</postal>
+										<country>USA</country>
+									</cntaddr>
+								</cntinfo>
+							</distrib>
+							<resdesc>doitt_nyc_2005_buildings</resdesc>
+						</distinfo>
+						<metainfo>
+							<metd>20070424</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+							<metextns>
+								<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+								<metprof>ESRI Metadata Profile</metprof>
+							</metextns>
+						</metainfo>
+					</metadata>

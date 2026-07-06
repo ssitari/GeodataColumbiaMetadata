@@ -1,706 +1,706 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Honduras (3608932)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Honduras</placekey>
-<placekey>Honduras</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2013</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-89.356610</westbc>
-<eastbc>-83.149552</eastbc>
-<northbc>16.518630</northbc>
-<southbc>12.984875</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Honduras (3608932)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Honduras</placekey>
+				<placekey>Honduras</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2013</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-89.356610</westbc>
+				<eastbc>-83.149552</eastbc>
+				<northbc>16.518630</northbc>
+				<southbc>12.984875</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Honduras Economic Census Data, 2013 is a polygon theme representing Barrios (5th level administrative units) in Honduras as of 2013.  Attribute data includes economic variables from the 2013 Hondurasian census.
 Official population and housing data for Honduras from the 2013 census. This census is provided at the barrio administrative level (ADM5) and includes 3732 polygons with 629 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Parentesco: Jefe O Jefa Del Hogar" was updated to D001 and given the alias "Relationship: Head Of Household[Parentesco: Jefe O Jefa Del Hogar]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
- </abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Honduras Economicc Census Data, 2013</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Honduras Economicc Census Data, 2013</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_honduras_economic_2013.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2013</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2013</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>WGS_1984_Web_Mercator_Auxiliary_Sphere</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>WGS_1984_Web_Mercator_Auxiliary_Sphere</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Honduras_2013</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E001</attrlabl>
-    <attrdef>Worked During The Last Week: Yes[Trabajó Durante La Semana Pasada: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E002</attrlabl>
-    <attrdef>Worked During The Last Week: No[Trabajó Durante La Semana Pasada: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E003</attrlabl>
-    <attrdef>Worked During The Last Week: Total[Trabajó Durante La Semana Pasada: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E004</attrlabl>
-    <attrdef>Activity During The Last Week: Family Owned Forest Agricultural Crops Or Raising Animals[Actividad Duarante La Semana Pasada: Atendio Cultivos Agricolas Forestales O Crianza De Animales De Su Propiedad O De Un Familiar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E005</attrlabl>
-    <attrdef>Activity During The Last Week: Family Owned Business Or Workshop[Actividad Duarante La Semana Pasada: Atendio Ayudo En Algun Negocio O Taller Propio O Familiar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E006</attrlabl>
-    <attrdef>Activity During The Last Week: Prepare Food Or Work Up Items For Sale[Actividad Duarante La Semana Pasada: Preparo Alimentos O Elaboro Articulos Para La Venta]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E007</attrlabl>
-    <attrdef>Activity During The Last Week: Had Work But Was On Vacation, Sick Leave, Etc.[Actividad Duarante La Semana Pasada: Tenia Trabajo Pero No Trabajo Por Estar De Vacaciones, Licencia Enfermedad, Etc]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E008</attrlabl>
-    <attrdef>Activity During The Last Week: Seeking Work And Had Worked Before[Actividad Duarante La Semana Pasada: Busco Trabajo Y Habia Trabajado Antes]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E009</attrlabl>
-    <attrdef>Activity During The Last Week: Seeking Work And Had Never Worked[Actividad Duarante La Semana Pasada: Busco Trabajo Y Nunca Habia Trabajado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E010</attrlabl>
-    <attrdef>Activity During The Last Week: Retirement Or Pension[Actividad Duarante La Semana Pasada: Vivio De Su Jubilacion O Pension]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E011</attrlabl>
-    <attrdef>Activity During The Last Week: Lived Off Of Their Income[Actividad Duarante La Semana Pasada: Vivio De Sus Rentas]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E012</attrlabl>
-    <attrdef>Activity During The Last Week: Just Study[Actividad Duarante La Semana Pasada: Solo Estudio]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E013</attrlabl>
-    <attrdef>Activity During The Last Week: Housework[Actividad Duarante La Semana Pasada: Solo Realizo Quehaceres Del Hogar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E014</attrlabl>
-    <attrdef>Activity During The Last Week: Permanently Incapacitated For Work[Actividad Duarante La Semana Pasada: Esta Incapacitado Permanentemente Para Trabajar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E015</attrlabl>
-    <attrdef>Activity During The Last Week: Other[Actividad Duarante La Semana Pasada: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E016</attrlabl>
-    <attrdef>Activity During The Last Week: Total[Actividad Duarante La Semana Pasada: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E017</attrlabl>
-    <attrdef>In This Job They Are: Employee Or Worker Privately [En Este Trabajo Se Desempeña(Ba): Empleado/a U Obrero A Privado A ]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E018</attrlabl>
-    <attrdef>In This Job They Are: Employee Or Worker To The Public [En Este Trabajo Se Desempeña(Ba): Empleado/a U Obrero A Publico A]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E019</attrlabl>
-    <attrdef>In This Job They Are: Business Owner With Employees[En Este Trabajo Se Desempeña(Ba): Patron A Con Empleados As]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E020</attrlabl>
-    <attrdef>In This Job They Are: Independent Worker[En Este Trabajo Se Desempeña(Ba): Trabajador/a Independiente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E021</attrlabl>
-    <attrdef>In This Job They Are: Unpaid Family Worker[En Este Trabajo Se Desempeña(Ba): Trabajador/a Familiar Sin Pago]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E022</attrlabl>
-    <attrdef>In This Job They Are: A Domestic Employee[En Este Trabajo Se Desempeña(Ba): Empleado/a Domestico A ]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E023</attrlabl>
-    <attrdef>In This Job They Are: Unpaid Worker[En Este Trabajo Se Desempeña(Ba): Trabajador/a No Remunerado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E024</attrlabl>
-    <attrdef>In This Job They Are: Other[En Este Trabajo Se Desempeña(Ba): Otra]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E025</attrlabl>
-    <attrdef>In This Job They Are: Total[En Este Trabajo Se Desempeña(Ba): Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E026</attrlabl>
-    <attrdef>Company Location: In This Municipality[Ubicación De La Empresa: En Este Municipio]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E027</attrlabl>
-    <attrdef>Company Location: In Another Municipality In The Country[Ubicación De La Empresa: En Otro Municipio Del Pais]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E028</attrlabl>
-    <attrdef>Company Location: Total[Ubicación De La Empresa: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E029</attrlabl>
-    <attrdef>Occupation: Directors And Managers[Ocupacion: Directores Y Gerentes]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E030</attrlabl>
-    <attrdef>Occupation: Professional Scientists And Intellectuals[Ocupacion: Profesionales Cientificos E Intelectuales]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E031</attrlabl>
-    <attrdef>Occupation: Technical And Professional Standard Level[Ocupacion: Tecnicos Y Profesional De Nivel Medio]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E032</attrlabl>
-    <attrdef>Occupation: Administrative Support Staff[Ocupacion: Personal De Apoyo Administrativo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E033</attrlabl>
-    <attrdef>Occupation: Services Workers And Salesmen And Markets[Ocupacion: Trabajadores De Los Servicios Y Vendedores De Comercios Y Mercados]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E034</attrlabl>
-    <attrdef>Occupation: Farmers And Skilled Workers, Agriculture, Forestry And Fishery[Ocupacion: Agricultores Y Trabajadores Calificados, Agropecuarios, Forestales Y Pesqueros]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E035</attrlabl>
-    <attrdef>Occupation:Officials, Workers, Mechanical Arts And Crafts Workers And Other Crafts[Ocupacion: Oficiales, Operarios Y Artesanos De Artes Mecanicas Y De Otros Oficios]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E036</attrlabl>
-    <attrdef>Occupation: Plant And Machine Operators And Assemblers[Ocupacion: Operadores De Instalaciones Y Maquinas Y Ensambladores]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E037</attrlabl>
-    <attrdef>Occupation: Elementary Occupations[Ocupacion: Ocupaciones Elementales]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E038</attrlabl>
-    <attrdef>Occupation: Military Occupations[Ocupacion: Ocupaciones Militares]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E039</attrlabl>
-    <attrdef>Occupation: Undeclared[Ocupacion: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E040</attrlabl>
-    <attrdef>Occupation: Total[Ocupacion: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E041</attrlabl>
-    <attrdef>Economically Active Population: Employed[Poblacion Economicamente Activa: Ocupados]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E042</attrlabl>
-    <attrdef>Economically Active Population: Unemployed[Poblacion Economicamente Activa: Desocupados]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E043</attrlabl>
-    <attrdef>Economically Active Population: Inactive[Poblacion Economicamente Activa: Inactivos]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E044</attrlabl>
-    <attrdef>Economically Active Population: Total[Poblacion Economicamente Activa: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E045</attrlabl>
-    <attrdef>Branch 1 Classification: Agriculture, Forestry And Fishing[Rama 1 Digito: Agricultura Ganaderia Silvicultura Y Pesca]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E046</attrlabl>
-    <attrdef>Branch 1 Classification: Mining And Quarrying[Rama 1 Digito: Explotacion De Minas Y Canteras]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E047</attrlabl>
-    <attrdef>Branch 1 Classification: Manufacturing Industries[Rama 1 Digito: Industrias Manufactureras]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E048</attrlabl>
-    <attrdef>Branch 1 Classification: Supply Gas Steam And Electricity Aiore Conditioning[Rama 1 Digito: Sumunistro De Electricidad Gas Vapor Y Aiore Acondicionado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E049</attrlabl>
-    <attrdef>Branch 1 Classification: Supply Water And Drain Sewage Waste Management And Decontamination[Rama 1 Digito: Suministro De Agua Evacuacion De Aguas Residuales Gestion De Desechos Y Descontaminacion]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E050</attrlabl>
-    <attrdef>Branch 1 Classification: Construction[Rama 1 Digito: Construccion]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E051</attrlabl>
-    <attrdef>Branch 1 Classification: Wholesale And Retail Trade Repair Of Motor Vehicles And Motorcycles[Rama 1 Digito: Comercio Al Por Mayor Y Al Por Menor Reparacion De Vehiculos Automotores Y Motocicletas]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E052</attrlabl>
-    <attrdef>Branch 1 Classification: Transport And Storage[Rama 1 Digito: Transporte Y Almacenamiento]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E053</attrlabl>
-    <attrdef>Branch 1 Classification: Accommodation And Food Services[Rama 1 Digito: Actividades De Alojamiento Y De Servicios De Comidas]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E054</attrlabl>
-    <attrdef>Branch 1 Classification: Information And Communication[Rama 1 Digito: Informacion Y Comunicaciones]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E055</attrlabl>
-    <attrdef>Branch 1 Classification: Financial And Insurance Activities[Rama 1 Digito: Actividades Financieras Y De Seguros]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E056</attrlabl>
-    <attrdef>Branch 1 Classification: Real Estate Activities[Rama 1 Digito: Actividades Inmobiliarias]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E057</attrlabl>
-    <attrdef>Branch 1 Classification: Professional Scientific And Technical Activities[Rama 1 Digito: Actividades Profesionales Cientificas Y Tecnicas]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E058</attrlabl>
-    <attrdef>Branch 1 Classification: Administrative And Support Services[Rama 1 Digito: Actividades De Servicios Administrativos Y De Apoyo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E059</attrlabl>
-    <attrdef>Branch 1 Classification: Public Administration And Defense And Social Security Schemes Compulsory[Rama 1 Digito: Administracion Publica Y Defensa Planes De Seguridad Social Y Afiliacion Obligatoria]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E060</attrlabl>
-    <attrdef>Branch 1 Classification: Teaching[Rama 1 Digito: Enseñanza]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E061</attrlabl>
-    <attrdef>Branch 1 Classification: Human Health Care And Social Assistance[Rama 1 Digito: Actividades De Atencion De La Salud Humana Y De Asistencia Social]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E062</attrlabl>
-    <attrdef>Branch 1 Classification: Recreational And Artistic Entertainment[Rama 1 Digito: Actividades Artisticas De Entretenimiento Y Recreativas]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E063</attrlabl>
-    <attrdef>Branch 1 Classification: Other Service Activities[Rama 1 Digito: Otras Actividades De Servicios]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E064</attrlabl>
-    <attrdef>Branch 1 Class: Activities Of Households As Employers And Activities Of Households As Producers Of Goods And Services For Own Use[Rama 1 Digito: Actividades De Los Hogares Como Empleadores Y Actividades</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E065</attrlabl>
-    <attrdef>Branch 1 Classification: Activities Of Extraterritorial Organizations And Bodies[Rama 1 Digito: Actividades De Organizaciones Y Organos Extraterritoriales]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E066</attrlabl>
-    <attrdef>Branch 1 Classification: Undeclared[Rama 1 Digito: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E067</attrlabl>
-    <attrdef>Branch 1 Classification: Total[Rama 1 Digito: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv/>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv/>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Honduras_2013</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E001</attrlabl>
+			<attrdef>Worked During The Last Week: Yes[Trabajó Durante La Semana Pasada: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E002</attrlabl>
+			<attrdef>Worked During The Last Week: No[Trabajó Durante La Semana Pasada: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E003</attrlabl>
+			<attrdef>Worked During The Last Week: Total[Trabajó Durante La Semana Pasada: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E004</attrlabl>
+			<attrdef>Activity During The Last Week: Family Owned Forest Agricultural Crops Or Raising Animals[Actividad Duarante La Semana Pasada: Atendio Cultivos Agricolas Forestales O Crianza De Animales De Su Propiedad O De Un Familiar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E005</attrlabl>
+			<attrdef>Activity During The Last Week: Family Owned Business Or Workshop[Actividad Duarante La Semana Pasada: Atendio Ayudo En Algun Negocio O Taller Propio O Familiar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E006</attrlabl>
+			<attrdef>Activity During The Last Week: Prepare Food Or Work Up Items For Sale[Actividad Duarante La Semana Pasada: Preparo Alimentos O Elaboro Articulos Para La Venta]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E007</attrlabl>
+			<attrdef>Activity During The Last Week: Had Work But Was On Vacation, Sick Leave, Etc.[Actividad Duarante La Semana Pasada: Tenia Trabajo Pero No Trabajo Por Estar De Vacaciones, Licencia Enfermedad, Etc]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E008</attrlabl>
+			<attrdef>Activity During The Last Week: Seeking Work And Had Worked Before[Actividad Duarante La Semana Pasada: Busco Trabajo Y Habia Trabajado Antes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E009</attrlabl>
+			<attrdef>Activity During The Last Week: Seeking Work And Had Never Worked[Actividad Duarante La Semana Pasada: Busco Trabajo Y Nunca Habia Trabajado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E010</attrlabl>
+			<attrdef>Activity During The Last Week: Retirement Or Pension[Actividad Duarante La Semana Pasada: Vivio De Su Jubilacion O Pension]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E011</attrlabl>
+			<attrdef>Activity During The Last Week: Lived Off Of Their Income[Actividad Duarante La Semana Pasada: Vivio De Sus Rentas]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E012</attrlabl>
+			<attrdef>Activity During The Last Week: Just Study[Actividad Duarante La Semana Pasada: Solo Estudio]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E013</attrlabl>
+			<attrdef>Activity During The Last Week: Housework[Actividad Duarante La Semana Pasada: Solo Realizo Quehaceres Del Hogar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E014</attrlabl>
+			<attrdef>Activity During The Last Week: Permanently Incapacitated For Work[Actividad Duarante La Semana Pasada: Esta Incapacitado Permanentemente Para Trabajar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E015</attrlabl>
+			<attrdef>Activity During The Last Week: Other[Actividad Duarante La Semana Pasada: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E016</attrlabl>
+			<attrdef>Activity During The Last Week: Total[Actividad Duarante La Semana Pasada: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E017</attrlabl>
+			<attrdef>In This Job They Are: Employee Or Worker Privately [En Este Trabajo Se Desempeña(Ba): Empleado/a U Obrero A Privado A ]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E018</attrlabl>
+			<attrdef>In This Job They Are: Employee Or Worker To The Public [En Este Trabajo Se Desempeña(Ba): Empleado/a U Obrero A Publico A]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E019</attrlabl>
+			<attrdef>In This Job They Are: Business Owner With Employees[En Este Trabajo Se Desempeña(Ba): Patron A Con Empleados As]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E020</attrlabl>
+			<attrdef>In This Job They Are: Independent Worker[En Este Trabajo Se Desempeña(Ba): Trabajador/a Independiente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E021</attrlabl>
+			<attrdef>In This Job They Are: Unpaid Family Worker[En Este Trabajo Se Desempeña(Ba): Trabajador/a Familiar Sin Pago]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E022</attrlabl>
+			<attrdef>In This Job They Are: A Domestic Employee[En Este Trabajo Se Desempeña(Ba): Empleado/a Domestico A ]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E023</attrlabl>
+			<attrdef>In This Job They Are: Unpaid Worker[En Este Trabajo Se Desempeña(Ba): Trabajador/a No Remunerado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E024</attrlabl>
+			<attrdef>In This Job They Are: Other[En Este Trabajo Se Desempeña(Ba): Otra]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E025</attrlabl>
+			<attrdef>In This Job They Are: Total[En Este Trabajo Se Desempeña(Ba): Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E026</attrlabl>
+			<attrdef>Company Location: In This Municipality[Ubicación De La Empresa: En Este Municipio]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E027</attrlabl>
+			<attrdef>Company Location: In Another Municipality In The Country[Ubicación De La Empresa: En Otro Municipio Del Pais]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E028</attrlabl>
+			<attrdef>Company Location: Total[Ubicación De La Empresa: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E029</attrlabl>
+			<attrdef>Occupation: Directors And Managers[Ocupacion: Directores Y Gerentes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E030</attrlabl>
+			<attrdef>Occupation: Professional Scientists And Intellectuals[Ocupacion: Profesionales Cientificos E Intelectuales]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E031</attrlabl>
+			<attrdef>Occupation: Technical And Professional Standard Level[Ocupacion: Tecnicos Y Profesional De Nivel Medio]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E032</attrlabl>
+			<attrdef>Occupation: Administrative Support Staff[Ocupacion: Personal De Apoyo Administrativo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E033</attrlabl>
+			<attrdef>Occupation: Services Workers And Salesmen And Markets[Ocupacion: Trabajadores De Los Servicios Y Vendedores De Comercios Y Mercados]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E034</attrlabl>
+			<attrdef>Occupation: Farmers And Skilled Workers, Agriculture, Forestry And Fishery[Ocupacion: Agricultores Y Trabajadores Calificados, Agropecuarios, Forestales Y Pesqueros]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E035</attrlabl>
+			<attrdef>Occupation:Officials, Workers, Mechanical Arts And Crafts Workers And Other Crafts[Ocupacion: Oficiales, Operarios Y Artesanos De Artes Mecanicas Y De Otros Oficios]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E036</attrlabl>
+			<attrdef>Occupation: Plant And Machine Operators And Assemblers[Ocupacion: Operadores De Instalaciones Y Maquinas Y Ensambladores]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E037</attrlabl>
+			<attrdef>Occupation: Elementary Occupations[Ocupacion: Ocupaciones Elementales]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E038</attrlabl>
+			<attrdef>Occupation: Military Occupations[Ocupacion: Ocupaciones Militares]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E039</attrlabl>
+			<attrdef>Occupation: Undeclared[Ocupacion: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E040</attrlabl>
+			<attrdef>Occupation: Total[Ocupacion: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E041</attrlabl>
+			<attrdef>Economically Active Population: Employed[Poblacion Economicamente Activa: Ocupados]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E042</attrlabl>
+			<attrdef>Economically Active Population: Unemployed[Poblacion Economicamente Activa: Desocupados]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E043</attrlabl>
+			<attrdef>Economically Active Population: Inactive[Poblacion Economicamente Activa: Inactivos]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E044</attrlabl>
+			<attrdef>Economically Active Population: Total[Poblacion Economicamente Activa: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E045</attrlabl>
+			<attrdef>Branch 1 Classification: Agriculture, Forestry And Fishing[Rama 1 Digito: Agricultura Ganaderia Silvicultura Y Pesca]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E046</attrlabl>
+			<attrdef>Branch 1 Classification: Mining And Quarrying[Rama 1 Digito: Explotacion De Minas Y Canteras]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E047</attrlabl>
+			<attrdef>Branch 1 Classification: Manufacturing Industries[Rama 1 Digito: Industrias Manufactureras]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E048</attrlabl>
+			<attrdef>Branch 1 Classification: Supply Gas Steam And Electricity Aiore Conditioning[Rama 1 Digito: Sumunistro De Electricidad Gas Vapor Y Aiore Acondicionado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E049</attrlabl>
+			<attrdef>Branch 1 Classification: Supply Water And Drain Sewage Waste Management And Decontamination[Rama 1 Digito: Suministro De Agua Evacuacion De Aguas Residuales Gestion De Desechos Y Descontaminacion]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E050</attrlabl>
+			<attrdef>Branch 1 Classification: Construction[Rama 1 Digito: Construccion]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E051</attrlabl>
+			<attrdef>Branch 1 Classification: Wholesale And Retail Trade Repair Of Motor Vehicles And Motorcycles[Rama 1 Digito: Comercio Al Por Mayor Y Al Por Menor Reparacion De Vehiculos Automotores Y Motocicletas]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E052</attrlabl>
+			<attrdef>Branch 1 Classification: Transport And Storage[Rama 1 Digito: Transporte Y Almacenamiento]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E053</attrlabl>
+			<attrdef>Branch 1 Classification: Accommodation And Food Services[Rama 1 Digito: Actividades De Alojamiento Y De Servicios De Comidas]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E054</attrlabl>
+			<attrdef>Branch 1 Classification: Information And Communication[Rama 1 Digito: Informacion Y Comunicaciones]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E055</attrlabl>
+			<attrdef>Branch 1 Classification: Financial And Insurance Activities[Rama 1 Digito: Actividades Financieras Y De Seguros]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E056</attrlabl>
+			<attrdef>Branch 1 Classification: Real Estate Activities[Rama 1 Digito: Actividades Inmobiliarias]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E057</attrlabl>
+			<attrdef>Branch 1 Classification: Professional Scientific And Technical Activities[Rama 1 Digito: Actividades Profesionales Cientificas Y Tecnicas]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E058</attrlabl>
+			<attrdef>Branch 1 Classification: Administrative And Support Services[Rama 1 Digito: Actividades De Servicios Administrativos Y De Apoyo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E059</attrlabl>
+			<attrdef>Branch 1 Classification: Public Administration And Defense And Social Security Schemes Compulsory[Rama 1 Digito: Administracion Publica Y Defensa Planes De Seguridad Social Y Afiliacion Obligatoria]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E060</attrlabl>
+			<attrdef>Branch 1 Classification: Teaching[Rama 1 Digito: Enseñanza]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E061</attrlabl>
+			<attrdef>Branch 1 Classification: Human Health Care And Social Assistance[Rama 1 Digito: Actividades De Atencion De La Salud Humana Y De Asistencia Social]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E062</attrlabl>
+			<attrdef>Branch 1 Classification: Recreational And Artistic Entertainment[Rama 1 Digito: Actividades Artisticas De Entretenimiento Y Recreativas]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E063</attrlabl>
+			<attrdef>Branch 1 Classification: Other Service Activities[Rama 1 Digito: Otras Actividades De Servicios]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E064</attrlabl>
+			<attrdef>Branch 1 Class: Activities Of Households As Employers And Activities Of Households As Producers Of Goods And Services For Own Use[Rama 1 Digito: Actividades De Los Hogares Como Empleadores Y Actividades</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E065</attrlabl>
+			<attrdef>Branch 1 Classification: Activities Of Extraterritorial Organizations And Bodies[Rama 1 Digito: Actividades De Organizaciones Y Organos Extraterritoriales]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E066</attrlabl>
+			<attrdef>Branch 1 Classification: Undeclared[Rama 1 Digito: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E067</attrlabl>
+			<attrdef>Branch 1 Classification: Total[Rama 1 Digito: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv/>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv/>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_honduras_economic_2013</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_honduras_economic_2013</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

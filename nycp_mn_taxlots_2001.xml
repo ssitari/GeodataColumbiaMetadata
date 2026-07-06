@@ -15,7 +15,8 @@
 				<pubinfo>
 					<publish>New York (N.Y.). Department of City Planning</publish>
 				</pubinfo>
-				<onlink>https://www.columbia.edu/acis/eds/gis/images/nycp_mn_taxlots_2001.zip</onlink></citeinfo>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/nycp_mn_taxlots_2001.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>Manhattan Tax Lots, 2001 is a polygon theme representing tax lots in New York County, NY as of 2001.  This dataset represents a compilation of data from various government agencies throughout the City of New York.  The underlying geography is derived from the Tax Lot Polygon feature class which is part of the Department of Finance's Digital Tax Map (DTM).  The tax lots have been clipped to the shoreline, as defined by NYCMap planimetric features.  The attribute information is from the Department of City Planning's PLUTO data.  The attribute data pertains to tax lot and building characteristics and geographic, political and administrative information for each tax lot in New York City.  The Tax Lot Polygon feature class and PLUTO are derived from different sources.   As a result, some PLUTO records did not have a corresponding tax lot in the Tax Lot polygon feature class at the time of release.  These records are included in a separate non-geographic PLUTO Only DBase (*.dbf) table. There are a number of reasons why there can be a tax lot in PLUTO that does not match the DTM; the most common reason is that the various source files are maintained by different departments and divisions with varying update cycles and criteria for adding and removing records.  The attribute definitions for the PLUTO Only table are the same as those for MapPLUTO.
@@ -25,8 +26,12 @@ DCP Mapping Lots includes some features that are not on the tax maps.  They have
 		</descript>
 		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2001</caldate></sngdate></timeinfo>
-			<current>publication date</current></timeperd>
+				<sngdate>
+					<caldate>2001</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
 		<status>
 			<progress>Complete</progress>
 			<update>Semiannually</update>
@@ -47,15 +52,36 @@ DCP Mapping Lots includes some features that are not on the tax maps.  They have
 				<themekey>PLUTO</themekey>
 				<themekey>MapPLUTO</themekey>
 				<themekt>None</themekt>
-				<themekey>Boundaries</themekey><themekey>RPAD</themekey></theme>
+				<themekey>Boundaries</themekey>
+				<themekey>RPAD</themekey>
+			</theme>
 			<place>
 				<placekt>GeoNames</placekt>
 				<placekey>New York City (5128581)</placekey>
 			</place>
 			<place>
 				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>New York (State)</placekey><placekey>New York (N.Y.)</placekey><placekey>Brooklyn (New York, N.Y.)</placekey><placekey>Bronx (New York, N.Y.)</placekey><placekey>Queens (New York, N.Y.)</placekey><placekey>Manhattan (New York, N.Y.)</placekey><placekey>Staten Island (New York, N.Y.)</placekey></place>
-			<theme><themekt>ISO 19115 Topic Category</themekt><themekey>planningCadastre</themekey></theme><place><placekt>None</placekt><placekey>NYC</placekey></place><temporal><tempkt>None</tempkt><tempkey>2001</tempkey></temporal></keywords>
+				<placekey>New York (State)</placekey>
+				<placekey>New York (N.Y.)</placekey>
+				<placekey>Brooklyn (New York, N.Y.)</placekey>
+				<placekey>Bronx (New York, N.Y.)</placekey>
+				<placekey>Queens (New York, N.Y.)</placekey>
+				<placekey>Manhattan (New York, N.Y.)</placekey>
+				<placekey>Staten Island (New York, N.Y.)</placekey>
+			</place>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>planningCadastre</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>NYC</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2001</tempkey>
+			</temporal>
+		</keywords>
 		<accconst>None</accconst>
 		<useconst>None</useconst>
 		<ptcontac>
@@ -78,59 +104,15 @@ DCP Mapping Lots includes some features that are not on the tax maps.  They have
 		<native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.1850</native>
 		<natvform>geopackage</natvform>
 	</idinfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>NYC Department of City Planning</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>22 Reade St</address>
-					<city>New York</city>
-					<state>New York</state>
-					<postal>10007</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntinst>Available at the following website: http://www.nyc.gov/html/dcp/html/bytes/applbyte.html</cntinst>
-				<cntvoice>212.720.3505</cntvoice>
-			</cntinfo>
-		</distrib>
-		<stdorder>
-			<fees> Free </fees>
-			<digform>
-				<digtinfo>
-					<formname>geopackage</formname>
-					<formspec>zip</formspec>
-				</digtinfo>
-			</digform>
-		</stdorder>
-		<resdesc>nycp_mn_taxlots_2001</resdesc>
-	</distinfo>
-	<metainfo>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metd>20140327</metd>
-	</metainfo>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype><ptvctcnt>44578</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>44578</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
 	<spref>
 		<horizsys>
 			<planar>
@@ -149,28 +131,86 @@ DCP Mapping Lots includes some features that are not on the tax maps.  They have
 				<semiaxis>6378137.000000</semiaxis>
 				<denflat>298.257222</denflat>
 			</geodetic>
-			<cordsysn><geogcsn>GCS_North_American_1983</geogcsn><projcsn>NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn></cordsysn></horizsys>
+			<cordsysn>
+				<geogcsn>GCS_North_American_1983</geogcsn>
+				<projcsn>NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn>
+			</cordsysn>
+		</horizsys>
 	</spref>
 	<eainfo>
 		<detailed Name="nycp_mn_taxlots_2001">
 			<enttyp>
 				<enttypl>mnmappluto</enttypl>
-				<enttypt>Feature Class</enttypt><enttypc>277406</enttypc></enttyp>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>277406</enttypc>
+			</enttyp>
 			<attr>
 				<attrlabl>FID</attrlabl>
 				<attrdef>Internal feature number.</attrdef>
 				<attrdomv>
 					<udom>Sequential unique whole numbers that are automatically generated.</udom>
 				</attrdomv>
-				<attalias>FID</attalias><attrtype>OID</attrtype><attwidth>4</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdefs>ESRI</attrdefs></attr>
+				<attalias>FID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>Shape</attrlabl>
 				<attrdef>Feature geometry.</attrdef>
 				<attrdomv>
 					<udom>Coordinates defining the features.</udom>
 				</attrdomv>
-				<attalias>Shape</attalias><attrtype>Geometry</attrtype><attwidth>0</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdefs>ESRI</attrdefs></attr>
-			<attr><attrlabl >TAXLOT</attrlabl><attalias >TAXLOT</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >BOROUGH</attrlabl><attalias >BOROUGH</attalias><attrtype >String</attrtype><attwidth >2</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >TAX_BLOCK</attrlabl><attalias >TAX_BLOCK</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >TAX_LOT</attrlabl><attalias >TAX_LOT</attalias><attrtype >Integer</attrtype><attwidth >9</attwidth><atprecis >9</atprecis><attscale >0</attscale></attr><attr><attrlabl >CD</attrlabl><attalias >CD</attalias><attrtype >Integer</attrtype><attwidth >9</attwidth><atprecis >9</atprecis><attscale >0</attscale></attr><attr>
+				<attalias>Shape</attalias>
+				<attrtype>Geometry</attrtype>
+				<attwidth>0</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl >TAXLOT</attrlabl>
+				<attalias >TAXLOT</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >BOROUGH</attrlabl>
+				<attalias >BOROUGH</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >2</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >TAX_BLOCK</attrlabl>
+				<attalias >TAX_BLOCK</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >TAX_LOT</attrlabl>
+				<attalias >TAX_LOT</attalias>
+				<attrtype >Integer</attrtype>
+				<attwidth >9</attwidth>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >CD</attrlabl>
+				<attalias >CD</attalias>
+				<attrtype >Integer</attrtype>
+				<attwidth >9</attwidth>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
 				<attrlabl>cd2</attrlabl>
 				<attrdomv>
 					<edom>
@@ -242,28 +282,641 @@ DCP Mapping Lots includes some features that are not on the tax maps.  They have
 						<edomvd>Staten Island Gateway National Recreation Area (JIA)</edomvd>
 					</edom>
 				</attrdomv>
-				<attalias>cd2</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdef>Community district (CD) or joint interest area (JIA)  the tax lot is located.</attrdef><attrdefs>Department of City Planning</attrdefs><attrvai><attrvae>Two portions of the city, Marble Hill and Rikers Island, are legally located in one borough and are each serviced by different boroughs. The cd2 codes associated with these areas are the community districts they are serviced by. Specifically, Marble Hill is legally located in Manhattan but is serviced by the Bronx and has Bronx cd2 codes of 207 or 208. Rikers Island has a Queens cd2 code of 401 since it is serviced by Queens even though it is legally located in the Bronx.</attrvae></attrvai><atprecis >9</atprecis><attscale >0</attscale></attr>
+				<attalias>cd2</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>Community district (CD) or joint interest area (JIA)  the tax lot is located.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<attrvai>
+					<attrvae>Two portions of the city, Marble Hill and Rikers Island, are legally located in one borough and are each serviced by different boroughs. The cd2 codes associated with these areas are the community districts they are serviced by. Specifically, Marble Hill is legally located in Manhattan but is serviced by the Bronx and has Bronx cd2 codes of 207 or 208. Rikers Island has a Queens cd2 code of 401 since it is serviced by Queens even though it is legally located in the Bronx.</attrvae>
+				</attrvai>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
 			<attr>
 				<attrlabl>ct2000</attrlabl>
-				<attalias>ct2000</attalias><attrtype>String</attrtype><attwidth>7</attwidth><attrdomv><edom><edomvds>2000 census tracts are geographic areas defined by the U.S. Census Bureau for the 2000 Census.  Each census tract is unique within a borough (see borough).</edomvds></edom></attrdomv><attrdef>The 2000 census tract that the tax lot is located in.</attrdef><attrdefs>Department of City Planning</attrdefs><atprecis >0</atprecis><attscale >0</attscale></attr>
-			<attr><attrlabl >DIST</attrlabl><attalias >DIST</attalias><attrtype >Integer</attrtype><attwidth >9</attwidth><atprecis >9</atprecis><attscale >0</attscale></attr><attr><attrlabl >DIST0</attrlabl><attalias >DIST0</attalias><attrtype >Integer</attrtype><attwidth >9</attwidth><atprecis >9</atprecis><attscale >0</attscale></attr><attr><attrlabl >ZIP_CODE</attrlabl><attalias >ZIP_CODE</attalias><attrtype >String</attrtype><attwidth >5</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >FIRE_COMP</attrlabl><attalias >FIRE_COMP</attalias><attrtype >String</attrtype><attwidth >4</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >AREA</attrlabl><attalias >AREA</attalias><attrtype >Integer</attrtype><attwidth >9</attwidth><atprecis >9</atprecis><attscale >0</attscale></attr><attr><attrlabl >CTR_DIST</attrlabl><attalias >CTR_DIST</attalias><attrtype >Integer</attrtype><attwidth >9</attwidth><atprecis >9</atprecis><attscale >0</attscale></attr><attr><attrlabl >PREC</attrlabl><attalias >PREC</attalias><attrtype >Integer</attrtype><attwidth >9</attwidth><atprecis >9</atprecis><attscale >0</attscale></attr><attr>
+				<attalias>ct2000</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>7</attwidth>
+				<attrdomv>
+					<edom>
+						<edomvds>2000 census tracts are geographic areas defined by the U.S. Census Bureau for the 2000 Census.  Each census tract is unique within a borough (see borough).</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The 2000 census tract that the tax lot is located in.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >DIST</attrlabl>
+				<attalias >DIST</attalias>
+				<attrtype >Integer</attrtype>
+				<attwidth >9</attwidth>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >DIST0</attrlabl>
+				<attalias >DIST0</attalias>
+				<attrtype >Integer</attrtype>
+				<attwidth >9</attwidth>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >ZIP_CODE</attrlabl>
+				<attalias >ZIP_CODE</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >5</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >FIRE_COMP</attrlabl>
+				<attalias >FIRE_COMP</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >4</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >AREA</attrlabl>
+				<attalias >AREA</attalias>
+				<attrtype >Integer</attrtype>
+				<attwidth >9</attwidth>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >CTR_DIST</attrlabl>
+				<attalias >CTR_DIST</attalias>
+				<attrtype >Integer</attrtype>
+				<attwidth >9</attwidth>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >PREC</attrlabl>
+				<attalias >PREC</attalias>
+				<attrtype >Integer</attrtype>
+				<attwidth >9</attwidth>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
 				<attrlabl>cb2000</attrlabl>
-				<attalias>cb2000</attalias><attrtype>String</attrtype><attwidth>4</attwidth><attrdomv><edom><edomvds>2000 census blocks are the smallest geographic areas reported on by the U.S. Census Bureau for the 2000 census.  Each census block is unique within a census tract (see ct2000).</edomvds></edom></attrdomv><attrdef>The 2000 census block that the tax lot is located in.</attrdef><attrdefs>Department of City Planning</attrdefs><atprecis >0</atprecis><attscale >0</attscale></attr>
-			<attr><attrlabl >DISTRICT1</attrlabl><attalias >DISTRICT1</attalias><attrtype >String</attrtype><attwidth >8</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >DISTRICT2</attrlabl><attalias >DISTRICT2</attalias><attrtype >String</attrtype><attwidth >8</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >COMM_OVER1</attrlabl><attalias >COMM_OVER1</attalias><attrtype >String</attrtype><attwidth >4</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >COMM_OVER2</attrlabl><attalias >COMM_OVER2</attalias><attrtype >String</attrtype><attwidth >4</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >SPD1</attrlabl><attalias >SPD1</attalias><attrtype >String</attrtype><attwidth >5</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >SPD2</attrlabl><attalias >SPD2</attalias><attrtype >String</attrtype><attwidth >5</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >ALL1</attrlabl><attalias >ALL1</attalias><attrtype >String</attrtype><attwidth >20</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >ALL2</attrlabl><attalias >ALL2</attalias><attrtype >String</attrtype><attwidth >20</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >INDICATOR</attrlabl><attalias >INDICATOR</attalias><attrtype >String</attrtype><attwidth >1</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >BLDG_CLASS</attrlabl><attalias >BLDG_CLASS</attalias><attrtype >String</attrtype><attwidth >2</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >USE_CAT</attrlabl><attalias >USE_CAT</attalias><attrtype >String</attrtype><attwidth >2</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >NUM</attrlabl><attalias >NUM</attalias><attrtype >Integer</attrtype><attwidth >9</attwidth><atprecis >9</atprecis><attscale >0</attscale></attr><attr><attrlabl >OWNER_TYPE</attrlabl><attalias >OWNER_TYPE</attalias><attrtype >String</attrtype><attwidth >1</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >OWNER_NAME</attrlabl><attalias >OWNER_NAME</attalias><attrtype >String</attrtype><attwidth >21</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >LOT_AREA</attrlabl><attalias >LOT_AREA</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >TOTAL_BLDG</attrlabl><attalias >TOTAL_BLDG</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >AREA_COMM</attrlabl><attalias >AREA_COMM</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >AREA_RES</attrlabl><attalias >AREA_RES</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >SOURCE</attrlabl><attalias >SOURCE</attalias><attrtype >String</attrtype><attwidth >1</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >NUM_BLDGS</attrlabl><attalias >NUM_BLDGS</attalias><attrtype >Integer</attrtype><attwidth >9</attwidth><atprecis >9</atprecis><attscale >0</attscale></attr><attr><attrlabl >NUM_FLOORS</attrlabl><attalias >NUM_FLOORS</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >UNITS_RES</attrlabl><attalias >UNITS_RES</attalias><attrtype >Integer</attrtype><attwidth >9</attwidth><atprecis >9</atprecis><attscale >0</attscale></attr><attr><attrlabl >AND_NONRES</attrlabl><attalias >AND_NONRES</attalias><attrtype >Integer</attrtype><attwidth >9</attwidth><atprecis >9</atprecis><attscale >0</attscale></attr><attr><attrlabl >FRONTAGE</attrlabl><attalias >FRONTAGE</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >LOT_DEPTH</attrlabl><attalias >LOT_DEPTH</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >FRONTAGE0</attrlabl><attalias >FRONTAGE0</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >DEPTH</attrlabl><attalias >DEPTH</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >LOT_CODE</attrlabl><attalias >LOT_CODE</attalias><attrtype >String</attrtype><attwidth >1</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >LOT_CODE0</attrlabl><attalias >LOT_CODE0</attalias><attrtype >String</attrtype><attwidth >1</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >VAL_LAND</attrlabl><attalias >VAL_LAND</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >VAL_TOTAL</attrlabl><attalias >VAL_TOTAL</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >VAL_LAND0</attrlabl><attalias >VAL_LAND0</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >VAL_TOTA0</attrlabl><attalias >VAL_TOTA0</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >YEAR_BUILT</attrlabl><attalias >YEAR_BUILT</attalias><attrtype >String</attrtype><attwidth >4</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >BUILT_CODE</attrlabl><attalias >BUILT_CODE</attalias><attrtype >String</attrtype><attwidth >1</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >ALTERED1</attrlabl><attalias >ALTERED1</attalias><attrtype >String</attrtype><attwidth >4</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >ALTERED2</attrlabl><attalias >ALTERED2</attalias><attrtype >String</attrtype><attwidth >4</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >IND</attrlabl><attalias >IND</attalias><attrtype >String</attrtype><attwidth >1</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >NAME</attrlabl><attalias >NAME</attalias><attrtype >String</attrtype><attwidth >35</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr>
+				<attalias>cb2000</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>4</attwidth>
+				<attrdomv>
+					<edom>
+						<edomvds>2000 census blocks are the smallest geographic areas reported on by the U.S. Census Bureau for the 2000 census.  Each census block is unique within a census tract (see ct2000).</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The 2000 census block that the tax lot is located in.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >DISTRICT1</attrlabl>
+				<attalias >DISTRICT1</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >8</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >DISTRICT2</attrlabl>
+				<attalias >DISTRICT2</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >8</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >COMM_OVER1</attrlabl>
+				<attalias >COMM_OVER1</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >4</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >COMM_OVER2</attrlabl>
+				<attalias >COMM_OVER2</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >4</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >SPD1</attrlabl>
+				<attalias >SPD1</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >5</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >SPD2</attrlabl>
+				<attalias >SPD2</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >5</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >ALL1</attrlabl>
+				<attalias >ALL1</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >20</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >ALL2</attrlabl>
+				<attalias >ALL2</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >20</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >INDICATOR</attrlabl>
+				<attalias >INDICATOR</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >1</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >BLDG_CLASS</attrlabl>
+				<attalias >BLDG_CLASS</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >2</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >USE_CAT</attrlabl>
+				<attalias >USE_CAT</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >2</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >NUM</attrlabl>
+				<attalias >NUM</attalias>
+				<attrtype >Integer</attrtype>
+				<attwidth >9</attwidth>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >OWNER_TYPE</attrlabl>
+				<attalias >OWNER_TYPE</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >1</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >OWNER_NAME</attrlabl>
+				<attalias >OWNER_NAME</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >21</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >LOT_AREA</attrlabl>
+				<attalias >LOT_AREA</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >TOTAL_BLDG</attrlabl>
+				<attalias >TOTAL_BLDG</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >AREA_COMM</attrlabl>
+				<attalias >AREA_COMM</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >AREA_RES</attrlabl>
+				<attalias >AREA_RES</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >SOURCE</attrlabl>
+				<attalias >SOURCE</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >1</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >NUM_BLDGS</attrlabl>
+				<attalias >NUM_BLDGS</attalias>
+				<attrtype >Integer</attrtype>
+				<attwidth >9</attwidth>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >NUM_FLOORS</attrlabl>
+				<attalias >NUM_FLOORS</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >UNITS_RES</attrlabl>
+				<attalias >UNITS_RES</attalias>
+				<attrtype >Integer</attrtype>
+				<attwidth >9</attwidth>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >AND_NONRES</attrlabl>
+				<attalias >AND_NONRES</attalias>
+				<attrtype >Integer</attrtype>
+				<attwidth >9</attwidth>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >FRONTAGE</attrlabl>
+				<attalias >FRONTAGE</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >LOT_DEPTH</attrlabl>
+				<attalias >LOT_DEPTH</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >FRONTAGE0</attrlabl>
+				<attalias >FRONTAGE0</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >DEPTH</attrlabl>
+				<attalias >DEPTH</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >LOT_CODE</attrlabl>
+				<attalias >LOT_CODE</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >1</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >LOT_CODE0</attrlabl>
+				<attalias >LOT_CODE0</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >1</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >VAL_LAND</attrlabl>
+				<attalias >VAL_LAND</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >VAL_TOTAL</attrlabl>
+				<attalias >VAL_TOTAL</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >VAL_LAND0</attrlabl>
+				<attalias >VAL_LAND0</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >VAL_TOTA0</attrlabl>
+				<attalias >VAL_TOTA0</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >YEAR_BUILT</attrlabl>
+				<attalias >YEAR_BUILT</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >4</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >BUILT_CODE</attrlabl>
+				<attalias >BUILT_CODE</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >1</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >ALTERED1</attrlabl>
+				<attalias >ALTERED1</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >4</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >ALTERED2</attrlabl>
+				<attalias >ALTERED2</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >4</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >IND</attrlabl>
+				<attalias >IND</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >1</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >NAME</attrlabl>
+				<attalias >NAME</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >35</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
 				<attrlabl>address</attrlabl>
-				<attalias>address</attalias><attrtype>String</attrtype><attwidth>28</attwidth><attrdef>An address for the tax lot.</attrdef><attrdefs>Department of Finance</attrdefs><atprecis >0</atprecis><attscale >0</attscale></attr>
-			<attr><attrlabl >FAR0</attrlabl><attalias >FAR0</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >BORO_CODE</attrlabl><attalias >BORO_CODE</attalias><attrtype >Integer</attrtype><attwidth >9</attwidth><atprecis >9</atprecis><attscale >0</attscale></attr><attr>
+				<attalias>address</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>28</attwidth>
+				<attrdef>An address for the tax lot.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >FAR0</attrlabl>
+				<attalias >FAR0</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >BORO_CODE</attrlabl>
+				<attalias >BORO_CODE</attalias>
+				<attrtype >Integer</attrtype>
+				<attwidth >9</attwidth>
+				<atprecis >9</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
 				<attrlabl>FAR</attrlabl>
-				<attalias>FAR</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The Floor Area Ratio (FAR) is the total building floor area divided by the area of the tax lot.</attrdef><attrdefs>Department of City Planning</attrdefs><atprecis >0</atprecis><attscale >0</attscale></attr>
-			<attr><attrlabl >TRACT2</attrlabl><attalias >TRACT2</attalias><attrtype >String</attrtype><attwidth >6</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr>
+				<attalias>FAR</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The Floor Area Ratio (FAR) is the total building floor area divided by the area of the tax lot.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >TRACT2</attrlabl>
+				<attalias >TRACT2</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >6</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
 				<attrlabl>TBL</attrlabl>
-				<attalias>TBL</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>A concatenation of the tax block and the corresponding tax lot.  This field consists of the tax block followed by the tax lot. The tax block is one to five numeric digits, preceded with leading blanks when the block is less than five digits. The tax lot is one to four digits and is preceded with leading zeros when the lot is less than four digits.</attrdef><attrdefs>Department of Finance</attrdefs><attrdomv/><atprecis >0</atprecis><attscale >0</attscale></attr>
+				<attalias>TBL</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>A concatenation of the tax block and the corresponding tax lot.  This field consists of the tax block followed by the tax lot. The tax block is one to five numeric digits, preceded with leading blanks when the block is less than five digits. The tax lot is one to four digits and is preceded with leading zeros when the lot is less than four digits.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrdomv/>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
 			<attr>
 				<attrlabl>xCoord</attrlabl>
-				<attalias>xCoord</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The X coordinate of the XY coordinate pair which depicts the approximate location of the address.</attrdef><attrdefs>Department of City Planning</attrdefs><atprecis >0</atprecis><attscale >0</attscale></attr>
+				<attalias>xCoord</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The X coordinate of the XY coordinate pair which depicts the approximate location of the address.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
 			<attr>
 				<attrlabl>yCoord</attrlabl>
-				<attalias>yCoord</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The Y coordinate of the XY coordinate pair which depicts the approximate location of the address.</attrdef><attrdefs>Department of City Planning</attrdefs><atprecis >0</atprecis><attscale >0</attscale></attr>
-			<attr><attrlabl >RPAD_DATE</attrlabl><attalias >RPAD_DATE</attalias><attrtype >String</attrtype><attwidth >7</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >DCAS_DATE</attrlabl><attalias >DCAS_DATE</attalias><attrtype >String</attrtype><attwidth >7</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >DOB_DATE</attrlabl><attalias >DOB_DATE</attalias><attrtype >String</attrtype><attwidth >7</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >DATE_</attrlabl><attalias >DATE_</attalias><attrtype >String</attrtype><attwidth >7</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >DATE0</attrlabl><attalias >DATE0</attalias><attrtype >String</attrtype><attwidth >7</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >DATE1</attrlabl><attalias >DATE1</attalias><attrtype >String</attrtype><attwidth >7</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >COGIS_DATE</attrlabl><attalias >COGIS_DATE</attalias><attrtype >String</attrtype><attwidth >7</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >LAND_USE_2</attrlabl><attalias >LAND_USE_2</attalias><attrtype >String</attrtype><attwidth >2</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >INDICATO0</attrlabl><attalias >INDICATO0</attalias><attrtype >String</attrtype><attwidth >1</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >ADDRESS0</attrlabl><attalias >ADDRESS0</attalias><attrtype >String</attrtype><attwidth >28</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >Shape_Leng</attrlabl><attalias >Shape_Leng</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale></attr><attr><attrlabl >Shape_Area</attrlabl><attalias >Shape_Area</attalias><attrtype >Double</attrtype><attwidth >19</attwidth><atprecis >0</atprecis><attscale >0</attscale><attrdef >Area of feature in internal units squared.</attrdef><attrdefs >Esri</attrdefs><attrdomv><udom >Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed>
+				<attalias>yCoord</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The Y coordinate of the XY coordinate pair which depicts the approximate location of the address.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >RPAD_DATE</attrlabl>
+				<attalias >RPAD_DATE</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >7</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >DCAS_DATE</attrlabl>
+				<attalias >DCAS_DATE</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >7</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >DOB_DATE</attrlabl>
+				<attalias >DOB_DATE</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >7</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >DATE_</attrlabl>
+				<attalias >DATE_</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >7</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >DATE0</attrlabl>
+				<attalias >DATE0</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >7</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >DATE1</attrlabl>
+				<attalias >DATE1</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >7</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >COGIS_DATE</attrlabl>
+				<attalias >COGIS_DATE</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >7</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >LAND_USE_2</attrlabl>
+				<attalias >LAND_USE_2</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >2</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >INDICATO0</attrlabl>
+				<attalias >INDICATO0</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >1</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >ADDRESS0</attrlabl>
+				<attalias >ADDRESS0</attalias>
+				<attrtype >String</attrtype>
+				<attwidth >28</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >Shape_Leng</attrlabl>
+				<attalias >Shape_Leng</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+			</attr>
+			<attr>
+				<attrlabl >Shape_Area</attrlabl>
+				<attalias >Shape_Area</attalias>
+				<attrtype >Double</attrtype>
+				<attwidth >19</attwidth>
+				<atprecis >0</atprecis>
+				<attscale >0</attscale>
+				<attrdef >Area of feature in internal units squared.</attrdef>
+				<attrdefs >Esri</attrdefs>
+				<attrdomv>
+					<udom >Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
 	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NYC Department of City Planning</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>22 Reade St</address>
+					<city>New York</city>
+					<state>New York</state>
+					<postal>10007</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntinst>Available at the following website: http://www.nyc.gov/html/dcp/html/bytes/applbyte.html</cntinst>
+				<cntvoice>212.720.3505</cntvoice>
+			</cntinfo>
+		</distrib>
+		<stdorder>
+			<fees> Free </fees>
+			<digform>
+				<digtinfo>
+					<formname>geopackage</formname>
+					<formspec>zip</formspec>
+				</digtinfo>
+			</digform>
+		</stdorder>
+		<resdesc>nycp_mn_taxlots_2001</resdesc>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>420 W. 118th St., 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(212)854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metd>20140327</metd>
+	</metainfo>
 </metadata>

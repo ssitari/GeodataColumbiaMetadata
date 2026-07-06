@@ -10,359 +10,369 @@
 					<pubplace>Washington, DC</pubplace>
 					<publish>United States. Bureau of Transportation Statistics</publish>
 				</pubinfo>
-				<pubdate>2013</pubdate><onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_rr_crossings.zip</onlink></citeinfo>
+				<pubdate>2013</pubdate>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_rr_crossings.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>.zip
-			<abstract>FRA Grade Crossings is a spatial file that originates from the National Highway-Rail Crossing, Inventory Program. The program is to provide information to Federal, State, and local governments, as well as the railroad industry for the improvements of safety at highway-rail crossing.</abstract>
+		<abstract>FRA Grade Crossings is a spatial file that originates from the National Highway-Rail Crossing, Inventory Program. The program is to provide information to Federal, State, and local governments, as well as the railroad industry for the improvements of safety at highway-rail crossing.</abstract>
 			<purpose>Rail Crossings is a spatial file maintained by the Federal Railroad Administration (FRA) for use by
 States and railroads.</purpose>
-		</descript>
-		<status>
-			<update>Annually</update>
-		</status>
-		<spdom>
-			<bounding>
-				<westbc>-158.090675</westbc>
-				<eastbc>-67.097641</eastbc>
-				<northbc>64.919140</northbc>
-				<southbc>20.887775</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>Rail</themekey>
-			</theme>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>Grade Crossing</themekey>
-			</theme>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>Rail Crossings</themekey>
-			</theme>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>transportation</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>United States (6252001)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>United States</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2013</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>None</accconst>
-		<useconst>None</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Federal Railroad Administration (FRA)</cntorg>
-					<cntper>Raquel Hunt</cntper>
-				</cntorgp>
-				<cntpos>GIS Program Manager</cntpos>
-			</cntinfo>
-		</ptcontac>
-		<timeperd><timeinfo><sngdate><caldate>2013</caldate></sngdate></timeinfo><current>publication date</current></timeperd></idinfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>Entity point</sdtstype>
-				<ptvctcnt>243112</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>8.983152841195215e-009</latres>
-				<longres>8.983152841195215e-009</longres>
-				<geogunit>Decimal Degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D WGS 1984</horizdn>
-				<ellips>WGS 1984</ellips>
-				<semiaxis>6378137.0</semiaxis>
-				<denflat>298.257223563</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>rr_crossings</enttypl>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CROSSING</attrlabl>
-				<attrdef>US DOT Valid Crossing ID Number</attrdef>
-				<attrdefs>FRA</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>RAILROAD</attrlabl>
+	</descript>
+	<status>
+		<update>Annually</update>
+	</status>
+	<spdom>
+		<bounding>
+			<westbc>-158.090675</westbc>
+			<eastbc>-67.097641</eastbc>
+			<northbc>64.919140</northbc>
+			<southbc>20.887775</southbc>
+		</bounding>
+	</spdom>
+	<keywords>
+		<theme>
+			<themekt>None</themekt>
+			<themekey>Rail</themekey>
+		</theme>
+		<theme>
+			<themekt>None</themekt>
+			<themekey>Grade Crossing</themekey>
+		</theme>
+		<theme>
+			<themekt>None</themekt>
+			<themekey>Rail Crossings</themekey>
+		</theme>
+		<theme>
+			<themekt>ISO 19115 Topic Category</themekt>
+			<themekey>transportation</themekey>
+		</theme>
+		<place>
+			<placekt>GeoNames</placekt>
+			<placekey>United States (6252001)</placekey>
+		</place>
+		<place>
+			<placekt>Library of Congress Subject Headings</placekt>
+			<placekey>United States</placekey>
+		</place>
+		<temporal>
+			<tempkt>None</tempkt>
+			<tempkey>2013</tempkey>
+		</temporal>
+	</keywords>
+	<accconst>None</accconst>
+	<useconst>None</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Federal Railroad Administration (FRA)</cntorg>
+				<cntper>Raquel Hunt</cntper>
+			</cntorgp>
+			<cntpos>GIS Program Manager</cntpos>
+		</cntinfo>
+	</ptcontac>
+	<timeperd>
+		<timeinfo>
+			<sngdate>
+				<caldate>2013</caldate>
+			</sngdate>
+		</timeinfo>
+		<current>publication date</current>
+	</timeperd>
+</idinfo>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>Entity point</sdtstype>
+			<ptvctcnt>243112</ptvctcnt>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<spref>
+	<horizsys>
+		<geograph>
+			<latres>8.983152841195215e-009</latres>
+			<longres>8.983152841195215e-009</longres>
+			<geogunit>Decimal Degrees</geogunit>
+		</geograph>
+		<geodetic>
+			<horizdn>D WGS 1984</horizdn>
+			<ellips>WGS 1984</ellips>
+			<semiaxis>6378137.0</semiaxis>
+			<denflat>298.257223563</denflat>
+		</geodetic>
+	</horizsys>
+</spref>
+<eainfo>
+	<detailed>
+		<enttyp>
+			<enttypl>rr_crossings</enttypl>
+		</enttyp>
+		<attr>
+			<attrlabl>FID</attrlabl>
+			<attrdef>Internal feature number.</attrdef>
+			<attrdefs>ESRI</attrdefs>
+			<attrdomv>
+				<udom>Sequential unique whole numbers that are automatically generated.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Shape</attrlabl>
+			<attrdef>Feature geometry.</attrdef>
+			<attrdefs>ESRI</attrdefs>
+			<attrdomv>
+				<udom>Coordinates defining the features.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>CROSSING</attrlabl>
+			<attrdef>US DOT Valid Crossing ID Number</attrdef>
+			<attrdefs>FRA</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>RAILROAD</attrlabl>
 				<attrdef>The reporting mark of the 1st owning railroad. A mark of 'XXXX' indicates an
 abandoned link. Rule 260 codes are used where available. A mark of 'DUMX' indicates
 an added connecting link.</attrdef>
-				<attrdomv>
-					<codesetd>
-						<codesetn>FRA Rule 260 and Owner Codes</codesetn>
-						<codesets>FRA</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>RRDIV</attrlabl>
-				<attrdef>Railroad Division Name or Blank</attrdef>
-				<attrdefs>FRA</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>RRSUBDIV</attrlabl>
-				<attrdef>Railroad Subdivision or Blank</attrdef>
-				<attrdefs>FRA</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>HIGHWAY</attrlabl>
-				<attrdef>Highway Type and Number</attrdef>
-				<attrdefs>FRA</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>STREET</attrlabl>
-				<attrdef>Street or Road Name</attrdef>
-				<attrdefs>FRA</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>TYPEXING</attrlabl>
-				<attrdef>Type of Crossing</attrdef>
-				<attrdefs>FRA</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>11</edomv>
-						<edomvd>Pedestrain at grade</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>12</edomv>
-						<edomvd>Pedestrain RR under</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>13</edomv>
-						<edomvd>Pedestrain RR over</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>21</edomv>
-						<edomvd>Private at grade</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>22</edomv>
-						<edomvd>Private RR under</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>23</edomv>
-						<edomvd>Private RR over</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>31</edomv>
-						<edomvd>Public at grade</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>32</edomv>
-						<edomvd>Public RR under</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>33</edomv>
-						<edomvd>Public RR over</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>POSXING</attrlabl>
-				<attrdef>Position of Crossing</attrdef>
-				<attrdefs>FRA</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>At grade under</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>RR Under</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>3</edomv>
-						<edomvd>RR over</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>STFIPS</attrlabl>
-				<attrdef>Federal Information Processing Standard (FIPS) State Code</attrdef>
-				<attrdefs>National Institute of Standards and Technology (NIST)</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standard (FIPS)</codesetn>
-						<codesets>National Institute of Standards and Technology (NIST)</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CTFIPS</attrlabl>
-				<attrdef>Federal Information Processing Standard (FIPS) County Code</attrdef>
-				<attrdefs>National Institute of Standards and Technology (NIST)</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standard (FIPS)</codesetn>
-						<codesets>National Institute of Standards and Technology (NIST)</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>COUNTY</attrlabl>
-				<attrdef>Name of County</attrdef>
-				<attrdefs>FRA</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>State_ABBR</attrlabl>
-				<attrdef>State Abbreviation</attrdef>
-				<attrdefs>U.S. State Boundaries</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>TYPE</attrlabl>
-				<attrdef>Public or Private Crossing</attrdef>
-				<attrdefs>FRA</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>PU</edomv>
-						<edomvd>Public</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<edom>
-						<edomv>PR</edomv>
-						<edomvd>Private</edomvd>
-						<edomvds>FRA</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-		</detailed>
-		<detailed>
-			<enttyp>
-				<enttypl>Highway-rail grade crossing means a location where a public highway, road, street, or private roadway, including associated sidewalks and pathways, crosses one or more railroad tracks at grade.</enttypl>
-			</enttyp>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
-					<cntper>Office of Geospatial Information Systems</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>unknown</addrtype>
-					<address>1200 New Jersey Ave. SE</address>
-					<city>Washington</city>
-					<state>DC</state>
-					<postal>20590</postal>
-					<country>US</country>
-				</cntaddr>
-				<cntvoice>202-366-DATA</cntvoice>
-				<cntemail>answers@bts.gov</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>ntad_2013_rr_crossings</resdesc>
-		<stdorder>
-			<digform>
+			<attrdomv>
+				<codesetd>
+					<codesetn>FRA Rule 260 and Owner Codes</codesetn>
+					<codesets>FRA</codesets>
+				</codesetd>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>RRDIV</attrlabl>
+			<attrdef>Railroad Division Name or Blank</attrdef>
+			<attrdefs>FRA</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>RRSUBDIV</attrlabl>
+			<attrdef>Railroad Subdivision or Blank</attrdef>
+			<attrdefs>FRA</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>HIGHWAY</attrlabl>
+			<attrdef>Highway Type and Number</attrdef>
+			<attrdefs>FRA</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>STREET</attrlabl>
+			<attrdef>Street or Road Name</attrdef>
+			<attrdefs>FRA</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>TYPEXING</attrlabl>
+			<attrdef>Type of Crossing</attrdef>
+			<attrdefs>FRA</attrdefs>
+			<attrdomv>
+				<edom>
+					<edomv>11</edomv>
+					<edomvd>Pedestrain at grade</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+			<attrdomv>
+				<edom>
+					<edomv>12</edomv>
+					<edomvd>Pedestrain RR under</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+			<attrdomv>
+				<edom>
+					<edomv>13</edomv>
+					<edomvd>Pedestrain RR over</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+			<attrdomv>
+				<edom>
+					<edomv>21</edomv>
+					<edomvd>Private at grade</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+			<attrdomv>
+				<edom>
+					<edomv>22</edomv>
+					<edomvd>Private RR under</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+			<attrdomv>
+				<edom>
+					<edomv>23</edomv>
+					<edomvd>Private RR over</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+			<attrdomv>
+				<edom>
+					<edomv>31</edomv>
+					<edomvd>Public at grade</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+			<attrdomv>
+				<edom>
+					<edomv>32</edomv>
+					<edomvd>Public RR under</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+			<attrdomv>
+				<edom>
+					<edomv>33</edomv>
+					<edomvd>Public RR over</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>POSXING</attrlabl>
+			<attrdef>Position of Crossing</attrdef>
+			<attrdefs>FRA</attrdefs>
+			<attrdomv>
+				<edom>
+					<edomv>1</edomv>
+					<edomvd>At grade under</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+			<attrdomv>
+				<edom>
+					<edomv>2</edomv>
+					<edomvd>RR Under</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+			<attrdomv>
+				<edom>
+					<edomv>3</edomv>
+					<edomvd>RR over</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>STFIPS</attrlabl>
+			<attrdef>Federal Information Processing Standard (FIPS) State Code</attrdef>
+			<attrdefs>National Institute of Standards and Technology (NIST)</attrdefs>
+			<attrdomv>
+				<codesetd>
+					<codesetn>Federal Information Processing Standard (FIPS)</codesetn>
+					<codesets>National Institute of Standards and Technology (NIST)</codesets>
+				</codesetd>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>CTFIPS</attrlabl>
+			<attrdef>Federal Information Processing Standard (FIPS) County Code</attrdef>
+			<attrdefs>National Institute of Standards and Technology (NIST)</attrdefs>
+			<attrdomv>
+				<codesetd>
+					<codesetn>Federal Information Processing Standard (FIPS)</codesetn>
+					<codesets>National Institute of Standards and Technology (NIST)</codesets>
+				</codesetd>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>COUNTY</attrlabl>
+			<attrdef>Name of County</attrdef>
+			<attrdefs>FRA</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>State_ABBR</attrlabl>
+			<attrdef>State Abbreviation</attrdef>
+			<attrdefs>U.S. State Boundaries</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>TYPE</attrlabl>
+			<attrdef>Public or Private Crossing</attrdef>
+			<attrdefs>FRA</attrdefs>
+			<attrdomv>
+				<edom>
+					<edomv>PU</edomv>
+					<edomvd>Public</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+			<attrdomv>
+				<edom>
+					<edomv>PR</edomv>
+					<edomvd>Private</edomvd>
+					<edomvds>FRA</edomvds>
+				</edom>
+			</attrdomv>
+		</attr>
+	</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Highway-rail grade crossing means a location where a public highway, road, street, or private roadway, including associated sidewalks and pathways, crosses one or more railroad tracks at grade.</enttypl>
+		</enttyp>
+	</detailed>
+</eainfo>
+<distinfo>
+	<distrib>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
+				<cntper>Office of Geospatial Information Systems</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>unknown</addrtype>
+				<address>1200 New Jersey Ave. SE</address>
+				<city>Washington</city>
+				<state>DC</state>
+				<postal>20590</postal>
+				<country>US</country>
+			</cntaddr>
+			<cntvoice>202-366-DATA</cntvoice>
+			<cntemail>answers@bts.gov</cntemail>
+		</cntinfo>
+	</distrib>
+	<resdesc>ntad_2013_rr_crossings</resdesc>
+	<stdorder>
+		<digform>
 
-				<digtopt>
-					<offoptn>
-						<offmedia>dvd</offmedia>
-						<reccap>
-							<recden>650</recden>
-							<recdenu>Megabytes</recdenu>
-						</reccap>
-						<recfmt>ISO 9660</recfmt>
-					</offoptn>
-				</digtopt>
-			</digform>
-			<ordering>Call (202-366-DATA), or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2013 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/</ordering>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>20140925</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
+			<digtopt>
+				<offoptn>
+					<offmedia>dvd</offmedia>
+					<reccap>
+						<recden>650</recden>
+						<recdenu>Megabytes</recdenu>
+					</reccap>
+					<recfmt>ISO 9660</recfmt>
+				</offoptn>
+			</digtopt>
+		</digform>
+		<ordering>Call (202-366-DATA), or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2013 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/</ordering>
+	</stdorder>
+</distinfo>
+<metainfo>
+	<metd>20140925</metd>
+	<metc>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St., 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+				<country>USA</country>
+			</cntaddr>
+			<cntvoice>(212)854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+	<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+</metainfo>
 </metadata>

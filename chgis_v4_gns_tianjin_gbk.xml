@@ -1,26 +1,27 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>Harvard-Yenching Institute</origin>
-<pubdate>Jan 2007</pubdate>
-<title>Tianjin Municipality Placenames, 1990</title>
-<geoform>vector digital data</geoform>
-<serinfo>
-<sername>China Historical Geographic Information System</sername>
-<issue>Version 4</issue>
-</serinfo>
-<pubinfo>
-<pubplace>Cambridge, MA</pubplace>
-<publish>Harvard-Yenching Institute</publish>
-</pubinfo>
-<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/chgis_v4_gns_tianjin_gbk.zip</onlink>
-<onlink>http://www.fas.harvard.edu/~chgis/</onlink>
-</citeinfo>
-</citation>
-<descript>
-<abstract>Tianjin Municipality Placenames, 1990 is a point theme representing populated places and natural features in Tianjin Municipality, China (circa 1990)</abstract>
-<purpose>Projected for use with CHGIS Version 4 [Gauss Kruger Xian 1980 Zone 19]</purpose>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Harvard-Yenching Institute</origin>
+				<pubdate>Jan 2007</pubdate>
+				<title>Tianjin Municipality Placenames, 1990</title>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>China Historical Geographic Information System</sername>
+					<issue>Version 4</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Cambridge, MA</pubplace>
+					<publish>Harvard-Yenching Institute</publish>
+				</pubinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/chgis_v4_gns_tianjin_gbk.zip</onlink>
+				<onlink>http://www.fas.harvard.edu/~chgis/</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Tianjin Municipality Placenames, 1990 is a point theme representing populated places and natural features in Tianjin Municipality, China (circa 1990)</abstract>
+			<purpose>Projected for use with CHGIS Version 4 [Gauss Kruger Xian 1980 Zone 19]</purpose>
 <supplinf>Toponymic information is based on the Geographic Names Data Base,
 containing official standard names approved by the United States Board on
 Geographic Names and maintained by the National Geospatial-Intelligence Agency.
@@ -35,485 +36,486 @@ with COUNTY level units, circa 1991, and match the National Standard Codes
 sorted by Prefectural Level Unit (using the PREF_ID field) or by County Level
 Unit (using the CNTY_ID field).  A digital table of the GBT 2260 codes can be
 downloaded from CHGIS.</supplinf>
-</descript>
-<timeperd>
-<timeinfo>
-<sngdate>
-<caldate>1990</caldate>
-</sngdate>
-</timeinfo>
-<current>sources from various dates up to 1990</current>
-</timeperd>
-<status>
-<progress>complete (Jan 2007)</progress>
-<update>None planned</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1990</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>sources from various dates up to 1990</current>
+		</timeperd>
+		<status>
+			<progress>complete (Jan 2007)</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 116.707867</westbc>
-<eastbc>
+					<eastbc>
 118.148445</eastbc>
-<northbc>
+						<northbc>
 40.246242</northbc>
-<southbc>
+							<southbc>
 38.546169</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>USGS GeoNames Feature Types</themekt>
-<themekey>placenames in Tianjin China</themekey>
-</theme>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>location</themekey>
-</theme>
-<theme>
-<themekt>None</themekt>
-<themekey>GNS</themekey>
-<themekey>Geographic Names service</themekey>
-<themekey>CHGIS</themekey>
-<themekey>Place names</themekey>
-<themekey>Geographic names</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Tianjin (1792943)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>China</placekey>
-<placekey>Tianjin (China)</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>1990</tempkey>
-</temporal>
-</keywords>
-<accconst>For current Columbia affiliates only.</accconst><useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>CHGIS, Harvard Yenching Institute</cntorg>
-<cntper>Merrick Lex Berman</cntper>
-</cntorgp>
-<cntpos>Project Manager</cntpos>
-<cntaddr>
-<addrtype>mailing address</addrtype>
-<address>1737 Cambridge St, N321</address>
-<city>Cambridge</city>
-<state>MA</state>
-<postal>02138</postal>
-</cntaddr>
-<cntvoice>617-496-6222</cntvoice>
-<cntemail>mberman@fas.harvard.edu</cntemail>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/v4_gns_tianjin_gbk.bmp</browsen>
-<browsed>Thumbnail</browsed>
-<browset>bmp</browset>
-</browse>
-<datacred>"GNS Country Files, China." Geographic Names Database U.S. Board on Geographic Names, 2000.</datacred>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</native>
-<crossref>
-<citeinfo>
-<origin>China Historical Geographic Information System</origin>
-<pubdate>Jan 2007</pubdate>
-<title>GNS China 1990 Placenames in Tianjin Municipality</title>
-<geoform>vector digital data</geoform>
-<serinfo>
-<sername>China Historical Geographic Information System</sername>
-<issue>Version 4</issue>
-</serinfo>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>USGS GeoNames Feature Types</themekt>
+								<themekey>placenames in Tianjin China</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>location</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>GNS</themekey>
+								<themekey>Geographic Names service</themekey>
+								<themekey>CHGIS</themekey>
+								<themekey>Place names</themekey>
+								<themekey>Geographic names</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Tianjin (1792943)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>China</placekey>
+								<placekey>Tianjin (China)</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>1990</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>CHGIS, Harvard Yenching Institute</cntorg>
+									<cntper>Merrick Lex Berman</cntper>
+								</cntorgp>
+								<cntpos>Project Manager</cntpos>
+								<cntaddr>
+									<addrtype>mailing address</addrtype>
+									<address>1737 Cambridge St, N321</address>
+									<city>Cambridge</city>
+									<state>MA</state>
+									<postal>02138</postal>
+								</cntaddr>
+								<cntvoice>617-496-6222</cntvoice>
+								<cntemail>mberman@fas.harvard.edu</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/v4_gns_tianjin_gbk.bmp</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>bmp</browset>
+						</browse>
+						<datacred>"GNS Country Files, China." Geographic Names Database U.S. Board on Geographic Names, 2000.</datacred>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</native>
+						<crossref>
+							<citeinfo>
+								<origin>China Historical Geographic Information System</origin>
+								<pubdate>Jan 2007</pubdate>
+								<title>GNS China 1990 Placenames in Tianjin Municipality</title>
+								<geoform>vector digital data</geoform>
+								<serinfo>
+									<sername>China Historical Geographic Information System</sername>
+									<issue>Version 4</issue>
+								</serinfo>
 <othercit>(c) Harvard Yenching Institute
 Cambridge, MA (USA)</othercit>
-</citeinfo>
-</crossref>
-</idinfo>
-<dataqual>
-<attracc>
-<qattracc>
-</qattracc>
-</attracc>
-<posacc>
-<horizpa>
-<qhorizpa>
-</qhorizpa>
-</horizpa>
-</posacc>
-<lineage>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>Entity point</sdtstype>
-<ptvctcnt>869</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<planar>
-<mapproj>
-<mapprojn>Transverse Mercator</mapprojn>
-<transmer>
-<sfctrmer>1.000000</sfctrmer>
-<longcm>111.000000</longcm>
-<latprjo>0.000000</latprjo>
-<feast>19500000.000000</feast>
-<fnorth>0.000000</fnorth>
-</transmer>
-</mapproj>
-<planci>
-<plance>coordinate pair</plance>
-<coordrep>
-<absres>0.000000</absres>
-<ordres>0.000000</ordres>
-</coordrep>
-<plandu>meters</plandu>
-</planci>
-</planar>
-<geodetic>
-<horizdn>D_Xian_1980</horizdn>
-<ellips>Xian_1980</ellips>
-<semiaxis>6378140.000000</semiaxis>
-<denflat>298.257000</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+							</citeinfo>
+						</crossref>
+					</idinfo>
+					<dataqual>
+						<attracc>
+							<qattracc>
+							</qattracc>
+						</attracc>
+						<posacc>
+							<horizpa>
+								<qhorizpa>
+								</qhorizpa>
+							</horizpa>
+						</posacc>
+						<lineage>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>Entity point</sdtstype>
+								<ptvctcnt>869</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<planar>
+								<mapproj>
+									<mapprojn>Transverse Mercator</mapprojn>
+									<transmer>
+										<sfctrmer>1.000000</sfctrmer>
+										<longcm>111.000000</longcm>
+										<latprjo>0.000000</latprjo>
+										<feast>19500000.000000</feast>
+										<fnorth>0.000000</fnorth>
+									</transmer>
+								</mapproj>
+								<planci>
+									<plance>coordinate pair</plance>
+									<coordrep>
+										<absres>0.000000</absres>
+										<ordres>0.000000</ordres>
+									</coordrep>
+									<plandu>meters</plandu>
+								</planci>
+							</planar>
+							<geodetic>
+								<horizdn>D_Xian_1980</horizdn>
+								<ellips>Xian_1980</ellips>
+								<semiaxis>6378140.000000</semiaxis>
+								<denflat>298.257000</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 v4_gns_tianjin_gbk</enttypl>
-<enttypd>populated places and natural features</enttypd>
-</enttyp>
-<attr>
-<attrlabl>CNTY_CH</attrlabl>
-<attrdef>Name of County Level Unit in Chinese Characters [applies to Time Slice Towns Data only, Time Series hierarchy in Part Of Table]</attrdef>
-</attr>
-<attr>
-<attrlabl>PARENT</attrlabl>
-<attrdef>Parent record</attrdef>
-</attr>
-<attr>
-<attrlabl>FID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>RC</attrlabl>
-<attrdef>Region Font Code.  A code that determines the character mapping used in the SHORT_FORM, Generic, and Full_Name fields</attrdef>
-<attrdomv>
-<edom>
-<edomv>1</edomv>
-<edomvd>Americas/Western Europe</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>UFI</attrlabl>
-<attrdef>Unique Feature Identifier.  A number which uniquely identifies a Geoname feature</attrdef>
-<attrdomv>
-<edom>
-<edomv>2</edomv>
-<edomvd>Eastern Europe</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>UNI</attrlabl>
-<attrdef>Unique Name Identifier.  A number which uniquely identifies a name.</attrdef>
-<attrdomv>
-<edom>
-<edomv>3</edomv>
-<edomvd>Africa/Middle East</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>DLAT</attrlabl>
-<attrdef>Latitude of the Geoname feature in decimal degrees; DD; </attrdef>
-<attrdomv>
-<edom>
-<edomv>4</edomv>
-<edomvd>Russia/ Central Asia</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>DLONG</attrlabl>
-<attrdef>Longitude of the feature in decimal degrees; DD</attrdef>
-<attrdomv>
-<edom>
-<edomv>5</edomv>
-<edomvd>Asia/Pacific</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LAT_DMS</attrlabl>
-<attrdef>Latitude of the Geoname feature in degrees, minutes, and seconds</attrdef>
-<attrdomv>
-<edom>
-<edomv>6</edomv>
-<edomvd>Vietnam</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LONG_DMS</attrlabl>
-<attrdef>Longitude of the Geoname feature in degrees, minutes, and seconds</attrdef>
-</attr>
-<attr>
-<attrlabl>MGRS</attrlabl>
-</attr>
-<attr>
-<attrlabl>UTM</attrlabl>
-<attrdef>Universal Transverse Mercator coordinate grid reference</attrdef>
-</attr>
-<attr>
-<attrlabl>JOG</attrlabl>
-<attrdef>Joint Operations Graphic reference.</attrdef>
-</attr>
-<attr>
-<attrlabl>FC</attrlabl>
-<attrdef>Feature Classification</attrdef>
-<attrdomv>
-<edom>
-<edomv>A</edomv>
-<edomvd>Administrative region type feature</edomvd>
-</edom>
-<edom>
-<edomv>P</edomv>
-<edomvd>Populated place type feature</edomvd>
-</edom>
-<edom>
-<edomv>V</edomv>
-<edomvd>Vegetation type feature</edomvd>
-</edom>
-<edom>
-<edomv>L</edomv>
-<edomvd>Locality or area type feature</edomvd>
-</edom>
-<edom>
-<edomv>U</edomv>
-<edomvd>Undersea type feature</edomvd>
-</edom>
-<edom>
-<edomv>R</edomv>
-<edomvd>Streets, highways, roads, or railroad type feature</edomvd>
-</edom>
-<edom>
-<edomv>T</edomv>
-<edomvd>Hypsographic type feature</edomvd>
-</edom>
-<edom>
-<edomv>H</edomv>
-<edomvd>Hydrographic type feature</edomvd>
-</edom>
-<edom>
-<edomv>S</edomv>
-<edomvd>Spot type feature</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>DSG</attrlabl>
-<attrdef>Feature Designation Code.  A two to five-character code used to identify the type of Geoname feature a name is applied to.</attrdef>
-</attr>
-<attr>
-<attrlabl>PC</attrlabl>
-<attrdef>Populated Place Classification.  A graduated numerical scale denoting the relative importance of a populated place.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>1</rdommin>
-<rdommax>5</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>CC1</attrlabl>
-<attrdef>Primary Country Code.  A two alphabetic character code uniquely identifying a geopolitical entity (countries, dependencies, and areas of special sovereignty).</attrdef>
-</attr>
-<attr>
-<attrlabl>ADM1</attrlabl>
-<attrdef>First-order administrative division code. A two alpha-numeric code from the FIPS 10-4 Standard describing a primary administrative division of a geopolitical entity</attrdef>
-</attr>
-<attr>
-<attrlabl>ADM2</attrlabl>
-<attrdef>Second-order administrative division.  The name of a subdivision of a first-order administrative division</attrdef>
-</attr>
-<attr>
-<attrlabl>NT</attrlabl>
-<attrdef>Name Type</attrdef>
-<attrdomv>
-<edom>
-<edomv>C</edomv>
-<edomvd>Conventional name</edomvd>
-</edom>
-<edom>
-<edomv>N</edomv>
-<edomvd>BGN Standard name</edomvd>
-</edom>
-<edom>
-<edomv>NS</edomv>
-<edomvd>BGN Standard name in non-Roman script</edomvd>
-</edom>
-<edom>
-<edomv>P</edomv>
-<edomvd>Provisional name</edomvd>
-</edom>
-<edom>
-<edomv>PS</edomv>
-<edomvd>Provisional name in non-Roman script</edomvd>
-</edom>
-<edom>
-<edomv>H</edomv>
-<edomvd>Historic name</edomvd>
-</edom>
-<edom>
-<edomv>HS</edomv>
-<edomvd>Historic name in non-Roman script</edomvd>
-</edom>
-<edom>
-<edomv>D</edomv>
-<edomvd>Not verified or daggered name</edomvd>
-</edom>
-<edom>
-<edomv>DS</edomv>
-<edomvd>Not verified name in non-Roman script</edomvd>
-</edom>
-<edom>
-<edomv>V</edomv>
-<edomvd>Variant or alternate name</edomvd>
-</edom>
-<edom>
-<edomv>VS</edomv>
-<edomvd>Variant name in non-Roman script</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>SHORT_FORM</attrlabl>
-<attrdef>A part of the full name that could substitute for the full name</attrdef>
-</attr>
-<attr>
-<attrlabl>GENERIC</attrlabl>
-<attrdef>The descriptive part of the full name</attrdef>
-</attr>
-<attr>
-<attrlabl>SORT_NAME</attrlabl>
-<attrdef>A form of the full name that allows for alphabetical sorting of the file into gazetteer sequence</attrdef>
-</attr>
-<attr>
-<attrlabl>NAME</attrlabl>
-<attrdef>The full name is the complete name that identifies a named feature</attrdef>
-</attr>
-<attr>
-<attrlabl>NM_ASCII</attrlabl>
-<attrdef>Name in ASCII characters</attrdef>
-</attr>
-<attr>
-<attrlabl>PROV_PY</attrlabl>
-<attrdef>Province in Pinyin</attrdef>
-</attr>
-<attr>
-<attrlabl>PREF_ID</attrlabl>
-<attrdef>Prefecture Identifier</attrdef>
-</attr>
-<attr>
-<attrlabl>PREF_PY</attrlabl>
-<attrdef>Prefecture in Pinyin</attrdef>
-</attr>
-<attr>
-<attrlabl>CNTY_PY</attrlabl>
-<attrdef>Name of County Level Unit in Pinyin</attrdef>
-</attr>
-<attr>
-<attrlabl>CNTY_ID</attrlabl>
-<attrdef>County Identifier</attrdef>
-</attr>
-<attr>
-<attrlabl>TJ_INT_ID</attrlabl>
-</attr>
-<attr>
-<attrlabl>TJ_EXT_ID</attrlabl>
-</attr>
-</detailed>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>CHGIS, Harvard Yenching Institute</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing address</addrtype>
-<address>1737 Cambridge St, N321</address>
-<city>Cambridge</city>
-<state>MA</state>
-<postal>02138</postal>
-</cntaddr>
-<cntvoice>617-496-6222</cntvoice>
-</cntinfo>
-</distrib>
-<resdesc>chgis_v4_gns_tianjin_gbk</resdesc>
-<stdorder>
-<digform>
-<digtinfo>
-<transize>1.037</transize>
-</digtinfo>
-</digform>
-<fees>free</fees>
-<ordering>register for download at:  www.fas.harvard.edu/~chgis</ordering>
-</stdorder>
-<availabl>
-<timeinfo>
-<rngdates>
-<begdate>50</begdate>
-<endtime>1820</endtime>
-</rngdates>
-</timeinfo>
-</availabl>
-</distinfo>
-<metainfo>
-<metd>20070709</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212)854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+									<enttypd>populated places and natural features</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>CNTY_CH</attrlabl>
+									<attrdef>Name of County Level Unit in Chinese Characters [applies to Time Slice Towns Data only, Time Series hierarchy in Part Of Table]</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PARENT</attrlabl>
+									<attrdef>Parent record</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>RC</attrlabl>
+									<attrdef>Region Font Code.  A code that determines the character mapping used in the SHORT_FORM, Generic, and Full_Name fields</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>1</edomv>
+											<edomvd>Americas/Western Europe</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>UFI</attrlabl>
+									<attrdef>Unique Feature Identifier.  A number which uniquely identifies a Geoname feature</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>2</edomv>
+											<edomvd>Eastern Europe</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>UNI</attrlabl>
+									<attrdef>Unique Name Identifier.  A number which uniquely identifies a name.</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>3</edomv>
+											<edomvd>Africa/Middle East</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>DLAT</attrlabl>
+									<attrdef>Latitude of the Geoname feature in decimal degrees; DD; </attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>4</edomv>
+											<edomvd>Russia/ Central Asia</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>DLONG</attrlabl>
+									<attrdef>Longitude of the feature in decimal degrees; DD</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>5</edomv>
+											<edomvd>Asia/Pacific</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LAT_DMS</attrlabl>
+									<attrdef>Latitude of the Geoname feature in degrees, minutes, and seconds</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>6</edomv>
+											<edomvd>Vietnam</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LONG_DMS</attrlabl>
+									<attrdef>Longitude of the Geoname feature in degrees, minutes, and seconds</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>MGRS</attrlabl>
+								</attr>
+								<attr>
+									<attrlabl>UTM</attrlabl>
+									<attrdef>Universal Transverse Mercator coordinate grid reference</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>JOG</attrlabl>
+									<attrdef>Joint Operations Graphic reference.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>FC</attrlabl>
+									<attrdef>Feature Classification</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>A</edomv>
+											<edomvd>Administrative region type feature</edomvd>
+										</edom>
+										<edom>
+											<edomv>P</edomv>
+											<edomvd>Populated place type feature</edomvd>
+										</edom>
+										<edom>
+											<edomv>V</edomv>
+											<edomvd>Vegetation type feature</edomvd>
+										</edom>
+										<edom>
+											<edomv>L</edomv>
+											<edomvd>Locality or area type feature</edomvd>
+										</edom>
+										<edom>
+											<edomv>U</edomv>
+											<edomvd>Undersea type feature</edomvd>
+										</edom>
+										<edom>
+											<edomv>R</edomv>
+											<edomvd>Streets, highways, roads, or railroad type feature</edomvd>
+										</edom>
+										<edom>
+											<edomv>T</edomv>
+											<edomvd>Hypsographic type feature</edomvd>
+										</edom>
+										<edom>
+											<edomv>H</edomv>
+											<edomvd>Hydrographic type feature</edomvd>
+										</edom>
+										<edom>
+											<edomv>S</edomv>
+											<edomvd>Spot type feature</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>DSG</attrlabl>
+									<attrdef>Feature Designation Code.  A two to five-character code used to identify the type of Geoname feature a name is applied to.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PC</attrlabl>
+									<attrdef>Populated Place Classification.  A graduated numerical scale denoting the relative importance of a populated place.</attrdef>
+									<attrdomv>
+										<rdom>
+											<rdommin>1</rdommin>
+											<rdommax>5</rdommax>
+										</rdom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CC1</attrlabl>
+									<attrdef>Primary Country Code.  A two alphabetic character code uniquely identifying a geopolitical entity (countries, dependencies, and areas of special sovereignty).</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ADM1</attrlabl>
+									<attrdef>First-order administrative division code. A two alpha-numeric code from the FIPS 10-4 Standard describing a primary administrative division of a geopolitical entity</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ADM2</attrlabl>
+									<attrdef>Second-order administrative division.  The name of a subdivision of a first-order administrative division</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>NT</attrlabl>
+									<attrdef>Name Type</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>C</edomv>
+											<edomvd>Conventional name</edomvd>
+										</edom>
+										<edom>
+											<edomv>N</edomv>
+											<edomvd>BGN Standard name</edomvd>
+										</edom>
+										<edom>
+											<edomv>NS</edomv>
+											<edomvd>BGN Standard name in non-Roman script</edomvd>
+										</edom>
+										<edom>
+											<edomv>P</edomv>
+											<edomvd>Provisional name</edomvd>
+										</edom>
+										<edom>
+											<edomv>PS</edomv>
+											<edomvd>Provisional name in non-Roman script</edomvd>
+										</edom>
+										<edom>
+											<edomv>H</edomv>
+											<edomvd>Historic name</edomvd>
+										</edom>
+										<edom>
+											<edomv>HS</edomv>
+											<edomvd>Historic name in non-Roman script</edomvd>
+										</edom>
+										<edom>
+											<edomv>D</edomv>
+											<edomvd>Not verified or daggered name</edomvd>
+										</edom>
+										<edom>
+											<edomv>DS</edomv>
+											<edomvd>Not verified name in non-Roman script</edomvd>
+										</edom>
+										<edom>
+											<edomv>V</edomv>
+											<edomvd>Variant or alternate name</edomvd>
+										</edom>
+										<edom>
+											<edomv>VS</edomv>
+											<edomvd>Variant name in non-Roman script</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>SHORT_FORM</attrlabl>
+									<attrdef>A part of the full name that could substitute for the full name</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>GENERIC</attrlabl>
+									<attrdef>The descriptive part of the full name</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>SORT_NAME</attrlabl>
+									<attrdef>A form of the full name that allows for alphabetical sorting of the file into gazetteer sequence</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>NAME</attrlabl>
+									<attrdef>The full name is the complete name that identifies a named feature</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>NM_ASCII</attrlabl>
+									<attrdef>Name in ASCII characters</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PROV_PY</attrlabl>
+									<attrdef>Province in Pinyin</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PREF_ID</attrlabl>
+									<attrdef>Prefecture Identifier</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PREF_PY</attrlabl>
+									<attrdef>Prefecture in Pinyin</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>CNTY_PY</attrlabl>
+									<attrdef>Name of County Level Unit in Pinyin</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>CNTY_ID</attrlabl>
+									<attrdef>County Identifier</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TJ_INT_ID</attrlabl>
+								</attr>
+								<attr>
+									<attrlabl>TJ_EXT_ID</attrlabl>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>CHGIS, Harvard Yenching Institute</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing address</addrtype>
+										<address>1737 Cambridge St, N321</address>
+										<city>Cambridge</city>
+										<state>MA</state>
+										<postal>02138</postal>
+									</cntaddr>
+									<cntvoice>617-496-6222</cntvoice>
+								</cntinfo>
+							</distrib>
+							<resdesc>chgis_v4_gns_tianjin_gbk</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<transize>1.037</transize>
+									</digtinfo>
+								</digform>
+								<fees>free</fees>
+								<ordering>register for download at:  www.fas.harvard.edu/~chgis</ordering>
+							</stdorder>
+							<availabl>
+								<timeinfo>
+									<rngdates>
+										<begdate>50</begdate>
+										<endtime>1820</endtime>
+									</rngdates>
+								</timeinfo>
+							</availabl>
+						</distinfo>
+						<metainfo>
+							<metd>20070709</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

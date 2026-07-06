@@ -1,855 +1,855 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Dominican Republic (3508796)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Dominican Republic</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2010</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-72.0038833618164063</westbc>
-<eastbc>-68.3226394653320597</eastbc>
-<northbc>19.9323616027831889</northbc>
-<southbc>17.4701385498049149</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Dominican Republic (3508796)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Dominican Republic</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2010</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-72.0038833618164063</westbc>
+				<eastbc>-68.3226394653320597</eastbc>
+				<northbc>19.9323616027831889</northbc>
+				<southbc>17.4701385498049149</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Dominican Republic Demographic Census Data, 2010 is a polygon theme representing Barrios (5th level administrative units) in the Dominican Republic as of 2010.Attribute information includes demographic variables from the 2010 Census.
 
 Official population and housing data for the Dominican Republic from the 2010 census. This census is provided at the barrio administrative level (ADM5) and includes 12,565 polygons with 756 attribute variables. Attribute descriptions retain Source-language names and unique identifier codes. All variable names were translated from Source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "H23_Si" was updated to D001 and given the alias "There is a newborn girl or boy that has not been previously mentioned: Yes[H23_Si]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
 
- </abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Dominican Republic Demographic Census Data, 2010</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Dominican Republic Demographic Census Data, 2010</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_dr_demographic_2010.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2010</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2010</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-  <horizsys>
-    <gridsys>WGS_1984_UTM_Zone_19N</gridsys>
-  </horizsys>
+	<horizsys>
+		<gridsys>WGS_1984_UTM_Zone_19N</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-  <detailed>
-    <enttyp>
-      <enttypl>DominicanRep_2010</enttypl>
-      <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-      <enttypds>East View Geospatial</enttypds>
-    </enttyp>
-    <attr>
-      <attrlabl>CODE</attrlabl>
-      <attrdef>Code[Código]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Identifier of the census sector as a coded value.</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>NEIGHBORHOOD</attrlabl>
-      <attrdef>Quarter or Place of Residence[BarriooParajederesidencia]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Name of the barrio the census sector falls in.</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D001</attrlabl>
-      <attrdef>There is a newborn girl or boy that has not been previously mentioned: Yes[H23_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D002</attrlabl>
-      <attrdef>There is a newborn girl or boy that has not been previously mentioned: No[H23_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D003</attrlabl>
-      <attrdef>There is a newborn girl or boy that has not been previously mentioned: Undeclared[H23_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D004</attrlabl>
-      <attrdef>There is a newborn girl or boy that has not been previously mentioned: Total[H23_TABTMP14_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D005</attrlabl>
-      <attrdef>Household members who died in 2009 caluculated with CSPro: 0[H18ACC_0]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D006</attrlabl>
-      <attrdef>Household members who died in 2009 caluculated with CSPro: 1[H18ACC_1]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D007</attrlabl>
-      <attrdef>Household members who died in 2009 caluculated with CSPro: 2[H18ACC_2]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D008</attrlabl>
-      <attrdef>Household members who died in 2009 caluculated with CSPro: 3[H18ACC_3]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D009</attrlabl>
-      <attrdef>Household members who died in 2009 caluculated with CSPro: Total[H18ACC_TABTMP2_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D010</attrlabl>
-      <attrdef>Sex: Man[P27_Hombres]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D011</attrlabl>
-      <attrdef>Sex: Woman[P27_Mujeres]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D012</attrlabl>
-      <attrdef>Sex: Total[P27_TABTMP3_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D013</attrlabl>
-      <attrdef>Marital Status: Separated from a marriage[P55_Separado_a_deunmatrimonio]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D014</attrlabl>
-      <attrdef>Marital Status: Divorced[P55_Divorciado_a_]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D015</attrlabl>
-      <attrdef>Marital Status: Widower[P55_Viudo_a_]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D016</attrlabl>
-      <attrdef>Marital Status: Separated for a free union[P55_Separado_a_deunauniónlibre]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D017</attrlabl>
-      <attrdef>Marital Status: Married [P55_Casado_a_]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D018</attrlabl>
-      <attrdef>Marital Status: United[P55_Unido_a_]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D019</attrlabl>
-      <attrdef>Marital Status: Never been married[P55_Nuncasehacasadoniunido]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D020</attrlabl>
-      <attrdef>Marital Status: Undeclared[P55_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D021</attrlabl>
-      <attrdef>Marital Status: Total[P55_TABTMP5_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D022</attrlabl>
-      <attrdef>How many daughters born alive: 0[P56A_0]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D023</attrlabl>
-      <attrdef>How many daughters born alive: 1[P56A_1]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D024</attrlabl>
-      <attrdef>How many daughters born alive: 2[P56A_2]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D025</attrlabl>
-      <attrdef>How many daughters born alive: 3[P56A_3]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D026</attrlabl>
-      <attrdef>How many daughters born alive: 4[P56A_4]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D027</attrlabl>
-      <attrdef>How many daughters born alive: 5[P56A_5]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D028</attrlabl>
-      <attrdef>How many daughters born alive: 6[P56A_6]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D029</attrlabl>
-      <attrdef>How many daughters born alive: 7[P56A_7]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D030</attrlabl>
-      <attrdef>How many daughters born alive: 8[P56A_8]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D031</attrlabl>
-      <attrdef>How many daughters born alive: 9[P56A_9]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D032</attrlabl>
-      <attrdef>How many daughters born alive: 10[P56A_10]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D033</attrlabl>
-      <attrdef>How many daughters born alive: 11[P56A_11]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D034</attrlabl>
-      <attrdef>How many daughters born alive: 12[P56A_12]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D035</attrlabl>
-      <attrdef>How many daughters born alive: 13[P56A_13]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D036</attrlabl>
-      <attrdef>How many daughters born alive: 14[P56A_14]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D037</attrlabl>
-      <attrdef>How many daughters born alive: 15[P56A_15]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D038</attrlabl>
-      <attrdef>How many daughters born alive: 16[P56A_16]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D039</attrlabl>
-      <attrdef>How many daughters born alive: 17[P56A_17]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D040</attrlabl>
-      <attrdef>How many daughters born alive: 18[P56A_18]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D041</attrlabl>
-      <attrdef>How many daughters born alive: 20[P56A_20]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D042</attrlabl>
-      <attrdef>How many daughters born alive: Total[P56A_TABTMP7_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D043</attrlabl>
-      <attrdef>How many sons born alive: 0[P56B_0]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D044</attrlabl>
-      <attrdef>How many sons born alive: 1[P56B_1]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D045</attrlabl>
-      <attrdef>How many sons born alive: 2[P56B_2]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D046</attrlabl>
-      <attrdef>How many sons born alive: 3[P56B_3]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D047</attrlabl>
-      <attrdef>How many sons born alive: 4[P56B_4]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D048</attrlabl>
-      <attrdef>How many sons born alive: 5[P56B_5]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D049</attrlabl>
-      <attrdef>How many sons born alive: 6[P56B_6]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D050</attrlabl>
-      <attrdef>How many sons born alive: 7[P56B_7]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D051</attrlabl>
-      <attrdef>How many sons born alive: 8[P56B_8]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D052</attrlabl>
-      <attrdef>How many sons born alive: 9[P56B_9]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D053</attrlabl>
-      <attrdef>How many sons born alive: 10[P56B_10]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D054</attrlabl>
-      <attrdef>How many sons born alive: 11[P56B_11]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D055</attrlabl>
-      <attrdef>How many sons born alive: 12[P56B_12]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D056</attrlabl>
-      <attrdef>How many sons born alive: 13[P56B_13]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D057</attrlabl>
-      <attrdef>How many sons born alive: 14[P56B_14]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D058</attrlabl>
-      <attrdef>How many sons born alive: 15[P56B_15]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D059</attrlabl>
-      <attrdef>How many sons born alive: 16[P56B_16]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D060</attrlabl>
-      <attrdef>How many sons born alive: 17[P56B_17]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D061</attrlabl>
-      <attrdef>How many sons born alive: 18[P56B_18]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D062</attrlabl>
-      <attrdef>How many sons born alive: 20[P56B_20]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D063</attrlabl>
-      <attrdef>How many sons born alive: Total[P56B_TABTMP8_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D064</attrlabl>
-      <attrdef>No children: True[P56C_1]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D065</attrlabl>
-      <attrdef>No children: Total[P56C_TABTMP9_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D066</attrlabl>
-      <attrdef>No daughter/son is/are alive currently: True[P57C_1]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D067</attrlabl>
-      <attrdef>No daughter/son is/are alive currently: Total[P57C_TABTMP2_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D068</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: January[P58A_Enero]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D069</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: February[P58A_Febrero]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D070</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: March[P58A_Marzo]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D071</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: April[P58A_Abril]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D072</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: May[P58A_Mayo]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D073</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: June[P58A_Junio]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D074</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: July[P58A_Julio]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D075</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: August[P58A_Agosto]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D076</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: September[P58A_Septiembre]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D077</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: October[P58A_Octubre]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D078</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: November[P58A_Noviembre]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D079</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: December[P58A_Diciembre]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D080</attrlabl>
-      <attrdef>The month the last son/daughter was born alive: Total[P58A_TABTMP3_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D081</attrlabl>
-      <attrdef>Age Group: 0-14[P29R4_0_14]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D082</attrlabl>
-      <attrdef>Age Group: 15-64[P29R4_15_64]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D083</attrlabl>
-      <attrdef>Age Group: 65 and over[P29R4_65ymás]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>D084</attrlabl>
-      <attrdef>Age Group: Total[P29R4_TABTMP4_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>Country</attrlabl>
-      <attrdef>Country</attrdef>
-      <attrdefs>East View Geospatial</attrdefs>
-      <attrdomv>
-        <udom>Country where census took place as 3-digit ISO code</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>Census_Year</attrlabl>
-      <attrdef>Census_Year</attrdef>
-      <attrdefs>East View Geospatial</attrdefs>
-      <attrdomv>
-        <udom>Year census was conducted as YYYY</udom>
-      </attrdomv>
-    </attr>
-  </detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>DominicanRep_2010</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Código]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>NEIGHBORHOOD</attrlabl>
+			<attrdef>Quarter or Place of Residence[BarriooParajederesidencia]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Name of the barrio the census sector falls in.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D001</attrlabl>
+			<attrdef>There is a newborn girl or boy that has not been previously mentioned: Yes[H23_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D002</attrlabl>
+			<attrdef>There is a newborn girl or boy that has not been previously mentioned: No[H23_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D003</attrlabl>
+			<attrdef>There is a newborn girl or boy that has not been previously mentioned: Undeclared[H23_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D004</attrlabl>
+			<attrdef>There is a newborn girl or boy that has not been previously mentioned: Total[H23_TABTMP14_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D005</attrlabl>
+			<attrdef>Household members who died in 2009 caluculated with CSPro: 0[H18ACC_0]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D006</attrlabl>
+			<attrdef>Household members who died in 2009 caluculated with CSPro: 1[H18ACC_1]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D007</attrlabl>
+			<attrdef>Household members who died in 2009 caluculated with CSPro: 2[H18ACC_2]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D008</attrlabl>
+			<attrdef>Household members who died in 2009 caluculated with CSPro: 3[H18ACC_3]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D009</attrlabl>
+			<attrdef>Household members who died in 2009 caluculated with CSPro: Total[H18ACC_TABTMP2_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D010</attrlabl>
+			<attrdef>Sex: Man[P27_Hombres]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D011</attrlabl>
+			<attrdef>Sex: Woman[P27_Mujeres]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D012</attrlabl>
+			<attrdef>Sex: Total[P27_TABTMP3_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D013</attrlabl>
+			<attrdef>Marital Status: Separated from a marriage[P55_Separado_a_deunmatrimonio]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D014</attrlabl>
+			<attrdef>Marital Status: Divorced[P55_Divorciado_a_]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D015</attrlabl>
+			<attrdef>Marital Status: Widower[P55_Viudo_a_]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D016</attrlabl>
+			<attrdef>Marital Status: Separated for a free union[P55_Separado_a_deunauniónlibre]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D017</attrlabl>
+			<attrdef>Marital Status: Married [P55_Casado_a_]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D018</attrlabl>
+			<attrdef>Marital Status: United[P55_Unido_a_]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D019</attrlabl>
+			<attrdef>Marital Status: Never been married[P55_Nuncasehacasadoniunido]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D020</attrlabl>
+			<attrdef>Marital Status: Undeclared[P55_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D021</attrlabl>
+			<attrdef>Marital Status: Total[P55_TABTMP5_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D022</attrlabl>
+			<attrdef>How many daughters born alive: 0[P56A_0]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D023</attrlabl>
+			<attrdef>How many daughters born alive: 1[P56A_1]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D024</attrlabl>
+			<attrdef>How many daughters born alive: 2[P56A_2]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D025</attrlabl>
+			<attrdef>How many daughters born alive: 3[P56A_3]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D026</attrlabl>
+			<attrdef>How many daughters born alive: 4[P56A_4]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D027</attrlabl>
+			<attrdef>How many daughters born alive: 5[P56A_5]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D028</attrlabl>
+			<attrdef>How many daughters born alive: 6[P56A_6]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D029</attrlabl>
+			<attrdef>How many daughters born alive: 7[P56A_7]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D030</attrlabl>
+			<attrdef>How many daughters born alive: 8[P56A_8]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D031</attrlabl>
+			<attrdef>How many daughters born alive: 9[P56A_9]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D032</attrlabl>
+			<attrdef>How many daughters born alive: 10[P56A_10]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D033</attrlabl>
+			<attrdef>How many daughters born alive: 11[P56A_11]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D034</attrlabl>
+			<attrdef>How many daughters born alive: 12[P56A_12]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D035</attrlabl>
+			<attrdef>How many daughters born alive: 13[P56A_13]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D036</attrlabl>
+			<attrdef>How many daughters born alive: 14[P56A_14]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D037</attrlabl>
+			<attrdef>How many daughters born alive: 15[P56A_15]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D038</attrlabl>
+			<attrdef>How many daughters born alive: 16[P56A_16]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D039</attrlabl>
+			<attrdef>How many daughters born alive: 17[P56A_17]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D040</attrlabl>
+			<attrdef>How many daughters born alive: 18[P56A_18]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D041</attrlabl>
+			<attrdef>How many daughters born alive: 20[P56A_20]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D042</attrlabl>
+			<attrdef>How many daughters born alive: Total[P56A_TABTMP7_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D043</attrlabl>
+			<attrdef>How many sons born alive: 0[P56B_0]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D044</attrlabl>
+			<attrdef>How many sons born alive: 1[P56B_1]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D045</attrlabl>
+			<attrdef>How many sons born alive: 2[P56B_2]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D046</attrlabl>
+			<attrdef>How many sons born alive: 3[P56B_3]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D047</attrlabl>
+			<attrdef>How many sons born alive: 4[P56B_4]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D048</attrlabl>
+			<attrdef>How many sons born alive: 5[P56B_5]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D049</attrlabl>
+			<attrdef>How many sons born alive: 6[P56B_6]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D050</attrlabl>
+			<attrdef>How many sons born alive: 7[P56B_7]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D051</attrlabl>
+			<attrdef>How many sons born alive: 8[P56B_8]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D052</attrlabl>
+			<attrdef>How many sons born alive: 9[P56B_9]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D053</attrlabl>
+			<attrdef>How many sons born alive: 10[P56B_10]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D054</attrlabl>
+			<attrdef>How many sons born alive: 11[P56B_11]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D055</attrlabl>
+			<attrdef>How many sons born alive: 12[P56B_12]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D056</attrlabl>
+			<attrdef>How many sons born alive: 13[P56B_13]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D057</attrlabl>
+			<attrdef>How many sons born alive: 14[P56B_14]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D058</attrlabl>
+			<attrdef>How many sons born alive: 15[P56B_15]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D059</attrlabl>
+			<attrdef>How many sons born alive: 16[P56B_16]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D060</attrlabl>
+			<attrdef>How many sons born alive: 17[P56B_17]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D061</attrlabl>
+			<attrdef>How many sons born alive: 18[P56B_18]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D062</attrlabl>
+			<attrdef>How many sons born alive: 20[P56B_20]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D063</attrlabl>
+			<attrdef>How many sons born alive: Total[P56B_TABTMP8_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D064</attrlabl>
+			<attrdef>No children: True[P56C_1]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D065</attrlabl>
+			<attrdef>No children: Total[P56C_TABTMP9_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D066</attrlabl>
+			<attrdef>No daughter/son is/are alive currently: True[P57C_1]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D067</attrlabl>
+			<attrdef>No daughter/son is/are alive currently: Total[P57C_TABTMP2_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D068</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: January[P58A_Enero]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D069</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: February[P58A_Febrero]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D070</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: March[P58A_Marzo]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D071</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: April[P58A_Abril]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D072</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: May[P58A_Mayo]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D073</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: June[P58A_Junio]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D074</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: July[P58A_Julio]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D075</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: August[P58A_Agosto]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D076</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: September[P58A_Septiembre]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D077</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: October[P58A_Octubre]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D078</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: November[P58A_Noviembre]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D079</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: December[P58A_Diciembre]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D080</attrlabl>
+			<attrdef>The month the last son/daughter was born alive: Total[P58A_TABTMP3_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D081</attrlabl>
+			<attrdef>Age Group: 0-14[P29R4_0_14]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D082</attrlabl>
+			<attrdef>Age Group: 15-64[P29R4_15_64]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D083</attrlabl>
+			<attrdef>Age Group: 65 and over[P29R4_65ymás]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D084</attrlabl>
+			<attrdef>Age Group: Total[P29R4_TABTMP4_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census_Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_dr_demographic_2010</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_dr_demographic_2010</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

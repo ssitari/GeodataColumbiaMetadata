@@ -1,342 +1,342 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Nicaragua (3617476)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Nicaragua</placekey>
-<placekey>Nicaragua</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2005</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-87.692194</westbc>
-<eastbc>-82.970746</eastbc>
-<northbc>15.029491</northbc>
-<southbc>10.707382</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Nicaragua (3617476)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Nicaragua</placekey>
+				<placekey>Nicaragua</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2005</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-87.692194</westbc>
+				<eastbc>-82.970746</eastbc>
+				<northbc>15.029491</northbc>
+				<southbc>10.707382</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Nicaragua Transportation Census Data, 2005 is a polygon theme representing Barrios (4th level administrative units) in Nicaragua as of 2005.  Attribute data include transportation variables from the 2005 Nicaraguan census.
 Official population and housing data for Nicaragua from the 2005 census. This census is provided at the barrio administrative level (ADM4) and includes 8,136 polygons with 352 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Miembro Del Hogar Falleció Desde El 1 De Enero De 2004: Si" was updated to D001 and given the alias "Member Of The Household Has Died Since January 1st 2004: Yes[Miembro Del Hogar Falleció Desde El 1 De Enero De 2004: Si]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Nicaragua Transportation Census Data, 2005</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Nicaragua Transportation Census Data, 2005</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_nicaragua_transportation_2005.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2005</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2005</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Nicaragua_2005</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T001</attrlabl>
-    <attrdef>Has Truck/Van/Jeep: Yes[Tiene Carro/Camioneta/Jeep: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T002</attrlabl>
-    <attrdef>Has Truck/Van/Jeep: No[Tiene Carro/Camioneta/Jeep: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T003</attrlabl>
-    <attrdef>Has Truck/Van/Jeep: Ignored[Tiene Carro/Camioneta/Jeep: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T004</attrlabl>
-    <attrdef>Has Motor Bike/Quad Bike: Yes[Tiene Moto/Cuadraciclo: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T005</attrlabl>
-    <attrdef>Has Motor Bike/Quad Bike: No[Tiene Moto/Cuadraciclo: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T006</attrlabl>
-    <attrdef>Has Motor Bike/Quad Bike: Ignored[Tiene Moto/Cuadraciclo: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T007</attrlabl>
-    <attrdef>Has A Bicycle: Yes[Tiene Bicicleta: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T008</attrlabl>
-    <attrdef>Has A Bicycle: No[Tiene Bicicleta: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T009</attrlabl>
-    <attrdef>Has A Bicycle: Ignored[Tiene Bicicleta: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T010</attrlabl>
-    <attrdef>Has Mule/Horse/Beast: Yes[Tiene Bestia/Caballo/Mula: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T011</attrlabl>
-    <attrdef>Has Mule/Horse/Beast: No[Tiene Bestia/Caballo/Mula: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T012</attrlabl>
-    <attrdef>Has Mule/Horse/Beast: Ignored[Tiene Bestia/Caballo/Mula: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T013</attrlabl>
-    <attrdef>Has Canoe/Cayuco: Yes[Tiene Canoa/Cayuco: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T014</attrlabl>
-    <attrdef>Has Canoe/Cayuco: No[Tiene Canoa/Cayuco: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T015</attrlabl>
-    <attrdef>Has Canoe/Cayuco: Ignored[Tiene Canoa/Cayuco: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T016</attrlabl>
-    <attrdef>Has Motorboat/Skiff/Boat: Yes[Tiene Lancha/Panga/Bote: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T017</attrlabl>
-    <attrdef>Has Motorboat/Skiff/Boat: No[Tiene Lancha/Panga/Bote: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T018</attrlabl>
-    <attrdef>Has Motorboat/Skiff/Boat: Ignored[Tiene Lancha/Panga/Bote: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T019</attrlabl>
-    <attrdef>Has A Yacht: Yes[Tiene Yate: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T020</attrlabl>
-    <attrdef>Has A Yacht: No[Tiene Yate: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>T021</attrlabl>
-    <attrdef>Has A Yacht: Ignored[Tiene Yate: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Nicaragua_2005</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T001</attrlabl>
+			<attrdef>Has Truck/Van/Jeep: Yes[Tiene Carro/Camioneta/Jeep: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T002</attrlabl>
+			<attrdef>Has Truck/Van/Jeep: No[Tiene Carro/Camioneta/Jeep: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T003</attrlabl>
+			<attrdef>Has Truck/Van/Jeep: Ignored[Tiene Carro/Camioneta/Jeep: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T004</attrlabl>
+			<attrdef>Has Motor Bike/Quad Bike: Yes[Tiene Moto/Cuadraciclo: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T005</attrlabl>
+			<attrdef>Has Motor Bike/Quad Bike: No[Tiene Moto/Cuadraciclo: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T006</attrlabl>
+			<attrdef>Has Motor Bike/Quad Bike: Ignored[Tiene Moto/Cuadraciclo: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T007</attrlabl>
+			<attrdef>Has A Bicycle: Yes[Tiene Bicicleta: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T008</attrlabl>
+			<attrdef>Has A Bicycle: No[Tiene Bicicleta: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T009</attrlabl>
+			<attrdef>Has A Bicycle: Ignored[Tiene Bicicleta: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T010</attrlabl>
+			<attrdef>Has Mule/Horse/Beast: Yes[Tiene Bestia/Caballo/Mula: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T011</attrlabl>
+			<attrdef>Has Mule/Horse/Beast: No[Tiene Bestia/Caballo/Mula: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T012</attrlabl>
+			<attrdef>Has Mule/Horse/Beast: Ignored[Tiene Bestia/Caballo/Mula: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T013</attrlabl>
+			<attrdef>Has Canoe/Cayuco: Yes[Tiene Canoa/Cayuco: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T014</attrlabl>
+			<attrdef>Has Canoe/Cayuco: No[Tiene Canoa/Cayuco: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T015</attrlabl>
+			<attrdef>Has Canoe/Cayuco: Ignored[Tiene Canoa/Cayuco: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T016</attrlabl>
+			<attrdef>Has Motorboat/Skiff/Boat: Yes[Tiene Lancha/Panga/Bote: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T017</attrlabl>
+			<attrdef>Has Motorboat/Skiff/Boat: No[Tiene Lancha/Panga/Bote: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T018</attrlabl>
+			<attrdef>Has Motorboat/Skiff/Boat: Ignored[Tiene Lancha/Panga/Bote: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T019</attrlabl>
+			<attrdef>Has A Yacht: Yes[Tiene Yate: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T020</attrlabl>
+			<attrdef>Has A Yacht: No[Tiene Yate: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>T021</attrlabl>
+			<attrdef>Has A Yacht: Ignored[Tiene Yate: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_nicaragua_transportation_2005</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_nicaragua_transportation_2005</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

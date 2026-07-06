@@ -31,7 +31,10 @@ This dataset comes with two ESRI layer files symbolizing the features.</supplinf
 		<timeperd>
 			<current>publication date</current>
 			<timeinfo>
-				<sngdate><caldate>2010</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2010</caldate>
+				</sngdate>
+			</timeinfo>
 		</timeperd>
 		<status>
 			<progress>Complete</progress>
@@ -110,32 +113,121 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			</cntinfo>
 		</ptcontac>
 	</idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20110729</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Tele Atlas MultiNet Administrative Areas, 2010</title>
+						<origin>Tele Atlas North America, Inc.</origin>
+						<pubdate>201003</pubdate>
+						<edition>Version 2010.03</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>Tele Atlas MultiNet North America</sername>
+							<issue>Version 2010.03</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>Tele Atlas North America, Inc.</publish>
+							<pubplace>Lebanon, New Hampshire, USA</pubplace>
+						</pubinfo>
+						<onlink>http://www.teleatlas.com/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>DVD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>201003</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Tele Atlas MultiNet North America Administrative Areas v. 2010.03</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Department of Commerce, Census Bureau</origin>
+						<title>Summary File 1 (SF1)</title>
+						<edition>2000</edition>
+						<serinfo>
+							<sername>Summary File 1 (SF1)</sername>
+							<issue>2000</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>Department of Commerce, Census Bureau</publish>
+							<pubplace>USA</pubplace>
+						</pubinfo>
+						<othercit>The Summary File 1 (SF1) data is based on the 2000 Census of Population.</othercit>
+						<pubdate>2001</pubdate>
+					</citeinfo>
+				</srccite>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2000</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Census SF1</srccitea>
+				<srccontr>Attribute data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>ESRI Data - Updated Demographics, 2010</title>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<pubdate>20100504</pubdate>
+						<edition>2010</edition>
+						<geoform>tabular digital data</geoform>
+						<serinfo>
+							<sername>ESRI Data - Updated Demographics</sername>
+							<issue>2010</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Redlands, California, USA</pubplace>
+							<publish>ESRI</publish>
+						</pubinfo>
+						<onlink>http://www.esri.com</onlink>
+						<othercit>Provides the POP2010 attribute.</othercit>
+					</citeinfo>
+				</srccite>
+				<srccitea>ESRI Data - Updated Demographics</srccitea>
+				<srccontr>Attribute data</srccontr>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20100504</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<typesrc>DVD-ROM</typesrc>
+			</srcinfo>
+			<procstep>
+				<procdate>20100508</procdate>
+				<procdesc>The following steps were performed by ESRI: Extracted the tract data set from Tele Atlas MultiNet Administrative Areas v. 2010.03. Clipped the coastline with the Tele Atlas MultiNet North America water data set. Removed the U.S. Virgin Islands. Added field FIPS and calculated its values from the MultiNet field CODE. Attached and formatted the fields from 2009 Data Update U.S. Census Tracts. Replaced field POP2009 with POP2010 and field POP09_SQMI with POP10_SQMI. Put "-99" values into all number type fields (except SQMI) for records where there were no matches. Calculated new values for fields POP00_SQMI, POP10_SQMI, and SQMI from the MultiNet field FEATAREA. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>Horizontal positional accuracy is dependent on geographic area. In most areas, accuracy is between 5 and 25 meters (16 and 82 feet). In some areas, accuracy is off by up to several tens of meters (100 feet or more). In the poorest areas, accuracy is off by up to 100 meters (328 feet).</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype></sdtsterm></ptvctinf>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
 	</spdoinfo>
 	<spref>
 		<horizsys>
@@ -588,112 +680,27 @@ Outside the United States, please direct all inquiries to your local ESRI Office
 			</cntinfo>
 		</distrib>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Tele Atlas MultiNet Administrative Areas, 2010</title>
-						<origin>Tele Atlas North America, Inc.</origin>
-						<pubdate>201003</pubdate>
-						<edition>Version 2010.03</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>Tele Atlas MultiNet North America</sername>
-							<issue>Version 2010.03</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>Tele Atlas North America, Inc.</publish>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-						</pubinfo>
-						<onlink>http://www.teleatlas.com/</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>DVD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>201003</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>Tele Atlas MultiNet North America Administrative Areas v. 2010.03</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Department of Commerce, Census Bureau</origin>
-						<title>Summary File 1 (SF1)</title>
-						<edition>2000</edition>
-						<serinfo>
-							<sername>Summary File 1 (SF1)</sername>
-							<issue>2000</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>Department of Commerce, Census Bureau</publish>
-							<pubplace>USA</pubplace>
-						</pubinfo>
-						<othercit>The Summary File 1 (SF1) data is based on the 2000 Census of Population.</othercit>
-						<pubdate>2001</pubdate>
-					</citeinfo>
-				</srccite>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2000</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>Census SF1</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>ESRI Data - Updated Demographics, 2010</title>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>20100504</pubdate>
-						<edition>2010</edition>
-						<geoform>tabular digital data</geoform>
-						<serinfo>
-							<sername>ESRI Data - Updated Demographics</sername>
-							<issue>2010</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Redlands, California, USA</pubplace>
-							<publish>ESRI</publish>
-						</pubinfo>
-						<onlink>http://www.esri.com</onlink>
-						<othercit>Provides the POP2010 attribute.</othercit>
-					</citeinfo>
-				</srccite>
-				<srccitea>ESRI Data - Updated Demographics</srccitea>
-				<srccontr>Attribute data</srccontr>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>20100504</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<typesrc>DVD-ROM</typesrc>
-			</srcinfo>
-			<procstep>
-				<procdate>20100508</procdate>
-				<procdesc>The following steps were performed by ESRI: Extracted the tract data set from Tele Atlas MultiNet Administrative Areas v. 2010.03. Clipped the coastline with the Tele Atlas MultiNet North America water data set. Removed the U.S. Virgin Islands. Added field FIPS and calculated its values from the MultiNet field CODE. Attached and formatted the fields from 2009 Data Update U.S. Census Tracts. Replaced field POP2009 with POP2010 and field POP09_SQMI with POP10_SQMI. Put "-99" values into all number type fields (except SQMI) for records where there were no matches. Calculated new values for fields POP00_SQMI, POP10_SQMI, and SQMI from the MultiNet field FEATAREA. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>Horizontal positional accuracy is dependent on geographic area. In most areas, accuracy is between 5 and 25 meters (16 and 82 feet). In some areas, accuracy is off by up to several tens of meters (100 feet or more). In the poorest areas, accuracy is off by up to 100 meters (328 feet).</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20110729</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

@@ -1,687 +1,687 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Dominican Republic (3508796)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Dominican Republic</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2010</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-72.0038833618164063</westbc>
-<eastbc>-68.3226394653320597</eastbc>
-<northbc>19.9323616027831889</northbc>
-<southbc>17.4701385498049149</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Dominican Republic (3508796)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Dominican Republic</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2010</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-72.0038833618164063</westbc>
+				<eastbc>-68.3226394653320597</eastbc>
+				<northbc>19.9323616027831889</northbc>
+				<southbc>17.4701385498049149</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Dominican Republic Economic Census Data, 2010 is a polygon theme representing Barrios (5th level administrative units) in the Dominican Republic as of 2010. Attribute information includes economic variables from the 2010 Census.
 
 Official population and housing data for the Dominican Republic from the 2010 census. This census is provided at the barrio administrative level (ADM5) and includes 12,565 polygons with 756 attribute variables. Attribute descriptions retain Source-language names and unique identifier codes. All variable names were translated from Source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "H23_Si" was updated to D001 and given the alias "There is a newborn girl or boy that has not been previously mentioned: Yes[H23_Si]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
 
- </abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Dominican Republic Economic Census Data, 2010</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Dominican Republic Economic Census Data, 2010</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_dr_economic_2010.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2010</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2010</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-  <horizsys>
-    <gridsys>WGS_1984_UTM_Zone_19N</gridsys>
-  </horizsys>
+	<horizsys>
+		<gridsys>WGS_1984_UTM_Zone_19N</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-  <detailed>
-    <enttyp>
-      <enttypl>DominicanRep_2010</enttypl>
-      <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-      <enttypds>East View Geospatial</enttypds>
-    </enttyp>
-    <attr>
-      <attrlabl>CODE</attrlabl>
-      <attrdef>Code[Código]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Identifier of the census sector as a coded value.</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>NEIGHBORHOOD</attrlabl>
-      <attrdef>Quarter or Place of Residence[BarriooParajederesidencia]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Name of the barrio the census sector falls in.</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E001</attrlabl>
-      <attrdef>Farmers in household calculated with CSPro: 0[H19ACC_0]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E002</attrlabl>
-      <attrdef>Farmers in household calculated with CSPro: 1[H19ACC_1]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E003</attrlabl>
-      <attrdef>Farmers in household calculated with CSPro: 2[H19ACC_2]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E004</attrlabl>
-      <attrdef>Farmers in household calculated with CSPro: 3[H19ACC_3]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E005</attrlabl>
-      <attrdef>Farmers in household calculated with CSPro: 4[H19ACC_4]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E006</attrlabl>
-      <attrdef>Farmers in household calculated with CSPro: 6[H19ACC_6]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E007</attrlabl>
-      <attrdef>Farmers in household calculated with CSPro: Total[H19ACC_TABTMP3_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E008</attrlabl>
-      <attrdef>Cattlemen in household calculated with CSPro: 0[H20ACC_0]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E009</attrlabl>
-      <attrdef>Cattlemen in household calculated with CSPro: 1[H20ACC_1]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E010</attrlabl>
-      <attrdef>Cattlemen in household calculated with CSPro: 2[H20ACC_2]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E011</attrlabl>
-      <attrdef>Cattlemen in household calculated with CSPro: 3[H20ACC_3]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E012</attrlabl>
-      <attrdef>Cattlemen in household calculated with CSPro: 6[H20ACC_6]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E013</attrlabl>
-      <attrdef>Cattlemen in household calculated with CSPro: Total[H20ACC_TABTMP4_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E014</attrlabl>
-      <attrdef>Socio-Economic Group calculated with CSPro: Very low[H35_Muybajo]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E015</attrlabl>
-      <attrdef>Socio-Economic Group calculated with CSPro: Low[H35_Bajo]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E016</attrlabl>
-      <attrdef>Socio-Economic Group calculated with CSPro: Medium-low[H35_Mediobajo]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E017</attrlabl>
-      <attrdef>Socio-Economic Group calculated with CSPro: Medium[H35_Medio]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E018</attrlabl>
-      <attrdef>Socio-Economic Group calculated with CSPro: Medium-high/High[H35_Medioalto_Alto]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E019</attrlabl>
-      <attrdef>Socio-Economic Group calculated with CSPro: Total[H35_TABTMP8_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E020</attrlabl>
-      <attrdef>Had any employment or work last week: Yes[P45_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E021</attrlabl>
-      <attrdef>Had any employment or work last week: No[P45_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E022</attrlabl>
-      <attrdef>Had any employment or work last week: Undeclared[P45_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E023</attrlabl>
-      <attrdef>Had any employment or work last week: Total[P45_TABTMP8_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E024</attrlabl>
-      <attrdef>Worked for pay last week: Yes[P46_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E025</attrlabl>
-      <attrdef>Worked for pay last week: No[P46_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E026</attrlabl>
-      <attrdef>Worked for pay last week: Undeclared[P46_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E027</attrlabl>
-      <attrdef>Worked for pay last week: Total[P46_TABTMP9_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E028</attrlabl>
-      <attrdef>Helped without pay in a family business last week: Yes[P47_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E029</attrlabl>
-      <attrdef>Helped without pay in a family business last week: No[P47_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E030</attrlabl>
-      <attrdef>Helped without pay in a family business last week: Undeclared[P47_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E031</attrlabl>
-      <attrdef>Helped without pay in a family business last week: Total[P47_TABTMP10_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E032</attrlabl>
-      <attrdef>Sought work during the past four weeks: Yes[P48_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E033</attrlabl>
-      <attrdef>Sought work during the past four weeks: No[P48_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E034</attrlabl>
-      <attrdef>Sought work during the past four weeks: Undeclared[P48_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E035</attrlabl>
-      <attrdef>Sought work during the past four weeks: Total[P48_TABTMP11_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E036</attrlabl>
-      <attrdef>What was main work over the past week: Domestic chores[P49_Quehaceresdomesticos]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E037</attrlabl>
-      <attrdef>What was main work over the past week: Studies[P49_Estudios]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E038</attrlabl>
-      <attrdef>What was main work over the past week: Landlord/landlady[P49_Rentista]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E039</attrlabl>
-      <attrdef>What was main work over the past week: Retired or pensioner[P49_Jubilado_a_opensionado_a_]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E040</attrlabl>
-      <attrdef>What was main work over the past week: Not working because disability[P49_Notrabajapordiscapacidad]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E041</attrlabl>
-      <attrdef>What was main work over the past week: Not working because very old man[P49_Notrabajaporqueesmuyanciano_a_]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E042</attrlabl>
-      <attrdef>What was main work over the past week: Other[P49_Otra]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E043</attrlabl>
-      <attrdef>What was main work over the past week: No activity[P49_Ningunaactividad]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E044</attrlabl>
-      <attrdef>What was main work over the past week: Undeclared[P49_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E045</attrlabl>
-      <attrdef>What was main work over the past week: Total[P49_TABTMP12_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E046</attrlabl>
-      <attrdef>Was willing to work last week: Yes[P50_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E047</attrlabl>
-      <attrdef>Was willing to work last week: No[P50_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E048</attrlabl>
-      <attrdef>Was willing to work last week: Undeclared[P50_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E049</attrlabl>
-      <attrdef>Was willing to work last week: Total[P50_TABTMP2_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E050</attrlabl>
-      <attrdef>Has previously worked for pay or profit: Yes[P51_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E051</attrlabl>
-      <attrdef>Has previously worked for pay or profit: No[P51_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E052</attrlabl>
-      <attrdef>Has previously worked for pay or profit: Undeclared[P51_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E053</attrlabl>
-      <attrdef>Has previously worked for pay or profit: Total[P51_TABTMP3_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E054</attrlabl>
-      <attrdef>Occupational Category: Employee to a wage or salary[P53_Empleado_a_asueldoosalario]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E055</attrlabl>
-      <attrdef>Occupational Category: Employer[P53_Empleador_a_opatrón]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E056</attrlabl>
-      <attrdef>Occupational Category: Works without pay or profit[P53_Trabajador_a_familiaronofamiliarsinpagaoganancia]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E057</attrlabl>
-      <attrdef>Occupational Category: Self-employed worker[P53_Trabajador_a_porcuentapropia]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E058</attrlabl>
-      <attrdef>Occupational Category: Other[P53_Otra]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E059</attrlabl>
-      <attrdef>Occupational Category: Undeclared[P53_Nodeclarada]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E060</attrlabl>
-      <attrdef>Occupational Category: Total[P53_TABTMP4_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E061</attrlabl>
-      <attrdef>Economic Situation: Have income[CAPECON_Tieneingresos]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E062</attrlabl>
-      <attrdef>Economic Situation: No Income[CAPECON_Notieneingresos]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>E063</attrlabl>
-      <attrdef>Economic Situation: Total[CAPECON_TABTMP6_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>Country</attrlabl>
-      <attrdef>Country</attrdef>
-      <attrdefs>East View Geospatial</attrdefs>
-      <attrdomv>
-        <udom>Country where census took place as 3-digit ISO code</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>Census_Year</attrlabl>
-      <attrdef>Census_Year</attrdef>
-      <attrdefs>East View Geospatial</attrdefs>
-      <attrdomv>
-        <udom>Year census was conducted as YYYY</udom>
-      </attrdomv>
-    </attr>
-  </detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>DominicanRep_2010</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Código]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>NEIGHBORHOOD</attrlabl>
+			<attrdef>Quarter or Place of Residence[BarriooParajederesidencia]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Name of the barrio the census sector falls in.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E001</attrlabl>
+			<attrdef>Farmers in household calculated with CSPro: 0[H19ACC_0]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E002</attrlabl>
+			<attrdef>Farmers in household calculated with CSPro: 1[H19ACC_1]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E003</attrlabl>
+			<attrdef>Farmers in household calculated with CSPro: 2[H19ACC_2]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E004</attrlabl>
+			<attrdef>Farmers in household calculated with CSPro: 3[H19ACC_3]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E005</attrlabl>
+			<attrdef>Farmers in household calculated with CSPro: 4[H19ACC_4]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E006</attrlabl>
+			<attrdef>Farmers in household calculated with CSPro: 6[H19ACC_6]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E007</attrlabl>
+			<attrdef>Farmers in household calculated with CSPro: Total[H19ACC_TABTMP3_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E008</attrlabl>
+			<attrdef>Cattlemen in household calculated with CSPro: 0[H20ACC_0]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E009</attrlabl>
+			<attrdef>Cattlemen in household calculated with CSPro: 1[H20ACC_1]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E010</attrlabl>
+			<attrdef>Cattlemen in household calculated with CSPro: 2[H20ACC_2]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E011</attrlabl>
+			<attrdef>Cattlemen in household calculated with CSPro: 3[H20ACC_3]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E012</attrlabl>
+			<attrdef>Cattlemen in household calculated with CSPro: 6[H20ACC_6]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E013</attrlabl>
+			<attrdef>Cattlemen in household calculated with CSPro: Total[H20ACC_TABTMP4_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E014</attrlabl>
+			<attrdef>Socio-Economic Group calculated with CSPro: Very low[H35_Muybajo]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E015</attrlabl>
+			<attrdef>Socio-Economic Group calculated with CSPro: Low[H35_Bajo]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E016</attrlabl>
+			<attrdef>Socio-Economic Group calculated with CSPro: Medium-low[H35_Mediobajo]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E017</attrlabl>
+			<attrdef>Socio-Economic Group calculated with CSPro: Medium[H35_Medio]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E018</attrlabl>
+			<attrdef>Socio-Economic Group calculated with CSPro: Medium-high/High[H35_Medioalto_Alto]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E019</attrlabl>
+			<attrdef>Socio-Economic Group calculated with CSPro: Total[H35_TABTMP8_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E020</attrlabl>
+			<attrdef>Had any employment or work last week: Yes[P45_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E021</attrlabl>
+			<attrdef>Had any employment or work last week: No[P45_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E022</attrlabl>
+			<attrdef>Had any employment or work last week: Undeclared[P45_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E023</attrlabl>
+			<attrdef>Had any employment or work last week: Total[P45_TABTMP8_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E024</attrlabl>
+			<attrdef>Worked for pay last week: Yes[P46_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E025</attrlabl>
+			<attrdef>Worked for pay last week: No[P46_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E026</attrlabl>
+			<attrdef>Worked for pay last week: Undeclared[P46_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E027</attrlabl>
+			<attrdef>Worked for pay last week: Total[P46_TABTMP9_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E028</attrlabl>
+			<attrdef>Helped without pay in a family business last week: Yes[P47_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E029</attrlabl>
+			<attrdef>Helped without pay in a family business last week: No[P47_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E030</attrlabl>
+			<attrdef>Helped without pay in a family business last week: Undeclared[P47_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E031</attrlabl>
+			<attrdef>Helped without pay in a family business last week: Total[P47_TABTMP10_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E032</attrlabl>
+			<attrdef>Sought work during the past four weeks: Yes[P48_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E033</attrlabl>
+			<attrdef>Sought work during the past four weeks: No[P48_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E034</attrlabl>
+			<attrdef>Sought work during the past four weeks: Undeclared[P48_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E035</attrlabl>
+			<attrdef>Sought work during the past four weeks: Total[P48_TABTMP11_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E036</attrlabl>
+			<attrdef>What was main work over the past week: Domestic chores[P49_Quehaceresdomesticos]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E037</attrlabl>
+			<attrdef>What was main work over the past week: Studies[P49_Estudios]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E038</attrlabl>
+			<attrdef>What was main work over the past week: Landlord/landlady[P49_Rentista]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E039</attrlabl>
+			<attrdef>What was main work over the past week: Retired or pensioner[P49_Jubilado_a_opensionado_a_]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E040</attrlabl>
+			<attrdef>What was main work over the past week: Not working because disability[P49_Notrabajapordiscapacidad]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E041</attrlabl>
+			<attrdef>What was main work over the past week: Not working because very old man[P49_Notrabajaporqueesmuyanciano_a_]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E042</attrlabl>
+			<attrdef>What was main work over the past week: Other[P49_Otra]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E043</attrlabl>
+			<attrdef>What was main work over the past week: No activity[P49_Ningunaactividad]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E044</attrlabl>
+			<attrdef>What was main work over the past week: Undeclared[P49_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E045</attrlabl>
+			<attrdef>What was main work over the past week: Total[P49_TABTMP12_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E046</attrlabl>
+			<attrdef>Was willing to work last week: Yes[P50_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E047</attrlabl>
+			<attrdef>Was willing to work last week: No[P50_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E048</attrlabl>
+			<attrdef>Was willing to work last week: Undeclared[P50_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E049</attrlabl>
+			<attrdef>Was willing to work last week: Total[P50_TABTMP2_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E050</attrlabl>
+			<attrdef>Has previously worked for pay or profit: Yes[P51_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E051</attrlabl>
+			<attrdef>Has previously worked for pay or profit: No[P51_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E052</attrlabl>
+			<attrdef>Has previously worked for pay or profit: Undeclared[P51_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E053</attrlabl>
+			<attrdef>Has previously worked for pay or profit: Total[P51_TABTMP3_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E054</attrlabl>
+			<attrdef>Occupational Category: Employee to a wage or salary[P53_Empleado_a_asueldoosalario]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E055</attrlabl>
+			<attrdef>Occupational Category: Employer[P53_Empleador_a_opatrón]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E056</attrlabl>
+			<attrdef>Occupational Category: Works without pay or profit[P53_Trabajador_a_familiaronofamiliarsinpagaoganancia]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E057</attrlabl>
+			<attrdef>Occupational Category: Self-employed worker[P53_Trabajador_a_porcuentapropia]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E058</attrlabl>
+			<attrdef>Occupational Category: Other[P53_Otra]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E059</attrlabl>
+			<attrdef>Occupational Category: Undeclared[P53_Nodeclarada]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E060</attrlabl>
+			<attrdef>Occupational Category: Total[P53_TABTMP4_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E061</attrlabl>
+			<attrdef>Economic Situation: Have income[CAPECON_Tieneingresos]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E062</attrlabl>
+			<attrdef>Economic Situation: No Income[CAPECON_Notieneingresos]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E063</attrlabl>
+			<attrdef>Economic Situation: Total[CAPECON_TABTMP6_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census_Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_dr_economic_2010</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_dr_economic_2010</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

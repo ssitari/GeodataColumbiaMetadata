@@ -1,242 +1,243 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>EROS Data Center</origin>
-<pubdate>1999</pubdate>
-<title>New York City Area Digital Elevation Model, 1/3 Arc Second, 1999</title>
-<edition>1</edition>
-<geoform>raster digital data</geoform>
-<pubinfo>
-<pubplace>Sioux Falls, SD</pubplace>
-<publish>Geological Survey (U.S.)</publish>
-</pubinfo>
-<onlink>https://www.columbia.edu/acis/eds/gis/images/usgs_1999_nyc_13arc.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
-<abstract>New York City Area Digital Elevation Model, 1/3 Arc Second  (feet) is a raster dataset representing elevations in the New York City area.  This layer was clipped from the USGS NED to New York City and its immediate surrounding environment showing elevation (in feet), and ground units in decimal degrees. The resolution is 1/3 arc second.</abstract>
-<purpose>Geospatial elevation data are utilized by the scientific and resource management communities for global change research, hydrologic modeling, resource monitoring, mapping, and visualization applications.</purpose>
-<supplinf>The U.S. Geological Survey has developed a National Elevation Dataset (NED). The NED is a seamless mosaic of best-available elevation data. The 7.5-minute elevation data for the conterminous United States are the primary initial source data. In addition to the availability of complete 7.5-minute data, efficient processing methods were developed to filter production artifacts in the existing data, convert to the NAD83 datum, edge-match, and fill slivers of missing data at quadrangle seams. One of the effects of the NED processing steps is a much-improved base of elevation data for calculating slope and hydrologic derivatives. The specifications for the NED 1 arc second and 1/3 arc second data are: Geographic coordinate system Horizontal datum of NAD83, except for AK which is NAD27 Vertical datum of NAVD88, except for AK which is NAVD29 Z units of meters</supplinf>
-</descript>
-<timeperd>
-<timeinfo>
-<sngdate>
-<caldate>1999</caldate>
-</sngdate>
-</timeinfo>
-<current>ground condition</current>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>As needed</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>EROS Data Center</origin>
+				<pubdate>1999</pubdate>
+				<title>New York City Area Digital Elevation Model, 1/3 Arc Second, 1999</title>
+				<edition>1</edition>
+				<geoform>raster digital data</geoform>
+				<pubinfo>
+					<pubplace>Sioux Falls, SD</pubplace>
+					<publish>Geological Survey (U.S.)</publish>
+				</pubinfo>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/usgs_1999_nyc_13arc.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>New York City Area Digital Elevation Model, 1/3 Arc Second  (feet) is a raster dataset representing elevations in the New York City area.  This layer was clipped from the USGS NED to New York City and its immediate surrounding environment showing elevation (in feet), and ground units in decimal degrees. The resolution is 1/3 arc second.</abstract>
+			<purpose>Geospatial elevation data are utilized by the scientific and resource management communities for global change research, hydrologic modeling, resource monitoring, mapping, and visualization applications.</purpose>
+			<supplinf>The U.S. Geological Survey has developed a National Elevation Dataset (NED). The NED is a seamless mosaic of best-available elevation data. The 7.5-minute elevation data for the conterminous United States are the primary initial source data. In addition to the availability of complete 7.5-minute data, efficient processing methods were developed to filter production artifacts in the existing data, convert to the NAD83 datum, edge-match, and fill slivers of missing data at quadrangle seams. One of the effects of the NED processing steps is a much-improved base of elevation data for calculating slope and hydrologic derivatives. The specifications for the NED 1 arc second and 1/3 arc second data are: Geographic coordinate system Horizontal datum of NAD83, except for AK which is NAD27 Vertical datum of NAVD88, except for AK which is NAVD29 Z units of meters</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1999</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -74.266954</westbc>
-<eastbc>
+					<eastbc>
 -73.689249</eastbc>
-<northbc>
+						<northbc>
 40.932542</northbc>
-<southbc>
+							<southbc>
 40.488644</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>GCMD Parameter Keywords</themekt>
-<themekey>Earth Science</themekey>
-<themekey>Land Surface</themekey>
-<themekey>Topography</themekey>
-<themekey>Landforms</themekey>
-<themekey>Terrain Elevation</themekey>
-<themekey>1 Degree DEM</themekey>
-<themekey>Cartography</themekey>
-<themekey>DEM</themekey>
-<themekey>Digital Elevation Model</themekey>
-<themekey>Digital Mapping</themekey>
-<themekey>EDC</themekey>
-<themekey>EROS</themekey>
-<themekey>Geodata</themekey>
-<themekey>Raster</themekey>
-<themekey>USGS</themekey>
-</theme>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>elevation</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>New York City (5128581)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>New York (N.Y.)</placekey>
-<placekey>Brooklyn (New York, N.Y.)</placekey>
-<placekey>Bronx (New York, N.Y.)</placekey>
-<placekey>Queens (New York, N.Y.)</placekey>
-<placekey>Manhattan (New York, N.Y.)</placekey>
-<placekey>Staten Island (New York, N.Y.)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>NYC</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>1999</tempkey>
-</temporal>
-</keywords>
-<accconst>None</accconst>
-<useconst>None</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>EROS Data Center</cntorg>
-<cntper>Customer Services Representative</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>U.S. Geological Survey EROS Data Center</address>
-<city>Sioux Falls</city>
-<state>SD</state>
-<postal>57198</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>605-594-6151</cntvoice>
-<cntfax>605-594-6589</cntfax>
-<cntemail>custserv@edcmail.cr.usgs.gov</cntemail>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/nyc_1_3.bmp</browsen>
-<browsed>Thumbnail</browsed>
-<browset>bmp</browset>
-</browse>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
-</idinfo>
-<dataqual>
-<posacc>
-<vertacc>
-<vertaccr>The vertical accuracy is basically +/- 7 to 15 meters. It alls depends on the original source DEM and if it was level 1, level 2, or 10m resolution.</vertaccr>
-</vertacc>
-</posacc>
-<lineage>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>U.S. Geological Survey (USGS), EROS Data Center</origin>
-<pubdate>1999</pubdate>
-<title>National Elevation Database</title>
-<geoform>raster digital data</geoform>
-</citeinfo>
-</srccite>
-<typesrc>online digital data</typesrc>
-<srccitea>National Elevation Database</srccitea>
-</srcinfo>
-<procstep>
-<procdesc>The following steps were conducted by Research Data Services (RDS) staff: This layer was clipped from the USGS National Elevation Dataset to New York City and its immediate surrounding area. The layer was reprojected.</procdesc>
-<srcused>National Elevation Database</srcused>
-<procdate>20090807</procdate>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Raster</direct>
-<rastinfo>
-<rasttype>Grid Cell</rasttype>
-<rowcount>5479</rowcount>
-<colcount>5413</colcount>
-<vrtcount>1</vrtcount>
-</rastinfo>
-</spdoinfo>
-<spref>
-<horizsys>
-<planar>
-<mapproj>
-<mapprojn>Lambert Conformal Conic</mapprojn>
-<lambertc>
-<stdparll>40.666667</stdparll>
-<stdparll>41.033333</stdparll>
-<longcm>-74.000000</longcm>
-<latprjo>40.166667</latprjo>
-<feast>984250.000000</feast>
-<fnorth>0.000000</fnorth>
-</lambertc>
-</mapproj>
-<planci>
-<plance>row and column</plance>
-<coordrep>
-<absres>29.489797</absres>
-<ordres>29.489797</ordres>
-</coordrep>
-<plandu>survey feet</plandu>
-</planci>
-</planar>
-<geodetic>
-<horizdn>North American Datum of 1983</horizdn>
-<ellips>Geodetic Reference System 80</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257222</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>EROS Data Center</cntorg>
-<cntper>Customer Services Representative</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>U.S. Geological Survey EROS Data Center</address>
-<city>Sioux Falls</city>
-<state>SD</state>
-<postal>57198</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>605-594-6151</cntvoice>
-<cntfax>605-594-6589</cntfax>
-<cntemail>custserv@edcmail.cr.usgs.gov</cntemail>
-</cntinfo>
-</distrib>
-<resdesc>usgs_1999_nyc_13arc</resdesc>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>ESRI Grid</formname>
-<formspec>zip</formspec>
-<transize>117.913</transize>
-</digtinfo>
-</digform>
-</stdorder>
-</distinfo>
-<metainfo>
-<metd>20090811</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>GCMD Parameter Keywords</themekt>
+								<themekey>Earth Science</themekey>
+								<themekey>Land Surface</themekey>
+								<themekey>Topography</themekey>
+								<themekey>Landforms</themekey>
+								<themekey>Terrain Elevation</themekey>
+								<themekey>1 Degree DEM</themekey>
+								<themekey>Cartography</themekey>
+								<themekey>DEM</themekey>
+								<themekey>Digital Elevation Model</themekey>
+								<themekey>Digital Mapping</themekey>
+								<themekey>EDC</themekey>
+								<themekey>EROS</themekey>
+								<themekey>Geodata</themekey>
+								<themekey>Raster</themekey>
+								<themekey>USGS</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>elevation</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>New York City (5128581)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>New York (N.Y.)</placekey>
+								<placekey>Brooklyn (New York, N.Y.)</placekey>
+								<placekey>Bronx (New York, N.Y.)</placekey>
+								<placekey>Queens (New York, N.Y.)</placekey>
+								<placekey>Manhattan (New York, N.Y.)</placekey>
+								<placekey>Staten Island (New York, N.Y.)</placekey>
+							</place>
+							<place>
+								<placekt>None</placekt>
+								<placekey>NYC</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>1999</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>None</accconst>
+						<useconst>None</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>EROS Data Center</cntorg>
+									<cntper>Customer Services Representative</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>U.S. Geological Survey EROS Data Center</address>
+									<city>Sioux Falls</city>
+									<state>SD</state>
+									<postal>57198</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>605-594-6151</cntvoice>
+								<cntfax>605-594-6589</cntfax>
+								<cntemail>custserv@edcmail.cr.usgs.gov</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/nyc_1_3.bmp</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>bmp</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+					</idinfo>
+					<dataqual>
+						<posacc>
+							<vertacc>
+								<vertaccr>The vertical accuracy is basically +/- 7 to 15 meters. It alls depends on the original source DEM and if it was level 1, level 2, or 10m resolution.</vertaccr>
+							</vertacc>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>U.S. Geological Survey (USGS), EROS Data Center</origin>
+										<pubdate>1999</pubdate>
+										<title>National Elevation Database</title>
+										<geoform>raster digital data</geoform>
+									</citeinfo>
+								</srccite>
+								<typesrc>online digital data</typesrc>
+								<srccitea>National Elevation Database</srccitea>
+							</srcinfo>
+							<procstep>
+								<procdesc>The following steps were conducted by Research Data Services (RDS) staff: This layer was clipped from the USGS National Elevation Dataset to New York City and its immediate surrounding area. The layer was reprojected.</procdesc>
+								<srcused>National Elevation Database</srcused>
+								<procdate>20090807</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Raster</direct>
+						<rastinfo>
+							<rasttype>Grid Cell</rasttype>
+							<rowcount>5479</rowcount>
+							<colcount>5413</colcount>
+							<vrtcount>1</vrtcount>
+						</rastinfo>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<planar>
+								<mapproj>
+									<mapprojn>Lambert Conformal Conic</mapprojn>
+									<lambertc>
+										<stdparll>40.666667</stdparll>
+										<stdparll>41.033333</stdparll>
+										<longcm>-74.000000</longcm>
+										<latprjo>40.166667</latprjo>
+										<feast>984250.000000</feast>
+										<fnorth>0.000000</fnorth>
+									</lambertc>
+								</mapproj>
+								<planci>
+									<plance>row and column</plance>
+									<coordrep>
+										<absres>29.489797</absres>
+										<ordres>29.489797</ordres>
+									</coordrep>
+									<plandu>survey feet</plandu>
+								</planci>
+							</planar>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<distinfo>
+						<distrib>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>EROS Data Center</cntorg>
+									<cntper>Customer Services Representative</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>U.S. Geological Survey EROS Data Center</address>
+									<city>Sioux Falls</city>
+									<state>SD</state>
+									<postal>57198</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>605-594-6151</cntvoice>
+								<cntfax>605-594-6589</cntfax>
+								<cntemail>custserv@edcmail.cr.usgs.gov</cntemail>
+							</cntinfo>
+						</distrib>
+						<resdesc>usgs_1999_nyc_13arc</resdesc>
+						<stdorder>
+							<digform>
+								<digtinfo>
+									<formname>ESRI Grid</formname>
+									<formspec>zip</formspec>
+									<transize>117.913</transize>
+								</digtinfo>
+							</digform>
+						</stdorder>
+					</distinfo>
+					<metainfo>
+						<metd>20090811</metd>
+						<metc>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+									<cntper>GIS/Metadata Librarian</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
 <address>420 W. 118th St.
 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+									<city>New York</city>
+									<state>NY</state>
+									<postal>10027</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>(212) 854-6012</cntvoice>
+								<cntemail>data@library.columbia.edu</cntemail>
+								<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
+							</cntinfo>
+						</metc>
+						<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+						<metstdv>FGDC-STD-001-1998</metstdv>
+						<mettc>local time</mettc>
+					</metainfo>
+				</metadata>

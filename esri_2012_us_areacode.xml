@@ -27,12 +27,16 @@
 				</pubinfo>
 				<othercit>Location: \usa\census</othercit>
 				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_areacode.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_areacode.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>publication date</current>
 			<timeinfo>
-				<sngdate><caldate>201112</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>201112</caldate>
+				</sngdate>
+			</timeinfo>
 		</timeperd>
 		<status>
 			<progress>Complete</progress>
@@ -68,12 +72,18 @@
 			<place>
 				<placekey>United States</placekey>
 				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>Puerto Rico</placekey></place>
+				<placekey>Puerto Rico</placekey>
+			</place>
 			<temporal>
 				<tempkey>2011</tempkey>
 				<tempkt>None</tempkt>
 			</temporal>
-			<theme><themekey>utilitiesCommunication</themekey><themekt>ISO 19115 Topic Category</themekt><themekey>boundaries</themekey></theme></keywords>
+			<theme>
+				<themekey>utilitiesCommunication</themekey>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>boundaries</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -106,30 +116,60 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_areacode.jpg</browsen><browsed>Thumbnail</browsed><browset>jpg</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_areacode.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>jpg</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>TomTom Telecommunication Suite; TomTom MultiNet Administrative Areas, 2012</title>
+						<origin>TomTom North America, Inc.</origin>
+						<pubdate>201112</pubdate>
+						<edition>Version 2011.12</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>TomTom Telecommunication Suite; TomTom MultiNet North America</sername>
+							<issue>Version 2011.12</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>TomTom North America, Inc.</publish>
+							<pubplace>Lebanon, New Hampshire, USA</pubplace>
+						</pubinfo>
+						<onlink>http://www.tomtom.com/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>DVD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>201112</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>TomTom Telecommunication Suite v. 2011.12 and MultiNet Administrative Areas v. 2011.12</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Copied the Area Code (NPA) Boundaries data set from TomTom Telecommunication Suite v. 2011.12. Projected the data set to World Geodetic System of 1984 (WGS 1984). Created the STATE field via the geoprocessing tool Identity with Data &amp; Maps 2012 U.S. States. Added field SQMI and calculated its values. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<procsv>ArcGIS 10, ArcGIS 9</procsv>
+				<srcused>TomTom Telecommunication Suite v. 2011.12 and MultiNet Administrative Areas v. 2011.12</srcused>
+				<procdate>20120220</procdate>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The horizontal positional accuracy is difficult to determine since the boundaries may follow state, county, city, or other political boundaries. Still other times they may follow streets or other linear features in the database. Since these features are derived from different sources, it is not possible to give a single overall figure for horizontal accuracy.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -264,7 +304,14 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 						</reccap>
 						<recfmt>UDF (Universal Disc Format)</recfmt>
 					</offoptn>
-					<onlinopt><computer><networka><networkr>http://www.ArcGIS.com</networkr></networka></computer></onlinopt></digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ArcGIS.com</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
 			</digform>
 			<fees>Software purchase price</fees>
 			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
@@ -292,49 +339,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_usa_areacode</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>TomTom Telecommunication Suite; TomTom MultiNet Administrative Areas, 2012</title>
-						<origin>TomTom North America, Inc.</origin>
-						<pubdate>201112</pubdate>
-						<edition>Version 2011.12</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>TomTom Telecommunication Suite; TomTom MultiNet North America</sername>
-							<issue>Version 2011.12</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>TomTom North America, Inc.</publish>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-						</pubinfo>
-						<onlink>http://www.tomtom.com/</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>DVD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate><caldate>201112</caldate></sngdate></timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>TomTom Telecommunication Suite v. 2011.12 and MultiNet Administrative Areas v. 2011.12</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Copied the Area Code (NPA) Boundaries data set from TomTom Telecommunication Suite v. 2011.12. Projected the data set to World Geodetic System of 1984 (WGS 1984). Created the STATE field via the geoprocessing tool Identity with Data &amp; Maps 2012 U.S. States. Added field SQMI and calculated its values. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-				<procsv>ArcGIS 10, ArcGIS 9</procsv>
-				<srcused>TomTom Telecommunication Suite v. 2011.12 and MultiNet Administrative Areas v. 2011.12</srcused>
-				<procdate>20120220</procdate>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The horizontal positional accuracy is difficult to determine since the boundaries may follow state, county, city, or other political boundaries. Still other times they may follow streets or other linear features in the database. Since these features are derived from different sources, it is not possible to give a single overall figure for horizontal accuracy.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

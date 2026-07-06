@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
-<metadata xml:lang="en"><idinfo>
+<metadata xml:lang="en">
+	<idinfo>
 		<citation>
 			<citeinfo>
 				<title>Brooklyn Tax Lots, 2000</title>
@@ -13,7 +14,8 @@
 				<pubinfo>
 					<publish>New York (N.Y.). Department of City Planning</publish>
 				</pubinfo>
-				<onlink>https://www.columbia.edu/acis/eds/gis/images/nycp_bk_taxlots_2000.zip</onlink></citeinfo>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/nycp_bk_taxlots_2000.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>Brooklyn Tax Lots, 2000 is a polygon theme representing tax lots in Kings County, NY as of 2000. This dataset represents a compilation of data from various government agencies throughout the City of New York.  The underlying geography is derived from the Tax Lot Polygon feature class which is part of the Department of Finance's Digital Tax Map (DTM).  The tax lots have been clipped to the shoreline, as defined by NYCMap planimetric features.  The attribute information is from the Department of City Planning's PLUTO data.  The attribute data pertains to tax lot and building characteristics and geographic, political and administrative information for each tax lot in New York City.  The Tax Lot Polygon feature class and PLUTO are derived from different sources.   As a result, some PLUTO records did not have a corresponding tax lot in the Tax Lot polygon feature class at the time of release.  These records are included in a separate non-geographic PLUTO Only DBase (*.dbf) table. There are a number of reasons why there can be a tax lot in PLUTO that does not match the DTM; the most common reason is that the various source files are maintained by different departments and divisions with varying update cycles and criteria for adding and removing records.  The attribute definitions for the PLUTO Only table are the same as those for MapPLUTO.
@@ -23,8 +25,12 @@ DCP Mapping Lots includes some features that are not on the tax maps.  They have
 		</descript>
 		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2000</caldate></sngdate></timeinfo>
-			<current>publication date</current></timeperd>
+				<sngdate>
+					<caldate>2000</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
 		<status>
 			<progress>Complete</progress>
 			<update>Semiannually</update>
@@ -46,15 +52,32 @@ DCP Mapping Lots includes some features that are not on the tax maps.  They have
 				<themekey>PLUTO</themekey>
 				<themekey>MapPLUTO</themekey>
 				<themekt>None</themekt>
-				<themekey>Boundaries</themekey><themekey>RPAD</themekey></theme>
+				<themekey>Boundaries</themekey>
+				<themekey>RPAD</themekey>
+			</theme>
 			<place>
 				<placekt>GeoNames</placekt>
 				<placekey>New York City (5128581)</placekey>
 			</place>
 			<place>
 				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>New York (State)</placekey><placekey>New York (N.Y.)</placekey><placekey>Brooklyn (New York, N.Y.)</placekey></place>
-			<theme><themekt>ISO 19115 Topic Category</themekt><themekey>planningCadastre</themekey></theme><place><placekt>None</placekt><placekey>NYC</placekey></place><temporal><tempkt>None</tempkt><tempkey>2000</tempkey></temporal></keywords>
+				<placekey>New York (State)</placekey>
+				<placekey>New York (N.Y.)</placekey>
+				<placekey>Brooklyn (New York, N.Y.)</placekey>
+			</place>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>planningCadastre</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>NYC</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2000</tempkey>
+			</temporal>
+		</keywords>
 		<accconst>None</accconst>
 		<useconst>None</useconst>
 		<ptcontac>
@@ -77,50 +100,6 @@ DCP Mapping Lots includes some features that are not on the tax maps.  They have
 		<native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.1850</native>
 		<natvform>geopackage</natvform>
 	</idinfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>NYC Department of City Planning</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>22 Reade St</address>
-					<city>New York</city>
-					<state>New York</state>
-					<postal>10007</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntinst>Available at the following website: http://www.nyc.gov/html/dcp/html/bytes/applbyte.html</cntinst>
-				<cntvoice>212.720.3505</cntvoice>
-			</cntinfo>
-		</distrib>
-		<stdorder>
-			<fees> Free </fees>
-			<digform><digtinfo><formname>geopackage</formname><formspec>zip</formspec></digtinfo></digform></stdorder>
-		<resdesc>nycp_bk_taxlots_2000</resdesc>
-	</distinfo>
-	<metainfo>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metd>20140327</metd>
-	</metainfo>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -141,44 +120,81 @@ DCP Mapping Lots includes some features that are not on the tax maps.  They have
 					</coordrep>
 					<plandu>survey feet</plandu>
 				</planci>
-				<mapproj><mapprojn>Lambert Conformal Conic</mapprojn><lambertc><stdparll>40.666667</stdparll><stdparll>41.033333</stdparll><longcm>-74.000000</longcm><latprjo>40.166667</latprjo><feast>984250.000000</feast><fnorth>0.000000</fnorth></lambertc></mapproj></planar>
+				<mapproj>
+					<mapprojn>Lambert Conformal Conic</mapprojn>
+					<lambertc>
+						<stdparll>40.666667</stdparll>
+						<stdparll>41.033333</stdparll>
+						<longcm>-74.000000</longcm>
+						<latprjo>40.166667</latprjo>
+						<feast>984250.000000</feast>
+						<fnorth>0.000000</fnorth>
+					</lambertc>
+				</mapproj>
+			</planar>
 			<geodetic>
 				<horizdn>North American Datum of 1983</horizdn>
 				<ellips>Geodetic Reference System 80</ellips>
 				<semiaxis>6378137.000000</semiaxis>
 				<denflat>298.257222</denflat>
 			</geodetic>
-			<cordsysn><geogcsn>GCS_North_American_1983</geogcsn><projcsn>NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn></cordsysn></horizsys>
+			<cordsysn>
+				<geogcsn>GCS_North_American_1983</geogcsn>
+				<projcsn>NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn>
+			</cordsysn>
+		</horizsys>
 	</spref>
 	<eainfo>
 		<detailed Name="bkmappluto">
 			<enttyp>
 				<enttypl>bkmappluto</enttypl>
-				<enttypt>Feature Class</enttypt><enttypc>277406</enttypc></enttyp>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>277406</enttypc>
+			</enttyp>
 			<attr>
 				<attrlabl>FID</attrlabl>
 				<attrdef>Internal feature number.</attrdef>
 				<attrdomv>
 					<udom>Sequential unique whole numbers that are automatically generated.</udom>
 				</attrdomv>
-				<attalias>FID</attalias><attrtype>OID</attrtype><attwidth>4</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdefs>ESRI</attrdefs></attr>
+				<attalias>FID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>Shape</attrlabl>
 				<attrdef>Feature geometry.</attrdef>
 				<attrdomv>
 					<udom>Coordinates defining the features.</udom>
 				</attrdomv>
-				<attalias>Shape</attalias><attrtype>Geometry</attrtype><attwidth>0</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdefs>ESRI</attrdefs></attr>
+				<attalias>Shape</attalias>
+				<attrtype>Geometry</attrtype>
+				<attwidth>0</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>block</attrlabl>
 				<attrdef>The tax block the tax lot is located</attrdef>
 				<attrdefs>Department of Finance - RPAD Master File</attrdefs>
-				<attalias>block</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><atnumdec>11</atnumdec></attr>
+				<attalias>block</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>lot</attrlabl>
 				<attrdef>The number of the tax lot</attrdef>
 				<attrdefs>Department of City Planning</attrdefs>
-				<attalias>lot</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrvai><attrva>Each unit in a building that is a condominium is defined by the
+				<attalias>lot</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrvai>
+<attrva>Each unit in a building that is a condominium is defined by the
 Department of Finance as a separate tax lot. To make
 condominium information more compatible with parcel information,
 the Department of City Planning aggregated condominium unit tax
@@ -190,7 +206,9 @@ Department of City Planning then assigned the condominium
 billing tax lot number to the condominium complex tax lot record. If
 the Department of Finance had not yet assigned a billing tax lot
 number to the condominium complex then the lowest tax lot
-number within the condominium complex was used.</attrva></attrvai></attr>
+number within the condominium complex was used.</attrva>
+				</attrvai>
+			</attr>
 			<attr>
 				<attrlabl>cd2</attrlabl>
 				<attrdomv>
@@ -263,175 +281,1731 @@ number within the condominium complex was used.</attrva></attrvai></attr>
 						<edomvd>Staten Island Gateway National Recreation Area (JIA)</edomvd>
 					</edom>
 				</attrdomv>
-				<attalias>cd2</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdef>Community district (CD) or joint interest area (JIA)  the tax lot is located.</attrdef><attrdefs>Department of City Planning</attrdefs><attrvai><attrvae>Two portions of the city, Marble Hill and Rikers Island, are legally located in one borough and are each serviced by different boroughs. The cd2 codes associated with these areas are the community districts they are serviced by. Specifically, Marble Hill is legally located in Manhattan but is serviced by the Bronx and has Bronx cd2 codes of 207 or 208. Rikers Island has a Queens cd2 code of 401 since it is serviced by Queens even though it is legally located in the Bronx.</attrvae></attrvai></attr>
+				<attalias>cd2</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>Community district (CD) or joint interest area (JIA)  the tax lot is located.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<attrvai>
+					<attrvae>Two portions of the city, Marble Hill and Rikers Island, are legally located in one borough and are each serviced by different boroughs. The cd2 codes associated with these areas are the community districts they are serviced by. Specifically, Marble Hill is legally located in Manhattan but is serviced by the Bronx and has Bronx cd2 codes of 207 or 208. Rikers Island has a Queens cd2 code of 401 since it is serviced by Queens even though it is legally located in the Bronx.</attrvae>
+				</attrvai>
+			</attr>
 			<attr>
 				<attrlabl>ct2000</attrlabl>
-				<attalias>ct2000</attalias><attrtype>String</attrtype><attwidth>7</attwidth><attrdomv><edom><edomvds>2000 census tracts are geographic areas defined by the U.S. Census Bureau for the 2000 Census.  Each census tract is unique within a borough (see borough).</edomvds></edom></attrdomv><attrdef>The 2000 census tract that the tax lot is located in.</attrdef><attrdefs>Department of City Planning</attrdefs></attr>
+				<attalias>ct2000</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>7</attwidth>
+				<attrdomv>
+					<edom>
+						<edomvds>2000 census tracts are geographic areas defined by the U.S. Census Bureau for the 2000 Census.  Each census tract is unique within a borough (see borough).</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The 2000 census tract that the tax lot is located in.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>cb2000</attrlabl>
-				<attalias>cb2000</attalias><attrtype>String</attrtype><attwidth>4</attwidth><attrdomv><edom><edomvds>2000 census blocks are the smallest geographic areas reported on by the U.S. Census Bureau for the 2000 census.  Each census block is unique within a census tract (see ct2000).</edomvds></edom></attrdomv><attrdef>The 2000 census block that the tax lot is located in.</attrdef><attrdefs>Department of City Planning</attrdefs></attr>
+				<attalias>cb2000</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>4</attwidth>
+				<attrdomv>
+					<edom>
+						<edomvds>2000 census blocks are the smallest geographic areas reported on by the U.S. Census Bureau for the 2000 census.  Each census block is unique within a census tract (see ct2000).</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The 2000 census block that the tax lot is located in.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>schoolDist</attrlabl>
-				<attalias>schoolDist</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdomv/><attrdef>The community school district that the tax lot is located in.</attrdef><attrdefs>Department of City Planning</attrdefs></attr>
+				<attalias>schoolDist</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdomv/>
+				<attrdef>The community school district that the tax lot is located in.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>ccDist</attrlabl>
-				<attalias>ccDist</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdomv/><attrdef>The city council district that the tax lot is located in.</attrdef><attrdefs>Department of City Planning</attrdefs></attr>
+				<attalias>ccDist</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdomv/>
+				<attrdef>The city council district that the tax lot is located in.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>zipCode</attrlabl>
-				<attalias>zipCode</attalias><attrtype>String</attrtype><attwidth>5</attwidth><attrdef>The zip code that the tax lot is located in.</attrdef><attrdefs>Department of City Planning</attrdefs></attr>
+				<attalias>zipCode</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>The zip code that the tax lot is located in.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>fireComp</attrlabl>
-				<attalias>fireComp</attalias><attrtype>String</attrtype><attwidth>4</attwidth><attrdef>The fire company that services the tax lot.  The attribute contains a code defining the fire company as a Ladder or Engine company followed by the conpany number.</attrdef><attrdefs>Department of City Planning</attrdefs><attrdomv><edom><edomv>L</edomv><edomvd>Ladder Company</edomvd></edom><edom><edomv>E</edomv><edomvd>Engine</edomvd></edom></attrdomv></attr>
+				<attalias>fireComp</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>4</attwidth>
+				<attrdef>The fire company that services the tax lot.  The attribute contains a code defining the fire company as a Ladder or Engine company followed by the conpany number.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>L</edomv>
+						<edomvd>Ladder Company</edomvd>
+					</edom>
+					<edom>
+						<edomv>E</edomv>
+						<edomvd>Engine</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
 			<attr>
 				<attrlabl>healthArea</attrlabl>
-				<attalias>healthArea</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdomv/><attrdef>The health area that the tax lot is located in.</attrdef><attrdefs>Department of City Planning</attrdefs></attr>
+				<attalias>healthArea</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdomv/>
+				<attrdef>The health area that the tax lot is located in.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>healthCtr</attrlabl>
-				<attalias>healthCtr</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdomv/><attrdef>The health center district that the tax lot is located in.</attrdef><attrdefs>Department of City Planning</attrdefs></attr>
+				<attalias>healthCtr</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdomv/>
+				<attrdef>The health center district that the tax lot is located in.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>policePrct</attrlabl>
-				<attalias>policePrct</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdomv/><attrdef>The police precinct the tax lot is located in.</attrdef><attrdefs>Department of City Planning</attrdefs></attr>
+				<attalias>policePrct</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdomv/>
+				<attrdef>The police precinct the tax lot is located in.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>address</attrlabl>
-				<attalias>address</attalias><attrtype>String</attrtype><attwidth>28</attwidth><attrdef>An address for the tax lot.</attrdef><attrdefs>Department of Finance</attrdefs></attr>
+				<attalias>address</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>28</attwidth>
+				<attrdef>An address for the tax lot.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>zoneDist1</attrlabl>
-				<attalias>zoneDist1</attalias><attrtype>String</attrtype><attwidth>9</attwidth><attrdomv><edom><edomv>R1-1 - R10A</edomv><edomvd>Residential Districts</edomvd></edom><edom><edomv>C1-6 - C8-4</edomv><edomvd>Commercial Districts</edomvd></edom><edom><edomv>M1-1 - M3-2</edomv><edomvd>Manufacturing Districts</edomvd></edom><edom><edomv>NZS</edomv><edomvd>No Zoning</edomvd></edom><edom><edomv>BPC</edomv><edomvd>Battery Park City</edomvd></edom><edom><edomv>PARK,PARKNY</edomv><edomvd>Park</edomvd></edom><edom><edomv>blank</edomv><edomvd>Zoning Unknown in Department of Finance File</edomvd></edom></attrdomv><attrdef>The primary zoning district classification of the tax lot. If the tax lot is divided by a zoning boundary line, zoneDist1, represents the primary zoning district classification occupying the greatest percentage of the tax lot's area.</attrdef><attrdefs>Department of Finance</attrdefs><attrvai/></attr>
+				<attalias>zoneDist1</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>9</attwidth>
+				<attrdomv>
+					<edom>
+						<edomv>R1-1 - R10A</edomv>
+						<edomvd>Residential Districts</edomvd>
+					</edom>
+					<edom>
+						<edomv>C1-6 - C8-4</edomv>
+						<edomvd>Commercial Districts</edomvd>
+					</edom>
+					<edom>
+						<edomv>M1-1 - M3-2</edomv>
+						<edomvd>Manufacturing Districts</edomvd>
+					</edom>
+					<edom>
+						<edomv>NZS</edomv>
+						<edomvd>No Zoning</edomvd>
+					</edom>
+					<edom>
+						<edomv>BPC</edomv>
+						<edomvd>Battery Park City</edomvd>
+					</edom>
+					<edom>
+						<edomv>PARK,PARKNY</edomv>
+						<edomvd>Park</edomvd>
+					</edom>
+					<edom>
+						<edomv>blank</edomv>
+						<edomvd>Zoning Unknown in Department of Finance File</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>The primary zoning district classification of the tax lot. If the tax lot is divided by a zoning boundary line, zoneDist1, represents the primary zoning district classification occupying the greatest percentage of the tax lot's area.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrvai/>
+			</attr>
 			<attr>
 				<attrlabl>zoneDist2</attrlabl>
-				<attalias>zoneDist2</attalias><attrtype>String</attrtype><attwidth>9</attwidth><attrdef>If the tax lot is divided by zoning boundary lines, zoneDist2, represents the primary zoning classification occupying the second greatest percentage of the tax lot's area. If the tax lot is not divided by a zoning boundary line, the field is blank.</attrdef><attrdefs>Department of Finance</attrdefs><attrdomv><edom><edomv>Same as zoneDist1</edomv></edom></attrdomv></attr>
+				<attalias>zoneDist2</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>If the tax lot is divided by zoning boundary lines, zoneDist2, represents the primary zoning classification occupying the second greatest percentage of the tax lot's area. If the tax lot is not divided by a zoning boundary line, the field is blank.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Same as zoneDist1</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
 			<attr>
 				<attrlabl>overlay1</attrlabl>
-				<attalias>overlay1</attalias><attrtype>String</attrtype><attwidth>4</attwidth><attrdef>The commercial overlay assigned to the tax lot.</attrdef><attrdefs>Department of Finance</attrdefs></attr>
+				<attalias>overlay1</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>4</attwidth>
+				<attrdef>The commercial overlay assigned to the tax lot.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>overlay2</attrlabl>
-				<attalias>overlay2</attalias><attrtype>String</attrtype><attwidth>4</attwidth><attrdef>A commercial overlay associated with the tax lot.</attrdef><attrdefs>Department of Finance</attrdefs></attr>
+				<attalias>overlay2</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>4</attwidth>
+				<attrdef>A commercial overlay associated with the tax lot.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>spDist1</attrlabl>
-				<attalias>spDist1</attalias><attrtype>String</attrtype><attwidth>5</attwidth><attrdef>The special purpose or limited height district assigned to the tax lot.</attrdef><attrdefs>Department of Finance</attrdefs></attr>
+				<attalias>spDist1</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>The special purpose or limited height district assigned to the tax lot.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>spDist2</attrlabl>
-				<attalias>spDist2</attalias><attrtype>String</attrtype><attwidth>5</attwidth><attrdef>The special purpose or limited height district assigned to the tax lot.</attrdef><attrdefs>Department of Finance</attrdefs></attr>
+				<attalias>spDist2</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>The special purpose or limited height district assigned to the tax lot.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>zoning1</attrlabl>
-				<attalias>zoning1</attalias><attrtype>String</attrtype><attwidth>21</attwidth><attrdef>Consists of the primary zoning classification occupying the greatest percentage of the tax lot's area and the a commercial overlay and special purpose or limited height district assigned to the tax lot.</attrdef><attrdefs>Department of City Planning</attrdefs><attrdomv><edom><edomv>Aggregated Value</edomv><edomvd>overlay1 /zoneDist1 / spDist1</edomvd></edom></attrdomv></attr>
+				<attalias>zoning1</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>21</attwidth>
+				<attrdef>Consists of the primary zoning classification occupying the greatest percentage of the tax lot's area and the a commercial overlay and special purpose or limited height district assigned to the tax lot.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Aggregated Value</edomv>
+						<edomvd>overlay1 /zoneDist1 / spDist1</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
 			<attr>
 				<attrlabl>zoning2</attrlabl>
-				<attalias>zoning2</attalias><attrtype>String</attrtype><attwidth>21</attwidth><attrdef>If the tax lot is divided by zoning boundary lines, zoning 2 consists of the primary zoning classification occupying the second greatest percentage of the tax lot's area and a commercial overlay and special purpose or limited height district assigned to the tax lot.  If the tax lot is not divided by a zoning boundary line, the field is blank.</attrdef><attrdefs>Department of City Planning</attrdefs><attrdomv><edom><edomv>Aggregate Value</edomv><edomvd>overlay2 / zoneDist2 / spDist2</edomvd></edom></attrdomv></attr>
+				<attalias>zoning2</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>21</attwidth>
+				<attrdef>If the tax lot is divided by zoning boundary lines, zoning 2 consists of the primary zoning classification occupying the second greatest percentage of the tax lot's area and a commercial overlay and special purpose or limited height district assigned to the tax lot.  If the tax lot is not divided by a zoning boundary line, the field is blank.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Aggregate Value</edomv>
+						<edomvd>overlay2 / zoneDist2 / spDist2</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
 			<attr>
 				<attrlabl>splitZone</attrlabl>
-				<attalias>splitZone</attalias><attrtype>String</attrtype><attwidth>1</attwidth><attrdef>A code indicating whether the tax lot is split by one or more zoning boundary lines.</attrdef><attrdefs>Department of Finance</attrdefs><attrvai><attrva>Less than 2% of the tax lots are split.</attrva></attrvai></attr>
+				<attalias>splitZone</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<attrdef>A code indicating whether the tax lot is split by one or more zoning boundary lines.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrvai>
+					<attrva>Less than 2% of the tax lots are split.</attrva>
+				</attrvai>
+			</attr>
 			<attr>
 				<attrlabl>bldgClass</attrlabl>
-				<attalias>bldgClass</attalias><attrtype>String</attrtype><attwidth>2</attwidth><attrdef>A code describing the major use of structures on the tax lot.</attrdef><attrvai><attrva>If there are multiple uses or buildings on a tax lot, the building class describes the use with the greatest square footage on the tax lot.</attrva></attrvai><attrdomv><edom><edomv>A</edomv><edomvd>One Family Dwellings</edomvd></edom><edom><edomv>A0</edomv><edomvd>Cape Cod</edomvd></edom><edom><edomv>A1</edomv><edomvd>Two Story Detatched (Small or Moderate Size, With or Without Attic)</edomvd></edom><edom><edomv>A2</edomv><edomvd>One Story (Permanent Lining Quaters)</edomvd></edom><edom><edomv>A3</edomv><edomvd>Large Suburban Residence</edomvd></edom><edom><edomv>A4</edomv><edomvd>City Residence</edomvd></edom><edom><edomv>A5</edomv><edomvd>Attached or Semi-Detatched</edomvd></edom><edom><edomv>A6</edomv><edomvd>Summer Cottages / Mobile Homes / Trailers</edomvd></edom><edom><edomv>A7</edomv><edomvd>Mansion Type</edomvd></edom><edom><edomv>A8</edomv><edomvd>Bungalow Colony / Land Coop Owned</edomvd></edom><edom><edomv>A9</edomv><edomvd>Miscellaneous (Old Buildings, Attached &amp; Semi-Detached Frame Houses)</edomvd></edom><edom><edomv>B</edomv><edomvd>Two Family Dwellings</edomvd></edom><edom><edomv>B1</edomv><edomvd>Brick</edomvd></edom><edom><edomv>B2</edomv><edomvd>Frame</edomvd></edom><edom><edomv>B3</edomv><edomvd>Converted (From One Family)</edomvd></edom><edom><edomv>B9</edomv><edomvd>Miscellaneous (City Type, Old, etc.)</edomvd></edom><edom><edomv>C</edomv><edomvd>Walk Up Apartments</edomvd></edom><edom><edomv>C0</edomv><edomvd>Three Families</edomvd></edom><edom><edomv>C1</edomv><edomvd>Over Six Families Without Stores</edomvd></edom><edom><edomv>C2</edomv><edomvd>Five to Six Families</edomvd></edom><edom><edomv>C3</edomv><edomvd>Four Families</edomvd></edom><edom><edomv>C4</edomv><edomvd>Old Law Tenements</edomvd></edom><edom><edomv>C5</edomv><edomvd>Converted Dwelling or Rooming House</edomvd></edom><edom><edomv>C6</edomv><edomvd>Cooperative (Other Than Condominiums)</edomvd></edom><edom><edomv>C7</edomv><edomvd>Over Six Familes with Stores</edomvd></edom><edom><edomv>C8</edomv><edomvd>Co-op Conversion from Loft / Warehouse</edomvd></edom><edom><edomv>C9</edomv><edomvd>Garden Apartments / Mobile Home Park / Trailer Park</edomvd></edom><edom><edomv>D</edomv><edomvd>Elevator Apartments</edomvd></edom><edom><edomv>D0</edomv><edomvd>Co-op Conversion from Loft / Warehouse</edomvd></edom><edom><edomv>D1</edomv><edomvd>Semi-fireproof (Without Stores)</edomvd></edom><edom><edomv>D2</edomv><edomvd>Artists in Residence</edomvd></edom><edom><edomv>D3</edomv><edomvd>Fireproof (Standard Construction Without Stores)</edomvd></edom><edom><edomv>D4</edomv><edomvd>Cooperatives (Other Than Condominiums)</edomvd></edom><edom><edomv>D5</edomv><edomvd>Converted</edomvd></edom><edom><edomv>D6</edomv><edomvd>Fireproof - With Stores</edomvd></edom><edom><edomv>D7</edomv><edomvd>Semi- Fireproof With Stores</edomvd></edom><edom><edomv>D8</edomv><edomvd>Luxury Type</edomvd></edom><edom><edomv>D9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>E</edomv><edomvd>Warehouses</edomvd></edom><edom><edomv>E1</edomv><edomvd>Fireproof</edomvd></edom><edom><edomv>E3</edomv><edomvd>Semi-Fireproof</edomvd></edom><edom><edomv>E4</edomv><edomvd>Frame, Metal</edomvd></edom><edom><edomv>E6</edomv><edomvd>Governmental Warehouses</edomvd></edom><edom><edomv>E7</edomv><edomvd>Wrehouse, Self Storage</edomvd></edom><edom><edomv>E9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>F</edomv><edomvd>Factory and Industrial Buildings</edomvd></edom><edom><edomv>F1</edomv><edomvd>Heavy Manufacturing (Fireproof)</edomvd></edom><edom><edomv>F2</edomv><edomvd>Special Construction (Printing Plan, etc., Fireproof)</edomvd></edom><edom><edomv>F4</edomv><edomvd>Semi-Fireproof</edomvd></edom><edom><edomv>F5</edomv><edomvd>Light Manufacturing</edomvd></edom><edom><edomv>F8</edomv><edomvd>Tank Farms</edomvd></edom><edom><edomv>F9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>G</edomv><edomvd>Garages and Gasoline Stations</edomvd></edom><edom><edomv>G0</edomv><edomvd>Residential Tax Class 1 Garage</edomvd></edom><edom><edomv>G1</edomv><edomvd>Garage - Two or More Stories</edomvd></edom><edom><edomv>G2</edomv><edomvd>Garage - One Story (Semi-Fireproof or Fireproof)</edomvd></edom><edom><edomv>G3</edomv><edomvd>Garage and Gas Station Combined</edomvd></edom><edom><edomv>G4</edomv><edomvd>Gas Station - With Enclosed Lubrication Plant or Workshop</edomvd></edom><edom><edomv>G5</edomv><edomvd>Gas Station - Without Enclosed Lubrication Plant or Workshop</edomvd></edom><edom><edomv>G6</edomv><edomvd>Licensed Parking Lot</edomvd></edom><edom><edomv>G7</edomv><edomvd>Unlicensed Parking Lot</edomvd></edom><edom><edomv>G8</edomv><edomvd>Garage with Showroom</edomvd></edom><edom><edomv>G9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>H</edomv><edomvd>Hotels</edomvd></edom><edom><edomv>H1</edomv><edomvd>Luxury Type - Built Prior to 1960</edomvd></edom><edom><edomv>H2</edomv><edomvd>Luxury Type - Built After to 1960</edomvd></edom><edom><edomv>H3</edomv><edomvd>Transient Occupancy - Midtown Manhattan Area</edomvd></edom><edom><edomv>H4</edomv><edomvd>Motels</edomvd></edom><edom><edomv>H5</edomv><edomvd>Private Club, Luxury Type</edomvd></edom><edom><edomv>H6</edomv><edomvd>Apartment Hotels</edomvd></edom><edom><edomv>H7</edomv><edomvd>Apartment Hotels Co-Op Owned</edomvd></edom><edom><edomv>H8</edomv><edomvd>Dormitories</edomvd></edom><edom><edomv>H9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>I</edomv><edomvd>Hospitals and Health</edomvd></edom><edom><edomv>I1</edomv><edomvd>Hospitals, Sanitariums, Mental Institutions</edomvd></edom><edom><edomv>I2</edomv><edomvd>Infirmary</edomvd></edom><edom><edomv>I3</edomv><edomvd>Dispensary</edomvd></edom><edom><edomv>I4</edomv><edomvd>Staff Facilities</edomvd></edom><edom><edomv>I5</edomv><edomvd>Health Center, Child Center, Clinic</edomvd></edom><edom><edomv>I6</edomv><edomvd>Nursing Homes</edomvd></edom><edom><edomv>I7</edomv><edomvd>Adult Care Facilities</edomvd></edom><edom><edomv>I9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>J</edomv><edomvd>Theaters</edomvd></edom><edom><edomv>J1</edomv><edomvd>Art Type (Seating Capacity Under 400 Seats)</edomvd></edom><edom><edomv>J2</edomv><edomvd>Art Type (Seating Capcity over 400 seats)</edomvd></edom><edom><edomv>J3</edomv><edomvd>Motion Picture Theater with Balcony</edomvd></edom><edom><edomv>J4</edomv><edomvd>Legitimate Theaters (Theater Sole Use of Building)</edomvd></edom><edom><edomv>J5</edomv><edomvd>Theater as Part of Building of Other Use</edomvd></edom><edom><edomv>J6</edomv><edomvd>T.V. Studio</edomvd></edom><edom><edomv>J7</edomv><edomvd>Off-Broadway Type</edomvd></edom><edom><edomv>J8</edomv><edomvd>Multi-Motion Picture Theater</edomvd></edom><edom><edomv>J9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>K</edomv><edomvd>Store Buildings (Taxpayers Included)</edomvd></edom><edom><edomv>K1</edomv><edomvd>One Story Store Building</edomvd></edom><edom><edomv>K2</edomv><edomvd>Two Story or Store and Office</edomvd></edom><edom><edomv>K3</edomv><edomvd>Department Stores, Multi Story</edomvd></edom><edom><edomv>K4</edomv><edomvd>Stores, Apartments Above</edomvd></edom><edom><edomv>K5</edomv><edomvd>Diners, Franchised Type Stand</edomvd></edom><edom><edomv>K6</edomv><edomvd>Shopping Centers with Parking Facilities</edomvd></edom><edom><edomv>K7</edomv><edomvd>Funeral Home</edomvd></edom><edom><edomv>K9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>L</edomv><edomvd>Loft Buildings</edomvd></edom><edom><edomv>L1</edomv><edomvd>Over Eight Stores (Mid-Manhattan Type With or Without Stores)</edomvd></edom><edom><edomv>L2</edomv><edomvd>Fireproof - Loft and Storage Type (Without Retail Stores)</edomvd></edom><edom><edomv>L3</edomv><edomvd>Semi-Fireproof</edomvd></edom><edom><edomv>L8</edomv><edomvd>With Retail Stores (Other than Type 1)</edomvd></edom><edom><edomv>L9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>M</edomv><edomvd>Churches, Synagogues, Etc.</edomvd></edom><edom><edomv>M1</edomv><edomvd>Church, Synagogue, Chapel</edomvd></edom><edom><edomv>M2</edomv><edomvd>Mission House (Non-Residential)</edomvd></edom><edom><edomv>M3</edomv><edomvd>Parsonage, Rectory</edomvd></edom><edom><edomv>M4</edomv><edomvd>Convents</edomvd></edom><edom><edomv>M9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>N</edomv><edomvd>Asylums and Homes</edomvd></edom><edom><edomv>N1</edomv><edomvd>Asylums</edomvd></edom><edom><edomv>N2</edomv><edomvd>Homes for Indigent Children, Aged, Homelss</edomvd></edom><edom><edomv>N3</edomv><edomvd>Orphanages</edomvd></edom><edom><edomv>N4</edomv><edomvd>Juvenile Detention Houses</edomvd></edom><edom><edomv>N9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>O</edomv><edomvd>Office Buildings</edomvd></edom><edom><edomv>O1</edomv><edomvd>Fireproof - Up to Nine Stories</edomvd></edom><edom><edomv>O2</edomv><edomvd>Ten Stories &amp; Over (Side Street Type)</edomvd></edom><edom><edomv>O3</edomv><edomvd>Ten Stories &amp; Over (Main Avenue Type)</edomvd></edom><edom><edomv>O4</edomv><edomvd>Tower Type</edomvd></edom><edom><edomv>O5</edomv><edomvd>Semi-Fireproof</edomvd></edom><edom><edomv>O6</edomv><edomvd>Bank Building (Designed Exclusively for Banking)</edomvd></edom><edom><edomv>O7</edomv><edomvd>Professional Building</edomvd></edom><edom><edomv>O8</edomv><edomvd>With Residential Apartments</edomvd></edom><edom><edomv>O9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>P</edomv><edomvd>Places of Public Assembly (Indoor) and Cultural</edomvd></edom><edom><edomv>P1</edomv><edomvd>Concert Halls</edomvd></edom><edom><edomv>P2</edomv><edomvd>Lodge Rooms</edomvd></edom><edom><edomv>P3</edomv><edomvd>YWCA, YMCA, YWHA, YMHA, PAL</edomvd></edom><edom><edomv>P4</edomv><edomvd>Beach Club</edomvd></edom><edom><edomv>P5</edomv><edomvd>Community Center</edomvd></edom><edom><edomv>P6</edomv><edomvd>Amusement Places, Bathhouses, Boat Rides</edomvd></edom><edom><edomv>P7</edomv><edomvd>Museum</edomvd></edom><edom><edomv>P8</edomv><edomvd>Library</edomvd></edom><edom><edomv>P9</edomv><edomvd>Miscellaneous Including Riding Academies and Stables</edomvd></edom><edom><edomv>Q</edomv><edomvd>Outdoor Recreation Facilities</edomvd></edom><edom><edomv>Q1</edomv><edomvd>Parks</edomvd></edom><edom><edomv>Q2</edomv><edomvd>Playgorunds</edomvd></edom><edom><edomv>Q3</edomv><edomvd>Outdoor Pools</edomvd></edom><edom><edomv>Q4</edomv><edomvd>Beaches</edomvd></edom><edom><edomv>Q5</edomv><edomvd>Golf Courses</edomvd></edom><edom><edomv>Q6</edomv><edomvd>Stadium, Race Tracks, Baseball Fields</edomvd></edom><edom><edomv>Q7</edomv><edomvd>Tennis Courts</edomvd></edom><edom><edomv>Q8</edomv><edomvd>Marinas / Yacht Clubs</edomvd></edom><edom><edomv>Q9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>R</edomv><edomvd>Condominiums</edomvd></edom><edom><edomv>R0</edomv><edomvd>Condo Billing Lot</edomvd></edom><edom><edomv>R1</edomv><edomvd>2-10 Unit Residential Building, Residential Unit</edomvd></edom><edom><edomv>R2</edomv><edomvd>Walk-up, Residential Unit</edomvd></edom><edom><edomv>R3</edomv><edomvd>1-3 Story, Residential Unit</edomvd></edom><edom><edomv>R4</edomv><edomvd>Apartment / Elevated, Residential Unit</edomvd></edom><edom><edomv>R5</edomv><edomvd>Commercial Unit</edomvd></edom><edom><edomv>R6</edomv><edomvd>1-3 Units, Residential Unit</edomvd></edom><edom><edomv>R7</edomv><edomvd>1-3 Units, Commercial Unit</edomvd></edom><edom><edomv>R8</edomv><edomvd>2-10 Unit Residential Bldg, Commercial Unit</edomvd></edom><edom><edomv>R9</edomv><edomvd>Condop</edomvd></edom><edom><edomv>RC</edomv><edomvd>Commercial Building (Mixed Commercial Condo Building Classification Codes)</edomvd></edom><edom><edomv>RM</edomv><edomvd>Mixed Residential &amp; Commercial Building</edomvd></edom><edom><edomv>RR</edomv><edomvd>Residential Building</edomvd></edom><edom><edomv>S</edomv><edomvd>Residence -Multiple Use</edomvd></edom><edom><edomv>S0</edomv><edomvd>Primarily One Family with Two Stores or Offices</edomvd></edom><edom><edomv>S1</edomv><edomvd>Primarliy One Family with Store or Office</edomvd></edom><edom><edomv>S2</edomv><edomvd>Primarily Two Family with Store or Office</edomvd></edom><edom><edomv>S3</edomv><edomvd>Primarily Three Family with Store or Office</edomvd></edom><edom><edomv>S4</edomv><edomvd>Primarily Four Family with Store or Office</edomvd></edom><edom><edomv>S5</edomv><edomvd>Primarily Five to Six Family with Store or Office</edomvd></edom><edom><edomv>S9</edomv><edomvd>Primarily One to Six Families with Stores or Offices</edomvd></edom><edom><edomv>T</edomv><edomvd>Transportation Facilities</edomvd></edom><edom><edomv>T1</edomv><edomvd>Airports, Air Fields, Terminals</edomvd></edom><edom><edomv>T2</edomv><edomvd>Piers, Docks, Bulkheads</edomvd></edom><edom><edomv>T9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>U</edomv><edomvd>Utility Bureau Properties</edomvd></edom><edom><edomv>U0</edomv><edomvd>Utility Company Land and Buildings</edomvd></edom><edom><edomv>U1</edomv><edomvd>Bridges, Tunnels, Highways</edomvd></edom><edom><edomv>U2</edomv><edomvd>Electric Utilities, Gas</edomvd></edom><edom><edomv>U3</edomv><edomvd>Ceiling R.R.</edomvd></edom><edom><edomv>U4</edomv><edomvd>Telephone Utilities</edomvd></edom><edom><edomv>U5</edomv><edomvd>Communications Facilities (Other than Telephone)</edomvd></edom><edom><edomv>U6</edomv><edomvd>Railroad, Private Ownership</edomvd></edom><edom><edomv>U7</edomv><edomvd>Transportation, Public Ownership</edomvd></edom><edom><edomv>U8</edomv><edomvd>Revocable Consents</edomvd></edom><edom><edomv>U9</edomv><edomvd>Miscellaneous (Including Private Improvements in City Land and in Public Places)</edomvd></edom><edom><edomv>V</edomv><edomvd>Vacant Land</edomvd></edom><edom><edomv>V0</edomv><edomvd>Zoned Residential, Except not Manhattan below 110 St</edomvd></edom><edom><edomv>V1</edomv><edomvd>Not Zoned Residential or Manhattan below 110 St</edomvd></edom><edom><edomv>V2</edomv><edomvd>Not Zoned Residential , but adjacent to Tax Class 1 Dwelling</edomvd></edom><edom><edomv>V3</edomv><edomvd>Zoned Primarily Residential, Except Not Manhattan below 110 St</edomvd></edom><edom><edomv>V4</edomv><edomvd>Police or Fire Department</edomvd></edom><edom><edomv>V5</edomv><edomvd>School Site or Yard</edomvd></edom><edom><edomv>V7</edomv><edomvd>Port Authority of NY and NJ</edomvd></edom><edom><edomv>V8</edomv><edomvd>State &amp; US</edomvd></edom><edom><edomv>V9</edomv><edomvd>Miscellaneous (Deparment of Real Estate and Other Public Places)</edomvd></edom><edom><edomv>W</edomv><edomvd>Educational Structures</edomvd></edom><edom><edomv>W1</edomv><edomvd>Public Elementary Junior and Senior High Schools</edomvd></edom><edom><edomv>W2</edomv><edomvd>Parochial Schools</edomvd></edom><edom><edomv>W3</edomv><edomvd>Schools or Academies</edomvd></edom><edom><edomv>W4</edomv><edomvd>Training Schools</edomvd></edom><edom><edomv>W5</edomv><edomvd>City University</edomvd></edom><edom><edomv>W6</edomv><edomvd>Other Colleges and Universities</edomvd></edom><edom><edomv>W7</edomv><edomvd>Theological Seminaries</edomvd></edom><edom><edomv>W8</edomv><edomvd>Other Private Schools</edomvd></edom><edom><edomv>W9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>Y</edomv><edomvd>Selected Government Installations</edomvd></edom><edom><edomv>Y1</edomv><edomvd>Fire Department</edomvd></edom><edom><edomv>Y2</edomv><edomvd>Police Department</edomvd></edom><edom><edomv>Y3</edomv><edomvd>Prisons, Jails, Houses of Detention</edomvd></edom><edom><edomv>Y4</edomv><edomvd>Military and Naval</edomvd></edom><edom><edomv>Y5</edomv><edomvd>Department of Real Estate</edomvd></edom><edom><edomv>Y6</edomv><edomvd>Department of Sanitation</edomvd></edom><edom><edomv>Y7</edomv><edomvd>Department of Ports and Terminals</edomvd></edom><edom><edomv>Y8</edomv><edomvd>Department of Public Works</edomvd></edom><edom><edomv>Y9</edomv><edomvd>Department of Environmental Protection</edomvd></edom><edom><edomv>Z</edomv><edomvd>Miscelleneous</edomvd></edom><edom><edomv>Z0</edomv><edomvd>Tennis Court, Pool, Shed, etc.  Used in Conjunction with Tax Class 1</edomvd></edom><edom><edomv>Z1</edomv><edomvd>Court House</edomvd></edom><edom><edomv>Z2</edomv><edomvd>Public Parking Areas</edomvd></edom><edom><edomv>Z3</edomv><edomvd>Post Office</edomvd></edom><edom><edomv>Z4</edomv><edomvd>Foreign Governments</edomvd></edom><edom><edomv>Z5</edomv><edomvd>United Nations</edomvd></edom><edom><edomv>Z6</edomv><edomvd>Land Under Water</edomvd></edom><edom><edomv>Z7</edomv><edomvd>Easements</edomvd></edom><edom><edomv>Z8</edomv><edomvd>Cemetaries</edomvd></edom><edom><edomv>Z9</edomv><edomvd>Other</edomvd></edom></attrdomv></attr>
+				<attalias>bldgClass</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>A code describing the major use of structures on the tax lot.</attrdef>
+				<attrvai>
+					<attrva>If there are multiple uses or buildings on a tax lot, the building class describes the use with the greatest square footage on the tax lot.</attrva>
+				</attrvai>
+				<attrdomv>
+					<edom>
+						<edomv>A</edomv>
+						<edomvd>One Family Dwellings</edomvd>
+					</edom>
+					<edom>
+						<edomv>A0</edomv>
+						<edomvd>Cape Cod</edomvd>
+					</edom>
+					<edom>
+						<edomv>A1</edomv>
+						<edomvd>Two Story Detatched (Small or Moderate Size, With or Without Attic)</edomvd>
+					</edom>
+					<edom>
+						<edomv>A2</edomv>
+						<edomvd>One Story (Permanent Lining Quaters)</edomvd>
+					</edom>
+					<edom>
+						<edomv>A3</edomv>
+						<edomvd>Large Suburban Residence</edomvd>
+					</edom>
+					<edom>
+						<edomv>A4</edomv>
+						<edomvd>City Residence</edomvd>
+					</edom>
+					<edom>
+						<edomv>A5</edomv>
+						<edomvd>Attached or Semi-Detatched</edomvd>
+					</edom>
+					<edom>
+						<edomv>A6</edomv>
+						<edomvd>Summer Cottages / Mobile Homes / Trailers</edomvd>
+					</edom>
+					<edom>
+						<edomv>A7</edomv>
+						<edomvd>Mansion Type</edomvd>
+					</edom>
+					<edom>
+						<edomv>A8</edomv>
+						<edomvd>Bungalow Colony / Land Coop Owned</edomvd>
+					</edom>
+					<edom>
+						<edomv>A9</edomv>
+						<edomvd>Miscellaneous (Old Buildings, Attached &amp; Semi-Detached Frame Houses)</edomvd>
+					</edom>
+					<edom>
+						<edomv>B</edomv>
+						<edomvd>Two Family Dwellings</edomvd>
+					</edom>
+					<edom>
+						<edomv>B1</edomv>
+						<edomvd>Brick</edomvd>
+					</edom>
+					<edom>
+						<edomv>B2</edomv>
+						<edomvd>Frame</edomvd>
+					</edom>
+					<edom>
+						<edomv>B3</edomv>
+						<edomvd>Converted (From One Family)</edomvd>
+					</edom>
+					<edom>
+						<edomv>B9</edomv>
+						<edomvd>Miscellaneous (City Type, Old, etc.)</edomvd>
+					</edom>
+					<edom>
+						<edomv>C</edomv>
+						<edomvd>Walk Up Apartments</edomvd>
+					</edom>
+					<edom>
+						<edomv>C0</edomv>
+						<edomvd>Three Families</edomvd>
+					</edom>
+					<edom>
+						<edomv>C1</edomv>
+						<edomvd>Over Six Families Without Stores</edomvd>
+					</edom>
+					<edom>
+						<edomv>C2</edomv>
+						<edomvd>Five to Six Families</edomvd>
+					</edom>
+					<edom>
+						<edomv>C3</edomv>
+						<edomvd>Four Families</edomvd>
+					</edom>
+					<edom>
+						<edomv>C4</edomv>
+						<edomvd>Old Law Tenements</edomvd>
+					</edom>
+					<edom>
+						<edomv>C5</edomv>
+						<edomvd>Converted Dwelling or Rooming House</edomvd>
+					</edom>
+					<edom>
+						<edomv>C6</edomv>
+						<edomvd>Cooperative (Other Than Condominiums)</edomvd>
+					</edom>
+					<edom>
+						<edomv>C7</edomv>
+						<edomvd>Over Six Familes with Stores</edomvd>
+					</edom>
+					<edom>
+						<edomv>C8</edomv>
+						<edomvd>Co-op Conversion from Loft / Warehouse</edomvd>
+					</edom>
+					<edom>
+						<edomv>C9</edomv>
+						<edomvd>Garden Apartments / Mobile Home Park / Trailer Park</edomvd>
+					</edom>
+					<edom>
+						<edomv>D</edomv>
+						<edomvd>Elevator Apartments</edomvd>
+					</edom>
+					<edom>
+						<edomv>D0</edomv>
+						<edomvd>Co-op Conversion from Loft / Warehouse</edomvd>
+					</edom>
+					<edom>
+						<edomv>D1</edomv>
+						<edomvd>Semi-fireproof (Without Stores)</edomvd>
+					</edom>
+					<edom>
+						<edomv>D2</edomv>
+						<edomvd>Artists in Residence</edomvd>
+					</edom>
+					<edom>
+						<edomv>D3</edomv>
+						<edomvd>Fireproof (Standard Construction Without Stores)</edomvd>
+					</edom>
+					<edom>
+						<edomv>D4</edomv>
+						<edomvd>Cooperatives (Other Than Condominiums)</edomvd>
+					</edom>
+					<edom>
+						<edomv>D5</edomv>
+						<edomvd>Converted</edomvd>
+					</edom>
+					<edom>
+						<edomv>D6</edomv>
+						<edomvd>Fireproof - With Stores</edomvd>
+					</edom>
+					<edom>
+						<edomv>D7</edomv>
+						<edomvd>Semi- Fireproof With Stores</edomvd>
+					</edom>
+					<edom>
+						<edomv>D8</edomv>
+						<edomvd>Luxury Type</edomvd>
+					</edom>
+					<edom>
+						<edomv>D9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>E</edomv>
+						<edomvd>Warehouses</edomvd>
+					</edom>
+					<edom>
+						<edomv>E1</edomv>
+						<edomvd>Fireproof</edomvd>
+					</edom>
+					<edom>
+						<edomv>E3</edomv>
+						<edomvd>Semi-Fireproof</edomvd>
+					</edom>
+					<edom>
+						<edomv>E4</edomv>
+						<edomvd>Frame, Metal</edomvd>
+					</edom>
+					<edom>
+						<edomv>E6</edomv>
+						<edomvd>Governmental Warehouses</edomvd>
+					</edom>
+					<edom>
+						<edomv>E7</edomv>
+						<edomvd>Wrehouse, Self Storage</edomvd>
+					</edom>
+					<edom>
+						<edomv>E9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>F</edomv>
+						<edomvd>Factory and Industrial Buildings</edomvd>
+					</edom>
+					<edom>
+						<edomv>F1</edomv>
+						<edomvd>Heavy Manufacturing (Fireproof)</edomvd>
+					</edom>
+					<edom>
+						<edomv>F2</edomv>
+						<edomvd>Special Construction (Printing Plan, etc., Fireproof)</edomvd>
+					</edom>
+					<edom>
+						<edomv>F4</edomv>
+						<edomvd>Semi-Fireproof</edomvd>
+					</edom>
+					<edom>
+						<edomv>F5</edomv>
+						<edomvd>Light Manufacturing</edomvd>
+					</edom>
+					<edom>
+						<edomv>F8</edomv>
+						<edomvd>Tank Farms</edomvd>
+					</edom>
+					<edom>
+						<edomv>F9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>G</edomv>
+						<edomvd>Garages and Gasoline Stations</edomvd>
+					</edom>
+					<edom>
+						<edomv>G0</edomv>
+						<edomvd>Residential Tax Class 1 Garage</edomvd>
+					</edom>
+					<edom>
+						<edomv>G1</edomv>
+						<edomvd>Garage - Two or More Stories</edomvd>
+					</edom>
+					<edom>
+						<edomv>G2</edomv>
+						<edomvd>Garage - One Story (Semi-Fireproof or Fireproof)</edomvd>
+					</edom>
+					<edom>
+						<edomv>G3</edomv>
+						<edomvd>Garage and Gas Station Combined</edomvd>
+					</edom>
+					<edom>
+						<edomv>G4</edomv>
+						<edomvd>Gas Station - With Enclosed Lubrication Plant or Workshop</edomvd>
+					</edom>
+					<edom>
+						<edomv>G5</edomv>
+						<edomvd>Gas Station - Without Enclosed Lubrication Plant or Workshop</edomvd>
+					</edom>
+					<edom>
+						<edomv>G6</edomv>
+						<edomvd>Licensed Parking Lot</edomvd>
+					</edom>
+					<edom>
+						<edomv>G7</edomv>
+						<edomvd>Unlicensed Parking Lot</edomvd>
+					</edom>
+					<edom>
+						<edomv>G8</edomv>
+						<edomvd>Garage with Showroom</edomvd>
+					</edom>
+					<edom>
+						<edomv>G9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>H</edomv>
+						<edomvd>Hotels</edomvd>
+					</edom>
+					<edom>
+						<edomv>H1</edomv>
+						<edomvd>Luxury Type - Built Prior to 1960</edomvd>
+					</edom>
+					<edom>
+						<edomv>H2</edomv>
+						<edomvd>Luxury Type - Built After to 1960</edomvd>
+					</edom>
+					<edom>
+						<edomv>H3</edomv>
+						<edomvd>Transient Occupancy - Midtown Manhattan Area</edomvd>
+					</edom>
+					<edom>
+						<edomv>H4</edomv>
+						<edomvd>Motels</edomvd>
+					</edom>
+					<edom>
+						<edomv>H5</edomv>
+						<edomvd>Private Club, Luxury Type</edomvd>
+					</edom>
+					<edom>
+						<edomv>H6</edomv>
+						<edomvd>Apartment Hotels</edomvd>
+					</edom>
+					<edom>
+						<edomv>H7</edomv>
+						<edomvd>Apartment Hotels Co-Op Owned</edomvd>
+					</edom>
+					<edom>
+						<edomv>H8</edomv>
+						<edomvd>Dormitories</edomvd>
+					</edom>
+					<edom>
+						<edomv>H9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>I</edomv>
+						<edomvd>Hospitals and Health</edomvd>
+					</edom>
+					<edom>
+						<edomv>I1</edomv>
+						<edomvd>Hospitals, Sanitariums, Mental Institutions</edomvd>
+					</edom>
+					<edom>
+						<edomv>I2</edomv>
+						<edomvd>Infirmary</edomvd>
+					</edom>
+					<edom>
+						<edomv>I3</edomv>
+						<edomvd>Dispensary</edomvd>
+					</edom>
+					<edom>
+						<edomv>I4</edomv>
+						<edomvd>Staff Facilities</edomvd>
+					</edom>
+					<edom>
+						<edomv>I5</edomv>
+						<edomvd>Health Center, Child Center, Clinic</edomvd>
+					</edom>
+					<edom>
+						<edomv>I6</edomv>
+						<edomvd>Nursing Homes</edomvd>
+					</edom>
+					<edom>
+						<edomv>I7</edomv>
+						<edomvd>Adult Care Facilities</edomvd>
+					</edom>
+					<edom>
+						<edomv>I9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>J</edomv>
+						<edomvd>Theaters</edomvd>
+					</edom>
+					<edom>
+						<edomv>J1</edomv>
+						<edomvd>Art Type (Seating Capacity Under 400 Seats)</edomvd>
+					</edom>
+					<edom>
+						<edomv>J2</edomv>
+						<edomvd>Art Type (Seating Capcity over 400 seats)</edomvd>
+					</edom>
+					<edom>
+						<edomv>J3</edomv>
+						<edomvd>Motion Picture Theater with Balcony</edomvd>
+					</edom>
+					<edom>
+						<edomv>J4</edomv>
+						<edomvd>Legitimate Theaters (Theater Sole Use of Building)</edomvd>
+					</edom>
+					<edom>
+						<edomv>J5</edomv>
+						<edomvd>Theater as Part of Building of Other Use</edomvd>
+					</edom>
+					<edom>
+						<edomv>J6</edomv>
+						<edomvd>T.V. Studio</edomvd>
+					</edom>
+					<edom>
+						<edomv>J7</edomv>
+						<edomvd>Off-Broadway Type</edomvd>
+					</edom>
+					<edom>
+						<edomv>J8</edomv>
+						<edomvd>Multi-Motion Picture Theater</edomvd>
+					</edom>
+					<edom>
+						<edomv>J9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>K</edomv>
+						<edomvd>Store Buildings (Taxpayers Included)</edomvd>
+					</edom>
+					<edom>
+						<edomv>K1</edomv>
+						<edomvd>One Story Store Building</edomvd>
+					</edom>
+					<edom>
+						<edomv>K2</edomv>
+						<edomvd>Two Story or Store and Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>K3</edomv>
+						<edomvd>Department Stores, Multi Story</edomvd>
+					</edom>
+					<edom>
+						<edomv>K4</edomv>
+						<edomvd>Stores, Apartments Above</edomvd>
+					</edom>
+					<edom>
+						<edomv>K5</edomv>
+						<edomvd>Diners, Franchised Type Stand</edomvd>
+					</edom>
+					<edom>
+						<edomv>K6</edomv>
+						<edomvd>Shopping Centers with Parking Facilities</edomvd>
+					</edom>
+					<edom>
+						<edomv>K7</edomv>
+						<edomvd>Funeral Home</edomvd>
+					</edom>
+					<edom>
+						<edomv>K9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>L</edomv>
+						<edomvd>Loft Buildings</edomvd>
+					</edom>
+					<edom>
+						<edomv>L1</edomv>
+						<edomvd>Over Eight Stores (Mid-Manhattan Type With or Without Stores)</edomvd>
+					</edom>
+					<edom>
+						<edomv>L2</edomv>
+						<edomvd>Fireproof - Loft and Storage Type (Without Retail Stores)</edomvd>
+					</edom>
+					<edom>
+						<edomv>L3</edomv>
+						<edomvd>Semi-Fireproof</edomvd>
+					</edom>
+					<edom>
+						<edomv>L8</edomv>
+						<edomvd>With Retail Stores (Other than Type 1)</edomvd>
+					</edom>
+					<edom>
+						<edomv>L9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>M</edomv>
+						<edomvd>Churches, Synagogues, Etc.</edomvd>
+					</edom>
+					<edom>
+						<edomv>M1</edomv>
+						<edomvd>Church, Synagogue, Chapel</edomvd>
+					</edom>
+					<edom>
+						<edomv>M2</edomv>
+						<edomvd>Mission House (Non-Residential)</edomvd>
+					</edom>
+					<edom>
+						<edomv>M3</edomv>
+						<edomvd>Parsonage, Rectory</edomvd>
+					</edom>
+					<edom>
+						<edomv>M4</edomv>
+						<edomvd>Convents</edomvd>
+					</edom>
+					<edom>
+						<edomv>M9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Asylums and Homes</edomvd>
+					</edom>
+					<edom>
+						<edomv>N1</edomv>
+						<edomvd>Asylums</edomvd>
+					</edom>
+					<edom>
+						<edomv>N2</edomv>
+						<edomvd>Homes for Indigent Children, Aged, Homelss</edomvd>
+					</edom>
+					<edom>
+						<edomv>N3</edomv>
+						<edomvd>Orphanages</edomvd>
+					</edom>
+					<edom>
+						<edomv>N4</edomv>
+						<edomvd>Juvenile Detention Houses</edomvd>
+					</edom>
+					<edom>
+						<edomv>N9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>O</edomv>
+						<edomvd>Office Buildings</edomvd>
+					</edom>
+					<edom>
+						<edomv>O1</edomv>
+						<edomvd>Fireproof - Up to Nine Stories</edomvd>
+					</edom>
+					<edom>
+						<edomv>O2</edomv>
+						<edomvd>Ten Stories &amp; Over (Side Street Type)</edomvd>
+					</edom>
+					<edom>
+						<edomv>O3</edomv>
+						<edomvd>Ten Stories &amp; Over (Main Avenue Type)</edomvd>
+					</edom>
+					<edom>
+						<edomv>O4</edomv>
+						<edomvd>Tower Type</edomvd>
+					</edom>
+					<edom>
+						<edomv>O5</edomv>
+						<edomvd>Semi-Fireproof</edomvd>
+					</edom>
+					<edom>
+						<edomv>O6</edomv>
+						<edomvd>Bank Building (Designed Exclusively for Banking)</edomvd>
+					</edom>
+					<edom>
+						<edomv>O7</edomv>
+						<edomvd>Professional Building</edomvd>
+					</edom>
+					<edom>
+						<edomv>O8</edomv>
+						<edomvd>With Residential Apartments</edomvd>
+					</edom>
+					<edom>
+						<edomv>O9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>P</edomv>
+						<edomvd>Places of Public Assembly (Indoor) and Cultural</edomvd>
+					</edom>
+					<edom>
+						<edomv>P1</edomv>
+						<edomvd>Concert Halls</edomvd>
+					</edom>
+					<edom>
+						<edomv>P2</edomv>
+						<edomvd>Lodge Rooms</edomvd>
+					</edom>
+					<edom>
+						<edomv>P3</edomv>
+						<edomvd>YWCA, YMCA, YWHA, YMHA, PAL</edomvd>
+					</edom>
+					<edom>
+						<edomv>P4</edomv>
+						<edomvd>Beach Club</edomvd>
+					</edom>
+					<edom>
+						<edomv>P5</edomv>
+						<edomvd>Community Center</edomvd>
+					</edom>
+					<edom>
+						<edomv>P6</edomv>
+						<edomvd>Amusement Places, Bathhouses, Boat Rides</edomvd>
+					</edom>
+					<edom>
+						<edomv>P7</edomv>
+						<edomvd>Museum</edomvd>
+					</edom>
+					<edom>
+						<edomv>P8</edomv>
+						<edomvd>Library</edomvd>
+					</edom>
+					<edom>
+						<edomv>P9</edomv>
+						<edomvd>Miscellaneous Including Riding Academies and Stables</edomvd>
+					</edom>
+					<edom>
+						<edomv>Q</edomv>
+						<edomvd>Outdoor Recreation Facilities</edomvd>
+					</edom>
+					<edom>
+						<edomv>Q1</edomv>
+						<edomvd>Parks</edomvd>
+					</edom>
+					<edom>
+						<edomv>Q2</edomv>
+						<edomvd>Playgorunds</edomvd>
+					</edom>
+					<edom>
+						<edomv>Q3</edomv>
+						<edomvd>Outdoor Pools</edomvd>
+					</edom>
+					<edom>
+						<edomv>Q4</edomv>
+						<edomvd>Beaches</edomvd>
+					</edom>
+					<edom>
+						<edomv>Q5</edomv>
+						<edomvd>Golf Courses</edomvd>
+					</edom>
+					<edom>
+						<edomv>Q6</edomv>
+						<edomvd>Stadium, Race Tracks, Baseball Fields</edomvd>
+					</edom>
+					<edom>
+						<edomv>Q7</edomv>
+						<edomvd>Tennis Courts</edomvd>
+					</edom>
+					<edom>
+						<edomv>Q8</edomv>
+						<edomvd>Marinas / Yacht Clubs</edomvd>
+					</edom>
+					<edom>
+						<edomv>Q9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>R</edomv>
+						<edomvd>Condominiums</edomvd>
+					</edom>
+					<edom>
+						<edomv>R0</edomv>
+						<edomvd>Condo Billing Lot</edomvd>
+					</edom>
+					<edom>
+						<edomv>R1</edomv>
+						<edomvd>2-10 Unit Residential Building, Residential Unit</edomvd>
+					</edom>
+					<edom>
+						<edomv>R2</edomv>
+						<edomvd>Walk-up, Residential Unit</edomvd>
+					</edom>
+					<edom>
+						<edomv>R3</edomv>
+						<edomvd>1-3 Story, Residential Unit</edomvd>
+					</edom>
+					<edom>
+						<edomv>R4</edomv>
+						<edomvd>Apartment / Elevated, Residential Unit</edomvd>
+					</edom>
+					<edom>
+						<edomv>R5</edomv>
+						<edomvd>Commercial Unit</edomvd>
+					</edom>
+					<edom>
+						<edomv>R6</edomv>
+						<edomvd>1-3 Units, Residential Unit</edomvd>
+					</edom>
+					<edom>
+						<edomv>R7</edomv>
+						<edomvd>1-3 Units, Commercial Unit</edomvd>
+					</edom>
+					<edom>
+						<edomv>R8</edomv>
+						<edomvd>2-10 Unit Residential Bldg, Commercial Unit</edomvd>
+					</edom>
+					<edom>
+						<edomv>R9</edomv>
+						<edomvd>Condop</edomvd>
+					</edom>
+					<edom>
+						<edomv>RC</edomv>
+						<edomvd>Commercial Building (Mixed Commercial Condo Building Classification Codes)</edomvd>
+					</edom>
+					<edom>
+						<edomv>RM</edomv>
+						<edomvd>Mixed Residential &amp; Commercial Building</edomvd>
+					</edom>
+					<edom>
+						<edomv>RR</edomv>
+						<edomvd>Residential Building</edomvd>
+					</edom>
+					<edom>
+						<edomv>S</edomv>
+						<edomvd>Residence -Multiple Use</edomvd>
+					</edom>
+					<edom>
+						<edomv>S0</edomv>
+						<edomvd>Primarily One Family with Two Stores or Offices</edomvd>
+					</edom>
+					<edom>
+						<edomv>S1</edomv>
+						<edomvd>Primarliy One Family with Store or Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>S2</edomv>
+						<edomvd>Primarily Two Family with Store or Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>S3</edomv>
+						<edomvd>Primarily Three Family with Store or Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>S4</edomv>
+						<edomvd>Primarily Four Family with Store or Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>S5</edomv>
+						<edomvd>Primarily Five to Six Family with Store or Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>S9</edomv>
+						<edomvd>Primarily One to Six Families with Stores or Offices</edomvd>
+					</edom>
+					<edom>
+						<edomv>T</edomv>
+						<edomvd>Transportation Facilities</edomvd>
+					</edom>
+					<edom>
+						<edomv>T1</edomv>
+						<edomvd>Airports, Air Fields, Terminals</edomvd>
+					</edom>
+					<edom>
+						<edomv>T2</edomv>
+						<edomvd>Piers, Docks, Bulkheads</edomvd>
+					</edom>
+					<edom>
+						<edomv>T9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>U</edomv>
+						<edomvd>Utility Bureau Properties</edomvd>
+					</edom>
+					<edom>
+						<edomv>U0</edomv>
+						<edomvd>Utility Company Land and Buildings</edomvd>
+					</edom>
+					<edom>
+						<edomv>U1</edomv>
+						<edomvd>Bridges, Tunnels, Highways</edomvd>
+					</edom>
+					<edom>
+						<edomv>U2</edomv>
+						<edomvd>Electric Utilities, Gas</edomvd>
+					</edom>
+					<edom>
+						<edomv>U3</edomv>
+						<edomvd>Ceiling R.R.</edomvd>
+					</edom>
+					<edom>
+						<edomv>U4</edomv>
+						<edomvd>Telephone Utilities</edomvd>
+					</edom>
+					<edom>
+						<edomv>U5</edomv>
+						<edomvd>Communications Facilities (Other than Telephone)</edomvd>
+					</edom>
+					<edom>
+						<edomv>U6</edomv>
+						<edomvd>Railroad, Private Ownership</edomvd>
+					</edom>
+					<edom>
+						<edomv>U7</edomv>
+						<edomvd>Transportation, Public Ownership</edomvd>
+					</edom>
+					<edom>
+						<edomv>U8</edomv>
+						<edomvd>Revocable Consents</edomvd>
+					</edom>
+					<edom>
+						<edomv>U9</edomv>
+						<edomvd>Miscellaneous (Including Private Improvements in City Land and in Public Places)</edomvd>
+					</edom>
+					<edom>
+						<edomv>V</edomv>
+						<edomvd>Vacant Land</edomvd>
+					</edom>
+					<edom>
+						<edomv>V0</edomv>
+						<edomvd>Zoned Residential, Except not Manhattan below 110 St</edomvd>
+					</edom>
+					<edom>
+						<edomv>V1</edomv>
+						<edomvd>Not Zoned Residential or Manhattan below 110 St</edomvd>
+					</edom>
+					<edom>
+						<edomv>V2</edomv>
+						<edomvd>Not Zoned Residential , but adjacent to Tax Class 1 Dwelling</edomvd>
+					</edom>
+					<edom>
+						<edomv>V3</edomv>
+						<edomvd>Zoned Primarily Residential, Except Not Manhattan below 110 St</edomvd>
+					</edom>
+					<edom>
+						<edomv>V4</edomv>
+						<edomvd>Police or Fire Department</edomvd>
+					</edom>
+					<edom>
+						<edomv>V5</edomv>
+						<edomvd>School Site or Yard</edomvd>
+					</edom>
+					<edom>
+						<edomv>V7</edomv>
+						<edomvd>Port Authority of NY and NJ</edomvd>
+					</edom>
+					<edom>
+						<edomv>V8</edomv>
+						<edomvd>State &amp; US</edomvd>
+					</edom>
+					<edom>
+						<edomv>V9</edomv>
+						<edomvd>Miscellaneous (Deparment of Real Estate and Other Public Places)</edomvd>
+					</edom>
+					<edom>
+						<edomv>W</edomv>
+						<edomvd>Educational Structures</edomvd>
+					</edom>
+					<edom>
+						<edomv>W1</edomv>
+						<edomvd>Public Elementary Junior and Senior High Schools</edomvd>
+					</edom>
+					<edom>
+						<edomv>W2</edomv>
+						<edomvd>Parochial Schools</edomvd>
+					</edom>
+					<edom>
+						<edomv>W3</edomv>
+						<edomvd>Schools or Academies</edomvd>
+					</edom>
+					<edom>
+						<edomv>W4</edomv>
+						<edomvd>Training Schools</edomvd>
+					</edom>
+					<edom>
+						<edomv>W5</edomv>
+						<edomvd>City University</edomvd>
+					</edom>
+					<edom>
+						<edomv>W6</edomv>
+						<edomvd>Other Colleges and Universities</edomvd>
+					</edom>
+					<edom>
+						<edomv>W7</edomv>
+						<edomvd>Theological Seminaries</edomvd>
+					</edom>
+					<edom>
+						<edomv>W8</edomv>
+						<edomvd>Other Private Schools</edomvd>
+					</edom>
+					<edom>
+						<edomv>W9</edomv>
+						<edomvd>Miscellaneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Selected Government Installations</edomvd>
+					</edom>
+					<edom>
+						<edomv>Y1</edomv>
+						<edomvd>Fire Department</edomvd>
+					</edom>
+					<edom>
+						<edomv>Y2</edomv>
+						<edomvd>Police Department</edomvd>
+					</edom>
+					<edom>
+						<edomv>Y3</edomv>
+						<edomvd>Prisons, Jails, Houses of Detention</edomvd>
+					</edom>
+					<edom>
+						<edomv>Y4</edomv>
+						<edomvd>Military and Naval</edomvd>
+					</edom>
+					<edom>
+						<edomv>Y5</edomv>
+						<edomvd>Department of Real Estate</edomvd>
+					</edom>
+					<edom>
+						<edomv>Y6</edomv>
+						<edomvd>Department of Sanitation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Y7</edomv>
+						<edomvd>Department of Ports and Terminals</edomvd>
+					</edom>
+					<edom>
+						<edomv>Y8</edomv>
+						<edomvd>Department of Public Works</edomvd>
+					</edom>
+					<edom>
+						<edomv>Y9</edomv>
+						<edomvd>Department of Environmental Protection</edomvd>
+					</edom>
+					<edom>
+						<edomv>Z</edomv>
+						<edomvd>Miscelleneous</edomvd>
+					</edom>
+					<edom>
+						<edomv>Z0</edomv>
+						<edomvd>Tennis Court, Pool, Shed, etc.  Used in Conjunction with Tax Class 1</edomvd>
+					</edom>
+					<edom>
+						<edomv>Z1</edomv>
+						<edomvd>Court House</edomvd>
+					</edom>
+					<edom>
+						<edomv>Z2</edomv>
+						<edomvd>Public Parking Areas</edomvd>
+					</edom>
+					<edom>
+						<edomv>Z3</edomv>
+						<edomvd>Post Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>Z4</edomv>
+						<edomvd>Foreign Governments</edomvd>
+					</edom>
+					<edom>
+						<edomv>Z5</edomv>
+						<edomvd>United Nations</edomvd>
+					</edom>
+					<edom>
+						<edomv>Z6</edomv>
+						<edomvd>Land Under Water</edomvd>
+					</edom>
+					<edom>
+						<edomv>Z7</edomv>
+						<edomvd>Easements</edomvd>
+					</edom>
+					<edom>
+						<edomv>Z8</edomv>
+						<edomvd>Cemetaries</edomvd>
+					</edom>
+					<edom>
+						<edomv>Z9</edomv>
+						<edomvd>Other</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
 			<attr>
 				<attrlabl>landUse2</attrlabl>
-				<attalias>landUse2</attalias><attrtype>String</attrtype><attwidth>2</attwidth><attrdomv><edom><edomv>01</edomv><edomvd>One &amp; Two Family Buildings</edomvd></edom><edom><edomv>02</edomv><edomvd>Multi Family Walk Up Buldings</edomvd></edom><edom><edomv>03</edomv><edomvd>Multi Family Elevator Buildings</edomvd></edom><edom><edomv>04</edomv><edomvd>Mixed Residential and Commercial Buildings</edomvd></edom><edom><edomv>05</edomv><edomvd>Commercial and Office Building</edomvd></edom><edom><edomv>06</edomv><edomvd>Industrial and Manufacturing</edomvd></edom><edom><edomv>07</edomv><edomvd>Transportation and Utility</edomvd></edom><edom><edomv>08</edomv><edomvd>Public Facilities and Institutions</edomvd></edom><edom><edomv>09</edomv><edomvd>Open Space and Outdoor Recreation</edomvd></edom><edom><edomv>10</edomv><edomvd>Parking Facilities</edomvd></edom><edom><edomv>11</edomv><edomvd>Vacant Land</edomvd></edom></attrdomv><attrdef>A code for the tax lot's land use category, modified for display of parks, New York City Department of Parks and Recreation properties and New York State Office of Parks, Recreation and Historic Preservation properties in the appropriate category on land use maps.</attrdef><attrvai><attrva>A tax lot's land use category is derived from the lot's building class (see bldgClass).</attrva></attrvai></attr>
+				<attalias>landUse2</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>2</attwidth>
+				<attrdomv>
+					<edom>
+						<edomv>01</edomv>
+						<edomvd>One &amp; Two Family Buildings</edomvd>
+					</edom>
+					<edom>
+						<edomv>02</edomv>
+						<edomvd>Multi Family Walk Up Buldings</edomvd>
+					</edom>
+					<edom>
+						<edomv>03</edomv>
+						<edomvd>Multi Family Elevator Buildings</edomvd>
+					</edom>
+					<edom>
+						<edomv>04</edomv>
+						<edomvd>Mixed Residential and Commercial Buildings</edomvd>
+					</edom>
+					<edom>
+						<edomv>05</edomv>
+						<edomvd>Commercial and Office Building</edomvd>
+					</edom>
+					<edom>
+						<edomv>06</edomv>
+						<edomvd>Industrial and Manufacturing</edomvd>
+					</edom>
+					<edom>
+						<edomv>07</edomv>
+						<edomvd>Transportation and Utility</edomvd>
+					</edom>
+					<edom>
+						<edomv>08</edomv>
+						<edomvd>Public Facilities and Institutions</edomvd>
+					</edom>
+					<edom>
+						<edomv>09</edomv>
+						<edomvd>Open Space and Outdoor Recreation</edomvd>
+					</edom>
+					<edom>
+						<edomv>10</edomv>
+						<edomvd>Parking Facilities</edomvd>
+					</edom>
+					<edom>
+						<edomv>11</edomv>
+						<edomvd>Vacant Land</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>A code for the tax lot's land use category, modified for display of parks, New York City Department of Parks and Recreation properties and New York State Office of Parks, Recreation and Historic Preservation properties in the appropriate category on land use maps.</attrdef>
+				<attrvai>
+					<attrva>A tax lot's land use category is derived from the lot's building class (see bldgClass).</attrva>
+				</attrvai>
+			</attr>
 			<attr>
 				<attrlabl>numEasmnt</attrlabl>
-				<attalias>numEasmnt</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdef>The number of easements on the tax lot.</attrdef><attrdefs>Department of Finance</attrdefs></attr>
+				<attalias>numEasmnt</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>The number of easements on the tax lot.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>ownerType</attrlabl>
-				<attalias>ownerType</attalias><attrtype>String</attrtype><attwidth>1</attwidth><attrdomv><edom><edomv>C</edomv><edomvd>City Ownership</edomvd></edom><edom><edomv>M</edomv><edomvd>Mixed City and Private Ownership</edomvd></edom><edom><edomv>O</edomv><edomvd>Public Authority, State or Federal Ownership</edomvd></edom><edom><edomv>P</edomv><edomvd>Private Ownership</edomvd></edom><edom><edomv>X</edomv><edomvd>Mixed (Excludes property with a C, M, O, or P ownership code). Fully tax exempt property that could be owned by the city, state, or federal government; a public authority; or a private institution.</edomvd></edom><edom><edomv>blank</edomv><edomvd>Unknown (Usually Private Ownership)</edomvd></edom></attrdomv><attrdef>A code indicating type of ownership for the tax lot.</attrdef><attrdefs>Department of Citywide Administrative Services and Department of Finance</attrdefs></attr>
+				<attalias>ownerType</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<attrdomv>
+					<edom>
+						<edomv>C</edomv>
+						<edomvd>City Ownership</edomvd>
+					</edom>
+					<edom>
+						<edomv>M</edomv>
+						<edomvd>Mixed City and Private Ownership</edomvd>
+					</edom>
+					<edom>
+						<edomv>O</edomv>
+						<edomvd>Public Authority, State or Federal Ownership</edomvd>
+					</edom>
+					<edom>
+						<edomv>P</edomv>
+						<edomvd>Private Ownership</edomvd>
+					</edom>
+					<edom>
+						<edomv>X</edomv>
+						<edomvd>Mixed (Excludes property with a C, M, O, or P ownership code). Fully tax exempt property that could be owned by the city, state, or federal government; a public authority; or a private institution.</edomvd>
+					</edom>
+					<edom>
+						<edomv>blank</edomv>
+						<edomvd>Unknown (Usually Private Ownership)</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>A code indicating type of ownership for the tax lot.</attrdef>
+				<attrdefs>Department of Citywide Administrative Services and Department of Finance</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>ownerName</attrlabl>
-				<attalias>ownerName</attalias><attrtype>String</attrtype><attwidth>21</attwidth><attrdef>The name of the owner of the tax lot.</attrdef><attrdefs>Department of Finance</attrdefs></attr>
+				<attalias>ownerName</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>21</attwidth>
+				<attrdef>The name of the owner of the tax lot.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>lotArea</attrlabl>
-				<attalias>lotArea</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>Total area of the tax lot, expressed in square feet rounded to the nearest</attrdef><attrdefs>Department of Finance</attrdefs><attrvai><attrva>Varying</attrva><attrvae>If the tax lot is not an irregularly shaped lot (irrLotCode) the Department of Finance derives the Lot Area by multiplying the Lot Frontage by the Lot Depth. If the tax lot is irregularly shaped Finance manually calculates the Lot Area from the Tax Maps.</attrvae></attrvai><atnumdec>11</atnumdec></attr>
+				<attalias>lotArea</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>Total area of the tax lot, expressed in square feet rounded to the nearest</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrvai>
+					<attrva>Varying</attrva>
+					<attrvae>If the tax lot is not an irregularly shaped lot (irrLotCode) the Department of Finance derives the Lot Area by multiplying the Lot Frontage by the Lot Depth. If the tax lot is irregularly shaped Finance manually calculates the Lot Area from the Tax Maps.</attrvae>
+				</attrvai>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>floorArea</attrlabl>
-				<attalias>floorArea</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The total gross area in square feet.</attrdef><attrdefs>Department of Finance</attrdefs><attrvai><attrvae>If areaSource field has a code of 1 or 2, the total floor area is for all of the buildings on the tax lot. Measurements are based on exterior dimensions. The building floor area is calculated by multiplying the building footprint by the number of stories, where the number of stories includes all full and partial stories above the ground floor. If the areaSource field has a value of 5, the floor area was calculated from the DOF RPAD Master File using the building dimensions and number of stories for ONLY the largest building on the tax lot. The sum of comArea and resArea does not always equal floorArea.</attrvae></attrvai><atnumdec>11</atnumdec></attr>
+				<attalias>floorArea</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The total gross area in square feet.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrvai>
+					<attrvae>If areaSource field has a code of 1 or 2, the total floor area is for all of the buildings on the tax lot. Measurements are based on exterior dimensions. The building floor area is calculated by multiplying the building footprint by the number of stories, where the number of stories includes all full and partial stories above the ground floor. If the areaSource field has a value of 5, the floor area was calculated from the DOF RPAD Master File using the building dimensions and number of stories for ONLY the largest building on the tax lot. The sum of comArea and resArea does not always equal floorArea.</attrvae>
+				</attrvai>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>comArea</attrlabl>
-				<attalias>comArea</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>An estimate of the exterior dimensions of the portion of the building(s) allocated for commercial use.</attrdef><attrvai><attrvae>This information is only collected for Tax Class 2 and Tax Class 4 properties.</attrvae></attrvai><attrdefs>Department of Finance</attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>comArea</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>An estimate of the exterior dimensions of the portion of the building(s) allocated for commercial use.</attrdef>
+				<attrvai>
+					<attrvae>This information is only collected for Tax Class 2 and Tax Class 4 properties.</attrvae>
+				</attrvai>
+				<attrdefs>Department of Finance</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>resArea</attrlabl>
-				<attalias>resArea</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>An estimate of the exterior dimensions of the portion of the building(s) allocated for residential use.</attrdef><attrdefs>Department of Finance</attrdefs><attrvai><attrvae>This information is only collected for Tax Class 2 and Tax Class 4 properties.</attrvae></attrvai><atnumdec>11</atnumdec></attr>
+				<attalias>resArea</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>An estimate of the exterior dimensions of the portion of the building(s) allocated for residential use.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrvai>
+					<attrvae>This information is only collected for Tax Class 2 and Tax Class 4 properties.</attrvae>
+				</attrvai>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>areaSource</attrlabl>
-				<attalias>areaSource</attalias><attrtype>String</attrtype><attwidth>1</attwidth><attrdomv><edom><edomv>0</edomv><edomvd>Not Available</edomvd></edom><edom><edomv>1</edomv><edomvd>Department of Finance's Major Property File</edomvd></edom><edom><edomv>2</edomv><edomvd>Department of Finance's RPAD File</edomvd></edom><edom><edomv>3</edomv><edomvd>One or more Building Dimensions are non-numeric. Total Building Floor Area is 0.</edomvd></edom><edom><edomv>4</edomv><edomvd>Building Class is 'V' and Number of Buildings is 0. Total Building Floor Area is 0.</edomvd></edom><edom><edomv>5</edomv><edomvd>Total Building Floor Area is calculated from RPAD Building Dimensions and Number of Stories for largest building only.</edomvd></edom><edom><edomv>6</edomv><edomvd>Unknown</edomvd></edom></attrdomv><attrdef>A code indicating the source file that was used to determine the tax lot's bldgArea.</attrdef><attrdefs>Department of City Planning</attrdefs></attr>
+				<attalias>areaSource</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>Not Available</edomvd>
+					</edom>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Department of Finance's Major Property File</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Department of Finance's RPAD File</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>One or more Building Dimensions are non-numeric. Total Building Floor Area is 0.</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Building Class is 'V' and Number of Buildings is 0. Total Building Floor Area is 0.</edomvd>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Total Building Floor Area is calculated from RPAD Building Dimensions and Number of Stories for largest building only.</edomvd>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Unknown</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>A code indicating the source file that was used to determine the tax lot's bldgArea.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>numBldgs</attrlabl>
-				<attalias>numBldgs</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The number of buildings on the tax lot.</attrdef><attrdefs>Department of Finance</attrdefs><attrvai><attrva>With few exceptions, buildings are permanent structures. If an assessor values a semi-permanent structure, such as a parking attendants building, then it is considered a building.</attrva></attrvai><atnumdec>11</atnumdec></attr>
+				<attalias>numBldgs</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The number of buildings on the tax lot.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrvai>
+					<attrva>With few exceptions, buildings are permanent structures. If an assessor values a semi-permanent structure, such as a parking attendants building, then it is considered a building.</attrva>
+				</attrvai>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>numFloors</attrlabl>
-				<attalias>numFloors</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>In the primary building on the tax lot, the number of full and partial stories starting from the ground floor.</attrdef><attrdefs>Department of Finance</attrdefs><attrvai/><atnumdec>11</atnumdec></attr>
+				<attalias>numFloors</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>In the primary building on the tax lot, the number of full and partial stories starting from the ground floor.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrvai/>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>unitsRes</attrlabl>
-				<attalias>unitsRes</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrvai><attrva>Hotels/motels, nursing homes and SROs do not have residential units, while boarding houses do have residential units.</attrva></attrvai><attrdef>The sum of residential units in all buildings on the tax lot.</attrdef><attrdefs>Department of Finance</attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>unitsRes</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrvai>
+					<attrva>Hotels/motels, nursing homes and SROs do not have residential units, while boarding houses do have residential units.</attrva>
+				</attrvai>
+				<attrdef>The sum of residential units in all buildings on the tax lot.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>unitsTotal</attrlabl>
-				<attalias>unitsTotal</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The sum of residential and non-residential (offices, retail stores, etc.) units in all buildings on the tax lot.</attrdef><attrdefs>Department of Finance</attrdefs><attrvai><attrva>The count of non-residential units is sometimes not available if the building contains residential units.</attrva></attrvai><atnumdec>11</atnumdec></attr>
+				<attalias>unitsTotal</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The sum of residential and non-residential (offices, retail stores, etc.) units in all buildings on the tax lot.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrvai>
+					<attrva>The count of non-residential units is sometimes not available if the building contains residential units.</attrva>
+				</attrvai>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>lotFront</attrlabl>
-				<attalias>lotFront</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The tax lot's frontage measured in feet.</attrdef><attrdefs>Department of Finance</attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>lotFront</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The tax lot's frontage measured in feet.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>lotDepth</attrlabl>
-				<attalias>lotDepth</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The tax lot's depth measured in feet.</attrdef><attrdefs>Department of Finance</attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>lotDepth</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The tax lot's depth measured in feet.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>bldgFront</attrlabl>
-				<attalias>bldgFront</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The building's frontage along the street measured in feet.</attrdef><attrdefs>Department of Finance</attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>bldgFront</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The building's frontage along the street measured in feet.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>bldgDepth</attrlabl>
-				<attalias>bldgDepth</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The building's depth, which is the effective perpendicular distance, measured in feet.</attrdef><attrdefs>Department of Finance</attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>bldgDepth</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The building's depth, which is the effective perpendicular distance, measured in feet.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>irrLotCode</attrlabl>
-				<attalias>irrLotCode</attalias><attrtype>String</attrtype><attwidth>1</attwidth><attrdef>A code indicating whether the tax lot is irregularly shaped.</attrdef><attrdefs>Department of Finance</attrdefs></attr>
+				<attalias>irrLotCode</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<attrdef>A code indicating whether the tax lot is irregularly shaped.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>cornerLot</attrlabl>
-				<attalias>cornerLot</attalias><attrtype>String</attrtype><attwidth>1</attwidth><attrdef>A code indicating whether the tax lot is a corner lot.</attrdef><attrdefs>Department of Finance</attrdefs></attr>
+				<attalias>cornerLot</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<attrdef>A code indicating whether the tax lot is a corner lot.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>assessLand</attrlabl>
-				<attalias>assessLand</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The actual assessed land value as of August, 2002.  The Department of Finance calculates the assessed value by multiplying the tax lot's estimated full market land value, determined as if vacant and unimproved, by a uniform percentage for the property's tax class.</attrdef><attrdefs>Department of Finance</attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>assessLand</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The actual assessed land value as of August, 2002.  The Department of Finance calculates the assessed value by multiplying the tax lot's estimated full market land value, determined as if vacant and unimproved, by a uniform percentage for the property's tax class.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>assessTotl</attrlabl>
-				<attalias>assessTotl</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The actual assessed total value as of August, 2002.  The Department of Finance calculates the assessed value by multiplying the tax lot's estimated full market value by a uniform percentage for the property'stax lot's estimated full market value by a uniform percentage for the property's tax class.</attrdef><attrdefs>Department of Finance </attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>assessTotl</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The actual assessed total value as of August, 2002.  The Department of Finance calculates the assessed value by multiplying the tax lot's estimated full market value by a uniform percentage for the property'stax lot's estimated full market value by a uniform percentage for the property's tax class.</attrdef>
+				<attrdefs>Department of Finance </attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>exemptLand</attrlabl>
-				<attalias>exemptLand</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The actual exempt land value, which is determined differently for each exemption program, is that portion of the tax lot that has received an exemption or abatement as of the fiscal year of the date of the DOF data.</attrdef><attrdefs>Department of Finance</attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>exemptLand</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The actual exempt land value, which is determined differently for each exemption program, is that portion of the tax lot that has received an exemption or abatement as of the fiscal year of the date of the DOF data.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>exemptTotl</attrlabl>
-				<attalias>exemptTotl</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The actual exempt total value, which is determined differently for each exemption program, is that portion of the tax lot that has received an exemption or abatement as of the fiscal year of the date of the DOF data.</attrdef><attrdefs>Department of Finance</attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>exemptTotl</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The actual exempt total value, which is determined differently for each exemption program, is that portion of the tax lot that has received an exemption or abatement as of the fiscal year of the date of the DOF data.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>yearBuilt</attrlabl>
-				<attalias>yearBuilt</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdef>The year construction of the building was completed.</attrdef><attrdefs>Department of Finance</attrdefs></attr>
+				<attalias>yearBuilt</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>The year construction of the building was completed.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>builtCode</attrlabl>
-				<attalias>builtCode</attalias><attrtype>String</attrtype><attwidth>1</attwidth><attrdomv><edom><edomv>E</edomv><edomvd>Year Built is an Estimate</edomvd></edom><edom><edomv>blank</edomv><edomvd>Year Built is not an Estimate</edomvd></edom></attrdomv><attrdef>A code indicating whether the year the building was built (yearBuilt) was an estimate.</attrdef><attrdefs>Department of Finance</attrdefs></attr>
+				<attalias>builtCode</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<attrdomv>
+					<edom>
+						<edomv>E</edomv>
+						<edomvd>Year Built is an Estimate</edomvd>
+					</edom>
+					<edom>
+						<edomv>blank</edomv>
+						<edomvd>Year Built is not an Estimate</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>A code indicating whether the year the building was built (yearBuilt) was an estimate.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>yearAlter</attrlabl>
-				<attalias>yearAlter</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdef>The year of the most recent alteration.</attrdef><attrdefs>Department of Finance</attrdefs><attrvai><attrva>If the alteration spanned more than one year, yearAlter2 is the year the alteration began, otherwise it is the year the alteration was completed.  The date can either be the actual date or an estimate.</attrva></attrvai></attr>
+				<attalias>yearAlter</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>The year of the most recent alteration.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrvai>
+					<attrva>If the alteration spanned more than one year, yearAlter2 is the year the alteration began, otherwise it is the year the alteration was completed.  The date can either be the actual date or an estimate.</attrva>
+				</attrvai>
+			</attr>
 			<attr>
 				<attrlabl>yearAlter2</attrlabl>
-				<attalias>yearAlter2</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdef>The year of the second most recent alteration.</attrdef><attrdefs>Department of Finance</attrdefs><attrvai><attrva>If the alteration spanned more than one year, yearAlter2 is the year the alteration began, otherwise it is the year the alteration was completed.  The date can either be the actual date or an estimate.</attrva></attrvai></attr>
+				<attalias>yearAlter2</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>The year of the second most recent alteration.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrvai>
+					<attrva>If the alteration spanned more than one year, yearAlter2 is the year the alteration began, otherwise it is the year the alteration was completed.  The date can either be the actual date or an estimate.</attrva>
+				</attrvai>
+			</attr>
 			<attr>
 				<attrlabl>histDist</attrlabl>
-				<attalias>histDist</attalias><attrtype>String</attrtype><attwidth>1</attwidth><attrdomv><edom><edomv>1</edomv><edomvd>Yes, the tax lot either contains a historic landmark and/or is located in a historic district.</edomvd></edom><edom><edomv>0</edomv><edomvd>No, the tax lot does not contain a historic landmark nor is it located in a historic district.</edomvd></edom></attrdomv><attrdef>A one character code identifying whether the tax lot contains a historic landmark and/or is located in a historic district.</attrdef><attrdefs>Department of Buildings</attrdefs></attr>
+				<attalias>histDist</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Yes, the tax lot either contains a historic landmark and/or is located in a historic district.</edomvd>
+					</edom>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>No, the tax lot does not contain a historic landmark nor is it located in a historic district.</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>A one character code identifying whether the tax lot contains a historic landmark and/or is located in a historic district.</attrdef>
+				<attrdefs>Department of Buildings</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>landmark</attrlabl>
-				<attalias>landmark</attalias><attrtype>String</attrtype><attwidth>35</attwidth><attrdef>The name of an individual landmark, landmark site (e.g. Richmondtown Restoration), or an interior landmark, as designated by the New York City Landmarks Preservation Commission.</attrdef><attrdefs>Landmarks Preservation Commission</attrdefs></attr>
+				<attalias>landmark</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>35</attwidth>
+				<attrdef>The name of an individual landmark, landmark site (e.g. Richmondtown Restoration), or an interior landmark, as designated by the New York City Landmarks Preservation Commission.</attrdef>
+				<attrdefs>Landmarks Preservation Commission</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>FAR</attrlabl>
-				<attalias>FAR</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The Floor Area Ratio (FAR) is the total building floor area divided by the area of the tax lot.</attrdef><attrdefs>Department of City Planning</attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>FAR</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The Floor Area Ratio (FAR) is the total building floor area divided by the area of the tax lot.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>maxAllwFAR</attrlabl>
-				<attalias>maxAllwFAR</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>Either the Maximum Allowable Residential Floor Area Ratio (FAR) or the Maximum Allowable Commercial FAR.</attrdef><attrvai><attrva>The Maximum Allowable Floor Area Ratios are exclusive of bonuses for plazas, plaza-connected open areas, arcades or other amenities.</attrva></attrvai><atnumdec>11</atnumdec></attr>
+				<attalias>maxAllwFAR</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>Either the Maximum Allowable Residential Floor Area Ratio (FAR) or the Maximum Allowable Commercial FAR.</attrdef>
+				<attrvai>
+					<attrva>The Maximum Allowable Floor Area Ratios are exclusive of bonuses for plazas, plaza-connected open areas, arcades or other amenities.</attrva>
+				</attrvai>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>boroCode</attrlabl>
-				<attalias>boroCode</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdomv><edom><edomv>1</edomv><edomvd>Manhattan</edomvd></edom><edom><edomv>2</edomv><edomvd>Bronx</edomvd></edom><edom><edomv>3</edomv><edomvd>Brooklyn</edomvd></edom><edom><edomv>4</edomv><edomvd>Queens</edomvd></edom><edom><edomv>5</edomv><edomvd>Staten Island</edomvd></edom></attrdomv><attrdef>The borough the tax lot is located in.</attrdef><attrdefs>Department of Finance</attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>boroCode</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Manhattan</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Bronx</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Brooklyn</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Queens</edomvd>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Staten Island</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>The borough the tax lot is located in.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>TBL</attrlabl>
-				<attalias>TBL</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>A concatenation of the tax block and the corresponding tax lot.  This field consists of the tax block followed by the tax lot. The tax block is one to five numeric digits, preceded with leading blanks when the block is less than five digits. The tax lot is one to four digits and is preceded with leading zeros when the lot is less than four digits.</attrdef><attrdefs>Department of Finance</attrdefs><attrdomv/><atnumdec>11</atnumdec></attr>
+				<attalias>TBL</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>A concatenation of the tax block and the corresponding tax lot.  This field consists of the tax block followed by the tax lot. The tax block is one to five numeric digits, preceded with leading blanks when the block is less than five digits. The tax lot is one to four digits and is preceded with leading zeros when the lot is less than four digits.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+				<attrdomv/>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>tract2000</attrlabl>
-				<attalias>tract2000</attalias><attrtype>String</attrtype><attwidth>6</attwidth><attrdef>The 2000 census tract that the tax lot is located in.</attrdef><attrdefs>Department of City Planning and US Census Bureau</attrdefs></attr>
+				<attalias>tract2000</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>6</attwidth>
+				<attrdef>The 2000 census tract that the tax lot is located in.</attrdef>
+				<attrdefs>Department of City Planning and US Census Bureau</attrdefs>
+			</attr>
 			<attr>
 				<attrlabl>xCoord</attrlabl>
-				<attalias>xCoord</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The X coordinate of the XY coordinate pair which depicts the approximate location of the address.</attrdef><attrdefs>Department of City Planning</attrdefs><atnumdec>11</atnumdec></attr>
+				<attalias>xCoord</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The X coordinate of the XY coordinate pair which depicts the approximate location of the address.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>yCoord</attrlabl>
-				<attalias>yCoord</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><attrdef>The Y coordinate of the XY coordinate pair which depicts the approximate location of the address.</attrdef><attrdefs>Department of City Planning</attrdefs><atnumdec>11</atnumdec></attr>
-			<attr><attrlabl>cogisPluto</attrlabl><attalias>cogisPluto</attalias><attrtype>String</attrtype><attwidth>1</attwidth><attrdomv><edom><edomv>1</edomv><edomvd>In PLUTO Data File and in COGIS Tax Block and Lot Not Clipped to the Shoreline File.</edomvd></edom><edom><edomvd>In PLUTO Data File Only</edomvd><edomv>2</edomv></edom><edom><edomvd>In COGIS Tax Block and Lot Clipped to the Shoreline File Only</edomvd><edomv>3</edomv></edom><edom><edomv>4</edomv><edomvd>In PLUTO Data File and in COGIS Tax Block and Lot Not Clipped to the Shoreline File but NOT in COGIS Tax Block and Lot Clipped to the Shoreline File, therefore the tax lot is totally under water</edomvd></edom><edom><edomvd>In COGIS Tax Block and Lot Not Clipped to the Shoreline File Only, therefore the tax lot is totally under water</edomvd><edomv>5</edomv></edom></attrdomv><attrdef>A code indicating whether the tax lot is in the PLUTO file and/or the COGIS Tax Block and Lot Clipped to the Shoreline File and/or COGIS Tax Block and Lot Not Clipped to the Shoreline File.</attrdef><attrdefs>Department of Finance</attrdefs></attr></detailed>
+				<attalias>yCoord</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>The Y coordinate of the XY coordinate pair which depicts the approximate location of the address.</attrdef>
+				<attrdefs>Department of City Planning</attrdefs>
+				<atnumdec>11</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>cogisPluto</attrlabl>
+				<attalias>cogisPluto</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>In PLUTO Data File and in COGIS Tax Block and Lot Not Clipped to the Shoreline File.</edomvd>
+					</edom>
+					<edom>
+						<edomvd>In PLUTO Data File Only</edomvd>
+						<edomv>2</edomv>
+					</edom>
+					<edom>
+						<edomvd>In COGIS Tax Block and Lot Clipped to the Shoreline File Only</edomvd>
+						<edomv>3</edomv>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>In PLUTO Data File and in COGIS Tax Block and Lot Not Clipped to the Shoreline File but NOT in COGIS Tax Block and Lot Clipped to the Shoreline File, therefore the tax lot is totally under water</edomvd>
+					</edom>
+					<edom>
+						<edomvd>In COGIS Tax Block and Lot Not Clipped to the Shoreline File Only, therefore the tax lot is totally under water</edomvd>
+						<edomv>5</edomv>
+					</edom>
+				</attrdomv>
+				<attrdef>A code indicating whether the tax lot is in the PLUTO file and/or the COGIS Tax Block and Lot Clipped to the Shoreline File and/or COGIS Tax Block and Lot Not Clipped to the Shoreline File.</attrdef>
+				<attrdefs>Department of Finance</attrdefs>
+			</attr>
+		</detailed>
 	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NYC Department of City Planning</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>22 Reade St</address>
+					<city>New York</city>
+					<state>New York</state>
+					<postal>10007</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntinst>Available at the following website: http://www.nyc.gov/html/dcp/html/bytes/applbyte.html</cntinst>
+				<cntvoice>212.720.3505</cntvoice>
+			</cntinfo>
+		</distrib>
+		<stdorder>
+			<fees> Free </fees>
+			<digform>
+				<digtinfo>
+					<formname>geopackage</formname>
+					<formspec>zip</formspec>
+				</digtinfo>
+			</digform>
+		</stdorder>
+		<resdesc>nycp_bk_taxlots_2000</resdesc>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>420 W. 118th St., 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(212)854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metd>20140327</metd>
+	</metainfo>
 </metadata>

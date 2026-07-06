@@ -29,7 +29,8 @@
 					<caldate>2013</caldate>
 				</sngdate>
 			</timeinfo>
-			<current>publication date</current></timeperd>
+			<current>publication date</current>
+		</timeperd>
 		<status>
 			<progress>Complete.</progress>
 			<update> Semiannually.</update>
@@ -50,15 +51,36 @@
 				<themekey>PLUTO</themekey>
 				<themekey>MapPLUTO</themekey>
 				<themekt>None</themekt>
-				<themekey>Boundaries</themekey><themekey>RPAD</themekey></theme>
+				<themekey>Boundaries</themekey>
+				<themekey>RPAD</themekey>
+			</theme>
 			<place>
 				<placekt>GeoNames</placekt>
 				<placekey>New York City (5128581)</placekey>
 			</place>
 			<place>
 				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>New York (State)</placekey><placekey>New York (N.Y.)</placekey><placekey>Brooklyn (New York, N.Y.)</placekey><placekey>Bronx (New York, N.Y.)</placekey><placekey>Queens (New York, N.Y.)</placekey><placekey>Manhattan (New York, N.Y.)</placekey><placekey>Staten Island (New York, N.Y.)</placekey></place>
-			<theme><themekt>ISO 19115 Topic Category</themekt><themekey>planningCadastre</themekey></theme><place><placekt>None</placekt><placekey>NYC</placekey></place><temporal><tempkt>None</tempkt><tempkey>2013</tempkey></temporal></keywords>
+				<placekey>New York (State)</placekey>
+				<placekey>New York (N.Y.)</placekey>
+				<placekey>Brooklyn (New York, N.Y.)</placekey>
+				<placekey>Bronx (New York, N.Y.)</placekey>
+				<placekey>Queens (New York, N.Y.)</placekey>
+				<placekey>Manhattan (New York, N.Y.)</placekey>
+				<placekey>Staten Island (New York, N.Y.)</placekey>
+			</place>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>planningCadastre</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>NYC</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2013</tempkey>
+			</temporal>
+		</keywords>
 		<accconst>None</accconst>
 		<useconst>None</useconst>
 		<ptcontac>
@@ -72,12 +94,36 @@
 					<postal>10007</postal>
 				</cntaddr>
 				<cntvoice>212.720.3505</cntvoice>
-				<cntorgp><cntorg>NYC Department of City Planning</cntorg></cntorgp></cntinfo>
+				<cntorgp>
+					<cntorg>NYC Department of City Planning</cntorg>
+				</cntorgp>
+			</cntinfo>
 		</ptcontac>
 	</idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Data Service Staff, Columbia Libraries</cntorg>
+						</cntorgp>
+					</cntinfo>
+				</proccont>
+				<procdesc>Data Service staff downloaded 13v2 from the NYC Planning Bytes of the Big Apple website.  Merged files from all five boroughs into one file.  NYC Planning had 10 sets of files covering 2009-2013, however, they were all identical, so only the most recent edition was used.</procdesc>
+				<procdate>20140331</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype><ptvctcnt>321</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>321</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
 	<spref>
 		<horizsys>
 			<planar>
@@ -160,7 +206,8 @@
 			</attr>
 			<attr>
 				<attrlabl>SHAPE_Leng</attrlabl>
-				<attrdef>Perimeter</attrdef></attr>
+				<attrdef>Perimeter</attrdef>
+			</attr>
 		</detailed>
 	</eainfo>
 	<distinfo>
@@ -183,7 +230,12 @@
 		</distrib>
 		<stdorder>
 			<fees> Free </fees>
-			<digform><digtinfo><formname>geopackage</formname></digtinfo></digform></stdorder>
+			<digform>
+				<digtinfo>
+					<formname>geopackage</formname>
+				</digtinfo>
+			</digform>
+		</stdorder>
 		<resdesc>nycp_2013_misclots</resdesc>
 	</distinfo>
 	<metainfo>
@@ -207,4 +259,4 @@
 		</metc>
 		<metd>20140327</metd>
 	</metainfo>
-	<dataqual><lineage><procstep><proccont><cntinfo><cntorgp><cntorg>Data Service Staff, Columbia Libraries</cntorg></cntorgp></cntinfo></proccont><procdesc>Data Service staff downloaded 13v2 from the NYC Planning Bytes of the Big Apple website.  Merged files from all five boroughs into one file.  NYC Planning had 10 sets of files covering 2009-2013, however, they were all identical, so only the most recent edition was used.</procdesc><procdate>20140331</procdate></procstep></lineage></dataqual></metadata>
+</metadata>

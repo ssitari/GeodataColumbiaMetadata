@@ -25,7 +25,8 @@
 					<pubplace>Redlands, California, USA</pubplace>
 					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
 				</pubinfo>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_counties.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_counties.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>publication date: 19920601, 200201, 200401, 201112, 201003, 2011, 20111027; ground condition: 2010, 2007</current>
@@ -110,7 +111,11 @@
 				<tempkey>2010</tempkey>
 				<tempkey>2007</tempkey>
 			</temporal>
-			<theme><themekt>ISO 19115 Topic Category</themekt><themekey>boundaries</themekey></theme></keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>boundaries</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -142,30 +147,248 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_counties.jpg</browsen><browsed>Thumbnail</browsed><browset>jpg</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_counties.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>jpg</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>ArcUSA™ 1:25M</title>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<pubdate>19920601</pubdate>
+						<edition>1</edition>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<publish>Esri</publish>
+							<pubplace>Redlands, California, USA</pubplace>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>25000000</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>19920601</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>ArcUSA 1:25M</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The following steps were performed by Esri for Data &amp; Maps 2002: Updated geospatial data to match Data &amp; Maps 2002 U.S. Counties. Recreated ArcView GIS legend file (.avl) and ArcGIS layer file (.lyr). Copied projection file (.prj).
+
+The following steps were performed by Esri: Extracted and generalized the features from ArcUSA 1:25M. Converted to North American Datum of 1983 (NAD83) by splitting the United States into-if present: Alaska, Hawaii, Puerto Rico, U.S. Virgin Islands-and the 48 contiguous states (including District of Columbia); converting each to NAD83; then merging them together. Added Kalawao county of Hawaii. Created ArcGIS layer file (.lyr). Created projection file (.prj). Ran ArcView GIS Avenue™ request ExportClean, and created spatial indices. Converted the data set to SDC.</procdesc>
+				<procsv>ArcView GIS 3.x</procsv>
+				<srcused>ArcUSA 1:25M</srcused>
+				<srcused>TomTom Dynamap/Census Boundaries v4.0 and Dynamap/2000 v. 14.0</srcused>
+				<procdate>20020204</procdate>
+			</procstep>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Dynamap/Census Boundaries v4.0; Dynamap/2000 v. 14.0</title>
+						<origin>TomTom North America, Inc.</origin>
+						<pubdate>200201; 200401</pubdate>
+						<edition>Versions 4.0 and 14.0</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>TomTom Dynamap/Census Boundaries; TomTom Dynamap/2000</sername>
+							<issue>Versions 4.0 and 14.0</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>TomTom North America, Inc.</publish>
+							<pubplace>Lebanon, New Hampshire, USA</pubplace>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>100000</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>200201</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>200401</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>TomTom Dynamap/Census Boundaries v4.0 and Dynamap/2000 v. 14.0</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>TomTom MultiNet Administrative Areas, 2012</title>
+						<origin>TomTom North America, Inc.</origin>
+						<pubdate>201112; 201003</pubdate>
+						<edition>Versions 2011.12 and 2010.03</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>TomTom MultiNet North America</sername>
+							<issue>Versions 2011.12 and 2010.03</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>TomTom North America, Inc.</publish>
+							<pubplace>Lebanon, New Hampshire, USA</pubplace>
+						</pubinfo>
+						<onlink>http://www.tomtom.com/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>DVD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>201112</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>201003</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>TomTom MultiNet North America Administrative Areas v. 2011.12 and v. 2010.03</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Department of Commerce, Census Bureau</origin>
+						<title>Summary File 1 (SF 1)</title>
+						<edition>2010</edition>
+						<serinfo>
+							<sername>Summary File 1 (SF 1)</sername>
+							<issue>2010</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>Department of Commerce, Census Bureau</publish>
+							<pubplace>Washington, DC, USA</pubplace>
+						</pubinfo>
+						<othercit>The Summary File 1 (SF 1) data is based on the 2010 Census of Population and Housing.</othercit>
+						<pubdate>2011</pubdate>
+						<onlink>http://www.census.gov/prod/cen2010/doc/sf1.pdf</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>2010</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>2011</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>ground condition: 2010; publication date: 2011</srccurr>
+				</srctime>
+				<srccitea>U.S. Census SF 1</srccitea>
+				<srccontr>Attribute data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Esri Data</title>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<pubdate>20111027</pubdate>
+						<edition>2011</edition>
+						<geoform>tabular digital data</geoform>
+						<serinfo>
+							<sername>Esri Data</sername>
+							<issue>2011</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Redlands, California, USA</pubplace>
+							<publish>Esri</publish>
+						</pubinfo>
+						<onlink>http://www.esri.com</onlink>
+					</citeinfo>
+				</srccite>
+				<srccitea>Esri Data</srccitea>
+				<srccontr>Attribute data</srccontr>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20111027</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<typesrc>DVD-ROM</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<typesrc>online</typesrc>
+				<srccitea>USDA Farm</srccitea>
+				<srccite>
+					<citeinfo>
+						<title>2007 Census of Agriculture</title>
+						<origin>U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS)</origin>
+						<pubdate>20090204</pubdate>
+						<serinfo>
+							<sername>Census of Agriculture</sername>
+							<issue>2007</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>USA</pubplace>
+							<publish>U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS)</publish>
+						</pubinfo>
+						<othercit>The farm attributes come from data published by the U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS) based on the 2007 Census of Agriculture.</othercit>
+						<edition>2007</edition>
+						<onlink>http://www.agcensus.usda.gov/Publications/2007/index.asp</onlink>
+						<onlink>http://www.agcensus.usda.gov/Publications/2007/Online_Highlights/Desktop_Application/index.asp</onlink>
+					</citeinfo>
+				</srccite>
+				<srccontr>Attribute data</srccontr>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2007</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+			</srcinfo>
+			<procstep>
+				<srcused>ArcUSA 1:25M</srcused>
+				<srcused>TomTom Dynamap/Census Boundaries v4.0 and Dynamap/2000 v. 14.0</srcused>
+				<procdesc>The following steps were performed by Esri: Updated geospatial data to match Data &amp; Maps 2004 U.S. Counties. Merged county (FIPS: 51560) Clifton Forge, VA into (FIPS: 51005) Alleghany. Added county (FIPS: 08014) Broomfield, CO and adjusted surrounding counties (FIPS: 08001) Adams, (FIPS: 08013) Boulder, (FIPS: 08059) Jefferson, and (FIPS: 08123) Weld. Converted the data set to SDC. Created the projection file (.prj) and spatial indices.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
+				<procdate>20040310</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Copied Data &amp; Maps 10 U.S. Counties (Generalized) and renamed it. Removed all fields but FIPS. Updated generalized boundaries to reflect recent changes in the Alaskan panhandle using Data &amp; Maps 2012 U.S. Counties. Attached and formatted the fields from Data &amp; Maps 2012 U.S. Counties. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<procsv>ArcGIS 10, ArcGIS 9</procsv>
+				<procdate>20120207</procdate>
+				<srcused>ArcUSA 1:25M</srcused>
+				<srcused>TomTom Dynamap/Census Boundaries v4.0 and Dynamap/2000 v. 14.0</srcused>
+				<srcused>TomTom MultiNet North America Administrative Areas v. 2011.12 and v. 2010.03</srcused>
+				<srcused>U.S. Census SF 1</srcused>
+				<srcused>Esri Data</srcused>
+				<srcused>USDA Farm</srcused>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The geospatial part of this data set was extracted from the ArcUSA 1:25M database, and then generalized. Generalizing reduces positional accuracy and the tolerance was not recorded so the positional accuracy exceeds that of the ArcUSA data set. The positional accuracy of the ArcUSA 1:25M data set is 1792 meters which is based on generalizing-to a tolerance of 500 meters-the 1:2,000,000-scale USGS Digital Line Graph (DLG) source data.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -997,229 +1220,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_us_counties</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>ArcUSA™ 1:25M</title>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>19920601</pubdate>
-						<edition>1</edition>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<publish>Esri</publish>
-							<pubplace>Redlands, California, USA</pubplace>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>25000000</srcscale>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>19920601</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>ArcUSA 1:25M</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>The following steps were performed by Esri for Data &amp; Maps 2002: Updated geospatial data to match Data &amp; Maps 2002 U.S. Counties. Recreated ArcView GIS legend file (.avl) and ArcGIS layer file (.lyr). Copied projection file (.prj).
-
-The following steps were performed by Esri: Extracted and generalized the features from ArcUSA 1:25M. Converted to North American Datum of 1983 (NAD83) by splitting the United States into-if present: Alaska, Hawaii, Puerto Rico, U.S. Virgin Islands-and the 48 contiguous states (including District of Columbia); converting each to NAD83; then merging them together. Added Kalawao county of Hawaii. Created ArcGIS layer file (.lyr). Created projection file (.prj). Ran ArcView GIS Avenue™ request ExportClean, and created spatial indices. Converted the data set to SDC.</procdesc>
-				<procsv>ArcView GIS 3.x</procsv>
-				<srcused>ArcUSA 1:25M</srcused>
-				<srcused>TomTom Dynamap/Census Boundaries v4.0 and Dynamap/2000 v. 14.0</srcused>
-				<procdate>20020204</procdate>
-			</procstep>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Dynamap/Census Boundaries v4.0; Dynamap/2000 v. 14.0</title>
-						<origin>TomTom North America, Inc.</origin>
-						<pubdate>200201; 200401</pubdate>
-						<edition>Versions 4.0 and 14.0</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>TomTom Dynamap/Census Boundaries; TomTom Dynamap/2000</sername>
-							<issue>Versions 4.0 and 14.0</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>TomTom North America, Inc.</publish>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>100000</srcscale>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>200201</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>200401</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>TomTom Dynamap/Census Boundaries v4.0 and Dynamap/2000 v. 14.0</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>TomTom MultiNet Administrative Areas, 2012</title>
-						<origin>TomTom North America, Inc.</origin>
-						<pubdate>201112; 201003</pubdate>
-						<edition>Versions 2011.12 and 2010.03</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>TomTom MultiNet North America</sername>
-							<issue>Versions 2011.12 and 2010.03</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>TomTom North America, Inc.</publish>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-						</pubinfo>
-						<onlink>http://www.tomtom.com/</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>DVD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>201112</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>201003</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>TomTom MultiNet North America Administrative Areas v. 2011.12 and v. 2010.03</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Department of Commerce, Census Bureau</origin>
-						<title>Summary File 1 (SF 1)</title>
-						<edition>2010</edition>
-						<serinfo>
-							<sername>Summary File 1 (SF 1)</sername>
-							<issue>2010</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>Department of Commerce, Census Bureau</publish>
-							<pubplace>Washington, DC, USA</pubplace>
-						</pubinfo>
-						<othercit>The Summary File 1 (SF 1) data is based on the 2010 Census of Population and Housing.</othercit>
-						<pubdate>2011</pubdate>
-						<onlink>http://www.census.gov/prod/cen2010/doc/sf1.pdf</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>2010</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>2011</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>ground condition: 2010; publication date: 2011</srccurr>
-				</srctime>
-				<srccitea>U.S. Census SF 1</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Esri Data</title>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>20111027</pubdate>
-						<edition>2011</edition>
-						<geoform>tabular digital data</geoform>
-						<serinfo>
-							<sername>Esri Data</sername>
-							<issue>2011</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Redlands, California, USA</pubplace>
-							<publish>Esri</publish>
-						</pubinfo>
-						<onlink>http://www.esri.com</onlink>
-					</citeinfo>
-				</srccite>
-				<srccitea>Esri Data</srccitea>
-				<srccontr>Attribute data</srccontr>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>20111027</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<typesrc>DVD-ROM</typesrc>
-			</srcinfo>
-			<srcinfo>
-				<typesrc>online</typesrc>
-				<srccitea>USDA Farm</srccitea>
-				<srccite>
-					<citeinfo>
-						<title>2007 Census of Agriculture</title>
-						<origin>U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS)</origin>
-						<pubdate>20090204</pubdate>
-						<serinfo>
-							<sername>Census of Agriculture</sername>
-							<issue>2007</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>USA</pubplace>
-							<publish>U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS)</publish>
-						</pubinfo>
-						<othercit>The farm attributes come from data published by the U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS) based on the 2007 Census of Agriculture.</othercit>
-						<edition>2007</edition>
-						<onlink>http://www.agcensus.usda.gov/Publications/2007/index.asp</onlink>
-						<onlink>http://www.agcensus.usda.gov/Publications/2007/Online_Highlights/Desktop_Application/index.asp</onlink>
-					</citeinfo>
-				</srccite>
-				<srccontr>Attribute data</srccontr>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2007</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-			</srcinfo>
-			<procstep>
-				<srcused>ArcUSA 1:25M</srcused>
-				<srcused>TomTom Dynamap/Census Boundaries v4.0 and Dynamap/2000 v. 14.0</srcused>
-				<procdesc>The following steps were performed by Esri: Updated geospatial data to match Data &amp; Maps 2004 U.S. Counties. Merged county (FIPS: 51560) Clifton Forge, VA into (FIPS: 51005) Alleghany. Added county (FIPS: 08014) Broomfield, CO and adjusted surrounding counties (FIPS: 08001) Adams, (FIPS: 08013) Boulder, (FIPS: 08059) Jefferson, and (FIPS: 08123) Weld. Converted the data set to SDC. Created the projection file (.prj) and spatial indices.</procdesc>
-				<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
-				<procdate>20040310</procdate>
-			</procstep>
-			<procstep><procdesc>The following steps were performed by Esri: Copied Data &amp; Maps 10 U.S. Counties (Generalized) and renamed it. Removed all fields but FIPS. Updated generalized boundaries to reflect recent changes in the Alaskan panhandle using Data &amp; Maps 2012 U.S. Counties. Attached and formatted the fields from Data &amp; Maps 2012 U.S. Counties. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc><procsv>ArcGIS 10, ArcGIS 9</procsv><procdate>20120207</procdate><srcused>ArcUSA 1:25M</srcused><srcused>TomTom Dynamap/Census Boundaries v4.0 and Dynamap/2000 v. 14.0</srcused><srcused>TomTom MultiNet North America Administrative Areas v. 2011.12 and v. 2010.03</srcused><srcused>U.S. Census SF 1</srcused><srcused>Esri Data</srcused><srcused>USDA Farm</srcused></procstep></lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The geospatial part of this data set was extracted from the ArcUSA 1:25M database, and then generalized. Generalizing reduces positional accuracy and the tolerance was not recorded so the positional accuracy exceeds that of the ArcUSA data set. The positional accuracy of the ArcUSA 1:25M data set is 1792 meters which is based on generalizing-to a tolerance of 500 meters-the 1:2,000,000-scale USGS Digital Line Graph (DLG) source data.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

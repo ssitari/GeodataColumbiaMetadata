@@ -1,936 +1,936 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Panama (3703430)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Panama</placekey>
-<placekey>Panama</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2000</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-82.876697</westbc>
-<eastbc>-77.964005</eastbc>
-<northbc>9.548949</northbc>
-<southbc>7.402479</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Panama (3703430)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Panama</placekey>
+				<placekey>Panama</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2000</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-82.876697</westbc>
+				<eastbc>-77.964005</eastbc>
+				<northbc>9.548949</northbc>
+				<southbc>7.402479</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
   Panama Social Census Data, 2000 is a polygon theme representing Barrios (5th level administrative units) in Panama.  Attribute information includes social variables from the 2000 Census.
 
   Official population and housing data for Panama from the 2000 census. This census is provided a combination of barrio administrative level polygons (ADM5) and populated place administrative level polygons (ADM4), for 2000 compared to 2010 these two administrative units are combined into one shapefile. for a total of 11,647 polygons. Each census theme has 759 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "MUERTE DE ALGUN MIEMBRO: SI" was updated to D001 and given the alias "A Household Member Has Died In The Past Year: Yes [MUERTE DE ALGUN MIEMBRO: SI]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social. All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
 
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Panama Social Census Data, 2000</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2021</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Panama Social Census Data, 2000</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_panama_social_2000.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2000</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2000</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-  <horizsys>
-    <gridsys>GCS_WGS_1984</gridsys>
-  </horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 
 <eainfo>
-  <detailed>
-    <enttyp>
-      <enttypl>Panama_2000</enttypl>
-      <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-      <enttypds>East View Geospatial</enttypds>
-    </enttyp>
-    <attr>
-      <attrlabl>Código</attrlabl>
-      <attrdef>Join_CODE [Código]</attrdef>
-      <attrdefs>National Insstitute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a coded value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>BARR_NOMB</attrlabl>
-      <attrdef>Barrio_Name</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a named value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>LUPO_NOMB</attrlabl>
-      <attrdef>Lupo_Name</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a named value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>LUPO_TIPO</attrlabl>
-      <attrdef>Lupo_Type</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a named value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>ADM1</attrlabl>
-      <attrdef>ADM1 Coded Value</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a coded value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>ADM2</attrlabl>
-      <attrdef>ADM2 Coded Value</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a coded value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>ADM3</attrlabl>
-      <attrdef>ADM3 Coded Value</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a coded value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>ADM4</attrlabl>
-      <attrdef>ADM4 Coded Value</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a coded value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>ADM5</attrlabl>
-      <attrdef>ADM5 Coded Value</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv>
-        <udom>Identifier of census sector as a coded value</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S001</attrlabl>
-      <attrdef>Indiginous Group Head Of Household Belongs To: Kuna [GRUPO INDIGENA DEL JEFE DEL HOGAR: KUNA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S002</attrlabl>
-      <attrdef>Indiginous Group Head Of Household Belongs To: Nga-Be [GRUPO INDIGENA DEL JEFE DEL HOGAR: NGÃ-BE]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S003</attrlabl>
-      <attrdef>Indiginous Group Head Of Household Belongs To: Bugle [GRUPO INDIGENA DEL JEFE DEL HOGAR: BUGLE]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S004</attrlabl>
-      <attrdef>Indiginous Group Head Of Household Belongs To: Teribe [GRUPO INDIGENA DEL JEFE DEL HOGAR: TERIBE]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S005</attrlabl>
-      <attrdef>Indiginous Group Head Of Household Belongs To: Bokotá [GRUPO INDIGENA DEL JEFE DEL HOGAR: BOKOTA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S006</attrlabl>
-      <attrdef>Indiginous Group Head Of Household Belongs To: Embera [GRUPO INDIGENA DEL JEFE DEL HOGAR: EMBERA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S007</attrlabl>
-      <attrdef>Indiginous Group Head Of Household Belongs To: Wounaan [GRUPO INDIGENA DEL JEFE DEL HOGAR: WOUNAAN]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S008</attrlabl>
-      <attrdef>Indiginous Group Head Of Household Belongs To: Bri Bri [GRUPO INDIGENA DEL JEFE DEL HOGAR: BRI_BRI]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S009</attrlabl>
-      <attrdef>Indiginous Group Head Of Household Belongs To: None [GRUPO INDIGENA DEL JEFE DEL HOGAR: NINGUNO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S010</attrlabl>
-      <attrdef>Indiginous Group Head Of Household Belongs To: Undeclared [GRUPO INDIGENA DEL JEFE DEL HOGAR: NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S011</attrlabl>
-      <attrdef>Indiginous Group Head Of Household Belongs To: Number Of Responses [GRUPO INDIGENA DEL JEFE DEL HOGAR: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S012</attrlabl>
-      <attrdef>Disability: Blindness [IMPEDIMENTO FISICO: CEGUERA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S013</attrlabl>
-      <attrdef>Disability: Deafness [IMPEDIMENTO FISICO: SORDERA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S014</attrlabl>
-      <attrdef>Disability: Mental Disability [IMPEDIMENTO FISICO: RETRASO_MENTAL]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S015</attrlabl>
-      <attrdef>Disability: Paralisys Or Cerebral Palsy [IMPEDIMENTO FISICO: PARALISIS_CEREB_]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S016</attrlabl>
-      <attrdef>Disability: Physical Disability [IMPEDIMENTO FISICO: DEFICIENCIA_FISICA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S017</attrlabl>
-      <attrdef>Disability: Other [IMPEDIMENTO FISICO: OTRO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S018</attrlabl>
-      <attrdef>Disability: None [IMPEDIMENTO FISICO: NINGUNO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S019</attrlabl>
-      <attrdef>Disability: Undeclared [IMPEDIMENTO FISICO: NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S020</attrlabl>
-      <attrdef>Disability: Number Of Responses [IMPEDIMENTO FISICO: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S021</attrlabl>
-      <attrdef>Belongs To An Indigenous Group: Kuna [GRUPO INDIGENA: KUNA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S022</attrlabl>
-      <attrdef>Belongs To An Indigenous Group: Nga-Be [GRUPO INDIGENA: NGÃ-BE]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S023</attrlabl>
-      <attrdef>Belongs To An Indigenous Group: Bugle [GRUPO INDIGENA: BUGLE]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S024</attrlabl>
-      <attrdef>Belongs To An Indigenous Group: Teribe [GRUPO INDIGENA: TERIBE]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S025</attrlabl>
-      <attrdef>Belongs To An Indigenous Group: Bokotá [GRUPO INDIGENA: BOKOTA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S026</attrlabl>
-      <attrdef>Belongs To An Indigenous Group: Embera [GRUPO INDIGENA: EMBERA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S027</attrlabl>
-      <attrdef>Belongs To An Indigenous Group: Wounaan [GRUPO INDIGENA: WOUNAAN]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S028</attrlabl>
-      <attrdef>Belongs To An Indigenous Group: Bri Bri [GRUPO INDIGENA: BRI_BRI]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S029</attrlabl>
-      <attrdef>Belongs To An Indigenous Group: None [GRUPO INDIGENA: NINGUNO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S030</attrlabl>
-      <attrdef>Belongs To An Indigenous Group: Undeclared [GRUPO INDIGENA: NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S031</attrlabl>
-      <attrdef>Belongs To An Indigenous Group: Number Of Responses [GRUPO INDIGENA: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S032</attrlabl>
-      <attrdef>School Attendance: Attends School [ASISTE A LA ESCUELA: SI]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S033</attrlabl>
-      <attrdef>School Attendance: Does Not Attend School [ASISTE A LA ESCUELA: NO_]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S034</attrlabl>
-      <attrdef>School Attendance: Undeclared [ASISTE A LA ESCUELA: NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S035</attrlabl>
-      <attrdef>School Attendance: Number Of Responses [ASISTE A LA ESCUELA: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S036</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: No Schooling Achieved [NIVEL DE INSTRUCCION: NINGUN_GRADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S037</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Preschool [NIVEL DE INSTRUCCION: PRE_ESCOLAR]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S038</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Special Education [NIVEL DE INSTRUCCION: ENSEñANZA_ESPECIAL]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S039</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: First Year Primary [NIVEL DE INSTRUCCION: PRIMERO_PRIMARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S040</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Second Year Primary [NIVEL DE INSTRUCCION: SEGUNDO_PRIMARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S041</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Third Year Primary [NIVEL DE INSTRUCCION: TERCERO_PRIMARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S042</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Fourth Year Primary [NIVEL DE INSTRUCCION: CUARTO_PRIMARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S043</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Fifth Year Primary [NIVEL DE INSTRUCCION: QUINTO_PRIMARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S044</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Sixth Year Primary [NIVEL DE INSTRUCCION: SEXTO_PRIMARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S045</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Some Primary Schooling Completed [NIVEL DE INSTRUCCION: PRIMARIA_NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S046</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: First Year  Vocational [NIVEL DE INSTRUCCION: PRIMERO_VOCACIONAL]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S047</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Second Year Vocational [NIVEL DE INSTRUCCION: SEGUNDO_VOCACIONAL]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S048</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Third Year Vocational [NIVEL DE INSTRUCCION: TERCERO_VOCACIONAL]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S049</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Some Vocational Schooling Completed [NIVEL DE INSTRUCCION: VOCACIONAL_NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S050</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: First Year Secondary [NIVEL DE INSTRUCCION: PRIMERO_SECUNDARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S051</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Second Year Secondary [NIVEL DE INSTRUCCION: SEGUNDO_SECUNDARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S052</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Third Year Secondary [NIVEL DE INSTRUCCION: TERCERO_SECUNDARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S053</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Fourth Year Secondary [NIVEL DE INSTRUCCION: CUARTO_SECUNDARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S054</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Fifth Year Secondary [NIVEL DE INSTRUCCION: QUINTO_SECUNDARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S055</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Sixth Year Secondary [NIVEL DE INSTRUCCION: SEXTO_SECUNDARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S056</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Some Secondary Schooling Completed [NIVEL DE INSTRUCCION: SECUNDARIA_NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S057</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: First Year Non-University Post Secondary [NIVEL DE INSTRUCCION: PRIMERO_SUPERIOR_NO_UNIV_]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S058</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Second Year Non-University Post Secondary [NIVEL DE INSTRUCCION: SEGUNDO_SUPERIOR_NO_UNIV_]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S059</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Third Year Non-University Post Secondary [NIVEL DE INSTRUCCION: TERCERO_SUPERIOR_NO_UNIV_]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S060</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Some Non-University Post Secondary Completed [NIVEL DE INSTRUCCION: SUPERIOR_NO_UNIV__NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S061</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: First Year University [NIVEL DE INSTRUCCION: PRIMERO_UNIVERSITARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S062</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Second Year University [NIVEL DE INSTRUCCION: SEGUNDO_UNIVERSITARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S063</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Third Year University [NIVEL DE INSTRUCCION: TERCERO_UNIVERSITARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S064</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Fourth Year University [NIVEL DE INSTRUCCION: CUARTO_UNIVERSITARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S065</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Fifth Year University [NIVEL DE INSTRUCCION: QUINTO_UNIVERSITARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S066</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Sixth Year University [NIVEL DE INSTRUCCION: SEXTO_UNIVERSITARIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S067</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Some University Completed [NIVEL DE INSTRUCCION: UNIVERSITARIA_NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S068</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Post Graduate Degree [NIVEL DE INSTRUCCION: POST_GRADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S069</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Some Post Graduate Completed [NIVEL DE INSTRUCCION: POST_GRADO_NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S070</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: First Year Masters [NIVEL DE INSTRUCCION: PRIMERO_MAESTRIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S071</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Second Year Masters [NIVEL DE INSTRUCCION: SEGUNDO_MAESTRIA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S072</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Some Masters Completed [NIVEL DE INSTRUCCION: MAESTRIA_NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S073</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: First Year Doctorate [NIVEL DE INSTRUCCION: PRIMERO_DOCTORADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S074</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Second Year Doctorate [NIVEL DE INSTRUCCION: SEGUNDO_DOCTORADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S075</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Third Year Doctorate [NIVEL DE INSTRUCCION: TERCERO_DOCTORADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S076</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Fourth Year Doctorate [NIVEL DE INSTRUCCION: CUARTO_DOCTORADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S077</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Some Doctorate Completed [NIVEL DE INSTRUCCION: DOCTORADO_NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S078</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Level Of Education Undeclared  [NIVEL DE INSTRUCCION: NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S079</attrlabl>
-      <attrdef>Highest Level Of Education Achieved: Number Of Responses [NIVEL DE INSTRUCCION: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S080</attrlabl>
-      <attrdef>Literacy: Literate [SABE LEER Y ESCRIBIR: SI]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S081</attrlabl>
-      <attrdef>Literacy: Illiterate [SABE LEER Y ESCRIBIR: NO_]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S082</attrlabl>
-      <attrdef>Literacy: Undeclared [SABE LEER Y ESCRIBIR: NO_DECLARADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S083</attrlabl>
-      <attrdef>Literacy: Number Of Responses [SABE LEER Y ESCRIBIR: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S084</attrlabl>
-      <attrdef>Persons Identification As Indigenous: Indigenous [CONDICION ETNICA: INDIGENA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S085</attrlabl>
-      <attrdef>Persons Identification As Indigenous: Nonindigenous [CONDICION ETNICA: NO_INDIGENA]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S086</attrlabl>
-      <attrdef>Persons Identification As Indigenous: Not Specified [CONDICION ETNICA: NO_ESPECIFICADO]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S087</attrlabl>
-      <attrdef>Persons Identification As Indigenous: Number Of Responses [CONDICION ETNICA: numero]</attrdef>
-      <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>country</attrlabl>
-      <attrdef>Country</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv>
-        <udom>Country where census took place as 3-digit ISO code</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>Year</attrlabl>
-      <attrdef>Year</attrdef>
-      <attrdefs>East View Geospatial Inc.</attrdefs>
-      <attrdomv/>
-    </attr>
-  </detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Panama_2000</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>Código</attrlabl>
+			<attrdef>Join_CODE [Código]</attrdef>
+			<attrdefs>National Insstitute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BARR_NOMB</attrlabl>
+			<attrdef>Barrio_Name</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a named value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LUPO_NOMB</attrlabl>
+			<attrdef>Lupo_Name</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a named value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LUPO_TIPO</attrlabl>
+			<attrdef>Lupo_Type</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a named value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM1</attrlabl>
+			<attrdef>ADM1 Coded Value</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM2</attrlabl>
+			<attrdef>ADM2 Coded Value</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM3</attrlabl>
+			<attrdef>ADM3 Coded Value</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM4</attrlabl>
+			<attrdef>ADM4 Coded Value</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM5</attrlabl>
+			<attrdef>ADM5 Coded Value</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S001</attrlabl>
+			<attrdef>Indiginous Group Head Of Household Belongs To: Kuna [GRUPO INDIGENA DEL JEFE DEL HOGAR: KUNA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S002</attrlabl>
+			<attrdef>Indiginous Group Head Of Household Belongs To: Nga-Be [GRUPO INDIGENA DEL JEFE DEL HOGAR: NGÃ-BE]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S003</attrlabl>
+			<attrdef>Indiginous Group Head Of Household Belongs To: Bugle [GRUPO INDIGENA DEL JEFE DEL HOGAR: BUGLE]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S004</attrlabl>
+			<attrdef>Indiginous Group Head Of Household Belongs To: Teribe [GRUPO INDIGENA DEL JEFE DEL HOGAR: TERIBE]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S005</attrlabl>
+			<attrdef>Indiginous Group Head Of Household Belongs To: Bokotá [GRUPO INDIGENA DEL JEFE DEL HOGAR: BOKOTA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S006</attrlabl>
+			<attrdef>Indiginous Group Head Of Household Belongs To: Embera [GRUPO INDIGENA DEL JEFE DEL HOGAR: EMBERA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S007</attrlabl>
+			<attrdef>Indiginous Group Head Of Household Belongs To: Wounaan [GRUPO INDIGENA DEL JEFE DEL HOGAR: WOUNAAN]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S008</attrlabl>
+			<attrdef>Indiginous Group Head Of Household Belongs To: Bri Bri [GRUPO INDIGENA DEL JEFE DEL HOGAR: BRI_BRI]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S009</attrlabl>
+			<attrdef>Indiginous Group Head Of Household Belongs To: None [GRUPO INDIGENA DEL JEFE DEL HOGAR: NINGUNO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S010</attrlabl>
+			<attrdef>Indiginous Group Head Of Household Belongs To: Undeclared [GRUPO INDIGENA DEL JEFE DEL HOGAR: NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S011</attrlabl>
+			<attrdef>Indiginous Group Head Of Household Belongs To: Number Of Responses [GRUPO INDIGENA DEL JEFE DEL HOGAR: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S012</attrlabl>
+			<attrdef>Disability: Blindness [IMPEDIMENTO FISICO: CEGUERA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S013</attrlabl>
+			<attrdef>Disability: Deafness [IMPEDIMENTO FISICO: SORDERA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S014</attrlabl>
+			<attrdef>Disability: Mental Disability [IMPEDIMENTO FISICO: RETRASO_MENTAL]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S015</attrlabl>
+			<attrdef>Disability: Paralisys Or Cerebral Palsy [IMPEDIMENTO FISICO: PARALISIS_CEREB_]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S016</attrlabl>
+			<attrdef>Disability: Physical Disability [IMPEDIMENTO FISICO: DEFICIENCIA_FISICA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S017</attrlabl>
+			<attrdef>Disability: Other [IMPEDIMENTO FISICO: OTRO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S018</attrlabl>
+			<attrdef>Disability: None [IMPEDIMENTO FISICO: NINGUNO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S019</attrlabl>
+			<attrdef>Disability: Undeclared [IMPEDIMENTO FISICO: NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S020</attrlabl>
+			<attrdef>Disability: Number Of Responses [IMPEDIMENTO FISICO: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S021</attrlabl>
+			<attrdef>Belongs To An Indigenous Group: Kuna [GRUPO INDIGENA: KUNA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S022</attrlabl>
+			<attrdef>Belongs To An Indigenous Group: Nga-Be [GRUPO INDIGENA: NGÃ-BE]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S023</attrlabl>
+			<attrdef>Belongs To An Indigenous Group: Bugle [GRUPO INDIGENA: BUGLE]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S024</attrlabl>
+			<attrdef>Belongs To An Indigenous Group: Teribe [GRUPO INDIGENA: TERIBE]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S025</attrlabl>
+			<attrdef>Belongs To An Indigenous Group: Bokotá [GRUPO INDIGENA: BOKOTA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S026</attrlabl>
+			<attrdef>Belongs To An Indigenous Group: Embera [GRUPO INDIGENA: EMBERA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S027</attrlabl>
+			<attrdef>Belongs To An Indigenous Group: Wounaan [GRUPO INDIGENA: WOUNAAN]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S028</attrlabl>
+			<attrdef>Belongs To An Indigenous Group: Bri Bri [GRUPO INDIGENA: BRI_BRI]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S029</attrlabl>
+			<attrdef>Belongs To An Indigenous Group: None [GRUPO INDIGENA: NINGUNO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S030</attrlabl>
+			<attrdef>Belongs To An Indigenous Group: Undeclared [GRUPO INDIGENA: NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S031</attrlabl>
+			<attrdef>Belongs To An Indigenous Group: Number Of Responses [GRUPO INDIGENA: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S032</attrlabl>
+			<attrdef>School Attendance: Attends School [ASISTE A LA ESCUELA: SI]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S033</attrlabl>
+			<attrdef>School Attendance: Does Not Attend School [ASISTE A LA ESCUELA: NO_]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S034</attrlabl>
+			<attrdef>School Attendance: Undeclared [ASISTE A LA ESCUELA: NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S035</attrlabl>
+			<attrdef>School Attendance: Number Of Responses [ASISTE A LA ESCUELA: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S036</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: No Schooling Achieved [NIVEL DE INSTRUCCION: NINGUN_GRADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S037</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Preschool [NIVEL DE INSTRUCCION: PRE_ESCOLAR]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S038</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Special Education [NIVEL DE INSTRUCCION: ENSEñANZA_ESPECIAL]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S039</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: First Year Primary [NIVEL DE INSTRUCCION: PRIMERO_PRIMARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S040</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Second Year Primary [NIVEL DE INSTRUCCION: SEGUNDO_PRIMARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S041</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Third Year Primary [NIVEL DE INSTRUCCION: TERCERO_PRIMARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S042</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Fourth Year Primary [NIVEL DE INSTRUCCION: CUARTO_PRIMARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S043</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Fifth Year Primary [NIVEL DE INSTRUCCION: QUINTO_PRIMARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S044</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Sixth Year Primary [NIVEL DE INSTRUCCION: SEXTO_PRIMARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S045</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Some Primary Schooling Completed [NIVEL DE INSTRUCCION: PRIMARIA_NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S046</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: First Year  Vocational [NIVEL DE INSTRUCCION: PRIMERO_VOCACIONAL]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S047</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Second Year Vocational [NIVEL DE INSTRUCCION: SEGUNDO_VOCACIONAL]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S048</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Third Year Vocational [NIVEL DE INSTRUCCION: TERCERO_VOCACIONAL]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S049</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Some Vocational Schooling Completed [NIVEL DE INSTRUCCION: VOCACIONAL_NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S050</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: First Year Secondary [NIVEL DE INSTRUCCION: PRIMERO_SECUNDARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S051</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Second Year Secondary [NIVEL DE INSTRUCCION: SEGUNDO_SECUNDARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S052</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Third Year Secondary [NIVEL DE INSTRUCCION: TERCERO_SECUNDARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S053</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Fourth Year Secondary [NIVEL DE INSTRUCCION: CUARTO_SECUNDARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S054</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Fifth Year Secondary [NIVEL DE INSTRUCCION: QUINTO_SECUNDARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S055</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Sixth Year Secondary [NIVEL DE INSTRUCCION: SEXTO_SECUNDARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S056</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Some Secondary Schooling Completed [NIVEL DE INSTRUCCION: SECUNDARIA_NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S057</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: First Year Non-University Post Secondary [NIVEL DE INSTRUCCION: PRIMERO_SUPERIOR_NO_UNIV_]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S058</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Second Year Non-University Post Secondary [NIVEL DE INSTRUCCION: SEGUNDO_SUPERIOR_NO_UNIV_]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S059</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Third Year Non-University Post Secondary [NIVEL DE INSTRUCCION: TERCERO_SUPERIOR_NO_UNIV_]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S060</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Some Non-University Post Secondary Completed [NIVEL DE INSTRUCCION: SUPERIOR_NO_UNIV__NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S061</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: First Year University [NIVEL DE INSTRUCCION: PRIMERO_UNIVERSITARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S062</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Second Year University [NIVEL DE INSTRUCCION: SEGUNDO_UNIVERSITARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S063</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Third Year University [NIVEL DE INSTRUCCION: TERCERO_UNIVERSITARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S064</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Fourth Year University [NIVEL DE INSTRUCCION: CUARTO_UNIVERSITARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S065</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Fifth Year University [NIVEL DE INSTRUCCION: QUINTO_UNIVERSITARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S066</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Sixth Year University [NIVEL DE INSTRUCCION: SEXTO_UNIVERSITARIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S067</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Some University Completed [NIVEL DE INSTRUCCION: UNIVERSITARIA_NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S068</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Post Graduate Degree [NIVEL DE INSTRUCCION: POST_GRADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S069</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Some Post Graduate Completed [NIVEL DE INSTRUCCION: POST_GRADO_NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S070</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: First Year Masters [NIVEL DE INSTRUCCION: PRIMERO_MAESTRIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S071</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Second Year Masters [NIVEL DE INSTRUCCION: SEGUNDO_MAESTRIA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S072</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Some Masters Completed [NIVEL DE INSTRUCCION: MAESTRIA_NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S073</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: First Year Doctorate [NIVEL DE INSTRUCCION: PRIMERO_DOCTORADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S074</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Second Year Doctorate [NIVEL DE INSTRUCCION: SEGUNDO_DOCTORADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S075</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Third Year Doctorate [NIVEL DE INSTRUCCION: TERCERO_DOCTORADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S076</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Fourth Year Doctorate [NIVEL DE INSTRUCCION: CUARTO_DOCTORADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S077</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Some Doctorate Completed [NIVEL DE INSTRUCCION: DOCTORADO_NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S078</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Level Of Education Undeclared  [NIVEL DE INSTRUCCION: NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S079</attrlabl>
+			<attrdef>Highest Level Of Education Achieved: Number Of Responses [NIVEL DE INSTRUCCION: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S080</attrlabl>
+			<attrdef>Literacy: Literate [SABE LEER Y ESCRIBIR: SI]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S081</attrlabl>
+			<attrdef>Literacy: Illiterate [SABE LEER Y ESCRIBIR: NO_]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S082</attrlabl>
+			<attrdef>Literacy: Undeclared [SABE LEER Y ESCRIBIR: NO_DECLARADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S083</attrlabl>
+			<attrdef>Literacy: Number Of Responses [SABE LEER Y ESCRIBIR: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S084</attrlabl>
+			<attrdef>Persons Identification As Indigenous: Indigenous [CONDICION ETNICA: INDIGENA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S085</attrlabl>
+			<attrdef>Persons Identification As Indigenous: Nonindigenous [CONDICION ETNICA: NO_INDIGENA]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S086</attrlabl>
+			<attrdef>Persons Identification As Indigenous: Not Specified [CONDICION ETNICA: NO_ESPECIFICADO]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S087</attrlabl>
+			<attrdef>Persons Identification As Indigenous: Number Of Responses [CONDICION ETNICA: numero]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2000 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2000]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Year</attrlabl>
+			<attrdef>Year</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv/>
+		</attr>
+	</detailed>
 </eainfo>
 
-<metainfo>
-<metd>20220801</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-</metainfo>
-
 <distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_panama_social_2000</resdesc>
-<distrib>
-</distrib>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_panama_social_2000</resdesc>
+	<distrib>
+	</distrib>
 </distinfo>
+
+<metainfo>
+	<metd>20220801</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<metadata xml:lang="en"><idinfo>
+<metadata xml:lang="en">
+	<idinfo>
 		<citation>
 			<citeinfo>
 				<origin>New York (N.Y.). Department of City Planning</origin>
@@ -31,11 +32,11 @@
 		</status>
 		<spdom>
 			<bounding>
-<westbc>-74.257061</westbc>
-<eastbc>-73.699273</eastbc>
-<northbc>40.915087</northbc>
-<southbc>40.498294</southbc>
-</bounding>
+				<westbc>-74.257061</westbc>
+				<eastbc>-73.699273</eastbc>
+				<northbc>40.915087</northbc>
+				<southbc>40.498294</southbc>
+			</bounding>
 		</spdom>
 		<keywords>
 			<theme>
@@ -48,24 +49,24 @@
 				<themekt>ISO 19115 Topic Category</themekt>
 				<themekey>boundaries</themekey>
 				<themekey>society</themekey>
-				</theme>
+			</theme>
 			<place>
 				<placekt>GeoNames</placekt>
 				<placekey>New York City (5128581)</placekey>
 			</place>
 			<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>New York (N.Y.)</placekey>
-<placekey>Brooklyn (New York, N.Y.)</placekey>
-<placekey>Bronx (New York, N.Y.)</placekey>
-<placekey>Queens (New York, N.Y.)</placekey>
-<placekey>Manhattan (New York, N.Y.)</placekey>
-<placekey>Staten Island (New York, N.Y.)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>NYC</placekey>
-</place>
+				<placekt>Library of Congress Subject Headings</placekt>
+				<placekey>New York (N.Y.)</placekey>
+				<placekey>Brooklyn (New York, N.Y.)</placekey>
+				<placekey>Bronx (New York, N.Y.)</placekey>
+				<placekey>Queens (New York, N.Y.)</placekey>
+				<placekey>Manhattan (New York, N.Y.)</placekey>
+				<placekey>Staten Island (New York, N.Y.)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>NYC</placekey>
+			</place>
 			<temporal>
 				<tempkt>None</tempkt>
 				<tempkey>2000</tempkey>
@@ -75,178 +76,178 @@
 		<useconst>None</useconst>
 	</idinfo>
 	<dataqual>
-<lineage>
-<procstep>
-<procdate>2014</procdate>
-<procdesc>
+		<lineage>
+			<procstep>
+				<procdate>2014</procdate>
+				<procdesc>
 Data Service staf used bytes nyc 2000 census projection areas Excel file with 2000 tract and 2000 puma info joined with the 14c bytes 2000 clipped tract boundaries dissolved on puma variable
-</procdesc>
-</procstep>
-</lineage>
-</dataqual>
+				</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+
+	<spdoinfo>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>55</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+		<direct>Vector</direct>
+	</spdoinfo>
 
 
-<spref>
-<horizsys>
-<planar>
-<gridsys>
-<gridsysn>State Plane Coordinate System</gridsysn>
-<spcs>
-<spcszone>3104</spcszone>
-<lambertc>
-<stdparll>40.67791667</stdparll>
-<stdparll>41.03333333</stdparll>
-<longcm>-74</longcm>
-<latprjo>40.16666667</latprjo>
-<feast>984251.97</feast>
-<fnorth>0</fnorth>
-</lambertc>
-</spcs>
-</gridsys>
-<planci>
-<plance>coordinate pair</plance>
-<coordrep>
-<absres>0.00001</absres>
-<ordres>0.00001</ordres>
-</coordrep>
-<plandu>feet</plandu>
-</planci>
-</planar>
-<geodetic>
-<horizdn>North American Datum of 1983</horizdn>
-<ellips>Geodetic Reference System 1980</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257222</denflat>
-</geodetic>
-</horizsys>
-</spref>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>State Plane Coordinate System</gridsysn>
+					<spcs>
+						<spcszone>3104</spcszone>
+						<lambertc>
+							<stdparll>40.67791667</stdparll>
+							<stdparll>41.03333333</stdparll>
+							<longcm>-74</longcm>
+							<latprjo>40.16666667</latprjo>
+							<feast>984251.97</feast>
+							<fnorth>0</fnorth>
+						</lambertc>
+					</spcs>
+				</gridsys>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.00001</absres>
+						<ordres>0.00001</ordres>
+					</coordrep>
+					<plandu>feet</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 1980</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
 
-<spdoinfo>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-<ptvctcnt>55</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-<direct>Vector</direct>
-</spdoinfo>
+	<eainfo>
+		<detailed Name="nyc_puma_dissolve">
+			<enttyp>
+				<enttypl>nyc_puma_dissolve</enttypl>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>0</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attalias>Shape</attalias>
+				<attrtype>Geometry</attrtype>
+				<attwidth>0</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BoroCode</attrlabl>
+				<attalias>BoroCode</attalias>
+				<attrdef>Borough Code</attrdef>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>BoroName</attrlabl>
+				<attalias>BoroName</attalias>
+				<attrdef>Borough Name</attrdef>
+				<attrtype>String</attrtype>
+				<attwidth>32</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>CntyFIPS</attrlabl>
+				<attalias>CntyFIPS</attalias>
+				<attrdef>County FIPS code</attrdef>
+				<attrtype>String</attrtype>
+				<attwidth>254</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PUMA00</attrlabl>
+				<attalias>PUMA00</attalias>
+				<attrdef>PUMA code</attrdef>
+				<attrtype>String</attrtype>
+				<attwidth>254</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
 
-<eainfo>
-<detailed Name="nyc_puma_dissolve">
-<enttyp>
-<enttypl>nyc_puma_dissolve</enttypl>
-<enttypt>Feature Class</enttypt>
-<enttypc>0</enttypc>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attalias>FID</attalias>
-<attrtype>OID</attrtype>
-<attwidth>4</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>Esri</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attalias>Shape</attalias>
-<attrtype>Geometry</attrtype>
-<attwidth>0</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>Esri</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>BoroCode</attrlabl>
-<attalias>BoroCode</attalias>
-<attrdef>Borough Code</attrdef>
-<attrtype>String</attrtype>
-<attwidth>1</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>BoroName</attrlabl>
-<attalias>BoroName</attalias>
-<attrdef>Borough Name</attrdef>
-<attrtype>String</attrtype>
-<attwidth>32</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>CntyFIPS</attrlabl>
-<attalias>CntyFIPS</attalias>
-<attrdef>County FIPS code</attrdef>
-<attrtype>String</attrtype>
-<attwidth>254</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>PUMA00</attrlabl>
-<attalias>PUMA00</attalias>
-<attrdef>PUMA code</attrdef>
-<attrtype>String</attrtype>
-<attwidth>254</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-</detailed>
-</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NYC Department of City Planning</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>22 Reade St</address>
+					<city>New York</city>
+					<state>New York</state>
+					<postal>10007</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntinst>Available at the following website: http://www.nyc.gov/html/dcp/html/bytes/applbyte.html</cntinst>
+				<cntvoice>212.720.3505</cntvoice>
+			</cntinfo>
+		</distrib>
+		<resdesc>nycp_nyc_2000_puma</resdesc>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<address>420 W. 118th St., 215 IAB, MC 3301</address>
+					<addrtype>mailing and physical address</addrtype>
+					<address>MS-561</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntperp>
+					<cntper>GIS/Metadata Librarian</cntper>
+					<cntorg>Research Data Services (RDS)</cntorg>
+				</cntperp>
 
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>NYC Department of City Planning</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>22 Reade St</address>
-<city>New York</city>
-<state>New York</state>
-<postal>10007</postal>
-<country>USA</country>
-</cntaddr>
-<cntinst>Available at the following website: http://www.nyc.gov/html/dcp/html/bytes/applbyte.html</cntinst>
-<cntvoice>212.720.3505</cntvoice>
-</cntinfo>
-</distrib>
-<resdesc>nycp_nyc_2000_puma</resdesc>
-</distinfo>
-<metainfo>
-<metc>
-<cntinfo>
-<cntaddr>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<addrtype>mailing and physical address</addrtype>
-<address>MS-561</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntperp>
-<cntper>GIS/Metadata Librarian</cntper>
-<cntorg>Research Data Services (RDS)</cntorg>
-</cntperp>
-
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metd>20170713</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<metsi>
-<metsc>Unclassified</metsc>
-</metsi>
-</metainfo>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metd>20170713</metd>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+	</metainfo>
 </metadata>

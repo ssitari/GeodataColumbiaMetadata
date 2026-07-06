@@ -21,7 +21,10 @@
 		</descript>
 		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2008</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2008</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>ground condition</current>
 		</timeperd>
 		<status>
@@ -32,81 +35,81 @@
 			<bounding>
 				<westbc>
 -74.256358</westbc>
-				<eastbc>
+					<eastbc>
 -73.701149</eastbc>
-				<northbc>
+						<northbc>
 40.913261</northbc>
-				<southbc>
+							<southbc>
 40.494032</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>structure</themekey>
-				<themekey>society</themekey>
-			</theme>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>Facilities</themekey>
-				<themekey>Program Sites</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>New York City (5128581)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>New York (N.Y.)</placekey>
-				<placekey>Brooklyn (New York, N.Y.)</placekey>
-				<placekey>Bronx (New York, N.Y.)</placekey>
-				<placekey>Queens (New York, N.Y.)</placekey>
-				<placekey>Staten Island (New York, N.Y.)</placekey>
-				<placekey>Manhattan (New York, N.Y.)</placekey>
-			</place>
-			<place>
-				<placekt>None</placekt>
-				<placekey>NYC</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2009</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>None</accconst>
-		<useconst>None</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>NYC Department of City Planning</cntorg>
-					<cntper>BYTES of the BIG APPLE Coordinator</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>22 Reade St, 5N</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10007</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>212.720.3505</cntvoice>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/nyc_facilities.jpg</browsen>
-			<browsed>Thumbnail Image</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
-	</idinfo>
-	<dataqual>
-		<posacc>
-			<horizpa>
-				<horizpar>Certain records of properties along the water contain X and Y coordinates  of tax lots that extend into the water. Symbols created using these X and Y coordinates may be placed in the water on the map.</horizpar>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<procstep>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>structure</themekey>
+								<themekey>society</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Facilities</themekey>
+								<themekey>Program Sites</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>New York City (5128581)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>New York (N.Y.)</placekey>
+								<placekey>Brooklyn (New York, N.Y.)</placekey>
+								<placekey>Bronx (New York, N.Y.)</placekey>
+								<placekey>Queens (New York, N.Y.)</placekey>
+								<placekey>Staten Island (New York, N.Y.)</placekey>
+								<placekey>Manhattan (New York, N.Y.)</placekey>
+							</place>
+							<place>
+								<placekt>None</placekt>
+								<placekey>NYC</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2009</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>None</accconst>
+						<useconst>None</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>NYC Department of City Planning</cntorg>
+									<cntper>BYTES of the BIG APPLE Coordinator</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>22 Reade St, 5N</address>
+									<city>New York</city>
+									<state>NY</state>
+									<postal>10007</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>212.720.3505</cntvoice>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/nyc_facilities.jpg</browsen>
+							<browsed>Thumbnail Image</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
+					</idinfo>
+					<dataqual>
+						<posacc>
+							<horizpa>
+								<horizpar>Certain records of properties along the water contain X and Y coordinates  of tax lots that extend into the water. Symbols created using these X and Y coordinates may be placed in the water on the map.</horizpar>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<procstep>
 				<procdesc>Data was compiled from the following sources for the following dates:
 
 Schools
@@ -176,1189 +179,1189 @@ these four records are derived from the approximate center points of the four re
 sections. Certain parkland properties which are located on multiple tax lots or multiple parcels
 not coded with tax lots are listed as multiple records in the database with multiple X and Y
 coordinates.</procdesc>
-				<procdate>2005-2008</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>Research Data Services (RDS) staff projected the facility tables based on the included XY values and created a geopackage</procdesc>
-				<procdate>2009</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>Entity point</sdtstype>
-				<ptvctcnt>18700</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<planar>
-				<mapproj>
-					<mapprojn>Lambert Conformal Conic</mapprojn>
-					<lambertc>
-						<stdparll>40.666667</stdparll>
-						<stdparll>41.033333</stdparll>
-						<longcm>-74.000000</longcm>
-						<latprjo>40.166667</latprjo>
-						<feast>984250.000000</feast>
-						<fnorth>0.000000</fnorth>
-					</lambertc>
-				</mapproj>
-				<planci>
-					<plance>coordinate pair</plance>
-					<coordrep>
-						<absres>0.000000</absres>
-						<ordres>0.000000</ordres>
-					</coordrep>
-					<plandu>survey feet</plandu>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>North American Datum of 1983</horizdn>
-				<ellips>Geodetic Reference System 80</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257222</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+								<procdate>2005-2008</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>Research Data Services (RDS) staff projected the facility tables based on the included XY values and created a geopackage</procdesc>
+								<procdate>2009</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>Entity point</sdtstype>
+								<ptvctcnt>18700</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<planar>
+								<mapproj>
+									<mapprojn>Lambert Conformal Conic</mapprojn>
+									<lambertc>
+										<stdparll>40.666667</stdparll>
+										<stdparll>41.033333</stdparll>
+										<longcm>-74.000000</longcm>
+										<latprjo>40.166667</latprjo>
+										<feast>984250.000000</feast>
+										<fnorth>0.000000</fnorth>
+									</lambertc>
+								</mapproj>
+								<planci>
+									<plance>coordinate pair</plance>
+									<coordrep>
+										<absres>0.000000</absres>
+										<ordres>0.000000</ordres>
+									</coordrep>
+									<plandu>survey feet</plandu>
+								</planci>
+							</planar>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 nyc_facilities</enttypl>
-				<enttypd>Facilities</enttypd>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>ID</attrlabl>
-				<attrdef>A unique identification number assigned to each facility, program, or parkland</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>BORO</attrlabl>
-				<attrdef>The borough in which the facility is located</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>Manhattan</edomvd>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>Bronx</edomvd>
-					</edom>
-					<edom>
-						<edomv>3</edomv>
-						<edomvd>Brooklyn</edomvd>
-					</edom>
-					<edom>
-						<edomv>4</edomv>
-						<edomvd>Queens</edomvd>
-					</edom>
-					<edom>
-						<edomv>5</edomv>
-						<edomvd>Staten Island</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>BOROUGH</attrlabl>
-				<attrdef>The two character borough abbreviation identifying the borough in which the facility is</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>MN</edomv>
-						<edomvd>Manhattan</edomvd>
-					</edom>
-					<edom>
-						<edomv>BX</edomv>
-						<edomvd>Bronx</edomvd>
-					</edom>
-					<edom>
-						<edomv>BK</edomv>
-						<edomvd>Brooklyn</edomvd>
-					</edom>
-					<edom>
-						<edomv>QN</edomv>
-						<edomvd>Queens</edomvd>
-					</edom>
-					<edom>
-						<edomv>SI</edomv>
-						<edomvd>Staten Island</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CD</attrlabl>
-				<attrdef>The community district or joint interest area of the facility.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>CD_DECODE</attrlabl>
-				<attrdef>A string of text specifying the borough and community district or joint interest area</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>BLOCK</attrlabl>
-				<attrdef>The tax block of the facility.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>LOT</attrlabl>
-				<attrdef>The tax lot of the facility.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>FACILITY_N</attrlabl>
-				<attrdef>The facility name</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>FACILITY_A</attrlabl>
-				<attrdef>Address</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>ZIP</attrlabl>
-				<attrdef>The five character Zip Code associated with the facility's address.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>FAC_TYPE</attrlabl>
-				<attrdef>A code identifying the specific type of facility or program</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>1001</edomv>
-						<edomvd>Elementary School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1011</edomv>
-						<edomvd>Elementary School - Charter</edomvd>
-					</edom>
-					<edom>
-						<edomv>1002</edomv>
-						<edomvd>Middle School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1012</edomv>
-						<edomvd>K-8 School - Charter</edomvd>
-					</edom>
-					<edom>
-						<edomv>1003</edomv>
-						<edomvd>Intermediate/Junior High School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1013</edomv>
-						<edomvd>Intermediate/Junior High School - Charter</edomvd>
-					</edom>
-					<edom>
-						<edomv>1004</edomv>
-						<edomvd>Junior/Senior High School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1014</edomv>
-						<edomvd>Junior/Senior High School - Charter</edomvd>
-					</edom>
-					<edom>
-						<edomv>1005</edomv>
-						<edomvd>High School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1015</edomv>
-						<edomvd>High School - Charter</edomvd>
-					</edom>
-					<edom>
-						<edomv>1006</edomv>
-						<edomvd>K-12 School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1016</edomv>
-						<edomvd>K-12 School - Charter</edomvd>
-					</edom>
-					<edom>
-						<edomv>1007</edomv>
-						<edomvd>Special School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1099</edomv>
-						<edomvd>Other School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1101</edomv>
-						<edomvd>Elementary School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1102</edomv>
-						<edomvd>Middle School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1103</edomv>
-						<edomvd>Junior High School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1104</edomv>
-						<edomvd>Junior/Senior High School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1105</edomv>
-						<edomvd>Senior High School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1106</edomv>
-						<edomvd>K-12 School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1107</edomv>
-						<edomvd>Special School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1199</edomv>
-						<edomvd>Other School</edomvd>
-					</edom>
-					<edom>
-						<edomv>1201</edomv>
-						<edomvd>SUNY</edomvd>
-					</edom>
-					<edom>
-						<edomv>1202</edomv>
-						<edomvd>CUNY</edomvd>
-					</edom>
-					<edom>
-						<edomv>1203</edomv>
-						<edomvd>Independent</edomvd>
-					</edom>
-					<edom>
-						<edomv>1204</edomv>
-						<edomvd>Proprietary</edomvd>
-					</edom>
-					<edom>
-						<edomv>1401</edomv>
-						<edomvd>Library - Public</edomvd>
-					</edom>
-					<edom>
-						<edomv>1402</edomv>
-						<edomvd>Central Library - Public</edomvd>
-					</edom>
-					<edom>
-						<edomv>1501</edomv>
-						<edomvd>Park/Playground</edomvd>
-					</edom>
-					<edom>
-						<edomv>1511</edomv>
-						<edomvd>Pool, Gymnasium, Golf Course, Recreation Area</edomvd>
-					</edom>
-					<edom>
-						<edomv>1521</edomv>
-						<edomvd>Triangle, Mall, Strip, Sitting area</edomvd>
-					</edom>
-					<edom>
-						<edomv>1531</edomv>
-						<edomvd>Beach, Garden, Natural Area, Other</edomvd>
-					</edom>
-					<edom>
-						<edomv>1541</edomv>
-						<edomvd>Joint NYCDOT/DPR Landscaped Area</edomvd>
-					</edom>
-					<edom>
-						<edomv>1551</edomv>
-						<edomvd>State Park</edomvd>
-					</edom>
-					<edom>
-						<edomv>1552</edomv>
-						<edomvd>State Open Space Preserve</edomvd>
-					</edom>
-					<edom>
-						<edomv>1561</edomv>
-						<edomvd>National Park</edomvd>
-					</edom>
-					<edom>
-						<edomv>1601</edomv>
-						<edomvd>NYC Cultural Institution</edomvd>
-					</edom>
-					<edom>
-						<edomv>2001</edomv>
-						<edomvd>Police Station</edomvd>
-					</edom>
-					<edom>
-						<edomv>2002</edomv>
-						<edomvd>Other NYPD Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>2011</edomv>
-						<edomvd>NYCHA Police Service Area</edomvd>
-					</edom>
-					<edom>
-						<edomv>2101</edomv>
-						<edomvd>Fire House</edomvd>
-					</edom>
-					<edom>
-						<edomv>2102</edomv>
-						<edomvd>EMS (Emergency Medical Service)</edomvd>
-					</edom>
-					<edom>
-						<edomv>2103</edomv>
-						<edomvd>Fire Dept. Training Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>2104</edomv>
-						<edomvd>Other Fire Department Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>2401</edomv>
-						<edomvd>Federal Court</edomvd>
-					</edom>
-					<edom>
-						<edomv>2402</edomv>
-						<edomvd>State/City Court</edomvd>
-					</edom>
-					<edom>
-						<edomv>2501</edomv>
-						<edomvd>NYS Correctional Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>2511</edomv>
-						<edomvd>Federal Correctional Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>2521</edomv>
-						<edomvd>City Correctional Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>2531</edomv>
-						<edomvd>OCFS Limited Secure Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>2532</edomv>
-						<edomvd>Secure Detention Facility - Juvenile</edomvd>
-					</edom>
-					<edom>
-						<edomv>2533</edomv>
-						<edomvd>OCFS Non-Secure Non-Community-Based Residence</edomvd>
-					</edom>
-					<edom>
-						<edomv>2534</edomv>
-						<edomvd>OCFS Non-Secure Community-Based Residence</edomvd>
-					</edom>
-					<edom>
-						<edomv>2536</edomv>
-						<edomvd>Juvenile Non-Secure Detention Group Home</edomvd>
-					</edom>
-					<edom>
-						<edomv>2537</edomv>
-						<edomvd>OCFS Reception Center (14-day stay)</edomvd>
-					</edom>
-					<edom>
-						<edomv>2601</edomv>
-						<edomvd>OCFS Evening Reporting Center</edomvd>
-					</edom>
-					<edom>
-						<edomv>2602</edomv>
-						<edomvd>OCFS Day Treatment Program</edomvd>
-					</edom>
-					<edom>
-						<edomv>3001</edomv>
-						<edomvd>Nursing Home</edomvd>
-					</edom>
-					<edom>
-						<edomv>3101</edomv>
-						<edomvd>Hospital</edomvd>
-					</edom>
-					<edom>
-						<edomv>3201</edomv>
-						<edomvd>Free-Standing Health Center</edomvd>
-					</edom>
-					<edom>
-						<edomv>3202</edomv>
-						<edomvd>Hospital Affiliated Health Center</edomvd>
-					</edom>
-					<edom>
-						<edomv>3203</edomv>
-						<edomvd>Dialysis Center</edomvd>
-					</edom>
-					<edom>
-						<edomv>3204</edomv>
-						<edomvd>HHC Network Child Health Clinic</edomvd>
-					</edom>
-					<edom>
-						<edomv>3205</edomv>
-						<edomvd>HHC Network School Based Health Center</edomvd>
-					</edom>
-					<edom>
-						<edomv>3206</edomv>
-						<edomvd>HHC Network Communicare</edomvd>
-					</edom>
-					<edom>
-						<edomv>3207</edomv>
-						<edomvd>HHC Network Extension Clinic</edomvd>
-					</edom>
-					<edom>
-						<edomv>3208</edomv>
-						<edomvd>HHC Network Oral Health Center</edomvd>
-					</edom>
-					<edom>
-						<edomv>3209</edomv>
-						<edomvd>HHC Network Diagnostic &amp; Treatment Center</edomvd>
-					</edom>
-					<edom>
-						<edomv>3301</edomv>
-						<edomvd>Inpatient Detox/Withdrawal - Alcoholism</edomvd>
-					</edom>
-					<edom>
-						<edomv>3302</edomv>
-						<edomvd>Halfway House - Alcoholism</edomvd>
-					</edom>
-					<edom>
-						<edomv>3303</edomv>
-						<edomvd>Alcohol Crisis Center</edomvd>
-					</edom>
-					<edom>
-						<edomv>3304</edomv>
-						<edomvd>Inpatient Rehabilitation - Alcoholism</edomvd>
-					</edom>
-					<edom>
-						<edomv>3305</edomv>
-						<edomvd>Alcoholism Supportive Living</edomvd>
-					</edom>
-					<edom>
-						<edomv>3306</edomv>
-						<edomvd>Alcoholism Supportive Living</edomvd>
-					</edom>
-					<edom>
-						<edomv>3311</edomv>
-						<edomvd>Residential Detox Facility - Substance Abuse</edomvd>
-					</edom>
-					<edom>
-						<edomv>3312</edomv>
-						<edomvd>Residential Methadone Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>3313</edomv>
-						<edomvd>Residential Drug-Free Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>3315</edomv>
-						<edomvd>Hospital-Based Detox/Rehab - Substance Abuse</edomvd>
-					</edom>
-					<edom>
-						<edomv>3401</edomv>
-						<edomvd>Medically Supervised Chemical Dependency Outpatient Service</edomvd>
-					</edom>
-					<edom>
-						<edomv>3402</edomv>
-						<edomvd>Medically Supervised Chemical Dependency Crisis Service</edomvd>
-					</edom>
-					<edom>
-						<edomv>3403</edomv>
-						<edomvd>Outpatient Chemical Dependency Program for Youth</edomvd>
-					</edom>
-					<edom>
-						<edomv>3404</edomv>
-						<edomvd>Chemical Dependency Outpatient Rehabilitation Service</edomvd>
-					</edom>
-					<edom>
-						<edomv>3405</edomv>
-						<edomvd>Non-Medically Supervised Chemical Dependency Day Service</edomvd>
-					</edom>
-					<edom>
-						<edomv>3406</edomv>
-						<edomvd>Non-Medically Supervised Chemical Dependency Outpatient Service</edomvd>
-					</edom>
-					<edom>
-						<edomv>3407</edomv>
-						<edomvd>Medically Supervised Outpatient Rehabilitation Service</edomvd>
-					</edom>
-					<edom>
-						<edomv>3408</edomv>
-						<edomvd>Limited Outpatient Methadone Treatment Clinic</edomvd>
-					</edom>
-					<edom>
-						<edomv>3409</edomv>
-						<edomvd>Methadone to Abstinence Outpatient</edomvd>
-					</edom>
-					<edom>
-						<edomv>3410</edomv>
-						<edomvd>Methadone Treatment Clinic</edomvd>
-					</edom>
-					<edom>
-						<edomv>3411</edomv>
-						<edomvd>Drug-Free Outpatient Services</edomvd>
-					</edom>
-					<edom>
-						<edomv>3412</edomv>
-						<edomvd>Outpatient Alcoholism Clinic</edomvd>
-					</edom>
-					<edom>
-						<edomv>3413</edomv>
-						<edomvd>Vocational Rehabilitation</edomvd>
-					</edom>
-					<edom>
-						<edomv>3501</edomv>
-						<edomvd>Residential Care Center for Adults</edomvd>
-					</edom>
-					<edom>
-						<edomv>3502</edomv>
-						<edomvd>Children and Youth Community Residence</edomvd>
-					</edom>
-					<edom>
-						<edomv>3503</edomv>
-						<edomvd>Supervised Community Residence</edomvd>
-					</edom>
-					<edom>
-						<edomv>3504</edomv>
-						<edomvd>Supportive Community Residence</edomvd>
-					</edom>
-					<edom>
-						<edomv>3505</edomv>
-						<edomvd>Respite Care</edomvd>
-					</edom>
-					<edom>
-						<edomv>3506</edomv>
-						<edomvd>Crisis Residence</edomvd>
-					</edom>
-					<edom>
-						<edomv>3507</edomv>
-						<edomvd>Congregate Supportive SRO Residence</edomvd>
-					</edom>
-					<edom>
-						<edomv>3511</edomv>
-						<edomvd>Hospital-Based Care</edomvd>
-					</edom>
-					<edom>
-						<edomv>3512</edomv>
-						<edomvd>State Operated Psychiatric Center</edomvd>
-					</edom>
-					<edom>
-						<edomv>3602</edomv>
-						<edomvd>Clinic Under 587</edomvd>
-					</edom>
-					<edom>
-						<edomv>3603</edomv>
-						<edomvd>Day Treatment</edomvd>
-					</edom>
-					<edom>
-						<edomv>3605</edomv>
-						<edomvd>Continuing Day Treatment</edomvd>
-					</edom>
-					<edom>
-						<edomv>3606</edomv>
-						<edomvd>Intensive Psychiatric Rehabilitation</edomvd>
-					</edom>
-					<edom>
-						<edomv>3607</edomv>
-						<edomvd>Comprehensive Psychiatric Emergency Program</edomvd>
-					</edom>
-					<edom>
-						<edomv>3609</edomv>
-						<edomvd>Clinic Treatment</edomvd>
-					</edom>
-					<edom>
-						<edomv>3610</edomv>
-						<edomvd>School-Based Mental Health Program</edomvd>
-					</edom>
-					<edom>
-						<edomv>3611</edomv>
-						<edomvd>Partial Hospitalization</edomvd>
-					</edom>
-					<edom>
-						<edomv>3622</edomv>
-						<edomvd>Vocational/Social Training</edomvd>
-					</edom>
-					<edom>
-						<edomv>3623</edomv>
-						<edomvd>Day Training/Workshop</edomvd>
-					</edom>
-					<edom>
-						<edomv>3624</edomv>
-						<edomvd>Vocational Rehabilitation</edomvd>
-					</edom>
-					<edom>
-						<edomv>3627</edomv>
-						<edomvd>Assertive Community Treatment</edomvd>
-					</edom>
-					<edom>
-						<edomv>3701</edomv>
-						<edomvd>Intermediate Care Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>3702</edomv>
-						<edomvd>Supervised Community Residence</edomvd>
-					</edom>
-					<edom>
-						<edomv>3703</edomv>
-						<edomvd>Supportive Community Residence</edomvd>
-					</edom>
-					<edom>
-						<edomv>3704</edomv>
-						<edomvd>Individualized Residential Alternative</edomvd>
-					</edom>
-					<edom>
-						<edomv>3711</edomv>
-						<edomvd>Hospital-Based Care</edomvd>
-					</edom>
-					<edom>
-						<edomv>3801</edomv>
-						<edomvd>Day Treatment</edomvd>
-					</edom>
-					<edom>
-						<edomv>3802</edomv>
-						<edomvd>Day Training</edomvd>
-					</edom>
-					<edom>
-						<edomv>3804</edomv>
-						<edomvd>Clinic Treatment</edomvd>
-					</edom>
-					<edom>
-						<edomv>3805</edomv>
-						<edomvd>Day Training - Preschool Program</edomvd>
-					</edom>
-					<edom>
-						<edomv>3808</edomv>
-						<edomvd>Day Rehabilitation</edomvd>
-					</edom>
-					<edom>
-						<edomv>3810</edomv>
-						<edomvd>Day Training - Client Education</edomvd>
-					</edom>
-					<edom>
-						<edomv>3811</edomv>
-						<edomvd>Day Training/Workshop</edomvd>
-					</edom>
-					<edom>
-						<edomv>3812</edomv>
-						<edomvd>Supported/Transitional Employment</edomvd>
-					</edom>
-					<edom>
-						<edomv>3813</edomv>
-						<edomvd>Social Adult Day Care</edomvd>
-					</edom>
-					<edom>
-						<edomv>4011</edomv>
-						<edomvd>Foster Institution</edomvd>
-					</edom>
-					<edom>
-						<edomv>4012</edomv>
-						<edomvd>Group Foster Residence</edomvd>
-					</edom>
-					<edom>
-						<edomv>4013</edomv>
-						<edomvd>Group Foster Home</edomvd>
-					</edom>
-					<edom>
-						<edomv>4014</edomv>
-						<edomvd>Agency Operated Boarding Home</edomvd>
-					</edom>
-					<edom>
-						<edomv>4101</edomv>
-						<edomvd>Public Group Day Care</edomvd>
-					</edom>
-					<edom>
-						<edomv>4102</edomv>
-						<edomvd>Private Group Day Care</edomvd>
-					</edom>
-					<edom>
-						<edomv>4103</edomv>
-						<edomvd>Corporate Group Day Care</edomvd>
-					</edom>
-					<edom>
-						<edomv>4104</edomv>
-						<edomvd>Public Head Start Center</edomvd>
-					</edom>
-					<edom>
-						<edomv>4105</edomv>
-						<edomvd>Private Head Start Center</edomvd>
-					</edom>
-					<edom>
-						<edomv>4301</edomv>
-						<edomvd>Home for Adults</edomvd>
-					</edom>
-					<edom>
-						<edomv>4310</edomv>
-						<edomvd>DHS-Contracted Supportive SRO Housing</edomvd>
-					</edom>
-					<edom>
-						<edomv>4341</edomv>
-						<edomvd>DHS-Contracted City-Owned SRO Housing</edomvd>
-					</edom>
-					<edom>
-						<edomv>4343</edomv>
-						<edomvd>HPD-Assisted Supportive Housing - Adults</edomvd>
-					</edom>
-					<edom>
-						<edomv>4344</edomv>
-						<edomvd>HPD-Assisted Supportive Housing - Families</edomvd>
-					</edom>
-					<edom>
-						<edomv>4401</edomv>
-						<edomvd>Shelter For Singles - DHS Contracted</edomvd>
-					</edom>
-					<edom>
-						<edomv>4402</edomv>
-						<edomvd>Shelter For Singles - DHS Referral</edomvd>
-					</edom>
-					<edom>
-						<edomv>4411</edomv>
-						<edomvd>Family Homeless Facility - DHS Contracted</edomvd>
-					</edom>
-					<edom>
-						<edomv>4412</edomv>
-						<edomvd>Family Homeless Facility - DHS Referral</edomvd>
-					</edom>
-					<edom>
-						<edomv>4501</edomv>
-						<edomvd>Family Homeless Facility - DHS Referral</edomvd>
-					</edom>
-					<edom>
-						<edomv>4901</edomv>
-						<edomvd>Soup Kitchen</edomvd>
-					</edom>
-					<edom>
-						<edomv>4902</edomv>
-						<edomvd>Food Pantry</edomvd>
-					</edom>
-					<edom>
-						<edomv>4903</edomv>
-						<edomvd>Joint Soup Kitchen &amp; Food Pantry</edomvd>
-					</edom>
-					<edom>
-						<edomv>4904</edomv>
-						<edomvd>Drop-In Center (Homeless Facility)</edomvd>
-					</edom>
-					<edom>
-						<edomv>4905</edomv>
-						<edomvd>Emergency Assistance Unit (Homeless Facility)</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>GROUP_TYPE</attrlabl>
-				<attrdef>A code identifying an entire category of the facility types</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>01</edomv>
-						<edomvd>School</edomvd>
-					</edom>
-					<edom>
-						<edomv>02</edomv>
-						<edomvd>Recreational or Cultural</edomvd>
-					</edom>
-					<edom>
-						<edomv>03</edomv>
-						<edomvd>Public Safety or Criminal Justice</edomvd>
-					</edom>
-					<edom>
-						<edomv>04</edomv>
-						<edomvd>Hospital/Nursing Home or Ambulatory Program</edomvd>
-					</edom>
-					<edom>
-						<edomv>05</edomv>
-						<edomvd>Alcoholism or Substance Service</edomvd>
-					</edom>
-					<edom>
-						<edomv>06</edomv>
-						<edomvd>Mental Health Service</edomvd>
-					</edom>
-					<edom>
-						<edomv>07</edomv>
-						<edomvd>Mental Retardation or Developmental Disabilities Service</edomvd>
-					</edom>
-					<edom>
-						<edomv>08</edomv>
-						<edomvd>Daycare or Residential Facility for Children</edomvd>
-					</edom>
-					<edom>
-						<edomv>09</edomv>
-						<edomvd>Facility for Seniors</edomvd>
-					</edom>
-					<edom>
-						<edomv>10</edomv>
-						<edomvd>Food Program or Residential Facility for Adults/Families</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>SUBGROUP_T</attrlabl>
-				<attrdef>A code identifying a group of facilities or programs within the ten main</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>011</edomv>
-						<edomvd>Public Elementary or Secondary School</edomvd>
-					</edom>
-					<edom>
-						<edomv>012</edomv>
-						<edomvd>Private Elementary or Secondary School</edomvd>
-					</edom>
-					<edom>
-						<edomv>013</edomv>
-						<edomvd>College or Other Post-Secondary Institution</edomvd>
-					</edom>
-					<edom>
-						<edomv>021</edomv>
-						<edomvd>Library or Cultural Institution</edomvd>
-					</edom>
-					<edom>
-						<edomv>022</edomv>
-						<edomvd>Parkland</edomvd>
-					</edom>
-					<edom>
-						<edomv>031</edomv>
-						<edomvd>NYPD, FDNY, Court, or Correctional Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>041</edomv>
-						<edomvd>Hospital/Inpatient Unit or Nursing Home</edomvd>
-					</edom>
-					<edom>
-						<edomv>042</edomv>
-						<edomvd>Ambulatory Facility or Program</edomvd>
-					</edom>
-					<edom>
-						<edomv>051</edomv>
-						<edomvd>Chemical Dependency Service - Residential</edomvd>
-					</edom>
-					<edom>
-						<edomv>052</edomv>
-						<edomvd>Chemical Dependency Service - Non-Residential</edomvd>
-					</edom>
-					<edom>
-						<edomv>061</edomv>
-						<edomvd>Mental Health Service - Residential</edomvd>
-					</edom>
-					<edom>
-						<edomv>062</edomv>
-						<edomvd>Mental Health Service - Non-Residential</edomvd>
-					</edom>
-					<edom>
-						<edomv>071</edomv>
-						<edomvd>Mental Retard. or Develop. Disab. Svc - Residential</edomvd>
-					</edom>
-					<edom>
-						<edomv>072</edomv>
-						<edomvd>Mental Retard. or Develop. Disab. Svc - Non-Residential</edomvd>
-					</edom>
-					<edom>
-						<edomv>081</edomv>
-						<edomvd>Residential Facility for Children</edomvd>
-					</edom>
-					<edom>
-						<edomv>082</edomv>
-						<edomvd>Daycare or Headstart Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>091</edomv>
-						<edomvd>Senior Center</edomvd>
-					</edom>
-					<edom>
-						<edomv>101</edomv>
-						<edomvd>Residential Facility for Adults/Families</edomvd>
-					</edom>
-					<edom>
-						<edomv>102</edomv>
-						<edomvd>Food Program or Drop-In Center</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CAPACITY</attrlabl>
-				<attrdef>The capacity or service volume for the facility</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>CAPACITY_T</attrlabl>
-				<attrdef>A code identifying the specific unit of measure of the facility's use</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>01</edomv>
-						<edomvd>Day Care or Head Start Center Capacity</edomvd>
-					</edom>
-					<edom>
-						<edomv>02</edomv>
-						<edomvd>Certified Hospital Beds, or Certified Residential Facility</edomvd>
-					</edom>
-					<edom>
-						<edomv>03</edomv>
-						<edomvd>Book Circulation for the NY/BK/QN Borough Library</edomvd>
-					</edom>
-					<edom>
-						<edomv>04</edomv>
-						<edomvd>Average Visits per Day (Homeless Drop-In Center)</edomvd>
-					</edom>
-					<edom>
-						<edomv>05</edomv>
-						<edomvd>Residential Facility Units for Families</edomvd>
-					</edom>
-					<edom>
-						<edomv>06</edomv>
-						<edomvd>Outpatient Day Program Facility Capacity</edomvd>
-					</edom>
-					<edom>
-						<edomv>07</edomv>
-						<edomvd>Number of Unduplicated Individuals Program is Contracted to Serve</edomvd>
-					</edom>
-					<edom>
-						<edomv>08</edomv>
-						<edomvd>See Acreage Field; Value Represents Acreage of Total</edomvd>
-					</edom>
-					<edom>
-						<edomv>09</edomv>
-						<edomvd>Average Meals Served Per Month (Senior Center)</edomvd>
-					</edom>
-					<edom>
-						<edomv>10</edomv>
-						<edomvd>Fall Enrollment, Full and Part-Time Students</edomvd>
-					</edom>
-					<edom>
-						<edomv>11</edomv>
-						<edomvd>Total Enrollment</edomvd>
-					</edom>
-					<edom>
-						<edomv>12</edomv>
-						<edomvd>Annual Visits (Cultural Institution)</edomvd>
-					</edom>
-					<edom>
-						<edomv>24</edomv>
-						<edomvd>Supportive SRO units</edomvd>
-					</edom>
-					<edom>
-						<edomv>96</edomv>
-						<edomvd>Included in Main Campus Total</edomvd>
-					</edom>
-					<edom>
-						<edomv>98</edomv>
-						<edomvd>Unknown for this record</edomvd>
-					</edom>
-					<edom>
-						<edomv>99</edomv>
-						<edomvd>Not applicable or not collected for this facility type</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>ACREAGE</attrlabl>
-				<attrdef>Acreage of parks.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>PREK_8_ENR</attrlabl>
-				<attrdef>Total lower school (kindergarten through 8th grade) enrollment</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>G9_12_ENRO</attrlabl>
-				<attrdef>Total high school (grades 9 through 12) enrollment, including modified instructional services, special instructional environments and other handicapped services, in the Public or Private/Parochial School.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>AGENCY_OPE</attrlabl>
-				<attrdef>The government agency operating the facility, program, or parkland property</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>AGNY_OVE</attrlabl>
-				<attrdef>The code for the government agency responsible for contracting for the services  provided, or for licensing, certifying, funding or general oversight of the  facility or service.</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>01</edomv>
-						<edomvd>Department of Education (DOE)</edomvd>
-					</edom>
-					<edom>
-						<edomv>02</edomv>
-						<edomvd>City University of New York (CUNY)</edomvd>
-					</edom>
-					<edom>
-						<edomv>03</edomv>
-						<edomvd>Department of Parks &amp; Recreation (DPR)</edomvd>
-					</edom>
-					<edom>
-						<edomv>04</edomv>
-						<edomvd>Department of Cultural Affairs (DCA)</edomvd>
-					</edom>
-					<edom>
-						<edomv>05</edomv>
-						<edomvd>Brooklyn Public Library (BPL)</edomvd>
-					</edom>
-					<edom>
-						<edomv>06</edomv>
-						<edomvd>New York Public Library (includes Manhattan, the Bronx, and Staten Island) (NYPL)</edomvd>
-					</edom>
-					<edom>
-						<edomv>07</edomv>
-						<edomvd>Queens Borough Public Library (QBPL)</edomvd>
-					</edom>
-					<edom>
-						<edomv>08</edomv>
-						<edomvd>Police Department (NYPD)</edomvd>
-					</edom>
-					<edom>
-						<edomv>10</edomv>
-						<edomvd>Fire Department (FDNY)</edomvd>
-					</edom>
-					<edom>
-						<edomv>11</edomv>
-						<edomvd>Department of Correction (DOC)</edomvd>
-					</edom>
-					<edom>
-						<edomv>12</edomv>
-						<edomvd>Health &amp; Hospitals Corporation (HHC)</edomvd>
-					</edom>
-					<edom>
-						<edomv>14</edomv>
-						<edomvd>Department of Health &amp; Mental Hygiene (DOHMH)</edomvd>
-					</edom>
-					<edom>
-						<edomv>15</edomv>
-						<edomvd>Human Resources Administration (HRA)</edomvd>
-					</edom>
-					<edom>
-						<edomv>16</edomv>
-						<edomvd>Administration for Children's Services (ACS)</edomvd>
-					</edom>
-					<edom>
-						<edomv>17</edomv>
-						<edomvd>ACS/Agency for Child Development (ACS/ACD)</edomvd>
-					</edom>
-					<edom>
-						<edomv>18</edomv>
-						<edomvd>Department of Juvenile Justice (DJJ)</edomvd>
-					</edom>
-					<edom>
-						<edomv>19</edomv>
-						<edomvd>Department of Homeless Services (DHS)</edomvd>
-					</edom>
-					<edom>
-						<edomv>21</edomv>
-						<edomvd>Department for the Aging (DFTA)</edomvd>
-					</edom>
-					<edom>
-						<edomv>23</edomv>
-						<edomvd>Department of Housing Preservation &amp; Development (HPD)</edomvd>
-					</edom>
-					<edom>
-						<edomv>24</edomv>
-						<edomvd>Department of Transportation (DOT)</edomvd>
-					</edom>
-					<edom>
-						<edomv>50</edomv>
-						<edomvd>Department of Education/Board of Regents</edomvd>
-					</edom>
-					<edom>
-						<edomv>51</edomv>
-						<edomvd>Department of Education/State University of New York (SUNY)</edomvd>
-					</edom>
-					<edom>
-						<edomv>52</edomv>
-						<edomvd>Office of Parks, Recreation and Historic Preservation</edomvd>
-					</edom>
-					<edom>
-						<edomv>53</edomv>
-						<edomvd>Department of Correctional Services</edomvd>
-					</edom>
-					<edom>
-						<edomv>54</edomv>
-						<edomvd>Department of Health</edomvd>
-					</edom>
-					<edom>
-						<edomv>55</edomv>
-						<edomvd>Office of Alcoholism &amp; Substance Abuse Services</edomvd>
-					</edom>
-					<edom>
-						<edomv>56</edomv>
-						<edomvd>Office of Mental Health</edomvd>
-					</edom>
-					<edom>
-						<edomv>57</edomv>
-						<edomvd>Office of Mental Retardation &amp; Developmental Disabilities Services</edomvd>
-					</edom>
-					<edom>
-						<edomv>60</edomv>
-						<edomvd>Office of Children &amp; Family Services (OCFS)</edomvd>
-					</edom>
-					<edom>
-						<edomv>61</edomv>
-						<edomvd>Department of Environmental Conservation</edomvd>
-					</edom>
-					<edom>
-						<edomv>62</edomv>
-						<edomvd>Office of Court Administration</edomvd>
-					</edom>
-					<edom>
-						<edomv>70</edomv>
-						<edomvd>Department of the Interior/National Park Service</edomvd>
-					</edom>
-					<edom>
-						<edomv>72</edomv>
-						<edomvd>Department of Justice/Bureau of Prisons</edomvd>
-					</edom>
-					<edom>
-						<edomv>73</edomv>
-						<edomvd>Veterans Administration</edomvd>
-					</edom>
-					<edom>
-						<edomv>74</edomv>
-						<edomvd>Administrative Office of the United States Courts</edomvd>
-					</edom>
-					<edom>
-						<edomv>90</edomv>
-						<edomvd>Proprietary</edomvd>
-					</edom>
-					<edom>
-						<edomv>91</edomv>
-						<edomvd>Not-For-Profit</edomvd>
-					</edom>
-					<edom>
-						<edomv>92</edomv>
-						<edomvd>Presumed Not-For-Profit</edomvd>
-					</edom>
-					<edom>
-						<edomv>93</edomv>
-						<edomvd>Private Non-Governmental</edomvd>
-					</edom>
-					<edom>
-						<edomv>99</edomv>
-						<edomvd>Unknown or Not Applicable</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CT2000</attrlabl>
-				<attrdef>The 2000 census tract of the facility</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>TRACT</attrlabl>
-				<attrdef>The 2000 census tract of the facility</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Council</attrlabl>
-				<attrdef>A two digit code identifying the council district of the facility.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>SD</attrlabl>
-				<attrdef>The two digit code identifying the community school district of the facility.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>POLICE_PRE</attrlabl>
-				<attrdef>The three digit code that identifies the police precinct servicing the</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>HEALTH_ARE</attrlabl>
-				<attrdef>The four digit code identifying the health area of the facility.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>BBL</attrlabl>
-				<attrdef>A concatenation of the borough code, tax block and tax lot</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>XCOORD</attrlabl>
-				<attrdef>The X coordinate of the XY coordinate pair which depicts the</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>YCOORD</attrlabl>
-				<attrdef>The Y coordinate of the XY coordinate pair which depicts the</attrdef>
-			</attr>
-		</detailed>
-		<overview>
+									<enttypd>Facilities</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>ID</attrlabl>
+									<attrdef>A unique identification number assigned to each facility, program, or parkland</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>BORO</attrlabl>
+									<attrdef>The borough in which the facility is located</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>1</edomv>
+											<edomvd>Manhattan</edomvd>
+										</edom>
+										<edom>
+											<edomv>2</edomv>
+											<edomvd>Bronx</edomvd>
+										</edom>
+										<edom>
+											<edomv>3</edomv>
+											<edomvd>Brooklyn</edomvd>
+										</edom>
+										<edom>
+											<edomv>4</edomv>
+											<edomvd>Queens</edomvd>
+										</edom>
+										<edom>
+											<edomv>5</edomv>
+											<edomvd>Staten Island</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>BOROUGH</attrlabl>
+									<attrdef>The two character borough abbreviation identifying the borough in which the facility is</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>MN</edomv>
+											<edomvd>Manhattan</edomvd>
+										</edom>
+										<edom>
+											<edomv>BX</edomv>
+											<edomvd>Bronx</edomvd>
+										</edom>
+										<edom>
+											<edomv>BK</edomv>
+											<edomvd>Brooklyn</edomvd>
+										</edom>
+										<edom>
+											<edomv>QN</edomv>
+											<edomvd>Queens</edomvd>
+										</edom>
+										<edom>
+											<edomv>SI</edomv>
+											<edomvd>Staten Island</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CD</attrlabl>
+									<attrdef>The community district or joint interest area of the facility.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>CD_DECODE</attrlabl>
+									<attrdef>A string of text specifying the borough and community district or joint interest area</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>BLOCK</attrlabl>
+									<attrdef>The tax block of the facility.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>LOT</attrlabl>
+									<attrdef>The tax lot of the facility.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>FACILITY_N</attrlabl>
+									<attrdef>The facility name</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>FACILITY_A</attrlabl>
+									<attrdef>Address</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ZIP</attrlabl>
+									<attrdef>The five character Zip Code associated with the facility's address.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>FAC_TYPE</attrlabl>
+									<attrdef>A code identifying the specific type of facility or program</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>1001</edomv>
+											<edomvd>Elementary School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1011</edomv>
+											<edomvd>Elementary School - Charter</edomvd>
+										</edom>
+										<edom>
+											<edomv>1002</edomv>
+											<edomvd>Middle School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1012</edomv>
+											<edomvd>K-8 School - Charter</edomvd>
+										</edom>
+										<edom>
+											<edomv>1003</edomv>
+											<edomvd>Intermediate/Junior High School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1013</edomv>
+											<edomvd>Intermediate/Junior High School - Charter</edomvd>
+										</edom>
+										<edom>
+											<edomv>1004</edomv>
+											<edomvd>Junior/Senior High School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1014</edomv>
+											<edomvd>Junior/Senior High School - Charter</edomvd>
+										</edom>
+										<edom>
+											<edomv>1005</edomv>
+											<edomvd>High School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1015</edomv>
+											<edomvd>High School - Charter</edomvd>
+										</edom>
+										<edom>
+											<edomv>1006</edomv>
+											<edomvd>K-12 School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1016</edomv>
+											<edomvd>K-12 School - Charter</edomvd>
+										</edom>
+										<edom>
+											<edomv>1007</edomv>
+											<edomvd>Special School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1099</edomv>
+											<edomvd>Other School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1101</edomv>
+											<edomvd>Elementary School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1102</edomv>
+											<edomvd>Middle School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1103</edomv>
+											<edomvd>Junior High School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1104</edomv>
+											<edomvd>Junior/Senior High School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1105</edomv>
+											<edomvd>Senior High School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1106</edomv>
+											<edomvd>K-12 School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1107</edomv>
+											<edomvd>Special School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1199</edomv>
+											<edomvd>Other School</edomvd>
+										</edom>
+										<edom>
+											<edomv>1201</edomv>
+											<edomvd>SUNY</edomvd>
+										</edom>
+										<edom>
+											<edomv>1202</edomv>
+											<edomvd>CUNY</edomvd>
+										</edom>
+										<edom>
+											<edomv>1203</edomv>
+											<edomvd>Independent</edomvd>
+										</edom>
+										<edom>
+											<edomv>1204</edomv>
+											<edomvd>Proprietary</edomvd>
+										</edom>
+										<edom>
+											<edomv>1401</edomv>
+											<edomvd>Library - Public</edomvd>
+										</edom>
+										<edom>
+											<edomv>1402</edomv>
+											<edomvd>Central Library - Public</edomvd>
+										</edom>
+										<edom>
+											<edomv>1501</edomv>
+											<edomvd>Park/Playground</edomvd>
+										</edom>
+										<edom>
+											<edomv>1511</edomv>
+											<edomvd>Pool, Gymnasium, Golf Course, Recreation Area</edomvd>
+										</edom>
+										<edom>
+											<edomv>1521</edomv>
+											<edomvd>Triangle, Mall, Strip, Sitting area</edomvd>
+										</edom>
+										<edom>
+											<edomv>1531</edomv>
+											<edomvd>Beach, Garden, Natural Area, Other</edomvd>
+										</edom>
+										<edom>
+											<edomv>1541</edomv>
+											<edomvd>Joint NYCDOT/DPR Landscaped Area</edomvd>
+										</edom>
+										<edom>
+											<edomv>1551</edomv>
+											<edomvd>State Park</edomvd>
+										</edom>
+										<edom>
+											<edomv>1552</edomv>
+											<edomvd>State Open Space Preserve</edomvd>
+										</edom>
+										<edom>
+											<edomv>1561</edomv>
+											<edomvd>National Park</edomvd>
+										</edom>
+										<edom>
+											<edomv>1601</edomv>
+											<edomvd>NYC Cultural Institution</edomvd>
+										</edom>
+										<edom>
+											<edomv>2001</edomv>
+											<edomvd>Police Station</edomvd>
+										</edom>
+										<edom>
+											<edomv>2002</edomv>
+											<edomvd>Other NYPD Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>2011</edomv>
+											<edomvd>NYCHA Police Service Area</edomvd>
+										</edom>
+										<edom>
+											<edomv>2101</edomv>
+											<edomvd>Fire House</edomvd>
+										</edom>
+										<edom>
+											<edomv>2102</edomv>
+											<edomvd>EMS (Emergency Medical Service)</edomvd>
+										</edom>
+										<edom>
+											<edomv>2103</edomv>
+											<edomvd>Fire Dept. Training Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>2104</edomv>
+											<edomvd>Other Fire Department Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>2401</edomv>
+											<edomvd>Federal Court</edomvd>
+										</edom>
+										<edom>
+											<edomv>2402</edomv>
+											<edomvd>State/City Court</edomvd>
+										</edom>
+										<edom>
+											<edomv>2501</edomv>
+											<edomvd>NYS Correctional Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>2511</edomv>
+											<edomvd>Federal Correctional Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>2521</edomv>
+											<edomvd>City Correctional Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>2531</edomv>
+											<edomvd>OCFS Limited Secure Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>2532</edomv>
+											<edomvd>Secure Detention Facility - Juvenile</edomvd>
+										</edom>
+										<edom>
+											<edomv>2533</edomv>
+											<edomvd>OCFS Non-Secure Non-Community-Based Residence</edomvd>
+										</edom>
+										<edom>
+											<edomv>2534</edomv>
+											<edomvd>OCFS Non-Secure Community-Based Residence</edomvd>
+										</edom>
+										<edom>
+											<edomv>2536</edomv>
+											<edomvd>Juvenile Non-Secure Detention Group Home</edomvd>
+										</edom>
+										<edom>
+											<edomv>2537</edomv>
+											<edomvd>OCFS Reception Center (14-day stay)</edomvd>
+										</edom>
+										<edom>
+											<edomv>2601</edomv>
+											<edomvd>OCFS Evening Reporting Center</edomvd>
+										</edom>
+										<edom>
+											<edomv>2602</edomv>
+											<edomvd>OCFS Day Treatment Program</edomvd>
+										</edom>
+										<edom>
+											<edomv>3001</edomv>
+											<edomvd>Nursing Home</edomvd>
+										</edom>
+										<edom>
+											<edomv>3101</edomv>
+											<edomvd>Hospital</edomvd>
+										</edom>
+										<edom>
+											<edomv>3201</edomv>
+											<edomvd>Free-Standing Health Center</edomvd>
+										</edom>
+										<edom>
+											<edomv>3202</edomv>
+											<edomvd>Hospital Affiliated Health Center</edomvd>
+										</edom>
+										<edom>
+											<edomv>3203</edomv>
+											<edomvd>Dialysis Center</edomvd>
+										</edom>
+										<edom>
+											<edomv>3204</edomv>
+											<edomvd>HHC Network Child Health Clinic</edomvd>
+										</edom>
+										<edom>
+											<edomv>3205</edomv>
+											<edomvd>HHC Network School Based Health Center</edomvd>
+										</edom>
+										<edom>
+											<edomv>3206</edomv>
+											<edomvd>HHC Network Communicare</edomvd>
+										</edom>
+										<edom>
+											<edomv>3207</edomv>
+											<edomvd>HHC Network Extension Clinic</edomvd>
+										</edom>
+										<edom>
+											<edomv>3208</edomv>
+											<edomvd>HHC Network Oral Health Center</edomvd>
+										</edom>
+										<edom>
+											<edomv>3209</edomv>
+											<edomvd>HHC Network Diagnostic &amp; Treatment Center</edomvd>
+										</edom>
+										<edom>
+											<edomv>3301</edomv>
+											<edomvd>Inpatient Detox/Withdrawal - Alcoholism</edomvd>
+										</edom>
+										<edom>
+											<edomv>3302</edomv>
+											<edomvd>Halfway House - Alcoholism</edomvd>
+										</edom>
+										<edom>
+											<edomv>3303</edomv>
+											<edomvd>Alcohol Crisis Center</edomvd>
+										</edom>
+										<edom>
+											<edomv>3304</edomv>
+											<edomvd>Inpatient Rehabilitation - Alcoholism</edomvd>
+										</edom>
+										<edom>
+											<edomv>3305</edomv>
+											<edomvd>Alcoholism Supportive Living</edomvd>
+										</edom>
+										<edom>
+											<edomv>3306</edomv>
+											<edomvd>Alcoholism Supportive Living</edomvd>
+										</edom>
+										<edom>
+											<edomv>3311</edomv>
+											<edomvd>Residential Detox Facility - Substance Abuse</edomvd>
+										</edom>
+										<edom>
+											<edomv>3312</edomv>
+											<edomvd>Residential Methadone Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>3313</edomv>
+											<edomvd>Residential Drug-Free Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>3315</edomv>
+											<edomvd>Hospital-Based Detox/Rehab - Substance Abuse</edomvd>
+										</edom>
+										<edom>
+											<edomv>3401</edomv>
+											<edomvd>Medically Supervised Chemical Dependency Outpatient Service</edomvd>
+										</edom>
+										<edom>
+											<edomv>3402</edomv>
+											<edomvd>Medically Supervised Chemical Dependency Crisis Service</edomvd>
+										</edom>
+										<edom>
+											<edomv>3403</edomv>
+											<edomvd>Outpatient Chemical Dependency Program for Youth</edomvd>
+										</edom>
+										<edom>
+											<edomv>3404</edomv>
+											<edomvd>Chemical Dependency Outpatient Rehabilitation Service</edomvd>
+										</edom>
+										<edom>
+											<edomv>3405</edomv>
+											<edomvd>Non-Medically Supervised Chemical Dependency Day Service</edomvd>
+										</edom>
+										<edom>
+											<edomv>3406</edomv>
+											<edomvd>Non-Medically Supervised Chemical Dependency Outpatient Service</edomvd>
+										</edom>
+										<edom>
+											<edomv>3407</edomv>
+											<edomvd>Medically Supervised Outpatient Rehabilitation Service</edomvd>
+										</edom>
+										<edom>
+											<edomv>3408</edomv>
+											<edomvd>Limited Outpatient Methadone Treatment Clinic</edomvd>
+										</edom>
+										<edom>
+											<edomv>3409</edomv>
+											<edomvd>Methadone to Abstinence Outpatient</edomvd>
+										</edom>
+										<edom>
+											<edomv>3410</edomv>
+											<edomvd>Methadone Treatment Clinic</edomvd>
+										</edom>
+										<edom>
+											<edomv>3411</edomv>
+											<edomvd>Drug-Free Outpatient Services</edomvd>
+										</edom>
+										<edom>
+											<edomv>3412</edomv>
+											<edomvd>Outpatient Alcoholism Clinic</edomvd>
+										</edom>
+										<edom>
+											<edomv>3413</edomv>
+											<edomvd>Vocational Rehabilitation</edomvd>
+										</edom>
+										<edom>
+											<edomv>3501</edomv>
+											<edomvd>Residential Care Center for Adults</edomvd>
+										</edom>
+										<edom>
+											<edomv>3502</edomv>
+											<edomvd>Children and Youth Community Residence</edomvd>
+										</edom>
+										<edom>
+											<edomv>3503</edomv>
+											<edomvd>Supervised Community Residence</edomvd>
+										</edom>
+										<edom>
+											<edomv>3504</edomv>
+											<edomvd>Supportive Community Residence</edomvd>
+										</edom>
+										<edom>
+											<edomv>3505</edomv>
+											<edomvd>Respite Care</edomvd>
+										</edom>
+										<edom>
+											<edomv>3506</edomv>
+											<edomvd>Crisis Residence</edomvd>
+										</edom>
+										<edom>
+											<edomv>3507</edomv>
+											<edomvd>Congregate Supportive SRO Residence</edomvd>
+										</edom>
+										<edom>
+											<edomv>3511</edomv>
+											<edomvd>Hospital-Based Care</edomvd>
+										</edom>
+										<edom>
+											<edomv>3512</edomv>
+											<edomvd>State Operated Psychiatric Center</edomvd>
+										</edom>
+										<edom>
+											<edomv>3602</edomv>
+											<edomvd>Clinic Under 587</edomvd>
+										</edom>
+										<edom>
+											<edomv>3603</edomv>
+											<edomvd>Day Treatment</edomvd>
+										</edom>
+										<edom>
+											<edomv>3605</edomv>
+											<edomvd>Continuing Day Treatment</edomvd>
+										</edom>
+										<edom>
+											<edomv>3606</edomv>
+											<edomvd>Intensive Psychiatric Rehabilitation</edomvd>
+										</edom>
+										<edom>
+											<edomv>3607</edomv>
+											<edomvd>Comprehensive Psychiatric Emergency Program</edomvd>
+										</edom>
+										<edom>
+											<edomv>3609</edomv>
+											<edomvd>Clinic Treatment</edomvd>
+										</edom>
+										<edom>
+											<edomv>3610</edomv>
+											<edomvd>School-Based Mental Health Program</edomvd>
+										</edom>
+										<edom>
+											<edomv>3611</edomv>
+											<edomvd>Partial Hospitalization</edomvd>
+										</edom>
+										<edom>
+											<edomv>3622</edomv>
+											<edomvd>Vocational/Social Training</edomvd>
+										</edom>
+										<edom>
+											<edomv>3623</edomv>
+											<edomvd>Day Training/Workshop</edomvd>
+										</edom>
+										<edom>
+											<edomv>3624</edomv>
+											<edomvd>Vocational Rehabilitation</edomvd>
+										</edom>
+										<edom>
+											<edomv>3627</edomv>
+											<edomvd>Assertive Community Treatment</edomvd>
+										</edom>
+										<edom>
+											<edomv>3701</edomv>
+											<edomvd>Intermediate Care Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>3702</edomv>
+											<edomvd>Supervised Community Residence</edomvd>
+										</edom>
+										<edom>
+											<edomv>3703</edomv>
+											<edomvd>Supportive Community Residence</edomvd>
+										</edom>
+										<edom>
+											<edomv>3704</edomv>
+											<edomvd>Individualized Residential Alternative</edomvd>
+										</edom>
+										<edom>
+											<edomv>3711</edomv>
+											<edomvd>Hospital-Based Care</edomvd>
+										</edom>
+										<edom>
+											<edomv>3801</edomv>
+											<edomvd>Day Treatment</edomvd>
+										</edom>
+										<edom>
+											<edomv>3802</edomv>
+											<edomvd>Day Training</edomvd>
+										</edom>
+										<edom>
+											<edomv>3804</edomv>
+											<edomvd>Clinic Treatment</edomvd>
+										</edom>
+										<edom>
+											<edomv>3805</edomv>
+											<edomvd>Day Training - Preschool Program</edomvd>
+										</edom>
+										<edom>
+											<edomv>3808</edomv>
+											<edomvd>Day Rehabilitation</edomvd>
+										</edom>
+										<edom>
+											<edomv>3810</edomv>
+											<edomvd>Day Training - Client Education</edomvd>
+										</edom>
+										<edom>
+											<edomv>3811</edomv>
+											<edomvd>Day Training/Workshop</edomvd>
+										</edom>
+										<edom>
+											<edomv>3812</edomv>
+											<edomvd>Supported/Transitional Employment</edomvd>
+										</edom>
+										<edom>
+											<edomv>3813</edomv>
+											<edomvd>Social Adult Day Care</edomvd>
+										</edom>
+										<edom>
+											<edomv>4011</edomv>
+											<edomvd>Foster Institution</edomvd>
+										</edom>
+										<edom>
+											<edomv>4012</edomv>
+											<edomvd>Group Foster Residence</edomvd>
+										</edom>
+										<edom>
+											<edomv>4013</edomv>
+											<edomvd>Group Foster Home</edomvd>
+										</edom>
+										<edom>
+											<edomv>4014</edomv>
+											<edomvd>Agency Operated Boarding Home</edomvd>
+										</edom>
+										<edom>
+											<edomv>4101</edomv>
+											<edomvd>Public Group Day Care</edomvd>
+										</edom>
+										<edom>
+											<edomv>4102</edomv>
+											<edomvd>Private Group Day Care</edomvd>
+										</edom>
+										<edom>
+											<edomv>4103</edomv>
+											<edomvd>Corporate Group Day Care</edomvd>
+										</edom>
+										<edom>
+											<edomv>4104</edomv>
+											<edomvd>Public Head Start Center</edomvd>
+										</edom>
+										<edom>
+											<edomv>4105</edomv>
+											<edomvd>Private Head Start Center</edomvd>
+										</edom>
+										<edom>
+											<edomv>4301</edomv>
+											<edomvd>Home for Adults</edomvd>
+										</edom>
+										<edom>
+											<edomv>4310</edomv>
+											<edomvd>DHS-Contracted Supportive SRO Housing</edomvd>
+										</edom>
+										<edom>
+											<edomv>4341</edomv>
+											<edomvd>DHS-Contracted City-Owned SRO Housing</edomvd>
+										</edom>
+										<edom>
+											<edomv>4343</edomv>
+											<edomvd>HPD-Assisted Supportive Housing - Adults</edomvd>
+										</edom>
+										<edom>
+											<edomv>4344</edomv>
+											<edomvd>HPD-Assisted Supportive Housing - Families</edomvd>
+										</edom>
+										<edom>
+											<edomv>4401</edomv>
+											<edomvd>Shelter For Singles - DHS Contracted</edomvd>
+										</edom>
+										<edom>
+											<edomv>4402</edomv>
+											<edomvd>Shelter For Singles - DHS Referral</edomvd>
+										</edom>
+										<edom>
+											<edomv>4411</edomv>
+											<edomvd>Family Homeless Facility - DHS Contracted</edomvd>
+										</edom>
+										<edom>
+											<edomv>4412</edomv>
+											<edomvd>Family Homeless Facility - DHS Referral</edomvd>
+										</edom>
+										<edom>
+											<edomv>4501</edomv>
+											<edomvd>Family Homeless Facility - DHS Referral</edomvd>
+										</edom>
+										<edom>
+											<edomv>4901</edomv>
+											<edomvd>Soup Kitchen</edomvd>
+										</edom>
+										<edom>
+											<edomv>4902</edomv>
+											<edomvd>Food Pantry</edomvd>
+										</edom>
+										<edom>
+											<edomv>4903</edomv>
+											<edomvd>Joint Soup Kitchen &amp; Food Pantry</edomvd>
+										</edom>
+										<edom>
+											<edomv>4904</edomv>
+											<edomvd>Drop-In Center (Homeless Facility)</edomvd>
+										</edom>
+										<edom>
+											<edomv>4905</edomv>
+											<edomvd>Emergency Assistance Unit (Homeless Facility)</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>GROUP_TYPE</attrlabl>
+									<attrdef>A code identifying an entire category of the facility types</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>01</edomv>
+											<edomvd>School</edomvd>
+										</edom>
+										<edom>
+											<edomv>02</edomv>
+											<edomvd>Recreational or Cultural</edomvd>
+										</edom>
+										<edom>
+											<edomv>03</edomv>
+											<edomvd>Public Safety or Criminal Justice</edomvd>
+										</edom>
+										<edom>
+											<edomv>04</edomv>
+											<edomvd>Hospital/Nursing Home or Ambulatory Program</edomvd>
+										</edom>
+										<edom>
+											<edomv>05</edomv>
+											<edomvd>Alcoholism or Substance Service</edomvd>
+										</edom>
+										<edom>
+											<edomv>06</edomv>
+											<edomvd>Mental Health Service</edomvd>
+										</edom>
+										<edom>
+											<edomv>07</edomv>
+											<edomvd>Mental Retardation or Developmental Disabilities Service</edomvd>
+										</edom>
+										<edom>
+											<edomv>08</edomv>
+											<edomvd>Daycare or Residential Facility for Children</edomvd>
+										</edom>
+										<edom>
+											<edomv>09</edomv>
+											<edomvd>Facility for Seniors</edomvd>
+										</edom>
+										<edom>
+											<edomv>10</edomv>
+											<edomvd>Food Program or Residential Facility for Adults/Families</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>SUBGROUP_T</attrlabl>
+									<attrdef>A code identifying a group of facilities or programs within the ten main</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>011</edomv>
+											<edomvd>Public Elementary or Secondary School</edomvd>
+										</edom>
+										<edom>
+											<edomv>012</edomv>
+											<edomvd>Private Elementary or Secondary School</edomvd>
+										</edom>
+										<edom>
+											<edomv>013</edomv>
+											<edomvd>College or Other Post-Secondary Institution</edomvd>
+										</edom>
+										<edom>
+											<edomv>021</edomv>
+											<edomvd>Library or Cultural Institution</edomvd>
+										</edom>
+										<edom>
+											<edomv>022</edomv>
+											<edomvd>Parkland</edomvd>
+										</edom>
+										<edom>
+											<edomv>031</edomv>
+											<edomvd>NYPD, FDNY, Court, or Correctional Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>041</edomv>
+											<edomvd>Hospital/Inpatient Unit or Nursing Home</edomvd>
+										</edom>
+										<edom>
+											<edomv>042</edomv>
+											<edomvd>Ambulatory Facility or Program</edomvd>
+										</edom>
+										<edom>
+											<edomv>051</edomv>
+											<edomvd>Chemical Dependency Service - Residential</edomvd>
+										</edom>
+										<edom>
+											<edomv>052</edomv>
+											<edomvd>Chemical Dependency Service - Non-Residential</edomvd>
+										</edom>
+										<edom>
+											<edomv>061</edomv>
+											<edomvd>Mental Health Service - Residential</edomvd>
+										</edom>
+										<edom>
+											<edomv>062</edomv>
+											<edomvd>Mental Health Service - Non-Residential</edomvd>
+										</edom>
+										<edom>
+											<edomv>071</edomv>
+											<edomvd>Mental Retard. or Develop. Disab. Svc - Residential</edomvd>
+										</edom>
+										<edom>
+											<edomv>072</edomv>
+											<edomvd>Mental Retard. or Develop. Disab. Svc - Non-Residential</edomvd>
+										</edom>
+										<edom>
+											<edomv>081</edomv>
+											<edomvd>Residential Facility for Children</edomvd>
+										</edom>
+										<edom>
+											<edomv>082</edomv>
+											<edomvd>Daycare or Headstart Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>091</edomv>
+											<edomvd>Senior Center</edomvd>
+										</edom>
+										<edom>
+											<edomv>101</edomv>
+											<edomvd>Residential Facility for Adults/Families</edomvd>
+										</edom>
+										<edom>
+											<edomv>102</edomv>
+											<edomvd>Food Program or Drop-In Center</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CAPACITY</attrlabl>
+									<attrdef>The capacity or service volume for the facility</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>CAPACITY_T</attrlabl>
+									<attrdef>A code identifying the specific unit of measure of the facility's use</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>01</edomv>
+											<edomvd>Day Care or Head Start Center Capacity</edomvd>
+										</edom>
+										<edom>
+											<edomv>02</edomv>
+											<edomvd>Certified Hospital Beds, or Certified Residential Facility</edomvd>
+										</edom>
+										<edom>
+											<edomv>03</edomv>
+											<edomvd>Book Circulation for the NY/BK/QN Borough Library</edomvd>
+										</edom>
+										<edom>
+											<edomv>04</edomv>
+											<edomvd>Average Visits per Day (Homeless Drop-In Center)</edomvd>
+										</edom>
+										<edom>
+											<edomv>05</edomv>
+											<edomvd>Residential Facility Units for Families</edomvd>
+										</edom>
+										<edom>
+											<edomv>06</edomv>
+											<edomvd>Outpatient Day Program Facility Capacity</edomvd>
+										</edom>
+										<edom>
+											<edomv>07</edomv>
+											<edomvd>Number of Unduplicated Individuals Program is Contracted to Serve</edomvd>
+										</edom>
+										<edom>
+											<edomv>08</edomv>
+											<edomvd>See Acreage Field; Value Represents Acreage of Total</edomvd>
+										</edom>
+										<edom>
+											<edomv>09</edomv>
+											<edomvd>Average Meals Served Per Month (Senior Center)</edomvd>
+										</edom>
+										<edom>
+											<edomv>10</edomv>
+											<edomvd>Fall Enrollment, Full and Part-Time Students</edomvd>
+										</edom>
+										<edom>
+											<edomv>11</edomv>
+											<edomvd>Total Enrollment</edomvd>
+										</edom>
+										<edom>
+											<edomv>12</edomv>
+											<edomvd>Annual Visits (Cultural Institution)</edomvd>
+										</edom>
+										<edom>
+											<edomv>24</edomv>
+											<edomvd>Supportive SRO units</edomvd>
+										</edom>
+										<edom>
+											<edomv>96</edomv>
+											<edomvd>Included in Main Campus Total</edomvd>
+										</edom>
+										<edom>
+											<edomv>98</edomv>
+											<edomvd>Unknown for this record</edomvd>
+										</edom>
+										<edom>
+											<edomv>99</edomv>
+											<edomvd>Not applicable or not collected for this facility type</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>ACREAGE</attrlabl>
+									<attrdef>Acreage of parks.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PREK_8_ENR</attrlabl>
+									<attrdef>Total lower school (kindergarten through 8th grade) enrollment</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>G9_12_ENRO</attrlabl>
+									<attrdef>Total high school (grades 9 through 12) enrollment, including modified instructional services, special instructional environments and other handicapped services, in the Public or Private/Parochial School.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AGENCY_OPE</attrlabl>
+									<attrdef>The government agency operating the facility, program, or parkland property</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AGNY_OVE</attrlabl>
+									<attrdef>The code for the government agency responsible for contracting for the services  provided, or for licensing, certifying, funding or general oversight of the  facility or service.</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>01</edomv>
+											<edomvd>Department of Education (DOE)</edomvd>
+										</edom>
+										<edom>
+											<edomv>02</edomv>
+											<edomvd>City University of New York (CUNY)</edomvd>
+										</edom>
+										<edom>
+											<edomv>03</edomv>
+											<edomvd>Department of Parks &amp; Recreation (DPR)</edomvd>
+										</edom>
+										<edom>
+											<edomv>04</edomv>
+											<edomvd>Department of Cultural Affairs (DCA)</edomvd>
+										</edom>
+										<edom>
+											<edomv>05</edomv>
+											<edomvd>Brooklyn Public Library (BPL)</edomvd>
+										</edom>
+										<edom>
+											<edomv>06</edomv>
+											<edomvd>New York Public Library (includes Manhattan, the Bronx, and Staten Island) (NYPL)</edomvd>
+										</edom>
+										<edom>
+											<edomv>07</edomv>
+											<edomvd>Queens Borough Public Library (QBPL)</edomvd>
+										</edom>
+										<edom>
+											<edomv>08</edomv>
+											<edomvd>Police Department (NYPD)</edomvd>
+										</edom>
+										<edom>
+											<edomv>10</edomv>
+											<edomvd>Fire Department (FDNY)</edomvd>
+										</edom>
+										<edom>
+											<edomv>11</edomv>
+											<edomvd>Department of Correction (DOC)</edomvd>
+										</edom>
+										<edom>
+											<edomv>12</edomv>
+											<edomvd>Health &amp; Hospitals Corporation (HHC)</edomvd>
+										</edom>
+										<edom>
+											<edomv>14</edomv>
+											<edomvd>Department of Health &amp; Mental Hygiene (DOHMH)</edomvd>
+										</edom>
+										<edom>
+											<edomv>15</edomv>
+											<edomvd>Human Resources Administration (HRA)</edomvd>
+										</edom>
+										<edom>
+											<edomv>16</edomv>
+											<edomvd>Administration for Children's Services (ACS)</edomvd>
+										</edom>
+										<edom>
+											<edomv>17</edomv>
+											<edomvd>ACS/Agency for Child Development (ACS/ACD)</edomvd>
+										</edom>
+										<edom>
+											<edomv>18</edomv>
+											<edomvd>Department of Juvenile Justice (DJJ)</edomvd>
+										</edom>
+										<edom>
+											<edomv>19</edomv>
+											<edomvd>Department of Homeless Services (DHS)</edomvd>
+										</edom>
+										<edom>
+											<edomv>21</edomv>
+											<edomvd>Department for the Aging (DFTA)</edomvd>
+										</edom>
+										<edom>
+											<edomv>23</edomv>
+											<edomvd>Department of Housing Preservation &amp; Development (HPD)</edomvd>
+										</edom>
+										<edom>
+											<edomv>24</edomv>
+											<edomvd>Department of Transportation (DOT)</edomvd>
+										</edom>
+										<edom>
+											<edomv>50</edomv>
+											<edomvd>Department of Education/Board of Regents</edomvd>
+										</edom>
+										<edom>
+											<edomv>51</edomv>
+											<edomvd>Department of Education/State University of New York (SUNY)</edomvd>
+										</edom>
+										<edom>
+											<edomv>52</edomv>
+											<edomvd>Office of Parks, Recreation and Historic Preservation</edomvd>
+										</edom>
+										<edom>
+											<edomv>53</edomv>
+											<edomvd>Department of Correctional Services</edomvd>
+										</edom>
+										<edom>
+											<edomv>54</edomv>
+											<edomvd>Department of Health</edomvd>
+										</edom>
+										<edom>
+											<edomv>55</edomv>
+											<edomvd>Office of Alcoholism &amp; Substance Abuse Services</edomvd>
+										</edom>
+										<edom>
+											<edomv>56</edomv>
+											<edomvd>Office of Mental Health</edomvd>
+										</edom>
+										<edom>
+											<edomv>57</edomv>
+											<edomvd>Office of Mental Retardation &amp; Developmental Disabilities Services</edomvd>
+										</edom>
+										<edom>
+											<edomv>60</edomv>
+											<edomvd>Office of Children &amp; Family Services (OCFS)</edomvd>
+										</edom>
+										<edom>
+											<edomv>61</edomv>
+											<edomvd>Department of Environmental Conservation</edomvd>
+										</edom>
+										<edom>
+											<edomv>62</edomv>
+											<edomvd>Office of Court Administration</edomvd>
+										</edom>
+										<edom>
+											<edomv>70</edomv>
+											<edomvd>Department of the Interior/National Park Service</edomvd>
+										</edom>
+										<edom>
+											<edomv>72</edomv>
+											<edomvd>Department of Justice/Bureau of Prisons</edomvd>
+										</edom>
+										<edom>
+											<edomv>73</edomv>
+											<edomvd>Veterans Administration</edomvd>
+										</edom>
+										<edom>
+											<edomv>74</edomv>
+											<edomvd>Administrative Office of the United States Courts</edomvd>
+										</edom>
+										<edom>
+											<edomv>90</edomv>
+											<edomvd>Proprietary</edomvd>
+										</edom>
+										<edom>
+											<edomv>91</edomv>
+											<edomvd>Not-For-Profit</edomvd>
+										</edom>
+										<edom>
+											<edomv>92</edomv>
+											<edomvd>Presumed Not-For-Profit</edomvd>
+										</edom>
+										<edom>
+											<edomv>93</edomv>
+											<edomvd>Private Non-Governmental</edomvd>
+										</edom>
+										<edom>
+											<edomv>99</edomv>
+											<edomvd>Unknown or Not Applicable</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CT2000</attrlabl>
+									<attrdef>The 2000 census tract of the facility</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TRACT</attrlabl>
+									<attrdef>The 2000 census tract of the facility</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>Council</attrlabl>
+									<attrdef>A two digit code identifying the council district of the facility.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>SD</attrlabl>
+									<attrdef>The two digit code identifying the community school district of the facility.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>POLICE_PRE</attrlabl>
+									<attrdef>The three digit code that identifies the police precinct servicing the</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>HEALTH_ARE</attrlabl>
+									<attrdef>The four digit code identifying the health area of the facility.</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>BBL</attrlabl>
+									<attrdef>A concatenation of the borough code, tax block and tax lot</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>XCOORD</attrlabl>
+									<attrdef>The X coordinate of the XY coordinate pair which depicts the</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>YCOORD</attrlabl>
+									<attrdef>The Y coordinate of the XY coordinate pair which depicts the</attrdef>
+								</attr>
+							</detailed>
+							<overview>
 			<eaover>DATA DICTIONARY FOR SELECTED FACILITIES AND
 PROGRAM SITES IN NEW YORK CITY
 
@@ -1972,55 +1975,55 @@ approximate location of the facility. (Also see XCOORD). Facilities' X
 and Y coordinates must be used together for mapping selection. The XY
 coordinates are expressed in the New York Long Island State Plane
 coordinate system.</eaover>
-		</overview>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>New York City Department of City Planning</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>22 Reade St</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10007</postal>
-				</cntaddr>
-				<cntvoice>212.720.3505</cntvoice>
-			</cntinfo>
-		</distrib>
-		<resdesc>nycp_2008_facilities</resdesc>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>geopackage</formname>
+							</overview>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>New York City Department of City Planning</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>22 Reade St</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10007</postal>
+									</cntaddr>
+									<cntvoice>212.720.3505</cntvoice>
+								</cntinfo>
+							</distrib>
+							<resdesc>nycp_2008_facilities</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>geopackage</formname>
 
-				</digtinfo>
-			</digform>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>20100224</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+									</digtinfo>
+								</digform>
+							</stdorder>
+						</distinfo>
+						<metainfo>
+							<metd>20100224</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

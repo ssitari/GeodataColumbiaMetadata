@@ -1,181 +1,117 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata xml:lang="en">
-<eainfo>
-<detailed Name="index_grid_ams_v721">
-<enttyp>
-<enttypl>index_grid_ams_v721</enttypl>
-<enttypt>Feature Class</enttypt>
-<enttypc>0</enttypc>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attalias>FID</attalias>
-<attrtype>OID</attrtype>
-<attwidth>4</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attalias>Shape</attalias>
-<attrtype>Geometry</attrtype>
-<attwidth>0</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Number</attrlabl>
-<attalias>Number</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>9</attwidth>
-<atprecis>9</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>RomNumber</attrlabl>
-<attalias>RomNumber</attalias>
-<attrtype>String</attrtype>
-<attwidth>3</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrdomv>
-<edom>
-<edomv>0</edomv>
-<edomvd>Not held</edomvd>
-</edom>
-<edom>
-<edomv>1</edomv>
-<edomvd>held</edomvd>
-</edom>
-</attrdomv>
-<attrdef>Indicates if in Columbia library collection</attrdef>
-</attr>
-</detailed>
-</eainfo>
-<idinfo>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Map Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
-</cntinfo>
-</ptcontac>
-<citation>
-<citeinfo>
-<title>New York A.M.S. V721 1:50,000 Index, 2011</title>
-<origin>Columbia University. Libraries</origin>
-<pubdate>2011</pubdate>
-<geoform>vector digital data</geoform>
-<pubinfo>
+	<idinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Map Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+				<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
+			</cntinfo>
+		</ptcontac>
+		<citation>
+			<citeinfo>
+				<title>New York A.M.S. V721 1:50,000 Index, 2011</title>
+				<origin>Columbia University. Libraries</origin>
+				<pubdate>2011</pubdate>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
 					<pubplace>New York</pubplace>
 					<publish>Columbia University. Libraries</publish>
 				</pubinfo>
-<onlink>https://www.columbia.edu/acis/eds/gis/images/cul_index_grid_ams_v721_2011.zip</onlink>
-</citeinfo>
-</citation>
-<keywords>
-<temporal>
-<tempkey>2011</tempkey>
-<tempkt>None</tempkt>
-<tempkey>1946</tempkey>
-</temporal>
-<theme>
-<themekey>location</themekey>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>imageryBaseMapsEarthCover</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>New York (5128638)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>New York (State)</placekey>
-</place>
-<theme>
-<themekt>Library of Congress Subject Headings</themekt>
-<themekey>New York (State)--Maps.</themekey>
-</theme>
-</keywords>
-<descript>
-<abstract>A.M.S. V721 New York 1:50,000 Index is a polygon theme representing the Index of the New York State United States. Army Map Service ; V721. New York 1:50,000 series, and indicates which sheets are held in the Columbia Libraries collection.</abstract>
-<purpose>Created as a finding aid for map sheets from the AMS V721 New York 1:50,000 series.</purpose>
-<langdata>en</langdata>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/cul_index_grid_ams_v721_2011.zip</onlink>
+			</citeinfo>
+		</citation>
+		<keywords>
+			<temporal>
+				<tempkey>2011</tempkey>
+				<tempkt>None</tempkt>
+				<tempkey>1946</tempkey>
+			</temporal>
+			<theme>
+				<themekey>location</themekey>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>imageryBaseMapsEarthCover</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>New York (5128638)</placekey>
+			</place>
+			<place>
+				<placekt>Library of Congress Subject Headings</placekt>
+				<placekey>New York (State)</placekey>
+			</place>
+			<theme>
+				<themekt>Library of Congress Subject Headings</themekt>
+				<themekey>New York (State)--Maps.</themekey>
+			</theme>
+		</keywords>
+		<descript>
+			<abstract>A.M.S. V721 New York 1:50,000 Index is a polygon theme representing the Index of the New York State United States. Army Map Service ; V721. New York 1:50,000 series, and indicates which sheets are held in the Columbia Libraries collection.</abstract>
+			<purpose>Created as a finding aid for map sheets from the AMS V721 New York 1:50,000 series.</purpose>
+			<langdata>en</langdata>
 <supplinf>Issued in 15 minute quadrangles. Set includes various issues of some sheets.
 "Polyconic [or transverse Mercator] projection."
 "Contour interval 20-[40] feet."
 Some sheets are treated as revisions of earlier sheets on the scale of 1:62,500.
 Marginal maps: Index to boundaries--Index to adjoining sheets.--Coverage diagram.</supplinf>
-</descript>
-<timeperd>
-<timeinfo>
-<sngdate>
-<caldate>2011</caldate>
-</sngdate>
-</timeinfo>
-<current>publication date</current>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>None planned</update>
-</status>
-<spdom>
-<bounding>
-<westbc>-79.75</westbc>
-<eastbc>-71.75</eastbc>
-<northbc>45.125</northbc>
-<southbc>40.5</southbc>
-</bounding>
-</spdom>
-<accconst>None</accconst>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2011</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-79.75</westbc>
+				<eastbc>-71.75</eastbc>
+				<northbc>45.125</northbc>
+				<southbc>40.5</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None</accconst>
 
-<useconst>None</useconst>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/index_grid_ams_v721.jpg</browsen>
-<browsed>Thumbnail</browsed>
-<browset>JPEG</browset>
-</browse>
-</idinfo>
-<dataqual>
-<lineage>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>United States. Army Map Service. </origin>
-<pubdate>1946-</pubdate>
-<title>New York 1:50,000.</title>
-<serinfo>
-<sername>A.M.S. (United States. Army Map Service)</sername>
-<issue>V721. </issue>
-</serinfo>
-<pubinfo>
-<pubplace>Washington</pubplace>
-<publish>United States. Army Map Service. </publish>
-</pubinfo>
+		<useconst>None</useconst>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/index_grid_ams_v721.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>JPEG</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>United States. Army Map Service. </origin>
+						<pubdate>1946-</pubdate>
+						<title>New York 1:50,000.</title>
+						<serinfo>
+							<sername>A.M.S. (United States. Army Map Service)</sername>
+							<issue>V721. </issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Washington</pubplace>
+							<publish>United States. Army Map Service. </publish>
+						</pubinfo>
 <othercit>col. maps. 56 x 43 cm. or smaller.
 
 Issued in 15 minute quadrangles. Set includes various issues of some sheets.
@@ -185,102 +121,166 @@ Some sheets are treated as revisions of earlier sheets on the scale of 1:62,500.
 Marginal maps: Index to boundaries--Index to adjoining sheets.--Coverage diagram.
 
 Standard map series designation: Series V721</othercit>
-</citeinfo>
-</srccite>
-<srcscale>50000</srcscale>
-<typesrc>paper map</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>1946</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>ground condition</srccurr>
-</srctime>
-<srccitea>AMS v721</srccitea>
-</srcinfo>
-<procstep>
-<proccont>
-<cntinfo>
-<cntperp>
-<cntper>GIS/Map Librarian</cntper>
-<cntorg>Digital Social Sciences Center, Columbia University Libraries</cntorg>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
-</cntinfo>
-</proccont>
-<procdesc>Created XToolsPro fishnet, added ID fields to identify maps, and the CU field, with either 1 if Columbia own the map or 0 if we do not. </procdesc>
-<srcused>AMS v721</srcused>
-<procdate>04272011</procdate>
-</procstep>
-</lineage>
-</dataqual>
-<spref>
-<horizsys>
-<cordsysn>
-<geogcsn>GCS_WGS_1984</geogcsn>
-</cordsysn>
-</horizsys>
-</spref>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Map Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St.. 215 IAB, MC3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
-</cntinfo>
-</distrib>
-<resdesc>cul_index_grid_ams_v721_2011</resdesc>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-</distinfo>
-<metainfo>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metd>20130212</metd>
-</metainfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>50000</srcscale>
+				<typesrc>paper map</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1946</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>AMS v721</srccitea>
+			</srcinfo>
+			<procstep>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>GIS/Map Librarian</cntper>
+							<cntorg>Digital Social Sciences Center, Columbia University Libraries</cntorg>
+						</cntperp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>420 W. 118th St., 215 IAB, MC 3301</address>
+							<city>New York</city>
+							<state>NY</state>
+							<postal>10027</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(212) 854-6012</cntvoice>
+						<cntemail>data@library.columbia.edu</cntemail>
+						<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
+					</cntinfo>
+				</proccont>
+				<procdesc>Created XToolsPro fishnet, added ID fields to identify maps, and the CU field, with either 1 if Columbia own the map or 0 if we do not. </procdesc>
+				<srcused>AMS v721</srcused>
+				<procdate>04272011</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn>GCS_WGS_1984</geogcsn>
+			</cordsysn>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="index_grid_ams_v721">
+			<enttyp>
+				<enttypl>index_grid_ams_v721</enttypl>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>0</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attalias>Shape</attalias>
+				<attrtype>Geometry</attrtype>
+				<attwidth>0</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Number</attrlabl>
+				<attalias>Number</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>9</attwidth>
+				<atprecis>9</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>RomNumber</attrlabl>
+				<attalias>RomNumber</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>3</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>Not held</edomvd>
+					</edom>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>held</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>Indicates if in Columbia library collection</attrdef>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Map Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St.. 215 IAB, MC3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+				<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>cul_index_grid_ams_v721_2011</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>geopackage</formname>
+					<formspec>zip</formspec>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metd>20130212</metd>
+	</metainfo>
 </metadata>

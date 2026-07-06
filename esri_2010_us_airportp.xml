@@ -32,7 +32,10 @@ This dataset includes two ESRI layer files symbolizing airport size and congesti
 		<timeperd>
 			<current>publication date</current>
 			<timeinfo>
-				<sngdate><caldate>2010</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2010</caldate>
+				</sngdate>
+			</timeinfo>
 		</timeperd>
 		<status>
 			<progress>Complete</progress>
@@ -115,32 +118,113 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			</cntinfo>
 		</ptcontac>
 	</idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20110725</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Tele Atlas MultiNet North America</title>
+						<origin>Tele Atlas North America, Inc.</origin>
+						<pubdate>201003</pubdate>
+						<edition>Version 2010.03</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>Tele Atlas MultiNet North America</sername>
+							<issue>Version 2010.03</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>Tele Atlas North America, Inc.</publish>
+							<pubplace>Lebanon, New Hampshire, USA</pubplace>
+						</pubinfo>
+						<onlink>http://www.teleatlas.com/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>DVD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>201003</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Tele Atlas MultiNet North America v. 2010.03</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Bureau of Transportation Statistics, (comp.)</origin>
+						<pubdate>2002</pubdate>
+						<title>Public Use Airports, 2010</title>
+						<edition>2002</edition>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Washington, DC</pubplace>
+							<publish>Bureau of Transportation Statistics</publish>
+						</pubinfo>
+						<othercit>From the National Transportation Atlas Databases (NTAD) 2002 CD-ROM.</othercit>
+						<onlink>http://www.bts.gov/gis/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2002</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>NTAD 2002 - Airports</srccitea>
+				<srccontr>Attribute data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<typesrc>online</typesrc>
+				<srccitea>AirNav, LLC</srccitea>
+				<srccontr>Attribute data</srccontr>
+				<srccite>
+					<citeinfo>
+						<origin>AirNav, LLC</origin>
+						<title>Airport Information</title>
+						<geoform>tabular digital data</geoform>
+						<pubinfo>
+							<pubplace>online</pubplace>
+							<publish>AirNav, LLC</publish>
+						</pubinfo>
+						<othercit>Accessed web site in 2003.</othercit>
+						<onlink>http://www.airnav.com/</onlink>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2003</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+			</srcinfo>
+			<procstep>
+				<procdate>20100426</procdate>
+				<procdesc>The following steps were performed by ESRI: Extracted the Land Use data sets from Tele Atlas MultiNet North America v. 2010.03 and merged them into a nationwide data set. Selected the airport ground and runway features. Removed all fields except FEATTYP, NAME, and ACRON. Renamed field FEATTYP to MNFC. Renamed field ACRON to LOC_ID. Attached and formatted the fields from 2009 Data Update U.S. Airports (source dates - 1991, 1992, and 1994). Put a "-999" value into all records that did not find a match for the field ELEVATION. Put a "0" value into all records that did not find a match for the fields LRGCERTENP, COMM_ENP, AIRTAXIENP, FOREIGNENP and INTRANENP. Added field FEATTYPE and copied its values from MultiNet FEATTYP descriptions. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>Horizontal positional accuracy is dependent on geographic area. In most areas, accuracy is between 5 and 25 meters (16 and 82 feet). In some areas, accuracy is off by up to several tens of meters (100 feet or more). In the poorest areas, accuracy is off by up to 100 meters (328 feet).</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype></sdtsterm></ptvctinf>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
 	</spdoinfo>
 	<spref>
 		<horizsys>
@@ -547,104 +631,27 @@ Outside the United States, please direct all inquiries to your local ESRI Office
 			</cntinfo>
 		</distrib>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Tele Atlas MultiNet North America</title>
-						<origin>Tele Atlas North America, Inc.</origin>
-						<pubdate>201003</pubdate>
-						<edition>Version 2010.03</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>Tele Atlas MultiNet North America</sername>
-							<issue>Version 2010.03</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>Tele Atlas North America, Inc.</publish>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-						</pubinfo>
-						<onlink>http://www.teleatlas.com/</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>DVD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>201003</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>Tele Atlas MultiNet North America v. 2010.03</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Bureau of Transportation Statistics, (comp.)</origin>
-						<pubdate>2002</pubdate>
-						<title>Public Use Airports, 2010</title>
-						<edition>2002</edition>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<pubplace>Washington, DC</pubplace>
-							<publish>Bureau of Transportation Statistics</publish>
-						</pubinfo>
-						<othercit>From the National Transportation Atlas Databases (NTAD) 2002 CD-ROM.</othercit>
-						<onlink>http://www.bts.gov/gis/</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2002</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>NTAD 2002 - Airports</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<typesrc>online</typesrc>
-				<srccitea>AirNav, LLC</srccitea>
-				<srccontr>Attribute data</srccontr>
-				<srccite>
-					<citeinfo>
-						<origin>AirNav, LLC</origin>
-						<title>Airport Information</title>
-						<geoform>tabular digital data</geoform>
-						<pubinfo>
-							<pubplace>online</pubplace>
-							<publish>AirNav, LLC</publish>
-						</pubinfo>
-						<othercit>Accessed web site in 2003.</othercit>
-						<onlink>http://www.airnav.com/</onlink>
-					</citeinfo>
-				</srccite>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2003</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-			</srcinfo>
-			<procstep>
-				<procdate>20100426</procdate>
-				<procdesc>The following steps were performed by ESRI: Extracted the Land Use data sets from Tele Atlas MultiNet North America v. 2010.03 and merged them into a nationwide data set. Selected the airport ground and runway features. Removed all fields except FEATTYP, NAME, and ACRON. Renamed field FEATTYP to MNFC. Renamed field ACRON to LOC_ID. Attached and formatted the fields from 2009 Data Update U.S. Airports (source dates - 1991, 1992, and 1994). Put a "-999" value into all records that did not find a match for the field ELEVATION. Put a "0" value into all records that did not find a match for the fields LRGCERTENP, COMM_ENP, AIRTAXIENP, FOREIGNENP and INTRANENP. Added field FEATTYPE and copied its values from MultiNet FEATTYP descriptions. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>Horizontal positional accuracy is dependent on geographic area. In most areas, accuracy is between 5 and 25 meters (16 and 82 feet). In some areas, accuracy is off by up to several tens of meters (100 feet or more). In the poorest areas, accuracy is off by up to 100 meters (328 feet).</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20110725</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

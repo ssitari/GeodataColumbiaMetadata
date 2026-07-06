@@ -28,7 +28,10 @@
 		</descript>
 		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2006</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2006</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>publication date</current>
 		</timeperd>
 		<status>
@@ -39,63 +42,63 @@
 			<bounding>
 				<westbc>
 -141.001300</westbc>
-				<eastbc>
+					<eastbc>
 -52.670264</eastbc>
-				<northbc>
+						<northbc>
 78.946164</northbc>
-				<southbc>
+							<southbc>
 41.386664</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>polygon</themekey>
-				<themekey>water</themekey>
-				<themekey>lake/lac</themekey>
-				<themekey>river/fleuve</themekey>
-				<themekey>reservoir</themekey>
-				<themekey>bay/baie</themekey>
-			</theme>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>inlandWaters</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Canada (6251999)</placekey>
-			</place>
-			<place>
-				<placekt>None</placekt>
-				<placekey>Canada</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2002</tempkey>
-				<tempkey>1996</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>polygon</themekey>
+								<themekey>water</themekey>
+								<themekey>lake/lac</themekey>
+								<themekey>river/fleuve</themekey>
+								<themekey>reservoir</themekey>
+								<themekey>bay/baie</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>inlandWaters</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Canada (6251999)</placekey>
+							</place>
+							<place>
+								<placekt>None</placekt>
+								<placekey>Canada</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2002</tempkey>
+								<tempkey>1996</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
 
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI</cntorg>
-					<cntper>Data Team</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>909-793-2853</cntvoice>
-				<cntfax>909-793-5953</cntfax>
-				<cntemail>info@esri.com</cntemail>
-				<hours>7:00 a.m.5:30 p.m. Pacific time, MondayFriday</hours>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>ESRI</cntorg>
+									<cntper>Data Team</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>380 New York Street</address>
+									<city>Redlands</city>
+									<state>California</state>
+									<postal>92373-8100</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>909-793-2853</cntvoice>
+								<cntfax>909-793-5953</cntfax>
+								<cntemail>info@esri.com</cntemail>
+								<hours>7:00 a.m.5:30 p.m. Pacific time, MondayFriday</hours>
 				<cntinst>In the United States
 Please direct all inquiries regarding software/data pricing and consulting services to your local ESRI Regional Office.  For support, you may contact Technical Support by telephone (voice) between 6:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing 888-377-4575; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com; ESRI holidays excluded.
 
@@ -103,209 +106,209 @@ Outside the United States
 Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contactint.cfm.
 
 For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-			</cntinfo>
-		</ptcontac>
+							</cntinfo>
+						</ptcontac>
 
-		<datacred>Statistics Canada</datacred>
-		<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 9.0.0.532</native>
-	</idinfo>
-	<dataqual>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-		<posacc>
-			<horizpa>
-				<horizpar>The scales of the data sources range from 1:50,000 to 1:2,000,000.  The positional accuracy varies as well and is unknown.</horizpar>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>DMTI Spatial Inc.</origin>
-						<pubdate>200209</pubdate>
-						<title>Canadian Data Bundle?Data sets from Statistics Canada with source scales of 1:50,000 to 1:2,000,000.</title>
-						<edition>2002</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>Canadian Data Bundle</sername>
-							<issue>2002</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Markham, Ontario, Canada</pubplace>
-							<publish>DMTI Spatial Inc.</publish>
-						</pubinfo>
-						<othercit>This data set is based data from Statistics Canada.</othercit>
-					</citeinfo>
-				</srccite>
-				<srcscale>50000?2000000</srcscale>
-				<typesrc>CD?ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>200209</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>1996</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>DMTI Spatial Inc. - SC50 to 2000</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>The data set is a fully georeferenced, purely digital product. The boundaries are based on Statistics Canada data. Source data ranges from 1:50,000 to 1:2,000,000.</procdesc>
-				<srcprod>DMTI Spatial Inc. - SC50 to 2000</srcprod>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Extracted data set from DMTI Spatial Canadian Data Bundle. Removed erroneous island at 80 N 135 W. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
-				<srcused>DMTI Spatial Inc. - SC50 to 2000</srcused>
-				<procdate>20020925</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Added SQKM attribute and calculated its values. Deleted all features that were not inland water. Changed all NAME attribute values of "0" to "".</procdesc>
-				<srcused>DMTI Spatial Inc. - SC50 to 2000</srcused>
-				<procdate>20040307</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>G-polygon</sdtstype>
-				<ptvctcnt>4179</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.000009</latres>
-				<longres>0.000009</longres>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>North American Datum of 1983</horizdn>
-				<ellips>Geodetic Reference System 80</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257222</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+						<datacred>Statistics Canada</datacred>
+						<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 9.0.0.532</native>
+					</idinfo>
+					<dataqual>
+						<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+						<posacc>
+							<horizpa>
+								<horizpar>The scales of the data sources range from 1:50,000 to 1:2,000,000.  The positional accuracy varies as well and is unknown.</horizpar>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>DMTI Spatial Inc.</origin>
+										<pubdate>200209</pubdate>
+										<title>Canadian Data Bundle?Data sets from Statistics Canada with source scales of 1:50,000 to 1:2,000,000.</title>
+										<edition>2002</edition>
+										<geoform>vector digital data</geoform>
+										<serinfo>
+											<sername>Canadian Data Bundle</sername>
+											<issue>2002</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Markham, Ontario, Canada</pubplace>
+											<publish>DMTI Spatial Inc.</publish>
+										</pubinfo>
+										<othercit>This data set is based data from Statistics Canada.</othercit>
+									</citeinfo>
+								</srccite>
+								<srcscale>50000?2000000</srcscale>
+								<typesrc>CD?ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<mdattim>
+											<sngdate>
+												<caldate>200209</caldate>
+											</sngdate>
+											<sngdate>
+												<caldate>1996</caldate>
+											</sngdate>
+										</mdattim>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>DMTI Spatial Inc. - SC50 to 2000</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<procstep>
+								<procdesc>The data set is a fully georeferenced, purely digital product. The boundaries are based on Statistics Canada data. Source data ranges from 1:50,000 to 1:2,000,000.</procdesc>
+								<srcprod>DMTI Spatial Inc. - SC50 to 2000</srcprod>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Extracted data set from DMTI Spatial Canadian Data Bundle. Removed erroneous island at 80 N 135 W. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
+								<srcused>DMTI Spatial Inc. - SC50 to 2000</srcused>
+								<procdate>20020925</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Added SQKM attribute and calculated its values. Deleted all features that were not inland water. Changed all NAME attribute values of "0" to "".</procdesc>
+								<srcused>DMTI Spatial Inc. - SC50 to 2000</srcused>
+								<procdate>20040307</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>G-polygon</sdtstype>
+								<ptvctcnt>4179</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000009</latres>
+								<longres>0.000009</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 water</enttypl>
-				<enttypd>The polygons represent the water bodies for Canada including lakes/lac, large rivers/fleuve, reservoirs, and bays/baie.</enttypd>
-				<enttypds>DMTI Spatial Inc.</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>ObjectID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME</attrlabl>
-				<attrdef>The water feature name.</attrdef>
-				<attrdefs>DMTI Spatial Inc.</attrdefs>
-				<attrdomv>
-					<udom>Names for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>SQKM</attrlabl>
-				<attrdef>The area of the water feature in square kilometers.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Calculated areas for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI; ESRI International Distributors</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>800-447-9778</cntvoice>
+									<enttypd>The polygons represent the water bodies for Canada including lakes/lac, large rivers/fleuve, reservoirs, and bays/baie.</enttypd>
+									<enttypds>DMTI Spatial Inc.</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>ObjectID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME</attrlabl>
+									<attrdef>The water feature name.</attrdef>
+									<attrdefs>DMTI Spatial Inc.</attrdefs>
+									<attrdomv>
+										<udom>Names for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>SQKM</attrlabl>
+									<attrdef>The area of the water feature in square kilometers.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Calculated areas for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>ESRI; ESRI International Distributors</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>380 New York Street</address>
+										<city>Redlands</city>
+										<state>California</state>
+										<postal>92373-8100</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>800-447-9778</cntvoice>
 				<cntinst>In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data.
 
 Outside the United States, please direct all inquiries to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contactint.cfm.</cntinst>
-			</cntinfo>
-		</distrib>
-		<resdesc>esri_2006_canada_water</resdesc>
-		<distliab>See use constraints.</distliab>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>SDC</formname>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
-					<filedec>ArcGIS software</filedec>
-					<transize>1.485</transize>
-				</digtinfo>
-				<digtopt>
-					<offoptn>
-						<offmedia>DVD?ROM</offmedia>
-						<reccap>
-							<recden>4.38</recden>
-							<recdenu>GB (gigabytes)</recdenu>
-						</reccap>
-						<recfmt>UDF (Universal Disc Format)</recfmt>
-					</offoptn>
-				</digtopt>
-			</digform>
-			<fees>Software purchase price</fees>
-			<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
-		</stdorder>
-		<techpreq>To use this data requires software that supports SDC files.</techpreq>
-	</distinfo>
-	<metainfo>
-		<metd>20070405</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-				<hours>7:00 a.m.5:30 p.m. Pacific time, MondayFriday</hours>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+								</cntinfo>
+							</distrib>
+							<resdesc>esri_2006_canada_water</resdesc>
+							<distliab>See use constraints.</distliab>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>SDC</formname>
+										<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+										<filedec>ArcGIS software</filedec>
+										<transize>1.485</transize>
+									</digtinfo>
+									<digtopt>
+										<offoptn>
+											<offmedia>DVD?ROM</offmedia>
+											<reccap>
+												<recden>4.38</recden>
+												<recdenu>GB (gigabytes)</recdenu>
+											</reccap>
+											<recfmt>UDF (Universal Disc Format)</recfmt>
+										</offoptn>
+									</digtopt>
+								</digform>
+								<fees>Software purchase price</fees>
+								<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
+							</stdorder>
+							<techpreq>To use this data requires software that supports SDC files.</techpreq>
+						</distinfo>
+						<metainfo>
+							<metd>20070405</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+									<hours>7:00 a.m.5:30 p.m. Pacific time, MondayFriday</hours>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

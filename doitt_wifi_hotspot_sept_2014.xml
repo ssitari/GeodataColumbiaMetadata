@@ -9,7 +9,11 @@
 				<title>New York City WiFi Hotspots, 2014</title>
 				<geoform>vector digital data</geoform>
 				<ftname>DOITT_WIFI_HOTSPOT_01_13SEPT2010</ftname>
-				<pubinfo><pubplace>City of New York</pubplace><publish>New York (N.Y.). Department of Information Technology and Telecommunications.</publish></pubinfo></citeinfo>
+				<pubinfo>
+					<pubplace>City of New York</pubplace>
+					<publish>New York (N.Y.). Department of Information Technology and Telecommunications.</publish>
+				</pubinfo>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>New York City WiFi Hotspots, 2014 is a point representing approximate location of Wi-Fi hotspots as of 2014.  This data set was created by NYC Department of Information Technology and Telecommunications and was downloaded from the NYC Open Data website.</abstract>
@@ -46,12 +50,22 @@
 			<theme>
 				<themekt>None</themekt>
 				<themekey>Wi-Fi hotspots</themekey>
-				<themekey>WiFi</themekey><themekey>WLAN</themekey><themekey>Wireless</themekey><themekey>wireless local area network</themekey><themekey>Internet</themekey></theme>
+				<themekey>WiFi</themekey>
+				<themekey>WLAN</themekey>
+				<themekey>Wireless</themekey>
+				<themekey>wireless local area network</themekey>
+				<themekey>Internet</themekey>
+			</theme>
 			<place>
 				<placekt>GeoNames</placekt>
 				<placekey>New York City (5128581)</placekey>
 			</place>
-			<temporal><tempkey>2014</tempkey><tempkt>None</tempkt><tempkey>2010</tempkey></temporal><place>
+			<temporal>
+				<tempkey>2014</tempkey>
+				<tempkt>None</tempkt>
+				<tempkey>2010</tempkey>
+			</temporal>
+			<place>
 				<placekt>Library of Congress Subject Headings</placekt>
 				<placekey>New York (N.Y.)</placekey>
 				<placekey>Brooklyn (New York, N.Y.)</placekey>
@@ -63,7 +77,12 @@
 			<place>
 				<placekt>None</placekt>
 				<placekey>NYC</placekey>
-			</place><theme><themekt>ISO 19115 Topic Category</themekt><themekey>utilitiesCommunication</themekey></theme></keywords>
+			</place>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>utilitiesCommunication</themekey>
+			</theme>
+		</keywords>
 		<accconst>None</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -89,7 +108,13 @@
 	</idinfo>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>Point</sdtstype><ptvctcnt>880</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>880</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
 	<spref>
 		<horizsys>
 			<planar>
@@ -120,16 +145,28 @@
 			</altsys>
 		</vertdef>
 	</spref>
-	<spdoinfo>
-		<ptvctinf/></spdoinfo>
 	<eainfo>
 		<detailed Name="doitt_wifi_hotspot_sept_2014">
 			<enttyp>
 				<enttypl>NYC_Free_Public_WiFi</enttypl>
 				<enttypt>Feature Class</enttypt>
 				<enttypc>0</enttypc>
-				<enttypd>WiFi Hotspots</enttypd></enttyp>
-			<attr><attrlabl>FID</attrlabl><attalias>FID</attalias><attrtype>OID</attrtype><attwidth>4</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>Internal feature number.</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<enttypd>WiFi Hotspots</enttypd>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
 				<attrlabl>OBJECTID</attrlabl>
 				<attalias>OBJECTID</attalias>
 				<attrtype>OID</attrtype>
@@ -162,7 +199,8 @@
 				<attwidth>254</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Borough</attrdef></attr>
+				<attrdef>Borough</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>Type</attrlabl>
 				<attalias>Type</attalias>
@@ -170,7 +208,8 @@
 				<attwidth>254</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Type</attrdef></attr>
+				<attrdef>Type</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>Provider</attrlabl>
 				<attalias>Provider</attalias>
@@ -178,15 +217,26 @@
 				<attwidth>254</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Provider</attrdef></attr>
-			<attr><attrlabl>Name</attrlabl><attalias>Name</attalias><attrtype>String</attrtype><attwidth>254</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>Name</attrdef></attr><attr>
+				<attrdef>Provider</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Name</attrlabl>
+				<attalias>Name</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>254</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Name</attrdef>
+			</attr>
+			<attr>
 				<attrlabl>Location</attrlabl>
 				<attalias>Location</attalias>
 				<attrtype>String</attrtype>
 				<attwidth>254</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Location</attrdef></attr>
+				<attrdef>Location</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>Lat</attrlabl>
 				<attalias>Lat</attalias>
@@ -194,7 +244,8 @@
 				<attwidth>8</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Latitude</attrdef></attr>
+				<attrdef>Latitude</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>Long_</attrlabl>
 				<attalias>Long_</attalias>
@@ -202,9 +253,82 @@
 				<attwidth>8</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Longitude</attrdef></attr>
-			<attr><attrlabl>X</attrlabl><attalias>X</attalias><attrtype>Double</attrtype><attwidth>19</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>X Coordinate</attrdef></attr><attr><attrlabl>Y</attrlabl><attalias>Y</attalias><attrtype>Double</attrtype><attwidth>19</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>Y Coordinate</attrdef></attr><attr><attrlabl>Location_T</attrlabl><attalias>Location_T</attalias><attrtype>String</attrtype><attwidth>25</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>Location type</attrdef></attr><attr><attrlabl>Remarks</attrlabl><attalias>Remarks</attalias><attrtype>String</attrtype><attwidth>50</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>Remarks</attrdef></attr><attr><attrlabl>City</attrlabl><attalias>City</attalias><attrtype>String</attrtype><attwidth>25</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>City</attrdef></attr><attr><attrlabl>SSID</attrlabl><attalias>SSID</attalias><attrtype>String</attrtype><attwidth>25</attwidth><atprecis>0</atprecis><attscale>0</attscale></attr></detailed>
+				<attrdef>Longitude</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>X</attrlabl>
+				<attalias>X</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>19</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>X Coordinate</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Y</attrlabl>
+				<attalias>Y</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>19</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Y Coordinate</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Location_T</attrlabl>
+				<attalias>Location_T</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>25</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Location type</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Remarks</attrlabl>
+				<attalias>Remarks</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>50</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Remarks</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>City</attrlabl>
+				<attalias>City</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>25</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>City</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>SSID</attrlabl>
+				<attalias>SSID</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>25</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+		</detailed>
 	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Department of Information Technology and Telecommunications</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>2 Metrotech Center, 4th Floor</address>
+					<city>Brooklyn</city>
+					<state>NY</state>
+					<postal>11201</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntemail>spatialdatarequest@doitt.nyc.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>doitt_wifi_hotspot_sept_2014</resdesc>
+	</distinfo>
 	<metainfo>
 		<metc>
 			<cntinfo>
@@ -231,22 +355,4 @@
 			<metsc>Unclassified</metsc>
 		</metsi>
 	</metainfo>
-	<distinfo><distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Department of Information Technology and Telecommunications</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>2 Metrotech Center, 4th Floor</address>
-					<city>Brooklyn</city>
-					<state>NY</state>
-					<postal>11201</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntemail>spatialdatarequest@doitt.nyc.gov</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>doitt_wifi_hotspot_sept_2014</resdesc>
-	</distinfo>
 </metadata>

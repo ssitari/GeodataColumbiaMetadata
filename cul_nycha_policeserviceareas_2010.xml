@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
+	<idinfo>
 		<citation>
 			<citeinfo>
-			<origin>New York City Housing Authority</origin>
+				<origin>New York City Housing Authority</origin>
 				<origin>Columbia University. Libraries</origin>
 				<pubdate>2014</pubdate>
 				<title>New York City Housing Authority Police Service Areas, 2010</title>
 				<pubinfo>
 					<pubplace>New York City</pubplace>
-					<publish></publish>
+					<publish>
+					</publish>
 				</pubinfo>
 				<onlink>https://www.columbia.edu/acis/eds/gis/images/cul_nycha_policeserviceareas_2010.zip</onlink>
 			</citeinfo>
@@ -32,38 +33,39 @@
 		</status>
 		<spdom>
 			<bounding>
-<westbc>-74.257061</westbc>
-<eastbc>-73.699273</eastbc>
-<northbc>40.915087</northbc>
-<southbc>40.498294</southbc>
-</bounding>
+				<westbc>-74.257061</westbc>
+				<eastbc>-73.699273</eastbc>
+				<northbc>40.915087</northbc>
+				<southbc>40.498294</southbc>
+			</bounding>
 		</spdom>
 		<keywords>
 			<theme>
 				<themekt>None</themekt>
-				<themekey></themekey>
+				<themekey>
+				</themekey>
 			</theme>
 			<theme>
 				<themekt>ISO 19115 Topic Category</themekt>
 				<themekey>society</themekey>
-				</theme>
+			</theme>
 			<place>
 				<placekt>GeoNames</placekt>
 				<placekey>New York City (5128581)</placekey>
 			</place>
 			<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>New York (N.Y.)</placekey>
-<placekey>Brooklyn (New York, N.Y.)</placekey>
-<placekey>Bronx (New York, N.Y.)</placekey>
-<placekey>Queens (New York, N.Y.)</placekey>
-<placekey>Manhattan (New York, N.Y.)</placekey>
-<placekey>Staten Island (New York, N.Y.)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>NYC</placekey>
-</place>
+				<placekt>Library of Congress Subject Headings</placekt>
+				<placekey>New York (N.Y.)</placekey>
+				<placekey>Brooklyn (New York, N.Y.)</placekey>
+				<placekey>Bronx (New York, N.Y.)</placekey>
+				<placekey>Queens (New York, N.Y.)</placekey>
+				<placekey>Manhattan (New York, N.Y.)</placekey>
+				<placekey>Staten Island (New York, N.Y.)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>NYC</placekey>
+			</place>
 			<temporal>
 				<tempkt>None</tempkt>
 				<tempkey>2010</tempkey>
@@ -73,163 +75,163 @@
 		<useconst>None</useconst>
 	</idinfo>
 
-<dataqual>
-<lineage>
-<procstep>
-<procdesc>PSA's dated Sept 2010. Downloaded from NYC DataMine, I added it to the EDS sheet in idnumbers along with the other nycha layers but this shapefile was noted as a doitt dataset so if you think it'll make more sense, we can move it to the doitt sheet.</procdesc>
-<procdate>2014</procdate>
-</procstep>
-</lineage>
-</dataqual>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>PSA's dated Sept 2010. Downloaded from NYC DataMine, I added it to the EDS sheet in idnumbers along with the other nycha layers but this shapefile was noted as a doitt dataset so if you think it'll make more sense, we can move it to the doitt sheet.</procdesc>
+				<procdate>2014</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
 
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>Entity point</sdtstype>
-<ptvctcnt>16</ptvctcnt>
-</sdtsterm>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Entity point</sdtstype>
+				<ptvctcnt>16</ptvctcnt>
+			</sdtsterm>
 
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<planar>
-<planci>
-<plance>coordinate pair</plance>
-<coordrep>
-<absres>0.000000</absres>
-<ordres>0.000000</ordres>
-</coordrep>
-<plandu>U.S. Foot</plandu>
-</planci>
-<mapproj>
-<mapprojn>Lambert Conformal Conic</mapprojn>
-<lambertc>
-<stdparll>40.666667</stdparll>
-<stdparll>41.033333</stdparll>
-<longcm>-74.000000</longcm>
-<latprjo>40.166667</latprjo>
-<feast>984250.000000</feast>
-</lambertc>
-</mapproj>
-</planar>
-<geodetic>
-<horizdn>NAD 83 [Continental US]</horizdn>
-<ellips>GRS 80</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257222</denflat>
-</geodetic>
-<cordsysn>
-<geogcsn>NAD 83 [Continental US]</geogcsn>
-<projcsn>New York 3104, Long Island Zone [1983, US Survey feet]</projcsn>
-</cordsysn>
-</horizsys>
-<vertdef>
-<altsys>
-<altres>1.000000</altres>
-<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-</altsys>
-</vertdef>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>DOITT_NYCHA_PSA_01_13SEPT2010</enttypl>
-<enttypt>Feature Class</enttypt>
-<enttypc>16</enttypc>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attalias>FID</attalias>
-<attrtype>OID</attrtype>
-<attwidth>4</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>DEVELOPMEN</attrlabl>
-<attalias>DEVELOPMEN</attalias>
-<attrdef>Development</attrdef>
-<attrtype>String</attrtype>
-<attwidth>254</attwidth>
-</attr>
-<attr>
-<attrlabl>ADDRESS</attrlabl>
-<attalias>ADDRESS</attalias>
-<attrdef>Address</attrdef>
-<attrtype>String</attrtype>
-<attwidth>254</attwidth>
-</attr>
-<attr>
-<attrlabl>BOROUGH</attrlabl>
-<attalias>BOROUGH</attalias>
-<attrdef>Borough</attrdef>
-<attrtype>String</attrtype>
-<attwidth>254</attwidth>
-</attr>
-<attr>
-<attrlabl>ZIP_CODE</attrlabl>
-<attalias>ZIP_CODE</attalias>
-<attrdef>Zip Code</attrdef>
-<attrtype>String</attrtype>
-<attwidth>254</attwidth>
-</attr>
-<attr>
-<attrlabl>BOROCODE</attrlabl>
-<attalias>BOROCODE</attalias>
-<attrdef>Borough COde</attrdef>
-<attrtype>String</attrtype>
-<attwidth>50</attwidth>
-</attr>
-<attr>
-<attrlabl>SHAPE</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-<attalias>Shape</attalias>
-<attrtype>Geometry</attrtype>
-<attwidth>0</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-</detailed>
-</eainfo>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000</absres>
+						<ordres>0.000000</ordres>
+					</coordrep>
+					<plandu>U.S. Foot</plandu>
+				</planci>
+				<mapproj>
+					<mapprojn>Lambert Conformal Conic</mapprojn>
+					<lambertc>
+						<stdparll>40.666667</stdparll>
+						<stdparll>41.033333</stdparll>
+						<longcm>-74.000000</longcm>
+						<latprjo>40.166667</latprjo>
+						<feast>984250.000000</feast>
+					</lambertc>
+				</mapproj>
+			</planar>
+			<geodetic>
+				<horizdn>NAD 83 [Continental US]</horizdn>
+				<ellips>GRS 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn>NAD 83 [Continental US]</geogcsn>
+				<projcsn>New York 3104, Long Island Zone [1983, US Survey feet]</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altres>1.000000</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>DOITT_NYCHA_PSA_01_13SEPT2010</enttypl>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>16</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DEVELOPMEN</attrlabl>
+				<attalias>DEVELOPMEN</attalias>
+				<attrdef>Development</attrdef>
+				<attrtype>String</attrtype>
+				<attwidth>254</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>ADDRESS</attrlabl>
+				<attalias>ADDRESS</attalias>
+				<attrdef>Address</attrdef>
+				<attrtype>String</attrtype>
+				<attwidth>254</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>BOROUGH</attrlabl>
+				<attalias>BOROUGH</attalias>
+				<attrdef>Borough</attrdef>
+				<attrtype>String</attrtype>
+				<attwidth>254</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>ZIP_CODE</attrlabl>
+				<attalias>ZIP_CODE</attalias>
+				<attrdef>Zip Code</attrdef>
+				<attrtype>String</attrtype>
+				<attwidth>254</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>BOROCODE</attrlabl>
+				<attalias>BOROCODE</attalias>
+				<attrdef>Borough COde</attrdef>
+				<attrtype>String</attrtype>
+				<attwidth>50</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias>Shape</attalias>
+				<attrtype>Geometry</attrtype>
+				<attwidth>0</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
 
-<distinfo>
-<resdesc>cul_nycha_policeserviceareas_2010</resdesc>
-</distinfo>
-<metainfo>
-<metc>
-<cntinfo>
-<cntaddr>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<addrtype>mailing and physical address</addrtype>
-<address>MS-561</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntperp>
-<cntper>GIS/Metadata Librarian</cntper>
-<cntorg>Research Data Services (RDS)</cntorg>
-</cntperp>
+	<distinfo>
+		<resdesc>cul_nycha_policeserviceareas_2010</resdesc>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<address>420 W. 118th St., 215 IAB, MC 3301</address>
+					<addrtype>mailing and physical address</addrtype>
+					<address>MS-561</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntperp>
+					<cntper>GIS/Metadata Librarian</cntper>
+					<cntorg>Research Data Services (RDS)</cntorg>
+				</cntperp>
 
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metd>20170713</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<metsi>
-<metsc>Unclassified</metsc>
-</metsi>
-</metainfo>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metd>20170713</metd>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+	</metainfo>
 </metadata>

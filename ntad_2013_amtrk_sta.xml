@@ -10,7 +10,9 @@
 					<pubplace>Washington, DC</pubplace>
 					<publish>United States. Bureau of Transportation Statistics</publish>
 				</pubinfo>
-				<pubdate>2013</pubdate><onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_amtrk_sta.zip</onlink></citeinfo>
+				<pubdate>2013</pubdate>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_amtrk_sta.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>United States Amtrak Stations, 2013 is a point theme representing Amtrack stations.
@@ -19,7 +21,8 @@ Updated database of the Federal Railroad Administration's (FRA) Amtrak Station d
 		</descript>
 		<status>
 			<progress>In work</progress>
-			<update>Annually</update></status>
+			<update>Annually</update>
+		</status>
 		<spdom>
 			<bounding>
 				<westbc>-124.211990</westbc>
@@ -41,10 +44,22 @@ Updated database of the Federal Railroad Administration's (FRA) Amtrak Station d
 				<placekt>GeoNames</placekt>
 				<placekey>United States (6252001)</placekey>
 			</place>
-			<place><placekt>Library of Congress Subject Headings</placekt><placekey>United States</placekey></place></keywords>
+			<place>
+				<placekt>Library of Congress Subject Headings</placekt>
+				<placekey>United States</placekey>
+			</place>
+		</keywords>
 		<accconst>None</accconst>
 		<useconst>None</useconst>
-		<timeperd><timeinfo><sngdate><caldate>2013</caldate></sngdate></timeinfo><current>publication date</current></timeperd></idinfo>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2013</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+	</idinfo>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -74,7 +89,8 @@ Updated database of the Federal Railroad Administration's (FRA) Amtrak Station d
 			<enttyp>
 				<enttypl>Amtrak Stations</enttypl>
 				<enttypds>Federal Railroad Administration (FRA)</enttypds>
-				<enttypd>Stations</enttypd></enttyp>
+				<enttypd>Stations</enttypd>
+			</enttyp>
 			<attr>
 				<attrlabl>FID</attrlabl>
 				<attrdef>Internal feature number.</attrdef>

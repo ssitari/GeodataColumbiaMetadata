@@ -4,7 +4,7 @@
 		<citation>
 			<citeinfo>
 				<origin>United States. Agency for International Development</origin>
-<origin>Famine Early Warning System Network</origin>
+				<origin>Famine Early Warning System Network</origin>
 				<pubdate>1996</pubdate>
 				<title>Guinea Level 2 Administrative Boundaries, 1996</title>
 				<edition>1</edition>
@@ -19,7 +19,8 @@
 				</pubinfo>
 				<othercit>FEWS/EROS Data Center (EDC)</othercit>
 				<onlink>https://www.columbia.edu/acis/eds/gis/images/fewsn_1996_guineaadmn2.zip</onlink>
-				<ftname>GuineaAdmn2</ftname></citeinfo>
+				<ftname>GuineaAdmn2</ftname>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>
@@ -28,12 +29,12 @@ This ARC/INFO polygon coverage contains the second Level administrative boundari
 The coverage is part of the Famine Early Warning System (FEWS) / Associates in Rural Development (ARD) African series.
 
 Guinea is associated with the Guinea Coast region in Africa.
-</abstract>
+			</abstract>
 			<purpose>
 This data set is to be used in conjunction with other layers of Guinea data. The data are intended to show the spatial distribution of the administrative units for Guinea.
 
 The data are to be used in modeling, targeting and demonstration project. The data are also used in natural resource management, inventory, change analysis, policy making, environmental awareness and land use planning.
-</purpose>
+			</purpose>
 			<supplinf>
 
 Procedures_Used: The administrative boundaries for Guinea were extracted from the WALTPS database using the ARC/INFO command RESELECT.
@@ -105,8 +106,9 @@ Other_References_Cited: Environmental Systems Research Institute (ESRI), Inc. 19
 Brunner, Jake &amp; Henninger, Norbert &amp; Ninnin, Benoit &amp; Deichmann, Uwe, August, 1995, "West Africa Long Term Perspective Study (WALTPS)," World Resources Institute, Washington, DC, USA.
 
 Notes: USAID - United States Agency for International Development. FEWS - Famine Early Warning System ARD - Associates in Rural Development EDC - EROS Data Center USGS - United States Geological Survey WRI - World Resources Institute WALTPS - West African Long Term Perspective Study
-</supplinf>
-			<langdata>en</langdata></descript>
+			</supplinf>
+			<langdata>en</langdata>
+		</descript>
 		<timeperd>
 			<timeinfo>
 				<rngdates>
@@ -120,7 +122,7 @@ The West Africa Long Term Perspective Study (WALTPS) was published in August of 
 The DCW database was originally published in 1992. Data currency varies from place to place depending on the currency of the Operational Navigation Charts (ONC). Chart currency ranged from the mid 1960s to the early 1990s. Compilation dates for every ONC chart are included in the database.
 
 The additional attributes were added in April of 1996 by the EROS Data Center (EDC).
-</current>
+			</current>
 		</timeperd>
 		<status>
 			<progress>Complete</progress>
@@ -133,7 +135,13 @@ The additional attributes were added in April of 1996 by the EROS Data Center (E
 				<northbc>12.676220</northbc>
 				<southbc>7.193552</southbc>
 			</bounding>
-			<lboundng><leftbc>-15.086260</leftbc><rightbc>-7.641071</rightbc><bottombc>7.193552</bottombc><topbc>12.676220</topbc></lboundng></spdom>
+			<lboundng>
+				<leftbc>-15.086260</leftbc>
+				<rightbc>-7.641071</rightbc>
+				<bottombc>7.193552</bottombc>
+				<topbc>12.676220</topbc>
+			</lboundng>
+		</spdom>
 		<keywords>
 			<theme>
 				<themekt>ISO 19115 Topic Category</themekt>
@@ -146,7 +154,8 @@ The additional attributes were added in April of 1996 by the EROS Data Center (E
 			<place>
 				<placekt>Library of Congress Subject Headings</placekt>
 				<placekey>Africa</placekey>
-				<placekey>Guinea</placekey></place>
+				<placekey>Guinea</placekey>
+			</place>
 			<stratum>
 				<stratkt>None</stratkt>
 			</stratum>
@@ -154,8 +163,14 @@ The additional attributes were added in April of 1996 by the EROS Data Center (E
 				<tempkt>None</tempkt>
 				<tempkey>1996</tempkey>
 			</temporal>
-			<theme><themekt>None</themekt><themekey>Secondary administrative boundaries</themekey><themekey>Borders</themekey></theme></keywords><accconst>None</accconst>
-<useconst>None</useconst>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Secondary administrative boundaries</themekey>
+				<themekey>Borders</themekey>
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
 
 
 		<ptcontac>
@@ -187,7 +202,7 @@ The additional attributes were added in April of 1996 by the EROS Data Center (E
 		</browse>
 		<datacred>
 The USAID/FEWS Project and EDC International Program deserve credit for this data set.
-</datacred>
+		</datacred>
 		<secinfo>
 		</secinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</native>
@@ -238,7 +253,8 @@ The USAID/FEWS Project and EDC International Program deserve credit for this dat
 				<onlink>Unknown</onlink>
 			</citeinfo>
 		</crossref>
-		<natvform>Shapefile</natvform></idinfo>
+		<natvform>Shapefile</natvform>
+	</idinfo>
 	<dataqual>
 		<attracc>
 			<attraccr>See Entity_Attribute_Information</attraccr>
@@ -252,14 +268,14 @@ The USAID/FEWS Project and EDC International Program deserve credit for this dat
 All data were found to be topologically correct. No duplicate features are present. All polygons are closed, and all lines intersect where intended. No undershoots or overshoots are present.
 
 To the best knowledge of USAID/FEWS and EDC the data compiled in this data set meets the codes and/or procedures established for completeness and consistency.
-</complete>
+		</complete>
 		<posacc>
 			<horizpa>
 				<horizpar>
 The absolute horizontal accuracy of the DCW for all features derived from Operational Navigation Charts (ONC) is 2040 meters (6700 feet) rounded to the nearest 5 meters at 90% Circular Error (CE), World Geodetic System (WGS84).
 
 The absolute horizontal accuracy of the DCW for all features derived from Jet Navigation Charts (JNC) is 4270 meters (14006 feet) at 90% Circular Error.
-</horizpar>
+				</horizpar>
 				<qhorizpa>
 					<horizpav>2040 meters</horizpav>
 					<horizpae>Resolution as reported</horizpae>
@@ -268,7 +284,7 @@ The absolute horizontal accuracy of the DCW for all features derived from Jet Na
 			<vertacc>
 				<vertaccr>
 The absolute vertical accuracy of the DCW is the same as for the original ONC and JNC lithographs at 90% Linear Error (LE), Mean Sea Level (MSL).
-</vertaccr>
+				</vertaccr>
 			</vertacc>
 		</posacc>
 		<lineage>
@@ -290,7 +306,7 @@ The absolute vertical accuracy of the DCW is the same as for the original ONC an
 					</timeinfo>
 					<srccurr>
 The "WALTPS" database was published in 1995. Many sources were used to compile the data.
-</srccurr>
+					</srccurr>
 				</srctime>
 				<srccitea>WALTPS95</srccitea>
 				<srccontr>Level 2 administrative boundary</srccontr>
@@ -302,12 +318,14 @@ The "WALTPS" database was published in 1995. Many sources were used to compile t
 		<direct>Vector</direct>
 		<ptvctinf>
 			<sdtsterm Name="GuineaAdmn2">
-				<sdtstype>G-polygon</sdtstype><ptvctcnt>23</ptvctcnt></sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>23</ptvctcnt>
+			</sdtsterm>
 			<sdtsterm>
 				<sdtstype>Point</sdtstype>
 				<ptvctcnt>23</ptvctcnt>
 			</sdtsterm>
-			</ptvctinf>
+		</ptvctinf>
 	</spdoinfo>
 	<spref>
 		<horizsys>
@@ -322,7 +340,10 @@ The "WALTPS" database was published in 1995. Many sources were used to compile t
 				<semiaxis>6378249.145000</semiaxis>
 				<denflat>293.465000</denflat>
 			</geodetic>
-			<cordsysn><geogcsn>GCS_Clarke_1880_RGS</geogcsn></cordsysn></horizsys>
+			<cordsysn>
+				<geogcsn>GCS_Clarke_1880_RGS</geogcsn>
+			</cordsysn>
+		</horizsys>
 	</spref>
 	<eainfo>
 		<detailed>
@@ -354,7 +375,8 @@ The "WALTPS" database was published in 1995. Many sources were used to compile t
 						<edomvds>ARC/INFO</edomvds>
 					</edom>
 				</attrdomv>
-				<atnumdec>11</atnumdec></attr>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>GVADMN2#</attrlabl>
 				<attrdef>Internal feature number</attrdef>
@@ -366,7 +388,8 @@ The "WALTPS" database was published in 1995. Many sources were used to compile t
 						<edomvds>ARC/INFO</edomvds>
 					</edom>
 				</attrdomv>
-				<atnumdec>11</atnumdec></attr>
+				<atnumdec>11</atnumdec>
+			</attr>
 			<attr>
 				<attrlabl>GVADMN2-ID</attrlabl>
 				<attrdef>User-assigned feature number</attrdef>
@@ -545,12 +568,17 @@ second Level administrative unit, as defined by FEWS/ARD.</eaover>
 				</cntaddr>
 				<cntvoice>(212)854-6012</cntvoice>
 				<cntemail>data@library.columbia.edu</cntemail>
-				<cntorgp><cntper>GIS/Metadata Librarian</cntper><cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg></cntorgp></cntinfo>
+				<cntorgp>
+					<cntper>GIS/Metadata Librarian</cntper>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				</cntorgp>
+			</cntinfo>
 		</metc>
 		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
 		<metstdv>FGDC-STD-001-1998</metstdv>
 		<mettc>local time</mettc>
 		<metsi>
 		</metsi>
-		<langmeta>en</langmeta></metainfo>
+		<langmeta>en</langmeta>
+	</metainfo>
 </metadata>

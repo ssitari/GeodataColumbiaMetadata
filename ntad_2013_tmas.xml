@@ -10,7 +10,9 @@
 					<pubplace>Washington, DC</pubplace>
 					<publish>United States. Bureau of Transportation Statistics</publish>
 				</pubinfo>
-				<pubdate>2013</pubdate><onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_tmas.zip</onlink></citeinfo>
+				<pubdate>2013</pubdate>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_tmas.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>The data included in the GIS Traffic Stations Version database have been collected by the FHWA from the State DOTs. Location referencing information was derived from State offices of Transportation The attributes on the point elements of the database are used by FHWA for its Travel Monitoring and Analysis System and by State DOTs. The attributes for these databases have been intentionally limited to location referencing attributes since the core station description attribute data are contained within the Station Description Tables (SDT). here is a separate Station Description Table (SDT) for each of the station types. The attributes in the Station Description Table correspond with the Station Description Record found in Chapter 6 of the latest Traffic Monitoring Guide. The SDT contains the most recent stations available for each state and station type. This table was derived from files provided UTCTR by FHWA. The Station Description Table can be linked to the station shapefile via the STNNKEY field. Some station where not located in the US, and were beyond available geographic extents causing display problems. These were moved to Lat and Long 0,0. This is in recognition that the locations of these stations where in error, but were moved to a less obtrusive area.</abstract>
@@ -71,7 +73,15 @@
 				<cntinst>Program manager of Travel Monitoring Analysis System (TMAS)</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<timeperd><timeinfo><sngdate><caldate>2013</caldate></sngdate></timeinfo><current>publication date</current></timeperd></idinfo>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2013</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+	</idinfo>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -148,895 +158,866 @@
 				<attrlabl>station_id</attrlabl>
 				<attrdef>This field contains an alphanumeric designation for the station where the survey data are collected.
 
-</attrdef>
-				<attrdefs>fhwa - traffic monitoring guide</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>longitude</attrlabl>
-				<attrdef>Longitude of the station location with the west hemisphere assumed and decimal place understood as XXX.XXX XXX</attrdef>
-				<attrdefs>fhwa</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>latitude</attrlabl>
+			</attrdef>
+			<attrdefs>fhwa - traffic monitoring guide</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>longitude</attrlabl>
+			<attrdef>Longitude of the station location with the west hemisphere assumed and decimal place understood as XXX.XXX XXX</attrdef>
+			<attrdefs>fhwa</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>latitude</attrlabl>
 				<attrdef>Latitude of the station location with the north hemisphere assumed and decimal place understood as XX.XXX XXX.
 
-</attrdef>
-				<attrdefs>fhwa</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>travel_dir</attrlabl>
-				<attrdef>direction traffic is traveling at station site</attrdef>
-				<attrdefs>fhwa</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>north</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>northeast</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>3</edomv>
-						<edomvd>east</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>4</edomv>
-						<edomvd>southeast</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>5</edomv>
-						<edomvd>south</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>6</edomv>
-						<edomvd>southwest</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>7</edomv>
-						<edomvd>west</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>8</edomv>
-						<edomvd>northwest</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>9</edomv>
-						<edomvd>North-South or Northeast-Southwest combined (ATR stations only)</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>0</edomv>
-						<edomvd>East-West or Southeast-Northwest combined (ATR stations only) </edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>travel_lan</attrlabl>
-				<attrdef>Either each lane is considered a separate station or all lanes in each direction are combined.</attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>0</edomv>
-						<edomvd>data with lanes combined</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>outside (rightmost) lane</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdomv>
-					<rdom>
-						<rdommin>2</rdommin>
-						<rdommax>9</rdommax>
-					</rdom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>f_system</attrlabl>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>principal arterial - interstate</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>principal arterial - other</edomvd>
-					</edom>
-					<edom>
-						<edomv>6</edomv>
-						<edomvd>minor arterial</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>7</edomv>
-						<edomvd>major collector</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>8</edomv>
-						<edomvd>minor collector</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>9</edomv>
-						<edomvd>local system</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>11</edomv>
-						<edomvd>principal arterial- interstate</edomvd>
-					</edom>
-					<edom>
-						<edomv>12</edomv>
-						<edomvd>principal arterial - other freeways or expressways</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>14</edomv>
-						<edomvd>principal arterial - other</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>16</edomv>
-						<edomvd>minor arterial</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>17</edomv>
-						<edomvd>collector</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>19</edomv>
-						<edomvd>local system</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>num_lanes</attrlabl>
+		</attrdef>
+		<attrdefs>fhwa</attrdefs>
+	</attr>
+	<attr>
+		<attrlabl>travel_dir</attrlabl>
+		<attrdef>direction traffic is traveling at station site</attrdef>
+		<attrdefs>fhwa</attrdefs>
+		<attrdomv>
+			<edom>
+				<edomv>1</edomv>
+				<edomvd>north</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>2</edomv>
+				<edomvd>northeast</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>3</edomv>
+				<edomvd>east</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>4</edomv>
+				<edomvd>southeast</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>5</edomv>
+				<edomvd>south</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>6</edomv>
+				<edomvd>southwest</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>7</edomv>
+				<edomvd>west</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>8</edomv>
+				<edomvd>northwest</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>9</edomv>
+				<edomvd>North-South or Northeast-Southwest combined (ATR stations only)</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>0</edomv>
+				<edomvd>East-West or Southeast-Northwest combined (ATR stations only) </edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+		</attrdomv>
+	</attr>
+	<attr>
+		<attrlabl>travel_lan</attrlabl>
+		<attrdef>Either each lane is considered a separate station or all lanes in each direction are combined.</attrdef>
+		<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+		<attrdomv>
+			<edom>
+				<edomv>0</edomv>
+				<edomvd>data with lanes combined</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>1</edomv>
+				<edomvd>outside (rightmost) lane</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+		</attrdomv>
+		<attrdomv>
+			<rdom>
+				<rdommin>2</rdommin>
+				<rdommax>9</rdommax>
+			</rdom>
+		</attrdomv>
+	</attr>
+	<attr>
+		<attrlabl>f_system</attrlabl>
+		<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+		<attrdomv>
+			<edom>
+				<edomv>1</edomv>
+				<edomvd>principal arterial - interstate</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>2</edomv>
+				<edomvd>principal arterial - other</edomvd>
+			</edom>
+			<edom>
+				<edomv>6</edomv>
+				<edomvd>minor arterial</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>7</edomv>
+				<edomvd>major collector</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>8</edomv>
+				<edomvd>minor collector</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>9</edomv>
+				<edomvd>local system</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>11</edomv>
+				<edomvd>principal arterial- interstate</edomvd>
+			</edom>
+			<edom>
+				<edomv>12</edomv>
+				<edomvd>principal arterial - other freeways or expressways</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>14</edomv>
+				<edomvd>principal arterial - other</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>16</edomv>
+				<edomvd>minor arterial</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>17</edomv>
+				<edomvd>collector</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+			<edom>
+				<edomv>19</edomv>
+				<edomvd>local system</edomvd>
+				<edomvds>fhwa, traffic monitoring guide</edomvds>
+			</edom>
+		</attrdomv>
+	</attr>
+	<attr>
+		<attrlabl>num_lanes</attrlabl>
 				<attrdef>Coded number of lanes in one direction at the site. "9" is coded if there are more than eight lanes.
 
-</attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<rdom>
-						<rdommin>0</rdommin>
-						<rdommax>9</rdommax>
-					</rdom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>sample_typ</attrlabl>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>T</edomv>
-						<edomvd>station used for traffic volume trends</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>N</edomv>
-						<edomvd>station not used for traffic volume trends</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>num_lanes_</attrlabl>
+	</attrdef>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+	<attrdomv>
+		<rdom>
+			<rdommin>0</rdommin>
+			<rdommax>9</rdommax>
+		</rdom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>sample_typ</attrlabl>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+	<attrdomv>
+		<edom>
+			<edomv>T</edomv>
+			<edomvd>station used for traffic volume trends</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>N</edomv>
+			<edomvd>station not used for traffic volume trends</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>num_lanes_</attrlabl>
 				<attrdef>Coded number of lanes in one direction that are monitored at this site. "9" is coded if there are more than eight lanes.
 
 </attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<rdom>
-						<rdommin>0</rdommin>
-						<rdommax>9</rdommax>
-					</rdom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>method_vol</attrlabl>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>0</edomv>
-						<edomvd>not coded</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>human observation (manual)</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>portable traffic recording device</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>3</edomv>
-						<edomvd>permanent automatic trarffic recorder (ATR)</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>sample_T_1</attrlabl>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>H</edomv>
-						<edomvd>station used for heavy vehicle travel informstion system</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>N</edomv>
-						<edomvd>station not used for heavy vehicle travel information system</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>num_lanes1</attrlabl>
+<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+<attrdomv>
+	<rdom>
+		<rdommin>0</rdommin>
+		<rdommax>9</rdommax>
+	</rdom>
+</attrdomv>
+</attr>
+<attr>
+	<attrlabl>method_vol</attrlabl>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+	<attrdomv>
+		<edom>
+			<edomv>0</edomv>
+			<edomvd>not coded</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>1</edomv>
+			<edomvd>human observation (manual)</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>2</edomv>
+			<edomvd>portable traffic recording device</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>3</edomv>
+			<edomvd>permanent automatic trarffic recorder (ATR)</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>sample_T_1</attrlabl>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+	<attrdomv>
+		<edom>
+			<edomv>H</edomv>
+			<edomvd>station used for heavy vehicle travel informstion system</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>N</edomv>
+			<edomvd>station not used for heavy vehicle travel information system</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>num_lanes1</attrlabl>
 				<attrdef>Number coded for number of lanes in one direction that are monitored for vehicle classification at this site. "9" is coded when there are more than eight lanes.
 
 </attrdef>
-				<attrdomv>
-					<rdom>
-						<rdommin>0</rdommin>
-						<rdommax>9</rdommax>
-					</rdom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>method_cla</attrlabl>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>NULL</edomv>
-						<edomvd>not coded</edomvd>
-					</edom>
-					<edom>
-						<edomv>0</edomv>
-						<edomvd>not coded</edomvd>
-					</edom>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>human observation (manual) vehicle classification</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>portable vehicle classification device</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>3</edomv>
-						<edomvd>permanent vehicle classification device</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>algorithm_</attrlabl>
-				<attrdef>type of input and processing used to classify vehicles.</attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>NULL</edomv>
-						<edomvd>not coded</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>0</edomv>
-						<edomvd>not coded</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>A</edomv>
-						<edomvd>human observation on site (manual)</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>B</edomv>
-						<edomvd>human observation of vehicle image (e.g., video)</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>C</edomv>
-						<edomvd>automated interpretation of vehicle image or signature (e.g., video, microwave, sonic) </edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>D</edomv>
-						<edomvd>vehicle length classification</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>E</edomv>
-						<edomvd>axle spacing with ASTM standard E1572</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>F</edomv>
-						<edomvd>axle spacing with scheme F</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>G</edomv>
-						<edomvd>axle spacing with scheme F modified</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>H</edomv>
-						<edomvd>other axle spacing algorithm</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>K</edomv>
-						<edomvd>axle spacing and weight algorithm</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>L</edomv>
-						<edomvd>axle spacing and vehicle length algorithm</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>M</edomv>
-						<edomvd>axle spacing, weight, and vehicle length algorithm</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>N</edomv>
-						<edomvd>axle spacing and other input(s) not specified above</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-					<edom>
-						<edomv>Z</edomv>
-						<edomvd>other means not specified above</edomvd>
-						<edomvds>fhwa, traffic monitoring guide</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>num_classe</attrlabl>
+<attrdomv>
+	<rdom>
+		<rdommin>0</rdommin>
+		<rdommax>9</rdommax>
+	</rdom>
+</attrdomv>
+</attr>
+<attr>
+	<attrlabl>method_cla</attrlabl>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+	<attrdomv>
+		<edom>
+			<edomv>NULL</edomv>
+			<edomvd>not coded</edomvd>
+		</edom>
+		<edom>
+			<edomv>0</edomv>
+			<edomvd>not coded</edomvd>
+		</edom>
+		<edom>
+			<edomv>1</edomv>
+			<edomvd>human observation (manual) vehicle classification</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>2</edomv>
+			<edomvd>portable vehicle classification device</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>3</edomv>
+			<edomvd>permanent vehicle classification device</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>algorithm_</attrlabl>
+	<attrdef>type of input and processing used to classify vehicles.</attrdef>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+	<attrdomv>
+		<edom>
+			<edomv>NULL</edomv>
+			<edomvd>not coded</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>0</edomv>
+			<edomvd>not coded</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>A</edomv>
+			<edomvd>human observation on site (manual)</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>B</edomv>
+			<edomvd>human observation of vehicle image (e.g., video)</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>C</edomv>
+			<edomvd>automated interpretation of vehicle image or signature (e.g., video, microwave, sonic) </edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>D</edomv>
+			<edomvd>vehicle length classification</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>E</edomv>
+			<edomvd>axle spacing with ASTM standard E1572</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>F</edomv>
+			<edomvd>axle spacing with scheme F</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>G</edomv>
+			<edomvd>axle spacing with scheme F modified</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>H</edomv>
+			<edomvd>other axle spacing algorithm</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>K</edomv>
+			<edomvd>axle spacing and weight algorithm</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>L</edomv>
+			<edomvd>axle spacing and vehicle length algorithm</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>M</edomv>
+			<edomvd>axle spacing, weight, and vehicle length algorithm</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>N</edomv>
+			<edomvd>axle spacing and other input(s) not specified above</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+		<edom>
+			<edomv>Z</edomv>
+			<edomvd>other means not specified above</edomvd>
+			<edomvds>fhwa, traffic monitoring guide</edomvds>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>num_classe</attrlabl>
 				<attrdef>This indicates the total number of classes in the vehicle classification system. The default value is 13 which indicates the standard FHWA 13 class system (see Appendix 4-C). The other vehicle classification systems are based on the HPMS and the Traffic Monitoring System (TMS) documentation. The value that is used will determine the number of count fields needed on the Vehicle Classification Record. In the following list the numbers in parentheses are from the FHWA 13 class system:
 
 </attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>One class: total volume</edomvd>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>Two classes: non-commercial (classes 1-3) and commercial (classes 4-13) vehicles</edomvd>
-					</edom>
-					<edom>
-						<edomv>3</edomv>
-						<edomvd>Three classes: non-commercial (classes 1-3), single-unit commercial (classes 4-7), combination commercial (classes 8-13) vehicles</edomvd>
-					</edom>
-					<edom>
-						<edomv>4</edomv>
-						<edomvd>Four classes: non-commercial (classes 1-3), single-unit commercial (classes 4-7), single-trailer commercial (classes 8-10), multi-trailer commercial (classes 11-13) vehicles</edomvd>
-					</edom>
-					<edom>
-						<edomv>5</edomv>
-						<edomvd>Five classes as follows: ◦1 of 5 = two-axle, two or four-tire vehicles (classes 1-3); 2 of 5 = buses (class 4); 3 of 5 = single-unit trucks (classes 5-7); 4 of 5 = single trailer combination trucks (classes 8-10); 5 of 5=multiple-trailer combination trucks (classes 11-13)</edomvd>
-					</edom>
-					<edom>
-						<edomv>13</edomv>
-						<edomvd>FHWA's standard 13 class system (see Appendix 4-C)</edomvd>
-					</edom>
-					<edom>
-						<edomv>14</edomv>
-						<edomvd>FHWA's 13 class system plus a class 14 (State or vendor defined)</edomvd>
-					</edom>
-					<edom>
-						<edomv>15</edomv>
-						<edomvd>FHWA's 13 class system plus classes 14 and 15 (State or vendor defined)</edomvd>
-					</edom>
-					<edom>
-						<edomv>&lt;&gt;</edomv>
-						<edomvd>Other numbers = number of classes (unsupported)</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>sample_T_2</attrlabl>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>B</edomv>
-						<edomvd>Station used for TMG sample and Strategic Highway Research Program (SHRP) Long Term Pavement Performance (LTPP) sample</edomvd>
-					</edom>
-					<edom>
-						<edomv>L</edomv>
-						<edomvd>Station used for SHRP/LTPP sample (but not TMG sample)</edomvd>
-					</edom>
-					<edom>
-						<edomv>T</edomv>
-						<edomvd>Station used for TMG sample (but not SHRP/LTPP sample)</edomvd>
-					</edom>
-					<edom>
-						<edomv>N</edomv>
-						<edomvd>station not used for any of the above</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>num_lane_1</attrlabl>
+<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+<attrdomv>
+	<edom>
+		<edomv>1</edomv>
+		<edomvd>One class: total volume</edomvd>
+	</edom>
+	<edom>
+		<edomv>2</edomv>
+		<edomvd>Two classes: non-commercial (classes 1-3) and commercial (classes 4-13) vehicles</edomvd>
+	</edom>
+	<edom>
+		<edomv>3</edomv>
+		<edomvd>Three classes: non-commercial (classes 1-3), single-unit commercial (classes 4-7), combination commercial (classes 8-13) vehicles</edomvd>
+	</edom>
+	<edom>
+		<edomv>4</edomv>
+		<edomvd>Four classes: non-commercial (classes 1-3), single-unit commercial (classes 4-7), single-trailer commercial (classes 8-10), multi-trailer commercial (classes 11-13) vehicles</edomvd>
+	</edom>
+	<edom>
+		<edomv>5</edomv>
+		<edomvd>Five classes as follows: ◦1 of 5 = two-axle, two or four-tire vehicles (classes 1-3); 2 of 5 = buses (class 4); 3 of 5 = single-unit trucks (classes 5-7); 4 of 5 = single trailer combination trucks (classes 8-10); 5 of 5=multiple-trailer combination trucks (classes 11-13)</edomvd>
+	</edom>
+	<edom>
+		<edomv>13</edomv>
+		<edomvd>FHWA's standard 13 class system (see Appendix 4-C)</edomvd>
+	</edom>
+	<edom>
+		<edomv>14</edomv>
+		<edomvd>FHWA's 13 class system plus a class 14 (State or vendor defined)</edomvd>
+	</edom>
+	<edom>
+		<edomv>15</edomv>
+		<edomvd>FHWA's 13 class system plus classes 14 and 15 (State or vendor defined)</edomvd>
+	</edom>
+	<edom>
+		<edomv>&lt;&gt;</edomv>
+		<edomvd>Other numbers = number of classes (unsupported)</edomvd>
+	</edom>
+</attrdomv>
+</attr>
+<attr>
+	<attrlabl>sample_T_2</attrlabl>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+	<attrdomv>
+		<edom>
+			<edomv>B</edomv>
+			<edomvd>Station used for TMG sample and Strategic Highway Research Program (SHRP) Long Term Pavement Performance (LTPP) sample</edomvd>
+		</edom>
+		<edom>
+			<edomv>L</edomv>
+			<edomvd>Station used for SHRP/LTPP sample (but not TMG sample)</edomvd>
+		</edom>
+		<edom>
+			<edomv>T</edomv>
+			<edomvd>Station used for TMG sample (but not SHRP/LTPP sample)</edomvd>
+		</edom>
+		<edom>
+			<edomv>N</edomv>
+			<edomvd>station not used for any of the above</edomvd>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>num_lane_1</attrlabl>
 				<attrdef>number of lanes in one direction that are monitored for truck weight at this site. "9" is coded when there are more than eight lanes.
 
 </attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<rdom>
-						<rdommin>0</rdommin>
-						<rdommax>9</rdommax>
-					</rdom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>method_tru</attrlabl>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>portable statistic scale</edomvd>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>chassis-mounted, towed static scale</edomvd>
-					</edom>
-					<edom>
-						<edomv>3</edomv>
-						<edomvd>platform or pit static scale</edomvd>
-					</edom>
-					<edom>
-						<edomv>4</edomv>
-						<edomvd>portable weigh-in-motion system</edomvd>
-					</edom>
-					<edom>
-						<edomv>5</edomv>
-						<edomvd>permanent weigh-in-motion system</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>calibratio</attrlabl>
+<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+<attrdomv>
+	<rdom>
+		<rdommin>0</rdommin>
+		<rdommax>9</rdommax>
+	</rdom>
+</attrdomv>
+</attr>
+<attr>
+	<attrlabl>method_tru</attrlabl>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+	<attrdomv>
+		<edom>
+			<edomv>1</edomv>
+			<edomvd>portable statistic scale</edomvd>
+		</edom>
+		<edom>
+			<edomv>2</edomv>
+			<edomvd>chassis-mounted, towed static scale</edomvd>
+		</edom>
+		<edom>
+			<edomv>3</edomv>
+			<edomvd>platform or pit static scale</edomvd>
+		</edom>
+		<edom>
+			<edomv>4</edomv>
+			<edomvd>portable weigh-in-motion system</edomvd>
+		</edom>
+		<edom>
+			<edomv>5</edomv>
+			<edomvd>permanent weigh-in-motion system</edomvd>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>calibratio</attrlabl>
 				<attrdef>method used to calibrate the weighing system, e.g., comparing weight-in-motion and weights from static scales.
 
 </attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>A</edomv>
-						<edomvd>ASTM standard E1318</edomvd>
-					</edom>
-					<edom>
-						<edomv>B</edomv>
-						<edomvd>subset of ASTM standard E1318</edomvd>
-					</edom>
-					<edom>
-						<edomv>C</edomv>
-						<edomvd>Combination of test trucks and trucks from the traffic stream (but not ASTM E1318)</edomvd>
-					</edom>
-					<edom>
-						<edomv>D</edomv>
-						<edomvd>other sample of trucks from the traffic stream</edomvd>
-					</edom>
-					<edom>
-						<edomv>M</edomv>
-						<edomvd>moving average of the steering axle of 3S2s</edomvd>
-					</edom>
-					<edom>
-						<edomv>S</edomv>
-						<edomvd>static calibration</edomvd>
-					</edom>
-					<edom>
-						<edomv>T</edomv>
-						<edomvd>test trucks only</edomvd>
-					</edom>
-					<edom>
-						<edomv>U</edomv>
-						<edomvd>uncalibrated</edomvd>
-					</edom>
-					<edom>
-						<edomv>Z</edomv>
-						<edomvd>other method</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>data_retri</attrlabl>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>not automated (manual)</edomvd>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>automated (telemetry)</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>type_senso</attrlabl>
+<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+<attrdomv>
+	<edom>
+		<edomv>A</edomv>
+		<edomvd>ASTM standard E1318</edomvd>
+	</edom>
+	<edom>
+		<edomv>B</edomv>
+		<edomvd>subset of ASTM standard E1318</edomvd>
+	</edom>
+	<edom>
+		<edomv>C</edomv>
+		<edomvd>Combination of test trucks and trucks from the traffic stream (but not ASTM E1318)</edomvd>
+	</edom>
+	<edom>
+		<edomv>D</edomv>
+		<edomvd>other sample of trucks from the traffic stream</edomvd>
+	</edom>
+	<edom>
+		<edomv>M</edomv>
+		<edomvd>moving average of the steering axle of 3S2s</edomvd>
+	</edom>
+	<edom>
+		<edomv>S</edomv>
+		<edomvd>static calibration</edomvd>
+	</edom>
+	<edom>
+		<edomv>T</edomv>
+		<edomvd>test trucks only</edomvd>
+	</edom>
+	<edom>
+		<edomv>U</edomv>
+		<edomvd>uncalibrated</edomvd>
+	</edom>
+	<edom>
+		<edomv>Z</edomv>
+		<edomvd>other method</edomvd>
+	</edom>
+</attrdomv>
+</attr>
+<attr>
+	<attrlabl>data_retri</attrlabl>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+	<attrdomv>
+		<edom>
+			<edomv>1</edomv>
+			<edomvd>not automated (manual)</edomvd>
+		</edom>
+		<edom>
+			<edomv>2</edomv>
+			<edomvd>automated (telemetry)</edomvd>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>type_senso</attrlabl>
 				<attrdef>Code the type of sensor used for traffic detection.
 
 </attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>A</edomv>
-						<edomvd>Automatic vehicle identification (AVI)</edomvd>
-					</edom>
-					<edom>
-						<edomv>B</edomv>
-						<edomvd>bending plate</edomvd>
-					</edom>
-					<edom>
-						<edomv>C</edomv>
-						<edomvd>capacitance strip</edomvd>
-					</edom>
-					<edom>
-						<edomv>D</edomv>
-						<edomvd>capacitance mat/pad</edomvd>
-					</edom>
-					<edom>
-						<edomv>E</edomv>
-						<edomvd>hydraulic load cells</edomvd>
-					</edom>
-					<edom>
-						<edomv>F</edomv>
-						<edomvd>fiber optic - NEW</edomvd>
-					</edom>
-					<edom>
-						<edomv>G</edomv>
-						<edomvd>strain gauge on bridge beam</edomvd>
-					</edom>
-					<edom>
-						<edomv>H</edomv>
-						<edomvd>human observation (manual)</edomvd>
-					</edom>
-					<edom>
-						<edomv>I</edomv>
-						<edomvd>infrared</edomvd>
-					</edom>
-					<edom>
-						<edomv>K</edomv>
-						<edomvd>laser/lidar</edomvd>
-					</edom>
-					<edom>
-						<edomv>L</edomv>
-						<edomvd>inductance loop</edomvd>
-					</edom>
-					<edom>
-						<edomv>M</edomv>
-						<edomvd>magnetometer</edomvd>
-					</edom>
-					<edom>
-						<edomv>P</edomv>
-						<edomvd>piezoelectric</edomvd>
-					</edom>
-					<edom>
-						<edomv>Q</edomv>
-						<edomvd>quartz piezoelectric - NEW</edomvd>
-					</edom>
-					<edom>
-						<edomv>R</edomv>
-						<edomvd>road tube</edomvd>
-					</edom>
-					<edom>
-						<edomv>S</edomv>
-						<edomvd>sonic/acoustic</edomvd>
-					</edom>
-					<edom>
-						<edomv>T</edomv>
-						<edomvd>tape switch</edomvd>
-					</edom>
-					<edom>
-						<edomv>U</edomv>
-						<edomvd>ultrasonic</edomvd>
-					</edom>
-					<edom>
-						<edomv>V</edomv>
-						<edomvd>video image</edomvd>
-					</edom>
-					<edom>
-						<edomv>W</edomv>
-						<edomvd>microwave</edomvd>
-					</edom>
-					<edom>
-						<edomv>X</edomv>
-						<edomvd>radio wave</edomvd>
-					</edom>
-					<edom>
-						<edomv>Z</edomv>
-						<edomvd>other</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>type_sen_1</attrlabl>
+<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+<attrdomv>
+	<edom>
+		<edomv>A</edomv>
+		<edomvd>Automatic vehicle identification (AVI)</edomvd>
+	</edom>
+	<edom>
+		<edomv>B</edomv>
+		<edomvd>bending plate</edomvd>
+	</edom>
+	<edom>
+		<edomv>C</edomv>
+		<edomvd>capacitance strip</edomvd>
+	</edom>
+	<edom>
+		<edomv>D</edomv>
+		<edomvd>capacitance mat/pad</edomvd>
+	</edom>
+	<edom>
+		<edomv>E</edomv>
+		<edomvd>hydraulic load cells</edomvd>
+	</edom>
+	<edom>
+		<edomv>F</edomv>
+		<edomvd>fiber optic - NEW</edomvd>
+	</edom>
+	<edom>
+		<edomv>G</edomv>
+		<edomvd>strain gauge on bridge beam</edomvd>
+	</edom>
+	<edom>
+		<edomv>H</edomv>
+		<edomvd>human observation (manual)</edomvd>
+	</edom>
+	<edom>
+		<edomv>I</edomv>
+		<edomvd>infrared</edomvd>
+	</edom>
+	<edom>
+		<edomv>K</edomv>
+		<edomvd>laser/lidar</edomvd>
+	</edom>
+	<edom>
+		<edomv>L</edomv>
+		<edomvd>inductance loop</edomvd>
+	</edom>
+	<edom>
+		<edomv>M</edomv>
+		<edomvd>magnetometer</edomvd>
+	</edom>
+	<edom>
+		<edomv>P</edomv>
+		<edomvd>piezoelectric</edomvd>
+	</edom>
+	<edom>
+		<edomv>Q</edomv>
+		<edomvd>quartz piezoelectric - NEW</edomvd>
+	</edom>
+	<edom>
+		<edomv>R</edomv>
+		<edomvd>road tube</edomvd>
+	</edom>
+	<edom>
+		<edomv>S</edomv>
+		<edomvd>sonic/acoustic</edomvd>
+	</edom>
+	<edom>
+		<edomv>T</edomv>
+		<edomvd>tape switch</edomvd>
+	</edom>
+	<edom>
+		<edomv>U</edomv>
+		<edomvd>ultrasonic</edomvd>
+	</edom>
+	<edom>
+		<edomv>V</edomv>
+		<edomvd>video image</edomvd>
+	</edom>
+	<edom>
+		<edomv>W</edomv>
+		<edomvd>microwave</edomvd>
+	</edom>
+	<edom>
+		<edomv>X</edomv>
+		<edomvd>radio wave</edomvd>
+	</edom>
+	<edom>
+		<edomv>Z</edomv>
+		<edomvd>other</edomvd>
+	</edom>
+</attrdomv>
+</attr>
+<attr>
+	<attrlabl>type_sen_1</attrlabl>
 				<attrdef>If there are two types of sensors at the station, the second is  coded using the same codes as Type of Sensor. Otherwise, "N" is coded.
 
 </attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>primary_pu</attrlabl>
+<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+</attr>
+<attr>
+	<attrlabl>primary_pu</attrlabl>
 				<attrdef>This field indicates the primary purpose for installing the station and hence which organization is responsible for it and supplies the data.
 
 </attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>E</edomv>
-						<edomvd>Enforcement purposes (e.g., speed or weight enforcement)</edomvd>
-					</edom>
-					<edom>
-						<edomv>I</edomv>
-						<edomvd>Operations purposes in support of ITS initiatives</edomvd>
-					</edom>
-					<edom>
-						<edomv>L</edomv>
-						<edomvd>Load data for pavement design or pavement management purposes</edomvd>
-					</edom>
-					<edom>
-						<edomv>O</edomv>
-						<edomvd>Operations purposes but not ITS</edomvd>
-					</edom>
-					<edom>
-						<edomv>P</edomv>
-						<edomvd>Planning or traffic statistics purposes</edomvd>
-					</edom>
-					<edom>
-						<edomv>R</edomv>
-						<edomvd>Research purposes (e.g., LTPP)</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>LRS_Id</attrlabl>
+<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+<attrdomv>
+	<edom>
+		<edomv>E</edomv>
+		<edomvd>Enforcement purposes (e.g., speed or weight enforcement)</edomvd>
+	</edom>
+	<edom>
+		<edomv>I</edomv>
+		<edomvd>Operations purposes in support of ITS initiatives</edomvd>
+	</edom>
+	<edom>
+		<edomv>L</edomv>
+		<edomvd>Load data for pavement design or pavement management purposes</edomvd>
+	</edom>
+	<edom>
+		<edomv>O</edomv>
+		<edomvd>Operations purposes but not ITS</edomvd>
+	</edom>
+	<edom>
+		<edomv>P</edomv>
+		<edomvd>Planning or traffic statistics purposes</edomvd>
+	</edom>
+	<edom>
+		<edomv>R</edomv>
+		<edomvd>Research purposes (e.g., LTPP)</edomvd>
+	</edom>
+</attrdomv>
+</attr>
+<attr>
+	<attrlabl>LRS_Id</attrlabl>
 				<attrdef>The LRS Identification reported in this item for the station is the same as the LRS identification reported in the HPMS for the section of roadway where the station is located. The LRS identification is a 12-character, right justified value. The LRS ID can be alphanumeric, but must not contain blanks; leading zeros must be coded. More information concerning the LRS may be found in Chapter V of the HPMS Field Manual, Linear Referencing System Requirements.
 
 </attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>LRS_point</attrlabl>
+<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+</attr>
+<attr>
+	<attrlabl>LRS_point</attrlabl>
 				<attrdef>This is the LRS location point for the station. It is similar information to the LRS Beginning Point and LRS Ending Point in the HPMS. The KMPT for the station must be within the range of the LRS beginning point and LRS ending point for the roadway section upon which the station is located. It is coded in kilometers with an implied decimal in the middle: XXX.XXX.
 
 </attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>SHRP_id</attrlabl>
-				<attrdef>If the site is used in the SHRP/LTPP sample, the SHRP site ID is used here.</attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>prev_stati</attrlabl>
-				<attrdef>if the station replaces another station, the code used here will be the station id that was used previously.</attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>year_estab</attrlabl>
-				<attrdef>last two digits of the appropriate year if known.</attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>year_disco</attrlabl>
-				<attrdef>last two digits of the year the station was closed if known.</attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>county_cod</attrlabl>
+<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+</attr>
+<attr>
+	<attrlabl>SHRP_id</attrlabl>
+	<attrdef>If the site is used in the SHRP/LTPP sample, the SHRP site ID is used here.</attrdef>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+</attr>
+<attr>
+	<attrlabl>prev_stati</attrlabl>
+	<attrdef>if the station replaces another station, the code used here will be the station id that was used previously.</attrdef>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+</attr>
+<attr>
+	<attrlabl>year_estab</attrlabl>
+	<attrdef>last two digits of the appropriate year if known.</attrdef>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+</attr>
+<attr>
+	<attrlabl>year_disco</attrlabl>
+	<attrdef>last two digits of the year the station was closed if known.</attrdef>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+</attr>
+<attr>
+	<attrlabl>county_cod</attrlabl>
 				<attrdef>three-digit FIPS county code (see Federal Information Processing Standards Publication 6, "Counties of the States of the United States").
 
 </attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>is_sample</attrlabl>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>N</edomv>
-						<edomvd>no, not on an HPMS standard sample section</edomvd>
-					</edom>
-					<edom>
-						<edomv>Y</edomv>
-						<edomvd>yes, on an HPMS standard sample section</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>sample_id</attrlabl>
+<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+</attr>
+<attr>
+	<attrlabl>is_sample</attrlabl>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+	<attrdomv>
+		<edom>
+			<edomv>N</edomv>
+			<edomvd>no, not on an HPMS standard sample section</edomvd>
+		</edom>
+		<edom>
+			<edomv>Y</edomv>
+			<edomvd>yes, on an HPMS standard sample section</edomvd>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>sample_id</attrlabl>
 				<attrdef>If the station is on an HPMS standard sample section, the HPMS Sample Identifier per the HPMS Field Manual (Item 47) is used here.
 
 </attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>nhs</attrlabl>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>N</edomv>
-						<edomvd>no, not on the national  highway system</edomvd>
-					</edom>
-					<edom>
-						<edomv>Y</edomv>
-						<edomvd>yes, on natiional highway system</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>posted_rou</attrlabl>
-				<attrdef>this is the same as route signing in HPMS Field Manual (item 22)</attrdef>
-				<attrdefs>fhwa, traffic monitoring guide</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>0</edomv>
-						<edomvd>not signed</edomvd>
-					</edom>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>interstate</edomvd>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>U.S.</edomvd>
-					</edom>
-					<edom>
-						<edomv>3</edomv>
-						<edomvd>state</edomvd>
-					</edom>
-					<edom>
-						<edomv>4</edomv>
-						<edomvd>off-interstate business marker</edomvd>
-					</edom>
-					<edom>
-						<edomv>5</edomv>
-						<edomvd>county</edomvd>
-					</edom>
-					<edom>
-						<edomv>6</edomv>
-						<edomvd>township</edomvd>
-					</edom>
-					<edom>
-						<edomv>7</edomv>
-						<edomvd>municipal</edomvd>
-					</edom>
-					<edom>
-						<edomv>8</edomv>
-						<edomvd>parkway or forest route marker</edomvd>
-					</edom>
-					<edom>
-						<edomv>9</edomv>
-						<edomvd>none of the above</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>posted_sig</attrlabl>
+<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+</attr>
+<attr>
+	<attrlabl>nhs</attrlabl>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+	<attrdomv>
+		<edom>
+			<edomv>N</edomv>
+			<edomvd>no, not on the national  highway system</edomvd>
+		</edom>
+		<edom>
+			<edomv>Y</edomv>
+			<edomvd>yes, on natiional highway system</edomvd>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>posted_rou</attrlabl>
+	<attrdef>this is the same as route signing in HPMS Field Manual (item 22)</attrdef>
+	<attrdefs>fhwa, traffic monitoring guide</attrdefs>
+	<attrdomv>
+		<edom>
+			<edomv>0</edomv>
+			<edomvd>not signed</edomvd>
+		</edom>
+		<edom>
+			<edomv>1</edomv>
+			<edomvd>interstate</edomvd>
+		</edom>
+		<edom>
+			<edomv>2</edomv>
+			<edomvd>U.S.</edomvd>
+		</edom>
+		<edom>
+			<edomv>3</edomv>
+			<edomvd>state</edomvd>
+		</edom>
+		<edom>
+			<edomv>4</edomv>
+			<edomvd>off-interstate business marker</edomvd>
+		</edom>
+		<edom>
+			<edomv>5</edomv>
+			<edomvd>county</edomvd>
+		</edom>
+		<edom>
+			<edomv>6</edomv>
+			<edomvd>township</edomvd>
+		</edom>
+		<edom>
+			<edomv>7</edomv>
+			<edomvd>municipal</edomvd>
+		</edom>
+		<edom>
+			<edomv>8</edomv>
+			<edomvd>parkway or forest route marker</edomvd>
+		</edom>
+		<edom>
+			<edomv>9</edomv>
+			<edomvd>none of the above</edomvd>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>posted_sig</attrlabl>
 				<attrdef>route number of the principal route on which the station is located. If the station is located on a city street, zero-fill this field. This is the same as Signed Route Number in HPMS Field Manual (Item 24).
 
 </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>con_route_</attrlabl>
+</attr>
+<attr>
+	<attrlabl>con_route_</attrlabl>
 				<attrdef>Code same as Posted Route Signing for concurrent route if there is one.
 
 </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Con_Signed</attrlabl>
+</attr>
+<attr>
+	<attrlabl>Con_Signed</attrlabl>
 				<attrdef>Code same as Posted Signed Route Number for concurrent route if there is one.
 
 </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Station_Lo</attrlabl>
-				<attrdef>stations located on a numbered route, the distance and direction of the station from the nearest major intersecting route or state border or landmark on state road maps is coded here. If the station is located on a city street, enter the city and street name. Abbreviate if necessary. Left justify</attrdef>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>FHWA</cntorg>
-					<cntper>Steve Jessberger</cntper>
-				</cntorgp>
-				<cntpos>Program Manager</cntpos>
-				<cntaddr>
-					<addrtype>unknown</addrtype>
-					<address>1200 New Jersey Ave. SE</address>
-					<city>Washington</city>
-					<state>DC</state>
-					<postal>20590</postal>
-				</cntaddr>
-				<cntvoice>202-366-5052</cntvoice>
-				<cntemail>steven.jessberger@dot.gov</cntemail>
-				<cntinst>Program manager of Travel Monitoring Analysis System (TMAS)</cntinst>
-			</cntinfo>
-		</distrib>
-		<resdesc>ntad_2013_tmas</resdesc></distinfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research and Innovative Technology Administration/Bureau of Transportation Statistics</cntorg>
-					<cntper>National Transportation Atlas Database (NTAD) 2013</cntper>
-				</cntorgp>
-				<cntpos>Geospatial Information Systems</cntpos>
-				<cntaddr>
-					<addrtype>unknown</addrtype>
-					<address>1200 New Jersey Ave. SE</address>
-					<city>Washington</city>
-					<state>DC</state>
-					<postal>20590</postal>
-				</cntaddr>
-				<cntvoice>202-366-DATA</cntvoice>
-				<cntemail>answers@BTS.gov</cntemail>
-			</cntinfo>
-		</distrib>
-		<stdorder>
-			<digform>
+</attr>
+<attr>
+	<attrlabl>Station_Lo</attrlabl>
+	<attrdef>stations located on a numbered route, the distance and direction of the station from the nearest major intersecting route or state border or landmark on state road maps is coded here. If the station is located on a city street, enter the city and street name. Abbreviate if necessary. Left justify</attrdef>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+	<distrib>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>FHWA</cntorg>
+				<cntper>Steve Jessberger</cntper>
+			</cntorgp>
+			<cntpos>Program Manager</cntpos>
+			<cntaddr>
+				<addrtype>unknown</addrtype>
+				<address>1200 New Jersey Ave. SE</address>
+				<city>Washington</city>
+				<state>DC</state>
+				<postal>20590</postal>
+			</cntaddr>
+			<cntvoice>202-366-5052</cntvoice>
+			<cntemail>steven.jessberger@dot.gov</cntemail>
+			<cntinst>Program manager of Travel Monitoring Analysis System (TMAS)</cntinst>
+		</cntinfo>
+	</distrib>
+	<resdesc>ntad_2013_tmas</resdesc>
+</distinfo>
 
-				<digtopt>
-					<offoptn>
-						<offmedia>dvd</offmedia>
-					</offoptn>
-				</digtopt>
-			</digform>
-			<ordering>Call (202-366-DATA), or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2013 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/</ordering>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>20140925</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
+<metainfo>
+	<metd>20140925</metd>
+	<metc>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St., 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+				<country>USA</country>
+			</cntaddr>
+			<cntvoice>(212)854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+	<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+</metainfo>
 </metadata>

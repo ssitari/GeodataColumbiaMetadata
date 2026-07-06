@@ -1,36 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>climatologyMeteorologyAtmosphere</themekey>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>climatologyMeteorologyAtmosphere</themekey>
 
-</theme>
-<place>
-<placekt>GeoNames</placekt>
-<placekey>Europe (6255148)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Europe</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>1500</tempkey>
-<tempkey>2000</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-30</westbc>
-<eastbc>40</eastbc>
-<northbc>71</northbc>
-<southbc>30</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Europe (6255148)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Europe</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>1500</tempkey>
+				<tempkey>2000</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-30</westbc>
+				<eastbc>40</eastbc>
+				<northbc>71</northbc>
+				<southbc>30</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
   Europe Historical Precipitation, 1500-2000 is a collection of raster themes providing seasonal precipitation estimates for Europe from 1500 to 2000. The resolution is 0.5 degrees. The methodology used in the creation of the estimate is detailed in:
 
   Pauling, A., Luterbacher, J., Casty, C., Wanner, H. (2006). Five hundred years of gridded high-resolution precipitation reconstructions over Europe and the connection to large-scale circulation. Climate Dynamics, 26(4), 387-405. doi:https://doi-org.ezproxy.cul.columbia.edu/10.1007/s00382-005-0090-8
@@ -39,116 +39,116 @@
   https://crudata.uea.ac.uk/cru/projects/soap/data/recon/
 
   Files were converted from ASCII to TIFF format by Columbia Libraries staff using ESRI ArcGIS tools, null values were assigned for "no data" values.  In total, 2004 rasters were generated, one for each season for each of the 501 years.  All of these were then combined into a single geopackage in 2024.  The name of each individual layer in the database indicates the year and season (au=autumn, wi=winter, sp=spring, su=summer)
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Europe Historical Precipitation, 1500-2000</title>
-<origin>Columbia University. Libraries</origin>
-<origin>Pauling, Andreas</origin>
-<origin>Luterbacher, Jürg</origin>
-<origin>Casty, Carlo</origin>
-<origin>Wanner, Heinz</origin>
-<pubdate>2011</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>Columbia University. Libraries</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Europe Historical Precipitation, 1500-2000</title>
+				<origin>Columbia University. Libraries</origin>
+				<origin>Pauling, Andreas</origin>
+				<origin>Luterbacher, Jürg</origin>
+				<origin>Casty, Carlo</origin>
+				<origin>Wanner, Heinz</origin>
+				<pubdate>2011</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>Columbia University. Libraries</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ehp_1500_2000.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>1500-2000</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>Columbia University. Libraries. Research Data Services.</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<crossref>
-<citeinfo>
-  <origin>Research Data Services (RDS), Columbia University Libraries</origin>
-  <origin>Pauling, Andreas</origin>
-  <origin>Luterbacher, Jürg</origin>
-  <origin>Casty, Carlo</origin>
-  <origin>Wanner, Heinz</origin>
-<pubdate>2006</pubdate>
-<title>Five hundred years of gridded high-resolution precipitation reconstructions over europe and the connection to large-scale circulation</title>
-<othercit>Climate Dynamics, 26(4), 387-405. doi:https://doi-org.ezproxy.cul.columbia.edu/10.1007/s00382-005-0090-8</othercit>
-</citeinfo>
-</crossref>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>1500-2000</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Columbia University. Libraries. Research Data Services.</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<crossref>
+		<citeinfo>
+			<origin>Research Data Services (RDS), Columbia University Libraries</origin>
+			<origin>Pauling, Andreas</origin>
+			<origin>Luterbacher, Jürg</origin>
+			<origin>Casty, Carlo</origin>
+			<origin>Wanner, Heinz</origin>
+			<pubdate>2006</pubdate>
+			<title>Five hundred years of gridded high-resolution precipitation reconstructions over europe and the connection to large-scale circulation</title>
+			<othercit>Climate Dynamics, 26(4), 387-405. doi:https://doi-org.ezproxy.cul.columbia.edu/10.1007/s00382-005-0090-8</othercit>
+		</citeinfo>
+	</crossref>
 </idinfo>
-<spref>
-<horizsys>
-<geograph>
-<latres>0.5</latres>
-<longres>0.5</longres>
-<geogunit>Decimal degrees</geogunit>
-</geograph>
-<geodetic>
-<horizdn>World Geodetic System 1984</horizdn>
-<ellips>WGS_1984</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257224</denflat>
-</geodetic>
-</horizsys>
-</spref>
 <spdoinfo>
 
 
 
 
 
-<direct>Raster</direct>
+	<direct>Raster</direct>
 </spdoinfo>
-<metainfo>
-<metd>20240322</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-</metainfo>
+<spref>
+	<horizsys>
+		<geograph>
+			<latres>0.5</latres>
+			<longres>0.5</longres>
+			<geogunit>Decimal degrees</geogunit>
+		</geograph>
+		<geodetic>
+			<horizdn>World Geodetic System 1984</horizdn>
+			<ellips>WGS_1984</ellips>
+			<semiaxis>6378137.000000</semiaxis>
+			<denflat>298.257224</denflat>
+		</geodetic>
+	</horizsys>
+</spref>
 <distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ehp_1500_2000</resdesc>
-<distrib>
-</distrib>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ehp_1500_2000</resdesc>
+	<distrib>
+	</distrib>
 </distinfo>
+<metainfo>
+	<metd>20240322</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

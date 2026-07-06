@@ -17,7 +17,8 @@
 		<descript>
 			<abstract>Tactical Pilotage Charts Index is a set of scanned and georeferenced Tactical Pilotage Charts and a polygon theme representing the footprints of the individual sheets which serves as an index for the individual sheets.    The datasets have been imported into a raster catalog. The original charts were at a scale of 1:500,000.</abstract>
 			<purpose>For educational, non-commercial use only.</purpose>
-			<supplinf>This dataset is available via the ArcSDE from the EDS lab via this .lyr file: https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/landinfo_tpc_2010.zip</supplinf></descript>
+			<supplinf>This dataset is available via the ArcSDE from the EDS lab via this .lyr file: https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/landinfo_tpc_2010.zip</supplinf>
+		</descript>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.0.2414</native>
 		<accconst>For current Columbia affiliates only.</accconst>
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -44,7 +45,8 @@
 					<caldate>2010</caldate>
 				</sngdate>
 			</timeinfo>
-			<current>publication date</current></timeperd>
+			<current>publication date</current>
+		</timeperd>
 		<keywords>
 			<theme>
 				<themekt>ISO 19115 Topic Category</themekt>
@@ -60,7 +62,8 @@
 				<placekey>Earth (6295630)</placekey>
 			</place>
 			<place>
-				<placekt>Library of Congress Subject Headings</placekt><placekey>World</placekey>
+				<placekt>Library of Congress Subject Headings</placekt>
+				<placekey>World</placekey>
 			</place>
 		</keywords>
 		<spdom>
@@ -81,33 +84,14 @@
 			<update>None planned</update>
 		</status>
 	</idinfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>PO Box 261961</address>
-					<city>Highlands Ranch</city>
-					<state>CO</state>
-					<postal>80163-1961</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>303-790-9730</cntvoice>
-				<cntemail>sales@landinfo.com</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>landinfo_tpc</resdesc>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>Geodatabase</formname>
-				</digtinfo>
-				<digtopt><onlinopt><computer><networka><networkr>This dataset is available via the ArcSDE </networkr></networka></computer><accinstr>This dataset is available via the ArcSDE </accinstr></onlinopt></digtopt></digform>
-		</stdorder>
-	</distinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>EDS staff imported the index and map scans into a raster catalog and created the .lyr file.</procdesc>
+				<procdate>2010</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -117,14 +101,19 @@
 			</sdtsterm>
 		</ptvctinf>
 	</spdoinfo>
-	<dataqual>
-		<lineage>
-			<procstep>
-				<procdesc>EDS staff imported the index and map scans into a raster catalog and created the .lyr file.</procdesc>
-				<procdate>2010</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
+	<spref>
+		<horizsys>
+			<geograph>
+				<geogunit>Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>D_WGS_1984</horizdn>
+				<ellips>WGS_1984</ellips>
+				<semiaxis>6378137</semiaxis>
+				<denflat>298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
 	<eainfo>
 		<detailed>
 			<enttyp>
@@ -200,19 +189,43 @@
 			</enttyp>
 		</detailed>
 	</eainfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 261961</address>
+					<city>Highlands Ranch</city>
+					<state>CO</state>
+					<postal>80163-1961</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>303-790-9730</cntvoice>
+				<cntemail>sales@landinfo.com</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>landinfo_tpc</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Geodatabase</formname>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>This dataset is available via the ArcSDE </networkr>
+							</networka>
+						</computer>
+						<accinstr>This dataset is available via the ArcSDE </accinstr>
+					</onlinopt>
+				</digtopt>
+			</digform>
+		</stdorder>
+	</distinfo>
 	<metainfo>
 		<metd>20100922</metd>
 		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
@@ -236,4 +249,4 @@
 			</cntinfo>
 		</metc>
 	</metainfo>
-	<Esri><ModDate>20101111</ModDate><ModTime>15301900</ModTime></Esri><mdDateSt Sync="TRUE">20101111</mdDateSt></metadata>
+</metadata>

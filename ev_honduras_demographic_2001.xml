@@ -1,525 +1,525 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Honduras (3608932)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Honduras</placekey>
-<placekey>Honduras</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2001</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-89.356610</westbc>
-<eastbc>-83.149552</eastbc>
-<northbc>16.518630</northbc>
-<southbc>12.984875</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Honduras (3608932)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Honduras</placekey>
+				<placekey>Honduras</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2001</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-89.356610</westbc>
+				<eastbc>-83.149552</eastbc>
+				<northbc>16.518630</northbc>
+				<southbc>12.984875</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Honduras Demographic Census Data, 2001 is a polygon theme representing Aldeas in Honduras.  Attribute information includes demographic information from the 2001 Census.
 Official population and housing data for Honduras from the 2001 census. This census is provided at the Aldeas administrative level (ADM3) and includes 3727 polygons with 399 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "sexo Hombre" was updated to D001 and given the alias "Sex: Male", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.There are Currently 51 Aldeas that do not join correctly from the GIS data to the Tabular data. This is likely due to name or boundary changes. we are working with INE to solve this problem
- </abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Honduras Demographic Census Data, 2001</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2021</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Honduras Demographic Census Data, 2001</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_honduras_demographic_2001.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2001</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2001</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Honduras_2013</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-  <attrlabl>ADM3_Code</attrlabl>
-  <attrdef>Coded Value For ADM3 [Código]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM3_Name</attrlabl>
-  <attrdef>Name of ADM3 Unit [Nombre_de_la_Aldea]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D001</attrlabl>
-  <attrdef>Sex: Male [sexo Hombre]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D002</attrlabl>
-  <attrdef>Sex: Female [sexo Mujer]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D003</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 0-4 [Edades en Grupos Quinquenales F0 4]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D004</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 5-9 [Edades en Grupos Quinquenales F5 9]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D005</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 10-14 [Edades en Grupos Quinquenales F10 14]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D006</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 15-19 [Edades en Grupos Quinquenales F15 19]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D007</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 20-24 [Edades en Grupos Quinquenales F20 24]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D008</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 25-29 [Edades en Grupos Quinquenales F25 29]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D009</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 30-34 [Edades en Grupos Quinquenales F30 34]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D010</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 35-39 [Edades en Grupos Quinquenales F35 39]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D011</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 40-44 [Edades en Grupos Quinquenales F40 44]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D012</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 45-49 [Edades en Grupos Quinquenales F45 49]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D013</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 50-54 [Edades en Grupos Quinquenales F50 54]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D014</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 55-59 [Edades en Grupos Quinquenales F55 59]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D015</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 60-64 [Edades en Grupos Quinquenales F60 64]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D016</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 65-69 [Edades en Grupos Quinquenales F65 69]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D017</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 70-74 [Edades en Grupos Quinquenales F70 74]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D018</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 75-79 [Edades en Grupos Quinquenales F75 79]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D019</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 80-84 [Edades en Grupos Quinquenales F80 84]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D020</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 85-89 [Edades en Grupos Quinquenales F85 89]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D021</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 90-94 [Edades en Grupos Quinquenales F90 94]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D022</attrlabl>
-  <attrdef>Five-Year Age Groups: Ages 95 And More [Edades en Grupos Quinquenales F95 y más]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D023</attrlabl>
-  <attrdef>Decennial Ages: Ages 0-9 [ Edades Decenales F0 9]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D024</attrlabl>
-  <attrdef>Decennial Ages: Ages 10-19 [ Edades Decenales F10 19]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D025</attrlabl>
-  <attrdef>Decennial Ages: Ages 20-29 [ Edades Decenales F20 29]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D026</attrlabl>
-  <attrdef>Decennial Ages: Ages 30-39 [ Edades Decenales F30 39]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D027</attrlabl>
-  <attrdef>Decennial Ages: Ages 40-49 [ Edades Decenales F40 49]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D028</attrlabl>
-  <attrdef>Decennial Ages: Ages 50-59 [ Edades Decenales F50 59]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D029</attrlabl>
-  <attrdef>Decennial Ages: Ages 60-69 [ Edades Decenales F60 69]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D030</attrlabl>
-  <attrdef>Decennial Ages: Ages 70-79 [ Edades Decenales F70 79]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D031</attrlabl>
-  <attrdef>Decennial Ages: Ages 80-89 [ Edades Decenales F80 89]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D032</attrlabl>
-  <attrdef>Decennial Ages: Ages 90 And More [ Edades Decenales F90 y mas]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D033</attrlabl>
-  <attrdef>Marital Status: Free Union [Estado Conyugal Actual Unión libre]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D034</attrlabl>
-  <attrdef>Marital Status: Married [Estado Conyugal Actual Casado a ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D035</attrlabl>
-  <attrdef>Marital Status: Separated [Estado Conyugal Actual Separado a ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D036</attrlabl>
-  <attrdef>Marital Status: Divorced [Estado Conyugal Actual Divorciado a ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D037</attrlabl>
-  <attrdef>Marital Status: Widower [Estado Conyugal Actual Viudo a ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D038</attrlabl>
-  <attrdef>Marital Status: Single [Estado Conyugal Actual Soltero a ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D039</attrlabl>
-  <attrdef>Had A Child Born Alive: Yes [Alguna hija o hijo Nacido Vivo Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D040</attrlabl>
-  <attrdef>Had A Child Born Alive: No [Alguna hija o hijo Nacido Vivo No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D041</attrlabl>
-  <attrdef>Last Child Who Was Born Alive Still Lives: Yes [Vive Ultima Hija o Hijo Nacido Vivo Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D042</attrlabl>
-  <attrdef>Last Child Who Was Born Alive Still Lives: No [Vive Ultima Hija o Hijo Nacido Vivo No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D043</attrlabl>
-  <attrdef>Family Had Person Who Died In The Past Year: Yes [Ha Fallecido alguna Persona en el Ultimo Año Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D044</attrlabl>
-  <attrdef>Family Had Person Who Died In The Past Year: No [Ha Fallecido alguna Persona en el Ultimo Año No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D045</attrlabl>
-  <attrdef>Had Child In The Past Year: Yes [Tuvo hijos(as) el Año Anterior al Censo Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv/>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Honduras_2013</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>ADM3_Code</attrlabl>
+			<attrdef>Coded Value For ADM3 [Código]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM3_Name</attrlabl>
+			<attrdef>Name of ADM3 Unit [Nombre_de_la_Aldea]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D001</attrlabl>
+			<attrdef>Sex: Male [sexo Hombre]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D002</attrlabl>
+			<attrdef>Sex: Female [sexo Mujer]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D003</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 0-4 [Edades en Grupos Quinquenales F0 4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D004</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 5-9 [Edades en Grupos Quinquenales F5 9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D005</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 10-14 [Edades en Grupos Quinquenales F10 14]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D006</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 15-19 [Edades en Grupos Quinquenales F15 19]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D007</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 20-24 [Edades en Grupos Quinquenales F20 24]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D008</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 25-29 [Edades en Grupos Quinquenales F25 29]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D009</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 30-34 [Edades en Grupos Quinquenales F30 34]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D010</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 35-39 [Edades en Grupos Quinquenales F35 39]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D011</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 40-44 [Edades en Grupos Quinquenales F40 44]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D012</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 45-49 [Edades en Grupos Quinquenales F45 49]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D013</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 50-54 [Edades en Grupos Quinquenales F50 54]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D014</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 55-59 [Edades en Grupos Quinquenales F55 59]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D015</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 60-64 [Edades en Grupos Quinquenales F60 64]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D016</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 65-69 [Edades en Grupos Quinquenales F65 69]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D017</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 70-74 [Edades en Grupos Quinquenales F70 74]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D018</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 75-79 [Edades en Grupos Quinquenales F75 79]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D019</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 80-84 [Edades en Grupos Quinquenales F80 84]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D020</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 85-89 [Edades en Grupos Quinquenales F85 89]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D021</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 90-94 [Edades en Grupos Quinquenales F90 94]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D022</attrlabl>
+			<attrdef>Five-Year Age Groups: Ages 95 And More [Edades en Grupos Quinquenales F95 y más]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D023</attrlabl>
+			<attrdef>Decennial Ages: Ages 0-9 [ Edades Decenales F0 9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D024</attrlabl>
+			<attrdef>Decennial Ages: Ages 10-19 [ Edades Decenales F10 19]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D025</attrlabl>
+			<attrdef>Decennial Ages: Ages 20-29 [ Edades Decenales F20 29]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D026</attrlabl>
+			<attrdef>Decennial Ages: Ages 30-39 [ Edades Decenales F30 39]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D027</attrlabl>
+			<attrdef>Decennial Ages: Ages 40-49 [ Edades Decenales F40 49]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D028</attrlabl>
+			<attrdef>Decennial Ages: Ages 50-59 [ Edades Decenales F50 59]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D029</attrlabl>
+			<attrdef>Decennial Ages: Ages 60-69 [ Edades Decenales F60 69]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D030</attrlabl>
+			<attrdef>Decennial Ages: Ages 70-79 [ Edades Decenales F70 79]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D031</attrlabl>
+			<attrdef>Decennial Ages: Ages 80-89 [ Edades Decenales F80 89]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D032</attrlabl>
+			<attrdef>Decennial Ages: Ages 90 And More [ Edades Decenales F90 y mas]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D033</attrlabl>
+			<attrdef>Marital Status: Free Union [Estado Conyugal Actual Unión libre]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D034</attrlabl>
+			<attrdef>Marital Status: Married [Estado Conyugal Actual Casado a ]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D035</attrlabl>
+			<attrdef>Marital Status: Separated [Estado Conyugal Actual Separado a ]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D036</attrlabl>
+			<attrdef>Marital Status: Divorced [Estado Conyugal Actual Divorciado a ]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D037</attrlabl>
+			<attrdef>Marital Status: Widower [Estado Conyugal Actual Viudo a ]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D038</attrlabl>
+			<attrdef>Marital Status: Single [Estado Conyugal Actual Soltero a ]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D039</attrlabl>
+			<attrdef>Had A Child Born Alive: Yes [Alguna hija o hijo Nacido Vivo Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D040</attrlabl>
+			<attrdef>Had A Child Born Alive: No [Alguna hija o hijo Nacido Vivo No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D041</attrlabl>
+			<attrdef>Last Child Who Was Born Alive Still Lives: Yes [Vive Ultima Hija o Hijo Nacido Vivo Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D042</attrlabl>
+			<attrdef>Last Child Who Was Born Alive Still Lives: No [Vive Ultima Hija o Hijo Nacido Vivo No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D043</attrlabl>
+			<attrdef>Family Had Person Who Died In The Past Year: Yes [Ha Fallecido alguna Persona en el Ultimo Año Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D044</attrlabl>
+			<attrdef>Family Had Person Who Died In The Past Year: No [Ha Fallecido alguna Persona en el Ultimo Año No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D045</attrlabl>
+			<attrdef>Had Child In The Past Year: Yes [Tuvo hijos(as) el Año Anterior al Censo Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv/>
+		</attr>
+	</detailed>
 </eainfo>
-<metainfo>
-<metd>20190901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-</metainfo>
 <distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_honduras_demographic_2001</resdesc>
-<distrib>
-</distrib>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_honduras_demographic_2001</resdesc>
+	<distrib>
+	</distrib>
 </distinfo>
+<metainfo>
+	<metd>20190901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

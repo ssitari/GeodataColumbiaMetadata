@@ -1,396 +1,399 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>U.S. Census Bureau</origin>
-<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-<pubdate>2022</pubdate>
-<title>United States Census Block Centroid Populations, 2020</title>
-<edition>2022</edition>
-<geoform>vector digital data</geoform>
-<serinfo>
-<sername>ArcGIS Data and Maps</sername>
-<issue>2022 - World, Europe, and United States</issue>
-</serinfo>
-<pubinfo>
-<pubplace>Redlands, California, USA</pubplace>
-<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
-</pubinfo>
-<othercit>Location: \usa\census</othercit>
-<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2022_us_blockpop.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
-<abstract>U.S. Census Block Points represents the 2020 U.S. Census blocks for the United States as points. U.S. Census blocks nest within all other tabulated census geographic entities at the time of the decennial census and are the basis for all tabulated data from that census.</abstract>
-<purpose>U.S. Census Block Points provides population and other demographic information for each U.S. Census block (represented as a point) within the United States.</purpose>
-</descript>
-<timeperd>
-<timeinfo>
-<mdattim>
-<sngdate>
-<caldate>20210812</caldate>
-</sngdate>
-<sngdate>
-<caldate>20200101</caldate>
-</sngdate>
-</mdattim>
-</timeinfo>
-<current>publication date</current>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Annually</update>
-</status>
-<spdom>
-<bounding>
-<westbc>-179.144922</westbc>
-<eastbc>-66.982778</eastbc>
-<northbc>71.333283</northbc>
-<southbc>18.939804</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>None</themekt>
-<themekey>point</themekey>
-<themekey>census blocks</themekey>
-<themekey>census block points</themekey>
-<themekey>population</themekey>
-<themekey>households</themekey>
-<themekey>housing units</themekey>
-<themekey>society</themekey>
-</theme>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>United States (6252001)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>United States</placekey>
-</place><place>
-  <placekt>Library of Congress Subject Headings</placekt><placekey>United States</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2021</tempkey>
-<tempkey>2020</tempkey>
-</temporal>
-</keywords>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>Esri</cntorg>
-<cntper>ArcGIS Content Team</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical</addrtype>
-<address>380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>US</country>
-</cntaddr>
-<cntvoice>+1-909-793-2853</cntvoice>
-<cntfax>+1-909-793-5953</cntfax>
-<cntemail>info@esri.com</cntemail>
-<hours>9:00 a.m.-5:00 p.m. Pacific time, Monday-Friday</hours>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Census Bureau</origin>
+				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+				<pubdate>2022</pubdate>
+				<title>United States Census Block Centroid Populations, 2020</title>
+				<edition>2022</edition>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>ArcGIS Data and Maps</sername>
+					<issue>2022 - World, Europe, and United States</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Redlands, California, USA</pubplace>
+					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
+				</pubinfo>
+				<othercit>Location: \usa\census</othercit>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2022_us_blockpop.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>U.S. Census Block Points represents the 2020 U.S. Census blocks for the United States as points. U.S. Census blocks nest within all other tabulated census geographic entities at the time of the decennial census and are the basis for all tabulated data from that census.</abstract>
+			<purpose>U.S. Census Block Points provides population and other demographic information for each U.S. Census block (represented as a point) within the United States.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<mdattim>
+					<sngdate>
+						<caldate>20210812</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>20200101</caldate>
+					</sngdate>
+				</mdattim>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-179.144922</westbc>
+				<eastbc>-66.982778</eastbc>
+				<northbc>71.333283</northbc>
+				<southbc>18.939804</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>point</themekey>
+				<themekey>census blocks</themekey>
+				<themekey>census block points</themekey>
+				<themekey>population</themekey>
+				<themekey>households</themekey>
+				<themekey>housing units</themekey>
+				<themekey>society</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>United States (6252001)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>United States</placekey>
+			</place>
+			<place>
+				<placekt>Library of Congress Subject Headings</placekt>
+				<placekey>United States</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2021</tempkey>
+				<tempkey>2020</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>For current Columbia affiliates only.</accconst>
+		<useconst>For educational, non-commercial use only.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Esri</cntorg>
+					<cntper>ArcGIS Content Team</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>380 New York Street</address>
+					<city>Redlands</city>
+					<state>California</state>
+					<postal>92373-8100</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>+1-909-793-2853</cntvoice>
+				<cntfax>+1-909-793-5953</cntfax>
+				<cntemail>info@esri.com</cntemail>
+				<hours>9:00 a.m.-5:00 p.m. Pacific time, Monday-Friday</hours>
 <cntinst>In the United States- Direct all inquiries regarding software/data pricing and consulting services to your local Esri Regional Office. For support, contact Esri by telephone (voice) between 5:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing +1-888-377-4575; facsimile (fax) available at +1-909-792-0960; or visit https://support.esri.com/; Esri holidays excluded. Email and chat are available through the Support page on My Esri (https://my.esri.com).
 
 Outside the United States- Direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local Esri Office. This information can be found at https://www.esri.com/en-us/contact#c=us&amp;t=0. For other questions or comments, you may contact Esri headquarters by email, telephone, or fax or write to us.</cntinst>
-</cntinfo>
-</ptcontac>
-<native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.9.1.28388</native>
-</idinfo>
-<dataqual>
-<logic>The dataset is converted to file geodatabase (FGDB) format using tools in ArcGIS. The geometry is checked, and if needed repaired.</logic>
-<complete>After processing, the dataset is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-<posacc>
-<horizpa>
-<horizpar>The geospatial part of this dataset is calculated from latitude and longitude coordinates. The horizontal positional accuracy is unknown.</horizpar>
-</horizpa>
-</posacc>
-<lineage>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>U.S. Department of Commerce, Census Bureau</origin>
-<pubdate>20210812</pubdate>
-<title>2020 Census Redistricting Data (Public Law 94-171) Summary Files</title>
-<edition>2020</edition>
-<geoform>tabular digital data</geoform>
-<serinfo>
-<sername>Census Redistricting Data (Public Law 94-171) Summary Files</sername>
-<issue>2020</issue>
-</serinfo>
-<pubinfo>
-<pubplace>Washington, DC, USA</pubplace>
-<publish>U.S. Department of Commerce, Census Bureau</publish>
-</pubinfo>
-<othercit>The geospatial data is calculated from the latitude and longitude coordinates in the 2020 Census Redistricting Data (Public Law 94-171) Summary Files.</othercit>
-<onlink>https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/</onlink>
-</citeinfo>
-</srccite>
-<typesrc>onLine</typesrc>
-<srctime>
-<timeinfo>
-<mdattim>
-<sngdate>
-<caldate>20210812</caldate>
-</sngdate>
-<sngdate>
-<caldate>20200101</caldate>
-</sngdate>
-</mdattim>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>U.S. Census 2020 (PL 94-171)</srccitea>
-<srccontr>Attribute and geospatial data</srccontr>
-</srcinfo>
-<procstep>
-<procdesc>The following steps were performed by Esri: Downloaded the 2020 Census Redistricting Data (Public Law 94-171) Summary Files from the U.S. Census Bureau. Created the block points from these data files. Projected the dataset to World Geodetic System 1984 (WGS84). Added fields STATE_FIPS, COUNTY_FIPS, STCOFIPS, TRACT_FIPS, BLOCKGROUP_FIPS, and BLOCK_FIPS and created their values from parsing the values of the FIPS field. Reordered and renamed fields.</procdesc>
-<srcused>withheld</srcused>
-<procdate>20220429</procdate>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>Entity point</sdtstype>
-<ptvctcnt>5900617</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>blockpop</enttypl>
-<enttypd>The points represent the census blocks, the smallest geographic entities for which the Census Bureau collects and tabulates decennial census information within the United States. Census blocks are statistical areas bounded by visible features, such as streets, roads, streams, and railroad tracks, and by nonvisible boundaries, such as property lines, and city, township, school district, and county limits, and short line-of-sight extensions of streets and roads. Note: this dataset doesn't include the census blocks, for example, that consist of water polygons, medians, access ramps, and land enclosures.</enttypd>
-<enttypds>U.S. Department of Commerce, Census Bureau</enttypds>
-</enttyp>
-<attr>
-<attrlabl>OBJECTID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>Esri</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>Esri</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STATE_ABBR</attrlabl>
-<attrdef>The two-letter abbreviation for the state or territory in which the block is located.</attrdef>
-<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>INCITS 38-2009, (Formerly FIPS 5-2) Codes for the Identification of the States and Equivalent Areas within the United States, Puerto Rico, and the Insular Areas</codesetn>
-<codesets>American National Standards Institute</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STATE_FIPS</attrlabl>
-<attrdef>The code (two-digit number) for the state in which the block is located.</attrdef>
-<attrdefs>U.S. Department of Commerce</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>INCITS 38-2009, (Formerly FIPS 5-2) Codes for the Identification of the States and Equivalent Areas within the United States, Puerto Rico, and the Insular Areas</codesetn>
-<codesets>American National Standards Institute</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>COUNTY_FIPS</attrlabl>
-<attrdef>The code (three-digit number) for the county in which the block is located.</attrdef>
-<attrdefs>U.S. Department of Commerce</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>INCITS 31-2009, (Formerly FIPS 6-4) Codes for the Identification of Counties and Equivalent Areas of the United States, Puerto Rico, and the Insular Areas</codesetn>
-<codesets>American National Standards Institute</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STCOFIPS</attrlabl>
-<attrdef>The combined state and county codes. County codes begin with 001 for each state; use the combined code (five-digit number) to uniquely identify a county.</attrdef>
-<attrdefs>U.S. Department of Commerce</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>INCITS 38-2009, (Formerly FIPS 5-2) Codes for the Identification of the States and Equivalent Areas within the United States, Puerto Rico, and the Insular Areas; INCITS 31-2009, (Formerly FIPS 6-4) Codes for the Identification of Counties and Equivalent Areas of the United States, Puerto Rico, and the Insular Areas</codesetn>
-<codesets>American National Standards Institute</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>TRACT_FIPS</attrlabl>
-<attrdef>The four-digit number, with a two-digit suffix, used to identify a census tract.</attrdef>
-<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Federal Information Processing Standards</codesetn>
-<codesets>U.S. Department of Commerce</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>BLOCKGROUP_FIPS</attrlabl>
-<attrdef>The Census code (one-digit number) for the block group.</attrdef>
-<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Federal Information Processing Standards</codesetn>
-<codesets>U.S. Department of Commerce</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>BLOCK_FIPS</attrlabl>
-<attrdef>The Census code (three-digit number) for the block.</attrdef>
-<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Federal Information Processing Standards</codesetn>
-<codesets>U.S. Department of Commerce</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>FIPS</attrlabl>
-<attrdef>The combined state, county, tract, block group, and block Census codes. The combined code (15-digit number) provides a unique block identifier.</attrdef>
-<attrdefs>U.S. Department of Commerce</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>INCITS 38-2009, (Formerly FIPS 5-2) Codes for the Identification of the States and Equivalent Areas within the United States, Puerto Rico, and the Insular Areas; INCITS 31-2009, (Formerly FIPS 6-4) Codes for the Identification of Counties and Equivalent Areas of the United States, Puerto Rico, and the Insular Areas; Federal Information Processing Standards</codesetn>
-<codesets>American National Standards Institute; U.S. Department of Commerce</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>POPULATION_2020</attrlabl>
-<attrdef>The 2020 population of the block.</attrdef>
-<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
-<attrdomv>
-<udom>Populations for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>HOUSEHOLDS</attrlabl>
-<attrdef>The total number of households in the block in 2020.</attrdef>
-<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
-<attrdomv>
-<udom>Numbers for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>HOUSING_UNITS</attrlabl>
-<attrdef>The total number of housing units in the block in 2020.</attrdef>
-<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
-<attrdomv>
-<udom>Numbers for the features.</udom>
-</attrdomv>
-</attr>
-</detailed>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>Esri; Esri Offices</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical</addrtype>
-<address>380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>US</country>
-</cntaddr>
-<cntvoice>+1-800-447-9778</cntvoice>
+			</cntinfo>
+		</ptcontac>
+		<native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.9.1.28388</native>
+	</idinfo>
+	<dataqual>
+		<logic>The dataset is converted to file geodatabase (FGDB) format using tools in ArcGIS. The geometry is checked, and if needed repaired.</logic>
+		<complete>After processing, the dataset is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The geospatial part of this dataset is calculated from latitude and longitude coordinates. The horizontal positional accuracy is unknown.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Department of Commerce, Census Bureau</origin>
+						<pubdate>20210812</pubdate>
+						<title>2020 Census Redistricting Data (Public Law 94-171) Summary Files</title>
+						<edition>2020</edition>
+						<geoform>tabular digital data</geoform>
+						<serinfo>
+							<sername>Census Redistricting Data (Public Law 94-171) Summary Files</sername>
+							<issue>2020</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Washington, DC, USA</pubplace>
+							<publish>U.S. Department of Commerce, Census Bureau</publish>
+						</pubinfo>
+						<othercit>The geospatial data is calculated from the latitude and longitude coordinates in the 2020 Census Redistricting Data (Public Law 94-171) Summary Files.</othercit>
+						<onlink>https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>onLine</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>20210812</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20200101</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>U.S. Census 2020 (PL 94-171)</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Downloaded the 2020 Census Redistricting Data (Public Law 94-171) Summary Files from the U.S. Census Bureau. Created the block points from these data files. Projected the dataset to World Geodetic System 1984 (WGS84). Added fields STATE_FIPS, COUNTY_FIPS, STCOFIPS, TRACT_FIPS, BLOCKGROUP_FIPS, and BLOCK_FIPS and created their values from parsing the values of the FIPS field. Reordered and renamed fields.</procdesc>
+				<srcused>withheld</srcused>
+				<procdate>20220429</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Entity point</sdtstype>
+				<ptvctcnt>5900617</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>blockpop</enttypl>
+				<enttypd>The points represent the census blocks, the smallest geographic entities for which the Census Bureau collects and tabulates decennial census information within the United States. Census blocks are statistical areas bounded by visible features, such as streets, roads, streams, and railroad tracks, and by nonvisible boundaries, such as property lines, and city, township, school district, and county limits, and short line-of-sight extensions of streets and roads. Note: this dataset doesn't include the census blocks, for example, that consist of water polygons, medians, access ramps, and land enclosures.</enttypd>
+				<enttypds>U.S. Department of Commerce, Census Bureau</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STATE_ABBR</attrlabl>
+				<attrdef>The two-letter abbreviation for the state or territory in which the block is located.</attrdef>
+				<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>INCITS 38-2009, (Formerly FIPS 5-2) Codes for the Identification of the States and Equivalent Areas within the United States, Puerto Rico, and the Insular Areas</codesetn>
+						<codesets>American National Standards Institute</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STATE_FIPS</attrlabl>
+				<attrdef>The code (two-digit number) for the state in which the block is located.</attrdef>
+				<attrdefs>U.S. Department of Commerce</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>INCITS 38-2009, (Formerly FIPS 5-2) Codes for the Identification of the States and Equivalent Areas within the United States, Puerto Rico, and the Insular Areas</codesetn>
+						<codesets>American National Standards Institute</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COUNTY_FIPS</attrlabl>
+				<attrdef>The code (three-digit number) for the county in which the block is located.</attrdef>
+				<attrdefs>U.S. Department of Commerce</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>INCITS 31-2009, (Formerly FIPS 6-4) Codes for the Identification of Counties and Equivalent Areas of the United States, Puerto Rico, and the Insular Areas</codesetn>
+						<codesets>American National Standards Institute</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STCOFIPS</attrlabl>
+				<attrdef>The combined state and county codes. County codes begin with 001 for each state; use the combined code (five-digit number) to uniquely identify a county.</attrdef>
+				<attrdefs>U.S. Department of Commerce</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>INCITS 38-2009, (Formerly FIPS 5-2) Codes for the Identification of the States and Equivalent Areas within the United States, Puerto Rico, and the Insular Areas; INCITS 31-2009, (Formerly FIPS 6-4) Codes for the Identification of Counties and Equivalent Areas of the United States, Puerto Rico, and the Insular Areas</codesetn>
+						<codesets>American National Standards Institute</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TRACT_FIPS</attrlabl>
+				<attrdef>The four-digit number, with a two-digit suffix, used to identify a census tract.</attrdef>
+				<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Federal Information Processing Standards</codesetn>
+						<codesets>U.S. Department of Commerce</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BLOCKGROUP_FIPS</attrlabl>
+				<attrdef>The Census code (one-digit number) for the block group.</attrdef>
+				<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Federal Information Processing Standards</codesetn>
+						<codesets>U.S. Department of Commerce</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BLOCK_FIPS</attrlabl>
+				<attrdef>The Census code (three-digit number) for the block.</attrdef>
+				<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Federal Information Processing Standards</codesetn>
+						<codesets>U.S. Department of Commerce</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FIPS</attrlabl>
+				<attrdef>The combined state, county, tract, block group, and block Census codes. The combined code (15-digit number) provides a unique block identifier.</attrdef>
+				<attrdefs>U.S. Department of Commerce</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>INCITS 38-2009, (Formerly FIPS 5-2) Codes for the Identification of the States and Equivalent Areas within the United States, Puerto Rico, and the Insular Areas; INCITS 31-2009, (Formerly FIPS 6-4) Codes for the Identification of Counties and Equivalent Areas of the United States, Puerto Rico, and the Insular Areas; Federal Information Processing Standards</codesetn>
+						<codesets>American National Standards Institute; U.S. Department of Commerce</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>POPULATION_2020</attrlabl>
+				<attrdef>The 2020 population of the block.</attrdef>
+				<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>Populations for the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>HOUSEHOLDS</attrlabl>
+				<attrdef>The total number of households in the block in 2020.</attrdef>
+				<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>Numbers for the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>HOUSING_UNITS</attrlabl>
+				<attrdef>The total number of housing units in the block in 2020.</attrdef>
+				<attrdefs>U.S. Department of Commerce, Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>Numbers for the features.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Esri; Esri Offices</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>380 New York Street</address>
+					<city>Redlands</city>
+					<state>California</state>
+					<postal>92373-8100</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>+1-800-447-9778</cntvoice>
 <cntinst>In the United States, contact the Esri Sales staff at +1-800-447-9778 or visit https://www.esri.com/en-us/contact#c=us&amp;t=1 for more information about our software and data.
 
 Outside the United States, direct all inquiries to your local Esri Office. This information can be found at https://www.esri.com/en-us/contact#c=us&amp;t=0.</cntinst>
-</cntinfo>
-</distrib>
+			</cntinfo>
+		</distrib>
 
-<distliab>See access and use constraints information.</distliab>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>File Geodatabase Feature Class</formname>
-<formcont>To use this data requires software that works with FGDB files.</formcont>
-<filedec>ArcGIS software</filedec>
-</digtinfo>
-<digtopt>
-<onlinopt>
-<computer>
-<networka>
-<networkr>https://www.arcgis.com/home/group.html?id=24838c2d95e14dd18c25e9bad55a7f82#overview</networkr>
-</networka>
-</computer>
-<accinstr>Downloadable Data; Hosted Feature Layer</accinstr>
-</onlinopt>
-<onlinopt>
-<computer>
-<networka>
-<networkr>https://my.esri.com</networkr>
-</networka>
-</computer>
-</onlinopt>
-<offoptn>
-<offmedia>dvd</offmedia>
-<reccap>
-<recden>4.38 or 7.95</recden>
-<recdenu>GB (gigabytes)</recdenu>
-</reccap>
-<recfmt>Universal Disk Format file system</recfmt>
-<compat>Offline Data</compat>
-</offoptn>
-</digtopt>
-</digform>
-<fees>Software purchase price</fees>
-<ordering>Data and Maps is available only as part of ArcGIS software.</ordering>
-</stdorder>
-<resdesc>esri_2022_us_blockpop</resdesc></distinfo>
-<metainfo>
-<metd>20220526</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Esri</cntorg>
-<cntper>ArcGIS Content Team</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical</addrtype>
-<address>380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>US</country>
-</cntaddr>
-<cntvoice>+1-909-793-2853</cntvoice>
-<cntfax>+1-909-793-5953</cntfax>
-<cntemail>info@esri.com</cntemail>
-<hours>9:00 a.m.-5:00 p.m. Pacific time, Monday-Friday</hours>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
+		<distliab>See access and use constraints information.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>File Geodatabase Feature Class</formname>
+					<formcont>To use this data requires software that works with FGDB files.</formcont>
+					<filedec>ArcGIS software</filedec>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>https://www.arcgis.com/home/group.html?id=24838c2d95e14dd18c25e9bad55a7f82#overview</networkr>
+							</networka>
+						</computer>
+						<accinstr>Downloadable Data; Hosted Feature Layer</accinstr>
+					</onlinopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>https://my.esri.com</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+					<offoptn>
+						<offmedia>dvd</offmedia>
+						<reccap>
+							<recden>4.38 or 7.95</recden>
+							<recdenu>GB (gigabytes)</recdenu>
+						</reccap>
+						<recfmt>Universal Disk Format file system</recfmt>
+						<compat>Offline Data</compat>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>Software purchase price</fees>
+			<ordering>Data and Maps is available only as part of ArcGIS software.</ordering>
+		</stdorder>
+		<resdesc>esri_2022_us_blockpop</resdesc>
+	</distinfo>
+	<metainfo>
+		<metd>20220526</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Esri</cntorg>
+					<cntper>ArcGIS Content Team</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>380 New York Street</address>
+					<city>Redlands</city>
+					<state>California</state>
+					<postal>92373-8100</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>+1-909-793-2853</cntvoice>
+				<cntfax>+1-909-793-5953</cntfax>
+				<cntemail>info@esri.com</cntemail>
+				<hours>9:00 a.m.-5:00 p.m. Pacific time, Monday-Friday</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+	</metainfo>
 </metadata>

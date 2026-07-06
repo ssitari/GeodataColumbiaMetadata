@@ -26,7 +26,8 @@
 					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
 				</pubinfo>
 				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_airports.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_airports.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>publication date: 200110, 1998; ground condition: 2000, 1999, 2003</current>
@@ -41,7 +42,13 @@
 					<sngdate>
 						<caldate>1999</caldate>
 					</sngdate>
-					<sngdate><caldate>1998</caldate></sngdate><sngdate><caldate>2003</caldate></sngdate></mdattim>
+					<sngdate>
+						<caldate>1998</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>2003</caldate>
+					</sngdate>
+				</mdattim>
 			</timeinfo>
 		</timeperd>
 		<status>
@@ -86,8 +93,14 @@
 				<tempkey>2001</tempkey>
 				<tempkey>2000</tempkey>
 				<tempkey>1999</tempkey>
-				<tempkey>1998</tempkey><tempkey>2003</tempkey></temporal>
-			<theme><themekt>ISO 19115 Topic Category</themekt><themekey>transportation</themekey></theme></keywords>
+				<tempkey>1998</tempkey>
+				<tempkey>2003</tempkey>
+			</temporal>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>transportation</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -119,30 +132,159 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_airports.jpg</browsen><browsed>Thumbnail</browsed><browset>JPEG</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_airports.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>JPEG</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Airports of the United States, Puerto Rico and the U.S. Virgin Islands, 2012</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+							<pubplace>Reston, Virginia, USA</pubplace>
+						</pubinfo>
+						<origin>National Atlas of the United States and the U.S. Geological Survey</origin>
+						<onlink>http://www.nationalatlas.gov/atlasftp.html</onlink>
+						<othercit>The data set was downloaded from the website in August 2002.</othercit>
+						<pubdate>200110</pubdate>
+					</citeinfo>
+				</srccite>
+				<srcscale>2000000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>200110</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>2000</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>publication date: 200110; ground condition: 2000</srccurr>
+				</srctime>
+				<srccitea>National Atlas</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Data from the NATIONAL TRANSPORTATION ATLAS DATABASES 1997 (NTAD97) CD-ROM were obtained from the Department of Transportation. Using the airport.pnt and airport.t01 files on the CD-ROM, airports with passenger enplanement of greater than or equal to 250 passengers per year were selected to create a point coverage to which the following attributes were attached: airport location identifier, name of airport, name of State, State FIPS code, Air Carrier Activity Information System airports, and Total Enplanement. The data were converted to shapefile format for use in National Atlas applications and for distribution to the public.
+
+Airports for Puerto Rico and the U.S. Virgin Islands were added. Airport names were changed from all upper case and no period after initials to lower case and period after initials. For example, LYNDON B JOHNSON is now Lyndon B. Johnson.
+
+Airports of the United States, Puerto Rico and the U.S. Virgin Islands 1999 was updated with enplanement data from National Transportation Atlas Databases 2001 (NTAD-2001). Existing airports, heliports, and seaplane bases with enplanements of 250 or greater were kept in the data set, while those below 250 enplanements were deleted. Sixty-five airports, heliports, and seaplane bases that had 250 or greater enplanements were added. The following attributes were added to Airports of the United States, Puerto Rico and the U.S. Virgin Islands 1999: Feature, indicating the type of facility, name of County, and County FIPS code.</procdesc>
+				<srcprod>National Atlas</srcprod>
+				<procdate>20010805</procdate>
+				<procsv>ArcView GIS 3</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Downloaded the ArcView GIS Shapefile compressed file, airprtx020.tar.gz, from the National Atlas of the United States and extracted it. Removed unneeded attributes. Changed the values of the STATE attribute from abbreviations to full names. Added attribute ACAIS and coded it from Esri Data &amp; Maps 2002 U.S. National Atlas Airports and FAA CY1999 ACAIS data base. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 8</procsv>
+				<srcused>National Atlas</srcused>
+				<procdate>20021017</procdate>
+				<srcused>CY1999 ACAIS</srcused>
+			</procstep>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Federal Aviation Administration</origin>
+						<pubdate>20001207</pubdate>
+						<title>PRIMARY AIRPORT ENPLANEMENT ACTIVITY SUMMARY FOR CY1999</title>
+						<pubinfo>
+							<pubplace>online</pubplace>
+							<publish>Federal Aviation Administration</publish>
+						</pubinfo>
+						<onlink>http://www2.faa.gov/arp/pdf/vpa.pdf</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1999</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>CY1999 ACAIS</srccitea>
+				<srccontr>Attribute data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<typesrc>online</typesrc>
+				<srccite>
+					<citeinfo>
+						<title>North American Transportation Atlas Data</title>
+						<onlink>http://www.bts.gov/publications/north_american_transportation_atlas_data/</onlink>
+						<origin>Bureau of Transportation Statistics</origin>
+						<pubinfo>
+							<pubplace>Washington, DC, USA</pubplace>
+							<publish>Bureau of Transportation Statistics (BTS)</publish>
+						</pubinfo>
+						<pubdate>1998</pubdate>
+						<geoform>tabular digital data</geoform>
+						<othercit>Downloaded the United States Public Use Airports data set.</othercit>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1998</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>NORTAD</srccitea>
+				<srccontr>Attribute data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<typesrc>online</typesrc>
+				<srccontr>Attribute data</srccontr>
+				<srccite>
+					<citeinfo>
+						<origin>Federal Aviation Administration</origin>
+						<title>CY 2003 Passenger Boarding and All-Cargo Data</title>
+						<othercit>Downloaded the All Primary, Non-primary, Commercial Service Airports by State data set in Excel format.</othercit>
+						<onlink>http://www.faa.gov/arp/planning/stats/cy03data</onlink>
+						<pubdate>2003</pubdate>
+						<geoform>tabular digital data</geoform>
+						<pubinfo>
+							<publish>Federal Aviation Administration</publish>
+							<pubplace>Washington, DC, USA</pubplace>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2003</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>FAA 2003</srccitea>
+			</srcinfo>
+			<procstep>
+				<srcused>NORTAD</srcused>
+				<procdesc>The following steps were performed by Esri: Updated the TOT_ENP attribute and populated it with 2003 Federal Aviation Administration data of greater than or equal to 100 passengers per year. Added the FIELD attribute and populated it with airfield names from the NAME attribute. Added the TYPE attribute and populated it based on the NAME attribute and North American Transportation Atlas Data.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
+				<srcused>FAA 2003</srcused>
+				<procdate>20050323</procdate>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The horizontal positional accuracy is unknown.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -246,7 +388,20 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
 			</attr>
-			<attr><attrlabl>FIELD</attrlabl><attalias>FIELD</attalias><attrtype>String</attrtype><attwidth>30</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdefs>Esri</attrdefs><attrdef>The name of the airfield associated with the airport.</attrdef><attrdomv><udom>Names for the features.</udom></attrdomv></attr><attr>
+			<attr>
+				<attrlabl>FIELD</attrlabl>
+				<attalias>FIELD</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>30</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdefs>Esri</attrdefs>
+				<attrdef>The name of the airfield associated with the airport.</attrdef>
+				<attrdomv>
+					<udom>Names for the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
 				<attrlabl>STATE</attrlabl>
 				<attalias>STATE</attalias>
 				<attrtype>String</attrtype>
@@ -312,7 +467,44 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 				<atprecis>14</atprecis>
 				<attscale>0</attscale>
 			</attr>
-			<attr><attrlabl>TYPE</attrlabl><attalias>TYPE</attalias><attrtype>String</attrtype><attwidth>20</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdefs>Esri</attrdefs><attrdomv><edom><edomv>International</edomv><edomvd>International airport.</edomvd><edomvds>Esri</edomvds></edom><edom><edomv>Military</edomv><edomvd>Military airport.</edomvd><edomvds>Esri</edomvds></edom><edom><edomv>Municipal</edomv><edomvd>Municipal airport.</edomvd><edomvds>Esri</edomvds></edom><edom><edomv>Regional</edomv><edomvd>Regional airport.</edomvd><edomvds>Esri</edomvds></edom><edom><edomv>Seaplane Base</edomv><edomvd>Seaplane Base.</edomvd><edomvds>Esri</edomvds></edom></attrdomv><attrdef>The type of the airport.</attrdef></attr></detailed>
+			<attr>
+				<attrlabl>TYPE</attrlabl>
+				<attalias>TYPE</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>20</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>International</edomv>
+						<edomvd>International airport.</edomvd>
+						<edomvds>Esri</edomvds>
+					</edom>
+					<edom>
+						<edomv>Military</edomv>
+						<edomvd>Military airport.</edomvd>
+						<edomvds>Esri</edomvds>
+					</edom>
+					<edom>
+						<edomv>Municipal</edomv>
+						<edomvd>Municipal airport.</edomvd>
+						<edomvds>Esri</edomvds>
+					</edom>
+					<edom>
+						<edomv>Regional</edomv>
+						<edomvd>Regional airport.</edomvd>
+						<edomvds>Esri</edomvds>
+					</edom>
+					<edom>
+						<edomv>Seaplane Base</edomv>
+						<edomvd>Seaplane Base.</edomvd>
+						<edomvds>Esri</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The type of the airport.</attrdef>
+			</attr>
+		</detailed>
 	</eainfo>
 	<distinfo>
 		<stdorder>
@@ -333,7 +525,14 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 						</reccap>
 						<recfmt>UDF (Universal Disc Format)</recfmt>
 					</offoptn>
-					<onlinopt><computer><networka><networkr>http://www.ArcGIS.com</networkr></networka></computer></onlinopt></digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ArcGIS.com</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
 			</digform>
 			<fees>Software purchase price</fees>
 			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
@@ -361,90 +560,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_us_airports</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Airports of the United States, Puerto Rico and the U.S. Virgin Islands, 2012</title>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<publish>U.S. Geological Survey</publish>
-							<pubplace>Reston, Virginia, USA</pubplace>
-						</pubinfo>
-						<origin>National Atlas of the United States and the U.S. Geological Survey</origin>
-						<onlink>http://www.nationalatlas.gov/atlasftp.html</onlink>
-						<othercit>The data set was downloaded from the website in August 2002.</othercit>
-						<pubdate>200110</pubdate>
-					</citeinfo>
-				</srccite>
-				<srcscale>2000000</srcscale>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>200110</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>2000</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>publication date: 200110; ground condition: 2000</srccurr>
-				</srctime>
-				<srccitea>National Atlas</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>Data from the NATIONAL TRANSPORTATION ATLAS DATABASES 1997 (NTAD97) CD-ROM were obtained from the Department of Transportation. Using the airport.pnt and airport.t01 files on the CD-ROM, airports with passenger enplanement of greater than or equal to 250 passengers per year were selected to create a point coverage to which the following attributes were attached: airport location identifier, name of airport, name of State, State FIPS code, Air Carrier Activity Information System airports, and Total Enplanement. The data were converted to shapefile format for use in National Atlas applications and for distribution to the public.
-
-Airports for Puerto Rico and the U.S. Virgin Islands were added. Airport names were changed from all upper case and no period after initials to lower case and period after initials. For example, LYNDON B JOHNSON is now Lyndon B. Johnson.
-
-Airports of the United States, Puerto Rico and the U.S. Virgin Islands 1999 was updated with enplanement data from National Transportation Atlas Databases 2001 (NTAD-2001). Existing airports, heliports, and seaplane bases with enplanements of 250 or greater were kept in the data set, while those below 250 enplanements were deleted. Sixty-five airports, heliports, and seaplane bases that had 250 or greater enplanements were added. The following attributes were added to Airports of the United States, Puerto Rico and the U.S. Virgin Islands 1999: Feature, indicating the type of facility, name of County, and County FIPS code.</procdesc>
-				<srcprod>National Atlas</srcprod>
-				<procdate>20010805</procdate>
-				<procsv>ArcView GIS 3</procsv>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Downloaded the ArcView GIS Shapefile compressed file, airprtx020.tar.gz, from the National Atlas of the United States and extracted it. Removed unneeded attributes. Changed the values of the STATE attribute from abbreviations to full names. Added attribute ACAIS and coded it from Esri Data &amp; Maps 2002 U.S. National Atlas Airports and FAA CY1999 ACAIS data base. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
-				<procsv>ArcView GIS 3, ArcGIS 8</procsv>
-				<srcused>National Atlas</srcused>
-				<procdate>20021017</procdate>
-				<srcused>CY1999 ACAIS</srcused>
-			</procstep>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Federal Aviation Administration</origin>
-						<pubdate>20001207</pubdate>
-						<title>PRIMARY AIRPORT ENPLANEMENT ACTIVITY SUMMARY FOR CY1999</title>
-						<pubinfo>
-							<pubplace>online</pubplace>
-							<publish>Federal Aviation Administration</publish>
-						</pubinfo>
-						<onlink>http://www2.faa.gov/arp/pdf/vpa.pdf</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>1999</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>CY1999 ACAIS</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo><typesrc>online</typesrc><srccite><citeinfo><title>North American Transportation Atlas Data</title><onlink>http://www.bts.gov/publications/north_american_transportation_atlas_data/</onlink><origin>Bureau of Transportation Statistics</origin><pubinfo><pubplace>Washington, DC, USA</pubplace><publish>Bureau of Transportation Statistics (BTS)</publish></pubinfo><pubdate>1998</pubdate><geoform>tabular digital data</geoform><othercit>Downloaded the United States Public Use Airports data set.</othercit></citeinfo></srccite><srctime><timeinfo><sngdate><caldate>1998</caldate></sngdate></timeinfo><srccurr>publication date</srccurr></srctime><srccitea>NORTAD</srccitea><srccontr>Attribute data</srccontr></srcinfo><srcinfo><typesrc>online</typesrc><srccontr>Attribute data</srccontr><srccite><citeinfo><origin>Federal Aviation Administration</origin><title>CY 2003 Passenger Boarding and All-Cargo Data</title><othercit>Downloaded the All Primary, Non-primary, Commercial Service Airports by State data set in Excel format.</othercit><onlink>http://www.faa.gov/arp/planning/stats/cy03data</onlink><pubdate>2003</pubdate><geoform>tabular digital data</geoform><pubinfo><publish>Federal Aviation Administration</publish><pubplace>Washington, DC, USA</pubplace></pubinfo></citeinfo></srccite><srctime><timeinfo><sngdate><caldate>2003</caldate></sngdate></timeinfo><srccurr>ground condition</srccurr></srctime><srccitea>FAA 2003</srccitea></srcinfo><procstep><srcused>NORTAD</srcused><procdesc>The following steps were performed by Esri: Updated the TOT_ENP attribute and populated it with 2003 Federal Aviation Administration data of greater than or equal to 100 passengers per year. Added the FIELD attribute and populated it with airfield names from the NAME attribute. Added the TYPE attribute and populated it based on the NAME attribute and North American Transportation Atlas Data.</procdesc><procsv>ArcView GIS 3, ArcGIS 9</procsv><srcused>FAA 2003</srcused><procdate>20050323</procdate></procstep></lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The horizontal positional accuracy is unknown.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

@@ -8,102 +8,111 @@
 			<abstract>World Universal Transverse Mercator (UTM) Zones is a polygon theme representing the Universal Transverse Mercator (UTM) Zones of the world. </abstract>
 			<purpose>World UTM Zones provides the zones and the latitude and longitude values that are used to project each six-degree-wide zone according to the UTM projection.
 
-</purpose>
-		</descript>
-		<citation>
-			<citeinfo>
-				<pubdate>2012</pubdate>
-				<title>World Universal Transverse Mercator (UTM) Zones, 2012</title>
-				<ftname>utmzone.sdc</ftname>
-				<geoform>vector digital data</geoform>
-				<edition>2012</edition>
-				<serinfo>
-					<sername>Data &amp; Maps for ArcGIS</sername>
-					<issue>2012 - World, Europe, and United States</issue>
-				</serinfo>
-				<pubinfo>
-					<pubplace>Redlands, California, USA</pubplace>
-					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
-				</pubinfo>
-				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_world_utmzone.zip</onlink></citeinfo>
-		</citation>
-		<timeperd>
-			<current>publication date</current>
-			<timeinfo>
-				<mdattim>
-					<sngdate>
-						<caldate>1997</caldate>
-					</sngdate>
-					<sngdate>
-						<caldate>1987</caldate>
-					</sngdate>
-					<sngdate><caldate>20041122</caldate></sngdate></mdattim>
-			</timeinfo>
-		</timeperd>
-		<status>
-			<progress>Complete</progress>
-			<update>Annually</update>
-		</status>
-		<spdom>
-			<bounding>
-				<westbc>-180.000000</westbc>
-				<eastbc>180.000000</eastbc>
-				<northbc>90.000000</northbc>
-				<southbc>-90.000000</southbc>
-			</bounding>
-			<lboundng>
-				<leftbc>-180.000000</leftbc>
-				<rightbc>180.000000</rightbc>
-				<bottombc>-90.000000</bottombc>
-				<topbc>90.000000</topbc>
-			</lboundng>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>polygon</themekey>
-				<themekey>utm</themekey>
-				<themekey>universal transverse mercator</themekey>
-				<themekey>zones</themekey>
-				<themekey>location</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Earth (6295630)</placekey>
-			</place>
-			<place>
-				<placekey>World</placekey>
-				<placekt>Library of Congress Subject Headings</placekt>
-			</place>
-			<temporal>
-				<tempkey>1997</tempkey>
-				<tempkt>None</tempkt>
-				<tempkey>1987</tempkey>
-				<tempkey>2004</tempkey></temporal>
-			<theme><themekt>ISO 19115 Topic Category</themekt><themekey>location</themekey></theme></keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
+		</purpose>
+	</descript>
+	<citation>
+		<citeinfo>
+			<pubdate>2012</pubdate>
+			<title>World Universal Transverse Mercator (UTM) Zones, 2012</title>
+			<ftname>utmzone.sdc</ftname>
+			<geoform>vector digital data</geoform>
+			<edition>2012</edition>
+			<serinfo>
+				<sername>Data &amp; Maps for ArcGIS</sername>
+				<issue>2012 - World, Europe, and United States</issue>
+			</serinfo>
+			<pubinfo>
+				<pubplace>Redlands, California, USA</pubplace>
+				<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
+			</pubinfo>
+			<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+			<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_world_utmzone.zip</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>publication date</current>
+		<timeinfo>
+			<mdattim>
+				<sngdate>
+					<caldate>1997</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>1987</caldate>
+				</sngdate>
+				<sngdate>
+					<caldate>20041122</caldate>
+				</sngdate>
+			</mdattim>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Annually</update>
+	</status>
+	<spdom>
+		<bounding>
+			<westbc>-180.000000</westbc>
+			<eastbc>180.000000</eastbc>
+			<northbc>90.000000</northbc>
+			<southbc>-90.000000</southbc>
+		</bounding>
+		<lboundng>
+			<leftbc>-180.000000</leftbc>
+			<rightbc>180.000000</rightbc>
+			<bottombc>-90.000000</bottombc>
+			<topbc>90.000000</topbc>
+		</lboundng>
+	</spdom>
+	<keywords>
+		<theme>
+			<themekt>None</themekt>
+			<themekey>polygon</themekey>
+			<themekey>utm</themekey>
+			<themekey>universal transverse mercator</themekey>
+			<themekey>zones</themekey>
+			<themekey>location</themekey>
+		</theme>
+		<place>
+			<placekt>GeoNames</placekt>
+			<placekey>Earth (6295630)</placekey>
+		</place>
+		<place>
+			<placekey>World</placekey>
+			<placekt>Library of Congress Subject Headings</placekt>
+		</place>
+		<temporal>
+			<tempkey>1997</tempkey>
+			<tempkt>None</tempkt>
+			<tempkey>1987</tempkey>
+			<tempkey>2004</tempkey>
+		</temporal>
+		<theme>
+			<themekt>ISO 19115 Topic Category</themekt>
+			<themekey>location</themekey>
+		</theme>
+	</keywords>
+	<accconst>For current Columbia affiliates only.</accconst>
 
-		<useconst>For educational, non-commercial use only.</useconst>
-		<natvform>SDC Feature Database</natvform>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Esri</cntorg>
-					<cntper>ArcGIS Content Team</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>909-793-2853</cntvoice>
-				<cntfax>909-793-5953</cntfax>
-				<cntemail>info@esri.com</cntemail>
-				<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<natvform>SDC Feature Database</natvform>
+	<ptcontac>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Esri</cntorg>
+				<cntper>ArcGIS Content Team</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>380 New York Street</address>
+				<city>Redlands</city>
+				<state>California</state>
+				<postal>92373-8100</postal>
+				<country>USA</country>
+			</cntaddr>
+			<cntvoice>909-793-2853</cntvoice>
+			<cntfax>909-793-5953</cntfax>
+			<cntemail>info@esri.com</cntemail>
+			<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
 				<cntinst>In the United States-
 Please direct all inquiries regarding software/data pricing and consulting services to your local Esri Regional Office.  For support, you may contact Esri Support Center by telephone (voice) between 5:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing 888-377-4575; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com/; Esri holidays excluded.
 
@@ -111,327 +120,377 @@ Outside the United States-
 Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local Esri Office.  This information can be found at http://www.esri.com/about-esri/locations.html.
 
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-			</cntinfo>
-		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_world_utmzone.jpg</browsen><browsed>Thumbnail</browsed><browset>JPEG</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<esriterm Name="utmzone">
-				<efeatyp>Simple</efeatyp>
-				<efeageom>Polygon</efeageom>
-				<esritopo>FALSE</esritopo>
-				<efeacnt>1201</efeacnt>
-				<spindex>TRUE</spindex>
-				<linrefer>FALSE</linrefer>
-				<featdesc>World UTM Zone</featdesc>
-			</esriterm>
-			<sdtsterm Name="utmzone">
-				<sdtstype>G-polygon</sdtstype>
-				<ptvctcnt>1201</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<cordsysn>
-				<geogcsn>GCS_Geographic</geogcsn>
-			</cordsysn>
-			<geograph>
-				<geogunit>Decimal degrees</geogunit>
-				<latres>0.000000</latres>
-				<longres>0.000000</longres>
-			</geograph>
-			<geodetic>
-				<horizdn>This data set was mathematically generated. You can define or use it unchanged with data based on any datum.</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed Name="utmzone">
-			<enttyp>
-				<enttypl>utmzone</enttypl>
-				<enttypt>Feature Class</enttypt>
-				<enttypc>1201</enttypc>
-				<enttypd>The polygons represent the Universal Transverse Mercator (UTM) zones, which, lie between 84 degrees North and 80 degrees South latitude. With few exceptions, they divide the world into sixty zones, each of which is six degrees of longitude wide. The zones are numbered from 1 through 60 eastward from 180 degrees West longitude. The zone characters designate eight degrees of latitude high rows extending north and south from the equator with the exception of the northern-most row which is 12 degrees high.</enttypd>
-				<enttypds>Esri</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>ObjectID</attrlabl>
-				<attalias>ObjectID</attalias>
-				<attrtype>OID</attrtype>
-				<attwidth>4</attwidth>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attalias>Shape</attalias>
-				<attrtype>Geometry</attrtype>
-				<attwidth>0</attwidth>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>ZONE</attrlabl>
-				<attalias>ZONE</attalias>
-				<attrtype>Double</attrtype>
-				<attwidth>8</attwidth>
-				<attrdef>The number of the UTM zone.</attrdef>
-				<attrdefs>United States Geological Survey</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>1-60</edomv>
-						<edomvd>The UTM zone numbers.</edomvd>
-						<edomvds>United States Geological Survey</edomvds>
-					</edom>
-					<edom>
-						<edomv>0</edomv>
-						<edomvd>Filler value for north and south polar areas.</edomvd>
-						<edomvds>Esri</edomvds>
-					</edom>
-				</attrdomv>
-				<atprecis>14</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>ROW_</attrlabl>
-				<attalias>ROW_</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>1</attwidth>
-				<attrdef>The character or designator of the UTM zone's row.</attrdef>
-				<attrdefs>United States Geological Survey</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>C, D, E, F, G, H, J, K, L, M, N, P, Q, R, S, T, U, V, W, X</edomv>
-						<edomvd>The UTM row letters.</edomvd>
-						<edomvds>United States Geological Survey</edomvds>
-					</edom>
-					<edom>
-						<edomv>A, B, Y, Z</edomv>
-						<edomvd>Filler values for north and south polar areas.</edomvd>
-						<edomvds>Esri</edomvds>
-					</edom>
-				</attrdomv>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>WEST_VALUE</attrlabl>
-				<attalias>WEST_VALUE</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>4</attwidth>
-				<attrdef>The longitude of the meridian forming the western border of the UTM zone.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>180W incremented by -/+6 through 174E (with the exception of zones: 33X, 35X, 37X, and 32V)</edomv>
-						<edomvd>The longitude of the meridian forming the western border of a UTM zone.</edomvd>
-						<edomvds>Esri</edomvds>
-					</edom>
-					<edom>
-						<edomv>NoZN</edomv>
-						<edomvd>Filler value for north and south polar areas.</edomvd>
-						<edomvds>Esri</edomvds>
-					</edom>
-				</attrdomv>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>CM_VALUE</attrlabl>
-				<attalias>CM_VALUE</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>5</attwidth>
-				<attrdef>The longitude of the central meridian of the UTM zone.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>177W incremented by -/+6 through 177E (with the exception of zones: 31X, 33X, 35X, 37X, 31V, and 32V)</edomv>
-						<edomvd>The longitude of the central meridian of a UTM zone.</edomvd>
-						<edomvds>Esri</edomvds>
-					</edom>
-					<edom>
-						<edomv>NoZN</edomv>
-						<edomvd>Filler value for north and south polar areas.</edomvd>
-						<edomvds>Esri</edomvds>
-					</edom>
-				</attrdomv>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>EAST_VALUE</attrlabl>
-				<attalias>EAST_VALUE</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>4</attwidth>
-				<attrdomv>
-					<edom>
-						<edomv>174W incremented by -/+6 through 180E (with the exception of zones: 31X, 33X, 35X, and 31V)</edomv>
-						<edomvd>The longitude of the meridian forming the eastern border of a UTM zone.</edomvd>
-						<edomvds>Esri</edomvds>
-					</edom>
-					<edom>
-						<edomv>NoZN</edomv>
-						<edomvd>Filler value for north and south polar areas.</edomvd>
-						<edomvds>Esri</edomvds>
-					</edom>
-				</attrdomv>
-				<attrdef>The longitude of the meridian forming the eastern border of the UTM zone.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<transize>0.120</transize>
-					<dssize>0.120</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
-				</digtinfo>
-				<digtopt>
-					<offoptn>
-						<offmedia>DVD-ROM</offmedia>
-						<reccap>
-							<recden>4.38 or 7.95</recden>
-							<recdenu>GB (gigabytes)</recdenu>
-						</reccap>
-						<recfmt>UDF (Universal Disc Format)</recfmt>
-					</offoptn>
-					<onlinopt><computer><networka><networkr>http://www.ArcGIS.com</networkr></networka></computer></onlinopt></digtopt>
-			</digform>
-			<fees>Software purchase price</fees>
-			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
-		</stdorder>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Esri; Esri Offices</cntorg>
-				</cntorgp>
+		</cntinfo>
+	</ptcontac>
+	<browse>
+		<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_world_utmzone.jpg</browsen>
+		<browsed>Thumbnail</browsed>
+		<browset>JPEG</browset>
+	</browse>
+</idinfo>
+<dataqual>
+	<lineage>
+		<srcinfo>
+			<srccite>
+				<citeinfo>
+					<title>ArcData Online GIS Data on the web -World UTM Zones Data Set</title>
+					<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+					<pubdate>1997</pubdate>
+					<edition>1</edition>
+					<geoform>vector digital data</geoform>
+					<pubinfo>
+						<publish>Esri</publish>
+						<pubplace>Redlands, California, USA</pubplace>
+					</pubinfo>
+					<onlink>http://www.esri.com/data/online/esri/datapacks/utm_zone.html</onlink>
+					<othercit>This data set is also distributed in ArcWorld™ Supplement from Esri.</othercit>
+				</citeinfo>
+			</srccite>
+			<typesrc>online</typesrc>
+			<srctime>
+				<timeinfo>
+					<sngdate>
+						<caldate>1987</caldate>
+					</sngdate>
+				</timeinfo>
+				<srccurr>publication date</srccurr>
+			</srctime>
+			<srccitea>ADOL</srccitea>
+			<srccontr>Attribute and geospatial data</srccontr>
+		</srcinfo>
+		<procstep>
+			<procdesc>The UTM zone index was mathematically generated by Esri using ARC/INFO software. The zone definitions were obtained from "An Album of Map Projections: A Working Manual" by John P. Snyder (1987: USGS Professional Paper 1395. U.S. Government Printing Office: Washington, D.C.).</procdesc>
+			<procsv>ARC/INFO, ArcView GIS 3.x</procsv>
+			<procdate>1997</procdate>
+			<srcprod>ADOL</srcprod>
+		</procstep>
+		<procstep>
+			<procdesc>The following steps were performed by Esri: Downloaded the ArcView GIS Shapefile, utm_zone.zip, from http://www.esri.com/data/online/esri/datapacks/utm_zone.html and extracted it.  Chose UTM Areas (utm_ply.shp) and added attributes East_value, Cm_value, and West_value from UTM zones (zone.shp).  Added filler values to attributes of the polygons in the north and south polar areas.  Removed unneeded attributes.  Created ArcGIS layer file (.lyr).  Created projection file (.prj).  Ran ArcView GIS Avenue™ request ExportClean, and created spatial indices. Converted the data set to SDC.</procdesc>
+			<procsv>ArcView GIS 3.2</procsv>
+			<srcused>ADOL</srcused>
+			<procdate>20000809</procdate>
+		</procstep>
+		<procstep>
+			<procdesc>The following steps were performed by Esri: Dissolved out the central meridian of each UTM zone/row cell, reducing the number of polygons by about half.</procdesc>
+			<procsv>ArcView GIS 3, ArcGIS 9</procsv>
+			<procdate>20040307</procdate>
+		</procstep>
+		<procstep>
+			<procdesc>The following steps were performed by Esri: The EAST_VALUE and WEST_VALUE attributes and their values were reversed, so the attribute names were swapped instead of the values.</procdesc>
+			<procsv>ArcView GIS 3, ArcGIS 9</procsv>
+			<procdate>20050215</procdate>
+		</procstep>
+		<procstep>
+			<procdesc>The following steps were performed by Esri: Corrected the east, north, and south geographic extents. Converted the data set to SDC.</procdesc>
+			<procsv>ArcView GIS 3, ArcEdit™, ArcGIS 9, ArcSDE</procsv>
+			<procdate>20060328</procdate>
+		</procstep>
+		<srcinfo>
+			<typesrc>online</typesrc>
+			<srccitea>NGA GIS MGRS</srccitea>
+			<srccontr>Attribute and geospatial data</srccontr>
+			<srccite>
+				<citeinfo>
+					<origin>National Geospatial-Intelligence Agency (NGA)</origin>
+					<pubdate>20041122</pubdate>
+					<title>GIS MGRS Grid Data layers in GIS Format</title>
+					<geoform>vector digital data</geoform>
+					<othercit>Downloaded: MGRS Grid Zone Designators (6°x 8°) (file size 1 MB) Shapefiles of the 6°x 8° zones.</othercit>
+					<onlink>http://earth-info.nga.mil/GandG/coordsys/gislayers/gislayers.html</onlink>
+					<pubinfo>
+						<pubplace>Bethesda, Maryland, USA</pubplace>
+						<publish>National Geospatial-Intelligence Agency (NGA)</publish>
+					</pubinfo>
+				</citeinfo>
+			</srccite>
+			<srctime>
+				<timeinfo>
+					<sngdate>
+						<caldate>20041122</caldate>
+					</sngdate>
+				</timeinfo>
+				<srccurr>publication date</srccurr>
+			</srctime>
+		</srcinfo>
+		<procstep>
+			<procdesc>The following steps were performed by Esri: Adjusted UTM grid cells to fit two newly sized areas in Norway and Svalbard. The three original cells (32X, 34X, and 36X) no longer exist, having been absorbed by their adjacent cells in the row. The cell 32V absorbed the eastern half of cell 31V. Edited attributes WEST_VALUE, CM_VALUE, and EAST_VALUE for the affected grid cells. Converted the data set to SDC. Created projection file (.prj), and spatial indices.</procdesc>
+			<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
+			<srcused>NGA GIS MGRS</srcused>
+			<procdate>20080426</procdate>
+		</procstep>
+		<procstep>
+			<procdesc>The following steps were performed by Esri: Manually removed a few tiny slivers between some polygons. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+			<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
+			<procdate>20090529</procdate>
+		</procstep>
+	</lineage>
+	<posacc>
+		<horizpa>
+			<horizpar>The horizontal positional accuracy is unknown.</horizpar>
+		</horizpa>
+	</posacc>
+	<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
+	<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+</dataqual>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<esriterm Name="utmzone">
+			<efeatyp>Simple</efeatyp>
+			<efeageom>Polygon</efeageom>
+			<esritopo>FALSE</esritopo>
+			<efeacnt>1201</efeacnt>
+			<spindex>TRUE</spindex>
+			<linrefer>FALSE</linrefer>
+			<featdesc>World UTM Zone</featdesc>
+		</esriterm>
+		<sdtsterm Name="utmzone">
+			<sdtstype>G-polygon</sdtstype>
+			<ptvctcnt>1201</ptvctcnt>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<spref>
+	<horizsys>
+		<cordsysn>
+			<geogcsn>GCS_Geographic</geogcsn>
+		</cordsysn>
+		<geograph>
+			<geogunit>Decimal degrees</geogunit>
+			<latres>0.000000</latres>
+			<longres>0.000000</longres>
+		</geograph>
+		<geodetic>
+			<horizdn>This data set was mathematically generated. You can define or use it unchanged with data based on any datum.</horizdn>
+			<ellips>WGS_1984</ellips>
+			<semiaxis>6378137.000000</semiaxis>
+			<denflat>298.257224</denflat>
+		</geodetic>
+	</horizsys>
+</spref>
+<eainfo>
+	<detailed Name="utmzone">
+		<enttyp>
+			<enttypl>utmzone</enttypl>
+			<enttypt>Feature Class</enttypt>
+			<enttypc>1201</enttypc>
+			<enttypd>The polygons represent the Universal Transverse Mercator (UTM) zones, which, lie between 84 degrees North and 80 degrees South latitude. With few exceptions, they divide the world into sixty zones, each of which is six degrees of longitude wide. The zones are numbered from 1 through 60 eastward from 180 degrees West longitude. The zone characters designate eight degrees of latitude high rows extending north and south from the equator with the exception of the northern-most row which is 12 degrees high.</enttypd>
+			<enttypds>Esri</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>ObjectID</attrlabl>
+			<attalias>ObjectID</attalias>
+			<attrtype>OID</attrtype>
+			<attwidth>4</attwidth>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+			<attrdef>Internal feature number.</attrdef>
+			<attrdefs>Esri</attrdefs>
+			<attrdomv>
+				<udom>Sequential unique whole numbers that are automatically generated.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Shape</attrlabl>
+			<attalias>Shape</attalias>
+			<attrtype>Geometry</attrtype>
+			<attwidth>0</attwidth>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+			<attrdef>Feature geometry.</attrdef>
+			<attrdefs>Esri</attrdefs>
+			<attrdomv>
+				<udom>Coordinates defining the features.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ZONE</attrlabl>
+			<attalias>ZONE</attalias>
+			<attrtype>Double</attrtype>
+			<attwidth>8</attwidth>
+			<attrdef>The number of the UTM zone.</attrdef>
+			<attrdefs>United States Geological Survey</attrdefs>
+			<attrdomv>
+				<edom>
+					<edomv>1-60</edomv>
+					<edomvd>The UTM zone numbers.</edomvd>
+					<edomvds>United States Geological Survey</edomvds>
+				</edom>
+				<edom>
+					<edomv>0</edomv>
+					<edomvd>Filler value for north and south polar areas.</edomvd>
+					<edomvds>Esri</edomvds>
+				</edom>
+			</attrdomv>
+			<atprecis>14</atprecis>
+			<attscale>0</attscale>
+		</attr>
+		<attr>
+			<attrlabl>ROW_</attrlabl>
+			<attalias>ROW_</attalias>
+			<attrtype>String</attrtype>
+			<attwidth>1</attwidth>
+			<attrdef>The character or designator of the UTM zone's row.</attrdef>
+			<attrdefs>United States Geological Survey</attrdefs>
+			<attrdomv>
+				<edom>
+					<edomv>C, D, E, F, G, H, J, K, L, M, N, P, Q, R, S, T, U, V, W, X</edomv>
+					<edomvd>The UTM row letters.</edomvd>
+					<edomvds>United States Geological Survey</edomvds>
+				</edom>
+				<edom>
+					<edomv>A, B, Y, Z</edomv>
+					<edomvd>Filler values for north and south polar areas.</edomvd>
+					<edomvds>Esri</edomvds>
+				</edom>
+			</attrdomv>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+		</attr>
+		<attr>
+			<attrlabl>WEST_VALUE</attrlabl>
+			<attalias>WEST_VALUE</attalias>
+			<attrtype>String</attrtype>
+			<attwidth>4</attwidth>
+			<attrdef>The longitude of the meridian forming the western border of the UTM zone.</attrdef>
+			<attrdefs>Esri</attrdefs>
+			<attrdomv>
+				<edom>
+					<edomv>180W incremented by -/+6 through 174E (with the exception of zones: 33X, 35X, 37X, and 32V)</edomv>
+					<edomvd>The longitude of the meridian forming the western border of a UTM zone.</edomvd>
+					<edomvds>Esri</edomvds>
+				</edom>
+				<edom>
+					<edomv>NoZN</edomv>
+					<edomvd>Filler value for north and south polar areas.</edomvd>
+					<edomvds>Esri</edomvds>
+				</edom>
+			</attrdomv>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+		</attr>
+		<attr>
+			<attrlabl>CM_VALUE</attrlabl>
+			<attalias>CM_VALUE</attalias>
+			<attrtype>String</attrtype>
+			<attwidth>5</attwidth>
+			<attrdef>The longitude of the central meridian of the UTM zone.</attrdef>
+			<attrdefs>Esri</attrdefs>
+			<attrdomv>
+				<edom>
+					<edomv>177W incremented by -/+6 through 177E (with the exception of zones: 31X, 33X, 35X, 37X, 31V, and 32V)</edomv>
+					<edomvd>The longitude of the central meridian of a UTM zone.</edomvd>
+					<edomvds>Esri</edomvds>
+				</edom>
+				<edom>
+					<edomv>NoZN</edomv>
+					<edomvd>Filler value for north and south polar areas.</edomvd>
+					<edomvds>Esri</edomvds>
+				</edom>
+			</attrdomv>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+		</attr>
+		<attr>
+			<attrlabl>EAST_VALUE</attrlabl>
+			<attalias>EAST_VALUE</attalias>
+			<attrtype>String</attrtype>
+			<attwidth>4</attwidth>
+			<attrdomv>
+				<edom>
+					<edomv>174W incremented by -/+6 through 180E (with the exception of zones: 31X, 33X, 35X, and 31V)</edomv>
+					<edomvd>The longitude of the meridian forming the eastern border of a UTM zone.</edomvd>
+					<edomvds>Esri</edomvds>
+				</edom>
+				<edom>
+					<edomv>NoZN</edomv>
+					<edomvd>Filler value for north and south polar areas.</edomvd>
+					<edomvds>Esri</edomvds>
+				</edom>
+			</attrdomv>
+			<attrdef>The longitude of the meridian forming the eastern border of the UTM zone.</attrdef>
+			<attrdefs>Esri</attrdefs>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+		</attr>
+	</detailed>
+</eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<transize>0.120</transize>
+				<dssize>0.120</dssize>
+				<formname>SDC</formname>
+				<filedec>ArcGIS software</filedec>
+				<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+			</digtinfo>
+			<digtopt>
+				<offoptn>
+					<offmedia>DVD-ROM</offmedia>
+					<reccap>
+						<recden>4.38 or 7.95</recden>
+						<recdenu>GB (gigabytes)</recdenu>
+					</reccap>
+					<recfmt>UDF (Universal Disc Format)</recfmt>
+				</offoptn>
+				<onlinopt>
+					<computer>
+						<networka>
+							<networkr>http://www.ArcGIS.com</networkr>
+						</networka>
+					</computer>
+				</onlinopt>
+			</digtopt>
+		</digform>
+		<fees>Software purchase price</fees>
+		<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
+	</stdorder>
+	<distrib>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Esri; Esri Offices</cntorg>
+			</cntorgp>
 				<cntinst>In the United States, contact the Esri Telebusiness staff at 800-447-9778 for more information about our software and data.
 
 Outside the United States, please direct all inquiries to your local Esri Office.  This information can be found at http://www.esri.com/about-esri/locations.html.</cntinst>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>800-447-9778</cntvoice>
-			</cntinfo>
-		</distrib>
-		<techpreq>To use this data requires software that supports SDC files.</techpreq>
-		<distliab>See use constraints.</distliab>
-		<resdesc>esri_2012_world_utmzone</resdesc>
-	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>ArcData Online GIS Data on the web -World UTM Zones Data Set</title>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>1997</pubdate>
-						<edition>1</edition>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<publish>Esri</publish>
-							<pubplace>Redlands, California, USA</pubplace>
-						</pubinfo>
-						<onlink>http://www.esri.com/data/online/esri/datapacks/utm_zone.html</onlink>
-						<othercit>This data set is also distributed in ArcWorld™ Supplement from Esri.</othercit>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>1987</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>ADOL</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>The UTM zone index was mathematically generated by Esri using ARC/INFO software. The zone definitions were obtained from "An Album of Map Projections: A Working Manual" by John P. Snyder (1987: USGS Professional Paper 1395. U.S. Government Printing Office: Washington, D.C.).</procdesc>
-				<procsv>ARC/INFO, ArcView GIS 3.x</procsv>
-				<procdate>1997</procdate>
-				<srcprod>ADOL</srcprod>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Downloaded the ArcView GIS Shapefile, utm_zone.zip, from http://www.esri.com/data/online/esri/datapacks/utm_zone.html and extracted it.  Chose UTM Areas (utm_ply.shp) and added attributes East_value, Cm_value, and West_value from UTM zones (zone.shp).  Added filler values to attributes of the polygons in the north and south polar areas.  Removed unneeded attributes.  Created ArcGIS layer file (.lyr).  Created projection file (.prj).  Ran ArcView GIS Avenue™ request ExportClean, and created spatial indices. Converted the data set to SDC.</procdesc>
-				<procsv>ArcView GIS 3.2</procsv>
-				<srcused>ADOL</srcused>
-				<procdate>20000809</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Dissolved out the central meridian of each UTM zone/row cell, reducing the number of polygons by about half.</procdesc>
-				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
-				<procdate>20040307</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: The EAST_VALUE and WEST_VALUE attributes and their values were reversed, so the attribute names were swapped instead of the values.</procdesc>
-				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
-				<procdate>20050215</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Corrected the east, north, and south geographic extents. Converted the data set to SDC.</procdesc>
-				<procsv>ArcView GIS 3, ArcEdit™, ArcGIS 9, ArcSDE</procsv>
-				<procdate>20060328</procdate>
-			</procstep>
-			<srcinfo><typesrc>online</typesrc><srccitea>NGA GIS MGRS</srccitea><srccontr>Attribute and geospatial data</srccontr><srccite><citeinfo><origin>National Geospatial-Intelligence Agency (NGA)</origin><pubdate>20041122</pubdate><title>GIS MGRS Grid Data layers in GIS Format</title><geoform>vector digital data</geoform><othercit>Downloaded: MGRS Grid Zone Designators (6°x 8°) (file size 1 MB) Shapefiles of the 6°x 8° zones.</othercit><onlink>http://earth-info.nga.mil/GandG/coordsys/gislayers/gislayers.html</onlink><pubinfo><pubplace>Bethesda, Maryland, USA</pubplace><publish>National Geospatial-Intelligence Agency (NGA)</publish></pubinfo></citeinfo></srccite><srctime><timeinfo><sngdate><caldate>20041122</caldate></sngdate></timeinfo><srccurr>publication date</srccurr></srctime></srcinfo><procstep><procdesc>The following steps were performed by Esri: Adjusted UTM grid cells to fit two newly sized areas in Norway and Svalbard. The three original cells (32X, 34X, and 36X) no longer exist, having been absorbed by their adjacent cells in the row. The cell 32V absorbed the eastern half of cell 31V. Edited attributes WEST_VALUE, CM_VALUE, and EAST_VALUE for the affected grid cells. Converted the data set to SDC. Created projection file (.prj), and spatial indices.</procdesc><procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv><srcused>NGA GIS MGRS</srcused><procdate>20080426</procdate></procstep><procstep><procdesc>The following steps were performed by Esri: Manually removed a few tiny slivers between some polygons. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc><procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv><procdate>20090529</procdate></procstep></lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The horizontal positional accuracy is unknown.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>380 New York Street</address>
+				<city>Redlands</city>
+				<state>California</state>
+				<postal>92373-8100</postal>
+				<country>USA</country>
+			</cntaddr>
+			<cntvoice>800-447-9778</cntvoice>
+		</cntinfo>
+	</distrib>
+	<techpreq>To use this data requires software that supports SDC files.</techpreq>
+	<distliab>See use constraints.</distliab>
+	<resdesc>esri_2012_world_utmzone</resdesc>
+</distinfo>
+<metainfo>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metd>20130205</metd>
+	<metc>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 
 </metadata>

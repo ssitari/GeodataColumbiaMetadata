@@ -31,7 +31,10 @@ This dataset comes with an ESRI layer file symbolizing the features.</supplinf>
 		<timeperd>
 			<current>ground condition</current>
 			<timeinfo>
-				<sngdate><caldate>2000</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2000</caldate>
+				</sngdate>
+			</timeinfo>
 		</timeperd>
 		<status>
 			<progress>Complete</progress>
@@ -115,32 +118,96 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			</cntinfo>
 		</ptcontac>
 	</idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20110729</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Tele Atlas MultiNet North America</title>
+						<origin>Tele Atlas North America, Inc.</origin>
+						<pubdate>201003</pubdate>
+						<edition>Version 2010.03</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>Tele Atlas MultiNet North America</sername>
+							<issue>Version 2010.03</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>Tele Atlas North America, Inc.</publish>
+							<pubplace>Lebanon, New Hampshire, USA</pubplace>
+						</pubinfo>
+						<onlink>http://www.teleatlas.com/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>DVD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>201003</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Tele Atlas MultiNet North America v. 2010.03</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Tele Atlas North America, Inc., ESRI</origin>
+						<title>U.S. Populated Place Areas, 2010</title>
+						<edition>2009 Data Update</edition>
+						<serinfo>
+							<sername>ESRI Data &amp; Maps</sername>
+							<issue>2009 Data Update - World, Europe, United States, and Mexico</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>ESRI</publish>
+							<pubplace>Redlands, California, USA</pubplace>
+						</pubinfo>
+						<othercit>1) Provides attributes from Summary File 1 (SF1) data that are based on the 2000 Census of Population. 2) Provides other attributes in this data set from the previous release of ESRI Data &amp; Maps.</othercit>
+						<pubdate>20090601</pubdate>
+						<geoform>vector digital data</geoform>
+						<onlink>http://www.esri.com/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>DVD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>200907</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>200004</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>publication date: 200907; ground condition: 200004</srccurr>
+				</srctime>
+				<srccitea>ESRI Data &amp; Maps 2009 Data Update</srccitea>
+				<srccontr>Attribute data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdate>20100513</procdate>
+				<procdesc>The following steps were performed by ESRI: Extracted the Administrative Place data sets from Tele Atlas MultiNet North America v. 2010.03 and merged them into a nationwide data set. Clipped the coastline with the Tele Atlas MultiNet North America water data set. Removed all MultiNet fields but APCODE. Attached and formatted the fields from the 2009 Data Update U.S. Populated Place Areas. Removed some records with corrupt APCODE values. Calculated new values for fields POP00_SQMI and SQMI. Removed and rearranged fields to match last release. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>Horizontal positional accuracy is dependent on geographic area. In most areas, accuracy is between 5 and 25 meters (16 and 82 feet). In some areas, accuracy is off by up to several tens of meters (100 feet or more). In the poorest areas, accuracy is off by up to 100 meters (328 feet).</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype></sdtsterm></ptvctinf>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
 	</spdoinfo>
 	<spref>
 		<horizsys>
@@ -469,88 +536,27 @@ Outside the United States, please direct all inquiries to your local ESRI Office
 			</cntinfo>
 		</distrib>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Tele Atlas MultiNet North America</title>
-						<origin>Tele Atlas North America, Inc.</origin>
-						<pubdate>201003</pubdate>
-						<edition>Version 2010.03</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>Tele Atlas MultiNet North America</sername>
-							<issue>Version 2010.03</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>Tele Atlas North America, Inc.</publish>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-						</pubinfo>
-						<onlink>http://www.teleatlas.com/</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>DVD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>201003</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>Tele Atlas MultiNet North America v. 2010.03</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Tele Atlas North America, Inc., ESRI</origin>
-						<title>U.S. Populated Place Areas, 2010</title>
-						<edition>2009 Data Update</edition>
-						<serinfo>
-							<sername>ESRI Data &amp; Maps</sername>
-							<issue>2009 Data Update - World, Europe, United States, and Mexico</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>ESRI</publish>
-							<pubplace>Redlands, California, USA</pubplace>
-						</pubinfo>
-						<othercit>1) Provides attributes from Summary File 1 (SF1) data that are based on the 2000 Census of Population. 2) Provides other attributes in this data set from the previous release of ESRI Data &amp; Maps.</othercit>
-						<pubdate>20090601</pubdate>
-						<geoform>vector digital data</geoform>
-						<onlink>http://www.esri.com/</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>DVD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>200907</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>200004</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>publication date: 200907; ground condition: 200004</srccurr>
-				</srctime>
-				<srccitea>ESRI Data &amp; Maps 2009 Data Update</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdate>20100513</procdate>
-				<procdesc>The following steps were performed by ESRI: Extracted the Administrative Place data sets from Tele Atlas MultiNet North America v. 2010.03 and merged them into a nationwide data set. Clipped the coastline with the Tele Atlas MultiNet North America water data set. Removed all MultiNet fields but APCODE. Attached and formatted the fields from the 2009 Data Update U.S. Populated Place Areas. Removed some records with corrupt APCODE values. Calculated new values for fields POP00_SQMI and SQMI. Removed and rearranged fields to match last release. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>Horizontal positional accuracy is dependent on geographic area. In most areas, accuracy is between 5 and 25 meters (16 and 82 feet). In some areas, accuracy is off by up to several tens of meters (100 feet or more). In the poorest areas, accuracy is off by up to 100 meters (328 feet).</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
-	<mdDateSt>20110729</mdDateSt>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20110729</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

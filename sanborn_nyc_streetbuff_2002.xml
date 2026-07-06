@@ -1,244 +1,245 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>Sanborn Map Company</origin>
-<pubdate>2003</pubdate>
-<title>New York City Street Buffer, 2002</title>
-<geoform>vector digital data</geoform>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Sanborn Map Company</origin>
+				<pubdate>2003</pubdate>
+				<title>New York City Street Buffer, 2002</title>
+				<geoform>vector digital data</geoform>
 				<pubinfo>
 					<publish>Sanborn (Firm)</publish>
 				</pubinfo>
-<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/sanborn_nyc_streetbuff_2002.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
-<abstract>Sanborn CitySets New York City Street Buffer is a polygon theme representing the street network in parts of Manhattan and Brooklyn.  The polygons have been formed by buffering the street centerlines by a constant arbitrary amount.   This feature is a graphic representation only and does not indicate edge of pavement or road width</abstract>
-<purpose>This dataset was developed to be used strictly for graphic enhancement of map display.</purpose>
-</descript>
-<timeperd>
-<timeinfo>
-<sngdate>
-<caldate>2002</caldate>
-</sngdate>
-</timeinfo>
-<current>ground condition</current>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>None planned</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/sanborn_nyc_streetbuff_2002.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Sanborn CitySets New York City Street Buffer is a polygon theme representing the street network in parts of Manhattan and Brooklyn.  The polygons have been formed by buffering the street centerlines by a constant arbitrary amount.   This feature is a graphic representation only and does not indicate edge of pavement or road width</abstract>
+			<purpose>This dataset was developed to be used strictly for graphic enhancement of map display.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2002</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -74.018812</westbc>
-<eastbc>
+					<eastbc>
 -73.955355</eastbc>
-<northbc>
+						<northbc>
 40.773540</northbc>
-<southbc>
+							<southbc>
 40.677673</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>transportation</themekey>
-</theme>
-<theme>
-<themekt>None</themekt>
-<themekey>Streets</themekey>
-<themekey>Sanborn CitySets</themekey>
-<themekey>Buffer</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>New York City (5128581)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>New York (N.Y.)</placekey>
-<placekey>Brooklyn (New York, N.Y.)</placekey>
-<placekey>Manhattan (New York, N.Y.)</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2002</tempkey>
-</temporal>
-</keywords>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>Sanborn</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>Corporate Headquarters</address>
-<address>1935 Jamboree Drive</address>
-<address>Suite 100</address>
-<city>Colorado Springs</city>
-<state>CO</state>
-<postal>80920</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>719.593.0093</cntvoice>
-<cntfax>719.528.5093</cntfax>
-<cntemail>coloradosprings@sanborn.com</cntemail>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/nyc_stbuff.bmp</browsen>
-<browsed>Thumbnail</browsed>
-<browset>bmp</browset>
-</browse>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
-</idinfo>
-<dataqual>
-<attracc>
-<attraccr>This feature is a graphic representation only and does not indicate edge of pavement or road width. 2-D feature; does not meet accuracy specifications.</attraccr>
-</attracc>
-<lineage>
-<procstep>
-<procdesc>Arial photography was used to photogrammetrically compile street centerlines which were then attributed using the Sanborn Fire Insurance Maps (Sanborn Maps). Where the Sanborn Maps were outdated, field survey was performed to accurately capture specific attributes.</procdesc>
-</procstep>
-<procstep>
-<procdesc>Street centerlines buffered by a constant arbitrary amount</procdesc>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-<ptvctcnt>1</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<planar>
-<mapproj>
-<mapprojn>Lambert Conformal Conic</mapprojn>
-<lambertc>
-<stdparll>40.666667</stdparll>
-<stdparll>41.033333</stdparll>
-<longcm>-74.000000</longcm>
-<latprjo>40.166667</latprjo>
-<feast>984250.000000</feast>
-<fnorth>0.000000</fnorth>
-</lambertc>
-</mapproj>
-<planci>
-<plance>coordinate pair</plance>
-<coordrep>
-<absres>0.000000</absres>
-<ordres>0.000000</ordres>
-</coordrep>
-<plandu>survey feet</plandu>
-</planci>
-</planar>
-<geodetic>
-<horizdn>North American Datum of 1983</horizdn>
-<ellips>Geodetic Reference System 80</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257222</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>transportation</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Streets</themekey>
+								<themekey>Sanborn CitySets</themekey>
+								<themekey>Buffer</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>New York City (5128581)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>New York (N.Y.)</placekey>
+								<placekey>Brooklyn (New York, N.Y.)</placekey>
+								<placekey>Manhattan (New York, N.Y.)</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2002</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Sanborn</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>Corporate Headquarters</address>
+									<address>1935 Jamboree Drive</address>
+									<address>Suite 100</address>
+									<city>Colorado Springs</city>
+									<state>CO</state>
+									<postal>80920</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>719.593.0093</cntvoice>
+								<cntfax>719.528.5093</cntfax>
+								<cntemail>coloradosprings@sanborn.com</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/nyc_stbuff.bmp</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>bmp</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+					</idinfo>
+					<dataqual>
+						<attracc>
+							<attraccr>This feature is a graphic representation only and does not indicate edge of pavement or road width. 2-D feature; does not meet accuracy specifications.</attraccr>
+						</attracc>
+						<lineage>
+							<procstep>
+								<procdesc>Arial photography was used to photogrammetrically compile street centerlines which were then attributed using the Sanborn Fire Insurance Maps (Sanborn Maps). Where the Sanborn Maps were outdated, field survey was performed to accurately capture specific attributes.</procdesc>
+							</procstep>
+							<procstep>
+								<procdesc>Street centerlines buffered by a constant arbitrary amount</procdesc>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>G-polygon</sdtstype>
+								<ptvctcnt>1</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<planar>
+								<mapproj>
+									<mapprojn>Lambert Conformal Conic</mapprojn>
+									<lambertc>
+										<stdparll>40.666667</stdparll>
+										<stdparll>41.033333</stdparll>
+										<longcm>-74.000000</longcm>
+										<latprjo>40.166667</latprjo>
+										<feast>984250.000000</feast>
+										<fnorth>0.000000</fnorth>
+									</lambertc>
+								</mapproj>
+								<planci>
+									<plance>coordinate pair</plance>
+									<coordrep>
+										<absres>0.000000</absres>
+										<ordres>0.000000</ordres>
+									</coordrep>
+									<plandu>survey feet</plandu>
+								</planci>
+							</planar>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 nyc_stbuff</enttypl>
-<enttypd>Streets</enttypd>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>BUFF_ID</attrlabl>
-<attrdef>Identifier</attrdef>
-</attr>
-<attr>
-<attrlabl>BUFF_DIST</attrlabl>
-</attr>
-<attr>
-<attrlabl>AREA</attrlabl>
-<attrdef>Area of the buffer</attrdef>
-</attr>
-<attr>
-<attrlabl>PERIMETER</attrlabl>
-<attrdef>Total perimeter of the buffer</attrdef>
-</attr>
-<attr>
-<attrlabl>ACRES</attrlabl>
-<attrdef>Total acreage of the buffer</attrdef>
-</attr>
-<attr>
-<attrlabl>HECTARES</attrlabl>
-<attrdef>Total hectares of the buffer</attrdef>
-</attr>
-</detailed>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>Sanborn</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>Corporate Headquarters</address>
-<address>1935 Jamboree Drive</address>
-<address>Suite 100</address>
-<city>Colorado Springs</city>
-<state>CO</state>
-<postal>80920</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>719.593.0093</cntvoice>
-<cntemail>coloradosprings@sanborn.com</cntemail>
-</cntinfo>
-</distrib>
-<resdesc>sanborn_nyc_streetbuff_2002</resdesc>
-</distinfo>
-<metainfo>
-<metd>20070801</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212)854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+									<enttypd>Streets</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>BUFF_ID</attrlabl>
+									<attrdef>Identifier</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>BUFF_DIST</attrlabl>
+								</attr>
+								<attr>
+									<attrlabl>AREA</attrlabl>
+									<attrdef>Area of the buffer</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>PERIMETER</attrlabl>
+									<attrdef>Total perimeter of the buffer</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ACRES</attrlabl>
+									<attrdef>Total acreage of the buffer</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>HECTARES</attrlabl>
+									<attrdef>Total hectares of the buffer</attrdef>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Sanborn</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>Corporate Headquarters</address>
+										<address>1935 Jamboree Drive</address>
+										<address>Suite 100</address>
+										<city>Colorado Springs</city>
+										<state>CO</state>
+										<postal>80920</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>719.593.0093</cntvoice>
+									<cntemail>coloradosprings@sanborn.com</cntemail>
+								</cntinfo>
+							</distrib>
+							<resdesc>sanborn_nyc_streetbuff_2002</resdesc>
+						</distinfo>
+						<metainfo>
+							<metd>20070801</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

@@ -87,32 +87,32 @@
 		</ptcontac>
 	</idinfo>
 	<dataqual>
-<lineage>
-<srcinfo>
-<srccite>
-<citeinfo>
-<title>Wharton Research Data Services</title>
-</citeinfo>
-</srccite>
-<typesrc>Online database</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>2012</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>ground condition</srccurr>
-</srctime>
-<srccitea>WRDS</srccitea>
-<srccontr>All attribute and location data</srccontr>
-</srcinfo>
-<procstep>
-<procdesc>RDS staff downloaded all the 2012 business data for the five counties on New York City (New York, Kings, Queens, Bronx, Richmond) from the Infogroup database in WRDS.  The locations were displayed in QGIS using the longitude and latitude coordinates from the Infogroup data. The locations for New York City were extracted by the county codes and saved in the geopackage format.  NOTE: all locational and county designations were used as found in WRDS, no additional verification or testing was conducted.</procdesc>
-<srcused>WRDS</srcused>
-<procdate>20230109</procdate>
-</procstep>
-</lineage>
-</dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Wharton Research Data Services</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>Online database</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2012</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>WRDS</srccitea>
+				<srccontr>All attribute and location data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>RDS staff downloaded all the 2012 business data for the five counties on New York City (New York, Kings, Queens, Bronx, Richmond) from the Infogroup database in WRDS.  The locations were displayed in QGIS using the longitude and latitude coordinates from the Infogroup data. The locations for New York City were extracted by the county codes and saved in the geopackage format.  NOTE: all locational and county designations were used as found in WRDS, no additional verification or testing was conducted.</procdesc>
+				<srcused>WRDS</srcused>
+				<procdate>20230109</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -708,4 +708,4 @@
 			<metsc>Unclassified</metsc>
 		</metsi>
 	</metainfo>
-	</metadata>
+</metadata>

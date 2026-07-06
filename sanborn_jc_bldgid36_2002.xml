@@ -1,242 +1,243 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>Sanborn Map Company</origin>
-<pubdate>2003</pubdate>
-<title>Jersey City Building Roof Elevations, 2002</title>
-<geoform>vector digital data</geoform>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Sanborn Map Company</origin>
+				<pubdate>2003</pubdate>
+				<title>Jersey City Building Roof Elevations, 2002</title>
+				<geoform>vector digital data</geoform>
 				<pubinfo>
 					<publish>Sanborn (Firm)</publish>
 				</pubinfo>
-<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/sanborn_jc_bldgid36_2002.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
-<abstract>Sanborn CitySets Jersey City Building Roof Elevations is a polygon theme representing roof elevations for selected structures in Jersey City, New Jersey.  There may be multiple polygons for single buildings with the same BLDGID.</abstract>
-<purpose>For use in building 3D building models.</purpose>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/sanborn_jc_bldgid36_2002.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Sanborn CitySets Jersey City Building Roof Elevations is a polygon theme representing roof elevations for selected structures in Jersey City, New Jersey.  There may be multiple polygons for single buildings with the same BLDGID.</abstract>
+			<purpose>For use in building 3D building models.</purpose>
 <supplinf>Building heights are measured at the highest point of the roof over habitable space. The distance is measured in feet from the building height to the average ground level around the building. The average ground level is accurate within five feet. At least one building height is placed on each building. Residential buildings have only one point measured for each building polygon at the highest occupy-able rooftop. Ninety percent of the building height measurements shall be within five feet of the true height of the measured point. The building height calculation, therefore, is accurate within 10 feet 90 percent of the time.
 Commercial buildings (as interpreted by the photogrammetry technician) and any building over eight stories tall have a point measured for each rooftop breakline polygon. A rooftop breakline shall be placed where there is a change in elevation of three stories (33 feet) or more.
 HVAC units, chimneys, antennas, and similar features are not be taken into consideration when placing these breaklines.</supplinf>
-</descript>
-<timeperd>
-<timeinfo>
-<sngdate>
-<caldate>2002</caldate>
-</sngdate>
-</timeinfo>
-<current>ground condition</current>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>None planned</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2002</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -74.067141</westbc>
-<eastbc>
+					<eastbc>
 -74.026122</eastbc>
-<northbc>
+						<northbc>
 40.738739</northbc>
-<southbc>
+							<southbc>
 40.707754</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>structure</themekey>
-</theme>
-<theme>
-<themekt>None</themekt>
-<themekey>Sanborn</themekey>
-<themekey>Building footprints</themekey>
-<themekey>3D building height</themekey>
-<themekey>Roof elevations</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>New Jersey (5101760)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>Jersey City (N.J.)</placekey>
-<placekey>New Jersey</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2002</tempkey>
-</temporal>
-</keywords>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>Sanborn</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>Corporate Headquarters</address>
-<address>1935 Jamboree Drive</address>
-<address>Suite 100</address>
-<city>Colorado Springs</city>
-<state>CO</state>
-<postal>80920</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>719.593.0093</cntvoice>
-<cntfax>719.528.5093</cntfax>
-<cntemail>coloradosprings@sanborn.com</cntemail>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/jer_bldgid3d.bmp</browsen>
-<browsed>Thumbnail</browsed>
-<browset>bmp</browset>
-</browse>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
-</idinfo>
-<dataqual>
-<attracc>
-</attracc>
-<posacc>
-<horizpa>
-<horizpar>Data meets National Map Accuracy Standards (90 percent accurate to within 3.33 feet of true ground position)</horizpar>
-</horizpa>
-<vertacc>
-<vertaccr>Ninety percent of the building height measurements shall be within five feet of the true height of the measured point. The building height calculation, therefore, is accurate within 10 feet 90 percent of the time.</vertaccr>
-</vertacc>
-</posacc>
-<lineage>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-<ptvctcnt>6538</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<planar>
-<gridsys>
-<gridsysn>State Plane Coordinate System</gridsysn>
-<spcs>
-<spcszone>2900</spcszone>
-<transmer>
-<sfctrmer>0.999900</sfctrmer>
-<longcm>-74.500000</longcm>
-<latprjo>38.833333</latprjo>
-<feast>492125.000000</feast>
-<fnorth>0.000000</fnorth>
-</transmer>
-</spcs>
-</gridsys>
-<planci>
-<plance>coordinate pair</plance>
-<coordrep>
-<absres>0.000000</absres>
-<ordres>0.000000</ordres>
-</coordrep>
-<plandu>survey feet</plandu>
-</planci>
-</planar>
-<geodetic>
-<horizdn>North American Datum of 1983</horizdn>
-<ellips>Geodetic Reference System 80</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257222</denflat>
-</geodetic>
-</horizsys>
-<vertdef>
-<altsys>
-<altres>0.000000</altres>
-<altunits>feet</altunits>
-<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-</altsys>
-</vertdef>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>structure</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Sanborn</themekey>
+								<themekey>Building footprints</themekey>
+								<themekey>3D building height</themekey>
+								<themekey>Roof elevations</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>New Jersey (5101760)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>Jersey City (N.J.)</placekey>
+								<placekey>New Jersey</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2002</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Sanborn</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>Corporate Headquarters</address>
+									<address>1935 Jamboree Drive</address>
+									<address>Suite 100</address>
+									<city>Colorado Springs</city>
+									<state>CO</state>
+									<postal>80920</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>719.593.0093</cntvoice>
+								<cntfax>719.528.5093</cntfax>
+								<cntemail>coloradosprings@sanborn.com</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/jer_bldgid3d.bmp</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>bmp</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+					</idinfo>
+					<dataqual>
+						<attracc>
+						</attracc>
+						<posacc>
+							<horizpa>
+								<horizpar>Data meets National Map Accuracy Standards (90 percent accurate to within 3.33 feet of true ground position)</horizpar>
+							</horizpa>
+							<vertacc>
+								<vertaccr>Ninety percent of the building height measurements shall be within five feet of the true height of the measured point. The building height calculation, therefore, is accurate within 10 feet 90 percent of the time.</vertaccr>
+							</vertacc>
+						</posacc>
+						<lineage>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>G-polygon</sdtstype>
+								<ptvctcnt>6538</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<planar>
+								<gridsys>
+									<gridsysn>State Plane Coordinate System</gridsysn>
+									<spcs>
+										<spcszone>2900</spcszone>
+										<transmer>
+											<sfctrmer>0.999900</sfctrmer>
+											<longcm>-74.500000</longcm>
+											<latprjo>38.833333</latprjo>
+											<feast>492125.000000</feast>
+											<fnorth>0.000000</fnorth>
+										</transmer>
+									</spcs>
+								</gridsys>
+								<planci>
+									<plance>coordinate pair</plance>
+									<coordrep>
+										<absres>0.000000</absres>
+										<ordres>0.000000</ordres>
+									</coordrep>
+									<plandu>survey feet</plandu>
+								</planci>
+							</planar>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+						<vertdef>
+							<altsys>
+								<altres>0.000000</altres>
+								<altunits>feet</altunits>
+								<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+							</altsys>
+						</vertdef>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 jer_bldgid3d</enttypl>
-<enttypd>Building</enttypd>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>BLDGID</attrlabl>
-<attrdef>Unique ID for each building</attrdef>
-</attr>
-<attr>
-<attrlabl>ROOF_ELEV</attrlabl>
-<attrdef>Average highest elevation of the roof above that polygon.</attrdef>
-</attr>
-</detailed>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>Sanborn</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>Corporate Headquarters</address>
-<address>1935 Jamboree Drive</address>
-<address>Suite 100</address>
-<city>Colorado Springs</city>
-<state>CO</state>
-<postal>80920</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>719.593.0093</cntvoice>
-<cntemail>coloradosprings@sanborn.com</cntemail>
-</cntinfo>
-</distrib>
-<resdesc>sanborn_jc_bldgid36_2002</resdesc>
-</distinfo>
-<metainfo>
-<metd>20070802</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212)854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+									<enttypd>Building</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>BLDGID</attrlabl>
+									<attrdef>Unique ID for each building</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ROOF_ELEV</attrlabl>
+									<attrdef>Average highest elevation of the roof above that polygon.</attrdef>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Sanborn</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>Corporate Headquarters</address>
+										<address>1935 Jamboree Drive</address>
+										<address>Suite 100</address>
+										<city>Colorado Springs</city>
+										<state>CO</state>
+										<postal>80920</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>719.593.0093</cntvoice>
+									<cntemail>coloradosprings@sanborn.com</cntemail>
+								</cntinfo>
+							</distrib>
+							<resdesc>sanborn_jc_bldgid36_2002</resdesc>
+						</distinfo>
+						<metainfo>
+							<metd>20070802</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

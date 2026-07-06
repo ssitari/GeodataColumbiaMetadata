@@ -1,707 +1,707 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata xml:lang="en">
-<idinfo>
-<citation>
-<citeinfo>
-<title>Brooklyn Tax Lots, 1999</title>
-<origin>New York (N.Y.). Department of City Planning</origin>
-<pubdate>1999</pubdate>
-<geoform>vector digital data</geoform>
-<serinfo>
-<sername>BYTES of the BIG APPLE</sername>
-</serinfo>
-<pubinfo>
-<publish>New York (N.Y.). Department of City Planning</publish>
-</pubinfo>
-<onlink>https://www.columbia.edu/acis/eds/gis/images/nycp_bk_taxlots_1999.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<title>Brooklyn Tax Lots, 1999</title>
+				<origin>New York (N.Y.). Department of City Planning</origin>
+				<pubdate>1999</pubdate>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>BYTES of the BIG APPLE</sername>
+				</serinfo>
+				<pubinfo>
+					<publish>New York (N.Y.). Department of City Planning</publish>
+				</pubinfo>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/nycp_bk_taxlots_1999.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
 <abstract>Brooklyn Tax Lots, 1999 is a polygon theme representing tax lots in Kings County, NY as of 1999. This dataset represents a compilation of data from various government agencies throughout the City of New York.  The underlying geography is derived from the Tax Lot Polygon feature class which is part of the Department of Finance's Digital Tax Map (DTM).  The tax lots have been clipped to the shoreline, as defined by NYCMap planimetric features.  The attribute information is from the Department of City Planning's PLUTO data.  The attribute data pertains to tax lot and building characteristics and geographic, political and administrative information for each tax lot in New York City.  The Tax Lot Polygon feature class and PLUTO are derived from different sources.   As a result, some PLUTO records did not have a corresponding tax lot in the Tax Lot polygon feature class at the time of release.  These records are included in a separate non-geographic PLUTO Only DBase (*.dbf) table. There are a number of reasons why there can be a tax lot in PLUTO that does not match the DTM; the most common reason is that the various source files are maintained by different departments and divisions with varying update cycles and criteria for adding and removing records.  The attribute definitions for the PLUTO Only table are the same as those for MapPLUTO.
 DCP Mapping Lots includes some features that are not on the tax maps.  They have been added by DCP for cartographic purposes.  They include street center 'malls', traffic islands and some built streets through parks.  These features have very few associated attributes.</abstract>
-<purpose>MapPLUTO was created by the Department of City Planning to meet the growing need for extensive land use and geographic data at the tax lot level in PC mapping format.</purpose>
-<langdata>en</langdata>
-</descript>
-<timeperd>
-<timeinfo>
-<sngdate>
-<caldate>1999</caldate>
-</sngdate>
-</timeinfo>
-<current>publication date</current>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Semiannually</update>
-</status>
-<spdom>
-<bounding>
-<westbc>-74.041973</westbc>
-<eastbc>-73.832878</eastbc>
-<northbc>40.739137</northbc>
-<southbc>40.569421</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekey>Parcels</themekey>
-<themekey>Tax Lot</themekey>
-<themekey>DTM</themekey>
-<themekey>PLUTO</themekey>
-<themekey>MapPLUTO</themekey>
-<themekt>None</themekt>
-<themekey>Boundaries</themekey>
-<themekey>RPAD</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>New York City (5128581)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>New York (State)</placekey>
-<placekey>New York (N.Y.)</placekey>
-<placekey>Brooklyn (New York, N.Y.)</placekey>
-</place>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>planningCadastre</themekey>
-</theme>
-<place>
-<placekt>None</placekt>
-<placekey>NYC</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>1999</tempkey>
-</temporal>
-</keywords>
-<accconst>None</accconst>
-<useconst>None</useconst>
-<ptcontac>
-<cntinfo>
-<cntpos>BYTES of the BIG APPLE Coordinator</cntpos>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>22 Reade St, 5N</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10007</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>212.720.3505</cntvoice>
-<cntorgp>
-<cntorg>NYC Department of City Planning</cntorg>
-</cntorgp>
-</cntinfo>
-</ptcontac>
-<native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.1850</native>
-<natvform>geopackage</natvform>
-</idinfo>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-<ptvctcnt>276418</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<planar>
-<planci>
-<plance>coordinate pair</plance>
-<coordrep>
-<absres>0.000000</absres>
-<ordres>0.000000</ordres>
-</coordrep>
-<plandu>survey feet</plandu>
-</planci>
-</planar>
-<geodetic>
-<horizdn>North American Datum of 1983</horizdn>
-<ellips>Geodetic Reference System 80</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257222</denflat>
-</geodetic>
-<cordsysn>
-<geogcsn>GCS_North_American_1983</geogcsn>
-<projcsn>NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn>
-</cordsysn>
-</horizsys>
-</spref>
-<eainfo>
-<detailed Name="nycp_bk_taxlots_1999">
-<enttyp>
-<enttypl>bkmappluto</enttypl>
-<enttypt>Feature Class</enttypt>
-<enttypc>277406</enttypc>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-<attalias>FID</attalias>
-<attrtype>OID</attrtype>
-<attwidth>4</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-<attrdefs>ESRI</attrdefs>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-<attalias>Shape</attalias>
-<attrtype>Geometry</attrtype>
-<attwidth>0</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-<attrdefs>ESRI</attrdefs>
-</attr>
-<attr>
-<attrlabl>TaxLot</attrlabl>
-<attalias>TaxLot</attalias>
-<attrtype>Double</attrtype>
-<attwidth>11</attwidth>
-<atprecis>11</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>common</attrlabl>
-<attalias>common</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>BOROUGH_LU</attrlabl>
-<attalias>BOROUGH_LU</attalias>
-<attrtype>String</attrtype>
-<attwidth>2</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>BLOCK_LU</attrlabl>
-<attalias>BLOCK_LU</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>LOT_LU</attrlabl>
-<attalias>LOT_LU</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>CD_LU</attrlabl>
-<attalias>CD_LU</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>CT90_LU</attrlabl>
-<attalias>CT90_LU</attalias>
-<attrtype>String</attrtype>
-<attwidth>7</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>CB90_LU</attrlabl>
-<attalias>CB90_LU</attalias>
-<attrtype>String</attrtype>
-<attwidth>4</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>SD_LU</attrlabl>
-<attalias>SD_LU</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>COUNCIL_LU</attrlabl>
-<attalias>COUNCIL_LU</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>ZIP_LU</attrlabl>
-<attalias>ZIP_LU</attalias>
-<attrtype>String</attrtype>
-<attwidth>5</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>FIRE_COMP_</attrlabl>
-<attalias>FIRE_COMP_</attalias>
-<attrtype>String</attrtype>
-<attwidth>4</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>HEALTH_ARE</attrlabl>
-<attalias>HEALTH_ARE</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>HEALTH_CTR</attrlabl>
-<attalias>HEALTH_CTR</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>POLICE_PRE</attrlabl>
-<attalias>POLICE_PRE</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>ADDRESS_LU</attrlabl>
-<attalias>ADDRESS_LU</attalias>
-<attrtype>String</attrtype>
-<attwidth>28</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>ZONING_DIS</attrlabl>
-<attalias>ZONING_DIS</attalias>
-<attrtype>String</attrtype>
-<attwidth>8</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>ZONING_CO_</attrlabl>
-<attalias>ZONING_CO_</attalias>
-<attrtype>String</attrtype>
-<attwidth>4</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>ZONING_SP_</attrlabl>
-<attalias>ZONING_SP_</attalias>
-<attrtype>String</attrtype>
-<attwidth>5</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>ZONING_LU</attrlabl>
-<attalias>ZONING_LU</attalias>
-<attrtype>String</attrtype>
-<attwidth>20</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>ZONING_SPL</attrlabl>
-<attalias>ZONING_SPL</attalias>
-<attrtype>String</attrtype>
-<attwidth>1</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>BLDG_CLASS</attrlabl>
-<attalias>BLDG_CLASS</attalias>
-<attrtype>String</attrtype>
-<attwidth>2</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>LAND_USE_L</attrlabl>
-<attalias>LAND_USE_L</attalias>
-<attrtype>String</attrtype>
-<attwidth>2</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>EASEMENT_L</attrlabl>
-<attalias>EASEMENT_L</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>OWNER_TYPE</attrlabl>
-<attalias>OWNER_TYPE</attalias>
-<attrtype>String</attrtype>
-<attwidth>1</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>OWNER_NAME</attrlabl>
-<attalias>OWNER_NAME</attalias>
-<attrtype>String</attrtype>
-<attwidth>21</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>LOT_AREA_L</attrlabl>
-<attalias>LOT_AREA_L</attalias>
-<attrtype>Double</attrtype>
-<attwidth>11</attwidth>
-<atprecis>11</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>BLDG_AREA_</attrlabl>
-<attalias>BLDG_AREA_</attalias>
-<attrtype>Double</attrtype>
-<attwidth>11</attwidth>
-<atprecis>11</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>COMM_AREA_</attrlabl>
-<attalias>COMM_AREA_</attalias>
-<attrtype>Double</attrtype>
-<attwidth>11</attwidth>
-<atprecis>11</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>RESD_AREA_</attrlabl>
-<attalias>RESD_AREA_</attalias>
-<attrtype>Double</attrtype>
-<attwidth>11</attwidth>
-<atprecis>11</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>BLDG_ARE00</attrlabl>
-<attalias>BLDG_ARE00</attalias>
-<attrtype>String</attrtype>
-<attwidth>1</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>NUM_BLDGS_</attrlabl>
-<attalias>NUM_BLDGS_</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>NUM_FLOORS</attrlabl>
-<attalias>NUM_FLOORS</attalias>
-<attrtype>Double</attrtype>
-<attwidth>19</attwidth>
-<atprecis>18</atprecis>
-<attscale>15</attscale>
-</attr>
-<attr>
-<attrlabl>NUM_APTS_L</attrlabl>
-<attalias>NUM_APTS_L</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>NUM_UNITS_</attrlabl>
-<attalias>NUM_UNITS_</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>LOT_FRONT_</attrlabl>
-<attalias>LOT_FRONT_</attalias>
-<attrtype>Double</attrtype>
-<attwidth>19</attwidth>
-<atprecis>18</atprecis>
-<attscale>15</attscale>
-</attr>
-<attr>
-<attrlabl>LOT_DEPTH_</attrlabl>
-<attalias>LOT_DEPTH_</attalias>
-<attrtype>Double</attrtype>
-<attwidth>19</attwidth>
-<atprecis>18</atprecis>
-<attscale>15</attscale>
-</attr>
-<attr>
-<attrlabl>IRR_LOT_LU</attrlabl>
-<attalias>IRR_LOT_LU</attalias>
-<attrtype>String</attrtype>
-<attwidth>1</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>CORNER_LU</attrlabl>
-<attalias>CORNER_LU</attalias>
-<attrtype>String</attrtype>
-<attwidth>1</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>ASSESSED_L</attrlabl>
-<attalias>ASSESSED_L</attalias>
-<attrtype>Double</attrtype>
-<attwidth>11</attwidth>
-<atprecis>11</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>ASSESSED_T</attrlabl>
-<attalias>ASSESSED_T</attalias>
-<attrtype>Double</attrtype>
-<attwidth>11</attwidth>
-<atprecis>11</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>EXEMPT_LAN</attrlabl>
-<attalias>EXEMPT_LAN</attalias>
-<attrtype>Double</attrtype>
-<attwidth>11</attwidth>
-<atprecis>11</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>EXEMPT_TOT</attrlabl>
-<attalias>EXEMPT_TOT</attalias>
-<attrtype>Double</attrtype>
-<attwidth>11</attwidth>
-<atprecis>11</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>YEAR_BUILT</attrlabl>
-<attalias>YEAR_BUILT</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>YEAR_BUI00</attrlabl>
-<attalias>YEAR_BUI00</attalias>
-<attrtype>String</attrtype>
-<attwidth>1</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>YEAR_ALTER</attrlabl>
-<attalias>YEAR_ALTER</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>YEAR_ALT00</attrlabl>
-<attalias>YEAR_ALT00</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>HISTORIC_D</attrlabl>
-<attalias>HISTORIC_D</attalias>
-<attrtype>String</attrtype>
-<attwidth>1</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>FAR_LU</attrlabl>
-<attalias>FAR_LU</attalias>
-<attrtype>Double</attrtype>
-<attwidth>19</attwidth>
-<atprecis>18</atprecis>
-<attscale>15</attscale>
-</attr>
-<attr>
-<attrlabl>BORO_LU</attrlabl>
-<attalias>BORO_LU</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>TBL_LU</attrlabl>
-<attalias>TBL_LU</attalias>
-<attrtype>Double</attrtype>
-<attwidth>11</attwidth>
-<atprecis>11</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>TRACT_LU</attrlabl>
-<attalias>TRACT_LU</attalias>
-<attrtype>String</attrtype>
-<attwidth>6</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>XCOORD_LU</attrlabl>
-<attalias>XCOORD_LU</attalias>
-<attrtype>Double</attrtype>
-<attwidth>11</attwidth>
-<atprecis>11</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>YCOORD_LU</attrlabl>
-<attalias>YCOORD_LU</attalias>
-<attrtype>Double</attrtype>
-<attwidth>11</attwidth>
-<atprecis>11</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>CD2_LU</attrlabl>
-<attalias>CD2_LU</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>DOF_DATE_L</attrlabl>
-<attalias>DOF_DATE_L</attalias>
-<attrtype>String</attrtype>
-<attwidth>7</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>DCAS_DATE_</attrlabl>
-<attalias>DCAS_DATE_</attalias>
-<attrtype>String</attrtype>
-<attwidth>7</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>DOB_DATE_L</attrlabl>
-<attalias>DOB_DATE_L</attalias>
-<attrtype>String</attrtype>
-<attwidth>7</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>LAND_USE_2</attrlabl>
-<attalias>LAND_USE_2</attalias>
-<attrtype>String</attrtype>
-<attwidth>2</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>mapping_ad</attrlabl>
-<attalias>mapping_ad</attalias>
-<attrtype>String</attrtype>
-<attwidth>28</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-<attr>
-<attrlabl>common2</attrlabl>
-<attalias>common2</attalias>
-<attrtype>Integer</attrtype>
-<attwidth>6</attwidth>
-<atprecis>6</atprecis>
-<attscale>0</attscale>
-</attr>
-</detailed>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>NYC Department of City Planning</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>22 Reade St</address>
-<city>New York</city>
-<state>New York</state>
-<postal>10007</postal>
-<country>USA</country>
-</cntaddr>
-<cntinst>Available at the following website: http://www.nyc.gov/html/dcp/html/bytes/applbyte.html</cntinst>
-<cntvoice>212.720.3505</cntvoice>
-</cntinfo>
-</distrib>
-<stdorder>
-<fees> Free </fees>
-<digform>
-<digtinfo>
-<formname>geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>nycp_bk_taxlots_1999</resdesc>
-</distinfo>
-<metainfo>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing address</addrtype>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212)854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metd>20140327</metd>
-</metainfo>
+			<purpose>MapPLUTO was created by the Department of City Planning to meet the growing need for extensive land use and geographic data at the tax lot level in PC mapping format.</purpose>
+			<langdata>en</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1999</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Semiannually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-74.041973</westbc>
+				<eastbc>-73.832878</eastbc>
+				<northbc>40.739137</northbc>
+				<southbc>40.569421</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekey>Parcels</themekey>
+				<themekey>Tax Lot</themekey>
+				<themekey>DTM</themekey>
+				<themekey>PLUTO</themekey>
+				<themekey>MapPLUTO</themekey>
+				<themekt>None</themekt>
+				<themekey>Boundaries</themekey>
+				<themekey>RPAD</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>New York City (5128581)</placekey>
+			</place>
+			<place>
+				<placekt>Library of Congress Subject Headings</placekt>
+				<placekey>New York (State)</placekey>
+				<placekey>New York (N.Y.)</placekey>
+				<placekey>Brooklyn (New York, N.Y.)</placekey>
+			</place>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>planningCadastre</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>NYC</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>1999</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntpos>BYTES of the BIG APPLE Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>22 Reade St, 5N</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10007</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>212.720.3505</cntvoice>
+				<cntorgp>
+					<cntorg>NYC Department of City Planning</cntorg>
+				</cntorgp>
+			</cntinfo>
+		</ptcontac>
+		<native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.1850</native>
+		<natvform>geopackage</natvform>
+	</idinfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>276418</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000</absres>
+						<ordres>0.000000</ordres>
+					</coordrep>
+					<plandu>survey feet</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn>GCS_North_American_1983</geogcsn>
+				<projcsn>NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn>
+			</cordsysn>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="nycp_bk_taxlots_1999">
+			<enttyp>
+				<enttypl>bkmappluto</enttypl>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>277406</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias>FID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias>Shape</attalias>
+				<attrtype>Geometry</attrtype>
+				<attwidth>0</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>TaxLot</attrlabl>
+				<attalias>TaxLot</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>11</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>common</attrlabl>
+				<attalias>common</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>BOROUGH_LU</attrlabl>
+				<attalias>BOROUGH_LU</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>2</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>BLOCK_LU</attrlabl>
+				<attalias>BLOCK_LU</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>LOT_LU</attrlabl>
+				<attalias>LOT_LU</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>CD_LU</attrlabl>
+				<attalias>CD_LU</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>CT90_LU</attrlabl>
+				<attalias>CT90_LU</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>7</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>CB90_LU</attrlabl>
+				<attalias>CB90_LU</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>SD_LU</attrlabl>
+				<attalias>SD_LU</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>COUNCIL_LU</attrlabl>
+				<attalias>COUNCIL_LU</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ZIP_LU</attrlabl>
+				<attalias>ZIP_LU</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>5</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>FIRE_COMP_</attrlabl>
+				<attalias>FIRE_COMP_</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>HEALTH_ARE</attrlabl>
+				<attalias>HEALTH_ARE</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>HEALTH_CTR</attrlabl>
+				<attalias>HEALTH_CTR</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>POLICE_PRE</attrlabl>
+				<attalias>POLICE_PRE</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ADDRESS_LU</attrlabl>
+				<attalias>ADDRESS_LU</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>28</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ZONING_DIS</attrlabl>
+				<attalias>ZONING_DIS</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>8</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ZONING_CO_</attrlabl>
+				<attalias>ZONING_CO_</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ZONING_SP_</attrlabl>
+				<attalias>ZONING_SP_</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>5</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ZONING_LU</attrlabl>
+				<attalias>ZONING_LU</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>20</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ZONING_SPL</attrlabl>
+				<attalias>ZONING_SPL</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>BLDG_CLASS</attrlabl>
+				<attalias>BLDG_CLASS</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>2</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>LAND_USE_L</attrlabl>
+				<attalias>LAND_USE_L</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>2</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>EASEMENT_L</attrlabl>
+				<attalias>EASEMENT_L</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>OWNER_TYPE</attrlabl>
+				<attalias>OWNER_TYPE</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>OWNER_NAME</attrlabl>
+				<attalias>OWNER_NAME</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>21</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>LOT_AREA_L</attrlabl>
+				<attalias>LOT_AREA_L</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>11</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>BLDG_AREA_</attrlabl>
+				<attalias>BLDG_AREA_</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>11</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>COMM_AREA_</attrlabl>
+				<attalias>COMM_AREA_</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>11</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>RESD_AREA_</attrlabl>
+				<attalias>RESD_AREA_</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>11</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>BLDG_ARE00</attrlabl>
+				<attalias>BLDG_ARE00</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>NUM_BLDGS_</attrlabl>
+				<attalias>NUM_BLDGS_</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>NUM_FLOORS</attrlabl>
+				<attalias>NUM_FLOORS</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>19</attwidth>
+				<atprecis>18</atprecis>
+				<attscale>15</attscale>
+			</attr>
+			<attr>
+				<attrlabl>NUM_APTS_L</attrlabl>
+				<attalias>NUM_APTS_L</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>NUM_UNITS_</attrlabl>
+				<attalias>NUM_UNITS_</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>LOT_FRONT_</attrlabl>
+				<attalias>LOT_FRONT_</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>19</attwidth>
+				<atprecis>18</atprecis>
+				<attscale>15</attscale>
+			</attr>
+			<attr>
+				<attrlabl>LOT_DEPTH_</attrlabl>
+				<attalias>LOT_DEPTH_</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>19</attwidth>
+				<atprecis>18</atprecis>
+				<attscale>15</attscale>
+			</attr>
+			<attr>
+				<attrlabl>IRR_LOT_LU</attrlabl>
+				<attalias>IRR_LOT_LU</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>CORNER_LU</attrlabl>
+				<attalias>CORNER_LU</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ASSESSED_L</attrlabl>
+				<attalias>ASSESSED_L</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>11</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ASSESSED_T</attrlabl>
+				<attalias>ASSESSED_T</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>11</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>EXEMPT_LAN</attrlabl>
+				<attalias>EXEMPT_LAN</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>11</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>EXEMPT_TOT</attrlabl>
+				<attalias>EXEMPT_TOT</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>11</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>YEAR_BUILT</attrlabl>
+				<attalias>YEAR_BUILT</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>YEAR_BUI00</attrlabl>
+				<attalias>YEAR_BUI00</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>YEAR_ALTER</attrlabl>
+				<attalias>YEAR_ALTER</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>YEAR_ALT00</attrlabl>
+				<attalias>YEAR_ALT00</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>HISTORIC_D</attrlabl>
+				<attalias>HISTORIC_D</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>1</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>FAR_LU</attrlabl>
+				<attalias>FAR_LU</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>19</attwidth>
+				<atprecis>18</atprecis>
+				<attscale>15</attscale>
+			</attr>
+			<attr>
+				<attrlabl>BORO_LU</attrlabl>
+				<attalias>BORO_LU</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>TBL_LU</attrlabl>
+				<attalias>TBL_LU</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>11</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>TRACT_LU</attrlabl>
+				<attalias>TRACT_LU</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>XCOORD_LU</attrlabl>
+				<attalias>XCOORD_LU</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>11</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>YCOORD_LU</attrlabl>
+				<attalias>YCOORD_LU</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>11</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>CD2_LU</attrlabl>
+				<attalias>CD2_LU</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>DOF_DATE_L</attrlabl>
+				<attalias>DOF_DATE_L</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>7</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>DCAS_DATE_</attrlabl>
+				<attalias>DCAS_DATE_</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>7</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>DOB_DATE_L</attrlabl>
+				<attalias>DOB_DATE_L</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>7</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>LAND_USE_2</attrlabl>
+				<attalias>LAND_USE_2</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>2</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>mapping_ad</attrlabl>
+				<attalias>mapping_ad</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>28</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>common2</attrlabl>
+				<attalias>common2</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>6</attwidth>
+				<atprecis>6</atprecis>
+				<attscale>0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NYC Department of City Planning</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>22 Reade St</address>
+					<city>New York</city>
+					<state>New York</state>
+					<postal>10007</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntinst>Available at the following website: http://www.nyc.gov/html/dcp/html/bytes/applbyte.html</cntinst>
+				<cntvoice>212.720.3505</cntvoice>
+			</cntinfo>
+		</distrib>
+		<stdorder>
+			<fees> Free </fees>
+			<digform>
+				<digtinfo>
+					<formname>geopackage</formname>
+					<formspec>zip</formspec>
+				</digtinfo>
+			</digform>
+		</stdorder>
+		<resdesc>nycp_bk_taxlots_1999</resdesc>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>420 W. 118th St., 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(212)854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metd>20140327</metd>
+	</metainfo>
 </metadata>

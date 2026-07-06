@@ -14,7 +14,9 @@
 					<sername>Transportation Maps and Tables</sername>
 				</serinfo>
 				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/halcrow_busroute_nyc_1998.zip</onlink>
-				<origin>CommunityCartography (Firm)</origin><pubdate>2007</pubdate></citeinfo>
+				<origin>CommunityCartography (Firm)</origin>
+				<pubdate>2007</pubdate>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>New York City Bus Routes, 1998 is a line theme representing Metropolitan Transit Authority (MTA) bus routes in New York City as of 1998.  Ridership statistics are included in the Route attributes.  Statistics are for Average Weekday, Average Saturday, Average Sunday, and Annual Totals. Data also include the route name, number ID, type, headway, vehicle capacity, vehicles per hour, total capacity and fare.  Information was obtained from the New York City Transit Authority.  Files are provided in the projection NAD83 to align with the NYCMap basemap.  The realigned data has not been thoroughly checked for accuracy.
@@ -39,349 +41,404 @@ The 1998 file is provided as a historical reference.</abstract>
 			<bounding>
 				<westbc>
 -74.253977</westbc>
-				<eastbc>
+					<eastbc>
 -73.700094</eastbc>
-				<northbc>
+						<northbc>
 40.933565</northbc>
-				<southbc>
+							<southbc>
 40.502787</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>transportation</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>New York City (5128581)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>New York (N.Y.)</placekey>
-				<placekey>Brooklyn (New York, N.Y.)</placekey><placekey>Bronx (New York, N.Y.)</placekey><placekey>Queens (New York, N.Y.)</placekey><placekey>Manhattan (New York, N.Y.)</placekey><placekey>Staten Island (New York, N.Y.)</placekey><placekey>Kings County (N.Y.)</placekey><placekey>Queens County (N.Y.)</placekey><placekey>Richmond County (N.Y.)</placekey><placekey>New York County (N.Y.)</placekey><placekey>Bronx County (N.Y.)</placekey></place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2007</tempkey>
-				<tempkey>1998</tempkey></temporal>
-			<theme><themekey>Bus</themekey><themekey>Bus routes</themekey><themekey>MTA</themekey><themekt>None</themekt><themekey>Public transit</themekey></theme><place><placekt>None</placekt><placekey>NYC</placekey></place></keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>CommunityCartography</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>1200 MacArthur Blvd</address>
-					<city>Mahwah</city>
-					<state>NJ</state>
-					<postal>07430</postal>
-				</cntaddr>
-				<cntvoice>1-877-MakeMap</cntvoice>
-				<cntfax>201-529-5728</cntfax>
-				<cntemail>info@comcarto.com</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/busroute98.jpg</browsen>
-			<browsed>Thumbnail</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.1.1332</native>
-		<crossref>
-			<citeinfo>
-				<origin>Community Cartography</origin>
-				<title>New York City Bus Stops 1998</title><pubdate>2007</pubdate><onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/busstop98.zip</onlink></citeinfo>
-		</crossref>
-	</idinfo>
-	<dataqual>
-		<lineage>
-			<procstep>
-				<procdesc>The New York City Bus information was originally obtained from the New York City Transit Authority.</procdesc>
-				<procdate>1998</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>Data was realigned to the NYCMap basemap.</procdesc>
-				<procdate>2002</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>Ridership statistics were obtained as a digital table from NYC Transit and added as route attributes.</procdesc>
-				<procdate>1999-2006 (annual update)</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>String</sdtstype>
-				<ptvctcnt>778</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<planar>
-				<mapproj>
-					<mapprojn>Lambert Conformal Conic</mapprojn>
-					<lambertc>
-						<stdparll>40.666667</stdparll>
-						<stdparll>41.033333</stdparll>
-						<longcm>-74.000000</longcm>
-						<latprjo>40.166667</latprjo>
-						<feast>984250.000000</feast>
-						<fnorth>0.000000</fnorth>
-					</lambertc>
-				</mapproj>
-				<planci>
-					<plance>coordinate pair</plance>
-					<coordrep>
-					</coordrep>
-					<plandu>survey feet</plandu>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>North American Datum of 1983</horizdn>
-				<ellips>Geodetic Reference System 80</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257222</denflat>
-			</geodetic>
-		</horizsys>
-		<vertdef>
-			<altsys>
-				<altres>0.000010</altres>
-				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-			</altsys>
-		</vertdef>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>transportation</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>New York City (5128581)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>New York (N.Y.)</placekey>
+								<placekey>Brooklyn (New York, N.Y.)</placekey>
+								<placekey>Bronx (New York, N.Y.)</placekey>
+								<placekey>Queens (New York, N.Y.)</placekey>
+								<placekey>Manhattan (New York, N.Y.)</placekey>
+								<placekey>Staten Island (New York, N.Y.)</placekey>
+								<placekey>Kings County (N.Y.)</placekey>
+								<placekey>Queens County (N.Y.)</placekey>
+								<placekey>Richmond County (N.Y.)</placekey>
+								<placekey>New York County (N.Y.)</placekey>
+								<placekey>Bronx County (N.Y.)</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2007</tempkey>
+								<tempkey>1998</tempkey>
+							</temporal>
+							<theme>
+								<themekey>Bus</themekey>
+								<themekey>Bus routes</themekey>
+								<themekey>MTA</themekey>
+								<themekt>None</themekt>
+								<themekey>Public transit</themekey>
+							</theme>
+							<place>
+								<placekt>None</placekt>
+								<placekey>NYC</placekey>
+							</place>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>CommunityCartography</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>1200 MacArthur Blvd</address>
+									<city>Mahwah</city>
+									<state>NJ</state>
+									<postal>07430</postal>
+								</cntaddr>
+								<cntvoice>1-877-MakeMap</cntvoice>
+								<cntfax>201-529-5728</cntfax>
+								<cntemail>info@comcarto.com</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/busroute98.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.1.1332</native>
+						<crossref>
+							<citeinfo>
+								<origin>Community Cartography</origin>
+								<title>New York City Bus Stops 1998</title>
+								<pubdate>2007</pubdate>
+								<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/busstop98.zip</onlink>
+							</citeinfo>
+						</crossref>
+					</idinfo>
+					<dataqual>
+						<lineage>
+							<procstep>
+								<procdesc>The New York City Bus information was originally obtained from the New York City Transit Authority.</procdesc>
+								<procdate>1998</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>Data was realigned to the NYCMap basemap.</procdesc>
+								<procdate>2002</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>Ridership statistics were obtained as a digital table from NYC Transit and added as route attributes.</procdesc>
+								<procdate>1999-2006 (annual update)</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>String</sdtstype>
+								<ptvctcnt>778</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<planar>
+								<mapproj>
+									<mapprojn>Lambert Conformal Conic</mapprojn>
+									<lambertc>
+										<stdparll>40.666667</stdparll>
+										<stdparll>41.033333</stdparll>
+										<longcm>-74.000000</longcm>
+										<latprjo>40.166667</latprjo>
+										<feast>984250.000000</feast>
+										<fnorth>0.000000</fnorth>
+									</lambertc>
+								</mapproj>
+								<planci>
+									<plance>coordinate pair</plance>
+									<coordrep>
+									</coordrep>
+									<plandu>survey feet</plandu>
+								</planci>
+							</planar>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+						<vertdef>
+							<altsys>
+								<altres>0.000010</altres>
+								<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+							</altsys>
+						</vertdef>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 busroute98</enttypl>
-				<enttypd>Bus routes</enttypd></enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>ROUTE_ID</attrlabl>
-				<attrdef>route ID number</attrdef>
-				<attrdefs>NYCT</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>ROUTE_NAME</attrlabl>
-				<attrdef>bus route</attrdef>
-				<attrdefs>NYCT</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>TYPE</attrlabl>
-				<attrdef>type</attrdef>
-				<attrdefs>NYCT</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>local</codesetn>
-					</codesetd>
-				</attrdomv>
-				<attrdomv>
-					<codesetd>
-						<codesetn>limited</codesetn>
-					</codesetd>
-				</attrdomv>
-				<attrdomv>
-					<codesetd>
-						<codesetn>express</codesetn>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>LARGEROUTE</attrlabl>
-				<attrdef>route name</attrdef>
-				<attrdefs>NYCT</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>FINAL_HEAD</attrlabl>
-				<attrdef>headway, morning, am, peak hour</attrdef>
-				<attrdefs>NYCT</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>VEH_HOUR</attrlabl>
-				<attrdef>vehicles per hour</attrdef>
-				<attrdefs>NYCT</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>VEH_CAP</attrlabl>
-				<attrdef>vehicle capacity</attrdef>
-				<attrdefs>NYCT</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>FINAL_CAP</attrlabl>
-				<attrdef>vehicles per hour x vehicle capacity</attrdef>
-				<attrdefs>NYCT</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>AVWKDY98</attrlabl>
-				<attrdef>Average weekday ridership for 1998</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>AVSAT98</attrlabl>
-				<attrdef>average Saturday ridership for 1998</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>AVSUN98</attrlabl>
-				<attrdef>Average Saturday total ridership in 1998</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>TOTAL98</attrlabl>
-				<attrdef>Total ridership in 1998</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>AVWKDY99</attrlabl>
-				<attrdef>Average weekday ridership in 1999</attrdef></attr>
-			<attr>
-				<attrlabl>AVSAT99</attrlabl>
-				<attrdef>Average Saturday total ridership in 1999</attrdef></attr>
-			<attr>
-				<attrlabl>AVSUN99</attrlabl>
-				<attrdef>Average Sunday total ridership in 1999</attrdef></attr>
-			<attr>
-				<attrlabl>TOTAL99</attrlabl>
-				<attrdef>Total ridership in 1999</attrdef></attr>
-			<attr>
-				<attrlabl>AVWKDY00</attrlabl>
-				<attrdef>Average weekday ridership in 2000</attrdef></attr>
-			<attr>
-				<attrlabl>AVSAT00</attrlabl>
-				<attrdef>Average Saturday total ridership in 2000</attrdef></attr>
-			<attr>
-				<attrlabl>AVSUN00</attrlabl>
-				<attrdef>Average Sunday total ridership in 2000</attrdef></attr>
-			<attr>
-				<attrlabl>TOTAL00</attrlabl>
-				<attrdef>Total ridership in 2000</attrdef></attr>
-			<attr>
-				<attrlabl>AVWKDY01</attrlabl>
-				<attrdef>Average weekday ridership in 2001</attrdef></attr>
-			<attr>
-				<attrlabl>AVSAT01</attrlabl>
-				<attrdef>Average Saturday total ridership in 2001</attrdef></attr>
-			<attr>
-				<attrlabl>AVSUN01</attrlabl>
-				<attrdef>Average Sunday total ridership in 2001</attrdef></attr>
-			<attr>
-				<attrlabl>TOTAL01</attrlabl>
-				<attrdef>Total ridership in 2001</attrdef></attr>
-			<attr>
-				<attrlabl>AVWKDY02</attrlabl>
-				<attrdef>Average weekday ridership in 2002</attrdef></attr>
-			<attr>
-				<attrlabl>AVSAT02</attrlabl>
-				<attrdef>Average Saturday total ridership in 2002</attrdef></attr>
-			<attr>
-				<attrlabl>AVSUN02</attrlabl>
-				<attrdef>Average Sunday total ridership in 2002</attrdef></attr>
-			<attr>
-				<attrlabl>TOTAL02</attrlabl>
-				<attrdef>Total ridership in 2002</attrdef></attr>
-			<attr>
-				<attrlabl>AVWKDY03</attrlabl>
-				<attrdef>Average weekday ridership in 2003</attrdef></attr>
-			<attr>
-				<attrlabl>AVSAT03</attrlabl>
-				<attrdef>Average Saturday total ridership in 2003</attrdef></attr>
-			<attr>
-				<attrlabl>AVSUN03</attrlabl>
-				<attrdef>Average Sunday total ridership in 2003</attrdef></attr>
-			<attr>
-				<attrlabl>TOTAL03</attrlabl>
-				<attrdef>Total ridership in 2003</attrdef></attr>
-			<attr>
-				<attrlabl>AVWKDY04</attrlabl>
-				<attrdef>Average weekday ridership in 2004</attrdef></attr>
-			<attr>
-				<attrlabl>AVSAT04</attrlabl>
-				<attrdef>Average Saturday total ridership in 2004</attrdef></attr>
-			<attr>
-				<attrlabl>AVSUN04</attrlabl>
-				<attrdef>Average Sunday total ridership in 2004</attrdef></attr>
-			<attr>
-				<attrlabl>TOTAL04</attrlabl>
-				<attrdef>Total ridership in 2004</attrdef></attr>
-			<attr>
-				<attrlabl>AVWKDY05</attrlabl>
-				<attrdef>Average weekday ridership in 2005</attrdef></attr>
-			<attr>
-				<attrlabl>AVSAT05</attrlabl>
-				<attrdef>Average Saturday total ridership in 2005</attrdef></attr>
-			<attr>
-				<attrlabl>AVSUN05</attrlabl>
-				<attrdef>Average Sunday total ridership in 2005</attrdef></attr>
-			<attr>
-				<attrlabl>TOTAL05</attrlabl>
-				<attrdef>Total ridership in 2005</attrdef></attr>
-			<attr>
-				<attrlabl>ROUTELINK</attrlabl>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>CommunityCartography</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>1200 MacArthur Blvd</address>
-					<city>Mahwah</city>
-					<state>NJ</state>
-					<postal>07430</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>1-877-MakeMap</cntvoice>
-				<cntfax>201-529-5728</cntfax>
-				<cntemail>info@comcarto.com</cntemail>
-			</cntinfo>
-		</distrib>
-		<distliab>Maps and databases provided by CommunityCartography, Inc. use information provided by government agencies and other sources of geographic data, and are subject to change without notice. CommunityCartography cannot guarantee the data provided by these sources. In no event will CommunityCartography be liable for any incidental, indirect, consequential or other damages suffered by any users of this information or other persons.</distliab>
+									<enttypd>Bus routes</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>ROUTE_ID</attrlabl>
+									<attrdef>route ID number</attrdef>
+									<attrdefs>NYCT</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>ROUTE_NAME</attrlabl>
+									<attrdef>bus route</attrdef>
+									<attrdefs>NYCT</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>TYPE</attrlabl>
+									<attrdef>type</attrdef>
+									<attrdefs>NYCT</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>local</codesetn>
+										</codesetd>
+									</attrdomv>
+									<attrdomv>
+										<codesetd>
+											<codesetn>limited</codesetn>
+										</codesetd>
+									</attrdomv>
+									<attrdomv>
+										<codesetd>
+											<codesetn>express</codesetn>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LARGEROUTE</attrlabl>
+									<attrdef>route name</attrdef>
+									<attrdefs>NYCT</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>FINAL_HEAD</attrlabl>
+									<attrdef>headway, morning, am, peak hour</attrdef>
+									<attrdefs>NYCT</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>VEH_HOUR</attrlabl>
+									<attrdef>vehicles per hour</attrdef>
+									<attrdefs>NYCT</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>VEH_CAP</attrlabl>
+									<attrdef>vehicle capacity</attrdef>
+									<attrdefs>NYCT</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>FINAL_CAP</attrlabl>
+									<attrdef>vehicles per hour x vehicle capacity</attrdef>
+									<attrdefs>NYCT</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>AVWKDY98</attrlabl>
+									<attrdef>Average weekday ridership for 1998</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSAT98</attrlabl>
+									<attrdef>average Saturday ridership for 1998</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSUN98</attrlabl>
+									<attrdef>Average Saturday total ridership in 1998</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TOTAL98</attrlabl>
+									<attrdef>Total ridership in 1998</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVWKDY99</attrlabl>
+									<attrdef>Average weekday ridership in 1999</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSAT99</attrlabl>
+									<attrdef>Average Saturday total ridership in 1999</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSUN99</attrlabl>
+									<attrdef>Average Sunday total ridership in 1999</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TOTAL99</attrlabl>
+									<attrdef>Total ridership in 1999</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVWKDY00</attrlabl>
+									<attrdef>Average weekday ridership in 2000</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSAT00</attrlabl>
+									<attrdef>Average Saturday total ridership in 2000</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSUN00</attrlabl>
+									<attrdef>Average Sunday total ridership in 2000</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TOTAL00</attrlabl>
+									<attrdef>Total ridership in 2000</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVWKDY01</attrlabl>
+									<attrdef>Average weekday ridership in 2001</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSAT01</attrlabl>
+									<attrdef>Average Saturday total ridership in 2001</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSUN01</attrlabl>
+									<attrdef>Average Sunday total ridership in 2001</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TOTAL01</attrlabl>
+									<attrdef>Total ridership in 2001</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVWKDY02</attrlabl>
+									<attrdef>Average weekday ridership in 2002</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSAT02</attrlabl>
+									<attrdef>Average Saturday total ridership in 2002</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSUN02</attrlabl>
+									<attrdef>Average Sunday total ridership in 2002</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TOTAL02</attrlabl>
+									<attrdef>Total ridership in 2002</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVWKDY03</attrlabl>
+									<attrdef>Average weekday ridership in 2003</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSAT03</attrlabl>
+									<attrdef>Average Saturday total ridership in 2003</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSUN03</attrlabl>
+									<attrdef>Average Sunday total ridership in 2003</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TOTAL03</attrlabl>
+									<attrdef>Total ridership in 2003</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVWKDY04</attrlabl>
+									<attrdef>Average weekday ridership in 2004</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSAT04</attrlabl>
+									<attrdef>Average Saturday total ridership in 2004</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSUN04</attrlabl>
+									<attrdef>Average Sunday total ridership in 2004</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TOTAL04</attrlabl>
+									<attrdef>Total ridership in 2004</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVWKDY05</attrlabl>
+									<attrdef>Average weekday ridership in 2005</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSAT05</attrlabl>
+									<attrdef>Average Saturday total ridership in 2005</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AVSUN05</attrlabl>
+									<attrdef>Average Sunday total ridership in 2005</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TOTAL05</attrlabl>
+									<attrdef>Total ridership in 2005</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ROUTELINK</attrlabl>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>CommunityCartography</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>1200 MacArthur Blvd</address>
+										<city>Mahwah</city>
+										<state>NJ</state>
+										<postal>07430</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>1-877-MakeMap</cntvoice>
+									<cntfax>201-529-5728</cntfax>
+									<cntemail>info@comcarto.com</cntemail>
+								</cntinfo>
+							</distrib>
+							<distliab>Maps and databases provided by CommunityCartography, Inc. use information provided by government agencies and other sources of geographic data, and are subject to change without notice. CommunityCartography cannot guarantee the data provided by these sources. In no event will CommunityCartography be liable for any incidental, indirect, consequential or other damages suffered by any users of this information or other persons.</distliab>
 
-		<resdesc>halcrow_busroute_nyc_1998</resdesc></distinfo>
-	<metainfo>
-		<metd>20080109</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+							<resdesc>halcrow_busroute_nyc_1998</resdesc>
+						</distinfo>
+						<metainfo>
+							<metd>20080109</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

@@ -113,32 +113,79 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			</cntinfo>
 		</ptcontac>
 	</idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20100519</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Michael Bauer Research GmbH</origin>
+						<pubdate>201005</pubdate>
+						<pubinfo>
+							<publish>Michael Bauer Research GmbH; EuroGeographics</publish>
+							<pubplace>Nürnberg, Germany; Champs-sur-Marne, France</pubplace>
+						</pubinfo>
+						<onlink>http://www.mb-research.de/</onlink>
+						<title>[Custom package for ESRI Data &amp; Maps]</title>
+						<geoform>vector digital data and tabular digital data</geoform>
+						<origin>EuroGeographics</origin>
+						<othercit>Michael Bauer Research GmbH provided the attribute data and boundary data.
+
+EuroGeographics was the primary source for the boundary data.
+
+The custom package included:
+MBR - Economic and Sociodemographic Data for Europe and EuroBoundaryMap boundary data from EuroGeographics in the NUTS 0, NUTS 1, NUTS 2, and NUTS 3 shapefiles and table.</othercit>
+						<onlink>http://www.eurogeographics.org/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>201005</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>MBR and EuroGeographics</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+				<srcscale>100000 [EuroGeographics]</srcscale>
+			</srcinfo>
+			<procstep>
+				<srcused>MBR and EuroGeographics</srcused>
+				<procdesc>Michael Bauer Research GmbH established the data by reviewing relevant regional data and projecting the respective trends. For providing the most possible value to the user regarding comparability, all country results were projected by mathematical methods to the required geographical level, homogeneous base years, categories (e.g. age bands) and currency (Euro).
+ 
+Other remarks:
+ - For Azerbaijan the number of households, dwellings and purchasing power growth rate are not surveyed.
+ - For Vatican City only total population and population density are surveyed.
+ - For Andorra, Liechtenstein, Georgia and San Marino the number of dwellings and purchasing power growth rate are not surveyed.
+ - For Gibraltar the number of dwellings, purchasing power growth rate and gross domestic product are not surveyed.
+ - For Monaco and Kosovo the purchasing power growth rate is not surveyed.
+ - In Russia only the European part of the country is surveyed (in accordance with the maps).
+ 
+Michael Bauer Research GmbH provided ESRI with:
+MBR - Economic and Sociodemographic Data for Europe and EuroBoundaryMap boundary data from EuroGeographics in the NUTS 0, NUTS 1, NUTS 2, and NUTS 3 shapefiles and table.</procdesc>
+				<procdate>2010</procdate>
+			</procstep>
+			<procstep>
+				<procdate>20100519</procdate>
+				<procdesc>The following steps were performed by ESRI: Started with the data in the custom package from Michael Bauer Research GmbH and EuroGeographics. The data included the four NUTS shapefiles and an Excel file that contained data for each of the four NUTS shapefiles. Converted the Excel file data into four geodatabase (.gdb) tables using Feature Manipulation Engine (FME). Joined each .gdb table to its corresponding NUTS shapefile. For data sets NUTS 1, NUTS 2, and NUTS 3, added and coded the NUTS0 field. Renamed some fields. Added the SQKM field to each of the four data sets and calculated its values. Converted the data sets to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices for each data set.</procdesc>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The positional accuracy is unknown.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype></sdtsterm></ptvctinf>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
 	</spdoinfo>
 	<spref>
 		<horizsys>
@@ -549,70 +596,27 @@ Outside the United States, please direct all inquiries to your local ESRI Office
 			</cntinfo>
 		</distrib>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Michael Bauer Research GmbH</origin>
-						<pubdate>201005</pubdate>
-						<pubinfo>
-							<publish>Michael Bauer Research GmbH; EuroGeographics</publish>
-							<pubplace>Nürnberg, Germany; Champs-sur-Marne, France</pubplace>
-						</pubinfo>
-						<onlink>http://www.mb-research.de/</onlink>
-						<title>[Custom package for ESRI Data &amp; Maps]</title>
-						<geoform>vector digital data and tabular digital data</geoform>
-						<origin>EuroGeographics</origin>
-						<othercit>Michael Bauer Research GmbH provided the attribute data and boundary data.
-
-EuroGeographics was the primary source for the boundary data.
-
-The custom package included:
-MBR - Economic and Sociodemographic Data for Europe and EuroBoundaryMap boundary data from EuroGeographics in the NUTS 0, NUTS 1, NUTS 2, and NUTS 3 shapefiles and table.</othercit>
-						<onlink>http://www.eurogeographics.org/</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>201005</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>MBR and EuroGeographics</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-				<srcscale>100000 [EuroGeographics]</srcscale>
-			</srcinfo>
-			<procstep>
-				<srcused>MBR and EuroGeographics</srcused>
-				<procdesc>Michael Bauer Research GmbH established the data by reviewing relevant regional data and projecting the respective trends. For providing the most possible value to the user regarding comparability, all country results were projected by mathematical methods to the required geographical level, homogeneous base years, categories (e.g. age bands) and currency (Euro).
- 
-Other remarks:
- - For Azerbaijan the number of households, dwellings and purchasing power growth rate are not surveyed.
- - For Vatican City only total population and population density are surveyed.
- - For Andorra, Liechtenstein, Georgia and San Marino the number of dwellings and purchasing power growth rate are not surveyed.
- - For Gibraltar the number of dwellings, purchasing power growth rate and gross domestic product are not surveyed.
- - For Monaco and Kosovo the purchasing power growth rate is not surveyed.
- - In Russia only the European part of the country is surveyed (in accordance with the maps).
- 
-Michael Bauer Research GmbH provided ESRI with:
-MBR - Economic and Sociodemographic Data for Europe and EuroBoundaryMap boundary data from EuroGeographics in the NUTS 0, NUTS 1, NUTS 2, and NUTS 3 shapefiles and table.</procdesc>
-				<procdate>2010</procdate>
-			</procstep>
-			<procstep>
-				<procdate>20100519</procdate>
-				<procdesc>The following steps were performed by ESRI: Started with the data in the custom package from Michael Bauer Research GmbH and EuroGeographics. The data included the four NUTS shapefiles and an Excel file that contained data for each of the four NUTS shapefiles. Converted the Excel file data into four geodatabase (.gdb) tables using Feature Manipulation Engine (FME). Joined each .gdb table to its corresponding NUTS shapefile. For data sets NUTS 1, NUTS 2, and NUTS 3, added and coded the NUTS0 field. Renamed some fields. Added the SQKM field to each of the four data sets and calculated its values. Converted the data sets to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices for each data set.</procdesc>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The positional accuracy is unknown.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20100519</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

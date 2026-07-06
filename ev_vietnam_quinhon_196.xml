@@ -80,21 +80,6 @@
 			</cntinfo>
 		</ptcontac>
 	</idinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.000000</latres>
-				<longres>0.000000</longres>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
 	<dataqual>
 		<lineage>
 			<srcinfo>
@@ -134,6 +119,40 @@
 			<vrtcount>1</vrtcount>
 		</rastinfo>
 	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>0.000000</latres>
+				<longres>0.000000</longres>
+				<geogunit>Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>D_WGS_1984</horizdn>
+				<ellips>WGS_1984</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>TIFF</formname>
+					<formspec>zip</formspec>
+					<transize>104</transize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+		<resdesc>ev_vietnam_quinhon_196</resdesc>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>East View Cartographic</cntorg>
+				</cntperp>
+			</cntinfo>
+		</distrib>
+	</distinfo>
 	<metainfo>
 		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
 		<metd>20110504</metd>
@@ -157,23 +176,4 @@
 			</cntinfo>
 		</metc>
 	</metainfo>
-	<distinfo>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>TIFF</formname>
-					<formspec>zip</formspec>
-					<transize>104</transize>
-				</digtinfo>
-			</digform>
-		</stdorder>
-		<resdesc>ev_vietnam_quinhon_196</resdesc>
-		<distrib>
-			<cntinfo>
-				<cntperp>
-					<cntorg>East View Cartographic</cntorg>
-				</cntperp>
-			</cntinfo>
-		</distrib>
-	</distinfo>
 </metadata>

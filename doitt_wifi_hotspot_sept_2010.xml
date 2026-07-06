@@ -3,13 +3,17 @@
 	<idinfo>
 		<citation>
 			<citeinfo>
-			<onlink>https://www.columbia.edu/acis/eds/gis/images/doitt_wifi_hotspot_sept_2010.zip</onlink>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/doitt_wifi_hotspot_sept_2010.zip</onlink>
 				<origin>New York (N.Y.). Department of Information Technology and Telecommunications.</origin>
 				<pubdate>2009</pubdate>
 				<title>New York City WiFi Hotspots, 2010</title>
 				<geoform>vector digital data</geoform>
 				<ftname>DOITT_WIFI_HOTSPOT_01_13SEPT2010</ftname>
-				<pubinfo><pubplace>City of New York</pubplace><publish>New York (N.Y.). Department of Information Technology and Telecommunications.</publish></pubinfo></citeinfo>
+				<pubinfo>
+					<pubplace>City of New York</pubplace>
+					<publish>New York (N.Y.). Department of Information Technology and Telecommunications.</publish>
+				</pubinfo>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>New York City WiFi Hotspots, 2010 is a point representing approximate location of Wi-Fi hotspots as of 2010.  This data set was created by NYC Department of Information Technology and Telecommunications and was downloaded from the NYC Open Data website.</abstract>
@@ -46,12 +50,22 @@
 			<theme>
 				<themekt>None</themekt>
 				<themekey>Wi-Fi hotspots</themekey>
-				<themekey>WiFi</themekey><themekey>WLAN</themekey><themekey>Wireless</themekey><themekey>wireless local area network</themekey><themekey>Internet</themekey></theme>
+				<themekey>WiFi</themekey>
+				<themekey>WLAN</themekey>
+				<themekey>Wireless</themekey>
+				<themekey>wireless local area network</themekey>
+				<themekey>Internet</themekey>
+			</theme>
 			<place>
 				<placekt>GeoNames</placekt>
 				<placekey>New York City (5128581)</placekey>
 			</place>
-			<temporal><tempkey>2009</tempkey><tempkt>None</tempkt><tempkey>2010</tempkey></temporal><place>
+			<temporal>
+				<tempkey>2009</tempkey>
+				<tempkt>None</tempkt>
+				<tempkey>2010</tempkey>
+			</temporal>
+			<place>
 				<placekt>Library of Congress Subject Headings</placekt>
 				<placekey>New York (N.Y.)</placekey>
 				<placekey>Brooklyn (New York, N.Y.)</placekey>
@@ -63,7 +77,12 @@
 			<place>
 				<placekt>None</placekt>
 				<placekey>NYC</placekey>
-			</place><theme><themekt>ISO 19115 Topic Category</themekt><themekey>utilitiesCommunication</themekey></theme></keywords>
+			</place>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>utilitiesCommunication</themekey>
+			</theme>
+		</keywords>
 		<accconst>None</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -89,7 +108,13 @@
 	</idinfo>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>Point</sdtstype><ptvctcnt>1250</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>1250</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
 	<spref>
 		<horizsys>
 			<planar>
@@ -126,7 +151,8 @@
 				<enttypl>DOITT_WIFI_HOTSPOT_01_13SEPT2010</enttypl>
 				<enttypt>Feature Class</enttypt>
 				<enttypc>1250</enttypc>
-				<enttypd>WiFi Hopspots</enttypd></enttyp>
+				<enttypd>WiFi Hopspots</enttypd>
+			</enttyp>
 			<attr>
 				<attrlabl>FID</attrlabl>
 				<attalias>FID</attalias>
@@ -147,7 +173,8 @@
 				<attwidth>19</attwidth>
 				<atprecis>18</atprecis>
 				<attscale>8</attscale>
-				<attrdef>ID</attrdef></attr>
+				<attrdef>ID</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>NAME</attrlabl>
 				<attalias>NAME</attalias>
@@ -155,7 +182,8 @@
 				<attwidth>254</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Name</attrdef></attr>
+				<attrdef>Name</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>ADDRESS</attrlabl>
 				<attalias>ADDRESS</attalias>
@@ -163,7 +191,8 @@
 				<attwidth>254</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Address</attrdef></attr>
+				<attrdef>Address</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>CITY</attrlabl>
 				<attalias>CITY</attalias>
@@ -171,7 +200,8 @@
 				<attwidth>254</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>City</attrdef></attr>
+				<attrdef>City</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>URL</attrlabl>
 				<attalias>URL</attalias>
@@ -179,7 +209,8 @@
 				<attwidth>254</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Uniform Resource Locator</attrdef></attr>
+				<attrdef>Uniform Resource Locator</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>PHONE</attrlabl>
 				<attalias>PHONE</attalias>
@@ -187,7 +218,8 @@
 				<attwidth>254</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Phone Number</attrdef></attr>
+				<attrdef>Phone Number</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>TYPE</attrlabl>
 				<attalias>TYPE</attalias>
@@ -195,7 +227,8 @@
 				<attwidth>254</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Type</attrdef></attr>
+				<attrdef>Type</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>ZIP</attrlabl>
 				<attalias>ZIP</attalias>
@@ -203,7 +236,8 @@
 				<attwidth>254</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>Zip code</attrdef></attr>
+				<attrdef>Zip code</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>SHAPE</attrlabl>
 				<attrdef>Feature geometry.</attrdef>
@@ -220,22 +254,22 @@
 		</detailed>
 	</eainfo>
 	<distinfo>
-	<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>Department of Information Technology and Telecommunications</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>2 Metrotech Center, 4th Floor</address>
-<city>Brooklyn</city>
-<state>NY</state>
-<postal>11201</postal>
-<country>USA</country>
-</cntaddr>
-<cntemail>spatialdatarequest@doitt.nyc.gov</cntemail>
-</cntinfo>
-</distrib>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Department of Information Technology and Telecommunications</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>2 Metrotech Center, 4th Floor</address>
+					<city>Brooklyn</city>
+					<state>NY</state>
+					<postal>11201</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntemail>spatialdatarequest@doitt.nyc.gov</cntemail>
+			</cntinfo>
+		</distrib>
 		<resdesc>doitt_wifi_hotspot_sept_2010</resdesc>
 		<stdorder>
 			<digform>
@@ -272,4 +306,4 @@
 			<metsc>Unclassified</metsc>
 		</metsi>
 	</metainfo>
-	<distInfo><distFormat><formatName>geopackage</formatName></distFormat><distTranOps><transSize>0.033</transSize></distTranOps></distInfo></metadata>
+</metadata>

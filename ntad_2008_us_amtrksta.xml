@@ -1,393 +1,394 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>United States. Federal Railroad Administration</origin>
-<pubdate>January 2008</pubdate>
-<title>United States Amtrak Stations, 2008</title>
-<geoform>vector digital data</geoform>
-<pubinfo>
-	<pubplace>Washington, DC</pubplace>
-	<publish>United States. Bureau of Transportation Statistics</publish>
-</pubinfo>
-<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2008_us_amtrksta.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
-<abstract>Amtrak Stations database is a point theme representing Amtrak intercity railroad passenger terminals in the United States and Canada. Attribute data include services and passenger amenities provided at the station.</abstract>
-<purpose>The data set provides location and attribute information for use in national and regional cartographic and network analysis applications.</purpose>
-</descript>
-<timeperd>
-<timeinfo>
-<sngdate>
-<caldate>2008</caldate>
-</sngdate>
-</timeinfo>
-<current>publication date</current>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>As needed</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>United States. Federal Railroad Administration</origin>
+				<pubdate>January 2008</pubdate>
+				<title>United States Amtrak Stations, 2008</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Washington, DC</pubplace>
+					<publish>United States. Bureau of Transportation Statistics</publish>
+				</pubinfo>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2008_us_amtrksta.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Amtrak Stations database is a point theme representing Amtrak intercity railroad passenger terminals in the United States and Canada. Attribute data include services and passenger amenities provided at the station.</abstract>
+			<purpose>The data set provides location and attribute information for use in national and regional cartographic and network analysis applications.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2008</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -124.211990</westbc>
-<eastbc>
+					<eastbc>
 -68.670621</eastbc>
-<northbc>
+						<northbc>
 48.720486</northbc>
-<southbc>
+							<southbc>
 25.849848</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>transportation</themekey>
-</theme>
-<theme>
-<themekt>None</themekt>
-<themekey>Train stations</themekey>
-<themekey>Amtrak</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>United States (6252001)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>United States</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2008</tempkey>
-</temporal>
-</keywords>
-<accconst>None</accconst>
-<useconst>None</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>Federal Railroad Administration (FRA)</cntorg>
-</cntorgp>
-<cntpos>GIS - Office of Policy</cntpos>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>1200 New Jersey Avenue, SE</address>
-<address>MS 15</address>
-<city>Washington</city>
-<state>DC</state>
-<postal>20590</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>202.493.6415</cntvoice>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/amtk_sta.bmp</browsen>
-<browsed>Thumbnail</browsed>
-<browset>bmp</browset>
-</browse>
-<secinfo>
-<secclass>Unclassified</secclass>
-</secinfo>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.5.1450</native>
-</idinfo>
-<dataqual>
-<logic>All point records are represented by a single coordinate pair and a unique feature identifier; the Amtrak Station Code (stored in the STNCODE field). Attribute data can be matched to specific point records using this identifier.</logic>
-<complete>The database includes all Amtrak railroad and thruway bus stations listed in the Amtrak timetables mentioned above.</complete>
-<lineage>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Amtrak</origin>
-<pubdate>2000</pubdate>
-<title>Amtrak Spring/Summer National and Summer/Fall Northeast Timetables</title>
-<geoform>document</geoform>
-<pubinfo>
-<pubplace>Washington, DC</pubplace>
-<publish>Amtrak</publish>
-</pubinfo>
-</citeinfo>
-</srccite>
-<typesrc>paper</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>2000</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>Amtrak Timetables</srccitea>
-<srccontr>Passenger station addresses and characteristic attributes</srccontr>
-</srcinfo>
-<procstep>
-<procdesc>Each Amtrak railroad or thruway bus station identified in the Amtrak Timetables was initially geocoded based on its street address and ZIP Code, using the geocoding procedures in ESRI software and the TIGER/Line(TM) 1995 street centerline databases. Stations with ambiguous street addresses were then located using a combination of geographic cues, including location of nearest railroad tracks, location of Standard Point Location Code (SPLC) place names, location of Census Named Places, and commercial road atlases. Stations with no street address and stations located in Canada were manually located based on place name and location of nearest railroad service.</procdesc>
-<proccont>
-<cntinfo>
-<cntorgp>
-<cntorg>Federal Railroad Administration (FRA)</cntorg>
-<cntper>Raquel Wright</cntper>
-</cntorgp>
-<cntvoice>202-493-6415</cntvoice>
-<cntfax>202-493-6401</cntfax>
-</cntinfo>
-</proccont>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>Entity point</sdtstype>
-<ptvctcnt>843</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<geograph>
-<latres>0.000000</latres>
-<longres>0.000000</longres>
-<geogunit>Decimal degrees</geogunit>
-</geograph>
-<geodetic>
-<horizdn>D_WGS_1984</horizdn>
-<ellips>WGS_1984</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257224</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>transportation</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Train stations</themekey>
+								<themekey>Amtrak</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>United States (6252001)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>United States</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2008</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>None</accconst>
+						<useconst>None</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Federal Railroad Administration (FRA)</cntorg>
+								</cntorgp>
+								<cntpos>GIS - Office of Policy</cntpos>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>1200 New Jersey Avenue, SE</address>
+									<address>MS 15</address>
+									<city>Washington</city>
+									<state>DC</state>
+									<postal>20590</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>202.493.6415</cntvoice>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/amtk_sta.bmp</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>bmp</browset>
+						</browse>
+						<secinfo>
+							<secclass>Unclassified</secclass>
+						</secinfo>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.5.1450</native>
+					</idinfo>
+					<dataqual>
+						<logic>All point records are represented by a single coordinate pair and a unique feature identifier; the Amtrak Station Code (stored in the STNCODE field). Attribute data can be matched to specific point records using this identifier.</logic>
+						<complete>The database includes all Amtrak railroad and thruway bus stations listed in the Amtrak timetables mentioned above.</complete>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Amtrak</origin>
+										<pubdate>2000</pubdate>
+										<title>Amtrak Spring/Summer National and Summer/Fall Northeast Timetables</title>
+										<geoform>document</geoform>
+										<pubinfo>
+											<pubplace>Washington, DC</pubplace>
+											<publish>Amtrak</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<typesrc>paper</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>2000</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>Amtrak Timetables</srccitea>
+								<srccontr>Passenger station addresses and characteristic attributes</srccontr>
+							</srcinfo>
+							<procstep>
+								<procdesc>Each Amtrak railroad or thruway bus station identified in the Amtrak Timetables was initially geocoded based on its street address and ZIP Code, using the geocoding procedures in ESRI software and the TIGER/Line(TM) 1995 street centerline databases. Stations with ambiguous street addresses were then located using a combination of geographic cues, including location of nearest railroad tracks, location of Standard Point Location Code (SPLC) place names, location of Census Named Places, and commercial road atlases. Stations with no street address and stations located in Canada were manually located based on place name and location of nearest railroad service.</procdesc>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>Federal Railroad Administration (FRA)</cntorg>
+											<cntper>Raquel Wright</cntper>
+										</cntorgp>
+										<cntvoice>202-493-6415</cntvoice>
+										<cntfax>202-493-6401</cntfax>
+									</cntinfo>
+								</proccont>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>Entity point</sdtstype>
+								<ptvctcnt>843</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000000</latres>
+								<longres>0.000000</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 amtrk_sta</enttypl>
-<enttypd>Train Stations</enttypd>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STNCODE</attrlabl>
-<attrdef>Unique Station Code</attrdef>
-<attrdefs>Amtrak</attrdefs>
-<attrdomv>
-<udom>Character Value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STNNAME</attrlabl>
-<attrdef>City and State of the station</attrdef>
-<attrdefs>FRA</attrdefs>
-<attrdomv>
-<udom>Character Value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ADDRESS1</attrlabl>
-<attrdef>Street address of the station</attrdef>
-<attrdefs>Amtrak</attrdefs>
-<attrdomv>
-<udom>Character Value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ADDRESS2</attrlabl>
-<attrdef>Street address of the station, if app.</attrdef>
-<attrdefs>Amtrak</attrdefs>
-<attrdomv>
-<udom>Character Value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>CITY</attrlabl>
-<attrdef>Name of city where station is located</attrdef>
-<attrdefs>Amtrak</attrdefs>
-<attrdomv>
-<udom>Character Value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STATE</attrlabl>
-<attrdef>State railroad abbreviation which follows the Postal abbreviation</attrdef>
-<attrdefs>Amtrak</attrdefs>
-<attrdomv>
-<udom>Character Value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ZIP</attrlabl>
-<attrdef>Postal ZIP Code for station</attrdef>
-<attrdefs>Amtrak</attrdefs>
-<attrdomv>
-<udom>Character Value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STNTYPE</attrlabl>
-<attrdef>Type of Station</attrdef>
-<attrdefs>FRA</attrdefs>
-<attrdomv>
-<edom>
-<edomv>BUS</edomv>
-<edomvd>Station is a Bus location</edomvd>
-<edomvds>FRA</edomvds>
-</edom>
-<edom>
-<edomv>RAIL</edomv>
-<edomvd>Station is a rail location</edomvd>
-<edomvds>FRA</edomvds>
-</edom>
-<edom>
-<edomv>OTHER</edomv>
-<edomvd>Station serves other modes</edomvd>
-<edomvds>FRA</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LAT</attrlabl>
-<attrdef>The latitude of the point expressed as a signed real number. This value is in decimal degrees with negative values indicating South latitude and positive values indicating North latitude.</attrdef>
-<attrdefs>FRA</attrdefs>
-<attrdomv>
-<rdom>
-<rdommin>-90</rdommin>
-<rdommax>90</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LON</attrlabl>
-<attrdef>The longitude of the point expressed as a signed real number. This value is in decimal degrees with negative values indicating West longitude and positive values indicating East longitude.</attrdef>
-<attrdefs>FRA</attrdefs>
-<attrdomv>
-<rdom>
-<rdommin>-180</rdommin>
-<rdommax>180</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STFIPS</attrlabl>
-<attrdef>State FIPS</attrdef>
-<attrdefs>BTS</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Federal Information Processing Standard (FIPS), Publication 6-4.</codesetn>
-<codesets>National Institute for Standards and Technology (NIST).</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>VERSION</attrlabl>
-<attrdef>The VERSION is a 2-digit number that will be incremented for all records in the database whenever a new release is distributed.</attrdef>
-<attrdefs>RITA/BTS</attrdefs>
-<attrdomv>
-<rdom>
-<rdommin>00</rdommin>
-<rdommax>99</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-</detailed>
-<overview>
-</overview>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntperp>
-<cntper>Geospatial Information Program</cntper>
-<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>1200 New Jersey Ave., SE</address>
-<city>Washington</city>
-<state>DC</state>
-<postal>20590</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>202-366-DATA</cntvoice>
-<cntemail>answers@bts.gov</cntemail>
-</cntinfo>
-</distrib>
-<resdesc>ntad_2008_us_amtrksta</resdesc>
-<distliab>None</distliab>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>ESRI Software</formname>
-<formvern>2008</formvern>
-<formspec>zip</formspec>
-<filedec>no compression applied</filedec>
-<transize>0.023</transize>
-</digtinfo>
-<digtopt>
-<onlinopt>
-<accinstr>NTAD is available for download at www.bts.gov/programs/geographic_information_services.  The NTAD DVD can also be ordered from the online bookstore at www.bts.gov.</accinstr>
-</onlinopt>
-<offoptn>
-<offmedia>DVD</offmedia>
-<reccap>
-<recden>650</recden>
-<recdenu>megabytes</recdenu>
-</reccap>
-<recfmt>ISO 9660</recfmt>
-</offoptn>
-</digtopt>
-</digform>
-<ordering>Call 202-366-DATA, or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2008 DVD.  This and other RITA/BTS products may be ordered from the RITA/BTS Internet website http://www.bts.gov/programs/geographic_information_services/.</ordering>
-</stdorder>
-<techpreq>Software that can process GIS files.</techpreq>
-<availabl>
-<timeinfo>
-<sngdate>
-<caldate>2008</caldate>
-</sngdate>
-</timeinfo>
-</availabl>
-</distinfo>
-<metainfo>
-<metd>20090601</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212)854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+									<enttypd>Train Stations</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STNCODE</attrlabl>
+									<attrdef>Unique Station Code</attrdef>
+									<attrdefs>Amtrak</attrdefs>
+									<attrdomv>
+										<udom>Character Value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STNNAME</attrlabl>
+									<attrdef>City and State of the station</attrdef>
+									<attrdefs>FRA</attrdefs>
+									<attrdomv>
+										<udom>Character Value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>ADDRESS1</attrlabl>
+									<attrdef>Street address of the station</attrdef>
+									<attrdefs>Amtrak</attrdefs>
+									<attrdomv>
+										<udom>Character Value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>ADDRESS2</attrlabl>
+									<attrdef>Street address of the station, if app.</attrdef>
+									<attrdefs>Amtrak</attrdefs>
+									<attrdomv>
+										<udom>Character Value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CITY</attrlabl>
+									<attrdef>Name of city where station is located</attrdef>
+									<attrdefs>Amtrak</attrdefs>
+									<attrdomv>
+										<udom>Character Value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STATE</attrlabl>
+									<attrdef>State railroad abbreviation which follows the Postal abbreviation</attrdef>
+									<attrdefs>Amtrak</attrdefs>
+									<attrdomv>
+										<udom>Character Value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>ZIP</attrlabl>
+									<attrdef>Postal ZIP Code for station</attrdef>
+									<attrdefs>Amtrak</attrdefs>
+									<attrdomv>
+										<udom>Character Value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STNTYPE</attrlabl>
+									<attrdef>Type of Station</attrdef>
+									<attrdefs>FRA</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>BUS</edomv>
+											<edomvd>Station is a Bus location</edomvd>
+											<edomvds>FRA</edomvds>
+										</edom>
+										<edom>
+											<edomv>RAIL</edomv>
+											<edomvd>Station is a rail location</edomvd>
+											<edomvds>FRA</edomvds>
+										</edom>
+										<edom>
+											<edomv>OTHER</edomv>
+											<edomvd>Station serves other modes</edomvd>
+											<edomvds>FRA</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LAT</attrlabl>
+									<attrdef>The latitude of the point expressed as a signed real number. This value is in decimal degrees with negative values indicating South latitude and positive values indicating North latitude.</attrdef>
+									<attrdefs>FRA</attrdefs>
+									<attrdomv>
+										<rdom>
+											<rdommin>-90</rdommin>
+											<rdommax>90</rdommax>
+										</rdom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LON</attrlabl>
+									<attrdef>The longitude of the point expressed as a signed real number. This value is in decimal degrees with negative values indicating West longitude and positive values indicating East longitude.</attrdef>
+									<attrdefs>FRA</attrdefs>
+									<attrdomv>
+										<rdom>
+											<rdommin>-180</rdommin>
+											<rdommax>180</rdommax>
+										</rdom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STFIPS</attrlabl>
+									<attrdef>State FIPS</attrdef>
+									<attrdefs>BTS</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standard (FIPS), Publication 6-4.</codesetn>
+											<codesets>National Institute for Standards and Technology (NIST).</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>VERSION</attrlabl>
+									<attrdef>The VERSION is a 2-digit number that will be incremented for all records in the database whenever a new release is distributed.</attrdef>
+									<attrdefs>RITA/BTS</attrdefs>
+									<attrdomv>
+										<rdom>
+											<rdommin>00</rdommin>
+											<rdommax>99</rdommax>
+										</rdom>
+									</attrdomv>
+								</attr>
+							</detailed>
+							<overview>
+							</overview>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntperp>
+										<cntper>Geospatial Information Program</cntper>
+										<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
+									</cntperp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>1200 New Jersey Ave., SE</address>
+										<city>Washington</city>
+										<state>DC</state>
+										<postal>20590</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>202-366-DATA</cntvoice>
+									<cntemail>answers@bts.gov</cntemail>
+								</cntinfo>
+							</distrib>
+							<resdesc>ntad_2008_us_amtrksta</resdesc>
+							<distliab>None</distliab>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>ESRI Software</formname>
+										<formvern>2008</formvern>
+										<formspec>zip</formspec>
+										<filedec>no compression applied</filedec>
+										<transize>0.023</transize>
+									</digtinfo>
+									<digtopt>
+										<onlinopt>
+											<accinstr>NTAD is available for download at www.bts.gov/programs/geographic_information_services.  The NTAD DVD can also be ordered from the online bookstore at www.bts.gov.</accinstr>
+										</onlinopt>
+										<offoptn>
+											<offmedia>DVD</offmedia>
+											<reccap>
+												<recden>650</recden>
+												<recdenu>megabytes</recdenu>
+											</reccap>
+											<recfmt>ISO 9660</recfmt>
+										</offoptn>
+									</digtopt>
+								</digform>
+								<ordering>Call 202-366-DATA, or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2008 DVD.  This and other RITA/BTS products may be ordered from the RITA/BTS Internet website http://www.bts.gov/programs/geographic_information_services/.</ordering>
+							</stdorder>
+							<techpreq>Software that can process GIS files.</techpreq>
+							<availabl>
+								<timeinfo>
+									<sngdate>
+										<caldate>2008</caldate>
+									</sngdate>
+								</timeinfo>
+							</availabl>
+						</distinfo>
+						<metainfo>
+							<metd>20090601</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

@@ -25,7 +25,8 @@
 					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
 				</pubinfo>
 				<origin>United States. Bureau of the Census</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_placeply.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_placeply.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>ground condition: 2010; publication date: 2011, 201112, 201003, 20111027</current>
@@ -40,7 +41,13 @@
 					<sngdate>
 						<caldate>201112</caldate>
 					</sngdate>
-					<sngdate><caldate>201003</caldate></sngdate><sngdate><caldate>20111027</caldate></sngdate></mdattim>
+					<sngdate>
+						<caldate>201003</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>20111027</caldate>
+					</sngdate>
+				</mdattim>
 			</timeinfo>
 		</timeperd>
 		<status>
@@ -91,7 +98,12 @@
 				<tempkey>2011</tempkey>
 				<tempkt>None</tempkt>
 			</temporal>
-			<theme><themekey>society</themekey><themekt>ISO 19115 Topic Category</themekt><themekey>boundaries</themekey></theme></keywords>
+			<theme>
+				<themekey>society</themekey>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>boundaries</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -123,394 +135,12 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_urban.jpg</browsen><browsed>Thumbnail</browsed><browset>jpg</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<esriterm Name="placeply">
-				<efeatyp>Simple</efeatyp>
-				<efeageom>Polygon</efeageom>
-				<esritopo>FALSE</esritopo>
-				<efeacnt>29260</efeacnt>
-				<spindex>TRUE</spindex>
-				<linrefer>FALSE</linrefer>
-				<featdesc>U.S. Populated Place Area</featdesc>
-			</esriterm>
-			<sdtsterm Name="placeply">
-				<sdtstype>G-polygon</sdtstype>
-				<ptvctcnt>29260</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<cordsysn>
-				<geogcsn>GCS_WGS_1984</geogcsn>
-			</cordsysn>
-			<geograph>
-				<geogunit>Decimal degrees</geogunit>
-				<latres>0.000000</latres>
-				<longres>0.000000</longres>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed Name="placeply">
-			<enttyp>
-				<enttypl>placeply</enttypl>
-				<enttypt>Feature Class</enttypt>
-				<enttypc>29260</enttypc>
-				<enttypd>The polygons represent concentrations of population within the United States that include both incorporated places and census designated places identified by the U.S. Census Bureau.</enttypd>
-				<enttypds>Department of Commerce, Census Bureau</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>ObjectID</attrlabl>
-				<attalias>ObjectID</attalias>
-				<attrtype>OID</attrtype>
-				<attwidth>4</attwidth>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attalias>Shape</attalias>
-				<attrtype>Geometry</attrtype>
-				<attwidth>0</attwidth>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME</attrlabl>
-				<attalias>NAME</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>57</attwidth>
-				<attrdef>The populated place name.</attrdef>
-				<attrdefs>Department of Commerce, Census Bureau</attrdefs>
-				<attrdomv>
-					<udom>Names for the features.</udom>
-				</attrdomv>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>CLASS</attrlabl>
-				<attalias>CLASS</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>36</attwidth>
-				<attrdef>The class of the populated place.</attrdef>
-				<attrdefs>Department of Commerce, Census Bureau</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>borough</edomv>
-						<edomvd>In Connecticut, New Jersey, and Pennsylvania, an incorporated place.</edomvd>
-						<edomvds>Department of Commerce, Census Bureau</edomvds>
-					</edom>
-					<edom>
-						<edomvds>Department of Commerce, Census Bureau</edomvds>
-						<edomv>CDP</edomv>
-						<edomvd>Census designated place - A statistical area defined for a named concentration of population and the statistical counterpart of an incorporated place.</edomvd>
-					</edom>
-					<edom>
-						<edomvds>Department of Commerce, Census Bureau</edomvds>
-						<edomv>city</edomv>
-						<edomvd>An incorporated place in all states (not Hawaii) and the District of Columbia.</edomvd>
-					</edom>
-					<edom>
-						<edomvds>Department of Commerce, Census Bureau</edomvds>
-						<edomv>city (consolidated, balance)</edomv>
-						<edomvd>The portion of a consolidated city (a unit of local government for which the functions of an incorporated place and its county or minor civil division (MCD) have merged) not included in another separately incorporated place.</edomvd>
-					</edom>
-					<edom>
-						<edomv>city and borough</edomv>
-						<edomvd>A type of incorporated place in Alaska.</edomvd>
-						<edomvds>Department of Commerce, Census Bureau</edomvds>
-					</edom>
-					<edom>
-						<edomv>city and county</edomv>
-						<edomvd>A consolidated city-county.</edomvd>
-						<edomvds>TomTom North America, Inc.</edomvds>
-					</edom>
-					<edom>
-						<edomv>municipality</edomv>
-						<edomvd>A type of incorporated place in Pennsylvania and Alaska.</edomvd>
-						<edomvds>Department of Commerce, Census Bureau</edomvds>
-					</edom>
-					<edom>
-						<edomvds>Department of Commerce, Census Bureau</edomvds>
-						<edomv>town</edomv>
-						<edomvd>An incorporated place in 30 States. In some states, the Census Bureau treats these towns as the equivalent of a minor civil division.</edomvd>
-					</edom>
-					<edom>
-						<edomvds>Department of Commerce, Census Bureau</edomvds>
-						<edomv>village</edomv>
-						<edomvd>An incorporated place in 19 States. The Census Bureau treats villages in some states as county subdivisions.</edomvd>
-					</edom>
-					<edom>
-						<edomv>unknown</edomv>
-						<edomvd>The populated place class is unknown.</edomvd>
-						<edomvds>Esri</edomvds>
-					</edom>
-				</attrdomv>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>ST</attrlabl>
-				<attalias>ST</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>2</attwidth>
-				<attrdef>The two-letter abbreviation for the state in which the populated place is located.</attrdef>
-				<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards 5-2</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>STFIPS</attrlabl>
-				<attalias>STFIPS</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>2</attwidth>
-				<attrdef>The FIPS code (two-digit number) for the state in which the populated place is located.</attrdef>
-				<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>PLACEFIPS</attrlabl>
-				<attalias>PLACEFIPS</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>5</attwidth>
-				<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
-				<attrdef>The FIPS code (five-digit number) for the populated place within a state.</attrdef>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards Pub 55</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>HOUSEUNITS</attrlabl>
-				<attalias>HOUSEUNITS</attalias>
-				<attrtype>Integer</attrtype>
-				<attwidth>4</attwidth>
-				<attrdef>The 2010 housing unit counts of the populated place.</attrdef>
-				<attrdefs>Department of Commerce, Census Bureau</attrdefs>
-				<attrdomv>
-					<udom>Numbers for the features.</udom>
-				</attrdomv>
-				<atprecis>9</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>POP2010</attrlabl>
-				<attalias>POP2010</attalias>
-				<attrtype>Integer</attrtype>
-				<attwidth>4</attwidth>
-				<attrdef>The 2010 population of the populated place.</attrdef>
-				<attrdefs>Department of Commerce, Census Bureau</attrdefs>
-				<attrdomv>
-					<udom>Populations for the features.</udom>
-				</attrdomv>
-				<atprecis>9</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>POP_CLASS</attrlabl>
-				<attalias>POP_CLASS</attalias>
-				<attrtype>Integer</attrtype>
-				<attwidth>4</attwidth>
-				<attrdef>The code for the 2010 population class of the populated place.</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>Population from 0 - 249.</edomvd>
-						<edomvds>Esri</edomvds>
-					</edom>
-					<edom>
-						<edomvds>Esri</edomvds>
-						<edomvd>Population from 250 - 499.</edomvd>
-						<edomv>2</edomv>
-					</edom>
-					<edom>
-						<edomvds>Esri</edomvds>
-						<edomvd>Population from 500 - 999.</edomvd>
-						<edomv>3</edomv>
-					</edom>
-					<edom>
-						<edomvds>Esri</edomvds>
-						<edomvd>Population from 1,000 - 2,499.</edomvd>
-						<edomv>4</edomv>
-					</edom>
-					<edom>
-						<edomvds>Esri</edomvds>
-						<edomvd>Population from 2,500 - 9,999.</edomvd>
-						<edomv>5</edomv>
-					</edom>
-					<edom>
-						<edomvds>Esri</edomvds>
-						<edomvd>Population from 10,000 - 49,999.</edomvd>
-						<edomv>6</edomv>
-					</edom>
-					<edom>
-						<edomvds>Esri</edomvds>
-						<edomvd>Population from 50,000 - 99,999.</edomvd>
-						<edomv>7</edomv>
-					</edom>
-					<edom>
-						<edomvds>Esri</edomvds>
-						<edomvd>Population from 100,000 - 499,999.</edomvd>
-						<edomv>8</edomv>
-					</edom>
-					<edom>
-						<edomvds>Esri</edomvds>
-						<edomvd>Population from 500,000 - 999,999.</edomvd>
-						<edomv>9</edomv>
-					</edom>
-					<edom>
-						<edomvds>Esri</edomvds>
-						<edomvd>Population from 1,000,000 and up.</edomvd>
-						<edomv>10</edomv>
-					</edom>
-				</attrdomv>
-				<attrdefs>Esri</attrdefs>
-				<atprecis>4</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>POP10_SQMI</attrlabl>
-				<attalias>POP10_SQMI</attalias>
-				<attrtype>Double</attrtype>
-				<attwidth>8</attwidth>
-				<atprecis>13</atprecis>
-				<attscale>7</attscale>
-				<attrdef>The 2010 population of the populated place per square mile.</attrdef>
-				<attrdefs>Department of Commerce, Census Bureau; Esri</attrdefs>
-				<attrdomv>
-					<udom>Calculated populations per square mile for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>SQMI</attrlabl>
-				<attalias>SQMI</attalias>
-				<attrtype>Double</attrtype>
-				<attwidth>8</attwidth>
-				<atprecis>19</atprecis>
-				<attscale>14</attscale>
-				<attrdef>The area of the populated place in square miles using Albers Equal Area Projection.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<udom>Calculated areas for the features.</udom>
-				</attrdomv>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<transize>42.418</transize>
-					<dssize>42.418</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
-				</digtinfo>
-				<digtopt>
-					<offoptn>
-						<offmedia>DVD-ROM</offmedia>
-						<reccap>
-							<recden>4.38 or 7.95</recden>
-							<recdenu>GB (gigabytes)</recdenu>
-						</reccap>
-						<recfmt>UDF (Universal Disc Format)</recfmt>
-					</offoptn>
-					<onlinopt>
-						<computer>
-							<networka>
-								<networkr>http://www.ArcGIS.com</networkr>
-							</networka>
-						</computer>
-					</onlinopt>
-				</digtopt>
-			</digform>
-			<fees>Software purchase price</fees>
-			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
-		</stdorder>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Esri; Esri Offices</cntorg>
-				</cntorgp>
-				<cntinst>In the United States, contact the Esri Telebusiness staff at 800-447-9778 for more information about our software and data.
-
-Outside the United States, please direct all inquiries to your local Esri Office.  This information can be found at http://www.esri.com/about-esri/locations.html.</cntinst>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>800-447-9778</cntvoice>
-			</cntinfo>
-		</distrib>
-		<techpreq>To use this data requires software that supports SDC files.</techpreq>
-		<distliab>See use constraints.</distliab>
-		<resdesc>esri_2012_us_placeply</resdesc>
-	</distinfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_urban.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>jpg</browset>
+		</browse>
+	</idinfo>
 	<dataqual>
 		<lineage>
 			<srcinfo>
@@ -657,17 +287,408 @@ Outside the United States, please direct all inquiries to your local Esri Office
 				<procdesc>The following steps were performed by Esri: Started with the Places data set from 2010 Census TIGER/Line Shapefiles. Projected the data set to World Geodetic System of 1984 (WGS 1984). Clipped to the coastline with Data &amp; Maps 2012 U.S. States. Added field CLASS and calculated its values from values removed from the NAME field. Attached and formatted the fields from 2010 Census Summary File 1 and Esri Data. Added field POP_CLASS and calculated its population ranges based on POP2010. Added field SQMI and calculated its values projected to Albers Equal Area. Added and calculated POP10_SQMI with new SQMI values. Reordered and renamed the fields. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
 				<procsv>ArcGIS 10, ArcGIS 9</procsv>
 				<procdate>20120305</procdate>
-				<srcused>2010 Census TIGER/Line Shapefiles</srcused><srcused>TomTom MultiNet North America Administrative Areas v. 2011.12 and v. 2010.03</srcused><srcused>U.S. Census SF 1</srcused><srcused>Esri Data</srcused></procstep>
+				<srcused>2010 Census TIGER/Line Shapefiles</srcused>
+				<srcused>TomTom MultiNet North America Administrative Areas v. 2011.12 and v. 2010.03</srcused>
+				<srcused>U.S. Census SF 1</srcused>
+				<srcused>Esri Data</srcused>
+			</procstep>
 		</lineage>
 		<posacc>
 			<horizpa>
 				<horizpar>The positional accuracy of TIGER/Line varies with the source materials used. In areas where the Census Bureau has not realigned street features as part of MTAIP it meets, at best, the established National Map Accuracy standards (approximately +/-50 meters or 167 feet) where 1:100,000-scale maps from the USGS were the source. The Census Bureau cannot specify the accuracy of feature changes added by its field staff or local updates or of features derived from the GBF/DIME-Files or other sources. Thus, the level of positional accuracy in the TIGER/Line shapefiles may not be suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface.
 
 
-</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+			</horizpar>
+		</horizpa>
+	</posacc>
+	<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
+	<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+</dataqual>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<esriterm Name="placeply">
+			<efeatyp>Simple</efeatyp>
+			<efeageom>Polygon</efeageom>
+			<esritopo>FALSE</esritopo>
+			<efeacnt>29260</efeacnt>
+			<spindex>TRUE</spindex>
+			<linrefer>FALSE</linrefer>
+			<featdesc>U.S. Populated Place Area</featdesc>
+		</esriterm>
+		<sdtsterm Name="placeply">
+			<sdtstype>G-polygon</sdtstype>
+			<ptvctcnt>29260</ptvctcnt>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<spref>
+	<horizsys>
+		<cordsysn>
+			<geogcsn>GCS_WGS_1984</geogcsn>
+		</cordsysn>
+		<geograph>
+			<geogunit>Decimal degrees</geogunit>
+			<latres>0.000000</latres>
+			<longres>0.000000</longres>
+		</geograph>
+		<geodetic>
+			<horizdn>D_WGS_1984</horizdn>
+			<ellips>WGS_1984</ellips>
+			<semiaxis>6378137.000000</semiaxis>
+			<denflat>298.257224</denflat>
+		</geodetic>
+	</horizsys>
+</spref>
+<eainfo>
+	<detailed Name="placeply">
+		<enttyp>
+			<enttypl>placeply</enttypl>
+			<enttypt>Feature Class</enttypt>
+			<enttypc>29260</enttypc>
+			<enttypd>The polygons represent concentrations of population within the United States that include both incorporated places and census designated places identified by the U.S. Census Bureau.</enttypd>
+			<enttypds>Department of Commerce, Census Bureau</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>ObjectID</attrlabl>
+			<attalias>ObjectID</attalias>
+			<attrtype>OID</attrtype>
+			<attwidth>4</attwidth>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+			<attrdef>Internal feature number.</attrdef>
+			<attrdefs>Esri</attrdefs>
+			<attrdomv>
+				<udom>Sequential unique whole numbers that are automatically generated.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Shape</attrlabl>
+			<attalias>Shape</attalias>
+			<attrtype>Geometry</attrtype>
+			<attwidth>0</attwidth>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+			<attrdef>Feature geometry.</attrdef>
+			<attrdefs>Esri</attrdefs>
+			<attrdomv>
+				<udom>Coordinates defining the features.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>NAME</attrlabl>
+			<attalias>NAME</attalias>
+			<attrtype>String</attrtype>
+			<attwidth>57</attwidth>
+			<attrdef>The populated place name.</attrdef>
+			<attrdefs>Department of Commerce, Census Bureau</attrdefs>
+			<attrdomv>
+				<udom>Names for the features.</udom>
+			</attrdomv>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+		</attr>
+		<attr>
+			<attrlabl>CLASS</attrlabl>
+			<attalias>CLASS</attalias>
+			<attrtype>String</attrtype>
+			<attwidth>36</attwidth>
+			<attrdef>The class of the populated place.</attrdef>
+			<attrdefs>Department of Commerce, Census Bureau</attrdefs>
+			<attrdomv>
+				<edom>
+					<edomv>borough</edomv>
+					<edomvd>In Connecticut, New Jersey, and Pennsylvania, an incorporated place.</edomvd>
+					<edomvds>Department of Commerce, Census Bureau</edomvds>
+				</edom>
+				<edom>
+					<edomvds>Department of Commerce, Census Bureau</edomvds>
+					<edomv>CDP</edomv>
+					<edomvd>Census designated place - A statistical area defined for a named concentration of population and the statistical counterpart of an incorporated place.</edomvd>
+				</edom>
+				<edom>
+					<edomvds>Department of Commerce, Census Bureau</edomvds>
+					<edomv>city</edomv>
+					<edomvd>An incorporated place in all states (not Hawaii) and the District of Columbia.</edomvd>
+				</edom>
+				<edom>
+					<edomvds>Department of Commerce, Census Bureau</edomvds>
+					<edomv>city (consolidated, balance)</edomv>
+					<edomvd>The portion of a consolidated city (a unit of local government for which the functions of an incorporated place and its county or minor civil division (MCD) have merged) not included in another separately incorporated place.</edomvd>
+				</edom>
+				<edom>
+					<edomv>city and borough</edomv>
+					<edomvd>A type of incorporated place in Alaska.</edomvd>
+					<edomvds>Department of Commerce, Census Bureau</edomvds>
+				</edom>
+				<edom>
+					<edomv>city and county</edomv>
+					<edomvd>A consolidated city-county.</edomvd>
+					<edomvds>TomTom North America, Inc.</edomvds>
+				</edom>
+				<edom>
+					<edomv>municipality</edomv>
+					<edomvd>A type of incorporated place in Pennsylvania and Alaska.</edomvd>
+					<edomvds>Department of Commerce, Census Bureau</edomvds>
+				</edom>
+				<edom>
+					<edomvds>Department of Commerce, Census Bureau</edomvds>
+					<edomv>town</edomv>
+					<edomvd>An incorporated place in 30 States. In some states, the Census Bureau treats these towns as the equivalent of a minor civil division.</edomvd>
+				</edom>
+				<edom>
+					<edomvds>Department of Commerce, Census Bureau</edomvds>
+					<edomv>village</edomv>
+					<edomvd>An incorporated place in 19 States. The Census Bureau treats villages in some states as county subdivisions.</edomvd>
+				</edom>
+				<edom>
+					<edomv>unknown</edomv>
+					<edomvd>The populated place class is unknown.</edomvd>
+					<edomvds>Esri</edomvds>
+				</edom>
+			</attrdomv>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+		</attr>
+		<attr>
+			<attrlabl>ST</attrlabl>
+			<attalias>ST</attalias>
+			<attrtype>String</attrtype>
+			<attwidth>2</attwidth>
+			<attrdef>The two-letter abbreviation for the state in which the populated place is located.</attrdef>
+			<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
+			<attrdomv>
+				<codesetd>
+					<codesetn>Federal Information Processing Standards 5-2</codesetn>
+					<codesets>National Institute of Standards and Technology</codesets>
+				</codesetd>
+			</attrdomv>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+		</attr>
+		<attr>
+			<attrlabl>STFIPS</attrlabl>
+			<attalias>STFIPS</attalias>
+			<attrtype>String</attrtype>
+			<attwidth>2</attwidth>
+			<attrdef>The FIPS code (two-digit number) for the state in which the populated place is located.</attrdef>
+			<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
+			<attrdomv>
+				<codesetd>
+					<codesetn>Federal Information Processing Standards</codesetn>
+					<codesets>National Institute of Standards and Technology</codesets>
+				</codesetd>
+			</attrdomv>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+		</attr>
+		<attr>
+			<attrlabl>PLACEFIPS</attrlabl>
+			<attalias>PLACEFIPS</attalias>
+			<attrtype>String</attrtype>
+			<attwidth>5</attwidth>
+			<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
+			<attrdef>The FIPS code (five-digit number) for the populated place within a state.</attrdef>
+			<attrdomv>
+				<codesetd>
+					<codesetn>Federal Information Processing Standards Pub 55</codesetn>
+					<codesets>National Institute of Standards and Technology</codesets>
+				</codesetd>
+			</attrdomv>
+			<atprecis>0</atprecis>
+			<attscale>0</attscale>
+		</attr>
+		<attr>
+			<attrlabl>HOUSEUNITS</attrlabl>
+			<attalias>HOUSEUNITS</attalias>
+			<attrtype>Integer</attrtype>
+			<attwidth>4</attwidth>
+			<attrdef>The 2010 housing unit counts of the populated place.</attrdef>
+			<attrdefs>Department of Commerce, Census Bureau</attrdefs>
+			<attrdomv>
+				<udom>Numbers for the features.</udom>
+			</attrdomv>
+			<atprecis>9</atprecis>
+			<attscale>0</attscale>
+		</attr>
+		<attr>
+			<attrlabl>POP2010</attrlabl>
+			<attalias>POP2010</attalias>
+			<attrtype>Integer</attrtype>
+			<attwidth>4</attwidth>
+			<attrdef>The 2010 population of the populated place.</attrdef>
+			<attrdefs>Department of Commerce, Census Bureau</attrdefs>
+			<attrdomv>
+				<udom>Populations for the features.</udom>
+			</attrdomv>
+			<atprecis>9</atprecis>
+			<attscale>0</attscale>
+		</attr>
+		<attr>
+			<attrlabl>POP_CLASS</attrlabl>
+			<attalias>POP_CLASS</attalias>
+			<attrtype>Integer</attrtype>
+			<attwidth>4</attwidth>
+			<attrdef>The code for the 2010 population class of the populated place.</attrdef>
+			<attrdomv>
+				<edom>
+					<edomv>1</edomv>
+					<edomvd>Population from 0 - 249.</edomvd>
+					<edomvds>Esri</edomvds>
+				</edom>
+				<edom>
+					<edomvds>Esri</edomvds>
+					<edomvd>Population from 250 - 499.</edomvd>
+					<edomv>2</edomv>
+				</edom>
+				<edom>
+					<edomvds>Esri</edomvds>
+					<edomvd>Population from 500 - 999.</edomvd>
+					<edomv>3</edomv>
+				</edom>
+				<edom>
+					<edomvds>Esri</edomvds>
+					<edomvd>Population from 1,000 - 2,499.</edomvd>
+					<edomv>4</edomv>
+				</edom>
+				<edom>
+					<edomvds>Esri</edomvds>
+					<edomvd>Population from 2,500 - 9,999.</edomvd>
+					<edomv>5</edomv>
+				</edom>
+				<edom>
+					<edomvds>Esri</edomvds>
+					<edomvd>Population from 10,000 - 49,999.</edomvd>
+					<edomv>6</edomv>
+				</edom>
+				<edom>
+					<edomvds>Esri</edomvds>
+					<edomvd>Population from 50,000 - 99,999.</edomvd>
+					<edomv>7</edomv>
+				</edom>
+				<edom>
+					<edomvds>Esri</edomvds>
+					<edomvd>Population from 100,000 - 499,999.</edomvd>
+					<edomv>8</edomv>
+				</edom>
+				<edom>
+					<edomvds>Esri</edomvds>
+					<edomvd>Population from 500,000 - 999,999.</edomvd>
+					<edomv>9</edomv>
+				</edom>
+				<edom>
+					<edomvds>Esri</edomvds>
+					<edomvd>Population from 1,000,000 and up.</edomvd>
+					<edomv>10</edomv>
+				</edom>
+			</attrdomv>
+			<attrdefs>Esri</attrdefs>
+			<atprecis>4</atprecis>
+			<attscale>0</attscale>
+		</attr>
+		<attr>
+			<attrlabl>POP10_SQMI</attrlabl>
+			<attalias>POP10_SQMI</attalias>
+			<attrtype>Double</attrtype>
+			<attwidth>8</attwidth>
+			<atprecis>13</atprecis>
+			<attscale>7</attscale>
+			<attrdef>The 2010 population of the populated place per square mile.</attrdef>
+			<attrdefs>Department of Commerce, Census Bureau; Esri</attrdefs>
+			<attrdomv>
+				<udom>Calculated populations per square mile for the features.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SQMI</attrlabl>
+			<attalias>SQMI</attalias>
+			<attrtype>Double</attrtype>
+			<attwidth>8</attwidth>
+			<atprecis>19</atprecis>
+			<attscale>14</attscale>
+			<attrdef>The area of the populated place in square miles using Albers Equal Area Projection.</attrdef>
+			<attrdefs>Esri</attrdefs>
+			<attrdomv>
+				<udom>Calculated areas for the features.</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
+</eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<transize>42.418</transize>
+				<dssize>42.418</dssize>
+				<formname>SDC</formname>
+				<filedec>ArcGIS software</filedec>
+				<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+			</digtinfo>
+			<digtopt>
+				<offoptn>
+					<offmedia>DVD-ROM</offmedia>
+					<reccap>
+						<recden>4.38 or 7.95</recden>
+						<recdenu>GB (gigabytes)</recdenu>
+					</reccap>
+					<recfmt>UDF (Universal Disc Format)</recfmt>
+				</offoptn>
+				<onlinopt>
+					<computer>
+						<networka>
+							<networkr>http://www.ArcGIS.com</networkr>
+						</networka>
+					</computer>
+				</onlinopt>
+			</digtopt>
+		</digform>
+		<fees>Software purchase price</fees>
+		<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
+	</stdorder>
+	<distrib>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Esri; Esri Offices</cntorg>
+			</cntorgp>
+				<cntinst>In the United States, contact the Esri Telebusiness staff at 800-447-9778 for more information about our software and data.
+
+Outside the United States, please direct all inquiries to your local Esri Office.  This information can be found at http://www.esri.com/about-esri/locations.html.</cntinst>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>380 New York Street</address>
+				<city>Redlands</city>
+				<state>California</state>
+				<postal>92373-8100</postal>
+				<country>USA</country>
+			</cntaddr>
+			<cntvoice>800-447-9778</cntvoice>
+		</cntinfo>
+	</distrib>
+	<techpreq>To use this data requires software that supports SDC files.</techpreq>
+	<distliab>See use constraints.</distliab>
+	<resdesc>esri_2012_us_placeply</resdesc>
+</distinfo>
+<metainfo>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metd>20130205</metd>
+	<metc>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

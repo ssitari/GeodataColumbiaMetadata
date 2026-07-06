@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<idinfo><native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</native><descript><langdata>en</langdata><abstract>This ARC/INFO polygon coverage contains the second Level
+	<idinfo>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</native>
+		<descript>
+			<langdata>en</langdata>
+<abstract>This ARC/INFO polygon coverage contains the second Level
     administrative boundaries at a 1:1000000 scale.
 
     The coverage is part of the Famine Early Warning System (FEWS) /
     Associates in Rural Development (ARD) African series.
 
-    Namibia is associated with the South region of Africa.</abstract><purpose>This data set is to be used in conjunction with other
+    Namibia is associated with the South region of Africa.</abstract>
+<purpose>This data set is to be used in conjunction with other
     layers of Namibia data.  The data are intended
     to show the spatial distribution of the administrative
     units for Namibia.
@@ -15,7 +20,8 @@
     demonstration projects.  The data are also used in
     natural resource management, inventory, change analysis,
     policy making, environmental awareness and land use
-    planning.</purpose><supplinf>Procedures_Used
+    planning.</purpose>
+<supplinf>Procedures_Used
     The administrative boundaries for Namibia were extracted from the
     MRPDA database using the ARC/INFO command RESELECT.
 
@@ -152,9 +158,55 @@
     ARD - Associates in Rural Development
     EDC - EROS Data Center
     USGS - United States Geological Survey
-    MRPDA - Medium Resolution Population Database for Africa</supplinf></descript><citation><citeinfo><origin>United States. Agency for International Development</origin>
-<origin>Famine Early Warning System Network</origin><pubdate>1996</pubdate><title>Namibia Level 2 Administrative Boundaries, 1996</title><ftname>NamibiaAdmn2</ftname><geoform>vector digital data</geoform><serinfo><sername>FEWS 3</sername><issue>1</issue></serinfo><pubinfo><pubplace>Sioux Falls, SD, USA</pubplace><publish>Famine Early Warning System Network</publish></pubinfo><othercit>FEWS/EROS Data Center (EDC)</othercit><onlink>https://www.columbia.edu/acis/eds/gis/images/fewsn_1996_namibiaadmn2.zip</onlink>
-			</citeinfo></citation><timeperd><current>publication date</current><timeinfo><sngdate><caldate>1996</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>As needed</update></status><spdom><bounding><westbc>11.715630</westbc><eastbc>25.256701</eastbc><northbc>-16.959894</northbc><southbc>-28.971430</southbc></bounding><lboundng><leftbc>11.715630</leftbc><rightbc>25.256701</rightbc><bottombc>-28.971430</bottombc><topbc>-16.959894</topbc></lboundng></spdom><keywords>
+    MRPDA - Medium Resolution Population Database for Africa</supplinf>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>United States. Agency for International Development</origin>
+				<origin>Famine Early Warning System Network</origin>
+				<pubdate>1996</pubdate>
+				<title>Namibia Level 2 Administrative Boundaries, 1996</title>
+				<ftname>NamibiaAdmn2</ftname>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>FEWS 3</sername>
+					<issue>1</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Sioux Falls, SD, USA</pubplace>
+					<publish>Famine Early Warning System Network</publish>
+				</pubinfo>
+				<othercit>FEWS/EROS Data Center (EDC)</othercit>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/fewsn_1996_namibiaadmn2.zip</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>1996</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>11.715630</westbc>
+				<eastbc>25.256701</eastbc>
+				<northbc>-16.959894</northbc>
+				<southbc>-28.971430</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc>11.715630</leftbc>
+				<rightbc>25.256701</rightbc>
+				<bottombc>-28.971430</bottombc>
+				<topbc>-16.959894</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
 			<theme>
 				<themekt>ISO 19115 Topic Category</themekt>
 				<themekey>boundaries</themekey>
@@ -166,7 +218,8 @@
 			<place>
 				<placekt>Library of Congress Subject Headings</placekt>
 				<placekey>Africa</placekey>
-				<placekey>Namibia</placekey></place>
+				<placekey>Namibia</placekey>
+			</place>
 			<stratum>
 				<stratkt>None</stratkt>
 			</stratum>
@@ -174,34 +227,271 @@
 				<tempkt>None</tempkt>
 				<tempkey>1996</tempkey>
 			</temporal>
-			<theme><themekt>None</themekt><themekey>Secondary administrative boundaries</themekey><themekey>Borders</themekey></theme></keywords><accconst>None</accconst>
-<useconst>None</useconst>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Secondary administrative boundaries</themekey>
+				<themekey>Borders</themekey>
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
 
 
-		<natvform>Shapefile</natvform><crossref><citeinfo><origin>Environmental Systems Research Institute (ESRI), Inc.</origin><pubdate>1993</pubdate><title>Digital Chart of the World (DCW), PONET Layer</title><geoform>map</geoform><pubinfo><pubplace>Redlands, CA, USA</pubplace><publish>ESRI</publish></pubinfo><othercit>Scale - 1:1000000</othercit><onlink>http://www.esri.com</onlink></citeinfo></crossref><crossref><citeinfo><origin>Deichmann, Uwe</origin><pubdate>1994</pubdate><title>A Medium Resolution Population Database for Africa</title><pubinfo><pubplace>Santa Barbara, CA</pubplace><publish>NCGIA, Dept of Geog, UCal</publish></pubinfo><othercit>PubPlace: USA</othercit></citeinfo></crossref><datacred>The USAID/FEWS Project and EDC International Program deserve
-credit for this data set.</datacred><secinfo/><browse>
+		<natvform>Shapefile</natvform>
+		<crossref>
+			<citeinfo>
+				<origin>Environmental Systems Research Institute (ESRI), Inc.</origin>
+				<pubdate>1993</pubdate>
+				<title>Digital Chart of the World (DCW), PONET Layer</title>
+				<geoform>map</geoform>
+				<pubinfo>
+					<pubplace>Redlands, CA, USA</pubplace>
+					<publish>ESRI</publish>
+				</pubinfo>
+				<othercit>Scale - 1:1000000</othercit>
+				<onlink>http://www.esri.com</onlink>
+			</citeinfo>
+		</crossref>
+		<crossref>
+			<citeinfo>
+				<origin>Deichmann, Uwe</origin>
+				<pubdate>1994</pubdate>
+				<title>A Medium Resolution Population Database for Africa</title>
+				<pubinfo>
+					<pubplace>Santa Barbara, CA</pubplace>
+					<publish>NCGIA, Dept of Geog, UCal</publish>
+				</pubinfo>
+				<othercit>PubPlace: USA</othercit>
+			</citeinfo>
+		</crossref>
+<datacred>The USAID/FEWS Project and EDC International Program deserve
+credit for this data set.</datacred>
+		<secinfo/>
+		<browse>
 			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/NamibiaAdmn20.bmp</browsen>
 			<browsed>Thumbnail Image</browsed>
 			<browset>BMP</browset>
 		</browse>
-		<ptcontac><cntinfo><cntperp><cntper>Ron Smith</cntper><cntorg>EROS Data Center - USGS</cntorg></cntperp><cntpos>International Program Data Base Manager</cntpos><cntaddr><addrtype>mailing and physical address</addrtype><address>EROS Data Center U.S. Geological Survey 47914 252nd Street</address><city>Sioux Falls</city><state>South Dakota</state><postal>57198-0001</postal><country>USA</country></cntaddr><cntvoice>(605) 594-6522</cntvoice><cnttdd>(605) 594-6522</cnttdd><cntfax>(605) 594-6568</cntfax><cntemail>rsmith@edcmail.cr.usgs.gov</cntemail><hours>0730 - 1615 CST</hours></cntinfo></ptcontac></idinfo>
-	<dataqual><lineage/><logic>Polygon topology present.</logic><complete>All data were found to be topologically correct. No duplicate features are
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Ron Smith</cntper>
+					<cntorg>EROS Data Center - USGS</cntorg>
+				</cntperp>
+				<cntpos>International Program Data Base Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>EROS Data Center U.S. Geological Survey 47914 252nd Street</address>
+					<city>Sioux Falls</city>
+					<state>South Dakota</state>
+					<postal>57198-0001</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(605) 594-6522</cntvoice>
+				<cnttdd>(605) 594-6522</cnttdd>
+				<cntfax>(605) 594-6568</cntfax>
+				<cntemail>rsmith@edcmail.cr.usgs.gov</cntemail>
+				<hours>0730 - 1615 CST</hours>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<lineage/>
+		<logic>Polygon topology present.</logic>
+<complete>All data were found to be topologically correct. No duplicate features are
 present. All polygons are closed, and all lines intersect where intended.
 No undershoots or overshoots are present.
 
 To the best knowledge of USAID/FEWS and EDC the data compiled
 in this data set meets the codes and/or procedures established
-for completeness and consistency.</complete><posacc><horizpa><horizpar>The absolute horizontal accuracy of the DCW for all features derived
+for completeness and consistency.</complete>
+		<posacc>
+			<horizpa>
+<horizpar>The absolute horizontal accuracy of the DCW for all features derived
         from Operational Navigation Charts (ONC) is 2040 meters (6700 feet)
         World Geodetic System (WGS84).
 
         The absolute horizontal accuracy of the DCW for all features derived from
         Jet Navigation Charts (JNC) is 4270 meters (14006 feet) at
-        90% Circular Error.</horizpar><qhorizpa><horizpav>2040 meters</horizpav><horizpae>Resolution as reported</horizpae></qhorizpa></horizpa><vertacc><vertaccr>The absolute vertical accuracy of the DCW is the same as for the original
-        ONC and JNC lithographs at 90% Linear Error (LE), Mean Sea Level (MSL).</vertaccr></vertacc></posacc></dataqual>
-	<spdoinfo><direct>Vector</direct><ptvctinf><esriterm Name="NamibiaAdmn2"><efeatyp>Simple</efeatyp><efeageom>Polygon</efeageom><esritopo>FALSE</esritopo><efeacnt>33</efeacnt><spindex>TRUE</spindex><linrefer>FALSE</linrefer></esriterm><sdtsterm Name="NamibiaAdmn2"><sdtstype>G-polygon</sdtstype><ptvctcnt>33</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
-	<spref><horizsys><cordsysn><geogcsn>GCS_Clarke_1880_RGS</geogcsn></cordsysn><geograph><geogunit>Decimal degrees</geogunit><latres>0.000000</latres><longres>0.000000</longres></geograph><geodetic><horizdn>D_Clarke_1880_RGS</horizdn><ellips>Clarke_1880_RGS</ellips><semiaxis>6378249.145000</semiaxis><denflat>293.465000</denflat></geodetic></horizsys></spref>
-	<eainfo><detailed Name="NamibiaAdmn2"><enttyp><enttypl>NamibiaAdmn2</enttypl><enttypt>Feature Class</enttypt><enttypc>33</enttypc><enttypd>Polygon Attribute Table</enttypd><enttypds>FEWS/ARD Washington, DC, USA</enttypds></enttyp><attr><attrlabl>FID</attrlabl><attalias>FID</attalias><attrtype>OID</attrtype><attwidth>4</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>Shape</attrlabl><attalias>Shape</attalias><attrtype>Geometry</attrtype><attwidth>0</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>AREA</attrlabl><attalias>AREA</attalias><attrtype>Float</attrtype><attwidth>13</attwidth><atnumdec>11</atnumdec><attrdef>Area of poly/region in square coverage units</attrdef></attr><attr><attrlabl>PERIMETER</attrlabl><attalias>PERIMETER</attalias><attrtype>Float</attrtype><attwidth>13</attwidth><atnumdec>11</atnumdec><attrdef>Perimeter of poly/region in coverage units</attrdef></attr><attr><attrlabl>WAADMN2_</attrlabl><attalias>WAADMN2_</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdef>Internal feature number</attrdef></attr><attr><attrlabl>WAADMN2_ID</attrlabl><attalias>WAADMN2_ID</attalias><attrtype>Number</attrtype><attwidth>9</attwidth><attrdef>User-assigned feature number</attrdef></attr><attr><attrlabl>ID</attrlabl><attalias>ID</attalias><attrtype>String</attrtype><attwidth>16</attwidth><attrdef>Unique administrative unit code</attrdef><attrdefs>FEWS/ARD</attrdefs></attr><attr><attrlabl>CNT_ABB</attrlabl><attalias>CNT_ABB</attalias><attrtype>String</attrtype><attwidth>2</attwidth><attrdef>Unique country abbreviation</attrdef><attrdefs>Federal Information Processing Standard (FIPS)</attrdefs></attr><attr><attrlabl>ADMIN2</attrlabl><attalias>ADMIN2</attalias><attrtype>String</attrtype><attwidth>25</attwidth><attrdef>Second Level administrative unit names</attrdef><attrdefs>FEWS/ARD</attrdefs></attr><attr><attrlabl>NUM_CODE</attrlabl><attalias>NUM_CODE</attalias><attrtype>String</attrtype><attwidth>15</attwidth><attrdef>Unique numeic administrative unit identifier</attrdef><attrdefs>EROS Data Center (EDC)</attrdefs></attr><attr><attrlabl>REGION</attrlabl><attalias>REGION</attalias><attrtype>String</attrtype><attwidth>10</attwidth><attrdef>ARD defined region in Africa that Namibia is associated with</attrdef><attrdefs>FEWS/ARD</attrdefs></attr><attr><attrlabl>FEWS_ABB</attrlabl><attalias>FEWS_ABB</attalias><attrtype>String</attrtype><attwidth>2</attwidth><attrdef>Unique country abbreviation</attrdef><attrdefs>FEWS/ARD</attrdefs></attr><attr><attrlabl>FEWSID</attrlabl><attalias>FEWSID</attalias><attrtype>String</attrtype><attwidth>30</attwidth><attrdef>Unique administrative unit identifier</attrdef><attrdefs>FEWS/ARD</attrdefs></attr><attr><attrlabl>FEWSID2</attrlabl><attalias>FEWSID2</attalias><attrtype>String</attrtype><attwidth>30</attwidth><attrdef>Unique identifier for the second Level administrative units</attrdef><attrdefs>FEWS/ARD</attrdefs></attr></detailed><overview><eaover>The item (ID) defines the unique administrative unit code,
+        90% Circular Error.</horizpar>
+				<qhorizpa>
+					<horizpav>2040 meters</horizpav>
+					<horizpae>Resolution as reported</horizpae>
+				</qhorizpa>
+			</horizpa>
+			<vertacc>
+<vertaccr>The absolute vertical accuracy of the DCW is the same as for the original
+        ONC and JNC lithographs at 90% Linear Error (LE), Mean Sea Level (MSL).</vertaccr>
+			</vertacc>
+		</posacc>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<esriterm Name="NamibiaAdmn2">
+				<efeatyp>Simple</efeatyp>
+				<efeageom>Polygon</efeageom>
+				<esritopo>FALSE</esritopo>
+				<efeacnt>33</efeacnt>
+				<spindex>TRUE</spindex>
+				<linrefer>FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="NamibiaAdmn2">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>33</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn>GCS_Clarke_1880_RGS</geogcsn>
+			</cordsysn>
+			<geograph>
+				<geogunit>Decimal degrees</geogunit>
+				<latres>0.000000</latres>
+				<longres>0.000000</longres>
+			</geograph>
+			<geodetic>
+				<horizdn>D_Clarke_1880_RGS</horizdn>
+				<ellips>Clarke_1880_RGS</ellips>
+				<semiaxis>6378249.145000</semiaxis>
+				<denflat>293.465000</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="NamibiaAdmn2">
+			<enttyp>
+				<enttypl>NamibiaAdmn2</enttypl>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>33</enttypc>
+				<enttypd>Polygon Attribute Table</enttypd>
+				<enttypds>FEWS/ARD Washington, DC, USA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attalias>Shape</attalias>
+				<attrtype>Geometry</attrtype>
+				<attwidth>0</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AREA</attrlabl>
+				<attalias>AREA</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>13</attwidth>
+				<atnumdec>11</atnumdec>
+				<attrdef>Area of poly/region in square coverage units</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>PERIMETER</attrlabl>
+				<attalias>PERIMETER</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>13</attwidth>
+				<atnumdec>11</atnumdec>
+				<attrdef>Perimeter of poly/region in coverage units</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>WAADMN2_</attrlabl>
+				<attalias>WAADMN2_</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>Internal feature number</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>WAADMN2_ID</attrlabl>
+				<attalias>WAADMN2_ID</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>User-assigned feature number</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>ID</attrlabl>
+				<attalias>ID</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>16</attwidth>
+				<attrdef>Unique administrative unit code</attrdef>
+				<attrdefs>FEWS/ARD</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>CNT_ABB</attrlabl>
+				<attalias>CNT_ABB</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Unique country abbreviation</attrdef>
+				<attrdefs>Federal Information Processing Standard (FIPS)</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>ADMIN2</attrlabl>
+				<attalias>ADMIN2</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>25</attwidth>
+				<attrdef>Second Level administrative unit names</attrdef>
+				<attrdefs>FEWS/ARD</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>NUM_CODE</attrlabl>
+				<attalias>NUM_CODE</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>15</attwidth>
+				<attrdef>Unique numeic administrative unit identifier</attrdef>
+				<attrdefs>EROS Data Center (EDC)</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>REGION</attrlabl>
+				<attalias>REGION</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>10</attwidth>
+				<attrdef>ARD defined region in Africa that Namibia is associated with</attrdef>
+				<attrdefs>FEWS/ARD</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FEWS_ABB</attrlabl>
+				<attalias>FEWS_ABB</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>2</attwidth>
+				<attrdef>Unique country abbreviation</attrdef>
+				<attrdefs>FEWS/ARD</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FEWSID</attrlabl>
+				<attalias>FEWSID</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>30</attwidth>
+				<attrdef>Unique administrative unit identifier</attrdef>
+				<attrdefs>FEWS/ARD</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FEWSID2</attrlabl>
+				<attalias>FEWSID2</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>30</attwidth>
+				<attrdef>Unique identifier for the second Level administrative units</attrdef>
+				<attrdefs>FEWS/ARD</attrdefs>
+			</attr>
+		</detailed>
+		<overview>
+<eaover>The item (ID) defines the unique administrative unit code,
     as defined by FEWS/ARD.
     The item (CNT-ABB) defines the unique country abbreviation,
     as defined by EDC.
@@ -216,11 +506,41 @@ for completeness and consistency.</complete><posacc><horizpa><horizpar>The absol
     The item (FEWSID) defines the unique administrative unit
     identifier, as defined by FEWS/ARD.
     The item (FEWSID2) defines the unique identifiers for the
-    second Level administrative units, as defined by FEWS/ARD.</eaover></overview></eainfo>
-	<distinfo><resdesc>fewsn_1996_namibiaadmn2</resdesc><stdorder><digform></digform></stdorder><distrib><cntinfo><cntperp><cntper>Ron Smith</cntper><cntorg>EROS Data Center - USGS</cntorg></cntperp><cntpos>International Program Data Base Manager</cntpos><cntaddr><addrtype>mailing and physical address</addrtype><address>EROS Data Center U.S. Geological Survey 47914 252nd Street</address><city>Sioux Falls</city><state>South Dakota</state><postal>57198-0001</postal><country>USA</country></cntaddr><cntvoice>(605) 594-6522</cntvoice><cnttdd>(605) 594-6522</cnttdd><cntfax>(605) 594-6568</cntfax><cntemail>rsmith@edcmail.cr.usgs.gov</cntemail><hours>0730 - 1615 CST</hours></cntinfo></distrib></distinfo>
+    second Level administrative units, as defined by FEWS/ARD.</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<resdesc>fewsn_1996_namibiaadmn2</resdesc>
+		<stdorder>
+			<digform>
+			</digform>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Ron Smith</cntper>
+					<cntorg>EROS Data Center - USGS</cntorg>
+				</cntperp>
+				<cntpos>International Program Data Base Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>EROS Data Center U.S. Geological Survey 47914 252nd Street</address>
+					<city>Sioux Falls</city>
+					<state>South Dakota</state>
+					<postal>57198-0001</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(605) 594-6522</cntvoice>
+				<cnttdd>(605) 594-6522</cnttdd>
+				<cntfax>(605) 594-6568</cntfax>
+				<cntemail>rsmith@edcmail.cr.usgs.gov</cntemail>
+				<hours>0730 - 1615 CST</hours>
+			</cntinfo>
+		</distrib>
+	</distinfo>
 	<citeinfo>
 		<origin>United States. Agency for International Development</origin>
-<origin>Famine Early Warning System Network</origin>
+		<origin>Famine Early Warning System Network</origin>
 		<pubdate>1996</pubdate>
 		<pubtime>0000</pubtime>
 		<title>WAADMN2</title>
@@ -237,10 +557,11 @@ for completeness and consistency.</complete><posacc><horizpa><horizpar>The absol
 		<onlink>http://edcintl.cr.usgs.gov/adds/adds.html</onlink>
 		<lworkcit>None</lworkcit>
 Geospatial_Data_Presentation_Format: map
-</citeinfo>
+	</citeinfo>
 	<descript>Abstract This ARC/INFO polygon coverage contains the second Level administrative boundaries at a 1:1000000 scale. The coverage is part of the Famine Early Warning System (FEWS) / Associates in Rural Development (ARD) African series. Namibia is associated with the South region of Africa. Keywords: Boundary, Namibia, WA, NB, South Region, Africa Purpose This data set is to be used in conjunction with other layers of Namibia data. The data are intended to show the spatial distribution of the administrative units for Namibia. The data are to be used in modeling, targeting and demonstration projects. The data are also used in natural resource management, inventory, change analysis, policy making, environmental awareness and land use planning. Supplemental_Information Procedures_Used The administrative boundaries for Namibia were extracted from the MRPDA database using the ARC/INFO command RESELECT. These country specific sub-national boundaries were then integrated into the DCW master country database using the ARC/INFO command UPDATE. The country specific data set, containing all of the sub-national hierarchy, was extracted from the DCW master data set using the ARC/INFO command RESELECT and the second Level administrative units were extracted from the country specific data set using the ARC/INFO command DISSOLVE. A master data set, based on the Digital Chart of the World (DCW) PONET layer, was created. Burkina Faso, Mali, Ethiopia, and Eritrea are included in the master data set, however, these countries have international boundaries that have been revised. The changes to Burkina Faso are: The Digital Chart of the World (DCW) International boundary was used for the International boundary for Burkina Faso with the only revisions being those listed below. From : -2 degrees; 55 minutes; 8 seconds Longitude and : 13 degrees;37 minutes; 37 seconds Latitude To : -0 degrees; 57 minutes; 41 seconds Longitude and : 14 degrees; 52 minutes; 14 seconds Latitude AND... From : 0 degrees; 3 minutes; 33 seconds Longitude and : 14 degrees; 58 minutes; 15 seconds Latitude To : 0 degrees; 13 minutes; 55 seconds Longitude and : 14 degrees; 58 minutes; 15 seconds Latitude These changes are defined by FEWS/ARD Washington, DC, USA. The changes to Mali are: The Digital Chart of the World (DCW) International boundary was used for the International boundary for Mali with the only revisions being those listed below. From : -2 degrees; 55 minutes; 8 seconds Longitude and : 13 degrees;37 minutes; 37 seconds Latitude To : -0 degrees; 57 minutes; 41 seconds Longitude and : 14 degrees; 52 minutes; 14 seconds Latitude AND... From : 0 degrees; 3 minutes; 33 seconds Longitude and : 14 degrees; 58 minutes; 15 seconds Latitude To : 0 degrees; 13 minutes; 55 seconds Longitude and : 14 degrees; 58 minutes; 15 seconds Latitude These changes are defined by FEWS/ARD Washington, DC, USA. The changes to Ethiopia are: The Digital Chart of the World (DCW) International boundary was used for the International boundary for Ethiopia with the only revisions being those listed below. From : 36 degrees; 34 minutes; 5 seconds Longitude and : 14 degrees; 14 minutes; 25 seconds Latitude To : 42 degrees; 25 minutes; 22 seconds Longitude and : 12 degrees; 26 minutes; 53 seconds Latitude These changes are defined by FEWS/ARD Washington, DC, USA. The changes to Eritrea are: The Digital Chart of the World (DCW) International boundary was used for the International boundary of Eritrea with the only revisions being those listed below: From : 36 degrees; 34 minutes; 5 seconds Longitude and : 14 degrees; 14 minutes; 25 seconds Latitude To : 42 degrees; 25 minutes; 22 seconds Longitude and : 12 degrees; 26 minutes; 53 seconds Latitude These changes are defined by FEWS/ARD Washington, DC, USA. The international boundary for Namibia was extracted from an ARC/INFO LIBRARY created from the ARC/INFO version of the Digital Chart of the World (DCW) using the ARC/INFO tool LIBRARIAN. Revisions During ARC/INFO coverage development modifications were made to the digital files to generate a database with a common scale, uniform Level of resolution, consistent coding scheme and comparable (standardized) measurement data. Reviews_Applied_to_Data Peer review, 03/96, FEWS/ARD Washington, D.C. Digital line work and attribute data checked for discrepancies and approved for release to FEWS in-country and regional field representatives. Related_Spatial_and_Tabular_Data_Sets None References_Cited Environmental Systems Research Institute (ESRI), Inc., 1993, "Digital Chart of the World (DCW)," PONET Layer. ESRI. Redlands, CA, USA. Scale - 1:1000000. Deichmann, Uwe, 1994, "A Medium Resolution Population Database for Africa." The National Center for Geographic Information and Analysis, Department of Geography, University of California, Santa Barbara, CA, USA. Notes USAID - United States Agency for International Development. FEWS - Famine Early Warning System ARD - Associates in Rural Development EDC - EROS Data Center USGS - United States Geological Survey MRPDA - Medium Resolution Population Database for Africa Time_Period_of_Content Range_of_Dates/Times Beginning_Date: 1996 Beginning_Time: 0000 Ending_Date: Unknown Ending_Time: 0000 Currentness_Reference The "MRPDA" was published in 1994. Many sources were used to compile the data. The DCW database was originally published in 1992. Data currency varies from place to place depending on the currency of the Operational Navigation Charts (ONC). Chart currency ranged from the mid 1960s to the early 1990s. Compilation dates for every ONC chart are included in the database. The additional attributes were added in April of 1996 by the EROS Data Center (EDC). Status Progress: complete Maintenance_and_Update_Frequency As needed. Spatial_Domain Bounding_Coordinates West_Bounding_Coordinate: 11.71562958 East_Bounding_Coordinate: 25.25670052 North_Bounding_Coordinate: -16.95989418 South_Bounding_Coordinate: -28.97142982</descript>
-	<keywords>Theme Theme_Keyword_Thesaurus: None Theme_Keyword: Boundary Place Place_Keyword_Thesaurus: None Place_Keyword: Namibia, Africa, WA, NB Stratum Stratum_Keyword_Thesaurus: None Stratum_Keyword: Temporal Temporal_Keyword_Thesaurus: None Temporal_Keyword:</keywords><accconst>None</accconst>
-<useconst>None</useconst>
+	<keywords>Theme Theme_Keyword_Thesaurus: None Theme_Keyword: Boundary Place Place_Keyword_Thesaurus: None Place_Keyword: Namibia, Africa, WA, NB Stratum Stratum_Keyword_Thesaurus: None Stratum_Keyword: Temporal Temporal_Keyword_Thesaurus: None Temporal_Keyword:</keywords>
+	<accconst>None</accconst>
+	<useconst>None</useconst>
 
 	<datacred>The USAID/FEWS Project and EDC International Program deserve credit for this data set. Security_Information Security_Classification_System: None Security_Classification: UNCLASSIFIED Security_Handling_Description: None</datacred>
 	<native>SunOS UNIX, ARC/INFO version 8.2</native>
@@ -256,7 +577,7 @@ Geospatial_Data_Presentation_Format: map
 	<vertacc>Vertical_Positional_Accuracy_Report: The absolute vertical accuracy of the DCW is the same as for the original ONC and JNC lithographs at 90% Linear Error (LE), Mean Sea Level (MSL). Lineage: See Supplemental_Information for overview.</vertacc>
 
 Process_Steps Process_Step Process_Description: ELIMINATE AFREGIONS5U AFREGIONS5E Source_Used_Citation_Abbreviation:None Process_Date: 19950825 Process_Time: 1036 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: ARCEDIT /DGM/SAB/RSMITH/PROJECTS/AFREGIONS/HORN/AFREGIONS5E Source_Used_Citation_Abbreviation:None Process_Date: 19950828 Process_Time: 1039 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: BUILD AFREGIONS5E Source_Used_Citation_Abbreviation:None Process_Date: 19950828 Process_Time: 1050 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RENAME AFREGIONS5E AFREGIONS5 Source_Used_Citation_Abbreviation:None Process_Date: 19950828 Process_Time: 1107 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: COPY AFREGIONS5 /DG1/IPSARCH/AFRICA/ARC/AFREGIONS/COVS/AFREGIONS5 Source_Used_Citation_Abbreviation:None Process_Date: 19950828 Process_Time: 1112 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: EXPORT COVER AFREGIONS5 /DG1/IPSARCH/AFRICA/ARC/AFREGIONS/EXP/AFREGIONS5.E00 NON Source_Used_Citation_Abbreviation:None Process_Date: 19950828 Process_Time: 1147 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH UPDATE AFREGIONS5 /EDCSNW6/IPS2/WORK/AFSAHEL/AFSAHEL AFREGIONS5U POLY .00 Source_Used_Citation_Abbreviation:None Process_Date: 19951129 Process_Time: 1341 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH RENAME AFREGIONS5U AFREGIONS5 Source_Used_Citation_Abbreviation:None Process_Date: 19951129 Process_Time: 1357 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH EXPORT COVER AFREGIONS5 /EDCSNW6/IPSARCH/AFRICA/ARC/AFREGIONS/EXP/AFREGIO Source_Used_Citation_Abbreviation:None Process_Date: 19951130 Process_Time: 1534 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH RENAME AFREGIONS5 AFREGIONS5A Source_Used_Citation_Abbreviation:None Process_Date: 19951214 Process_Time: 1406 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH RENAME AFREGIONS5A AFREGIONS5 Source_Used_Citation_Abbreviation:None Process_Date: 19951214 Process_Time: 1445 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH COPY AFREGIONS5 AFREG_SAFE Source_Used_Citation_Abbreviation:None Process_Date: 19960501 Process_Time: 1101 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: EXTERNALALL Source_Used_Citation_Abbreviation:None Process_Date: 19960501 Process_Time: 1103 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH ARCEDIT /EDCSNW6/IPSARCH/AFRICA/ARC/AFREGIONS/COVS/AFREG_SAFE Source_Used_Citation_Abbreviation:None Process_Date: 19960501 Process_Time: 1433 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: EXTERNALALL Source_Used_Citation_Abbreviation:None Process_Date: 19960502 Process_Time: 812 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH COPY /EDCSNW6/IPSARCH/AFRICA/ARC/AFREGIONS/COVS/AFREG_SAFE AFREG Source_Used_Citation_Abbreviation:None Process_Date: 19960509 Process_Time: 1431 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH COPY /EDCSNW6/IPS2/WORK/AFREGIONS/AFREG AFFEWSADMIN Source_Used_Citation_Abbreviation:None Process_Date: 19960509 Process_Time: 1536 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH COPY /EDCSNW6/IPSARCH/AFRICA/ARC/AFREGIONS/COVS/AFFEWSADMIN AFFEWSADMIN Source_Used_Citation_Abbreviation:None Process_Date: 19960509 Process_Time: 1604 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH RESELECT AFFEWSADMIN WAADMIN POLY Source_Used_Citation_Abbreviation:None Process_Date: 19960510 Process_Time: 836 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH RENAME WAADMIN WAADMIN2 Source_Used_Citation_Abbreviation:None Process_Date: 19960510 Process_Time: 1024 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES IMPORT COVER WAADMIN2.E00 /EDCSNW6/IPS2/WALKES/WORK/AFADMIN/SOUTH/WA/COVS Source_Used_Citation_Abbreviation:None Process_Date: 19960802 Process_Time: 1535 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES PROJECT COVER WAADMIN2 WAADMIN2P /EDCSNW6/IPS2/WALKES/WORK/PRJ/GEO2GEO.PR Source_Used_Citation_Abbreviation:None Process_Date: 19960802 Process_Time: 1536 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES BUILD WAADMIN2P Source_Used_Citation_Abbreviation:None Process_Date: 19960802 Process_Time: 1537 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES DOCUMENT WAADMIN2P UPDATE WALKES Source_Used_Citation_Abbreviation:None Process_Date: 19960802 Process_Time: 1542 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES EXPORT COVER WAADMIN2P /EDCSNW6/IPS2/WALKES/WORK/AFADMIN/SOUTH/WA/RON/WAA Source_Used_Citation_Abbreviation:None Process_Date: 19960814 Process_Time: 1637 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES DOCUMENT WAADMIN2P UPDATE WALKES Source_Used_Citation_Abbreviation:None Process_Date: 19960821 Process_Time: 822 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES EXPORT COVER WAADMIN2P /EDCSNW6/IPS2/WALKES/WORK/AFADMIN/SOUTH/WA/RON/WAA Source_Used_Citation_Abbreviation:None Process_Date: 19960821 Process_Time: 824 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES DOCUMENT WAADMIN2P UPDATE WALKES Source_Used_Citation_Abbreviation:None Process_Date: 19960917 Process_Time: 1445 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES EXPORT COVER WAADMIN2P /EDCSNW6/IPS2/WALKES/WORK/AFADMIN/SOUTH/WA/RON/WAA Source_Used_Citation_Abbreviation:None Process_Date: 19960919 Process_Time: 1316 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES DOCUMENT WAADMIN2P UPDATE WALKES Source_Used_Citation_Abbreviation:None Process_Date: 19960924 Process_Time: 1007 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES IMPORT COVER WAADMIN2P.E00 WAADMIN2 Source_Used_Citation_Abbreviation:None Process_Date: 19970107 Process_Time: 1043 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES COPY WAADMIN2 WAADMN2 Source_Used_Citation_Abbreviation:None Process_Date: 19970107 Process_Time: 1043 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES DOCUMENT WAADMN2 DELETE WALKES Source_Used_Citation_Abbreviation:None Process_Date: 19970107 Process_Time: 1043 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES DOCUMENT WAADMN2 COPY /EDCSNW6/IPS2/WALKES/WORK/FEWS_CNT_ADMIN_LOGGER Source_Used_Citation_Abbreviation:None Process_Date: 19970107 Process_Time: 1044 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES DOCUMENT WAADMN2 UPDATE WALKES Source_Used_Citation_Abbreviation:None Process_Date: 19970107 Process_Time: 1045 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES IMPORT COVER /DG1/SAB1/WALKES/WORK/AFADMN/SOUTH/E00/WAADMN2.E00 WAADMN2 Source_Used_Citation_Abbreviation:None Process_Date: 19970409 Process_Time: 1109 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES DOCUMENT WAADMN2 UPDATE WALKES Source_Used_Citation_Abbreviation:None Process_Date: 19970409 Process_Time: 1133 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: WALKES DOCUMENT WAADMN2 UPDATE WALKES Source_Used_Citation_Abbreviation:None Process_Date: 19970417 Process_Time: 1240 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH COPY /DG1/SAB1/WALKES/WORK/AFADMN/SOUTH/WA/COVS/WAADMN2 WAADMN2 Source_Used_Citation_Abbreviation:None Process_Date: 19970513 Process_Time: 1026 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH DOCUMENT WAADMN2 UPDATE RSMITH Source_Used_Citation_Abbreviation:None Process_Date: 19970513 Process_Time: 1052 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH EXPORT COVER WAADMN2 /EDCSNW6/FEWSARCH/METADATA_ADMN_UPD/EXP/WAADMN2.E0 Source_Used_Citation_Abbreviation:None Process_Date: 19970521 Process_Time: 1148 Source_Produced_Citation_Abbreviation: None Process_Step Process_Description: RSMITH COPY WAADMN2 /EDCSNW6/FEWSARCH/COUNTRY/WA/WACOVS/WAADMN2 Source_Used_Citation_Abbreviation:None Process_Date: 19970521 Process_Time: 1336 Source_Produced_Citation_Abbreviation: None
-<cloud>0</cloud>
+	<cloud>0</cloud>
 	<direct>Vector</direct>
 	<ptvctinf>
 		<sdtsterm>
@@ -266,14 +587,17 @@ Process_Steps Process_Step Process_Description: ELIMINATE AFREGIONS5U AFREGIONS5
 	</ptvctinf>
 	<horizsys>
 		<geograph>
-			<latres></latres>
-			<longres></longres>
+			<latres>
+			</latres>
+			<longres>
+			</longres>
 			<geogunit>Decimal Degrees</geogunit>
 		</geograph>
 Geodetic Model
-</horizsys>
+	</horizsys>
 	<detailed>
-		<enttyp></enttyp>
+		<enttyp>
+		</enttyp>
 		<attr>
 			<attrlabl>-</attrlabl>
 			<attrdef>Polygon Attribute Table</attrdef>
@@ -281,8 +605,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Relational database table</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -293,8 +619,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Positive real numbers</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -305,8 +633,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Positive real numbers</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -317,8 +647,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Sequential unique positive integer</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -329,8 +661,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Integer</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -341,8 +675,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Character</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -353,8 +689,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Character</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -365,8 +703,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Character</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -377,8 +717,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Character</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -389,8 +731,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Character</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -401,8 +745,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Character</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -413,8 +759,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Character</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -425,8 +773,10 @@ Geodetic Model
 			<attrdomv>
 				<edom>
 					<edomv>Character</edomv>
-					<edomvd></edomvd>
-					<edomvds></edomvds>
+					<edomvd>
+					</edomvd>
+					<edomvds>
+					</edomvds>
 				</edom>
 			</attrdomv>
 		</attr>
@@ -437,8 +787,9 @@ Geodetic Model
 	<overview>Entity_and_Attribute_Overview The item (ID) defines the unique administrative unit code, as defined by FEWS/ARD. The item (CNT-ABB) defines the unique country abbreviation, as defined by EDC. The item (ADMIN2) defines the second Level administrative unit names, as defined by FEWS/ARD. The item (NUM-CODE) defines the unique numeric administrative unit identifier, as defined by EDC. The item (REGION) defines the African region that Namibia is associated with, as defined by FEWS/ARD. The item (FEWS-ABB) defines the unique country abbreviation, as defined by FEWS/ARD. The item (FEWSID) defines the unique administrative unit identifier, as defined by FEWS/ARD. The item (FEWSID2) defines the unique identifiers for the second Level administrative units, as defined by FEWS/ARD. ID................N/A CNT-ABB...........WA NUM-CODE..........N/A REGION............SOUTH FEWS-ABB..........NB FEWSID............N/A ADMIN2 FEWSID2 BETHANIEN WA2BETHANIEN BOESMANLAND WA2BOESMANLAND CAPRIVI WA2CAPRIVI DAMARALAND WA2DAMARALAND GOBABIS WA2GOBABIS GROOTFONTEIN WA2GROOTFONTEIN HEREROLAND EAST WA2HEREROLAND EAST HEREROLAND WEST WA2HEREROLAND WEST KAOKOLAND WA2KAOKOLAND KARASBURG WA2KARASBURG KARIBIB WA2KARIBIB KAVANGO WA2KAVANGO KEETMANSHOOP WA2KEETMANSHOOP LUDERITZ WA2LUDERITZ MALTAHOHE WA2MALTAHOHE MARIENTAL WA2MARIENTAL NAMALAND WA2NAMALAND OKAHANDJA WA2OKAHANDJA OMARURU WA2OMARURU OTJIWARONGO WA2OTJIWARONGO OUTJO WA2OUTJO OWAMBO WA2OWAMBO REHOBOTH WA2REHOBOTH SWAKOPMUND WA2SWAKOPMUND TSUMEB WA2TSUMEB WINDHOEK WA2WINDHOEK Entity_and_Attribute_Detail_Citation: Not Available</overview>
 
 Metadata_Reference_Section
-<metd>19970513</metd>
-	<metc></metc>
+	<metd>19970513</metd>
+	<metc>
+	</metc>
 	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
 	<metstdv>FGDC-STD-001-1998</metstdv>
 	<mettc>Local Time</mettc>
@@ -447,7 +798,7 @@ Metadata_Reference_Section
 		<metsc>UNCLASSIFIED</metsc>
 		<metshd>None</metshd>
 	</metsi>
-<metainfo>
+	<metainfo>
 		<metd>20070523</metd>
 		<metc>
 			<cntinfo>
@@ -461,13 +812,18 @@ Metadata_Reference_Section
 				</cntaddr>
 				<cntvoice>(212)854-6012</cntvoice>
 				<cntemail>data@library.columbia.edu</cntemail>
-				<cntorgp><cntper>GIS/Metadata Librarian</cntper><cntorg>
-				Research Data Services (RDS), Columbia University Libraries</cntorg></cntorgp></cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metsi>
-		</metsi>
-		<langmeta>en</langmeta></metainfo>
-</metadata>
+				<cntorgp>
+					<cntper>GIS/Metadata Librarian</cntper>
+					<cntorg>
+				Research Data Services (RDS), Columbia University Libraries</cntorg>
+					</cntorgp>
+				</cntinfo>
+			</metc>
+			<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+			<metstdv>FGDC-STD-001-1998</metstdv>
+			<mettc>local time</mettc>
+			<metsi>
+			</metsi>
+			<langmeta>en</langmeta>
+		</metainfo>
+	</metadata>

@@ -111,32 +111,93 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			</cntinfo>
 		</ptcontac>
 	</idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20110729</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>ArcUSA 1:2M</title>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<pubdate>19921001</pubdate>
+						<edition>1</edition>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<publish>ESRI</publish>
+							<pubplace>Redlands, California, USA</pubplace>
+						</pubinfo>
+						<othercit>USGS Topographic Quadrangles dates of publication 1905 through 1987.</othercit>
+					</citeinfo>
+				</srccite>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>19921001</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>ArcUSA 1:2M</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+				<srcscale>2000000</srcscale>
+			</srcinfo>
+			<procstep>
+				<procdesc>This data set was generated from several sources: the geospatial part of this data set was mathematically generated using the ARC/INFO GRID extension. The USGS Topographic Names Database and the Published Map Sheet Data File (T-70) were the two primary digital sources for the attributes. Where these databases were incomplete, various published USGS map indexes were consulted to update the attributes.</procdesc>
+				<srcused>ArcUSA 1:2M</srcused>
+				<procdate>1992</procdate>
+			</procstep>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<onlink>http://www.usgs.gov</onlink>
+						<onlink>http://store.usgs.gov/b2c_usgs/b2c/start/(xcm=r3standardpitrex_prd)/.do</onlink>
+						<origin>Geological Survey (U.S.)</origin>
+						<title>The USGS Store</title>
+						<pubinfo>
+							<pubplace>Reston, Virginia, USA</pubplace>
+							<publish>United States Geological Survey</publish>
+						</pubinfo>
+						<othercit>Used the Advanced Search tool in the left column under USGS Store Home on the web page: http://store.usgs.gov/b2c_usgs/b2c/start/(xcm=r3standardpitrex_prd)/.do. Accessed the web page in February 2010.</othercit>
+						<pubdate>201002</pubdate>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srccitea>USGS Online</srccitea>
+				<srccontr>Attribute data</srccontr>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>201002</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+			</srcinfo>
+			<procstep>
+				<procdesc>The following steps were performed by ESRI: Extracted data set from ArcUSA 1:2M. Removed unneeded attributes. Generalized to a tolerance of 4.0 miles. Created ArcGIS layer file (.lyr). Created projection file (.prj). Ran ArcView GIS Avenue™ request ExportClean, and created spatial indices. Converted the data set to SDC.</procdesc>
+				<srcused>USGS Online</srcused>
+				<procdate>20000824</procdate>
+			</procstep>
+			<procstep>
+				<procdate>20100216</procdate>
+				<procdesc>The following steps were performed by ESRI: Selected records where the QUAD_NAME field contains 'Squaw'. Used the advanced search functions at http://store.usgs.gov/b2c_usgs/b2c/start/(xcm=r3standardpitrex_prd)/.do to find each quadrangle and verify if it has an official new name. Edited the QUAD_NAME for five quadrangles. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The geospatial part of this data set was mathematically generated using the ARC/INFO GRID extension.  In this manner, the locations of the quadrangles were computed.  The positional accuracy for these quadrangles is limited only by the resolution of the data set which is 51 meters.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry. Occasionally, USGS actual quadrangles depart from a completely rectangular format mainly because of map sheet production considerations in coastal areas and offshore islands that result in offset, over edge, and inset sheet layouts. These are not represented precisely by the data set, but the correct attribute information is included.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype></sdtsterm></ptvctinf>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
 	</spdoinfo>
 	<spref>
 		<horizsys>
@@ -383,84 +444,27 @@ Outside the United States, please direct all inquiries to your local ESRI Office
 			</cntinfo>
 		</distrib>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>ArcUSA 1:2M</title>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>19921001</pubdate>
-						<edition>1</edition>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<publish>ESRI</publish>
-							<pubplace>Redlands, California, USA</pubplace>
-						</pubinfo>
-						<othercit>USGS Topographic Quadrangles dates of publication 1905 through 1987.</othercit>
-					</citeinfo>
-				</srccite>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>19921001</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>ArcUSA 1:2M</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-				<srcscale>2000000</srcscale>
-			</srcinfo>
-			<procstep>
-				<procdesc>This data set was generated from several sources: the geospatial part of this data set was mathematically generated using the ARC/INFO GRID extension. The USGS Topographic Names Database and the Published Map Sheet Data File (T-70) were the two primary digital sources for the attributes. Where these databases were incomplete, various published USGS map indexes were consulted to update the attributes.</procdesc>
-				<srcused>ArcUSA 1:2M</srcused>
-				<procdate>1992</procdate>
-			</procstep>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<onlink>http://www.usgs.gov</onlink>
-						<onlink>http://store.usgs.gov/b2c_usgs/b2c/start/(xcm=r3standardpitrex_prd)/.do</onlink>
-						<origin>Geological Survey (U.S.)</origin>
-						<title>The USGS Store</title>
-						<pubinfo>
-							<pubplace>Reston, Virginia, USA</pubplace>
-							<publish>United States Geological Survey</publish>
-						</pubinfo>
-						<othercit>Used the Advanced Search tool in the left column under USGS Store Home on the web page: http://store.usgs.gov/b2c_usgs/b2c/start/(xcm=r3standardpitrex_prd)/.do. Accessed the web page in February 2010.</othercit>
-						<pubdate>201002</pubdate>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srccitea>USGS Online</srccitea>
-				<srccontr>Attribute data</srccontr>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>201002</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-			</srcinfo>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Extracted data set from ArcUSA 1:2M. Removed unneeded attributes. Generalized to a tolerance of 4.0 miles. Created ArcGIS layer file (.lyr). Created projection file (.prj). Ran ArcView GIS Avenue™ request ExportClean, and created spatial indices. Converted the data set to SDC.</procdesc>
-				<srcused>USGS Online</srcused>
-				<procdate>20000824</procdate>
-			</procstep>
-			<procstep>
-				<procdate>20100216</procdate>
-				<procdesc>The following steps were performed by ESRI: Selected records where the QUAD_NAME field contains 'Squaw'. Used the advanced search functions at http://store.usgs.gov/b2c_usgs/b2c/start/(xcm=r3standardpitrex_prd)/.do to find each quadrangle and verify if it has an official new name. Edited the QUAD_NAME for five quadrangles. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The geospatial part of this data set was mathematically generated using the ARC/INFO GRID extension.  In this manner, the locations of the quadrangles were computed.  The positional accuracy for these quadrangles is limited only by the resolution of the data set which is 51 meters.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry. Occasionally, USGS actual quadrangles depart from a completely rectangular format mainly because of map sheet production considerations in coastal areas and offshore islands that result in offset, over edge, and inset sheet layouts. These are not represented precisely by the data set, but the correct attribute information is included.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20110729</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

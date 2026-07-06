@@ -1,640 +1,640 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Honduras (3608932)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Honduras</placekey>
-<placekey>Honduras</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2001</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-89.356610</westbc>
-<eastbc>-83.149552</eastbc>
-<northbc>16.518630</northbc>
-<southbc>12.984875</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Honduras (3608932)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Honduras</placekey>
+				<placekey>Honduras</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2001</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-89.356610</westbc>
+				<eastbc>-83.149552</eastbc>
+				<northbc>16.518630</northbc>
+				<southbc>12.984875</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Honduras Economic Census Data, 2001 is a polygon theme representing Aldeas in Honduras.  Attribute information includes economic information from the 2001 Census.
 Official population and housing data for Honduras from the 2001 census. This census is provided at the Aldeas administrative level (ADM3) and includes 3727 polygons with 399 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "sexo Hombre" was updated to D001 and given the alias "Sex: Male", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.There are Currently 51 Aldeas that do not join correctly from the GIS data to the Tabular data. This is likely due to name or boundary changes. we are working with INE to solve this problem
- </abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Honduras Economic Census Data, 2001</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2021</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Honduras Economic Census Data, 2001</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_honduras_economic_2001.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2001</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2001</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Honduras_2013</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-  <attrlabl>ADM3_Code</attrlabl>
-  <attrdef>Coded Value For ADM3 [Código]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM3_Name</attrlabl>
-  <attrdef>Name of ADM3 Unit [Nombre_de_la_Aldea]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E001</attrlabl>
-  <attrdef>Worked During The Week Previous To The Census: Yes [Trabajó durante la Semana Pasada Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E002</attrlabl>
-  <attrdef>Worked During The Week Previous To The Census: No [Trabajó durante la Semana Pasada No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E003</attrlabl>
-  <attrdef>Principal Occupation: Professional Technicians And People In Related Professions [Ocupación Principal (1 Dígito) Profesionales tecnicos y personas en profesiones afines]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E004</attrlabl>
-  <attrdef>Principal Occupation: Managing Directors And General Managers [Ocupación Principal (1 Dígito) Directores gerentes y administradores generales]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E005</attrlabl>
-  <attrdef>Principal Occupation: Office Employees The Autonomous State Agencies And Business [Ocupación Principal (1 Dígito) Empleados de oficinas del estado organismos autónomos y empresa]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E006</attrlabl>
-  <attrdef>Principal Occupation: Merchants And Sellers [Ocupación Principal (1 Dígito) Comerciantes y vendedores]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E007</attrlabl>
-  <attrdef>Principal Occupation: Livestock Farmers And Farm Workers [Ocupación Principal (1 Dígito) Agricultores ganaderos y trabajadores agropecuarios]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E008</attrlabl>
-  <attrdef>Principal Occupation: Transportation Drivers And People In Occupations [Ocupación Principal (1 Dígito) Conductores de medios de transporte y personas en ocupaciones af]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E009</attrlabl>
-  <attrdef>Principal Occupation: Workers In The Textile Industry, Masonry, Mechanical, Electrition [Ocupación Principal (1 Dígito) Trabajadores de la industria textil albañilería  mecánica electr]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E010</attrlabl>
-  <attrdef>Principal Occupation: Food Workers In The Leather Chemical Graphic Area And Drinks [Ocupación Principal (1 Dígito) Trabajadores del área gráfica química alimentos y bebidas cuero]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E011</attrlabl>
-  <attrdef>Principal Occupation: Storage Operators Loading And Stowage [Ocupación Principal (1 Dígito) Operadores de carga almacenaje y estiba]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E012</attrlabl>
-  <attrdef>Principal Occupation: Occupation Of Services [Ocupación Principal (1 Dígito) Ocupación de los servicios]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E013</attrlabl>
-  <attrdef>Principal Occupation: Not Specified [Ocupación Principal (1 Dígito) No especificas]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E014</attrlabl>
-  <attrdef>Economic Activity: Activities Not Specified [Actividad Económica de la Empresa, Institución o Lugar Actividades no bien especificadas]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E015</attrlabl>
-  <attrdef>Economic Activity: Agriculture Forestry Fishing And Hunting [Actividad Económica de la Empresa, Institución o Lugar Agricultura silvicultura caza y pesca]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E016</attrlabl>
-  <attrdef>Economic Activity: Mining And Quarrying [Actividad Económica de la Empresa, Institución o Lugar Explotación de minas y canteras]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E017</attrlabl>
-  <attrdef>Economic Activity: Manufacturing Industry [Actividad Económica de la Empresa, Institución o Lugar Industria manufacturera]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E018</attrlabl>
-  <attrdef>Economic Activity: Electricity, Gas, And Water [Actividad Económica de la Empresa, Institución o Lugar Electricidad gas y agua]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E019</attrlabl>
-  <attrdef>Economic Activity: Construction [Actividad Económica de la Empresa, Institución o Lugar Construcción]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E020</attrlabl>
-  <attrdef>Economic Activity: Wholesale And Retail Hotels And Restaurants [Actividad Económica de la Empresa, Institución o Lugar Comercio al por mayor y menor hoteles y restaurantes]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E021</attrlabl>
-  <attrdef>Economic Activity: Storage Transport And Communications [Actividad Económica de la Empresa, Institución o Lugar Transporte almacenamiento y comunicaciones]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E022</attrlabl>
-  <attrdef>Economic Activity: Finance, Real Estate, And Insurance Services [Actividad Económica de la Empresa, Institución o Lugar Establec  financ  seguros bienes inmuebles y servicios a las emp]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E023</attrlabl>
-  <attrdef>Economic Activity: Community, Social And Personal Services [Actividad Económica de la Empresa, Institución o Lugar Servicios comunales sociales y personales]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E024</attrlabl>
-  <attrdef>Economic Activity: Activities Not Specified [Actividad Económica (1 Dígito) Actividades no bien especificadas]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E025</attrlabl>
-  <attrdef>Economic Activity: Agriculture Forestry Fishing And Hunting [Actividad Económica (1 Dígito) Agricultura silvicultura caza y pesca]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E026</attrlabl>
-  <attrdef>Economic Activity: Mining And Quarrying [Actividad Económica (1 Dígito) Explotación de minas y canteras]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E027</attrlabl>
-  <attrdef>Economic Activity: Manufacturing Industry [Actividad Económica (1 Dígito) Industria manufacturera]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E028</attrlabl>
-  <attrdef>Economic Activity: Electricity, Gas, And Water [Actividad Económica (1 Dígito) Electricidad gas y agua]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E029</attrlabl>
-  <attrdef>Economic Activity: Construction [Actividad Económica (1 Dígito) Construcción]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E030</attrlabl>
-  <attrdef>Economic Activity: Food Workers In The Leather Chemical Graphic Area And Drinks [Actividad Económica (1 Dígito) Comercio al por mayor y menor hoteles y restaurantes]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E031</attrlabl>
-  <attrdef>Economic Activity: Storage Transport And Communications [Actividad Económica (1 Dígito) Transporte almacenamiento y comunicaciones]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E032</attrlabl>
-  <attrdef>Economic Activity: Finance, Real Estate, And Insurance Services [Actividad Económica (1 Dígito) Establec  financ  seguros bienes inmuebles y servicios a las emp]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E033</attrlabl>
-  <attrdef>Economic Activity: Community, Social And Personal Services [Actividad Económica (1 Dígito) Servicios comunales sociales y personales]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E034</attrlabl>
-  <attrdef>Labor Status During Week Previous To Census: Attended Agricultural Crops, Forestry, Or Animal Husbandry  [Situación Laboral durante la Semana Pasada Atendió cultivos agrícolas forestales o crianza de animales de s]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E035</attrlabl>
-  <attrdef>Labor Status During Week Previous To Census: Attended Or Helped In Any Business Of Their Own Or Families [Situación Laboral durante la Semana Pasada Atendió o ayudó en algún negocio o taller propio o familiar]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E036</attrlabl>
-  <attrdef>Labor Status During Week Previous To Census: Prepared Food Or Prepared Items For Sale [Situación Laboral durante la Semana Pasada Preparó alimentos o elaboró artículos para la venta]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E037</attrlabl>
-  <attrdef>Labor Status During Week Previous To Census: Employed But On Vacation Or Leave [Situación Laboral durante la Semana Pasada Tenía trabajo pero no trabajo por estar de vacaciones licencia e]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E038</attrlabl>
-  <attrdef>Labor Status During Week Previous To Census: He Looked For Work And Had Worked Before [Situación Laboral durante la Semana Pasada Buscó trabajo y había trabajado antes]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E039</attrlabl>
-  <attrdef>Labor Status During Week Previous To Census: Was Looking For Work [Situación Laboral durante la Semana Pasada Buscó trabajo y nunca había trabajado]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E040</attrlabl>
-  <attrdef>Labor Status During Week Previous To Census: Retired Or On Pension [Situación Laboral durante la Semana Pasada Vivió de su jubilacion o pensión]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E041</attrlabl>
-  <attrdef>Labor Status During Week Previous To Census: Lives On Income From Rentals [Situación Laboral durante la Semana Pasada Vivió de sus rentas]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E042</attrlabl>
-  <attrdef>Labor Status During Week Previous To Census: Student  [Situación Laboral durante la Semana Pasada Sólo estudio]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E043</attrlabl>
-  <attrdef>Labor Status During Week Previous To Census: Only Household Chores Performed [Situación Laboral durante la Semana Pasada Sólo realizó quehaceres del hogar]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E044</attrlabl>
-  <attrdef>Labor Status During Week Previous To Census: Has A Permanent Diability And Is Unable To Work [Situación Laboral durante la Semana Pasada Está incapacitado permanentemente para trabajar]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E045</attrlabl>
-  <attrdef>Labor Status During Week Previous To Census: Other [Situación Laboral durante la Semana Pasada Otro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E046</attrlabl>
-  <attrdef>In This Job They Are: Privately Employed [En ese Trabajo se Desempeña(ba) Empleado a  u obrero a  privado]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E047</attrlabl>
-  <attrdef>In This Job They Are: Publicly Employed [En ese Trabajo se Desempeña(ba) Empleado a  u obrero a  público]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E048</attrlabl>
-  <attrdef>In This Job They Are: Employer With Employees [En ese Trabajo se Desempeña(ba) Patrón a  con empleados as ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E049</attrlabl>
-  <attrdef>In This Job They Are: Independent Worker [En ese Trabajo se Desempeña(ba) Trabajador a  independiente]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E050</attrlabl>
-  <attrdef>In This Job They Are: Unpaid Family Worker [En ese Trabajo se Desempeña(ba) Trabajador a  familiar sin pago]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E051</attrlabl>
-  <attrdef>In This Job They Are: Domestic Worker [En ese Trabajo se Desempeña(ba) Empleada o  domestica o ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E052</attrlabl>
-  <attrdef>In This Job They Are: Other [En ese Trabajo se Desempeña(ba) Otra]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E053</attrlabl>
-  <attrdef>In This Job They Are: F10 [En ese Trabajo se Desempeña(ba) F10]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E054</attrlabl>
-  <attrdef>In This Job They Are: Only Household Chores Performed [En ese Trabajo se Desempeña(ba) Sólo realizó quehaceres del hogar]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E055</attrlabl>
-  <attrdef>In This Job They Are: Has A Permanent Diability And Is Unable To Work [En ese Trabajo se Desempeña(ba) Está incapacitado permanentemente para trabajar]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E056</attrlabl>
-  <attrdef>In This Job They Are: Other [En ese Trabajo se Desempeña(ba) Otro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E057</attrlabl>
-  <attrdef>Main Occupation Or Position: Occupied [Ocupación Principal, Oficio o Puesto que Desempeña(ba) Ocupados]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E058</attrlabl>
-  <attrdef>Main Occupation Or Position: Unoccupied [Ocupación Principal, Oficio o Puesto que Desempeña(ba) Desocupados]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E059</attrlabl>
-  <attrdef>Main Occupation Or Position: Inactive [Ocupación Principal, Oficio o Puesto que Desempeña(ba) Inactivos]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv/>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Honduras_2013</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>ADM3_Code</attrlabl>
+			<attrdef>Coded Value For ADM3 [Código]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM3_Name</attrlabl>
+			<attrdef>Name of ADM3 Unit [Nombre_de_la_Aldea]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E001</attrlabl>
+			<attrdef>Worked During The Week Previous To The Census: Yes [Trabajó durante la Semana Pasada Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E002</attrlabl>
+			<attrdef>Worked During The Week Previous To The Census: No [Trabajó durante la Semana Pasada No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E003</attrlabl>
+			<attrdef>Principal Occupation: Professional Technicians And People In Related Professions [Ocupación Principal (1 Dígito) Profesionales tecnicos y personas en profesiones afines]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E004</attrlabl>
+			<attrdef>Principal Occupation: Managing Directors And General Managers [Ocupación Principal (1 Dígito) Directores gerentes y administradores generales]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E005</attrlabl>
+			<attrdef>Principal Occupation: Office Employees The Autonomous State Agencies And Business [Ocupación Principal (1 Dígito) Empleados de oficinas del estado organismos autónomos y empresa]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E006</attrlabl>
+			<attrdef>Principal Occupation: Merchants And Sellers [Ocupación Principal (1 Dígito) Comerciantes y vendedores]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E007</attrlabl>
+			<attrdef>Principal Occupation: Livestock Farmers And Farm Workers [Ocupación Principal (1 Dígito) Agricultores ganaderos y trabajadores agropecuarios]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E008</attrlabl>
+			<attrdef>Principal Occupation: Transportation Drivers And People In Occupations [Ocupación Principal (1 Dígito) Conductores de medios de transporte y personas en ocupaciones af]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E009</attrlabl>
+			<attrdef>Principal Occupation: Workers In The Textile Industry, Masonry, Mechanical, Electrition [Ocupación Principal (1 Dígito) Trabajadores de la industria textil albañilería  mecánica electr]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E010</attrlabl>
+			<attrdef>Principal Occupation: Food Workers In The Leather Chemical Graphic Area And Drinks [Ocupación Principal (1 Dígito) Trabajadores del área gráfica química alimentos y bebidas cuero]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E011</attrlabl>
+			<attrdef>Principal Occupation: Storage Operators Loading And Stowage [Ocupación Principal (1 Dígito) Operadores de carga almacenaje y estiba]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E012</attrlabl>
+			<attrdef>Principal Occupation: Occupation Of Services [Ocupación Principal (1 Dígito) Ocupación de los servicios]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E013</attrlabl>
+			<attrdef>Principal Occupation: Not Specified [Ocupación Principal (1 Dígito) No especificas]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E014</attrlabl>
+			<attrdef>Economic Activity: Activities Not Specified [Actividad Económica de la Empresa, Institución o Lugar Actividades no bien especificadas]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E015</attrlabl>
+			<attrdef>Economic Activity: Agriculture Forestry Fishing And Hunting [Actividad Económica de la Empresa, Institución o Lugar Agricultura silvicultura caza y pesca]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E016</attrlabl>
+			<attrdef>Economic Activity: Mining And Quarrying [Actividad Económica de la Empresa, Institución o Lugar Explotación de minas y canteras]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E017</attrlabl>
+			<attrdef>Economic Activity: Manufacturing Industry [Actividad Económica de la Empresa, Institución o Lugar Industria manufacturera]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E018</attrlabl>
+			<attrdef>Economic Activity: Electricity, Gas, And Water [Actividad Económica de la Empresa, Institución o Lugar Electricidad gas y agua]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E019</attrlabl>
+			<attrdef>Economic Activity: Construction [Actividad Económica de la Empresa, Institución o Lugar Construcción]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E020</attrlabl>
+			<attrdef>Economic Activity: Wholesale And Retail Hotels And Restaurants [Actividad Económica de la Empresa, Institución o Lugar Comercio al por mayor y menor hoteles y restaurantes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E021</attrlabl>
+			<attrdef>Economic Activity: Storage Transport And Communications [Actividad Económica de la Empresa, Institución o Lugar Transporte almacenamiento y comunicaciones]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E022</attrlabl>
+			<attrdef>Economic Activity: Finance, Real Estate, And Insurance Services [Actividad Económica de la Empresa, Institución o Lugar Establec  financ  seguros bienes inmuebles y servicios a las emp]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E023</attrlabl>
+			<attrdef>Economic Activity: Community, Social And Personal Services [Actividad Económica de la Empresa, Institución o Lugar Servicios comunales sociales y personales]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E024</attrlabl>
+			<attrdef>Economic Activity: Activities Not Specified [Actividad Económica (1 Dígito) Actividades no bien especificadas]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E025</attrlabl>
+			<attrdef>Economic Activity: Agriculture Forestry Fishing And Hunting [Actividad Económica (1 Dígito) Agricultura silvicultura caza y pesca]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E026</attrlabl>
+			<attrdef>Economic Activity: Mining And Quarrying [Actividad Económica (1 Dígito) Explotación de minas y canteras]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E027</attrlabl>
+			<attrdef>Economic Activity: Manufacturing Industry [Actividad Económica (1 Dígito) Industria manufacturera]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E028</attrlabl>
+			<attrdef>Economic Activity: Electricity, Gas, And Water [Actividad Económica (1 Dígito) Electricidad gas y agua]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E029</attrlabl>
+			<attrdef>Economic Activity: Construction [Actividad Económica (1 Dígito) Construcción]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E030</attrlabl>
+			<attrdef>Economic Activity: Food Workers In The Leather Chemical Graphic Area And Drinks [Actividad Económica (1 Dígito) Comercio al por mayor y menor hoteles y restaurantes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E031</attrlabl>
+			<attrdef>Economic Activity: Storage Transport And Communications [Actividad Económica (1 Dígito) Transporte almacenamiento y comunicaciones]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E032</attrlabl>
+			<attrdef>Economic Activity: Finance, Real Estate, And Insurance Services [Actividad Económica (1 Dígito) Establec  financ  seguros bienes inmuebles y servicios a las emp]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E033</attrlabl>
+			<attrdef>Economic Activity: Community, Social And Personal Services [Actividad Económica (1 Dígito) Servicios comunales sociales y personales]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E034</attrlabl>
+			<attrdef>Labor Status During Week Previous To Census: Attended Agricultural Crops, Forestry, Or Animal Husbandry  [Situación Laboral durante la Semana Pasada Atendió cultivos agrícolas forestales o crianza de animales de s]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E035</attrlabl>
+			<attrdef>Labor Status During Week Previous To Census: Attended Or Helped In Any Business Of Their Own Or Families [Situación Laboral durante la Semana Pasada Atendió o ayudó en algún negocio o taller propio o familiar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E036</attrlabl>
+			<attrdef>Labor Status During Week Previous To Census: Prepared Food Or Prepared Items For Sale [Situación Laboral durante la Semana Pasada Preparó alimentos o elaboró artículos para la venta]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E037</attrlabl>
+			<attrdef>Labor Status During Week Previous To Census: Employed But On Vacation Or Leave [Situación Laboral durante la Semana Pasada Tenía trabajo pero no trabajo por estar de vacaciones licencia e]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E038</attrlabl>
+			<attrdef>Labor Status During Week Previous To Census: He Looked For Work And Had Worked Before [Situación Laboral durante la Semana Pasada Buscó trabajo y había trabajado antes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E039</attrlabl>
+			<attrdef>Labor Status During Week Previous To Census: Was Looking For Work [Situación Laboral durante la Semana Pasada Buscó trabajo y nunca había trabajado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E040</attrlabl>
+			<attrdef>Labor Status During Week Previous To Census: Retired Or On Pension [Situación Laboral durante la Semana Pasada Vivió de su jubilacion o pensión]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E041</attrlabl>
+			<attrdef>Labor Status During Week Previous To Census: Lives On Income From Rentals [Situación Laboral durante la Semana Pasada Vivió de sus rentas]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E042</attrlabl>
+			<attrdef>Labor Status During Week Previous To Census: Student  [Situación Laboral durante la Semana Pasada Sólo estudio]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E043</attrlabl>
+			<attrdef>Labor Status During Week Previous To Census: Only Household Chores Performed [Situación Laboral durante la Semana Pasada Sólo realizó quehaceres del hogar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E044</attrlabl>
+			<attrdef>Labor Status During Week Previous To Census: Has A Permanent Diability And Is Unable To Work [Situación Laboral durante la Semana Pasada Está incapacitado permanentemente para trabajar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E045</attrlabl>
+			<attrdef>Labor Status During Week Previous To Census: Other [Situación Laboral durante la Semana Pasada Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E046</attrlabl>
+			<attrdef>In This Job They Are: Privately Employed [En ese Trabajo se Desempeña(ba) Empleado a  u obrero a  privado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E047</attrlabl>
+			<attrdef>In This Job They Are: Publicly Employed [En ese Trabajo se Desempeña(ba) Empleado a  u obrero a  público]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E048</attrlabl>
+			<attrdef>In This Job They Are: Employer With Employees [En ese Trabajo se Desempeña(ba) Patrón a  con empleados as ]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E049</attrlabl>
+			<attrdef>In This Job They Are: Independent Worker [En ese Trabajo se Desempeña(ba) Trabajador a  independiente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E050</attrlabl>
+			<attrdef>In This Job They Are: Unpaid Family Worker [En ese Trabajo se Desempeña(ba) Trabajador a  familiar sin pago]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E051</attrlabl>
+			<attrdef>In This Job They Are: Domestic Worker [En ese Trabajo se Desempeña(ba) Empleada o  domestica o ]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E052</attrlabl>
+			<attrdef>In This Job They Are: Other [En ese Trabajo se Desempeña(ba) Otra]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E053</attrlabl>
+			<attrdef>In This Job They Are: F10 [En ese Trabajo se Desempeña(ba) F10]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E054</attrlabl>
+			<attrdef>In This Job They Are: Only Household Chores Performed [En ese Trabajo se Desempeña(ba) Sólo realizó quehaceres del hogar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E055</attrlabl>
+			<attrdef>In This Job They Are: Has A Permanent Diability And Is Unable To Work [En ese Trabajo se Desempeña(ba) Está incapacitado permanentemente para trabajar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E056</attrlabl>
+			<attrdef>In This Job They Are: Other [En ese Trabajo se Desempeña(ba) Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E057</attrlabl>
+			<attrdef>Main Occupation Or Position: Occupied [Ocupación Principal, Oficio o Puesto que Desempeña(ba) Ocupados]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E058</attrlabl>
+			<attrdef>Main Occupation Or Position: Unoccupied [Ocupación Principal, Oficio o Puesto que Desempeña(ba) Desocupados]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E059</attrlabl>
+			<attrdef>Main Occupation Or Position: Inactive [Ocupación Principal, Oficio o Puesto que Desempeña(ba) Inactivos]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv/>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_honduras_economic_2001</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 
 <metainfo>
-<metd>20190901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20190901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_honduras_economic_2001</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

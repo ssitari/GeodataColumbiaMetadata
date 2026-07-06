@@ -14,7 +14,9 @@
 					<sername>NJ Transportation Maps and Tables</sername>
 				</serinfo>
 				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/halcrow_hudsonbergenlines_2007.zip</onlink>
-				<origin>CommunityCartography (Firm)</origin><pubdate>2007</pubdate></citeinfo>
+				<origin>CommunityCartography (Firm)</origin>
+				<pubdate>2007</pubdate>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>New York Hudson Bergen Light Rail Line, 2007 is a line theme representing the Hudson-Bergen rail line in New Jersey.  Attribute information includes the name of the line and the length of the segment. </abstract>
@@ -24,223 +26,294 @@
 		<timeperd>
 			<timeinfo>
 				<sngdate>
-					<caldate>2007</caldate></sngdate>
+					<caldate>2007</caldate>
+				</sngdate>
 			</timeinfo>
-			<current>ground condition</current></timeperd>
+			<current>ground condition</current>
+		</timeperd>
 		<status>
 			<update>As needed</update>
-			<progress>Complete</progress></status>
+			<progress>Complete</progress>
+		</status>
 		<spdom>
 			<bounding>
 				<westbc>
 -74.116358</westbc>
-				<eastbc>
+					<eastbc>
 -74.012462</eastbc>
-				<northbc>
+						<northbc>
 40.787656</northbc>
-				<southbc>
+							<southbc>
 40.660846</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>transportation</themekey>
-				<themekey>Bayonne (N.J.)</themekey></theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>New Jersey (5101760)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>New Jersey</placekey><placekey>Hudson County (N.J.)</placekey><placekey>Bergen County (N.J.)</placekey><placekey>Hoboken (N.J.)</placekey><placekey>Jersey City (N.J.)</placekey><placekey>Weehawken (N.J.)</placekey><placekey>Union City (N.J.)</placekey></place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2007</tempkey>
-			</temporal>
-			<theme><themekey>Light Rail</themekey><themekey>Passenger trains</themekey><themekey>Rail lines</themekey><themekey>Railroad</themekey><themekey>Public Transit</themekey><themekt>None</themekt></theme></keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>CommunityCartography</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>1200 MacArthur Blvd</address>
-					<city>Mahwah</city>
-					<state>NJ</state>
-					<postal>07430</postal>
-				</cntaddr>
-				<cntvoice>1-877-MakeMap</cntvoice>
-				<cntfax>201-529-5728</cntfax>
-				<cntemail>info@comcarto.com</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/hudson_bergen.jpg</browsen>
-			<browsed>Thumbnail</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.1.1332</native>
-		<crossref>
-			<citeinfo>
-				<origin>Community Cartography</origin>
-				<title>Hudson-Bergen Light Rail Stations</title><geoform>vector digital data</geoform><onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/hudson_bergen_station.zip</onlink></citeinfo>
-		</crossref>
-	</idinfo>
-	<dataqual>
-		<lineage>
-			<procstep>
-				<procdesc>The New Jersey rail data is derived from MapInfo files from the New Jersey Port Authority with a source scale of 1:100,000.  Data were projected and converted to shapefiles.</procdesc>
-				<procdate>2007</procdate>
-				<srcused>MapInfo files from the New Jersey Port Authority</srcused></procstep>
-			<procstep>
-				<procdesc>Separated passenger lines from freight/inactive lines.  Separate shapefiles created for NJT Rail, NJT Hudson-Bergen Light Rail, NJT Newark Subway, NJT Riverline, Amtrak, PATCO, and SEPTA lines.</procdesc>
-				<procdate>May - September 2007</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>Features were redrawn based on the NJ Transit files, using onscreen digitizing with NJ DoT Roads (2005), NJ Transit Light Rail map image (2006), and NJ DEP Orthophotos (2002) as references.  Stations were snapped to line endpoints.  Created duplicate line segments for each line designation along the same tracks.</procdesc>
-				<procdate>August 2007</procdate>
-				<srcused>NJ DoT Roads</srcused><srcused>NJ Transit Light Rail map image </srcused><srcused>NJ DEP Orthophotos </srcused></procstep>
-			<srcinfo><srccite><citeinfo><origin>New Jersey Port Authority</origin><title>MapInfo files from the New Jersey Port Authority</title><geoform>vector digital data</geoform></citeinfo></srccite><srcscale>100000</srcscale><typesrc>GIS vector layers</typesrc><srccitea>MapInfo files from the New Jersey Port Authority</srccitea></srcinfo><srcinfo><srccite><citeinfo><pubdate>2005</pubdate><title>NJ DoT Roads </title><origin>New Jersey Department of Transportation</origin></citeinfo></srccite><srccitea>NJ DoT Roads</srccitea></srcinfo><srcinfo><srccite><citeinfo><pubdate>2006</pubdate><title>NJ Transit Light Rail map image</title><geoform>raster digital data</geoform></citeinfo></srccite><srccitea>NJ Transit Light Rail map image</srccitea></srcinfo><srcinfo><srccite><citeinfo><origin>New Jersey Department of Environmental Protection</origin><pubdate>2002</pubdate><title>NJ DEP Orthophotos</title><geoform>raster digital data</geoform></citeinfo></srccite><srccitea>NJ DEP Orthophotos</srccitea></srcinfo></lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>String</sdtstype>
-				<ptvctcnt>35</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<planar>
-				<gridsys>
-					<gridsysn>State Plane Coordinate System</gridsysn>
-					<spcs>
-						<spcszone>2900</spcszone>
-						<transmer>
-							<sfctrmer>0.999900</sfctrmer>
-							<longcm>-74.500000</longcm>
-							<latprjo>38.833333</latprjo>
-							<feast>492125.000000</feast>
-							<fnorth>0.000000</fnorth>
-						</transmer>
-					</spcs>
-				</gridsys>
-				<planci>
-					<plance>coordinate pair</plance>
-					<coordrep>
-						<absres>0.000000</absres>
-						<ordres>0.000000</ordres>
-					</coordrep>
-					<plandu>survey feet</plandu>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>North American Datum of 1983</horizdn>
-				<ellips>Geodetic Reference System 80</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257222</denflat>
-			</geodetic>
-		</horizsys>
-		<vertdef>
-			<altsys>
-				<altres>0.000010</altres>
-				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-			</altsys>
-		</vertdef>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>transportation</themekey>
+								<themekey>Bayonne (N.J.)</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>New Jersey (5101760)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>New Jersey</placekey>
+								<placekey>Hudson County (N.J.)</placekey>
+								<placekey>Bergen County (N.J.)</placekey>
+								<placekey>Hoboken (N.J.)</placekey>
+								<placekey>Jersey City (N.J.)</placekey>
+								<placekey>Weehawken (N.J.)</placekey>
+								<placekey>Union City (N.J.)</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2007</tempkey>
+							</temporal>
+							<theme>
+								<themekey>Light Rail</themekey>
+								<themekey>Passenger trains</themekey>
+								<themekey>Rail lines</themekey>
+								<themekey>Railroad</themekey>
+								<themekey>Public Transit</themekey>
+								<themekt>None</themekt>
+							</theme>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>CommunityCartography</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>1200 MacArthur Blvd</address>
+									<city>Mahwah</city>
+									<state>NJ</state>
+									<postal>07430</postal>
+								</cntaddr>
+								<cntvoice>1-877-MakeMap</cntvoice>
+								<cntfax>201-529-5728</cntfax>
+								<cntemail>info@comcarto.com</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/hudson_bergen.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.1.1332</native>
+						<crossref>
+							<citeinfo>
+								<origin>Community Cartography</origin>
+								<title>Hudson-Bergen Light Rail Stations</title>
+								<geoform>vector digital data</geoform>
+								<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/hudson_bergen_station.zip</onlink>
+							</citeinfo>
+						</crossref>
+					</idinfo>
+					<dataqual>
+						<lineage>
+							<procstep>
+								<procdesc>The New Jersey rail data is derived from MapInfo files from the New Jersey Port Authority with a source scale of 1:100,000.  Data were projected and converted to shapefiles.</procdesc>
+								<procdate>2007</procdate>
+								<srcused>MapInfo files from the New Jersey Port Authority</srcused>
+							</procstep>
+							<procstep>
+								<procdesc>Separated passenger lines from freight/inactive lines.  Separate shapefiles created for NJT Rail, NJT Hudson-Bergen Light Rail, NJT Newark Subway, NJT Riverline, Amtrak, PATCO, and SEPTA lines.</procdesc>
+								<procdate>May - September 2007</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>Features were redrawn based on the NJ Transit files, using onscreen digitizing with NJ DoT Roads (2005), NJ Transit Light Rail map image (2006), and NJ DEP Orthophotos (2002) as references.  Stations were snapped to line endpoints.  Created duplicate line segments for each line designation along the same tracks.</procdesc>
+								<procdate>August 2007</procdate>
+								<srcused>NJ DoT Roads</srcused>
+								<srcused>NJ Transit Light Rail map image </srcused>
+								<srcused>NJ DEP Orthophotos </srcused>
+							</procstep>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>New Jersey Port Authority</origin>
+										<title>MapInfo files from the New Jersey Port Authority</title>
+										<geoform>vector digital data</geoform>
+									</citeinfo>
+								</srccite>
+								<srcscale>100000</srcscale>
+								<typesrc>GIS vector layers</typesrc>
+								<srccitea>MapInfo files from the New Jersey Port Authority</srccitea>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<pubdate>2005</pubdate>
+										<title>NJ DoT Roads </title>
+										<origin>New Jersey Department of Transportation</origin>
+									</citeinfo>
+								</srccite>
+								<srccitea>NJ DoT Roads</srccitea>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<pubdate>2006</pubdate>
+										<title>NJ Transit Light Rail map image</title>
+										<geoform>raster digital data</geoform>
+									</citeinfo>
+								</srccite>
+								<srccitea>NJ Transit Light Rail map image</srccitea>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>New Jersey Department of Environmental Protection</origin>
+										<pubdate>2002</pubdate>
+										<title>NJ DEP Orthophotos</title>
+										<geoform>raster digital data</geoform>
+									</citeinfo>
+								</srccite>
+								<srccitea>NJ DEP Orthophotos</srccitea>
+							</srcinfo>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>String</sdtstype>
+								<ptvctcnt>35</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<planar>
+								<gridsys>
+									<gridsysn>State Plane Coordinate System</gridsysn>
+									<spcs>
+										<spcszone>2900</spcszone>
+										<transmer>
+											<sfctrmer>0.999900</sfctrmer>
+											<longcm>-74.500000</longcm>
+											<latprjo>38.833333</latprjo>
+											<feast>492125.000000</feast>
+											<fnorth>0.000000</fnorth>
+										</transmer>
+									</spcs>
+								</gridsys>
+								<planci>
+									<plance>coordinate pair</plance>
+									<coordrep>
+										<absres>0.000000</absres>
+										<ordres>0.000000</ordres>
+									</coordrep>
+									<plandu>survey feet</plandu>
+								</planci>
+							</planar>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+						<vertdef>
+							<altsys>
+								<altres>0.000010</altres>
+								<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+							</altsys>
+						</vertdef>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 hudson_bergen</enttypl>
-				<enttypd>Rail line</enttypd></enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>ID</attrlabl>
-				<attrdef>id number</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>LINE</attrlabl>
-				<attrdef>line name</attrdef>
-				<attrdefs>NJ Transit</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>LENGTH</attrlabl>
-				<attrdef>length in feet</attrdef>
-				<attrdefs>ComCarto</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>LENGTH_MI</attrlabl>
-				<attrdef>length in miles</attrdef>
-				<attrdefs>ComCarto</attrdefs>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>CommunityCartography</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>1200 MacArthur Blvd</address>
-					<city>Mahwah</city>
-					<state>NJ</state>
-					<postal>07430</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>1-877-MakeMap</cntvoice>
-				<cntfax>201-529-5728</cntfax>
-				<cntemail>info@comcarto.com</cntemail>
-			</cntinfo>
-		</distrib>
-		<distliab>Maps and databases provided by CommunityCartography, Inc. use information provided by government agencies and other sources of geographic data, and are subject to change without notice. CommunityCartography cannot guarantee the data provided by these sources. In no event will CommunityCartography be liable for any incidental, indirect, consequential or other damages suffered by any users of this information or other persons.</distliab>
+									<enttypd>Rail line</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>ID</attrlabl>
+									<attrdef>id number</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>LINE</attrlabl>
+									<attrdef>line name</attrdef>
+									<attrdefs>NJ Transit</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>LENGTH</attrlabl>
+									<attrdef>length in feet</attrdef>
+									<attrdefs>ComCarto</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>LENGTH_MI</attrlabl>
+									<attrdef>length in miles</attrdef>
+									<attrdefs>ComCarto</attrdefs>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>CommunityCartography</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>1200 MacArthur Blvd</address>
+										<city>Mahwah</city>
+										<state>NJ</state>
+										<postal>07430</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>1-877-MakeMap</cntvoice>
+									<cntfax>201-529-5728</cntfax>
+									<cntemail>info@comcarto.com</cntemail>
+								</cntinfo>
+							</distrib>
+							<distliab>Maps and databases provided by CommunityCartography, Inc. use information provided by government agencies and other sources of geographic data, and are subject to change without notice. CommunityCartography cannot guarantee the data provided by these sources. In no event will CommunityCartography be liable for any incidental, indirect, consequential or other damages suffered by any users of this information or other persons.</distliab>
 
-		<resdesc>halcrow_hudsonbergenlines_2007</resdesc></distinfo>
-	<metainfo>
-		<metd>20080109</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+							<resdesc>halcrow_hudsonbergenlines_2007</resdesc>
+						</distinfo>
+						<metainfo>
+							<metd>20080109</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

@@ -25,7 +25,8 @@
 					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
 				</pubinfo>
 				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_spcszn83.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_spcszn83.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>publication date</current>
@@ -80,7 +81,11 @@
 				<tempkt>None</tempkt>
 				<tempkey>1988</tempkey>
 			</temporal>
-			<theme><themekt>ISO 19115 Topic Category</themekt><themekey>location</themekey></theme></keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>location</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -112,30 +117,83 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_spcszn83.jpg</browsen><browsed>Thumbnail</browsed><browset>JPEG</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_spcszn83.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>JPEG</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>ArcData Online GIS Data on the web -U.S. State Plane Zones Data Set</title>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<pubdate>1997</pubdate>
+						<edition>1</edition>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<publish>Esri</publish>
+							<pubplace>Redlands, California, USA</pubplace>
+						</pubinfo>
+						<onlink>http://www.esri.com/data/online/esri/datapacks/stateplane.html</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>198812</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>ADOL</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>This data set was created from several sources: Extracted state boundaries from ArcUSA™ 1:25M.  Created state plane boundaries based the map, "Index of State Plane Coordinate (SPC) Zone Codes (NAD 1983)" dated 12/1988 and published by the National Oceanographic and Atmospheric Administration (NOAA).
+
+How NAD 1983 changed from NAD 1927:
+- CA_7 (Los Angeles County) was combined with CA_5.
+- Michigan changed its zones, MI_W, MI_C, and MI_E that use the Transverse Mercator projection, to MI_N, MI_C, and MI_S that use the Lambert Conformal Conic projection. SPCS1927 shows the old zones even though they aren't strictly NAD 1927.
+- The three Montana zones were combined into one.
+- The two Nebraska zones were combined into one.
+- The two South Carolina zones were combined into one.
+- Valencia County in New Mexico is in NM_W for NAD 1927, but in NM_C for NAD 1983.
+- Part of Grant County in Washington was changed from WA_S to WA_N.</procdesc>
+				<procsv>ArcView GIS 3.x</procsv>
+				<procdate>1997</procdate>
+				<srcprod>ADOL</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri for Data &amp; Maps 2002: Removed independent city void areas in Virginia.
+
+The following steps were performed by Esri: Downloaded the ArcView GIS Shapefile, spcs_zone.zip, from http://www.esri.com/data/online/esri/datapacks/stateplane.html and extracted it.  Removed unneeded attributes.  Converted to North American Datum of 1983 (NAD83) by splitting the United States into Alaska, Hawaii, and the 48 contiguous states (including District of Columbia); converting each to NAD83; then merging them together.  Created ArcGIS layer file (.lyr).  Created projection file (.prj).  Ran ArcView GIS Avenue™ request ExportClean, and created spatial indices. Converted the data set to SDC.</procdesc>
+				<procsv>ArcView GIS 3.2</procsv>
+				<srcused>ADOL</srcused>
+				<procdate>20020122</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Added SQMI attribute and calculated its values.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
+				<procdate>20040308</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Renamed attribute ZONENAME83 to ZONE. Renamed FIPSZONE83 to FIPSZONE. Added attribute ZONENAME and calculated its values with the descriptions of attribute ZONE. Added attribute COLORMAP and calculated its values from 1 to 5.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
+				<procdate>20050306</procdate>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The horizontal positional accuracy is unknown.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry. The data set boundaries are approximations of the actual State Plane Coordinate System zone boundaries.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -223,7 +281,20 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
 			</attr>
-			<attr><attrlabl>ZONENAME</attrlabl><attalias>ZONENAME</attalias><attrtype>String</attrtype><attwidth>30</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>The description of the zone.</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Descriptions for the features.</udom></attrdomv></attr><attr>
+			<attr>
+				<attrlabl>ZONENAME</attrlabl>
+				<attalias>ZONENAME</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>30</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>The description of the zone.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Descriptions for the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
 				<attrlabl>FIPSZONE</attrlabl>
 				<attalias>FIPSZONE</attalias>
 				<attrtype>String</attrtype>
@@ -252,7 +323,23 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 					<udom>Calculated areas for the features.</udom>
 				</attrdomv>
 			</attr>
-			<attr><attrlabl>COLORMAP</attrlabl><attalias>COLORMAP</attalias><attrtype>Integer</attrtype><attwidth>4</attwidth><atprecis>1</atprecis><attscale>0</attscale><attrdef>The number allows the zone to be colored so zones of the same color don't touch.</attrdef><attrdefs>Esri</attrdefs><attrdomv><rdom><rdommin>1</rdommin><rdommax>5</rdommax></rdom></attrdomv></attr></detailed>
+			<attr>
+				<attrlabl>COLORMAP</attrlabl>
+				<attalias>COLORMAP</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>1</atprecis>
+				<attscale>0</attscale>
+				<attrdef>The number allows the zone to be colored so zones of the same color don't touch.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>5</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+		</detailed>
 	</eainfo>
 	<distinfo>
 		<stdorder>
@@ -273,7 +360,14 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 						</reccap>
 						<recfmt>UDF (Universal Disc Format)</recfmt>
 					</offoptn>
-					<onlinopt><computer><networka><networkr>http://www.ArcGIS.com</networkr></networka></computer></onlinopt></digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ArcGIS.com</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
 			</digform>
 			<fees>Software purchase price</fees>
 			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
@@ -301,70 +395,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_us_spcszn83</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>ArcData Online GIS Data on the web -U.S. State Plane Zones Data Set</title>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>1997</pubdate>
-						<edition>1</edition>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<publish>Esri</publish>
-							<pubplace>Redlands, California, USA</pubplace>
-						</pubinfo>
-						<onlink>http://www.esri.com/data/online/esri/datapacks/stateplane.html</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>198812</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>ADOL</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>This data set was created from several sources: Extracted state boundaries from ArcUSA™ 1:25M.  Created state plane boundaries based the map, "Index of State Plane Coordinate (SPC) Zone Codes (NAD 1983)" dated 12/1988 and published by the National Oceanographic and Atmospheric Administration (NOAA).
-
-How NAD 1983 changed from NAD 1927:
-- CA_7 (Los Angeles County) was combined with CA_5.
-- Michigan changed its zones, MI_W, MI_C, and MI_E that use the Transverse Mercator projection, to MI_N, MI_C, and MI_S that use the Lambert Conformal Conic projection. SPCS1927 shows the old zones even though they aren't strictly NAD 1927.
-- The three Montana zones were combined into one.
-- The two Nebraska zones were combined into one.
-- The two South Carolina zones were combined into one.
-- Valencia County in New Mexico is in NM_W for NAD 1927, but in NM_C for NAD 1983.
-- Part of Grant County in Washington was changed from WA_S to WA_N.</procdesc>
-				<procsv>ArcView GIS 3.x</procsv>
-				<procdate>1997</procdate>
-				<srcprod>ADOL</srcprod>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri for Data &amp; Maps 2002: Removed independent city void areas in Virginia.
-
-The following steps were performed by Esri: Downloaded the ArcView GIS Shapefile, spcs_zone.zip, from http://www.esri.com/data/online/esri/datapacks/stateplane.html and extracted it.  Removed unneeded attributes.  Converted to North American Datum of 1983 (NAD83) by splitting the United States into Alaska, Hawaii, and the 48 contiguous states (including District of Columbia); converting each to NAD83; then merging them together.  Created ArcGIS layer file (.lyr).  Created projection file (.prj).  Ran ArcView GIS Avenue™ request ExportClean, and created spatial indices. Converted the data set to SDC.</procdesc>
-				<procsv>ArcView GIS 3.2</procsv>
-				<srcused>ADOL</srcused>
-				<procdate>20020122</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Added SQMI attribute and calculated its values.</procdesc>
-				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
-				<procdate>20040308</procdate>
-			</procstep>
-			<procstep><procdesc>The following steps were performed by Esri: Renamed attribute ZONENAME83 to ZONE. Renamed FIPSZONE83 to FIPSZONE. Added attribute ZONENAME and calculated its values with the descriptions of attribute ZONE. Added attribute COLORMAP and calculated its values from 1 to 5.</procdesc><procsv>ArcView GIS 3, ArcGIS 9</procsv><procdate>20050306</procdate></procstep></lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The horizontal positional accuracy is unknown.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry. The data set boundaries are approximations of the actual State Plane Coordinate System zone boundaries.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

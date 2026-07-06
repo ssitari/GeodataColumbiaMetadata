@@ -1,513 +1,513 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Nicaragua (3617476)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Nicaragua</placekey>
-<placekey>Nicaragua</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2005</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-87.692194</westbc>
-<eastbc>-82.970746</eastbc>
-<northbc>15.029491</northbc>
-<southbc>10.707382</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Nicaragua (3617476)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Nicaragua</placekey>
+				<placekey>Nicaragua</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2005</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-87.692194</westbc>
+				<eastbc>-82.970746</eastbc>
+				<northbc>15.029491</northbc>
+				<southbc>10.707382</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Nicaragua Economic Census Data, 2005 is a polygon theme representing Barrios (4th level administrative units) in Nicaragua as of 2005.  Attribute data include economic variables from the 2005 Nicaraguan census.
 Official population and housing data for Nicaragua from the 2005 census. This census is provided at the barrio administrative level (ADM4) and includes 8,136 polygons with 352 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Miembro Del Hogar Falleció Desde El 1 De Enero De 2004: Si" was updated to D001 and given the alias "Member Of The Household Has Died Since January 1st 2004: Yes[Miembro Del Hogar Falleció Desde El 1 De Enero De 2004: Si]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Nicaragua Economic Census Data, 2005</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Nicaragua Economic Census Data, 2005</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_nicaragua_economic_2005.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2005</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2005</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Nicaragua_2005</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E001</attrlabl>
-    <attrdef>A Member Of This Household; Makes A Product Or Article To Sell: Yes[Algún Miembro De Este Hogar; Hacer Algún Producto O Articulo Para Vender: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E002</attrlabl>
-    <attrdef>A Member Of This Household; Makes A Product Or Article To Sell: No[Algún Miembro De Este Hogar; Hacer Algún Producto O Articulo Para Vender: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E003</attrlabl>
-    <attrdef>A Member Of This Household; Makes A Product Or Article To Sell: Ignored[Algún Miembro De Este Hogar; Hacer Algún Producto O Articulo Para Vender: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E004</attrlabl>
-    <attrdef>A Member Of This Household; Sells ??Any Product Or Item That They Do Not Manufacture, Produce Or Make: Yes[Algún Miembro De Este Hogar; Vender Algún Producto O Artículo Que No Fabriquen, Produzcan O Hagan: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E005</attrlabl>
-    <attrdef>A Member Of This Household; Sells ??Any Product Or Item That They Do Not Manufacture, Produce Or Make: No[Algún Miembro De Este Hogar; Vender Algún Producto O Artículo Que No Fabriquen, Produzcan O Hagan: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E006</attrlabl>
-    <attrdef>A Member Of This Household; Sells ??Any Product Or Item That They Do Not Manufacture, Produce Or Make: Ignored[Algún Miembro De Este Hogar; Vender Algún Producto O Artículo Que No Fabriquen, Produzcan O Hagan: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E007</attrlabl>
-    <attrdef>A Member Of This Household; Provides A Service: Yes[Algún Miembro De Este Hogar; Prestar Algún Servicio: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E008</attrlabl>
-    <attrdef>A Member Of This Household; Provides A Service: No[Algún Miembro De Este Hogar; Prestar Algún Servicio: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E009</attrlabl>
-    <attrdef>A Member Of This Household; Provides A Service: Ignored[Algún Miembro De Este Hogar; Prestar Algún Servicio: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E010</attrlabl>
-    <attrdef>Member Of This Household Performs Agricultural Activity On Its Own Or As A Patron: Yes[Miembro De Este Hogar Realiza Actividad Agropecuaria Por Cuenta Propia O Como Patrón: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E011</attrlabl>
-    <attrdef>Member Of This Household Performs Agricultural Activity On Its Own Or As A Patron: No[Miembro De Este Hogar Realiza Actividad Agropecuaria Por Cuenta Propia O Como Patrón: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E012</attrlabl>
-    <attrdef>Member Of This Household Performs Agricultural Activity On Its Own Or As A Patron: Ignored[Miembro De Este Hogar Realiza Actividad Agropecuaria Por Cuenta Propia O Como Patrón: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E013</attrlabl>
-    <attrdef>Received, Remittances In The Last 12 Months From Someone Outside The Country: Yes[Recibió, Remesas En Los Últimos 12 Meses De Alguna Persona Fuera Del País: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E014</attrlabl>
-    <attrdef>Received, Remittances In The Last 12 Months From Someone Outside The Country: No[Recibió, Remesas En Los Últimos 12 Meses De Alguna Persona Fuera Del País: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E015</attrlabl>
-    <attrdef>Received, Remittances In The Last 12 Months From Someone Outside The Country: Ignored[Recibió, Remesas En Los Últimos 12 Meses De Alguna Persona Fuera Del País: Ignorado]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E016</attrlabl>
-    <attrdef>Occupation: Employee/Worker[Ocupacion: Empleado/Obrero]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E017</attrlabl>
-    <attrdef>Occupation: Laborer[Ocupacion: Jornalero/Peon]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E018</attrlabl>
-    <attrdef>Occupation: Unpaid Labor[Ocupacion: Trabajador Sin Pago]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E019</attrlabl>
-    <attrdef>Occupation: Employer[Ocupacion: Patron/Empresario]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E020</attrlabl>
-    <attrdef>Occupation: Self Employed[Ocupacion: Cuenta Propia]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E021</attrlabl>
-    <attrdef>Occupation: Cooprative Member[Ocupacion: Miembro De Cooprative]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E022</attrlabl>
-    <attrdef>Occupation: Other[Ocupacion: Orto]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E023</attrlabl>
-    <attrdef>Occupation: Total[Ocupacion: F9]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E024</attrlabl>
-    <attrdef>Occupational Category: Agriculture, Hunting, Forestry[Categoría De Ocupación: Agricultura, Caza, Silvicultura]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E025</attrlabl>
-    <attrdef>Occupational Category: Fishing[Categoría De Ocupación: Pesca]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E026</attrlabl>
-    <attrdef>Occupational Category: Mines And Quarries[Categoría De Ocupación: Minas Y Canteras]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E027</attrlabl>
-    <attrdef>Occupational Category: Manufacturing Industry[Categoría De Ocupación: Industria Manufacturera]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E028</attrlabl>
-    <attrdef>Occupational Category: Electricity, Gas[Categoría De Ocupación: Electricidad, Gas]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E029</attrlabl>
-    <attrdef>Occupational Category: Water[Categoría De Ocupación: Agua]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E030</attrlabl>
-    <attrdef>Occupational Category: Building[Categoría De Ocupación: Construccion]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E031</attrlabl>
-    <attrdef>Occupational Category: Commerce, Hotels, Restaurants[Categoría De Ocupación: Comercio, Hoteles, Restaurantes]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E032</attrlabl>
-    <attrdef>Occupational Category: Transportation, Storage And Communications[Categoría De Ocupación: Transporte, Almacenamiento Y Comunicaciones]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E033</attrlabl>
-    <attrdef>Occupational Category: Financial Establishments[Categoría De Ocupación: Establecimientos Financieros]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E034</attrlabl>
-    <attrdef>Occupational Category: Real Estate Business Activities And Rentals[Categoría De Ocupación: Actividades Inmobiliarias Empresariales Y De Alquiler]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E035</attrlabl>
-    <attrdef>Occupational Category: Public Administration And Defense Education And Health[Categoría De Ocupación: Administracion Publica Y Defenza Educacion Y Salud]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E036</attrlabl>
-    <attrdef>Occupational Category: Social And Communal Services Organizations[Categoría De Ocupación: Servicios Sociales Y Comunales Organismos]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E037</attrlabl>
-    <attrdef>Occupational Category: Activities Not Well Defined[Categoría De Ocupación: Actividades No Bien Definidas]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E038</attrlabl>
-    <attrdef>Unsatisfied Basic Needs: Not Poor[Nececidades Básicas Insatisfechas: No Pobre]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E039</attrlabl>
-    <attrdef>Unsatisfied Basic Needs: Poor[Nececidades Básicas Insatisfechas: Pobre]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E040</attrlabl>
-    <attrdef>Unsatisfied Basic Needs: Impoverished[Nececidades Básicas Insatisfechas: Pobre Extremo]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E041</attrlabl>
-    <attrdef>Lives With Economic Dependence: Yes[Vivir Con Dependencia Económica: No]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E042</attrlabl>
-    <attrdef>Lives With Economic Dependence: No[Vivir Con Dependencia Económica: Si]</attrdef>
-    <attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Nicaragua_2005</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E001</attrlabl>
+			<attrdef>A Member Of This Household; Makes A Product Or Article To Sell: Yes[Algún Miembro De Este Hogar; Hacer Algún Producto O Articulo Para Vender: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E002</attrlabl>
+			<attrdef>A Member Of This Household; Makes A Product Or Article To Sell: No[Algún Miembro De Este Hogar; Hacer Algún Producto O Articulo Para Vender: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E003</attrlabl>
+			<attrdef>A Member Of This Household; Makes A Product Or Article To Sell: Ignored[Algún Miembro De Este Hogar; Hacer Algún Producto O Articulo Para Vender: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E004</attrlabl>
+			<attrdef>A Member Of This Household; Sells ??Any Product Or Item That They Do Not Manufacture, Produce Or Make: Yes[Algún Miembro De Este Hogar; Vender Algún Producto O Artículo Que No Fabriquen, Produzcan O Hagan: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E005</attrlabl>
+			<attrdef>A Member Of This Household; Sells ??Any Product Or Item That They Do Not Manufacture, Produce Or Make: No[Algún Miembro De Este Hogar; Vender Algún Producto O Artículo Que No Fabriquen, Produzcan O Hagan: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E006</attrlabl>
+			<attrdef>A Member Of This Household; Sells ??Any Product Or Item That They Do Not Manufacture, Produce Or Make: Ignored[Algún Miembro De Este Hogar; Vender Algún Producto O Artículo Que No Fabriquen, Produzcan O Hagan: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E007</attrlabl>
+			<attrdef>A Member Of This Household; Provides A Service: Yes[Algún Miembro De Este Hogar; Prestar Algún Servicio: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E008</attrlabl>
+			<attrdef>A Member Of This Household; Provides A Service: No[Algún Miembro De Este Hogar; Prestar Algún Servicio: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E009</attrlabl>
+			<attrdef>A Member Of This Household; Provides A Service: Ignored[Algún Miembro De Este Hogar; Prestar Algún Servicio: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E010</attrlabl>
+			<attrdef>Member Of This Household Performs Agricultural Activity On Its Own Or As A Patron: Yes[Miembro De Este Hogar Realiza Actividad Agropecuaria Por Cuenta Propia O Como Patrón: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E011</attrlabl>
+			<attrdef>Member Of This Household Performs Agricultural Activity On Its Own Or As A Patron: No[Miembro De Este Hogar Realiza Actividad Agropecuaria Por Cuenta Propia O Como Patrón: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E012</attrlabl>
+			<attrdef>Member Of This Household Performs Agricultural Activity On Its Own Or As A Patron: Ignored[Miembro De Este Hogar Realiza Actividad Agropecuaria Por Cuenta Propia O Como Patrón: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E013</attrlabl>
+			<attrdef>Received, Remittances In The Last 12 Months From Someone Outside The Country: Yes[Recibió, Remesas En Los Últimos 12 Meses De Alguna Persona Fuera Del País: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E014</attrlabl>
+			<attrdef>Received, Remittances In The Last 12 Months From Someone Outside The Country: No[Recibió, Remesas En Los Últimos 12 Meses De Alguna Persona Fuera Del País: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E015</attrlabl>
+			<attrdef>Received, Remittances In The Last 12 Months From Someone Outside The Country: Ignored[Recibió, Remesas En Los Últimos 12 Meses De Alguna Persona Fuera Del País: Ignorado]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E016</attrlabl>
+			<attrdef>Occupation: Employee/Worker[Ocupacion: Empleado/Obrero]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E017</attrlabl>
+			<attrdef>Occupation: Laborer[Ocupacion: Jornalero/Peon]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E018</attrlabl>
+			<attrdef>Occupation: Unpaid Labor[Ocupacion: Trabajador Sin Pago]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E019</attrlabl>
+			<attrdef>Occupation: Employer[Ocupacion: Patron/Empresario]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E020</attrlabl>
+			<attrdef>Occupation: Self Employed[Ocupacion: Cuenta Propia]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E021</attrlabl>
+			<attrdef>Occupation: Cooprative Member[Ocupacion: Miembro De Cooprative]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E022</attrlabl>
+			<attrdef>Occupation: Other[Ocupacion: Orto]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E023</attrlabl>
+			<attrdef>Occupation: Total[Ocupacion: F9]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E024</attrlabl>
+			<attrdef>Occupational Category: Agriculture, Hunting, Forestry[Categoría De Ocupación: Agricultura, Caza, Silvicultura]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E025</attrlabl>
+			<attrdef>Occupational Category: Fishing[Categoría De Ocupación: Pesca]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E026</attrlabl>
+			<attrdef>Occupational Category: Mines And Quarries[Categoría De Ocupación: Minas Y Canteras]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E027</attrlabl>
+			<attrdef>Occupational Category: Manufacturing Industry[Categoría De Ocupación: Industria Manufacturera]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E028</attrlabl>
+			<attrdef>Occupational Category: Electricity, Gas[Categoría De Ocupación: Electricidad, Gas]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E029</attrlabl>
+			<attrdef>Occupational Category: Water[Categoría De Ocupación: Agua]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E030</attrlabl>
+			<attrdef>Occupational Category: Building[Categoría De Ocupación: Construccion]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E031</attrlabl>
+			<attrdef>Occupational Category: Commerce, Hotels, Restaurants[Categoría De Ocupación: Comercio, Hoteles, Restaurantes]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E032</attrlabl>
+			<attrdef>Occupational Category: Transportation, Storage And Communications[Categoría De Ocupación: Transporte, Almacenamiento Y Comunicaciones]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E033</attrlabl>
+			<attrdef>Occupational Category: Financial Establishments[Categoría De Ocupación: Establecimientos Financieros]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E034</attrlabl>
+			<attrdef>Occupational Category: Real Estate Business Activities And Rentals[Categoría De Ocupación: Actividades Inmobiliarias Empresariales Y De Alquiler]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E035</attrlabl>
+			<attrdef>Occupational Category: Public Administration And Defense Education And Health[Categoría De Ocupación: Administracion Publica Y Defenza Educacion Y Salud]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E036</attrlabl>
+			<attrdef>Occupational Category: Social And Communal Services Organizations[Categoría De Ocupación: Servicios Sociales Y Comunales Organismos]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E037</attrlabl>
+			<attrdef>Occupational Category: Activities Not Well Defined[Categoría De Ocupación: Actividades No Bien Definidas]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E038</attrlabl>
+			<attrdef>Unsatisfied Basic Needs: Not Poor[Nececidades Básicas Insatisfechas: No Pobre]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E039</attrlabl>
+			<attrdef>Unsatisfied Basic Needs: Poor[Nececidades Básicas Insatisfechas: Pobre]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E040</attrlabl>
+			<attrdef>Unsatisfied Basic Needs: Impoverished[Nececidades Básicas Insatisfechas: Pobre Extremo]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E041</attrlabl>
+			<attrdef>Lives With Economic Dependence: Yes[Vivir Con Dependencia Económica: No]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E042</attrlabl>
+			<attrdef>Lives With Economic Dependence: No[Vivir Con Dependencia Económica: Si]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 2005 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_nicaragua_economic_2005</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_nicaragua_economic_2005</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

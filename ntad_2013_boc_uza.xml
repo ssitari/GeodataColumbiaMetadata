@@ -11,7 +11,9 @@
 					<pubplace>Washington, DC</pubplace>
 					<publish>United States. Bureau of Transportation Statistics</publish>
 				</pubinfo>
-				<pubdate>2013</pubdate><onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_boc_uza.zip</onlink></citeinfo>
+				<pubdate>2013</pubdate>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_boc_uza.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>United States Urbanized Area Boundaries, 2013 is a polygon theme representing the  U.S. Census Bureau boundaries for Urbanized Areas in the US.
@@ -42,10 +44,32 @@ The TIGER/Line shapefiles and related database files (.dbf) are an extract of se
 				<placekt>GeoNames</placekt>
 				<placekey>United States (6252001)</placekey>
 			</place>
-			<theme><themekey>Urban Areas</themekey><themekey>Urbanized Area Boundaries</themekey><themekt>None</themekt><themekey>Census</themekey></theme><place><placekt>Library of Congress Subject Headings</placekt><placekey>United States</placekey></place></keywords>
+			<theme>
+				<themekey>Urban Areas</themekey>
+				<themekey>Urbanized Area Boundaries</themekey>
+				<themekt>None</themekt>
+				<themekey>Census</themekey>
+			</theme>
+			<place>
+				<placekt>Library of Congress Subject Headings</placekt>
+				<placekey>United States</placekey>
+			</place>
+		</keywords>
 		<accconst>None</accconst>
 		<useconst>None</useconst>
-		<timeperd><timeinfo><sngdate><caldate>2013</caldate></sngdate></timeinfo><current>publication date</current></timeperd><status><progress>Complete</progress><update>As needed</update></status></idinfo>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2013</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+	</idinfo>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>

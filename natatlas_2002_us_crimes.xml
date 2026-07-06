@@ -1,1132 +1,1132 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata xml:lang="en">
-<idinfo>
-<descript>
-<abstract>This map layer shows crime statistics for the United States for the years 2001-2002, drawn from the Uniform Crime Reporting Program datacompiled by the Federal Bureau of Investigation and archived at theInter-university Consortium for Political and Social Research (ICPSR).Crime data are reported by county and are provided for eight crimes:murder, forcible rape, robbery, aggravated assault, burglary, larceny,motor vehicle theft, and arson.  Statewide allocation data are notincluded in this map layer.  Crime data are adjusted to compensate forincomplete reporting by individual law enforcement agencies.  See the online codebook at &lt;http://www.icpsr.umich.edu/cgi- bin/bob/archive2?study=4009&amp;path=NACJD&amp;docsonly=yes&gt; for more information.</abstract>
-<purpose>These data are intended for geographic display and analysis at thenational level, and for large regional areas.  The data should bedisplayed and analyzed at scales appropriate for 1:2,000,000-scale data.No responsibility is assumed by the Department of Justice, the NationalAtlas of the United States, or the ICPSR in the use of these data.</purpose>
-<supplinf>Some of the crime data reported in this file was estimated.  Whereagencies reported for 12 months, the data were included as reported.Where agencies reported for between three and eleven months, the datawere increased by a weight of (12/months reported).  Where agenciesreported for one or two months, the actual data were not included,but estimated data for the entire year were calculated based on ratescomputed using data from 12-month reporting agencies within the samegeographic stratum (defined by population group) within that State.Where agencies did not report at all, no estimations were performed.For New York City in 2001, the total number of murders in the FBIdata files is 3,452, which includes 2,823 victims of the September 11 bombing.  For more information on imputation procedures please see &lt;http://www.icpsr.umich.edu/cgi-bin/bob/archive2?study=4009&amp;path=NACJD&amp;docsonly=yes&gt;to access the Codebook for ICPSR Study Number 4009.</supplinf>
-</descript>
-<citation>
-<citeinfo>
-<onlink>https://www.columbia.edu/acis/eds/gis/images/natatlas_2002_us_crimes.zip</onlink>
-<origin>Geological Survey (U.S.)</origin>
-<pubdate>200506</pubdate>
-<title>United States Crimes 2001-2002</title>
-<pubinfo>
-<pubplace>Reston, VA</pubplace>
-<publish>Geological Survey (U.S.)</publish>
-</pubinfo>
-</citeinfo>
-</citation>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>Society</themekey>
-</theme>
-<theme>
-<themekey>Crime</themekey>
-<themekey>Arrests</themekey>
-<themekey>Murder</themekey>
-<themekey>Forcible rape</themekey>
-<themekey>Rape</themekey>
-<themekey>Robbery</themekey>
-<themekey>Aggravated assault</themekey>
-<themekey>Burglary</themekey>
-<themekey>Larceny</themekey>
-<themekey>Motor vehicle theft</themekey>
-<themekey>Theft</themekey>
-<themekt>None</themekt>
-<themekey>Arson</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>United States (6252001)</placekey>
-</place>
-<place>
-<placekey>USA</placekey>
-<placekt>None</placekt>
-<placekey>United States</placekey>
-</place>
-<place>
-<placekey>Alabama</placekey>
-<placekey>Alaska</placekey>
-<placekey>Arizona</placekey>
-<placekey>Arkansas</placekey>
-<placekey>California</placekey>
-<placekey>Colorado</placekey>
-<placekey>Connecticut</placekey>
-<placekey>Delaware</placekey>
-<placekey>District of Columbia</placekey>
-<placekey>Florida</placekey>
-<placekey>Georgia</placekey>
-<placekey>Hawaii</placekey>
-<placekey>Idaho</placekey>
-<placekey>Illinois</placekey>
-<placekey>Indiana</placekey>
-<placekey>Iowa</placekey>
-<placekey>Kansas</placekey>
-<placekey>Kentucky</placekey>
-<placekey>Louisiana</placekey>
-<placekey>Maine</placekey>
-<placekey>Maryland</placekey>
-<placekey>Massachusetts</placekey>
-<placekey>Michigan</placekey>
-<placekey>Minnesota</placekey>
-<placekey>Mississippi</placekey>
-<placekey>Missouri</placekey>
-<placekey>Montana</placekey>
-<placekey>Nebraska</placekey>
-<placekey>Nevada</placekey>
-<placekey>New Hampshire</placekey>
-<placekey>New Jersey</placekey>
-<placekey>New Mexico</placekey>
-<placekey>New York</placekey>
-<placekey>North Carolina</placekey>
-<placekey>North Dakota</placekey>
-<placekey> Ohio</placekey>
-<placekey>Oklahoma</placekey>
-<placekey>Oregon</placekey>
-<placekey>Pennsylvania</placekey>
-<placekey>Rhode Island</placekey>
-<placekey>South Carolina</placekey>
-<placekey>South Dakota</placekey>
-<placekey>Tennessee</placekey>
-<placekey>Texas</placekey>
-<placekey>Utah</placekey>
-<placekey>Vermont</placekey>
-<placekey>Virginia</placekey>
-<placekey>Washington</placekey>
-<placekey>West Virginia</placekey>
-<placekey>Wisconsin</placekey>
-<placekt>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the Outlying Areas of The United States, and Associated Areas (Federal Information Processing Standard 5-2): Washington, DC, National Institute of Standards and Technology.</placekt>
-<placekey>Wyoming</placekey>
-</place>
-<temporal>
-<tempkey>2001</tempkey>
-<tempkey>2002</tempkey>
-<tempkt>NOne</tempkt>
-</temporal>
-</keywords>
-<timeperd>
-<timeinfo>
-<rngdates>
-<begdate>2001</begdate>
-<enddate>2002</enddate>
-</rngdates>
-</timeinfo>
-<current>ground condition</current>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>As needed</update>
-</status>
-<spdom>
-<bounding>
-<westbc>172</westbc>
-<eastbc>-66</eastbc>
-<northbc>72</northbc>
-<southbc>18</southbc>
-</bounding>
-</spdom>
-<accconst>None</accconst>
-<useconst>None</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>Inter-university Consortium for Political and Social Research </cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>NACJD, ICPSR</address>
-<address>University of Michigan</address>
-<address>311 Maynard</address>
-<city>Ann Arbor</city>
-<state>MI</state>
-<postal>48104</postal>
-</cntaddr>
-<cntvoice>800-999-0960</cntvoice>
-<cntfax>734-998-9905</cntfax>
-<cntemail>nacjd@icpsr.umich.edu</cntemail>
-</cntinfo>
-</ptcontac>
-<crossref>
-<citeinfo>
-<origin>National Atlas of the United States</origin>
-<title>United States Crimes Database 2001-2002</title>
-<geoform>map</geoform>
-<pubinfo>
-<pubplace>Reston, VA</pubplace>
-<publish>National Atlas of the United States</publish>
-</pubinfo>
-</citeinfo>
-</crossref>
-</idinfo>
-<dataqual>
-<lineage>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Department of Justice, Federal Bureau of Investigation</origin>
-<pubdate>2003</pubdate>
-<title>Uniform Crime Reporting Program Data [United States]: County-Level Detailed Arrest and Offense Data, 2001; Study Number 3721</title>
-<pubinfo>
-<pubplace>Ann Arbor, MI</pubplace>
-<publish>nter-university Consortium for Political and Social Research</publish>
-</pubinfo>
-<onlink>http://www.icpsr.umich.edu/cgi-bin/bob/newark?study=3721&amp;path=NACJD</onlink>
-</citeinfo>
-</srccite>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>2001</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>ground condition</srccurr>
-</srctime>
-<srccitea>Crime01</srccitea>
-<srccontr>Crime statistics for 2001</srccontr>
-</srcinfo>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Department of Justice, Federal Bureau of Investigation</origin>
-<pubdate>2004</pubdate>
-<title>Uniform Crime Reporting Program Data [United States]: County-Level Detailed Arrest and Offense Data, 2002; Study Number 4009</title>
-<pubinfo>
-<pubplace>Ann Arbor, MI</pubplace>
-<publish>Inter-university Consortium for Political and Social Research</publish>
-</pubinfo>
-<onlink>http://www.icpsr.umich.edu/cgi-bin/bob/newark?study=4009&amp;path=NACJD</onlink>
-</citeinfo>
-</srccite>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>2002</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>ground condition</srccurr>
-</srctime>
-<srccitea>Crime02</srccitea>
-<srccontr>Crime statistics for 2002</srccontr>
-</srcinfo>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>National Atlas of the United States</origin>
-<pubdate>200411</pubdate>
-<title>2001 County Boundaries of the United States</title>
-<pubinfo>
-<pubplace>Reston, VA</pubplace>
-<publish>National Atlas of the United States</publish>
-</pubinfo>
-<onlink>http://nationalatlas.gov/atlasftp.html</onlink>
-</citeinfo>
-</srccite>
-<typesrc>online</typesrc>
-<srctime>
-<timeinfo>
-<rngdates>
-<begdate>1972</begdate>
-<enddate>2001</enddate>
-</rngdates>
-</timeinfo>
-<srccurr>ground condition</srccurr>
-</srctime>
-<srccitea>ATLAS-CNTY2001</srccitea>
-<srccontr>Spatial information</srccontr>
-</srcinfo>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>National Atlas of the United States  </origin>
-<pubdate>200301</pubdate>
-<title>Streams and Waterbodies of the United States </title>
-<pubinfo>
-<pubplace> Reston, VA</pubplace>
-<publish>National Atlas of the United States</publish>
-</pubinfo>
-</citeinfo>
-</srccite>
-<srcscale>2000000 </srcscale>
-<typesrc>online</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>200301</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>ATLAS-hydro</srccitea>
-<srccontr>Spatial and attribute information</srccontr>
-</srcinfo>
-<procstep>
-<srcused>Crime01</srcused>
-<srcused>Crime02</srcused>
-<procdesc>Comma-delimited text files for individual years, containing selectedattributes, were received from the Bureau of Justice Statistics dataarchive (ICPSR) at the University of Michigan.  The text files wereloaded into Access and output in dBASE V format, then loaded intoArcMap for processing.  State and County FIPS code fields were combinedinto one FIPS field and were converted to text.  Attribute nameswere modified to conform to the attribute names from previousyears.  The FIPS code for Dade County, FL was changed to match thenew FIPS code for Miami-Dade County, FL.  The dBASE files did not contain records for Denali, Alaska, so one was added to each file with all values set to zero.The county boundaries file was loaded into ArcMAP, joined to the dBASE V crime files, and the result was exported to a new shapefile.A query was run on the shapefile to select records for each year where the coverage index for that year was greater than zero and the crime population for the same year was zero, resulting in about 20 selections for each year.  Where the selected records included crime statistics for a particular year, the arrest population value for that year was substituted for the zero value in the crime population field.  If the selected records  included no crime statistics for a particular year, the coverage index was reset to zero.  New fields were added for crime normalized by population. Queries were run for each year to detect records with missing data (coverage index was zero, crime population was zero, and all crime statistics were zero.)  The new fields were populated with the value -9999 for records with no data available (referred to as missing data by NACJD).  For records with data, the values for the new fields were calculated by dividing the crime population for a particular year into the crime statistic for that year and then multiplying the result by 100.</procdesc>
-<srcused>ATLAS-CNTY2001</srcused>
-<procdate>200504</procdate>
-</procstep>
-<procstep>
-<procdesc>Polygons for Puerto Rico and the Virgin Islands were removed, and two line segments along the Texas/Mexico border were modified to align to ATLAS-hydro.</procdesc>
-<srcused> ATLAS-hydro</srcused>
-<procdate>200505</procdate>
-</procstep>
-</lineage>
-<logic>No checks for logical consistency were performed on this map layer.  Forinformation on data imputation procedures used in areas where reportingwas less than 100 percent, please see &lt;http://www.icpsr.umich.edu/cgi-bin/bob/archive2?study=4009&amp;path=NACJD&amp;docsonly=yes&gt;  to access the Codebook for ICPSR Study Number 4009.</logic>
-<complete>This map layer includes crime statistics for the 50 United States ascollected by the Federal Bureau of Investigation, from reports submittedby agencies and States participating in the Uniform Crime ReportingProgram.  This is a voluntary program so the data may not include reportsfrom all law enforcement agencies.  Data collected for a State but notattributable to a specific county (Statewide allocations) are not included. Limited offense data were available for Kentucky, Mississippi, Montana, and South Dakota.</complete>
-</dataqual>
-<spref>
-<horizsys>
-<geograph>
-<latres>0.000278</latres>
-<longres>0.000278</longres>
-<geogunit>Decimal degrees</geogunit>
-</geograph>
-<geodetic>
-<horizdn>North American Datum of 1983</horizdn>
-<ellips>GRS1980</ellips>
-<semiaxis>6378137</semiaxis>
-<denflat>298.257222</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<spdoinfo>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-<ptvctcnt>6008</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-<indspref>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas (FIPS 5-2): Washington, DC, National stitute of Standards and Technology. U.S. Department of Commerce, 1990, Counties and Equivalent Entities of the United States, Its Possessions, and Associated Areas (FIPS 6-4): Washington, DC, National Institute of Standards and Technology</indspref>
-<direct>Vector</direct>
-</spdoinfo>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>Crime statistics by county</enttypl>
-<enttypd>The incidence in the United States of Part I offences (murder, rape,robbery, aggravated assault, burglary, larceny, auto theft, andarson), as defined and collected by the United States Department ofJustice.</enttypd>
-<enttypds>National Atlas of the United States</enttypds>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>6006</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>Esri</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STATE</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The two-character code for the State.</attrdef>
-<attrdomv>
-<codesetd>
-<codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas; (Federal Information Processing  Standard (FIPS) 5-2): Washington, DC, National Institute of Standards and Technology.</codesetn>
-<codesets>U.S. Department of Commerce</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>COUNTY</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>he name of the county or county equivalent.</attrdef>
-<attrdomv>
-<codesetd>
-<codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and Associated Areas (Federal Information Processing Standard (FIPS) 6-4): Washington, DC, National Institute of Standards and Technology.</codesetn>
-<codesets>U.S. Department of Commerce</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>FIPS</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The two-digit code for the State.</attrdef>
-<attrdomv>
-<codesetd>
-<codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas; (Federal Information Processing  Standard (FIPS) 5-2): Washington, DC, National Institute of Standards and Technology. </codesetn>
-<codesets>U.S. Department of Commerce</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STATE_FIPS</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The two-digit code for the State.</attrdef>
-<attrdomv>
-<codesetd>
-<codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas; (Federal Information Processing  Standard (FIPS) 5-2): Washington, DC, National Institute of Standards and Technology. </codesetn>
-<codesets>U.S. Department of Commerce</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STUDY_NO01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The four-digit ICPSR identification number for the study number of the crimes-reported data, for the year 2001.</attrdef>
-<attrdomv>
-<edom>
-<edomv>3721</edomv>
-<edomvd>The Study Number is 3721.</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>EDITION01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>1</edomv>
-<edomvd>The source was the first edition of the crimes-reported data.</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-<edom>
-<edomv>2</edomv>
-<edomvd>The source was the second edition of the crimes-reported data.</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The edition of the crimes-reported data, for the year 2001.</attrdef>
-</attr>
-<attr>
-<attrlabl>CASE_ID01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The ICPSR sequential case ID number, for the year 2001.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>1</rdommin>
-<rdommax>3148</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>POP_ARR01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The population within the county that is served by the agencies reporting arrests, for the year 2001.  Populations of urisdictions that span county lines are allocated by the FBI to the county that contains the largest proportion of the jurisdiction's population. </attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>9696252</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>POP_CRI01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The population within the county that is served by the agencies that actually reported crime data, for the year 2001.  If all  law enforcement agencies within a county reported crime data, then this  value will be the same as Pop_arrXX for the same year.  If some agencies did not report, then the population served by the non-reporting agencies was not present in the original FBI file and is not included in the Pop_criXX value.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>9696252</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>AG_ARR01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The number of agencies in the county that reported arrests, for the year ending 2001. </attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>146</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>AG_CRI01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The number of agencies in the county that reported crimes, for the year 2001. </attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>103</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>COV_IND01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>An indication of the proportion of the data that is not estimated, forthe year ending in XX.  The map layer includes data for the year 2001.  A value of 100 indicates that all agencies in the county reported for 12 months of the year, and none of the data were estimated.  A value of 0 indicates that all data for the county are based on estimates rather than reported data.  The coverage indicator (CI) for each county is calculated as follows:&gt;CI = (1-(sum((agency pop/pop_arrXX)((12-months reported)/12))))*100Where agency pop is the population represented by the reportingagency for that year, and pop_arrXX is the total population for the county (as defined above).  The value for "months reported" will be 0 for agencies reporting 1-2 months of data, because any data provided bythese agencies was set to zero and the data were estimated using theprocedure described above.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>100</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>INDEX01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of Uniform Crime Reports (UCR) Index crimes,excluding arson, for the year 2001.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>391068</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>MOD_IN01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of Uniform Crime Reports (UCR) Index crimes,including arson, for the year 2001.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>391068</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>MURD01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of murders, for the year 2001.  Murder is defined as the willful (non-negligent) killing of one human being by another.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>1074</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>RAPE01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of forcible rapes,for the year 2001.  Forcible rape is defined as the carnal knowledge of a person, forcibly and (or) against that person's will; or not forcibly or against the person's will where the victim is incapable of giving consent.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>2790</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ROBB01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of robberies, for the year 2001.  Robbery is defined as the taking, or attempting to take, or anything of value under confrontational circumstances, by force or threat of force or violence.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>30254</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ASSA01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of aggravated assaults, for the year 2001.Aggravated assault is defined as an attack by one person on another,where the offender uses a weapon or displays it in a threateningmanner, or where the victim suffers severe bodily injury.  Thisincludes assault with a disease.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>55730</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>BURG01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of burglaries, for the year 2001.  Burglary is defined as the unlawful entry into a building or other structure with the intent to commit a felony or a theft.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>61526</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LARC01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of larcenies, for the year 2001.  Larceny is defined as the unlawful taking of property from another person, and is also called theft.  Motor vehicle thefts are not included.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>171785</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>MV_TH01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of motor vehicle thefts, for the year 2001.  Motor vehicle theft is defined as the theft of an automobile, bus, recreational vehicle, truck, or other motor vehicle.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>679069</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ARSO01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of arsons, for the year 2001.  Arson is defined as unlawfully and intentionally damaging or attempting to damage, real or personal property, by fire or incendiary device.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>4400</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STUDY_NO02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The four-digit ICPSR identification number for the study number of the crimes-reported data, for the year 2002.</attrdef>
-<attrdomv>
-<edom>
-<edomv>4009</edomv>
-<edomvd>The Study Number is 4009.</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>EDITION02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>1</edomv>
-<edomvd>The source was the first edition of the crimes-reported data.</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-<edom>
-<edomv>2</edomv>
-<edomvd>The source was the second edition of the crimes-reported data.</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The edition of the crimes-reported data, for the year 2002.</attrdef>
-</attr>
-<attr>
-<attrlabl>CASE_ID02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The ICPSR sequential case ID number, for the year 2002.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>1</rdommin>
-<rdommax>3148</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>POP_ARR02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The population within the county that is served by the agencies reporting arrests, for the year 2002.  Populations of urisdictions that span county lines are allocated by the FBI to the county that contains the largest proportion of the jurisdiction's population. </attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>9869056</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>POP_CRI02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The population within the county that is served by the agencies that actually reported crime data, for the year 2002.  If all  law enforcement agencies within a county reported crime data, then this  value will be the same as Pop_arrXX for the same year.  If some agencies did not report, then the population served by the non-reporting agencies was not present in the original FBI file and is not included in the Pop_criXX value.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>9869056</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>AG_ARR02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The number of agencies in the county that reported arrests, for the year ending 2002. </attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>146</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>AG_CRI02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The number of agencies in the county that reported crimes, for the year 2002. </attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>103</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>COV_IND02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>An indication of the proportion of the data that is not estimated, forthe year ending in XX.  The map layer includes data for the year 2002.  A value of 100 indicates that all agencies in the county reported for 12 months of the year, and none of the data were estimated.  A value of 0 indicates that all data for the county are based on estimates rather than reported data.  The coverage indicator (CI) for each county is calculated as follows:&gt;CI = (1-(sum((agency pop/pop_arrXX)((12-months reported)/12))))*100Where agency pop is the population represented by the reportingagency for that year, and pop_arrXX is the total population for the county (as defined above).  The value for "months reported" will be 0 for agencies reporting 1-2 months of data, because any data provided bythese agencies was set to zero and the data were estimated using theprocedure described above.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>100</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>INDEX02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of Uniform Crime Reports (UCR) Index crimes,excluding arson, for the year 2002.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>394591</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>MOD_IN02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of Uniform Crime Reports (UCR) Index crimes,including arson, for the year 2002.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>398758</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>MURD02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of murders, for the year 2002.  Murder is defined as the willful (non-negligent) killing of one human being by another.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>1162</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>RAPE02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of forcible rapes,for the year 2002.  Forcible rape is defined as the carnal knowledge of a person, forcibly and (or) against that person's will; or not forcibly or against the person's will where the victim is incapable of giving consent.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>2895</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ROBB02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of robberies, for the year 2002.  Robbery is defined as the taking, or attempting to take, or anything of value under confrontational circumstances, by force or threat of force or violence.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>29994</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ASSA02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of aggravated assaults, for the year 2002.Aggravated assault is defined as an attack by one person on another,where the offender uses a weapon or displays it in a threateningmanner, or where the victim suffers severe bodily injury.  Thisincludes assault with a disease.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>55008</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>BURG02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of burglaries, for the year 2002.  Burglary is defined as the unlawful entry into a building or other structure with the intent to commit a felony or a theft.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>62055</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LARC02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of larcenies, for the year 2002.  Larceny is defined as the unlawful taking of property from another person, and is also called theft.  Motor vehicle thefts are not included.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>171510</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>MV_TH02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of motor vehicle thefts, for the year 2002.  Motor vehicle theft is defined as the theft of an automobile, bus, recreational vehicle, truck, or other motor vehicle.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>71967</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ARSO02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The total number of arsons, for the year 2002.  Arson is defined as unlawfully and intentionally damaging or attempting to damage, real or personal property, by fire or incendiary device.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>4167</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>MURDPP01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdef>The number of murders for the year 2001, normalized by the crime population for the year 2001. </attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>.491</rdommax>
-</rdom>
-</attrdomv>
-<attrdomv>
-<edom>
-<edomv>-9999 </edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>RAPEPP01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of rapes for the year 2001, normalized by the crime population for the year 2001. </attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>.361</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ROBBPP01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The total number of robberies, for the year 2001.  Robbery is definedas the taking, or attempting to take, or anything of value underconfrontational circumstances, by force or threat of force or violence.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>.896</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ASSAPP01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of aggravated assaults for the year 2001, normalized by the crime population for the year 2001</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>7.726</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>BURGPP01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of burglaries for the year 2001, normalized by the crime population for the year 2001.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>3.641</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LARCPP01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of larcenies for the year 2001, normalized by the crime population for the year 2001. </attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>10.01</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>MVTHPP01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of motor vehicle thefts for the year 2001, normalized by the crime population for the year 2001.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>2.924</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ARSOPP01</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of arsons for the year 2001, normalized by the crime population for the year 2001.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>.374</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>MURDPP02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of murders for the year 2002, normalized by the crime population for the year 2002. </attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>.155</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>RAPEPP02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of rapes for the year 2002, normalized by the crime population for the year 2002.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>.246</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ROBBPP02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of robberies for the year 2002, normalized by the crime population for the year 2002.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>.798</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ASSAPP02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of aggravated assaults for the year 2002, normalized by the crime population for the year 2002.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>4.364</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>BURGPP02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of burglaries for the year 2002, normalized by the crime population for the year 2002.  </attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>5.569</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LARCPP02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of larcenies for the year 2002, normalized by the crime population for the year 2002.  </attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>15.857</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>MVTHPP02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdef>The number of motor vehicle thefts for the year 2002, normalized by the crime population for the year 2002.</attrdef>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>2.906</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ARSOPP02</attrlabl>
-<attrdefs>National Atlas of the United States</attrdefs>
-<attrdomv>
-<edom>
-<edomv>-9999</edomv>
-<edomvd>No data available</edomvd>
-<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
-</edom>
-</attrdomv>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>.224</rdommax>
-</rdom>
-</attrdomv>
-<attrdef>The number of arsons for the year 2002, normalized by the crime population for the year 2002.</attrdef>
-</attr>
-</detailed>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>Earth Science Information Center, U.S. Geological Survey</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing address</addrtype>
-<address>507 National Center</address>
-<city>Reston</city>
-<state>VA</state>
-<postal>20192</postal>
-</cntaddr>
-<cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice>
-<cntfax>703-648-5920</cntfax>
+	<idinfo>
+		<descript>
+			<abstract>This map layer shows crime statistics for the United States for the years 2001-2002, drawn from the Uniform Crime Reporting Program datacompiled by the Federal Bureau of Investigation and archived at theInter-university Consortium for Political and Social Research (ICPSR).Crime data are reported by county and are provided for eight crimes:murder, forcible rape, robbery, aggravated assault, burglary, larceny,motor vehicle theft, and arson.  Statewide allocation data are notincluded in this map layer.  Crime data are adjusted to compensate forincomplete reporting by individual law enforcement agencies.  See the online codebook at &lt;http://www.icpsr.umich.edu/cgi- bin/bob/archive2?study=4009&amp;path=NACJD&amp;docsonly=yes&gt; for more information.</abstract>
+			<purpose>These data are intended for geographic display and analysis at thenational level, and for large regional areas.  The data should bedisplayed and analyzed at scales appropriate for 1:2,000,000-scale data.No responsibility is assumed by the Department of Justice, the NationalAtlas of the United States, or the ICPSR in the use of these data.</purpose>
+			<supplinf>Some of the crime data reported in this file was estimated.  Whereagencies reported for 12 months, the data were included as reported.Where agencies reported for between three and eleven months, the datawere increased by a weight of (12/months reported).  Where agenciesreported for one or two months, the actual data were not included,but estimated data for the entire year were calculated based on ratescomputed using data from 12-month reporting agencies within the samegeographic stratum (defined by population group) within that State.Where agencies did not report at all, no estimations were performed.For New York City in 2001, the total number of murders in the FBIdata files is 3,452, which includes 2,823 victims of the September 11 bombing.  For more information on imputation procedures please see &lt;http://www.icpsr.umich.edu/cgi-bin/bob/archive2?study=4009&amp;path=NACJD&amp;docsonly=yes&gt;to access the Codebook for ICPSR Study Number 4009.</supplinf>
+		</descript>
+		<citation>
+			<citeinfo>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/natatlas_2002_us_crimes.zip</onlink>
+				<origin>Geological Survey (U.S.)</origin>
+				<pubdate>200506</pubdate>
+				<title>United States Crimes 2001-2002</title>
+				<pubinfo>
+					<pubplace>Reston, VA</pubplace>
+					<publish>Geological Survey (U.S.)</publish>
+				</pubinfo>
+			</citeinfo>
+		</citation>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>Society</themekey>
+			</theme>
+			<theme>
+				<themekey>Crime</themekey>
+				<themekey>Arrests</themekey>
+				<themekey>Murder</themekey>
+				<themekey>Forcible rape</themekey>
+				<themekey>Rape</themekey>
+				<themekey>Robbery</themekey>
+				<themekey>Aggravated assault</themekey>
+				<themekey>Burglary</themekey>
+				<themekey>Larceny</themekey>
+				<themekey>Motor vehicle theft</themekey>
+				<themekey>Theft</themekey>
+				<themekt>None</themekt>
+				<themekey>Arson</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>United States (6252001)</placekey>
+			</place>
+			<place>
+				<placekey>USA</placekey>
+				<placekt>None</placekt>
+				<placekey>United States</placekey>
+			</place>
+			<place>
+				<placekey>Alabama</placekey>
+				<placekey>Alaska</placekey>
+				<placekey>Arizona</placekey>
+				<placekey>Arkansas</placekey>
+				<placekey>California</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Connecticut</placekey>
+				<placekey>Delaware</placekey>
+				<placekey>District of Columbia</placekey>
+				<placekey>Florida</placekey>
+				<placekey>Georgia</placekey>
+				<placekey>Hawaii</placekey>
+				<placekey>Idaho</placekey>
+				<placekey>Illinois</placekey>
+				<placekey>Indiana</placekey>
+				<placekey>Iowa</placekey>
+				<placekey>Kansas</placekey>
+				<placekey>Kentucky</placekey>
+				<placekey>Louisiana</placekey>
+				<placekey>Maine</placekey>
+				<placekey>Maryland</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>Michigan</placekey>
+				<placekey>Minnesota</placekey>
+				<placekey>Mississippi</placekey>
+				<placekey>Missouri</placekey>
+				<placekey>Montana</placekey>
+				<placekey>Nebraska</placekey>
+				<placekey>Nevada</placekey>
+				<placekey>New Hampshire</placekey>
+				<placekey>New Jersey</placekey>
+				<placekey>New Mexico</placekey>
+				<placekey>New York</placekey>
+				<placekey>North Carolina</placekey>
+				<placekey>North Dakota</placekey>
+				<placekey> Ohio</placekey>
+				<placekey>Oklahoma</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Pennsylvania</placekey>
+				<placekey>Rhode Island</placekey>
+				<placekey>South Carolina</placekey>
+				<placekey>South Dakota</placekey>
+				<placekey>Tennessee</placekey>
+				<placekey>Texas</placekey>
+				<placekey>Utah</placekey>
+				<placekey>Vermont</placekey>
+				<placekey>Virginia</placekey>
+				<placekey>Washington</placekey>
+				<placekey>West Virginia</placekey>
+				<placekey>Wisconsin</placekey>
+				<placekt>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the Outlying Areas of The United States, and Associated Areas (Federal Information Processing Standard 5-2): Washington, DC, National Institute of Standards and Technology.</placekt>
+				<placekey>Wyoming</placekey>
+			</place>
+			<temporal>
+				<tempkey>2001</tempkey>
+				<tempkey>2002</tempkey>
+				<tempkt>NOne</tempkt>
+			</temporal>
+		</keywords>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>2001</begdate>
+					<enddate>2002</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>172</westbc>
+				<eastbc>-66</eastbc>
+				<northbc>72</northbc>
+				<southbc>18</southbc>
+			</bounding>
+		</spdom>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Inter-university Consortium for Political and Social Research </cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>NACJD, ICPSR</address>
+					<address>University of Michigan</address>
+					<address>311 Maynard</address>
+					<city>Ann Arbor</city>
+					<state>MI</state>
+					<postal>48104</postal>
+				</cntaddr>
+				<cntvoice>800-999-0960</cntvoice>
+				<cntfax>734-998-9905</cntfax>
+				<cntemail>nacjd@icpsr.umich.edu</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<crossref>
+			<citeinfo>
+				<origin>National Atlas of the United States</origin>
+				<title>United States Crimes Database 2001-2002</title>
+				<geoform>map</geoform>
+				<pubinfo>
+					<pubplace>Reston, VA</pubplace>
+					<publish>National Atlas of the United States</publish>
+				</pubinfo>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Department of Justice, Federal Bureau of Investigation</origin>
+						<pubdate>2003</pubdate>
+						<title>Uniform Crime Reporting Program Data [United States]: County-Level Detailed Arrest and Offense Data, 2001; Study Number 3721</title>
+						<pubinfo>
+							<pubplace>Ann Arbor, MI</pubplace>
+							<publish>nter-university Consortium for Political and Social Research</publish>
+						</pubinfo>
+						<onlink>http://www.icpsr.umich.edu/cgi-bin/bob/newark?study=3721&amp;path=NACJD</onlink>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2001</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Crime01</srccitea>
+				<srccontr>Crime statistics for 2001</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Department of Justice, Federal Bureau of Investigation</origin>
+						<pubdate>2004</pubdate>
+						<title>Uniform Crime Reporting Program Data [United States]: County-Level Detailed Arrest and Offense Data, 2002; Study Number 4009</title>
+						<pubinfo>
+							<pubplace>Ann Arbor, MI</pubplace>
+							<publish>Inter-university Consortium for Political and Social Research</publish>
+						</pubinfo>
+						<onlink>http://www.icpsr.umich.edu/cgi-bin/bob/newark?study=4009&amp;path=NACJD</onlink>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2002</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Crime02</srccitea>
+				<srccontr>Crime statistics for 2002</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>National Atlas of the United States</origin>
+						<pubdate>200411</pubdate>
+						<title>2001 County Boundaries of the United States</title>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>National Atlas of the United States</publish>
+						</pubinfo>
+						<onlink>http://nationalatlas.gov/atlasftp.html</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1972</begdate>
+							<enddate>2001</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>ATLAS-CNTY2001</srccitea>
+				<srccontr>Spatial information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>National Atlas of the United States  </origin>
+						<pubdate>200301</pubdate>
+						<title>Streams and Waterbodies of the United States </title>
+						<pubinfo>
+							<pubplace> Reston, VA</pubplace>
+							<publish>National Atlas of the United States</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>2000000 </srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>200301</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>ATLAS-hydro</srccitea>
+				<srccontr>Spatial and attribute information</srccontr>
+			</srcinfo>
+			<procstep>
+				<srcused>Crime01</srcused>
+				<srcused>Crime02</srcused>
+				<procdesc>Comma-delimited text files for individual years, containing selectedattributes, were received from the Bureau of Justice Statistics dataarchive (ICPSR) at the University of Michigan.  The text files wereloaded into Access and output in dBASE V format, then loaded intoArcMap for processing.  State and County FIPS code fields were combinedinto one FIPS field and were converted to text.  Attribute nameswere modified to conform to the attribute names from previousyears.  The FIPS code for Dade County, FL was changed to match thenew FIPS code for Miami-Dade County, FL.  The dBASE files did not contain records for Denali, Alaska, so one was added to each file with all values set to zero.The county boundaries file was loaded into ArcMAP, joined to the dBASE V crime files, and the result was exported to a new shapefile.A query was run on the shapefile to select records for each year where the coverage index for that year was greater than zero and the crime population for the same year was zero, resulting in about 20 selections for each year.  Where the selected records included crime statistics for a particular year, the arrest population value for that year was substituted for the zero value in the crime population field.  If the selected records  included no crime statistics for a particular year, the coverage index was reset to zero.  New fields were added for crime normalized by population. Queries were run for each year to detect records with missing data (coverage index was zero, crime population was zero, and all crime statistics were zero.)  The new fields were populated with the value -9999 for records with no data available (referred to as missing data by NACJD).  For records with data, the values for the new fields were calculated by dividing the crime population for a particular year into the crime statistic for that year and then multiplying the result by 100.</procdesc>
+				<srcused>ATLAS-CNTY2001</srcused>
+				<procdate>200504</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Polygons for Puerto Rico and the Virgin Islands were removed, and two line segments along the Texas/Mexico border were modified to align to ATLAS-hydro.</procdesc>
+				<srcused> ATLAS-hydro</srcused>
+				<procdate>200505</procdate>
+			</procstep>
+		</lineage>
+		<logic>No checks for logical consistency were performed on this map layer.  Forinformation on data imputation procedures used in areas where reportingwas less than 100 percent, please see &lt;http://www.icpsr.umich.edu/cgi-bin/bob/archive2?study=4009&amp;path=NACJD&amp;docsonly=yes&gt;  to access the Codebook for ICPSR Study Number 4009.</logic>
+		<complete>This map layer includes crime statistics for the 50 United States ascollected by the Federal Bureau of Investigation, from reports submittedby agencies and States participating in the Uniform Crime ReportingProgram.  This is a voluntary program so the data may not include reportsfrom all law enforcement agencies.  Data collected for a State but notattributable to a specific county (Statewide allocations) are not included. Limited offense data were available for Kentucky, Mississippi, Montana, and South Dakota.</complete>
+	</dataqual>
+	<spdoinfo>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>6008</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+		<indspref>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas (FIPS 5-2): Washington, DC, National stitute of Standards and Technology. U.S. Department of Commerce, 1990, Counties and Equivalent Entities of the United States, Its Possessions, and Associated Areas (FIPS 6-4): Washington, DC, National Institute of Standards and Technology</indspref>
+		<direct>Vector</direct>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>0.000278</latres>
+				<longres>0.000278</longres>
+				<geogunit>Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>GRS1980</ellips>
+				<semiaxis>6378137</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>Crime statistics by county</enttypl>
+				<enttypd>The incidence in the United States of Part I offences (murder, rape,robbery, aggravated assault, burglary, larceny, auto theft, andarson), as defined and collected by the United States Department ofJustice.</enttypd>
+				<enttypds>National Atlas of the United States</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>6006</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STATE</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The two-character code for the State.</attrdef>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas; (Federal Information Processing  Standard (FIPS) 5-2): Washington, DC, National Institute of Standards and Technology.</codesetn>
+						<codesets>U.S. Department of Commerce</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COUNTY</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>he name of the county or county equivalent.</attrdef>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and Associated Areas (Federal Information Processing Standard (FIPS) 6-4): Washington, DC, National Institute of Standards and Technology.</codesetn>
+						<codesets>U.S. Department of Commerce</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FIPS</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The two-digit code for the State.</attrdef>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas; (Federal Information Processing  Standard (FIPS) 5-2): Washington, DC, National Institute of Standards and Technology. </codesetn>
+						<codesets>U.S. Department of Commerce</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STATE_FIPS</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The two-digit code for the State.</attrdef>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas; (Federal Information Processing  Standard (FIPS) 5-2): Washington, DC, National Institute of Standards and Technology. </codesetn>
+						<codesets>U.S. Department of Commerce</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STUDY_NO01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The four-digit ICPSR identification number for the study number of the crimes-reported data, for the year 2001.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>3721</edomv>
+						<edomvd>The Study Number is 3721.</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>EDITION01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>The source was the first edition of the crimes-reported data.</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>The source was the second edition of the crimes-reported data.</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The edition of the crimes-reported data, for the year 2001.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>CASE_ID01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The ICPSR sequential case ID number, for the year 2001.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>3148</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>POP_ARR01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The population within the county that is served by the agencies reporting arrests, for the year 2001.  Populations of urisdictions that span county lines are allocated by the FBI to the county that contains the largest proportion of the jurisdiction's population. </attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>9696252</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>POP_CRI01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The population within the county that is served by the agencies that actually reported crime data, for the year 2001.  If all  law enforcement agencies within a county reported crime data, then this  value will be the same as Pop_arrXX for the same year.  If some agencies did not report, then the population served by the non-reporting agencies was not present in the original FBI file and is not included in the Pop_criXX value.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>9696252</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AG_ARR01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The number of agencies in the county that reported arrests, for the year ending 2001. </attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>146</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AG_CRI01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The number of agencies in the county that reported crimes, for the year 2001. </attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>103</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COV_IND01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>An indication of the proportion of the data that is not estimated, forthe year ending in XX.  The map layer includes data for the year 2001.  A value of 100 indicates that all agencies in the county reported for 12 months of the year, and none of the data were estimated.  A value of 0 indicates that all data for the county are based on estimates rather than reported data.  The coverage indicator (CI) for each county is calculated as follows:&gt;CI = (1-(sum((agency pop/pop_arrXX)((12-months reported)/12))))*100Where agency pop is the population represented by the reportingagency for that year, and pop_arrXX is the total population for the county (as defined above).  The value for "months reported" will be 0 for agencies reporting 1-2 months of data, because any data provided bythese agencies was set to zero and the data were estimated using theprocedure described above.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>INDEX01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of Uniform Crime Reports (UCR) Index crimes,excluding arson, for the year 2001.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>391068</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MOD_IN01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of Uniform Crime Reports (UCR) Index crimes,including arson, for the year 2001.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>391068</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MURD01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of murders, for the year 2001.  Murder is defined as the willful (non-negligent) killing of one human being by another.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>1074</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RAPE01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of forcible rapes,for the year 2001.  Forcible rape is defined as the carnal knowledge of a person, forcibly and (or) against that person's will; or not forcibly or against the person's will where the victim is incapable of giving consent.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>2790</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ROBB01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of robberies, for the year 2001.  Robbery is defined as the taking, or attempting to take, or anything of value under confrontational circumstances, by force or threat of force or violence.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>30254</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ASSA01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of aggravated assaults, for the year 2001.Aggravated assault is defined as an attack by one person on another,where the offender uses a weapon or displays it in a threateningmanner, or where the victim suffers severe bodily injury.  Thisincludes assault with a disease.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>55730</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BURG01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of burglaries, for the year 2001.  Burglary is defined as the unlawful entry into a building or other structure with the intent to commit a felony or a theft.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>61526</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LARC01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of larcenies, for the year 2001.  Larceny is defined as the unlawful taking of property from another person, and is also called theft.  Motor vehicle thefts are not included.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>171785</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MV_TH01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of motor vehicle thefts, for the year 2001.  Motor vehicle theft is defined as the theft of an automobile, bus, recreational vehicle, truck, or other motor vehicle.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>679069</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ARSO01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of arsons, for the year 2001.  Arson is defined as unlawfully and intentionally damaging or attempting to damage, real or personal property, by fire or incendiary device.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>4400</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STUDY_NO02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The four-digit ICPSR identification number for the study number of the crimes-reported data, for the year 2002.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>4009</edomv>
+						<edomvd>The Study Number is 4009.</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>EDITION02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>The source was the first edition of the crimes-reported data.</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>The source was the second edition of the crimes-reported data.</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The edition of the crimes-reported data, for the year 2002.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>CASE_ID02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The ICPSR sequential case ID number, for the year 2002.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>3148</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>POP_ARR02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The population within the county that is served by the agencies reporting arrests, for the year 2002.  Populations of urisdictions that span county lines are allocated by the FBI to the county that contains the largest proportion of the jurisdiction's population. </attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>9869056</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>POP_CRI02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The population within the county that is served by the agencies that actually reported crime data, for the year 2002.  If all  law enforcement agencies within a county reported crime data, then this  value will be the same as Pop_arrXX for the same year.  If some agencies did not report, then the population served by the non-reporting agencies was not present in the original FBI file and is not included in the Pop_criXX value.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>9869056</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AG_ARR02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The number of agencies in the county that reported arrests, for the year ending 2002. </attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>146</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AG_CRI02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The number of agencies in the county that reported crimes, for the year 2002. </attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>103</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COV_IND02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>An indication of the proportion of the data that is not estimated, forthe year ending in XX.  The map layer includes data for the year 2002.  A value of 100 indicates that all agencies in the county reported for 12 months of the year, and none of the data were estimated.  A value of 0 indicates that all data for the county are based on estimates rather than reported data.  The coverage indicator (CI) for each county is calculated as follows:&gt;CI = (1-(sum((agency pop/pop_arrXX)((12-months reported)/12))))*100Where agency pop is the population represented by the reportingagency for that year, and pop_arrXX is the total population for the county (as defined above).  The value for "months reported" will be 0 for agencies reporting 1-2 months of data, because any data provided bythese agencies was set to zero and the data were estimated using theprocedure described above.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>100</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>INDEX02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of Uniform Crime Reports (UCR) Index crimes,excluding arson, for the year 2002.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>394591</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MOD_IN02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of Uniform Crime Reports (UCR) Index crimes,including arson, for the year 2002.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>398758</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MURD02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of murders, for the year 2002.  Murder is defined as the willful (non-negligent) killing of one human being by another.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>1162</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RAPE02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of forcible rapes,for the year 2002.  Forcible rape is defined as the carnal knowledge of a person, forcibly and (or) against that person's will; or not forcibly or against the person's will where the victim is incapable of giving consent.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>2895</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ROBB02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of robberies, for the year 2002.  Robbery is defined as the taking, or attempting to take, or anything of value under confrontational circumstances, by force or threat of force or violence.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>29994</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ASSA02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of aggravated assaults, for the year 2002.Aggravated assault is defined as an attack by one person on another,where the offender uses a weapon or displays it in a threateningmanner, or where the victim suffers severe bodily injury.  Thisincludes assault with a disease.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>55008</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BURG02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of burglaries, for the year 2002.  Burglary is defined as the unlawful entry into a building or other structure with the intent to commit a felony or a theft.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>62055</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LARC02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of larcenies, for the year 2002.  Larceny is defined as the unlawful taking of property from another person, and is also called theft.  Motor vehicle thefts are not included.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>171510</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MV_TH02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of motor vehicle thefts, for the year 2002.  Motor vehicle theft is defined as the theft of an automobile, bus, recreational vehicle, truck, or other motor vehicle.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>71967</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ARSO02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The total number of arsons, for the year 2002.  Arson is defined as unlawfully and intentionally damaging or attempting to damage, real or personal property, by fire or incendiary device.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>4167</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MURDPP01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdef>The number of murders for the year 2001, normalized by the crime population for the year 2001. </attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>.491</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>-9999 </edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RAPEPP01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of rapes for the year 2001, normalized by the crime population for the year 2001. </attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>.361</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ROBBPP01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The total number of robberies, for the year 2001.  Robbery is definedas the taking, or attempting to take, or anything of value underconfrontational circumstances, by force or threat of force or violence.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>.896</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ASSAPP01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of aggravated assaults for the year 2001, normalized by the crime population for the year 2001</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>7.726</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BURGPP01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of burglaries for the year 2001, normalized by the crime population for the year 2001.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>3.641</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LARCPP01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of larcenies for the year 2001, normalized by the crime population for the year 2001. </attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>10.01</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MVTHPP01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of motor vehicle thefts for the year 2001, normalized by the crime population for the year 2001.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>2.924</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ARSOPP01</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of arsons for the year 2001, normalized by the crime population for the year 2001.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>.374</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MURDPP02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of murders for the year 2002, normalized by the crime population for the year 2002. </attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>.155</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RAPEPP02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of rapes for the year 2002, normalized by the crime population for the year 2002.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>.246</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ROBBPP02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of robberies for the year 2002, normalized by the crime population for the year 2002.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>.798</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ASSAPP02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of aggravated assaults for the year 2002, normalized by the crime population for the year 2002.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>4.364</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BURGPP02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of burglaries for the year 2002, normalized by the crime population for the year 2002.  </attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>5.569</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LARCPP02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of larcenies for the year 2002, normalized by the crime population for the year 2002.  </attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>15.857</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MVTHPP02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>The number of motor vehicle thefts for the year 2002, normalized by the crime population for the year 2002.</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>2.906</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ARSOPP02</attrlabl>
+				<attrdefs>National Atlas of the United States</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-9999</edomv>
+						<edomvd>No data available</edomvd>
+						<edomvds>Inter-university Consortium for Political and Social Research</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>.224</rdommax>
+					</rdom>
+				</attrdomv>
+				<attrdef>The number of arsons for the year 2002, normalized by the crime population for the year 2002.</attrdef>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Earth Science Information Center, U.S. Geological Survey</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>507 National Center</address>
+					<city>Reston</city>
+					<state>VA</state>
+					<postal>20192</postal>
+				</cntaddr>
+				<cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice>
+				<cntfax>703-648-5920</cntfax>
 <cntinst>In addition to the address above there are other ESIC offices  throughout the country.  A full list of these offices is at
         &lt;http://geography.usgs.gov/esic/esic_index.html&gt;.</cntinst>
-</cntinfo>
-</distrib>
-<distliab>Although these data have been processed successfully on a computer system At the U.S. Geological Survey, no warranty expressed or implied is made by the U.S. Geological Survey regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. No responsibility is assumed by the U.S. Geological Survey in the use of these data.</distliab>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>geopackage</formname>
-</digtinfo>
-</digform>
-<fees>There is no charge for this map layer.</fees>
-</stdorder>
-<resdesc>natatlas_2002_us_crimes</resdesc>
-</distinfo>
-<metainfo>
-<metc>
-<cntinfo>
-<cntaddr>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<addrtype>mailing and physical address</addrtype>
-<address>MS-561</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntperp>
-<cntper>GIS/Metadata Librarian</cntper>
-<cntorg>Research Data Services (RDS)</cntorg>
-</cntperp>
+			</cntinfo>
+		</distrib>
+		<distliab>Although these data have been processed successfully on a computer system At the U.S. Geological Survey, no warranty expressed or implied is made by the U.S. Geological Survey regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. No responsibility is assumed by the U.S. Geological Survey in the use of these data.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>geopackage</formname>
+				</digtinfo>
+			</digform>
+			<fees>There is no charge for this map layer.</fees>
+		</stdorder>
+		<resdesc>natatlas_2002_us_crimes</resdesc>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<address>420 W. 118th St., 215 IAB, MC 3301</address>
+					<addrtype>mailing and physical address</addrtype>
+					<address>MS-561</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntperp>
+					<cntper>GIS/Metadata Librarian</cntper>
+					<cntorg>Research Data Services (RDS)</cntorg>
+				</cntperp>
 
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metd>20140825</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<metsi>
-<metsc>Unclassified</metsc>
-</metsi>
-</metainfo>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metd>20140825</metd>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+	</metainfo>
 </metadata>

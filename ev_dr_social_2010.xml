@@ -1,855 +1,855 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Dominican Republic (3508796)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Dominican Republic</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2010</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-72.0038833618164063</westbc>
-<eastbc>-68.3226394653320597</eastbc>
-<northbc>19.9323616027831889</northbc>
-<southbc>17.4701385498049149</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Dominican Republic (3508796)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Dominican Republic</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2010</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-72.0038833618164063</westbc>
+				<eastbc>-68.3226394653320597</eastbc>
+				<northbc>19.9323616027831889</northbc>
+				<southbc>17.4701385498049149</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Dominican Republic Social Census Data, 2010 is a polygon theme representing Barrios (5th level administrative units) in the Dominican Republic as of 2010.Attribute information includes social variables from the 2010 Census.
 
 Official population and housing data for the Dominican Republic from the 2010 census. This census is provided at the barrio administrative level (ADM5) and includes 12,565 polygons with 756 attribute variables. Attribute descriptions retain Source-language names and unique identifier codes. All variable names were translated from Source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "H23_Si" was updated to D001 and given the alias "There is a newborn girl or boy that has not been previously mentioned: Yes[H23_Si]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
 
- </abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Dominican Republic Social Census Data, 2010</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Dominican Republic Social Census Data, 2010</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_dr_social_2010.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2010</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2010</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-  <horizsys>
-    <gridsys>WGS_1984_UTM_Zone_19N</gridsys>
-  </horizsys>
+	<horizsys>
+		<gridsys>WGS_1984_UTM_Zone_19N</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-  <detailed>
-    <enttyp>
-      <enttypl>DominicanRep_2010</enttypl>
-      <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-      <enttypds>East View Geospatial</enttypds>
-    </enttyp>
-    <attr>
-      <attrlabl>CODE</attrlabl>
-      <attrdef>Code[Código]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Identifier of the census sector as a coded value.</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>NEIGHBORHOOD</attrlabl>
-      <attrdef>Quarter or Place of Residence[BarriooParajederesidencia]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Name of the barrio the census sector falls in.</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S001</attrlabl>
-      <attrdef>Disability: Difficulty seeing, even with use of glasses or lenses: Yes[P34A_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S002</attrlabl>
-      <attrdef>Disability: Difficulty seeing, even with use of glasses or lenses: No[P34A_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S003</attrlabl>
-      <attrdef>Disability: Difficulty seeing, even with use of glasses or lenses: Undeclared[P34A_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S004</attrlabl>
-      <attrdef>Disability: Difficulty seeing, even with use of glasses or lenses: Total[P34A_TABTMP5_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S005</attrlabl>
-      <attrdef>Disability: Difficulty hearing, even with use of hearing aides: Yes[P34B_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S006</attrlabl>
-      <attrdef>Disability: Difficulty hearing, even with use of hearing aides: No[P34B_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S007</attrlabl>
-      <attrdef>Disability: Difficulty hearing, even with use of hearing aides: Undeclared[P34B_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S008</attrlabl>
-      <attrdef>Disability: Difficulty hearing, even with use of hearing aides: Total[P34B_TABTMP6_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S009</attrlabl>
-      <attrdef>Disability: Difficulty walking or climbing stairs: Yes[P34C_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S010</attrlabl>
-      <attrdef>Disability: Difficulty walking or climbing stairs: No[P34C_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S011</attrlabl>
-      <attrdef>Disability: Difficulty walking or climbing stairs: Undeclared[P34C_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S012</attrlabl>
-      <attrdef>Disability: Difficulty walking or climbing stairs: Total[P34C_TABTMP7_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S013</attrlabl>
-      <attrdef>Disability: Difficulty moving one or both arms: Yes[P34D_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S014</attrlabl>
-      <attrdef>Disability: Difficulty moving one or both arms: No[P34D_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S015</attrlabl>
-      <attrdef>Disability: Difficulty moving one or both arms: Undeclared[P34D_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S016</attrlabl>
-      <attrdef>Disability: Difficulty moving one or both arms: Total[P34D_TABTMP8_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S017</attrlabl>
-      <attrdef>Disability: Difficulty moving one or both legs: Yes[P34E_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S018</attrlabl>
-      <attrdef>Disability: Difficulty moving one or both legs: No[P34E_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S019</attrlabl>
-      <attrdef>Disability: Difficulty moving one or both legs: Undeclared[P34E_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S020</attrlabl>
-      <attrdef>Disability: Difficulty moving one or both legs: Total[P34E_TABTMP9_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S021</attrlabl>
-      <attrdef>Disability: Difficulty remembering or concentrating: Yes[P34F_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S022</attrlabl>
-      <attrdef>Disability: Difficulty remembering or concentrating: No[P34F_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S023</attrlabl>
-      <attrdef>Disability: Difficulty remembering or concentrating: Undeclared[P34F_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S024</attrlabl>
-      <attrdef>Disability: Difficulty remembering or concentrating: Total[P34F_TABTMP10_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S025</attrlabl>
-      <attrdef>Disability: Difficulty grasping objects and/or containers with open hands: Yes[P34G_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S026</attrlabl>
-      <attrdef>Disability: Difficulty grasping objects and/or containers with open hands: No[P34G_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S027</attrlabl>
-      <attrdef>Disability: Difficulty grasping objects and/or containers with open hands: Undeclared[P34G_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S028</attrlabl>
-      <attrdef>Disability: Difficulty grasping objects and/or containers with open hands: Total[P34G_TABTMP11_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S029</attrlabl>
-      <attrdef>Disability: Slurred speech: Yes[P34H_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S030</attrlabl>
-      <attrdef>Disability: Slurred speech: No[P34H_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S031</attrlabl>
-      <attrdef>Disability: Slurred speech: Undeclared[P34H_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S032</attrlabl>
-      <attrdef>Disability: Slurred speech: Total[P34H_TABTMP12_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S033</attrlabl>
-      <attrdef>Disability: Is mute: Yes[P34I_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S034</attrlabl>
-      <attrdef>Disability: Is mute: No[P34I_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S035</attrlabl>
-      <attrdef>Disability: Is mute: Undeclared[P34I_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S036</attrlabl>
-      <attrdef>Disability: Is mute: Total[P34I_TABTMP13_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S037</attrlabl>
-      <attrdef>Disability: Has mental problems: Yes[P34J_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S038</attrlabl>
-      <attrdef>Disability: Has mental problems: No[P34J_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S039</attrlabl>
-      <attrdef>Disability: Has mental problems: Undeclared[P34J_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S040</attrlabl>
-      <attrdef>Disability: Has mental problems: Total[P34J_TABTMP14_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S041</attrlabl>
-      <attrdef>Disability: Lacks one or both legs: Yes[P34K_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S042</attrlabl>
-      <attrdef>Disability: Lacks one or both legs: No[P34K_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S043</attrlabl>
-      <attrdef>Disability: Lacks one or both legs: Undeclared[P34K_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S044</attrlabl>
-      <attrdef>Disability: Lacks one or both legs: Total[P34K_TABTMP15_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S045</attrlabl>
-      <attrdef>Disability: Lacks one or both arms: Yes[P34L_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S046</attrlabl>
-      <attrdef>Disability: Lacks one or both arms: No[P34L_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S047</attrlabl>
-      <attrdef>Disability: Lacks one or both arms: Undeclared[P34L_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S048</attrlabl>
-      <attrdef>Disability: Lacks one or both arms: Total[P34L_TABTMP16_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S049</attrlabl>
-      <attrdef>Literate: Yes[P35_Sabeleeryescribir]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S050</attrlabl>
-      <attrdef>Literate: Can not read or write[P35_Nosabeleerniescribir]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S051</attrlabl>
-      <attrdef>Literate: Total[P35_TABTMP2_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S052</attrlabl>
-      <attrdef>Attends or attended school: Attends[P36_Asiste]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S053</attrlabl>
-      <attrdef>Attends or attended school: Not attending but attended[P36_Noasiste_peroasistió]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S054</attrlabl>
-      <attrdef>Attends or attended school: Never attended[P36_Nuncaasistió]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S055</attrlabl>
-      <attrdef>Attends or attended school: Total[P36_TABTMP3_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S056</attrlabl>
-      <attrdef>Highest level of education attended: Pre primary[P37_Preprimaria]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S057</attrlabl>
-      <attrdef>Highest level of education attended: Primary or basic[P37_Primariaobásica]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S058</attrlabl>
-      <attrdef>Highest level of education attended: Junior or high school[P37_Secundariaomedia]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S059</attrlabl>
-      <attrdef>Highest level of education attended: University or higher[P37_Universitariaosuperior]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S060</attrlabl>
-      <attrdef>Highest level of education attended: Total[P37_TABTMP4_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S061</attrlabl>
-      <attrdef>Last year of study completed at that level: 0[P38_0]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S062</attrlabl>
-      <attrdef>Last year of study completed at that level: 1[P38_1]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S063</attrlabl>
-      <attrdef>Last year of study completed at that level: 2[P38_2]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S064</attrlabl>
-      <attrdef>Last year of study completed at that level: 3[P38_3]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S065</attrlabl>
-      <attrdef>Last year of study completed at that level: 4[P38_4]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S066</attrlabl>
-      <attrdef>Last year of study completed at that level: 5[P38_5]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S067</attrlabl>
-      <attrdef>Last year of study completed at that level: 6[P38_6]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S068</attrlabl>
-      <attrdef>Last year of study completed at that level: 7[P38_7]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S069</attrlabl>
-      <attrdef>Last year of study completed at that level: 8[P38_8]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S070</attrlabl>
-      <attrdef>Last year of study completed at that level: Total[P38_TABTMP5_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S071</attrlabl>
-      <attrdef>Graduated with a degree: Yes[P40_Si]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S072</attrlabl>
-      <attrdef>Graduated with a degree: No[P40_No]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S073</attrlabl>
-      <attrdef>Graduated with a degree: Undeclared[P40_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S074</attrlabl>
-      <attrdef>Graduated with a degree: Total[P40_TABTMP6_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S075</attrlabl>
-      <attrdef>Education Career Group: Education[P39R2_Educación]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S076</attrlabl>
-      <attrdef>Education Career Group: Humanities and arts[P39R2_Humanidadesyartes]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S077</attrlabl>
-      <attrdef>Education Career Group: Social sciences business and law[P39R2_Cienciassociales_educacióncomercialyderecho]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S078</attrlabl>
-      <attrdef>Education Career Group: Sciences[P39R2_Ciencias]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S079</attrlabl>
-      <attrdef>Education Career Group: Industrial Engineering and Construction[P39R2_Ingenieria_industrialyconstrucción]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S080</attrlabl>
-      <attrdef>Education Career Group: Agriculture[P39R2_Agricultura]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S081</attrlabl>
-      <attrdef>Education Career Group: Health and social services[P39R2_Saludyserviciossociales]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S082</attrlabl>
-      <attrdef>Education Career Group: Services[P39R2_Servicios]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S083</attrlabl>
-      <attrdef>Education Career Group: Undeclared[P39R2_Nodeclarado]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>S084</attrlabl>
-      <attrdef>Education Career Group: Total[P39R2_TABTMP5_T]</attrdef>
-      <attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
-      <attrdomv>
-        <udom>Frequency of response in the census sector</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>Country</attrlabl>
-      <attrdef>Country</attrdef>
-      <attrdefs>East View Geospatial</attrdefs>
-      <attrdomv>
-        <udom>Country where census took place as 3-digit ISO code</udom>
-      </attrdomv>
-    </attr>
-    <attr>
-      <attrlabl>Census_Year</attrlabl>
-      <attrdef>Census_Year</attrdef>
-      <attrdefs>East View Geospatial</attrdefs>
-      <attrdomv>
-        <udom>Year census was conducted as YYYY</udom>
-      </attrdomv>
-    </attr>
-  </detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>DominicanRep_2010</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Código]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>NEIGHBORHOOD</attrlabl>
+			<attrdef>Quarter or Place of Residence[BarriooParajederesidencia]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Name of the barrio the census sector falls in.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S001</attrlabl>
+			<attrdef>Disability: Difficulty seeing, even with use of glasses or lenses: Yes[P34A_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S002</attrlabl>
+			<attrdef>Disability: Difficulty seeing, even with use of glasses or lenses: No[P34A_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S003</attrlabl>
+			<attrdef>Disability: Difficulty seeing, even with use of glasses or lenses: Undeclared[P34A_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S004</attrlabl>
+			<attrdef>Disability: Difficulty seeing, even with use of glasses or lenses: Total[P34A_TABTMP5_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S005</attrlabl>
+			<attrdef>Disability: Difficulty hearing, even with use of hearing aides: Yes[P34B_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S006</attrlabl>
+			<attrdef>Disability: Difficulty hearing, even with use of hearing aides: No[P34B_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S007</attrlabl>
+			<attrdef>Disability: Difficulty hearing, even with use of hearing aides: Undeclared[P34B_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S008</attrlabl>
+			<attrdef>Disability: Difficulty hearing, even with use of hearing aides: Total[P34B_TABTMP6_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S009</attrlabl>
+			<attrdef>Disability: Difficulty walking or climbing stairs: Yes[P34C_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S010</attrlabl>
+			<attrdef>Disability: Difficulty walking or climbing stairs: No[P34C_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S011</attrlabl>
+			<attrdef>Disability: Difficulty walking or climbing stairs: Undeclared[P34C_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S012</attrlabl>
+			<attrdef>Disability: Difficulty walking or climbing stairs: Total[P34C_TABTMP7_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S013</attrlabl>
+			<attrdef>Disability: Difficulty moving one or both arms: Yes[P34D_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S014</attrlabl>
+			<attrdef>Disability: Difficulty moving one or both arms: No[P34D_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S015</attrlabl>
+			<attrdef>Disability: Difficulty moving one or both arms: Undeclared[P34D_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S016</attrlabl>
+			<attrdef>Disability: Difficulty moving one or both arms: Total[P34D_TABTMP8_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S017</attrlabl>
+			<attrdef>Disability: Difficulty moving one or both legs: Yes[P34E_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S018</attrlabl>
+			<attrdef>Disability: Difficulty moving one or both legs: No[P34E_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S019</attrlabl>
+			<attrdef>Disability: Difficulty moving one or both legs: Undeclared[P34E_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S020</attrlabl>
+			<attrdef>Disability: Difficulty moving one or both legs: Total[P34E_TABTMP9_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S021</attrlabl>
+			<attrdef>Disability: Difficulty remembering or concentrating: Yes[P34F_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S022</attrlabl>
+			<attrdef>Disability: Difficulty remembering or concentrating: No[P34F_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S023</attrlabl>
+			<attrdef>Disability: Difficulty remembering or concentrating: Undeclared[P34F_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S024</attrlabl>
+			<attrdef>Disability: Difficulty remembering or concentrating: Total[P34F_TABTMP10_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S025</attrlabl>
+			<attrdef>Disability: Difficulty grasping objects and/or containers with open hands: Yes[P34G_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S026</attrlabl>
+			<attrdef>Disability: Difficulty grasping objects and/or containers with open hands: No[P34G_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S027</attrlabl>
+			<attrdef>Disability: Difficulty grasping objects and/or containers with open hands: Undeclared[P34G_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S028</attrlabl>
+			<attrdef>Disability: Difficulty grasping objects and/or containers with open hands: Total[P34G_TABTMP11_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S029</attrlabl>
+			<attrdef>Disability: Slurred speech: Yes[P34H_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S030</attrlabl>
+			<attrdef>Disability: Slurred speech: No[P34H_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S031</attrlabl>
+			<attrdef>Disability: Slurred speech: Undeclared[P34H_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S032</attrlabl>
+			<attrdef>Disability: Slurred speech: Total[P34H_TABTMP12_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S033</attrlabl>
+			<attrdef>Disability: Is mute: Yes[P34I_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S034</attrlabl>
+			<attrdef>Disability: Is mute: No[P34I_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S035</attrlabl>
+			<attrdef>Disability: Is mute: Undeclared[P34I_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S036</attrlabl>
+			<attrdef>Disability: Is mute: Total[P34I_TABTMP13_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S037</attrlabl>
+			<attrdef>Disability: Has mental problems: Yes[P34J_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S038</attrlabl>
+			<attrdef>Disability: Has mental problems: No[P34J_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S039</attrlabl>
+			<attrdef>Disability: Has mental problems: Undeclared[P34J_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S040</attrlabl>
+			<attrdef>Disability: Has mental problems: Total[P34J_TABTMP14_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S041</attrlabl>
+			<attrdef>Disability: Lacks one or both legs: Yes[P34K_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S042</attrlabl>
+			<attrdef>Disability: Lacks one or both legs: No[P34K_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S043</attrlabl>
+			<attrdef>Disability: Lacks one or both legs: Undeclared[P34K_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S044</attrlabl>
+			<attrdef>Disability: Lacks one or both legs: Total[P34K_TABTMP15_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S045</attrlabl>
+			<attrdef>Disability: Lacks one or both arms: Yes[P34L_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S046</attrlabl>
+			<attrdef>Disability: Lacks one or both arms: No[P34L_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S047</attrlabl>
+			<attrdef>Disability: Lacks one or both arms: Undeclared[P34L_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S048</attrlabl>
+			<attrdef>Disability: Lacks one or both arms: Total[P34L_TABTMP16_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S049</attrlabl>
+			<attrdef>Literate: Yes[P35_Sabeleeryescribir]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S050</attrlabl>
+			<attrdef>Literate: Can not read or write[P35_Nosabeleerniescribir]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S051</attrlabl>
+			<attrdef>Literate: Total[P35_TABTMP2_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S052</attrlabl>
+			<attrdef>Attends or attended school: Attends[P36_Asiste]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S053</attrlabl>
+			<attrdef>Attends or attended school: Not attending but attended[P36_Noasiste_peroasistió]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S054</attrlabl>
+			<attrdef>Attends or attended school: Never attended[P36_Nuncaasistió]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S055</attrlabl>
+			<attrdef>Attends or attended school: Total[P36_TABTMP3_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S056</attrlabl>
+			<attrdef>Highest level of education attended: Pre primary[P37_Preprimaria]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S057</attrlabl>
+			<attrdef>Highest level of education attended: Primary or basic[P37_Primariaobásica]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S058</attrlabl>
+			<attrdef>Highest level of education attended: Junior or high school[P37_Secundariaomedia]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S059</attrlabl>
+			<attrdef>Highest level of education attended: University or higher[P37_Universitariaosuperior]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S060</attrlabl>
+			<attrdef>Highest level of education attended: Total[P37_TABTMP4_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S061</attrlabl>
+			<attrdef>Last year of study completed at that level: 0[P38_0]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S062</attrlabl>
+			<attrdef>Last year of study completed at that level: 1[P38_1]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S063</attrlabl>
+			<attrdef>Last year of study completed at that level: 2[P38_2]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S064</attrlabl>
+			<attrdef>Last year of study completed at that level: 3[P38_3]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S065</attrlabl>
+			<attrdef>Last year of study completed at that level: 4[P38_4]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S066</attrlabl>
+			<attrdef>Last year of study completed at that level: 5[P38_5]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S067</attrlabl>
+			<attrdef>Last year of study completed at that level: 6[P38_6]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S068</attrlabl>
+			<attrdef>Last year of study completed at that level: 7[P38_7]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S069</attrlabl>
+			<attrdef>Last year of study completed at that level: 8[P38_8]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S070</attrlabl>
+			<attrdef>Last year of study completed at that level: Total[P38_TABTMP5_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S071</attrlabl>
+			<attrdef>Graduated with a degree: Yes[P40_Si]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S072</attrlabl>
+			<attrdef>Graduated with a degree: No[P40_No]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S073</attrlabl>
+			<attrdef>Graduated with a degree: Undeclared[P40_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S074</attrlabl>
+			<attrdef>Graduated with a degree: Total[P40_TABTMP6_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S075</attrlabl>
+			<attrdef>Education Career Group: Education[P39R2_Educación]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S076</attrlabl>
+			<attrdef>Education Career Group: Humanities and arts[P39R2_Humanidadesyartes]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S077</attrlabl>
+			<attrdef>Education Career Group: Social sciences business and law[P39R2_Cienciassociales_educacióncomercialyderecho]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S078</attrlabl>
+			<attrdef>Education Career Group: Sciences[P39R2_Ciencias]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S079</attrlabl>
+			<attrdef>Education Career Group: Industrial Engineering and Construction[P39R2_Ingenieria_industrialyconstrucción]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S080</attrlabl>
+			<attrdef>Education Career Group: Agriculture[P39R2_Agricultura]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S081</attrlabl>
+			<attrdef>Education Career Group: Health and social services[P39R2_Saludyserviciossociales]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S082</attrlabl>
+			<attrdef>Education Career Group: Services[P39R2_Servicios]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S083</attrlabl>
+			<attrdef>Education Career Group: Undeclared[P39R2_Nodeclarado]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S084</attrlabl>
+			<attrdef>Education Career Group: Total[P39R2_TABTMP5_T]</attrdef>
+			<attrdefs>National Statistics Office (ONE) Dominican Republic, 2010 [Oficina Nacional de Estadística (ONE) República Dominicana, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census_Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_dr_social_2010</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_dr_social_2010</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

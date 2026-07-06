@@ -1,1961 +1,1961 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Honduras (3608932)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Honduras</placekey>
-<placekey>Honduras</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2013</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-89.356610</westbc>
-<eastbc>-83.149552</eastbc>
-<northbc>16.518630</northbc>
-<southbc>12.984875</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Honduras (3608932)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Honduras</placekey>
+				<placekey>Honduras</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2013</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-89.356610</westbc>
+				<eastbc>-83.149552</eastbc>
+				<northbc>16.518630</northbc>
+				<southbc>12.984875</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Honduras Housing Census Data, 2013 is a polygon theme representing Barrios (5th level administrative units) in Honduras as of 2013.  Attribute data includes housing variables from the 2013 Hondurasian census.
 Official population and housing data for Honduras from the 2013 census. This census is provided at the barrio administrative level (ADM5) and includes 3732 polygons with 629 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Parentesco: Jefe O Jefa Del Hogar" was updated to D001 and given the alias "Relationship: Head Of Household[Parentesco: Jefe O Jefa Del Hogar]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
- </abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Honduras Housing Census Data, 2013</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Honduras Housing Census Data, 2013</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_honduras_housing_2013.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2013</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2013</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>WGS_1984_Web_Mercator_Auxiliary_Sphere</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>WGS_1984_Web_Mercator_Auxiliary_Sphere</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Honduras_2013</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H001</attrlabl>
-    <attrdef>Type Of House: Single Family Home[Tipo De Vivienda: Casa Independiente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H002</attrlabl>
-    <attrdef>Type Of House: Apartment[Tipo De Vivienda: Apartamento]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H003</attrlabl>
-    <attrdef>Type Of House: Hotel Room[Tipo De Vivienda: Cuarto En Meson O Cuarteria]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H004</attrlabl>
-    <attrdef>Type Of House: Housing Not Built[Tipo De Vivienda: Local No Construido Para Vivienda]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H005</attrlabl>
-    <attrdef>Type Of House: Ranch[Tipo De Vivienda: Rancho]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H006</attrlabl>
-    <attrdef>Type Of House: Makeshift Home[Tipo De Vivienda: Casa Improvisada]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H007</attrlabl>
-    <attrdef>Type Of House: Another Type Of Private Housing[Tipo De Vivienda: Otro Tipo De Vivienda Particular]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H008</attrlabl>
-    <attrdef>Type Of House: Hotel, Pension, Bed And Breakfast[Tipo De Vivienda: Hotel Pension Casa De Huespedes]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H009</attrlabl>
-    <attrdef>Type Of House: Sanatorium Hospital Or Clinic[Tipo De Vivienda: Hospital Sanatorio O Clinica]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H010</attrlabl>
-    <attrdef>Type Of House: Orphanage Or Asylum[Tipo De Vivienda: Orfanato O Asilo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H011</attrlabl>
-    <attrdef>Type Of House: Barracks, Battalion Or Police Station[Tipo De Vivienda: Cuartel Batallon O Posta Policial]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H012</attrlabl>
-    <attrdef>Type Of House: Prison Or Reformatory[Tipo De Vivienda: Prision O Reformatorio]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H013</attrlabl>
-    <attrdef>Type Of House: Other Type Of Collective Housing[Tipo De Vivienda: Otro Tipo De Vivienda Colectiva]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H014</attrlabl>
-    <attrdef>Type Of House: Total[Tipo De Vivienda: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H015</attrlabl>
-    <attrdef>Wall Material: Brick[Material De Pared: Ladrillo Rafon]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H016</attrlabl>
-    <attrdef>Wall Material: Cracked Stone Or Quarry[Material De Pared: Piedra Rajada O Cantera]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H017</attrlabl>
-    <attrdef>Wall Material: Cement Or Concrete Block[Material De Pared: Bloque De Cemento O Concreto]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H018</attrlabl>
-    <attrdef>Wall Material: Adobe[Material De Pared: Adobe]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H019</attrlabl>
-    <attrdef>Wall Material: Wood[Material De Pared: Madera]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H020</attrlabl>
-    <attrdef>Wall Material: Bahareque/Straw and Mud[Material De Pared: Bahareque]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H021</attrlabl>
-    <attrdef>Wall Material: Stick Or Cane[Material De Pared: Palo O Caña]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H022</attrlabl>
-    <attrdef>Wall Material: Waste Material[Material De Pared: Material De Desecho]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H023</attrlabl>
-    <attrdef>Wall Material: Other[Material De Pared: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H024</attrlabl>
-    <attrdef>Wall Material: Total[Material De Pared: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H025</attrlabl>
-    <attrdef>Roof Material: Clay Tile[Material Del Techo: Teja De Barro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H026</attrlabl>
-    <attrdef>Roof Material: Asbestos Sheet[Material Del Techo: Lamina De Asbesto]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H027</attrlabl>
-    <attrdef>Roof Material: Zinc Sheet[Material Del Techo: Lamina De Zinc]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H028</attrlabl>
-    <attrdef>Roof Material: Concrete[Material Del Techo: Concreto]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H029</attrlabl>
-    <attrdef>Roof Material: Wood[Material Del Techo: Madera]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H030</attrlabl>
-    <attrdef>Roof Material: Palm Straw Or Similar[Material Del Techo: Paja Palma O Similar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H031</attrlabl>
-    <attrdef>Roof Material: Waste Material[Material Del Techo: Material De Desecho]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H032</attrlabl>
-    <attrdef>Roof Material: Aluzinc Sheet[Material Del Techo: Lamina De Aluzinc]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H033</attrlabl>
-    <attrdef>Roof Material: Other[Material Del Techo: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H034</attrlabl>
-    <attrdef>Roof Material: Total[Material Del Techo: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H035</attrlabl>
-    <attrdef>Condition Of Occupancy: With People Present[Condición De Ocupación: Con Personas Presentes]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H036</attrlabl>
-    <attrdef>Condition Of Occupancy: With Absentees[Condición De Ocupación: Con Personas Ausentes]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H037</attrlabl>
-    <attrdef>Condition Of Occupancy: To Rent Or Sell[Condición De Ocupación: Para Alquilar O Vender]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H038</attrlabl>
-    <attrdef>Condition Of Occupancy: Temporary Use[Condición De Ocupación: De Uso Temporal]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H039</attrlabl>
-    <attrdef>Condition Of Occupancy: In Repair[Condición De Ocupación: En Reparacion]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H040</attrlabl>
-    <attrdef>Condition Of Occupancy: In Construction[Condición De Ocupación: En Construccion]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H041</attrlabl>
-    <attrdef>Condition Of Occupancy: Other[Condición De Ocupación: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H042</attrlabl>
-    <attrdef>Condition Of Occupancy: Total[Condición De Ocupación: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H043</attrlabl>
-    <attrdef>Floor Material: Earth[Material Del Piso: Tierra]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H044</attrlabl>
-    <attrdef>Floor Material: Cement Slab[Material Del Piso: Plancha De Cemento]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H045</attrlabl>
-    <attrdef>Floor Material: Wood[Material Del Piso: Madera]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H046</attrlabl>
-    <attrdef>Floor Material: Cement Brick[Material Del Piso: Ladrillo De Cemento]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H047</attrlabl>
-    <attrdef>Floor Material: Brick Or Granite Terrazzo[Material Del Piso: Ladrillo De Terrazo O Granito]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H048</attrlabl>
-    <attrdef>Floor Material: Mud Brick[Material Del Piso: Ladrillo De Barro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H049</attrlabl>
-    <attrdef>Floor Material: Ceramics[Material Del Piso: Ceramica]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H050</attrlabl>
-    <attrdef>Floor Material: Other[Material Del Piso: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H051</attrlabl>
-    <attrdef>Floor Material: Total[Material Del Piso: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H052</attrlabl>
-    <attrdef>Primary Source Of Water: Piped Into Housing[Fuente Primaria De Agua: Por Tuberia Dentro De La Vivienda]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H053</attrlabl>
-    <attrdef>Primary Source Of Water: Piped Outside The House But Within The Building Or Property Lot[Fuente Primaria De Agua: Por Tuberia Fuera De La Vivienda Pero Dentro Del Edificio Lote]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H054</attrlabl>
-    <attrdef>Primary Source Of Water: Piped Outside The Building Or Property Lot[Fuente Primaria De Agua: Por Tuberia Fuera Del Edificio Lote O Propiedad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H055</attrlabl>
-    <attrdef>Primary Source Of Water: No Piped Water But By Other Means[Fuente Primaria De Agua: No Recibe Agua Por Tuberia Si No Por Otros Medios]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H056</attrlabl>
-    <attrdef>Primary Source Of Water: Total[Fuente Primaria De Agua: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H057</attrlabl>
-    <attrdef>Piped Water Source: The Public System[Fuente De Agua Entubada: Del Sistema Publico]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H058</attrlabl>
-    <attrdef>Piped Water Source: Private System[Fuente De Agua Entubada: Del Sistema Privado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H059</attrlabl>
-    <attrdef>Piped Water Source: Well Winch[Fuente De Agua Entubada: De Pozo Malacate]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H060</attrlabl>
-    <attrdef>Piped Water Source: Well Pump[Fuente De Agua Entubada: De Pozo Con Bomba]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H061</attrlabl>
-    <attrdef>Piped Water Source: Springwater River Or Stream[Fuente De Agua Entubada: De Vertiente Rio O Arroyo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H062</attrlabl>
-    <attrdef>Piped Water Source: Lake Or Pond[Fuente De Agua Entubada: De Lago O Laguna]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H063</attrlabl>
-    <attrdef>Piped Water Source: Traveling Salesman Or Dealer[Fuente De Agua Entubada: De Vendedor O Repartidor Ambulante]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H064</attrlabl>
-    <attrdef>Piped Water Source: Other[Fuente De Agua Entubada: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H065</attrlabl>
-    <attrdef>Piped Water Source: Total[Fuente De Agua Entubada: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H066</attrlabl>
-    <attrdef>Lighting Type: Public Electricity System[Tipo De Alumbrado: Electricidad Del Sistema Publico]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H067</attrlabl>
-    <attrdef>Lighting Type: Private Electricity System[Tipo De Alumbrado: Electricidad Del Sistema Privado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H068</attrlabl>
-    <attrdef>Lighting Type: Private Generator[Tipo De Alumbrado: Electricidad De Motor Propio]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H069</attrlabl>
-    <attrdef>Lighting Type: Candle Or Gas Lamp Kerosene[Tipo De Alumbrado: Candil O Lampara De Gas Kerosene ]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H070</attrlabl>
-    <attrdef>Lighting Type: Candle[Tipo De Alumbrado: Vela]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H071</attrlabl>
-    <attrdef>Lighting Type: Ocote (Wood)[Tipo De Alumbrado: Ocote]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H072</attrlabl>
-    <attrdef>Lighting Type: Solar Panel[Tipo De Alumbrado: Panel Solar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H073</attrlabl>
-    <attrdef>Lighting Type: Total[Tipo De Alumbrado: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H074</attrlabl>
-    <attrdef>Garbage Removal: Public Residential Collection[Eliminación De Basura: Recolección Domiciliaria Pública]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H075</attrlabl>
-    <attrdef>Garbage Removal: Private Home Collection[Eliminación De Basura: Recoleccion Domiciliaria Privada]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H076</attrlabl>
-    <attrdef>Garbage Removal: Deposited In Containers[Eliminación De Basura: La Deposita En Contenedores]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H077</attrlabl>
-    <attrdef>Garbage Removal: Buries[Eliminación De Basura: La Entierra]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H078</attrlabl>
-    <attrdef>Garbage Removal: Prepares For Fertilizer[Eliminación De Basura: La Prepara Para Abono]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H079</attrlabl>
-    <attrdef>Garbage Removal: Burning[Eliminación De Basura: La Quema]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H080</attrlabl>
-    <attrdef>Garbage Removal: The Street, River, Stream, Lake Or Sea[Eliminación De Basura: La Tira A La Calle Río Quebrada Lago O Mar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H081</attrlabl>
-    <attrdef>Garbage Removal: Pays Individuals To Dispose Of[Eliminación De Basura: Paga A Particulares Para Que La Boten]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H082</attrlabl>
-    <attrdef>Garbage Removal: Other[Eliminación De Basura: Otra Forma]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H083</attrlabl>
-    <attrdef>Garbage Removal: Total[Eliminación De Basura: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H084</attrlabl>
-    <attrdef>Total Rooms: 1[Total De Piezas: 1]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H085</attrlabl>
-    <attrdef>Total Rooms: 2[Total De Piezas: 2]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H086</attrlabl>
-    <attrdef>Total Rooms: 3[Total De Piezas: 3]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H087</attrlabl>
-    <attrdef>Total Rooms: 4[Total De Piezas: 4]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H088</attrlabl>
-    <attrdef>Total Rooms: 5[Total De Piezas: 5]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H089</attrlabl>
-    <attrdef>Total Rooms: 6[Total De Piezas: 6]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H090</attrlabl>
-    <attrdef>Total Rooms: 7[Total De Piezas: 7]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H091</attrlabl>
-    <attrdef>Total Rooms: 8[Total De Piezas: 8]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H092</attrlabl>
-    <attrdef>Total Rooms: 9[Total De Piezas: 9]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H093</attrlabl>
-    <attrdef>Total Rooms: 10[Total De Piezas: 10]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H094</attrlabl>
-    <attrdef>Total Rooms: 11[Total De Piezas: 11]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H095</attrlabl>
-    <attrdef>Total Rooms: 12[Total De Piezas: 12]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H096</attrlabl>
-    <attrdef>Total Rooms: 13[Total De Piezas: 13]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H097</attrlabl>
-    <attrdef>Total Rooms: 14[Total De Piezas: 14]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H098</attrlabl>
-    <attrdef>Total Rooms: 15[Total De Piezas: 15]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H099</attrlabl>
-    <attrdef>Total Rooms: 16[Total De Piezas: 16]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H100</attrlabl>
-    <attrdef>Total Rooms: 17[Total De Piezas: 17]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H101</attrlabl>
-    <attrdef>Total Rooms: 18[Total De Piezas: 18]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H102</attrlabl>
-    <attrdef>Total Rooms: 19[Total De Piezas: 19]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H103</attrlabl>
-    <attrdef>Total Rooms: 20[Total De Piezas: 20]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H104</attrlabl>
-    <attrdef>Total Rooms: 21[Total De Piezas: 21]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H105</attrlabl>
-    <attrdef>Total Rooms: 22[Total De Piezas: 22]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H106</attrlabl>
-    <attrdef>Total Rooms: 23[Total De Piezas: 23]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H107</attrlabl>
-    <attrdef>Total Rooms: 24[Total De Piezas: 24]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H108</attrlabl>
-    <attrdef>Total Rooms: 25[Total De Piezas: 25]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H109</attrlabl>
-    <attrdef>Total Rooms: Total[Total De Piezas: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H110</attrlabl>
-    <attrdef>Multiple Households In The House: Yes[Múltiples Hogares En La Vivienda: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H111</attrlabl>
-    <attrdef>Multiple Households In The House: No[Múltiples Hogares En La Vivienda: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H112</attrlabl>
-    <attrdef>Multiple Households In The House: Total[Múltiples Hogares En La Vivienda: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H113</attrlabl>
-    <attrdef>Total Households: 1[Total De Hogares: 1]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H114</attrlabl>
-    <attrdef>Total Households: 2[Total De Hogares: 2]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H115</attrlabl>
-    <attrdef>Total Households: 3[Total De Hogares: 3]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H116</attrlabl>
-    <attrdef>Total Households: 4[Total De Hogares: 4]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H117</attrlabl>
-    <attrdef>Total Households: 5[Total De Hogares: 5]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H118</attrlabl>
-    <attrdef>Total Households: 6[Total De Hogares: 6]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H119</attrlabl>
-    <attrdef>Total Households: 7[Total De Hogares: 7]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H120</attrlabl>
-    <attrdef>Total Households: 8[Total De Hogares: 8]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H121</attrlabl>
-    <attrdef>Total Households: 9[Total De Hogares: 9]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H122</attrlabl>
-    <attrdef>Total Households: 10[Total De Hogares: 10]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H123</attrlabl>
-    <attrdef>Total Households: 11[Total De Hogares: 11]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H124</attrlabl>
-    <attrdef>Total Households: Total[Total De Hogares: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H125</attrlabl>
-    <attrdef>Total Bedrooms: 1[Total De Dormitorios: 1]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H126</attrlabl>
-    <attrdef>Total Bedrooms: 2[Total De Dormitorios: 2]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H127</attrlabl>
-    <attrdef>Total Bedrooms: 3[Total De Dormitorios: 3]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H128</attrlabl>
-    <attrdef>Total Bedrooms: 4[Total De Dormitorios: 4]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H129</attrlabl>
-    <attrdef>Total Bedrooms: 5[Total De Dormitorios: 5]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H130</attrlabl>
-    <attrdef>Total Bedrooms: 6[Total De Dormitorios: 6]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H131</attrlabl>
-    <attrdef>Total Bedrooms: 7[Total De Dormitorios: 7]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H132</attrlabl>
-    <attrdef>Total Bedrooms: 8[Total De Dormitorios: 8]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H133</attrlabl>
-    <attrdef>Total Bedrooms: 9[Total De Dormitorios: 9]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H134</attrlabl>
-    <attrdef>Total Bedrooms: 10[Total De Dormitorios: 10]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H135</attrlabl>
-    <attrdef>Total Bedrooms: 11[Total De Dormitorios: 11]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H136</attrlabl>
-    <attrdef>Total Bedrooms: 12[Total De Dormitorios: 12]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H137</attrlabl>
-    <attrdef>Total Bedrooms: 13[Total De Dormitorios: 13]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H138</attrlabl>
-    <attrdef>Total Bedrooms: 14[Total De Dormitorios: 14]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H139</attrlabl>
-    <attrdef>Total Bedrooms: 15[Total De Dormitorios: 15]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H140</attrlabl>
-    <attrdef>Total Bedrooms: Total[Total De Dormitorios: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H141</attrlabl>
-    <attrdef>Place For Cooking: Yes[Pieza Para Cocinar: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H142</attrlabl>
-    <attrdef>Place For Cooking: No[Pieza Para Cocinar: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H143</attrlabl>
-    <attrdef>Place For Cooking: Total[Pieza Para Cocinar: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H144</attrlabl>
-    <attrdef>Room Only Used For Cooking: Yes[Pieza Exclusiva Para Cocina: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H145</attrlabl>
-    <attrdef>Room Only Used For Cooking: No[Pieza Exclusiva Para Cocina: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H146</attrlabl>
-    <attrdef>Room Only Used For Cooking: Total[Pieza Exclusiva Para Cocina: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H147</attrlabl>
-    <attrdef>Cooking Fuel: Firewood[Energía Para Cocinar: Lena]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H148</attrlabl>
-    <attrdef>Cooking Fuel: Kerosene[Energía Para Cocinar: Gas Kerosene]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H149</attrlabl>
-    <attrdef>Cooking Fuel: Propane[Energía Para Cocinar: Gas Propano Chimbo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H150</attrlabl>
-    <attrdef>Cooking Fuel: Electricity[Energía Para Cocinar: Electricidad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H151</attrlabl>
-    <attrdef>Cooking Fuel: Other[Energía Para Cocinar: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H152</attrlabl>
-    <attrdef>Cooking Fuel: No Cooking[Energía Para Cocinar: No Cocina]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H153</attrlabl>
-    <attrdef>Cooking Fuel: Total[Energía Para Cocinar: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H154</attrlabl>
-    <attrdef>Type Of Toilet: Toilet Connected To Sewage System[Tipo De Sanitario: Inodoro Conectado A Red De Alcantarillado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H155</attrlabl>
-    <attrdef>Type Of Toilet: Toilet Connected To Septic Tank[Tipo De Sanitario: Inodoro Conectado A Pozo Septico]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H156</attrlabl>
-    <attrdef>Type Of Toilet: Toilet Flushed Into A River, Stream, Lake, Sea Or Lake[Tipo De Sanitario: Inodoro Con Descarga A Rio, Quebrada, Laguna, Mar O Lago]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H157</attrlabl>
-    <attrdef>Type Of Toilet: Pit Latrine[Tipo De Sanitario: Letrina De Pozo Simple]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H158</attrlabl>
-    <attrdef>Type Of Toilet: Pour-To-Flush Latrine[Tipo De Sanitario: Letrina Con Cierre Hidraulico]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H159</attrlabl>
-    <attrdef>Type Of Toilet: Other[Tipo De Sanitario: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H160</attrlabl>
-    <attrdef>Type Of Toilet: Does Not Have[Tipo De Sanitario: No Tiene]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H161</attrlabl>
-    <attrdef>Type Of Toilet: Total[Tipo De Sanitario: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H162</attrlabl>
-    <attrdef>Exclusive To Home Toilet Waste Removal : Yes[Sanitario Exclusivo Del Hogar: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H163</attrlabl>
-    <attrdef>Exclusive To Home Toilet Waste Removal : No[Sanitario Exclusivo Del Hogar: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H164</attrlabl>
-    <attrdef>Exclusive To Home Toilet Waste Removal : Total[Sanitario Exclusivo Del Hogar: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H165</attrlabl>
-    <attrdef>Refrigerator: Yes[Refrigeradora: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H166</attrlabl>
-    <attrdef>Refrigerator: No[Refrigeradora: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H167</attrlabl>
-    <attrdef>Refrigerator: Total[Refrigeradora: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H168</attrlabl>
-    <attrdef>Electric Washing Machine: Yes[Lavadora Electrica: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H169</attrlabl>
-    <attrdef>Electric Washing Machine: No[Lavadora Electrica: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H170</attrlabl>
-    <attrdef>Electric Washing Machine: Total[Lavadora Electrica: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H171</attrlabl>
-    <attrdef>Radio, Radio Or Stereo Recorder: Yes[Radio, Radio Grabadora O Equipo De Sonido: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H172</attrlabl>
-    <attrdef>Radio, Radio Or Stereo Recorder: No[Radio, Radio Grabadora O Equipo De Sonido: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H173</attrlabl>
-    <attrdef>Radio, Radio Or Stereo Recorder: Total[Radio, Radio Grabadora O Equipo De Sonido: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H174</attrlabl>
-    <attrdef>Electronic Games: Playstation, Wii, Nintendo: Yes[Juegos Electrónicos: Playstation, Wii, Nintendo: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H175</attrlabl>
-    <attrdef>Electronic Games: Playstation, Wii, Nintendo: No[Juegos Electrónicos: Playstation, Wii, Nintendo: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H176</attrlabl>
-    <attrdef>Electronic Games: Playstation, Wii, Nintendo: Total[Juegos Electrónicos: Playstation, Wii, Nintendo: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H177</attrlabl>
-    <attrdef>Sewing Machine: Yes[Máquina De Coser: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H178</attrlabl>
-    <attrdef>Sewing Machine: No[Máquina De Coser: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H179</attrlabl>
-    <attrdef>Sewing Machine: Total[Máquina De Coser: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H180</attrlabl>
-    <attrdef>TV: Yes[Televisor: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H181</attrlabl>
-    <attrdef>TV: No[Televisor: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H182</attrlabl>
-    <attrdef>TV: Total[Televisor: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H183</attrlabl>
-    <attrdef>Air Conditioner: Yes[Aire Acondicionado: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H184</attrlabl>
-    <attrdef>Air Conditioner: No[Aire Acondicionado: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H185</attrlabl>
-    <attrdef>Air Conditioner: Total[Aire Acondicionado: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H186</attrlabl>
-    <attrdef>Computer: Yes[Computadora: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H187</attrlabl>
-    <attrdef>Computer: No[Computadora: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H188</attrlabl>
-    <attrdef>Computer: Total[Computadora: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H189</attrlabl>
-    <attrdef>Landline: Yes[Telefono Fijo: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H190</attrlabl>
-    <attrdef>Landline: No[Telefono Fijo: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H191</attrlabl>
-    <attrdef>Landline: Total[Telefono Fijo: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H192</attrlabl>
-    <attrdef>4 Burner Stove: Yes[Estufa De 4 Hornillas: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H193</attrlabl>
-    <attrdef>4 Burner Stove: No[Estufa De 4 Hornillas: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H194</attrlabl>
-    <attrdef>4 Burner Stove: Total[Estufa De 4 Hornillas: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H195</attrlabl>
-    <attrdef>Microwave: Yes[Microondas: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H196</attrlabl>
-    <attrdef>Microwave: No[Microondas: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H197</attrlabl>
-    <attrdef>Microwave: Total[Microondas: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H198</attrlabl>
-    <attrdef>Cable Television Service: Yes[Servicio De Cable De Televisión: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H199</attrlabl>
-    <attrdef>Cable Television Service: No[Servicio De Cable De Televisión: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H200</attrlabl>
-    <attrdef>Cable Television Service: Total[Servicio De Cable De Televisión: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H201</attrlabl>
-    <attrdef>Internet Service: Yes[Servicio De Internet: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H202</attrlabl>
-    <attrdef>Internet Service: No[Servicio De Internet: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H203</attrlabl>
-    <attrdef>Internet Service: Total[Servicio De Internet: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H204</attrlabl>
-    <attrdef>Tenancy: Own[Tenencia: Propia]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H205</attrlabl>
-    <attrdef>Tenancy: Own; Mortgage[Tenencia: Propia Pagándola A Plazos]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H206</attrlabl>
-    <attrdef>Tenancy: Rented[Tenencia: Alquilada]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H207</attrlabl>
-    <attrdef>Tenancy: Loaned Or Transferred Without Payment[Tenencia: Prestada O Cedida Sin Pago]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H208</attrlabl>
-    <attrdef>Tenancy: Assignment For Work Services[Tenencia: Cedida Por Servicios De Trabajo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H209</attrlabl>
-    <attrdef>Tenancy: Total[Tenencia: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H210</attrlabl>
-    <attrdef>Unsatisfied Basic Needs: Homes With 0 NBI[Necesidades Basicas Insatisfechas: Vivendas Con 0 NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H211</attrlabl>
-    <attrdef>Unsatisfied Basic Needs: Homes With 1 NBI[Necesidades Basicas Insatisfechas: Vivendas Con 1 NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H212</attrlabl>
-    <attrdef>Unsatisfied Basic Needs: Homes With 2 NBI[Necesidades Basicas Insatisfechas: Vivendas Con 2 NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H213</attrlabl>
-    <attrdef>Unsatisfied Basic Needs: Homes With 3 NBI[Necesidades Basicas Insatisfechas: Vivendas Con 3 NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H214</attrlabl>
-    <attrdef>Unsatisfied Basic Needs: Homes With 4 Or More NBI[Necesidades Basicas Insatisfechas: Vivendas Con 4 Mas NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H215</attrlabl>
-    <attrdef>Unsatisfied Basic Needs: Total[Necesidades Basicas Insatisfechas: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H216</attrlabl>
-    <attrdef>No Water Service: No NBI[Sin Servicio De Agua: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H217</attrlabl>
-    <attrdef>No Water Service: With NBI[Sin Servicio De Agua: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H218</attrlabl>
-    <attrdef>No Water Service: Total[Sin Servicio De Agua: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H219</attrlabl>
-    <attrdef>With Sanitation Problems: No NBI[Con Problemas De Saneamiento: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H220</attrlabl>
-    <attrdef>With Sanitation Problems: With NBI[Con Problemas De Saneamiento: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H221</attrlabl>
-    <attrdef>With Sanitation Problems: Total[Con Problemas De Saneamiento: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H222</attrlabl>
-    <attrdef>Poor Housing Condition: No NBI[Vivienda En Mal Estado: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H223</attrlabl>
-    <attrdef>Poor Housing Condition: With NBI[Vivienda En Mal Estado: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H224</attrlabl>
-    <attrdef>Poor Housing Condition: Total[Vivienda En Mal Estado: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv/>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv/>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Honduras_2013</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H001</attrlabl>
+			<attrdef>Type Of House: Single Family Home[Tipo De Vivienda: Casa Independiente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H002</attrlabl>
+			<attrdef>Type Of House: Apartment[Tipo De Vivienda: Apartamento]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H003</attrlabl>
+			<attrdef>Type Of House: Hotel Room[Tipo De Vivienda: Cuarto En Meson O Cuarteria]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H004</attrlabl>
+			<attrdef>Type Of House: Housing Not Built[Tipo De Vivienda: Local No Construido Para Vivienda]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H005</attrlabl>
+			<attrdef>Type Of House: Ranch[Tipo De Vivienda: Rancho]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H006</attrlabl>
+			<attrdef>Type Of House: Makeshift Home[Tipo De Vivienda: Casa Improvisada]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H007</attrlabl>
+			<attrdef>Type Of House: Another Type Of Private Housing[Tipo De Vivienda: Otro Tipo De Vivienda Particular]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H008</attrlabl>
+			<attrdef>Type Of House: Hotel, Pension, Bed And Breakfast[Tipo De Vivienda: Hotel Pension Casa De Huespedes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H009</attrlabl>
+			<attrdef>Type Of House: Sanatorium Hospital Or Clinic[Tipo De Vivienda: Hospital Sanatorio O Clinica]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H010</attrlabl>
+			<attrdef>Type Of House: Orphanage Or Asylum[Tipo De Vivienda: Orfanato O Asilo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H011</attrlabl>
+			<attrdef>Type Of House: Barracks, Battalion Or Police Station[Tipo De Vivienda: Cuartel Batallon O Posta Policial]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H012</attrlabl>
+			<attrdef>Type Of House: Prison Or Reformatory[Tipo De Vivienda: Prision O Reformatorio]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H013</attrlabl>
+			<attrdef>Type Of House: Other Type Of Collective Housing[Tipo De Vivienda: Otro Tipo De Vivienda Colectiva]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H014</attrlabl>
+			<attrdef>Type Of House: Total[Tipo De Vivienda: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H015</attrlabl>
+			<attrdef>Wall Material: Brick[Material De Pared: Ladrillo Rafon]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H016</attrlabl>
+			<attrdef>Wall Material: Cracked Stone Or Quarry[Material De Pared: Piedra Rajada O Cantera]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H017</attrlabl>
+			<attrdef>Wall Material: Cement Or Concrete Block[Material De Pared: Bloque De Cemento O Concreto]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H018</attrlabl>
+			<attrdef>Wall Material: Adobe[Material De Pared: Adobe]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H019</attrlabl>
+			<attrdef>Wall Material: Wood[Material De Pared: Madera]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H020</attrlabl>
+			<attrdef>Wall Material: Bahareque/Straw and Mud[Material De Pared: Bahareque]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H021</attrlabl>
+			<attrdef>Wall Material: Stick Or Cane[Material De Pared: Palo O Caña]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H022</attrlabl>
+			<attrdef>Wall Material: Waste Material[Material De Pared: Material De Desecho]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H023</attrlabl>
+			<attrdef>Wall Material: Other[Material De Pared: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H024</attrlabl>
+			<attrdef>Wall Material: Total[Material De Pared: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H025</attrlabl>
+			<attrdef>Roof Material: Clay Tile[Material Del Techo: Teja De Barro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H026</attrlabl>
+			<attrdef>Roof Material: Asbestos Sheet[Material Del Techo: Lamina De Asbesto]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H027</attrlabl>
+			<attrdef>Roof Material: Zinc Sheet[Material Del Techo: Lamina De Zinc]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H028</attrlabl>
+			<attrdef>Roof Material: Concrete[Material Del Techo: Concreto]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H029</attrlabl>
+			<attrdef>Roof Material: Wood[Material Del Techo: Madera]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H030</attrlabl>
+			<attrdef>Roof Material: Palm Straw Or Similar[Material Del Techo: Paja Palma O Similar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H031</attrlabl>
+			<attrdef>Roof Material: Waste Material[Material Del Techo: Material De Desecho]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H032</attrlabl>
+			<attrdef>Roof Material: Aluzinc Sheet[Material Del Techo: Lamina De Aluzinc]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H033</attrlabl>
+			<attrdef>Roof Material: Other[Material Del Techo: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H034</attrlabl>
+			<attrdef>Roof Material: Total[Material Del Techo: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H035</attrlabl>
+			<attrdef>Condition Of Occupancy: With People Present[Condición De Ocupación: Con Personas Presentes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H036</attrlabl>
+			<attrdef>Condition Of Occupancy: With Absentees[Condición De Ocupación: Con Personas Ausentes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H037</attrlabl>
+			<attrdef>Condition Of Occupancy: To Rent Or Sell[Condición De Ocupación: Para Alquilar O Vender]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H038</attrlabl>
+			<attrdef>Condition Of Occupancy: Temporary Use[Condición De Ocupación: De Uso Temporal]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H039</attrlabl>
+			<attrdef>Condition Of Occupancy: In Repair[Condición De Ocupación: En Reparacion]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H040</attrlabl>
+			<attrdef>Condition Of Occupancy: In Construction[Condición De Ocupación: En Construccion]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H041</attrlabl>
+			<attrdef>Condition Of Occupancy: Other[Condición De Ocupación: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H042</attrlabl>
+			<attrdef>Condition Of Occupancy: Total[Condición De Ocupación: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H043</attrlabl>
+			<attrdef>Floor Material: Earth[Material Del Piso: Tierra]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H044</attrlabl>
+			<attrdef>Floor Material: Cement Slab[Material Del Piso: Plancha De Cemento]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H045</attrlabl>
+			<attrdef>Floor Material: Wood[Material Del Piso: Madera]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H046</attrlabl>
+			<attrdef>Floor Material: Cement Brick[Material Del Piso: Ladrillo De Cemento]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H047</attrlabl>
+			<attrdef>Floor Material: Brick Or Granite Terrazzo[Material Del Piso: Ladrillo De Terrazo O Granito]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H048</attrlabl>
+			<attrdef>Floor Material: Mud Brick[Material Del Piso: Ladrillo De Barro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H049</attrlabl>
+			<attrdef>Floor Material: Ceramics[Material Del Piso: Ceramica]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H050</attrlabl>
+			<attrdef>Floor Material: Other[Material Del Piso: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H051</attrlabl>
+			<attrdef>Floor Material: Total[Material Del Piso: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H052</attrlabl>
+			<attrdef>Primary Source Of Water: Piped Into Housing[Fuente Primaria De Agua: Por Tuberia Dentro De La Vivienda]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H053</attrlabl>
+			<attrdef>Primary Source Of Water: Piped Outside The House But Within The Building Or Property Lot[Fuente Primaria De Agua: Por Tuberia Fuera De La Vivienda Pero Dentro Del Edificio Lote]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H054</attrlabl>
+			<attrdef>Primary Source Of Water: Piped Outside The Building Or Property Lot[Fuente Primaria De Agua: Por Tuberia Fuera Del Edificio Lote O Propiedad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H055</attrlabl>
+			<attrdef>Primary Source Of Water: No Piped Water But By Other Means[Fuente Primaria De Agua: No Recibe Agua Por Tuberia Si No Por Otros Medios]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H056</attrlabl>
+			<attrdef>Primary Source Of Water: Total[Fuente Primaria De Agua: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H057</attrlabl>
+			<attrdef>Piped Water Source: The Public System[Fuente De Agua Entubada: Del Sistema Publico]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H058</attrlabl>
+			<attrdef>Piped Water Source: Private System[Fuente De Agua Entubada: Del Sistema Privado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H059</attrlabl>
+			<attrdef>Piped Water Source: Well Winch[Fuente De Agua Entubada: De Pozo Malacate]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H060</attrlabl>
+			<attrdef>Piped Water Source: Well Pump[Fuente De Agua Entubada: De Pozo Con Bomba]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H061</attrlabl>
+			<attrdef>Piped Water Source: Springwater River Or Stream[Fuente De Agua Entubada: De Vertiente Rio O Arroyo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H062</attrlabl>
+			<attrdef>Piped Water Source: Lake Or Pond[Fuente De Agua Entubada: De Lago O Laguna]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H063</attrlabl>
+			<attrdef>Piped Water Source: Traveling Salesman Or Dealer[Fuente De Agua Entubada: De Vendedor O Repartidor Ambulante]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H064</attrlabl>
+			<attrdef>Piped Water Source: Other[Fuente De Agua Entubada: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H065</attrlabl>
+			<attrdef>Piped Water Source: Total[Fuente De Agua Entubada: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H066</attrlabl>
+			<attrdef>Lighting Type: Public Electricity System[Tipo De Alumbrado: Electricidad Del Sistema Publico]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H067</attrlabl>
+			<attrdef>Lighting Type: Private Electricity System[Tipo De Alumbrado: Electricidad Del Sistema Privado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H068</attrlabl>
+			<attrdef>Lighting Type: Private Generator[Tipo De Alumbrado: Electricidad De Motor Propio]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H069</attrlabl>
+			<attrdef>Lighting Type: Candle Or Gas Lamp Kerosene[Tipo De Alumbrado: Candil O Lampara De Gas Kerosene ]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H070</attrlabl>
+			<attrdef>Lighting Type: Candle[Tipo De Alumbrado: Vela]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H071</attrlabl>
+			<attrdef>Lighting Type: Ocote (Wood)[Tipo De Alumbrado: Ocote]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H072</attrlabl>
+			<attrdef>Lighting Type: Solar Panel[Tipo De Alumbrado: Panel Solar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H073</attrlabl>
+			<attrdef>Lighting Type: Total[Tipo De Alumbrado: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H074</attrlabl>
+			<attrdef>Garbage Removal: Public Residential Collection[Eliminación De Basura: Recolección Domiciliaria Pública]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H075</attrlabl>
+			<attrdef>Garbage Removal: Private Home Collection[Eliminación De Basura: Recoleccion Domiciliaria Privada]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H076</attrlabl>
+			<attrdef>Garbage Removal: Deposited In Containers[Eliminación De Basura: La Deposita En Contenedores]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H077</attrlabl>
+			<attrdef>Garbage Removal: Buries[Eliminación De Basura: La Entierra]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H078</attrlabl>
+			<attrdef>Garbage Removal: Prepares For Fertilizer[Eliminación De Basura: La Prepara Para Abono]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H079</attrlabl>
+			<attrdef>Garbage Removal: Burning[Eliminación De Basura: La Quema]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H080</attrlabl>
+			<attrdef>Garbage Removal: The Street, River, Stream, Lake Or Sea[Eliminación De Basura: La Tira A La Calle Río Quebrada Lago O Mar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H081</attrlabl>
+			<attrdef>Garbage Removal: Pays Individuals To Dispose Of[Eliminación De Basura: Paga A Particulares Para Que La Boten]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H082</attrlabl>
+			<attrdef>Garbage Removal: Other[Eliminación De Basura: Otra Forma]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H083</attrlabl>
+			<attrdef>Garbage Removal: Total[Eliminación De Basura: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H084</attrlabl>
+			<attrdef>Total Rooms: 1[Total De Piezas: 1]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H085</attrlabl>
+			<attrdef>Total Rooms: 2[Total De Piezas: 2]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H086</attrlabl>
+			<attrdef>Total Rooms: 3[Total De Piezas: 3]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H087</attrlabl>
+			<attrdef>Total Rooms: 4[Total De Piezas: 4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H088</attrlabl>
+			<attrdef>Total Rooms: 5[Total De Piezas: 5]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H089</attrlabl>
+			<attrdef>Total Rooms: 6[Total De Piezas: 6]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H090</attrlabl>
+			<attrdef>Total Rooms: 7[Total De Piezas: 7]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H091</attrlabl>
+			<attrdef>Total Rooms: 8[Total De Piezas: 8]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H092</attrlabl>
+			<attrdef>Total Rooms: 9[Total De Piezas: 9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H093</attrlabl>
+			<attrdef>Total Rooms: 10[Total De Piezas: 10]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H094</attrlabl>
+			<attrdef>Total Rooms: 11[Total De Piezas: 11]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H095</attrlabl>
+			<attrdef>Total Rooms: 12[Total De Piezas: 12]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H096</attrlabl>
+			<attrdef>Total Rooms: 13[Total De Piezas: 13]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H097</attrlabl>
+			<attrdef>Total Rooms: 14[Total De Piezas: 14]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H098</attrlabl>
+			<attrdef>Total Rooms: 15[Total De Piezas: 15]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H099</attrlabl>
+			<attrdef>Total Rooms: 16[Total De Piezas: 16]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H100</attrlabl>
+			<attrdef>Total Rooms: 17[Total De Piezas: 17]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H101</attrlabl>
+			<attrdef>Total Rooms: 18[Total De Piezas: 18]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H102</attrlabl>
+			<attrdef>Total Rooms: 19[Total De Piezas: 19]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H103</attrlabl>
+			<attrdef>Total Rooms: 20[Total De Piezas: 20]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H104</attrlabl>
+			<attrdef>Total Rooms: 21[Total De Piezas: 21]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H105</attrlabl>
+			<attrdef>Total Rooms: 22[Total De Piezas: 22]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H106</attrlabl>
+			<attrdef>Total Rooms: 23[Total De Piezas: 23]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H107</attrlabl>
+			<attrdef>Total Rooms: 24[Total De Piezas: 24]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H108</attrlabl>
+			<attrdef>Total Rooms: 25[Total De Piezas: 25]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H109</attrlabl>
+			<attrdef>Total Rooms: Total[Total De Piezas: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H110</attrlabl>
+			<attrdef>Multiple Households In The House: Yes[Múltiples Hogares En La Vivienda: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H111</attrlabl>
+			<attrdef>Multiple Households In The House: No[Múltiples Hogares En La Vivienda: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H112</attrlabl>
+			<attrdef>Multiple Households In The House: Total[Múltiples Hogares En La Vivienda: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H113</attrlabl>
+			<attrdef>Total Households: 1[Total De Hogares: 1]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H114</attrlabl>
+			<attrdef>Total Households: 2[Total De Hogares: 2]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H115</attrlabl>
+			<attrdef>Total Households: 3[Total De Hogares: 3]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H116</attrlabl>
+			<attrdef>Total Households: 4[Total De Hogares: 4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H117</attrlabl>
+			<attrdef>Total Households: 5[Total De Hogares: 5]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H118</attrlabl>
+			<attrdef>Total Households: 6[Total De Hogares: 6]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H119</attrlabl>
+			<attrdef>Total Households: 7[Total De Hogares: 7]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H120</attrlabl>
+			<attrdef>Total Households: 8[Total De Hogares: 8]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H121</attrlabl>
+			<attrdef>Total Households: 9[Total De Hogares: 9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H122</attrlabl>
+			<attrdef>Total Households: 10[Total De Hogares: 10]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H123</attrlabl>
+			<attrdef>Total Households: 11[Total De Hogares: 11]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H124</attrlabl>
+			<attrdef>Total Households: Total[Total De Hogares: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H125</attrlabl>
+			<attrdef>Total Bedrooms: 1[Total De Dormitorios: 1]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H126</attrlabl>
+			<attrdef>Total Bedrooms: 2[Total De Dormitorios: 2]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H127</attrlabl>
+			<attrdef>Total Bedrooms: 3[Total De Dormitorios: 3]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H128</attrlabl>
+			<attrdef>Total Bedrooms: 4[Total De Dormitorios: 4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H129</attrlabl>
+			<attrdef>Total Bedrooms: 5[Total De Dormitorios: 5]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H130</attrlabl>
+			<attrdef>Total Bedrooms: 6[Total De Dormitorios: 6]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H131</attrlabl>
+			<attrdef>Total Bedrooms: 7[Total De Dormitorios: 7]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H132</attrlabl>
+			<attrdef>Total Bedrooms: 8[Total De Dormitorios: 8]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H133</attrlabl>
+			<attrdef>Total Bedrooms: 9[Total De Dormitorios: 9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H134</attrlabl>
+			<attrdef>Total Bedrooms: 10[Total De Dormitorios: 10]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H135</attrlabl>
+			<attrdef>Total Bedrooms: 11[Total De Dormitorios: 11]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H136</attrlabl>
+			<attrdef>Total Bedrooms: 12[Total De Dormitorios: 12]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H137</attrlabl>
+			<attrdef>Total Bedrooms: 13[Total De Dormitorios: 13]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H138</attrlabl>
+			<attrdef>Total Bedrooms: 14[Total De Dormitorios: 14]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H139</attrlabl>
+			<attrdef>Total Bedrooms: 15[Total De Dormitorios: 15]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H140</attrlabl>
+			<attrdef>Total Bedrooms: Total[Total De Dormitorios: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H141</attrlabl>
+			<attrdef>Place For Cooking: Yes[Pieza Para Cocinar: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H142</attrlabl>
+			<attrdef>Place For Cooking: No[Pieza Para Cocinar: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H143</attrlabl>
+			<attrdef>Place For Cooking: Total[Pieza Para Cocinar: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H144</attrlabl>
+			<attrdef>Room Only Used For Cooking: Yes[Pieza Exclusiva Para Cocina: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H145</attrlabl>
+			<attrdef>Room Only Used For Cooking: No[Pieza Exclusiva Para Cocina: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H146</attrlabl>
+			<attrdef>Room Only Used For Cooking: Total[Pieza Exclusiva Para Cocina: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H147</attrlabl>
+			<attrdef>Cooking Fuel: Firewood[Energía Para Cocinar: Lena]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H148</attrlabl>
+			<attrdef>Cooking Fuel: Kerosene[Energía Para Cocinar: Gas Kerosene]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H149</attrlabl>
+			<attrdef>Cooking Fuel: Propane[Energía Para Cocinar: Gas Propano Chimbo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H150</attrlabl>
+			<attrdef>Cooking Fuel: Electricity[Energía Para Cocinar: Electricidad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H151</attrlabl>
+			<attrdef>Cooking Fuel: Other[Energía Para Cocinar: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H152</attrlabl>
+			<attrdef>Cooking Fuel: No Cooking[Energía Para Cocinar: No Cocina]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H153</attrlabl>
+			<attrdef>Cooking Fuel: Total[Energía Para Cocinar: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H154</attrlabl>
+			<attrdef>Type Of Toilet: Toilet Connected To Sewage System[Tipo De Sanitario: Inodoro Conectado A Red De Alcantarillado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H155</attrlabl>
+			<attrdef>Type Of Toilet: Toilet Connected To Septic Tank[Tipo De Sanitario: Inodoro Conectado A Pozo Septico]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H156</attrlabl>
+			<attrdef>Type Of Toilet: Toilet Flushed Into A River, Stream, Lake, Sea Or Lake[Tipo De Sanitario: Inodoro Con Descarga A Rio, Quebrada, Laguna, Mar O Lago]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H157</attrlabl>
+			<attrdef>Type Of Toilet: Pit Latrine[Tipo De Sanitario: Letrina De Pozo Simple]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H158</attrlabl>
+			<attrdef>Type Of Toilet: Pour-To-Flush Latrine[Tipo De Sanitario: Letrina Con Cierre Hidraulico]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H159</attrlabl>
+			<attrdef>Type Of Toilet: Other[Tipo De Sanitario: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H160</attrlabl>
+			<attrdef>Type Of Toilet: Does Not Have[Tipo De Sanitario: No Tiene]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H161</attrlabl>
+			<attrdef>Type Of Toilet: Total[Tipo De Sanitario: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H162</attrlabl>
+			<attrdef>Exclusive To Home Toilet Waste Removal : Yes[Sanitario Exclusivo Del Hogar: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H163</attrlabl>
+			<attrdef>Exclusive To Home Toilet Waste Removal : No[Sanitario Exclusivo Del Hogar: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H164</attrlabl>
+			<attrdef>Exclusive To Home Toilet Waste Removal : Total[Sanitario Exclusivo Del Hogar: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H165</attrlabl>
+			<attrdef>Refrigerator: Yes[Refrigeradora: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H166</attrlabl>
+			<attrdef>Refrigerator: No[Refrigeradora: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H167</attrlabl>
+			<attrdef>Refrigerator: Total[Refrigeradora: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H168</attrlabl>
+			<attrdef>Electric Washing Machine: Yes[Lavadora Electrica: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H169</attrlabl>
+			<attrdef>Electric Washing Machine: No[Lavadora Electrica: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H170</attrlabl>
+			<attrdef>Electric Washing Machine: Total[Lavadora Electrica: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H171</attrlabl>
+			<attrdef>Radio, Radio Or Stereo Recorder: Yes[Radio, Radio Grabadora O Equipo De Sonido: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H172</attrlabl>
+			<attrdef>Radio, Radio Or Stereo Recorder: No[Radio, Radio Grabadora O Equipo De Sonido: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H173</attrlabl>
+			<attrdef>Radio, Radio Or Stereo Recorder: Total[Radio, Radio Grabadora O Equipo De Sonido: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H174</attrlabl>
+			<attrdef>Electronic Games: Playstation, Wii, Nintendo: Yes[Juegos Electrónicos: Playstation, Wii, Nintendo: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H175</attrlabl>
+			<attrdef>Electronic Games: Playstation, Wii, Nintendo: No[Juegos Electrónicos: Playstation, Wii, Nintendo: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H176</attrlabl>
+			<attrdef>Electronic Games: Playstation, Wii, Nintendo: Total[Juegos Electrónicos: Playstation, Wii, Nintendo: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H177</attrlabl>
+			<attrdef>Sewing Machine: Yes[Máquina De Coser: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H178</attrlabl>
+			<attrdef>Sewing Machine: No[Máquina De Coser: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H179</attrlabl>
+			<attrdef>Sewing Machine: Total[Máquina De Coser: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H180</attrlabl>
+			<attrdef>TV: Yes[Televisor: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H181</attrlabl>
+			<attrdef>TV: No[Televisor: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H182</attrlabl>
+			<attrdef>TV: Total[Televisor: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H183</attrlabl>
+			<attrdef>Air Conditioner: Yes[Aire Acondicionado: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H184</attrlabl>
+			<attrdef>Air Conditioner: No[Aire Acondicionado: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H185</attrlabl>
+			<attrdef>Air Conditioner: Total[Aire Acondicionado: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H186</attrlabl>
+			<attrdef>Computer: Yes[Computadora: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H187</attrlabl>
+			<attrdef>Computer: No[Computadora: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H188</attrlabl>
+			<attrdef>Computer: Total[Computadora: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H189</attrlabl>
+			<attrdef>Landline: Yes[Telefono Fijo: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H190</attrlabl>
+			<attrdef>Landline: No[Telefono Fijo: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H191</attrlabl>
+			<attrdef>Landline: Total[Telefono Fijo: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H192</attrlabl>
+			<attrdef>4 Burner Stove: Yes[Estufa De 4 Hornillas: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H193</attrlabl>
+			<attrdef>4 Burner Stove: No[Estufa De 4 Hornillas: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H194</attrlabl>
+			<attrdef>4 Burner Stove: Total[Estufa De 4 Hornillas: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H195</attrlabl>
+			<attrdef>Microwave: Yes[Microondas: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H196</attrlabl>
+			<attrdef>Microwave: No[Microondas: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H197</attrlabl>
+			<attrdef>Microwave: Total[Microondas: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H198</attrlabl>
+			<attrdef>Cable Television Service: Yes[Servicio De Cable De Televisión: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H199</attrlabl>
+			<attrdef>Cable Television Service: No[Servicio De Cable De Televisión: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H200</attrlabl>
+			<attrdef>Cable Television Service: Total[Servicio De Cable De Televisión: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H201</attrlabl>
+			<attrdef>Internet Service: Yes[Servicio De Internet: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H202</attrlabl>
+			<attrdef>Internet Service: No[Servicio De Internet: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H203</attrlabl>
+			<attrdef>Internet Service: Total[Servicio De Internet: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H204</attrlabl>
+			<attrdef>Tenancy: Own[Tenencia: Propia]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H205</attrlabl>
+			<attrdef>Tenancy: Own; Mortgage[Tenencia: Propia Pagándola A Plazos]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H206</attrlabl>
+			<attrdef>Tenancy: Rented[Tenencia: Alquilada]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H207</attrlabl>
+			<attrdef>Tenancy: Loaned Or Transferred Without Payment[Tenencia: Prestada O Cedida Sin Pago]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H208</attrlabl>
+			<attrdef>Tenancy: Assignment For Work Services[Tenencia: Cedida Por Servicios De Trabajo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H209</attrlabl>
+			<attrdef>Tenancy: Total[Tenencia: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H210</attrlabl>
+			<attrdef>Unsatisfied Basic Needs: Homes With 0 NBI[Necesidades Basicas Insatisfechas: Vivendas Con 0 NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H211</attrlabl>
+			<attrdef>Unsatisfied Basic Needs: Homes With 1 NBI[Necesidades Basicas Insatisfechas: Vivendas Con 1 NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H212</attrlabl>
+			<attrdef>Unsatisfied Basic Needs: Homes With 2 NBI[Necesidades Basicas Insatisfechas: Vivendas Con 2 NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H213</attrlabl>
+			<attrdef>Unsatisfied Basic Needs: Homes With 3 NBI[Necesidades Basicas Insatisfechas: Vivendas Con 3 NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H214</attrlabl>
+			<attrdef>Unsatisfied Basic Needs: Homes With 4 Or More NBI[Necesidades Basicas Insatisfechas: Vivendas Con 4 Mas NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H215</attrlabl>
+			<attrdef>Unsatisfied Basic Needs: Total[Necesidades Basicas Insatisfechas: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H216</attrlabl>
+			<attrdef>No Water Service: No NBI[Sin Servicio De Agua: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H217</attrlabl>
+			<attrdef>No Water Service: With NBI[Sin Servicio De Agua: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H218</attrlabl>
+			<attrdef>No Water Service: Total[Sin Servicio De Agua: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H219</attrlabl>
+			<attrdef>With Sanitation Problems: No NBI[Con Problemas De Saneamiento: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H220</attrlabl>
+			<attrdef>With Sanitation Problems: With NBI[Con Problemas De Saneamiento: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H221</attrlabl>
+			<attrdef>With Sanitation Problems: Total[Con Problemas De Saneamiento: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H222</attrlabl>
+			<attrdef>Poor Housing Condition: No NBI[Vivienda En Mal Estado: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H223</attrlabl>
+			<attrdef>Poor Housing Condition: With NBI[Vivienda En Mal Estado: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H224</attrlabl>
+			<attrdef>Poor Housing Condition: Total[Vivienda En Mal Estado: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv/>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv/>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_honduras_housing_2013</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_honduras_housing_2013</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

@@ -1,102 +1,106 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>Geological Survey (U.S.)</origin>
-<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-<pubdate>2008</pubdate>
-<title>United States Cities and Towns, 2008</title>
-<edition>2008</edition>
-<geoform>vector digital data</geoform>
-<serinfo>
-<sername>ESRI Data &amp; Maps</sername>
-<issue>2008 World, Europe, United States, Canada, and Mexico</issue>
-</serinfo>
-<pubinfo>
-<pubplace>Redlands, California, USA</pubplace>
-<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
-</pubinfo>
-<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2008_usa_cities_dtl.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Geological Survey (U.S.)</origin>
+				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+				<pubdate>2008</pubdate>
+				<title>United States Cities and Towns, 2008</title>
+				<edition>2008</edition>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>ESRI Data &amp; Maps</sername>
+					<issue>2008 World, Europe, United States, Canada, and Mexico</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Redlands, California, USA</pubplace>
+					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
+				</pubinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2008_usa_cities_dtl.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
 <abstract>United States Cities and Towns is a point theme representing cities and towns in the United States.  Attribute information includes the name of the city and it's 2000 and 2007 populations.
 
 This dataset is a part of the 2008 ESRI Data &amp; Maps collection.</abstract>
-<purpose>United States Cities and Towns provides information about the locations, names, and populations of cities and towns for conducting geographic analysis on national and large regional scales.</purpose>
-<supplinf>Largest scale when displaying the data: 1:2,000,000.</supplinf>
-</descript>
-<timeperd>
+			<purpose>United States Cities and Towns provides information about the locations, names, and populations of cities and towns for conducting geographic analysis on national and large regional scales.</purpose>
+			<supplinf>Largest scale when displaying the data: 1:2,000,000.</supplinf>
+		</descript>
+		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2008</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2008</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>publication date</current>
 		</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Annually</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -174.202942</westbc>
-<eastbc>
+					<eastbc>
 178.874601</eastbc>
-<northbc>
+						<northbc>
 71.290137</northbc>
-<southbc>
+							<southbc>
 17.711706</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>None</themekt>
-<themekey>point</themekey>
-<themekey>cities</themekey>
-<themekey>towns</themekey>
-<themekey>populated places</themekey>
-<themekey>population</themekey>
-<themekey>city</themekey>
-</theme>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>location</themekey>
-<themekey>society</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>United States (6252001)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>United States</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>1972-2004</tempkey>
-<tempkey>2007</tempkey>
-</temporal>
-</keywords>
-<accconst>For current Columbia affiliates only.</accconst>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>point</themekey>
+								<themekey>cities</themekey>
+								<themekey>towns</themekey>
+								<themekey>populated places</themekey>
+								<themekey>population</themekey>
+								<themekey>city</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>location</themekey>
+								<themekey>society</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>United States (6252001)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>United States</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>1972-2004</tempkey>
+								<tempkey>2007</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
 
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>ESRI</cntorg>
-<cntper>Data Team</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>909-793-2853</cntvoice>
-<cntfax>909-793-5953</cntfax>
-<cntemail>info@esri.com</cntemail>
-<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>ESRI</cntorg>
+									<cntper>Data Team</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>380 New York Street</address>
+									<city>Redlands</city>
+									<state>California</state>
+									<postal>92373-8100</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>909-793-2853</cntvoice>
+								<cntfax>909-793-5953</cntfax>
+								<cntemail>info@esri.com</cntemail>
+								<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
 <cntinst>In the United States:
 Please direct all inquiries regarding software/data pricing and consulting services to your local ESRI Regional Office.  For support, you may contact ESRI Support Center by telephone (voice) between 6:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing 888-377-4575; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com/; ESRI holidays excluded. 
 
@@ -104,356 +108,356 @@ Outside the United States
 Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.  
 
 For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_cities_dtl.jpg</browsen>
-<browsed>Thumbnail</browsed>
-<browset>JPEG</browset>
-</browse>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.4.1420</native>
-</idinfo>
-<dataqual>
-<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
-<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-<posacc>
-<horizpa>
-<horizpar>The geospatial part of this data set was originally extracted from the USGS 1:2,000,000-scale Digital Line Graphs (DLG) - Manmade Features.  The horizontal positional accuracy is about 2 kilometers.</horizpar>
-</horizpa>
-</posacc>
-<lineage>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>National Atlas of the United States and the U.S. Geological Survey</origin>
-<pubdate>200402</pubdate>
-<title>Cities and Towns of the United States, 2008</title>
-<geoform>vector digital data</geoform>
-<pubinfo>
-<pubplace>Reston, Virginia, USA</pubplace>
-<publish>U.S. Geological Survey</publish>
-</pubinfo>
-<onlink>http://www.nationalatlas.gov/atlasftp.html</onlink>
-</citeinfo>
-</srccite>
-<srcscale>2000000</srcscale>
-<typesrc>online</typesrc>
-<srctime>
-<timeinfo>
-<rngdates>
-<begdate>1972</begdate>
-<enddate>2004</enddate>
-</rngdates>
-</timeinfo>
-<srccurr>ground condition</srccurr>
-</srctime>
-<srccitea>National Atlas</srccitea>
-<srccontr>Attribute and geospatial data</srccontr>
-</srcinfo>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-<pubdate>20070606</pubdate>
-<title>ESRI Community Data</title>
-<edition>2007</edition>
-<geoform>tabular digital data</geoform>
-<serinfo>
-<sername>ESRI Community Data</sername>
-<issue>2007</issue>
-</serinfo>
-<pubinfo>
-<pubplace>Redlands, California, USA</pubplace>
-<publish>ESRI</publish>
-</pubinfo>
-<othercit>Provided the POP2007 attribute.</othercit>
-<onlink>http://www.esri.com/</onlink>
-</citeinfo>
-</srccite>
-<typesrc>DVD-ROM</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>20070606</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>ESRI Community Data</srccitea>
-<srccontr>Attribute data</srccontr>
-</srcinfo>
-<procstep>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_cities_dtl.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.4.1420</native>
+					</idinfo>
+					<dataqual>
+						<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+						<posacc>
+							<horizpa>
+								<horizpar>The geospatial part of this data set was originally extracted from the USGS 1:2,000,000-scale Digital Line Graphs (DLG) - Manmade Features.  The horizontal positional accuracy is about 2 kilometers.</horizpar>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>National Atlas of the United States and the U.S. Geological Survey</origin>
+										<pubdate>200402</pubdate>
+										<title>Cities and Towns of the United States, 2008</title>
+										<geoform>vector digital data</geoform>
+										<pubinfo>
+											<pubplace>Reston, Virginia, USA</pubplace>
+											<publish>U.S. Geological Survey</publish>
+										</pubinfo>
+										<onlink>http://www.nationalatlas.gov/atlasftp.html</onlink>
+									</citeinfo>
+								</srccite>
+								<srcscale>2000000</srcscale>
+								<typesrc>online</typesrc>
+								<srctime>
+									<timeinfo>
+										<rngdates>
+											<begdate>1972</begdate>
+											<enddate>2004</enddate>
+										</rngdates>
+									</timeinfo>
+									<srccurr>ground condition</srccurr>
+								</srctime>
+								<srccitea>National Atlas</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+										<pubdate>20070606</pubdate>
+										<title>ESRI Community Data</title>
+										<edition>2007</edition>
+										<geoform>tabular digital data</geoform>
+										<serinfo>
+											<sername>ESRI Community Data</sername>
+											<issue>2007</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Redlands, California, USA</pubplace>
+											<publish>ESRI</publish>
+										</pubinfo>
+										<othercit>Provided the POP2007 attribute.</othercit>
+										<onlink>http://www.esri.com/</onlink>
+									</citeinfo>
+								</srccite>
+								<typesrc>DVD-ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>20070606</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>ESRI Community Data</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<procstep>
 <procdesc>Updates
 
 1990 and 1998 population figures for Newtown, Connecticut were updated. County and county FIPS fields for the town of Bloomfield, CO were updated and it was listed as the county seat for Bloomfield County. County seats were added for counties where they were missing. Please note that Shannon County, SD; Todd County, SD; Kings, NY; Bronx, NY; Queens, NY; and Richmond, NY do not have official county seats.
 
 Incorporated place names were compared with those from the 2004 GNIS database. GNIS names were used where there were discrepancies. New incorporated places were added; duplicate points and places no longer incorporated were removed. Positions of all incorporated places were adjusted to match GNIS coordinates. Minor positional corrections of incorporated places were made using 1999 Hydrography Features of the United States and 1999 County Boundaries of the United States as references. The population range values were adjusted to reflect 2000 population figures and the POP_2000 attribute was added; earlier population figures were dropped.</procdesc>
-<procdate>200402</procdate>
-<srcprod>National Atlas</srcprod>
-</procstep>
-<procstep>
-<procdesc>The following steps were performed by ESRI: Downloaded the compressed file from the National Atlas of the United States and extracted it. Removed unneeded attributes. Added the STATUS attribute and populated it with the text removed from the FEATURE attribute for all records where FEATURE was not "Populated Place". For the records where FEATURE was "Populated Place", attribute STATUS remains blank. Removed attribute FEATURE. Renamed attributes FIPS55 to PLACE_FIPS, STATE to ST_ABBREV, and POP_RANGE to FEATURE. Renamed values of the new FEATURE attribute from "Undetermined" or "0 - 9,999" to "less than 10,000". Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-<srcused>National Atlas</srcused>
-<procdate>20050320</procdate>
-</procstep>
-<procstep>
-<procdesc>The following steps were performed by ESRI: For records where POP_2000 has values of -99999 changed the values of FEATURE from "less than 10,000" to "no data".</procdesc>
-<procdate>20060830</procdate>
-</procstep>
-<procstep>
-<procdesc>The following steps were performed by ESRI: Added the POP2007 attribute and populated it with values from ESRI Community Data. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-<srcused>ESRI Community Data</srcused>
-<procdate>20080422</procdate>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>Entity point</sdtstype>
-<ptvctcnt>35432</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<geograph>
-<latres>0.000000</latres>
-<longres>0.000000</longres>
-<geogunit>Decimal degrees</geogunit>
-</geograph>
-<geodetic>
-<horizdn>D_WGS_1984</horizdn>
-<ellips>WGS_1984</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257224</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+								<procdate>200402</procdate>
+								<srcprod>National Atlas</srcprod>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Downloaded the compressed file from the National Atlas of the United States and extracted it. Removed unneeded attributes. Added the STATUS attribute and populated it with the text removed from the FEATURE attribute for all records where FEATURE was not "Populated Place". For the records where FEATURE was "Populated Place", attribute STATUS remains blank. Removed attribute FEATURE. Renamed attributes FIPS55 to PLACE_FIPS, STATE to ST_ABBREV, and POP_RANGE to FEATURE. Renamed values of the new FEATURE attribute from "Undetermined" or "0 - 9,999" to "less than 10,000". Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+								<srcused>National Atlas</srcused>
+								<procdate>20050320</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: For records where POP_2000 has values of -99999 changed the values of FEATURE from "less than 10,000" to "no data".</procdesc>
+								<procdate>20060830</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Added the POP2007 attribute and populated it with values from ESRI Community Data. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+								<srcused>ESRI Community Data</srcused>
+								<procdate>20080422</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>Entity point</sdtstype>
+								<ptvctcnt>35432</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000000</latres>
+								<longres>0.000000</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 cities_dtl</enttypl>
-<enttypd>The points represent cities and towns in the United States.</enttypd>
-<enttypds>National Atlas of the United States and the United States Geological Survey</enttypds>
-</enttyp>
-<attr>
-<attrlabl>ObjectID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>FEATURE</attrlabl>
-<attrdef>The categorized population of the city or town.</attrdef>
-<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
-<attrdomv>
-<edom>
-<edomv>less than 10,000</edomv>
-<edomvd>The population of the city or town is less than 10,000.</edomvd>
-<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
-</edom>
-<edom>
-<edomv>10,000 - 49,999</edomv>
-<edomvd>The population of the city or town is at least 10,000 but not greater than 49,999.</edomvd>
-<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
-</edom>
-<edom>
-<edomv>50,000 - 99,999</edomv>
-<edomvd>The population of the city or town is at least 50,000 but not greater than 99,999.</edomvd>
-<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
-</edom>
-<edom>
-<edomv>100,000 - 249,999</edomv>
-<edomvd>The population of the city or town is at least 100,000 but not greater than 249,999.</edomvd>
-<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
-</edom>
-<edom>
-<edomv>250,000 - 499,999</edomv>
-<edomvd>The population of the city or town is at least 250,000 but not greater than 499,999.</edomvd>
-<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
-</edom>
-<edom>
-<edomv>500,000 - 999,999</edomv>
-<edomvd>The population of the city or town is at least 500,000 but not greater than 999,999.</edomvd>
-<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
-</edom>
-<edom>
-<edomv>1,000,000 - 9,999,999</edomv>
-<edomvd>The population of the city or town is at least 1,000,000 but not greater than 9,999,999.</edomvd>
-<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>NAME</attrlabl>
-<attrdef>The name of the city or town.</attrdef>
-<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Geographic Names Information System</codesetn>
-<codesets>United States Geological Survey</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ST_ABBREV</attrlabl>
-<attrdef>The two-letter abbreviation for the state.</attrdef>
-<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Federal Information Processing Standards 52</codesetn>
-<codesets>National Institute of Standards and Technology</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>FIPS</attrlabl>
-<attrdef>The combined state and county FIPS code (five-digit number). The combined code uniquely identifies the county in which the city or town is located.</attrdef>
-<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Federal Information Processing Standards</codesetn>
-<codesets>National Institute of Standards and Technology</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>PLACE_FIPS</attrlabl>
-<attrdef>The FIPS code (five-digit number) for named populated places (city or town).</attrdef>
-<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Federal Information Processing Standards PUB 55-DC3</codesetn>
-<codesets>National Institute of Standards and Technology</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>POP_2000</attrlabl>
-<attrdef>The 2000 population of the city or town.</attrdef>
-<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
-<attrdomv>
-<udom>Populations for the features.</udom>
-</attrdomv>
-<attrdomv>
-<edom>
-<edomv>-99999</edomv>
-<edomvd>The population is unknown.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>POP2007</attrlabl>
-<attrdef>The 2007 population of the city or town.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Populations for the features.</udom>
-</attrdomv>
-<attrdomv>
-<edom>
-<edomv>-99999</edomv>
-<edomvd>The population is unknown.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STATUS</attrlabl>
-<attrdef>The status of the city or town.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<edom>
-<edomv>National Capital</edomv>
-<edomvd>City is the national capital.</edomvd>
-</edom>
-<edom>
-<edomv>State Capital</edomv>
-<edomvd>City is a state capital.</edomvd>
-</edom>
-<edom>
-<edomv>State Capital County Seat</edomv>
-<edomvd>City is a state capital and county seat.</edomvd>
-</edom>
-<edom>
-<edomv>County Seat</edomv>
-<edomvd>City is a county seat.</edomvd>
-</edom>
-</attrdomv>
-</attr>
-</detailed>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>ESRI; ESRI International Distributors</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>800-447-9778</cntvoice>
+									<enttypd>The points represent cities and towns in the United States.</enttypd>
+									<enttypds>National Atlas of the United States and the United States Geological Survey</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>ObjectID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FEATURE</attrlabl>
+									<attrdef>The categorized population of the city or town.</attrdef>
+									<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>less than 10,000</edomv>
+											<edomvd>The population of the city or town is less than 10,000.</edomvd>
+											<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>10,000 - 49,999</edomv>
+											<edomvd>The population of the city or town is at least 10,000 but not greater than 49,999.</edomvd>
+											<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>50,000 - 99,999</edomv>
+											<edomvd>The population of the city or town is at least 50,000 but not greater than 99,999.</edomvd>
+											<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>100,000 - 249,999</edomv>
+											<edomvd>The population of the city or town is at least 100,000 but not greater than 249,999.</edomvd>
+											<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>250,000 - 499,999</edomv>
+											<edomvd>The population of the city or town is at least 250,000 but not greater than 499,999.</edomvd>
+											<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>500,000 - 999,999</edomv>
+											<edomvd>The population of the city or town is at least 500,000 but not greater than 999,999.</edomvd>
+											<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>1,000,000 - 9,999,999</edomv>
+											<edomvd>The population of the city or town is at least 1,000,000 but not greater than 9,999,999.</edomvd>
+											<edomvds>National Atlas of the United States and the United States Geological Survey</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME</attrlabl>
+									<attrdef>The name of the city or town.</attrdef>
+									<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Geographic Names Information System</codesetn>
+											<codesets>United States Geological Survey</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>ST_ABBREV</attrlabl>
+									<attrdef>The two-letter abbreviation for the state.</attrdef>
+									<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards 52</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FIPS</attrlabl>
+									<attrdef>The combined state and county FIPS code (five-digit number). The combined code uniquely identifies the county in which the city or town is located.</attrdef>
+									<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>PLACE_FIPS</attrlabl>
+									<attrdef>The FIPS code (five-digit number) for named populated places (city or town).</attrdef>
+									<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards PUB 55-DC3</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>POP_2000</attrlabl>
+									<attrdef>The 2000 population of the city or town.</attrdef>
+									<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
+									<attrdomv>
+										<udom>Populations for the features.</udom>
+									</attrdomv>
+									<attrdomv>
+										<edom>
+											<edomv>-99999</edomv>
+											<edomvd>The population is unknown.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>POP2007</attrlabl>
+									<attrdef>The 2007 population of the city or town.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Populations for the features.</udom>
+									</attrdomv>
+									<attrdomv>
+										<edom>
+											<edomv>-99999</edomv>
+											<edomvd>The population is unknown.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STATUS</attrlabl>
+									<attrdef>The status of the city or town.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>National Capital</edomv>
+											<edomvd>City is the national capital.</edomvd>
+										</edom>
+										<edom>
+											<edomv>State Capital</edomv>
+											<edomvd>City is a state capital.</edomvd>
+										</edom>
+										<edom>
+											<edomv>State Capital County Seat</edomv>
+											<edomvd>City is a state capital and county seat.</edomvd>
+										</edom>
+										<edom>
+											<edomv>County Seat</edomv>
+											<edomvd>City is a county seat.</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>ESRI; ESRI International Distributors</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>380 New York Street</address>
+										<city>Redlands</city>
+										<state>California</state>
+										<postal>92373-8100</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>800-447-9778</cntvoice>
 <cntinst>In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data.
 
 Outside the United States, please direct all inquiries to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.</cntinst>
-</cntinfo>
-</distrib>
-<resdesc>esri_2008_usa_cities_dtl</resdesc>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>SDC</formname>
-<formspec>zip</formspec>
-<transize>1.061</transize>
-</digtinfo>
-<digtopt>
-</digtopt>
-</digform>
-<fees>Software purchase price</fees>
-<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
-</stdorder>
-<techpreq>To use this data requires software that supports SDC files.</techpreq>
-</distinfo>
-<metainfo>
-<metd>20090714</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+								</cntinfo>
+							</distrib>
+							<resdesc>esri_2008_usa_cities_dtl</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>SDC</formname>
+										<formspec>zip</formspec>
+										<transize>1.061</transize>
+									</digtinfo>
+									<digtopt>
+									</digtopt>
+								</digform>
+								<fees>Software purchase price</fees>
+								<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
+							</stdorder>
+							<techpreq>To use this data requires software that supports SDC files.</techpreq>
+						</distinfo>
+						<metainfo>
+							<metd>20090714</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

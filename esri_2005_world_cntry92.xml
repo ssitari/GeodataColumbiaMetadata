@@ -27,7 +27,10 @@
 		</descript>
 		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>1992</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>1992</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>ground condition</current>
 		</timeperd>
 		<status>
@@ -38,65 +41,65 @@
 			<bounding>
 				<westbc>
 -180.000000</westbc>
-				<eastbc>
+					<eastbc>
 180.000000</eastbc>
-				<northbc>
+						<northbc>
 83.623609</northbc>
-				<southbc>
+							<southbc>
 -90.000000</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>polygon</themekey>
-				<themekey>countries</themekey>
-				<themekey>international boundaries</themekey>
-				<themekey>coastlines</themekey>
-				<themekey>area</themekey>
-				<themekey>international codes</themekey>
-			</theme>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>boundaries</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Earth (6295630)</placekey>
-			</place>
-			<place>
-				<placekt>None</placekt>
-				<placekey>World</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>1996</tempkey>
-				<tempkey>1998</tempkey>
-				<tempkey>1993</tempkey>
-				<tempkey>1993/1994</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>polygon</themekey>
+								<themekey>countries</themekey>
+								<themekey>international boundaries</themekey>
+								<themekey>coastlines</themekey>
+								<themekey>area</themekey>
+								<themekey>international codes</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>boundaries</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Earth (6295630)</placekey>
+							</place>
+							<place>
+								<placekt>None</placekt>
+								<placekey>World</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>1996</tempkey>
+								<tempkey>1998</tempkey>
+								<tempkey>1993</tempkey>
+								<tempkey>1993/1994</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
 
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI</cntorg>
-					<cntper>Data Team</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>909-793-2853</cntvoice>
-				<cntfax>909-793-5953</cntfax>
-				<cntemail>info@esri.com</cntemail>
-				<hours>8:00 a.m.5:30 p.m. Pacific time, MondayFriday</hours>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>ESRI</cntorg>
+									<cntper>Data Team</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>380 New York Street</address>
+									<city>Redlands</city>
+									<state>California</state>
+									<postal>92373-8100</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>909-793-2853</cntvoice>
+								<cntfax>909-793-5953</cntfax>
+								<cntemail>info@esri.com</cntemail>
+								<hours>8:00 a.m.5:30 p.m. Pacific time, MondayFriday</hours>
 				<cntinst>In the United States
 Please direct all inquiries regarding software/data pricing and consulting services to your local ESRI Regional Office.  For support, you may contact Technical Support by telephone (voice) between 6:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing 909-793-3774; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com; ESRI holidays excluded.
 
@@ -104,369 +107,369 @@ Outside the United States
 Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contactint.cfm.
 
 For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-			</cntinfo>
-		</ptcontac>
+							</cntinfo>
+						</ptcontac>
 
-		<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.3.0.800</native>
-	</idinfo>
-	<dataqual>
-		<logic>No duplicate features are present. The shapefile is converted to SDC (Smart Data Compression) format in ArcSDE. This verifies and validates the geometry. The data set is created directly from a topologically correct ArcInfo coverage.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-		<posacc>
-			<horizpa>
-				<horizpar>The geospatial part of this data set was originally extracted from the ArcWorld Supplement database and then generalized (tolerance unknown).  The positional accuracy is unknown.</horizpar>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>1996</pubdate>
-						<title>ArcWorld? Supplement</title>
-						<edition>1</edition>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<pubplace>Redlands, California, USA</pubplace>
-							<publish>ESRI</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>3000000</srcscale>
-				<typesrc>CD?ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>1996</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>ArcWorld Supplement</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>United States Central Intelligence Agency</origin>
-						<pubdate>19930101</pubdate>
-						<title>The World Factbook 1992</title>
-						<edition>1992</edition>
-						<serinfo>
-							<sername>The World Factbook</sername>
-							<issue>1992</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Washington, DC, USA</pubplace>
-							<publish>United States Central Intelligence Agency</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<typesrc>CDROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>19930101</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>CIA Factbook</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>United States Department of State, Bureau of Intelligence and Research</origin>
-						<pubdate>Winter 1993/1994</pubdate>
-						<title>Geographic and Global Issues Quarterly</title>
-						<edition>Volume 3, Number 4</edition>
-						<serinfo>
-							<sername>Geographic and Global Issues Quarterly</sername>
-							<issue>Volume 3, Number 4</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Washington, DC, USA</pubplace>
-							<publish>United States Department of State, Bureau of Intelligence and Research</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<typesrc>paper</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>Winter 1993/1994</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>Geographic and Global Issues</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Global Mapping International</origin>
-						<title>Missions Database</title>
-						<pubinfo>
-							<pubplace>Colorado Springs, Colorado, USA</pubplace>
-							<publish>Global Mapping International</publish>
-						</pubinfo>
-						<onlink>http://www.gmi.org</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>CDROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2000</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>GMI</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>International Organization for Standardization</origin>
-						<pubdate>19991001, 20020201, 20020520, 20021115</pubdate>
-						<title>&lt;front page&gt;</title>
-						<geoform>document</geoform>
-						<pubinfo>
-							<pubplace>online</pubplace>
-							<publish>International Organization for Standardization</publish>
-						</pubinfo>
-						<othercit>ISO 3166-1 NEWSLETTER No. V-6 [20021115]</othercit>
-						<onlink>http://www.iso.ch/iso/en/ISOOnline.frontpage</onlink>
-						<onlink>http://www.iso.ch/iso/en/prods-services/iso3166ma/03updates-on-iso-3166/nlv6e-tl.html</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>19991001</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>20020201</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>20020520</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>20021115</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>http://www.iso.ch</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Extracted the features from ESRI Data &amp; Maps 1999 data set-cntry98.shp.  Edited the countries to reflect which existed in 1992 based on ESRI Data &amp; Maps 1999 data set-cntry92.shp. Extended political boundaries into the Caspian Sea and removed the shoreline. Created ArcGIS layer file (.lyr).  Created ArcView GIS legend file (.avl).  Created projection file (.prj).  Created spatial indices.</procdesc>
-				<srcused>ArcWorld Supplement</srcused>
-				<srcused>CIA Factbook</srcused>
-				<srcused>Geographic and Global Issues</srcused>
-				<procdate>20010108</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Added attribute COLOR_MAP from World Countries 2002. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
-				<procdate>20020920</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Updated attribute values for Taiwan. Recreated country regions, absorbing the province of Taiwan into the country of China. Removed the Paracel and Spratly island groups.</procdesc>
-				<srcused>http://www.iso.ch</srcused>
-				<srcused>GMI</srcused>
-				<srcused>CIA Factbook</srcused>
-				<procdate>20040921</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>G-polygon</sdtstype>
-				<ptvctcnt>232</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.000009</latres>
-				<longres>0.000009</longres>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+						<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.3.0.800</native>
+					</idinfo>
+					<dataqual>
+						<logic>No duplicate features are present. The shapefile is converted to SDC (Smart Data Compression) format in ArcSDE. This verifies and validates the geometry. The data set is created directly from a topologically correct ArcInfo coverage.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+						<posacc>
+							<horizpa>
+								<horizpar>The geospatial part of this data set was originally extracted from the ArcWorld Supplement database and then generalized (tolerance unknown).  The positional accuracy is unknown.</horizpar>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+										<pubdate>1996</pubdate>
+										<title>ArcWorld? Supplement</title>
+										<edition>1</edition>
+										<geoform>vector digital data</geoform>
+										<pubinfo>
+											<pubplace>Redlands, California, USA</pubplace>
+											<publish>ESRI</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<srcscale>3000000</srcscale>
+								<typesrc>CD?ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>1996</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>ArcWorld Supplement</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>United States Central Intelligence Agency</origin>
+										<pubdate>19930101</pubdate>
+										<title>The World Factbook 1992</title>
+										<edition>1992</edition>
+										<serinfo>
+											<sername>The World Factbook</sername>
+											<issue>1992</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Washington, DC, USA</pubplace>
+											<publish>United States Central Intelligence Agency</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<typesrc>CDROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>19930101</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>CIA Factbook</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>United States Department of State, Bureau of Intelligence and Research</origin>
+										<pubdate>Winter 1993/1994</pubdate>
+										<title>Geographic and Global Issues Quarterly</title>
+										<edition>Volume 3, Number 4</edition>
+										<serinfo>
+											<sername>Geographic and Global Issues Quarterly</sername>
+											<issue>Volume 3, Number 4</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Washington, DC, USA</pubplace>
+											<publish>United States Department of State, Bureau of Intelligence and Research</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<typesrc>paper</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>Winter 1993/1994</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>Geographic and Global Issues</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Global Mapping International</origin>
+										<title>Missions Database</title>
+										<pubinfo>
+											<pubplace>Colorado Springs, Colorado, USA</pubplace>
+											<publish>Global Mapping International</publish>
+										</pubinfo>
+										<onlink>http://www.gmi.org</onlink>
+									</citeinfo>
+								</srccite>
+								<typesrc>CDROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>2000</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>GMI</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>International Organization for Standardization</origin>
+										<pubdate>19991001, 20020201, 20020520, 20021115</pubdate>
+										<title>&lt;front page&gt;</title>
+										<geoform>document</geoform>
+										<pubinfo>
+											<pubplace>online</pubplace>
+											<publish>International Organization for Standardization</publish>
+										</pubinfo>
+										<othercit>ISO 3166-1 NEWSLETTER No. V-6 [20021115]</othercit>
+										<onlink>http://www.iso.ch/iso/en/ISOOnline.frontpage</onlink>
+										<onlink>http://www.iso.ch/iso/en/prods-services/iso3166ma/03updates-on-iso-3166/nlv6e-tl.html</onlink>
+									</citeinfo>
+								</srccite>
+								<typesrc>online</typesrc>
+								<srctime>
+									<timeinfo>
+										<mdattim>
+											<sngdate>
+												<caldate>19991001</caldate>
+											</sngdate>
+											<sngdate>
+												<caldate>20020201</caldate>
+											</sngdate>
+											<sngdate>
+												<caldate>20020520</caldate>
+											</sngdate>
+											<sngdate>
+												<caldate>20021115</caldate>
+											</sngdate>
+										</mdattim>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>http://www.iso.ch</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Extracted the features from ESRI Data &amp; Maps 1999 data set-cntry98.shp.  Edited the countries to reflect which existed in 1992 based on ESRI Data &amp; Maps 1999 data set-cntry92.shp. Extended political boundaries into the Caspian Sea and removed the shoreline. Created ArcGIS layer file (.lyr).  Created ArcView GIS legend file (.avl).  Created projection file (.prj).  Created spatial indices.</procdesc>
+								<srcused>ArcWorld Supplement</srcused>
+								<srcused>CIA Factbook</srcused>
+								<srcused>Geographic and Global Issues</srcused>
+								<procdate>20010108</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Added attribute COLOR_MAP from World Countries 2002. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
+								<procdate>20020920</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Updated attribute values for Taiwan. Recreated country regions, absorbing the province of Taiwan into the country of China. Removed the Paracel and Spratly island groups.</procdesc>
+								<srcused>http://www.iso.ch</srcused>
+								<srcused>GMI</srcused>
+								<srcused>CIA Factbook</srcused>
+								<procdate>20040921</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>G-polygon</sdtstype>
+								<ptvctcnt>232</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000009</latres>
+								<longres>0.000009</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 cntry92</enttypl>
-				<enttypd>The polygons represent the boundaries for the countries of the world, as they existed in 1992.</enttypd>
-				<enttypds>ESRI</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>ObjectID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>FIPS_CNTRY</attrlabl>
-				<attrdef>The FIPS code (two-letter) for the country.</attrdef>
-				<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards Publication 10-4</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CNTRY_NAME</attrlabl>
-				<attrdef>The country name.</attrdef>
-				<attrdefs>ArcWorld Supplement, CIA Factbook, Geographic and Global Issues</attrdefs>
-				<attrdomv>
-					<udom>Names for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>LONG_NAME</attrlabl>
-				<attrdef>The official country name.</attrdef>
-				<attrdefs>ArcWorld Supplement, CIA Factbook, Geographic and Global Issues</attrdefs>
-				<attrdomv>
-					<udom>Names for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>SQKM</attrlabl>
-				<attrdef>The country area in square kilometers using an equal area projection.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Calculated areas for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>SQMI</attrlabl>
-				<attrdef>The country area in square miles using an equal area projection.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Calculated areas for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>COLOR_MAP</attrlabl>
-				<attrdef>The number allows the country to be shaded unique from its neighbors.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<rdom>
-						<rdommin>1</rdommin>
-						<rdommax>8</rdommax>
-					</rdom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI; ESRI International Distributors</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>800-447-9778</cntvoice>
+									<enttypd>The polygons represent the boundaries for the countries of the world, as they existed in 1992.</enttypd>
+									<enttypds>ESRI</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>ObjectID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FIPS_CNTRY</attrlabl>
+									<attrdef>The FIPS code (two-letter) for the country.</attrdef>
+									<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards Publication 10-4</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CNTRY_NAME</attrlabl>
+									<attrdef>The country name.</attrdef>
+									<attrdefs>ArcWorld Supplement, CIA Factbook, Geographic and Global Issues</attrdefs>
+									<attrdomv>
+										<udom>Names for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LONG_NAME</attrlabl>
+									<attrdef>The official country name.</attrdef>
+									<attrdefs>ArcWorld Supplement, CIA Factbook, Geographic and Global Issues</attrdefs>
+									<attrdomv>
+										<udom>Names for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>SQKM</attrlabl>
+									<attrdef>The country area in square kilometers using an equal area projection.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Calculated areas for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>SQMI</attrlabl>
+									<attrdef>The country area in square miles using an equal area projection.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Calculated areas for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>COLOR_MAP</attrlabl>
+									<attrdef>The number allows the country to be shaded unique from its neighbors.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<rdom>
+											<rdommin>1</rdommin>
+											<rdommax>8</rdommax>
+										</rdom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>ESRI; ESRI International Distributors</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>380 New York Street</address>
+										<city>Redlands</city>
+										<state>California</state>
+										<postal>92373-8100</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>800-447-9778</cntvoice>
 				<cntinst>In the United States, contact the ESRI Telesales staff at 800-447-9778 for more information about our software and data.
 
 Outside the United States, please direct all inquiries to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contactint.cfm.</cntinst>
-			</cntinfo>
-		</distrib>
-		<resdesc>esri_2005_world_cntry92</resdesc>
-		<distliab>See use constraints.</distliab>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>SDC</formname>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial and attribute indexes. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
-					<filedec>ArcGIS software</filedec>
-					<transize>0.812</transize>
-				</digtinfo>
-				<digtopt>
-					<offoptn>
-						<offmedia>DVD?ROM</offmedia>
-						<reccap>
-							<recden>4.38</recden>
-							<recdenu>GB (gigabytes)</recdenu>
-						</reccap>
-						<recfmt>ISO 9660</recfmt>
-					</offoptn>
-					<offoptn>
-						<offmedia>CDROM</offmedia>
-						<reccap>
-							<recden>650</recden>
-							<recdenu>MB (megabytes)</recdenu>
-						</reccap>
-						<recfmt>ISO 9660</recfmt>
-					</offoptn>
-				</digtopt>
-			</digform>
-			<fees>Software purchase price</fees>
-			<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
-		</stdorder>
-		<techpreq>To use this data requires software that supports SDC files.</techpreq>
-	</distinfo>
-	<metainfo>
-		<metd>20070403</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-				<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-	<Esri><ModDate>20070404</ModDate><ModTime>12383700</ModTime></Esri><mdDateSt>20070404</mdDateSt></metadata>
+								</cntinfo>
+							</distrib>
+							<resdesc>esri_2005_world_cntry92</resdesc>
+							<distliab>See use constraints.</distliab>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>SDC</formname>
+										<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial and attribute indexes. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+										<filedec>ArcGIS software</filedec>
+										<transize>0.812</transize>
+									</digtinfo>
+									<digtopt>
+										<offoptn>
+											<offmedia>DVD?ROM</offmedia>
+											<reccap>
+												<recden>4.38</recden>
+												<recdenu>GB (gigabytes)</recdenu>
+											</reccap>
+											<recfmt>ISO 9660</recfmt>
+										</offoptn>
+										<offoptn>
+											<offmedia>CDROM</offmedia>
+											<reccap>
+												<recden>650</recden>
+												<recdenu>MB (megabytes)</recdenu>
+											</reccap>
+											<recfmt>ISO 9660</recfmt>
+										</offoptn>
+									</digtopt>
+								</digform>
+								<fees>Software purchase price</fees>
+								<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
+							</stdorder>
+							<techpreq>To use this data requires software that supports SDC files.</techpreq>
+						</distinfo>
+						<metainfo>
+							<metd>20070403</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+									<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

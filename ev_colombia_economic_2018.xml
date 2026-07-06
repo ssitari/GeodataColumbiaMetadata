@@ -1,117 +1,117 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>East View Cartographic, Inc.</origin>
-        <pubdate>2020</pubdate>
-        <title>Colombia Economic Census Data, 2018</title>
-        <geoform>vector digital data</geoform>
-        <pubinfo>
-        	<pubplace>Minneapolis, Minnesota</pubplace>
-        	<publish>East View Cartographic, Inc.</publish>
-        </pubinfo>
-      </citeinfo>
-    </citation>
-    <descript>
-      <abstract>Colombia Economic Census Data 2018 is a polygon theme representing Manzanas (6th level administrative units) in Colombia as of 2018. Attribute information includes official population and housing data for Colombia from the 2018 census. This census is provided at the manzana administrative level (ADM6) and includes 349,708 polygons with 1,013 attribute variables. Attribute descriptions retain Spanish-language names and unique identifier codes. All variable names were translated from the Source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Total Personas" was updated to D001 and given the alias "Total Number Of People  [Total Personas]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Spanish language field description]". Vector data was analyzed for accuracy and compared with national boundaries.</abstract>
-      <purpose>This dataset provides population statistics for Colombia, with correlating administrative boundaries in vector format, for use in GIS software.</purpose>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>2018</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>2018</current>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>Unknown</update>
-    </status>
-    <spdom>
-      <bounding>
-      <westbc>-81.722456</westbc>
-      <eastbc>-67.474110</eastbc>
-      <northbc>13.385775</northbc>
-      <southbc>-0.566358</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekt>ISO 19115 Topic Category</themekt>
-        <themekey>society</themekey>
-      </theme>
-      <theme>
-        <themekt>None</themekt>
-        <themekey>house-type</themekey>
-        <themekey>rural</themekey>
-        <themekey>literacy</themekey>
-        <themekey>demographics</themekey>
-        <themekey>occupancy</themekey>
-        <themekey>housing</themekey>
-        <themekey>census</themekey>
-        <themekey>occupants</themekey>
-        <themekey>ownership</themekey>
-        <themekey>families</themekey>
-        <themekey>households</themekey>
-        <themekey>urban</themekey>
-        <themekey>household</themekey>
-        <themekey>income</themekey>
-		<themekey>Demographic</themekey>
-        <themekey>Economic</themekey>
-        <themekey>Housing</themekey>
-        <themekey>Migration</themekey>
-        <themekey>Social</themekey>
-		<themekey>Transportation</themekey>
-      </theme>
-      <place>
-      	<placekt>GeoNames</placekt>
-      	<placekey>Colombia (3686110)</placekey>
-      </place>
-      <place>
-      <placekt>None</placekt>
-      <placekey>Republic of Colombia</placekey>
-      <placekey>Colombia</placekey>
-      </place>
-      <temporal>
-      <tempkt>None</tempkt>
-      <tempkey>2018</tempkey>
-      </temporal>
-    </keywords>
-    <pubinfo>
-    <publish>East View Cartographic, Incorporated</publish>
-    </pubinfo>
-    <origin>East View Cartographic, Incorporated</origin>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2020</pubdate>
+				<title>Colombia Economic Census Data, 2018</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Minneapolis, Minnesota</pubplace>
+					<publish>East View Cartographic, Inc.</publish>
+				</pubinfo>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Colombia Economic Census Data 2018 is a polygon theme representing Manzanas (6th level administrative units) in Colombia as of 2018. Attribute information includes official population and housing data for Colombia from the 2018 census. This census is provided at the manzana administrative level (ADM6) and includes 349,708 polygons with 1,013 attribute variables. Attribute descriptions retain Spanish-language names and unique identifier codes. All variable names were translated from the Source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Total Personas" was updated to D001 and given the alias "Total Number Of People  [Total Personas]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Spanish language field description]". Vector data was analyzed for accuracy and compared with national boundaries.</abstract>
+			<purpose>This dataset provides population statistics for Colombia, with correlating administrative boundaries in vector format, for use in GIS software.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2018</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>2018</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Unknown</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-81.722456</westbc>
+				<eastbc>-67.474110</eastbc>
+				<northbc>13.385775</northbc>
+				<southbc>-0.566358</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+				<themekey>Demographic</themekey>
+				<themekey>Economic</themekey>
+				<themekey>Housing</themekey>
+				<themekey>Migration</themekey>
+				<themekey>Social</themekey>
+				<themekey>Transportation</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Colombia (3686110)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Colombia</placekey>
+				<placekey>Colombia</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2018</tempkey>
+			</temporal>
+		</keywords>
+		<pubinfo>
+			<publish>East View Cartographic, Incorporated</publish>
+		</pubinfo>
+		<origin>East View Cartographic, Incorporated</origin>
     <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_colombia_economic_2018.zip
-    </onlink>
-    <accconst>For current Columbia affiliates only.</accconst>
-    <useconst>For educational, non-commercial use only.</useconst>
-    <datacred>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</datacred>
-    <ptcontac>
-    <cntinfo>
-    <cntperp>
-    <cntorg>East View Cartographic, Incorporated</cntorg>
-    </cntperp>
-    </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <spdoinfo>
-  <direct>Vector</direct>
-  <ptvctinf>
-  <sdtsterm>
-  <sdtstype>G-polygon</sdtstype>
-  </sdtsterm>
-  </ptvctinf>
-  </spdoinfo>
-  <spref>
+	</onlink>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<datacred>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</datacred>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+</idinfo>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<spref>
 	<horizsys>
 		<gridsys>GCS_WGS_1984</gridsys>
 	</horizsys>
-  </spref>
+</spref>
 
 
-  <eainfo>
+<eainfo>
 	<detailed>
 		<enttyp>
 			<enttypl>Colombia_2018</enttypl>
@@ -119,138 +119,138 @@
 			<enttypds>East View Geospatial</enttypds>
 		</enttyp>
 		<attr>
-		<attrlabl>DPTO_CCDGO</attrlabl>
-		<attrdef>Department Code [DPTO_CCDGO]</attrdef>
-		<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
-		<attrdomv>
-			<udom>Identifier of the census sector as a coded value</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>CODE</attrlabl>
-		<attrdef>Coded Join Value for Census Block [codÍgo]</attrdef>
-		<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
-		<attrdomv>
-			<udom>Identifier of the census sector as a coded value</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>E001</attrlabl>
-		<attrdef>Economic Activitity The Week Previous To The Census: You Worked At Least One Hour In An Activity That Generated Some Income [Trabajó por lo menos una hora en una actividad que le generó algún ingreso]</attrdef>
-		<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
-		<attrdomv>
-			<udom>requency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>E002</attrlabl>
-		<attrdef>Economic Activitity The Week Previous To The Census: Worked Or Helped In A Business For At Least An Hour Without Getting Paid [Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran]</attrdef>
-		<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
-		<attrdomv>
-			<udom>requency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>E003</attrlabl>
-		<attrdef>Economic Activitity The Week Previous To The Census: Did Not Work, But Had A Job, Job, Or Business From Which You Receive Income [No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos]</attrdef>
-		<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
-		<attrdomv>
-			<udom>requency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>E004</attrlabl>
-		<attrdef>Economic Activitity The Week Previous To The Census: I Am Looking For A Job [Busco trabajo]</attrdef>
-		<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
-		<attrdomv>
-			<udom>requency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>E005</attrlabl>
-		<attrdef>Economic Activitity The Week Previous To The Census: Lived On Retirement, Pension Or Income [Vivió de jubilación, pensión o renta]</attrdef>
-		<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
-		<attrdomv>
-			<udom>requency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>E006</attrlabl>
-		<attrdef>Economic Activitity The Week Previous To The Census: Studied [Estudió]</attrdef>
-		<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
-		<attrdomv>
-			<udom>requency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>E007</attrlabl>
-		<attrdef>Economic Activitity The Week Previous To The Census: Performed Household Chores [Realizó oficios del hogar]</attrdef>
-		<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
-		<attrdomv>
-			<udom>requency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>E008</attrlabl>
-		<attrdef>Economic Activitity The Week Previous To The Census: You Are Permanently Disabled To Work [Está incapacitado(a) permanentemente para trabajar]</attrdef>
-		<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
-		<attrdomv>
-			<udom>requency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>E009</attrlabl>
-		<attrdef>Economic Activitity The Week Previous To The Census: You Were In Another Situation [Estuvo en otra situación]</attrdef>
-		<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
-		<attrdomv>
-			<udom>requency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>E010</attrlabl>
-		<attrdef>Economic Activitity The Week Previous To The Census: Does Not Report [No informa]</attrdef>
-		<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
-		<attrdomv>
-			<udom>requency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
+			<attrlabl>DPTO_CCDGO</attrlabl>
+			<attrdef>Department Code [DPTO_CCDGO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Coded Join Value for Census Block [codÍgo]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E001</attrlabl>
+			<attrdef>Economic Activitity The Week Previous To The Census: You Worked At Least One Hour In An Activity That Generated Some Income [Trabajó por lo menos una hora en una actividad que le generó algún ingreso]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
+			<attrdomv>
+				<udom>requency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E002</attrlabl>
+			<attrdef>Economic Activitity The Week Previous To The Census: Worked Or Helped In A Business For At Least An Hour Without Getting Paid [Trabajó o ayudó en un negocio por lo menos una hora sin que le pagaran]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
+			<attrdomv>
+				<udom>requency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E003</attrlabl>
+			<attrdef>Economic Activitity The Week Previous To The Census: Did Not Work, But Had A Job, Job, Or Business From Which You Receive Income [No trabajó, pero tenía un empleo, trabajo o negocio por el que recibe ingresos]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
+			<attrdomv>
+				<udom>requency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E004</attrlabl>
+			<attrdef>Economic Activitity The Week Previous To The Census: I Am Looking For A Job [Busco trabajo]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
+			<attrdomv>
+				<udom>requency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E005</attrlabl>
+			<attrdef>Economic Activitity The Week Previous To The Census: Lived On Retirement, Pension Or Income [Vivió de jubilación, pensión o renta]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
+			<attrdomv>
+				<udom>requency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E006</attrlabl>
+			<attrdef>Economic Activitity The Week Previous To The Census: Studied [Estudió]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
+			<attrdomv>
+				<udom>requency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E007</attrlabl>
+			<attrdef>Economic Activitity The Week Previous To The Census: Performed Household Chores [Realizó oficios del hogar]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
+			<attrdomv>
+				<udom>requency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E008</attrlabl>
+			<attrdef>Economic Activitity The Week Previous To The Census: You Are Permanently Disabled To Work [Está incapacitado(a) permanentemente para trabajar]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
+			<attrdomv>
+				<udom>requency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E009</attrlabl>
+			<attrdef>Economic Activitity The Week Previous To The Census: You Were In Another Situation [Estuvo en otra situación]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
+			<attrdomv>
+				<udom>requency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E010</attrlabl>
+			<attrdef>Economic Activitity The Week Previous To The Census: Does Not Report [No informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2018 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2018]</attrdefs>
+			<attrdomv>
+				<udom>requency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
 	</detailed>
-  </eainfo>
+</eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_colombia_economic_2018</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
-  <metainfo>
-  <metd>20190901</metd>
-  <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-  <metstdv>FGDC-STD-001-1998</metstdv>
-  <mettc>local time</mettc>
-  <metc>
-  <cntinfo>
-  <cntperp>
-  <cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-  <cntper>GIS/Metadata Librarian</cntper>
-  </cntperp>
-  <cntaddr>
-  <addrtype>mailing and physical address</addrtype>
-  <address>420 W. 118th St. 215 IAB, MC 3301</address>
-  <city>New York</city>
-  <state>NY</state>
-  <postal>10027</postal>
-  </cntaddr>
-  <cntvoice>(212) 854-6012</cntvoice>
-  <cntemail>data@library.columbia.edu</cntemail>
-  </cntinfo>
-  </metc>
-  </metainfo>
-  <distinfo>
-  <stdorder>
-  <digform>
-  <digtinfo>
-  <formname>Geopackage</formname>
-  <formspec>zip</formspec>
-  </digtinfo>
-  </digform>
-  </stdorder>
-  <resdesc>ev_colombia_economic_2018</resdesc>
-  <distrib>
-  </distrib>
-  </distinfo>
+<metainfo>
+	<metd>20190901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

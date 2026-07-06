@@ -48,307 +48,307 @@ Infrastructure.</purpose>
 			<bounding>
 				<westbc>
 108.684792</westbc>
-				<eastbc>
+					<eastbc>
 116.318125</eastbc>
-				<northbc>
+						<northbc>
 25.250000</northbc>
-				<southbc>
+							<southbc>
 19.750000</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>imageryBaseMapsEarthCover</themekey>
-			</theme>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>Landcover</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>China (1814991)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>Hong Kong (China)</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2005</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Geographical Survey Institute</cntorg>
-					<cntper>Global Map Secretariat</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>Geographical Survey Institute, Kitasato 1</address>
-					<city>Tsukuba</city>
-					<state>Ibaraki</state>
-					<postal>305-0811</postal>
-					<country>JAPAN</country>
-				</cntaddr>
-				<cntvoice>+81-29-864-6910</cntvoice>
-				<cntemail>sec@iscgm.org</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/HongKongLandcover.jpg</browsen>
-			<browsed>Thumbnail Image</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.5.1450</native>
-	</idinfo>
-	<dataqual>
-		<attracc>
-		</attracc>
-		<logic>Logical consistency is a measure of the degree to which data complies with the technical specification. Logical consistency was validated by tests to check that table and file names are set out as in the Data Dictionary. Graphical tests checking such things as intersections, polygon closure, minimum sizes of polygons and length of linear features were also carried out.</logic>
-		<complete>Completeness is a measure of the degree to which all features listed in the technical specification have been captured, in accordance with the selection criteria, definitions and other rules specified. All instances of a feature and its attribute values that meet the selection criteria and appear on the source materials are captured. The data is generalised so the selection of features is to some extent subjective.</complete>
-		<posacc>
-			<horizpa>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>imageryBaseMapsEarthCover</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Landcover</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>China (1814991)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>Hong Kong (China)</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2005</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Geographical Survey Institute</cntorg>
+									<cntper>Global Map Secretariat</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>Geographical Survey Institute, Kitasato 1</address>
+									<city>Tsukuba</city>
+									<state>Ibaraki</state>
+									<postal>305-0811</postal>
+									<country>JAPAN</country>
+								</cntaddr>
+								<cntvoice>+81-29-864-6910</cntvoice>
+								<cntemail>sec@iscgm.org</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/HongKongLandcover.jpg</browsen>
+							<browsed>Thumbnail Image</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.5.1450</native>
+					</idinfo>
+					<dataqual>
+						<attracc>
+						</attracc>
+						<logic>Logical consistency is a measure of the degree to which data complies with the technical specification. Logical consistency was validated by tests to check that table and file names are set out as in the Data Dictionary. Graphical tests checking such things as intersections, polygon closure, minimum sizes of polygons and length of linear features were also carried out.</logic>
+						<complete>Completeness is a measure of the degree to which all features listed in the technical specification have been captured, in accordance with the selection criteria, definitions and other rules specified. All instances of a feature and its attribute values that meet the selection criteria and appear on the source materials are captured. The data is generalised so the selection of features is to some extent subjective.</complete>
+						<posacc>
+							<horizpa>
 				<horizpar>For horizontal accuracy, 90% of points will be within 2km of their actual
 location. In the case of data obtained from satellite images, the maximum error
 is less than or equal to 0.5km.</horizpar>
-			</horizpa>
-			<vertacc>
+							</horizpa>
+							<vertacc>
 				<vertaccr>Vertical accuracy is notionally  within 150 metres for 90% of points. This figure may
 need to be reviewed once the data are available, as sources to this accuracy
 may not be available in areas of high relief.</vertaccr>
-			</vertacc>
-		</posacc>
-		<lineage>
-			<procstep>
-				<procdesc>The source data for the raster data layers was supplied by the United States Geological Survey and consisted of the revised Global 30" Elevation dataset (GTOPO30) produced by EROS and data derived from the Global Landcover Characteristics Database (CLCCD), a cooperative venture between USGS, the University of Nebraska-Lincoln and the European Commission's Joint Research Centre (JRC). The land cover, land use and vegetation layers were edited by AUSLIG to reflect some errors of classification. However, it was not subjected to a thorough vetting.</procdesc>
-				<proccont>
-					<cntinfo>
-						<cntorgp>
-						</cntorgp>
-					</cntinfo>
-				</proccont>
-			</procstep>
-			<procstep>
-				<procdesc>All of the original tiles were merged into one dataset, which was exported to the GRID format.</procdesc>
-				<procdate>20090302</procdate>
-				<proccont>
-					<cntinfo>
-						<cntperp>
-							<cntper>GIS/Map Librarian</cntper>
-							<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-						</cntperp>
-						<cntaddr>
-							<addrtype>mailing and physical address</addrtype>
-							<address>420 W. 118th St. 215 IAB, MC 3301</address>
-							<city>New York</city>
-							<state>NY</state>
-							<postal>10027</postal>
-							<country>USA</country>
-						</cntaddr>
-						<cntvoice>(212) 854-6012</cntvoice>
-						<cntemail>data@library.columbia.edu</cntemail>
-						<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
-					</cntinfo>
-				</proccont>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Raster</direct>
-		<rastinfo>
-			<rasttype>Grid Cell</rasttype>
-			<rowcount>660</rowcount>
-			<colcount>916</colcount>
-			<vrtcount>1</vrtcount>
-		</rastinfo>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.000000</latres>
-				<longres>0.000000</longres>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-		<vertdef>
-			<altsys>
-				<altres>0.000100</altres>
-				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-			</altsys>
-		</vertdef>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</vertacc>
+						</posacc>
+						<lineage>
+							<procstep>
+								<procdesc>The source data for the raster data layers was supplied by the United States Geological Survey and consisted of the revised Global 30" Elevation dataset (GTOPO30) produced by EROS and data derived from the Global Landcover Characteristics Database (CLCCD), a cooperative venture between USGS, the University of Nebraska-Lincoln and the European Commission's Joint Research Centre (JRC). The land cover, land use and vegetation layers were edited by AUSLIG to reflect some errors of classification. However, it was not subjected to a thorough vetting.</procdesc>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+										</cntorgp>
+									</cntinfo>
+								</proccont>
+							</procstep>
+							<procstep>
+								<procdesc>All of the original tiles were merged into one dataset, which was exported to the GRID format.</procdesc>
+								<procdate>20090302</procdate>
+								<proccont>
+									<cntinfo>
+										<cntperp>
+											<cntper>GIS/Map Librarian</cntper>
+											<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										</cntperp>
+										<cntaddr>
+											<addrtype>mailing and physical address</addrtype>
+											<address>420 W. 118th St. 215 IAB, MC 3301</address>
+											<city>New York</city>
+											<state>NY</state>
+											<postal>10027</postal>
+											<country>USA</country>
+										</cntaddr>
+										<cntvoice>(212) 854-6012</cntvoice>
+										<cntemail>data@library.columbia.edu</cntemail>
+										<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
+									</cntinfo>
+								</proccont>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Raster</direct>
+						<rastinfo>
+							<rasttype>Grid Cell</rasttype>
+							<rowcount>660</rowcount>
+							<colcount>916</colcount>
+							<vrtcount>1</vrtcount>
+						</rastinfo>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000000</latres>
+								<longres>0.000000</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+						<vertdef>
+							<altsys>
+								<altres>0.000100</altres>
+								<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+							</altsys>
+						</vertdef>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 landcover.vat</enttypl>
-				<enttypd>land cover</enttypd>
-			</enttyp>
-			<attr>
-				<attrlabl>Rowid</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>VALUE</attrlabl>
-				<attrdef>GLCNMO land cover classification</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>Broadleaf Evergreen Forest</edomvd>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>Broadleaf Deciduous Forest</edomvd>
-					</edom>
-					<edom>
-						<edomv>3</edomv>
-						<edomvd>Needleleaf Evergreen Forest</edomvd>
-					</edom>
-					<edom>
-						<edomv>4</edomv>
-						<edomvd>Needleleaf Deciduous Forest</edomvd>
-					</edom>
-					<edom>
-						<edomv>5</edomv>
-						<edomvd>Mixed Forest</edomvd>
-					</edom>
-					<edom>
-						<edomv>6</edomv>
-						<edomvd>Tree Open</edomvd>
-					</edom>
-					<edom>
-						<edomv>7</edomv>
-						<edomvd>Shrub</edomvd>
-					</edom>
-					<edom>
-						<edomv>8</edomv>
-						<edomvd>Herbaceous, single layer</edomvd>
-					</edom>
-					<edom>
-						<edomv>9</edomv>
-						<edomvd>Herbaceous with Sparse Tree / Shrub</edomvd>
-					</edom>
-					<edom>
-						<edomv>10</edomv>
-						<edomvd>Sparse Vegetation</edomvd>
-					</edom>
-					<edom>
-						<edomv>11</edomv>
-						<edomvd>Cropland</edomvd>
-					</edom>
-					<edom>
-						<edomv>12</edomv>
-						<edomvd>Paddy field</edomvd>
-					</edom>
-					<edom>
-						<edomv>13</edomv>
-						<edomvd>Cropland / Natural Vegetation Mosaic</edomvd>
-					</edom>
-					<edom>
-						<edomv>14</edomv>
-						<edomvd>Mangrove</edomvd>
-					</edom>
-					<edom>
-						<edomv>15</edomv>
-						<edomvd>Wetland</edomvd>
-					</edom>
-					<edom>
-						<edomv>16</edomv>
-						<edomvd>Bare area, consolidated (gravel, rock)</edomvd>
-					</edom>
-					<edom>
-						<edomv>17</edomv>
-						<edomvd>Bare area, unconsolidated (sand)</edomvd>
-					</edom>
-					<edom>
-						<edomv>18</edomv>
-						<edomvd>Urban</edomvd>
-					</edom>
-					<edom>
-						<edomv>19</edomv>
-						<edomvd>Snow / Ice</edomvd>
-					</edom>
-					<edom>
-						<edomv>20</edomv>
-						<edomvd>Water Bodies</edomvd>
-					</edom>
-					<edom>
-						<edomv>255</edomv>
-						<edomvd>NoData</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>COUNT</attrlabl>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Geographical Survey Institute</cntorg>
-					<cntper>Global Map Secretariat</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>Geographical Survey Institute, Kitasato 1</address>
-					<city>Tsukuba</city>
-					<state>Ibaraki</state>
-					<postal>305-0811</postal>
-					<country>JAPAN</country>
-				</cntaddr>
-				<cntvoice>+81-29-864-6910</cntvoice>
-				<cntfax>+81-29-864-6923</cntfax>
-				<cntemail>sec@iscgm.org</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>iscgm_hongkongs_2005_landcover_rast</resdesc>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>GRID</formname>
-					<formspec>zip</formspec>
-					<transize>0.036</transize>
-				</digtinfo>
-			</digform>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>20090306</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-	<Esri><ModDate>20090306</ModDate><ModTime>15254800</ModTime></Esri><mdDateSt Sync="TRUE">20090306</mdDateSt></metadata>
+									<enttypd>land cover</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>Rowid</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>VALUE</attrlabl>
+									<attrdef>GLCNMO land cover classification</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>1</edomv>
+											<edomvd>Broadleaf Evergreen Forest</edomvd>
+										</edom>
+										<edom>
+											<edomv>2</edomv>
+											<edomvd>Broadleaf Deciduous Forest</edomvd>
+										</edom>
+										<edom>
+											<edomv>3</edomv>
+											<edomvd>Needleleaf Evergreen Forest</edomvd>
+										</edom>
+										<edom>
+											<edomv>4</edomv>
+											<edomvd>Needleleaf Deciduous Forest</edomvd>
+										</edom>
+										<edom>
+											<edomv>5</edomv>
+											<edomvd>Mixed Forest</edomvd>
+										</edom>
+										<edom>
+											<edomv>6</edomv>
+											<edomvd>Tree Open</edomvd>
+										</edom>
+										<edom>
+											<edomv>7</edomv>
+											<edomvd>Shrub</edomvd>
+										</edom>
+										<edom>
+											<edomv>8</edomv>
+											<edomvd>Herbaceous, single layer</edomvd>
+										</edom>
+										<edom>
+											<edomv>9</edomv>
+											<edomvd>Herbaceous with Sparse Tree / Shrub</edomvd>
+										</edom>
+										<edom>
+											<edomv>10</edomv>
+											<edomvd>Sparse Vegetation</edomvd>
+										</edom>
+										<edom>
+											<edomv>11</edomv>
+											<edomvd>Cropland</edomvd>
+										</edom>
+										<edom>
+											<edomv>12</edomv>
+											<edomvd>Paddy field</edomvd>
+										</edom>
+										<edom>
+											<edomv>13</edomv>
+											<edomvd>Cropland / Natural Vegetation Mosaic</edomvd>
+										</edom>
+										<edom>
+											<edomv>14</edomv>
+											<edomvd>Mangrove</edomvd>
+										</edom>
+										<edom>
+											<edomv>15</edomv>
+											<edomvd>Wetland</edomvd>
+										</edom>
+										<edom>
+											<edomv>16</edomv>
+											<edomvd>Bare area, consolidated (gravel, rock)</edomvd>
+										</edom>
+										<edom>
+											<edomv>17</edomv>
+											<edomvd>Bare area, unconsolidated (sand)</edomvd>
+										</edom>
+										<edom>
+											<edomv>18</edomv>
+											<edomvd>Urban</edomvd>
+										</edom>
+										<edom>
+											<edomv>19</edomv>
+											<edomvd>Snow / Ice</edomvd>
+										</edom>
+										<edom>
+											<edomv>20</edomv>
+											<edomvd>Water Bodies</edomvd>
+										</edom>
+										<edom>
+											<edomv>255</edomv>
+											<edomvd>NoData</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>COUNT</attrlabl>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Geographical Survey Institute</cntorg>
+										<cntper>Global Map Secretariat</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>Geographical Survey Institute, Kitasato 1</address>
+										<city>Tsukuba</city>
+										<state>Ibaraki</state>
+										<postal>305-0811</postal>
+										<country>JAPAN</country>
+									</cntaddr>
+									<cntvoice>+81-29-864-6910</cntvoice>
+									<cntfax>+81-29-864-6923</cntfax>
+									<cntemail>sec@iscgm.org</cntemail>
+								</cntinfo>
+							</distrib>
+							<resdesc>iscgm_hongkongs_2005_landcover_rast</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>GRID</formname>
+										<formspec>zip</formspec>
+										<transize>0.036</transize>
+									</digtinfo>
+								</digform>
+							</stdorder>
+						</distinfo>
+						<metainfo>
+							<metd>20090306</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

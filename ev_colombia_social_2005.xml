@@ -1,791 +1,791 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Colombia (3686110)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Colombia</placekey>
-<placekey>Colombia</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2005</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-81.722456</westbc>
-<eastbc>-67.474110</eastbc>
-<northbc>13.385775</northbc>
-<southbc>-0.566358</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Colombia (3686110)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Colombia</placekey>
+				<placekey>Colombia</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2005</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-81.722456</westbc>
+				<eastbc>-67.474110</eastbc>
+				<northbc>13.385775</northbc>
+				<southbc>-0.566358</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Colombia Social Census Data, 2005 is a polygon theme representing Manzanas (6th level administrative units) in Colombia as of 2005. Attribute information includes social variables from the 2005 Census.
 
  Official population and housing data for Colombia from the 2005 census. This census is provided at the manzana administrative level (ADM6) and includes 261,263 polygons with 194 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo_Hombre" was updated to D001 and given the alias "Gender: Male[Sexo_Hombre]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Colombia Social Census Data, 2005</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2021</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Colombia Social Census Data, 2005</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_colombia_social_2005.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2005</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2005</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Colombia_2005</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Block[Manzana]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S001</attrlabl>
-    <attrdef>Ethnic Group: Indian[PertEtnica_Indigena]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S002</attrlabl>
-    <attrdef>Ethnic Group: Romani[PertEtnica_Rom]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S003</attrlabl>
-    <attrdef>Ethnic Group: Raizalde San Andres Providencia[PertEtnica_RaizaldeSanAndresProvidencia]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S004</attrlabl>
-    <attrdef>Ethnic Group: Palenquero[PertEtnica_Palenquero]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S005</attrlabl>
-    <attrdef>Ethnic Group: Black/Mulato/Afrocolombian[PertEtnica_NegroMulatoAfrocolombiano]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S006</attrlabl>
-    <attrdef>Ethnic Group: None of the above[PertEtnica_Ningunodelosanteriores]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S007</attrlabl>
-    <attrdef>Ethnic Group: No Information[PertEtnica_NoInforma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S008</attrlabl>
-    <attrdef>Ethnic Group: Total[PertEtnica_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S009</attrlabl>
-    <attrdef>Educational Institution: Yes[TipoInstituc_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S010</attrlabl>
-    <attrdef>Educational Institution:  No[TipoInstituc_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S011</attrlabl>
-    <attrdef>Educational Institution:  No Information[TipoInstituc_NOInforma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S012</attrlabl>
-    <attrdef>Educational Institution:  Total[TipoInstituc_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S013</attrlabl>
-    <attrdef>Disability limiting ability to socialize: Yes[Limit_Socializ_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S014</attrlabl>
-    <attrdef>Disability limiting ability to socialize: No[Limit_Socializ_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S015</attrlabl>
-    <attrdef>Disability limiting ability to socialize: No Information[Limit_Socializ_NOInforma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S016</attrlabl>
-    <attrdef>Disability limiting ability to socialize: Total[Limit_Socializ_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S017</attrlabl>
-    <attrdef>Disability limiting ability to use arms or hands: Yes[Limit_Brazos_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S018</attrlabl>
-    <attrdef>Disability limiting ability to use arms or hands: No[Limit_Brazos_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S019</attrlabl>
-    <attrdef>Disability limiting ability to use arms or hands: No Information[Limit_Brazos_NOInforma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S020</attrlabl>
-    <attrdef>Disability limiting ability to use arms or hands: Total[Limit_Brazos_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S021</attrlabl>
-    <attrdef>Speak the language of your people: Yes[HablaLengua_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S022</attrlabl>
-    <attrdef>Speak the language of your people: No[HablaLengua_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S023</attrlabl>
-    <attrdef>Speak the language of your people: No information[HablaLengua_NoInforma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S024</attrlabl>
-    <attrdef>Speak the language of your people: Total people[HablaLengua_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S025</attrlabl>
-    <attrdef>Literate: Yes[LeerEscribir_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S026</attrlabl>
-    <attrdef>Literate: No[LeerEscribir_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S027</attrlabl>
-    <attrdef>Literate: No Information[LeerEscribir_NoInforma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S028</attrlabl>
-    <attrdef>Total literate[LeerEscribir_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S029</attrlabl>
-    <attrdef>Disability limiting ability to learn: Yes[LimAprender_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S030</attrlabl>
-    <attrdef>Disability limiting ability to learn: No[LimAprender_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S031</attrlabl>
-    <attrdef>Disability limiting ability to learn: No Information[LimAprender_NOInforma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S032</attrlabl>
-    <attrdef>Disability limiting ability to learn: Total[LimAprender_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S033</attrlabl>
-    <attrdef>Disability limiting bathing oneself: Yes[LimBanarse_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S034</attrlabl>
-    <attrdef>Disability limiting bathing oneself: No[LimBanarse_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S035</attrlabl>
-    <attrdef>Disability limiting bathing oneself: No Information[LimBanarse_NOInforma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S036</attrlabl>
-    <attrdef>Disability limiting bathing oneself: Total[LimBanarse_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S037</attrlabl>
-    <attrdef>Disability limiting ability to walk: Yes[LimCaminar_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S038</attrlabl>
-    <attrdef>Disability limiting ability to walk: No[LimCaminar_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S039</attrlabl>
-    <attrdef>Disability limiting ability to walk: No Information[LimCaminar_NOInforma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S040</attrlabl>
-    <attrdef>Disability limiting ability to walk: Total[LimCaminar_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S041</attrlabl>
-    <attrdef>Disability limiting ability to talk: Yes[LimHablar_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S042</attrlabl>
-    <attrdef>Disability limiting ability to talk: No[LimHablar_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S043</attrlabl>
-    <attrdef>Disability limiting ability to talk: No Information[LimHablar_NOInorma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S044</attrlabl>
-    <attrdef>Disability limiting ability to talk: Total[LimHablar_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S045</attrlabl>
-    <attrdef>Disability limiting ability to hear: Yes[LimitOir_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S046</attrlabl>
-    <attrdef>Disability limiting ability to hear: No[LimitOir_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S047</attrlabl>
-    <attrdef>Disability limiting ability to hear: No Information[LimitOir_NOInforma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S048</attrlabl>
-    <attrdef>Disability limiting ability to hear: Total[LimitOir_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S049</attrlabl>
-    <attrdef>Disability limiting ability to see: Yes[LimVer_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S050</attrlabl>
-    <attrdef>Disability limiting ability to see: No[LimVer_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S051</attrlabl>
-    <attrdef>Disability limiting ability to see: No Information[LimVer_NOInforma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S052</attrlabl>
-    <attrdef>Disability limiting ability to see: Total[LimVer_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S053</attrlabl>
-    <attrdef>Of multiple disability does one cause more difficulty than others: Yes[TipoLimitac_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S054</attrlabl>
-    <attrdef>Of multiple disability does one cause more difficulty than others: No[TipoLimitac_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S055</attrlabl>
-    <attrdef>Of multiple disability does one cause more difficulty than others: No Information[TipoLimitac_NOInforma]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S056</attrlabl>
-    <attrdef>Of multiple disability does one cause more difficulty than others: Total[TipoLimitac_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S057</attrlabl>
-    <attrdef>Have Any Disability: Yes[Limitacion_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S058</attrlabl>
-    <attrdef>Have Any Disability: No[Limitacion_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S059</attrlabl>
-    <attrdef>Have Any Disability: Total[Limitacion_A1_T]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S060</attrlabl>
-    <attrdef>Attendance at any educational institute: Yes[AsistInstEduca_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S061</attrlabl>
-    <attrdef>Attendance at any educational institute: No[AsistInstEduca_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S062</attrlabl>
-    <attrdef>Attendance at any educational institute: No information[AsistInstEduca_No_Informa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S063</attrlabl>
-    <attrdef>Attendance at any educational institute: Total[AsistInstEduca_A1_T]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S064</attrlabl>
-    <attrdef>Had days of fasting: Yes[DiasdeAyuno_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S065</attrlabl>
-    <attrdef>Had days of fasting: No[DiasdeAyuno_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S066</attrlabl>
-    <attrdef>Had days of fasting: No Information[DiasdeAyuno_No_Informa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S067</attrlabl>
-    <attrdef>Had days of fasting: Total[DiasdeAyuno_A1_T]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S068</attrlabl>
-    <attrdef>Type of studies attended: Preschool[Preescolar]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S069</attrlabl>
-    <attrdef>Type of studies attended: Basic Primary[Basica_primaria]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S070</attrlabl>
-    <attrdef>Type of studies attended: Basic Secondary[Basica_secundaria]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S071</attrlabl>
-    <attrdef>Type of studies attended: Academic or classical Degree[Media_academica_o_clásica]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S072</attrlabl>
-    <attrdef>Type of studies attended: Technical Degree[Media_tecnica]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S073</attrlabl>
-    <attrdef>Type of studies attended: Extended Normalista[Normalista]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S074</attrlabl>
-    <attrdef>Type of studies attended: Higher Degree[Superior_y_postgrado]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S075</attrlabl>
-    <attrdef>Type of studies attended: None[Ninguno]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S076</attrlabl>
-    <attrdef>Type of studies attended: not reported[No_informa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S077</attrlabl>
-    <attrdef>Type of studies attended: Total[A1_T]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census_Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Colombia_2005</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Block[Manzana]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S001</attrlabl>
+			<attrdef>Ethnic Group: Indian[PertEtnica_Indigena]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S002</attrlabl>
+			<attrdef>Ethnic Group: Romani[PertEtnica_Rom]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S003</attrlabl>
+			<attrdef>Ethnic Group: Raizalde San Andres Providencia[PertEtnica_RaizaldeSanAndresProvidencia]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S004</attrlabl>
+			<attrdef>Ethnic Group: Palenquero[PertEtnica_Palenquero]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S005</attrlabl>
+			<attrdef>Ethnic Group: Black/Mulato/Afrocolombian[PertEtnica_NegroMulatoAfrocolombiano]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S006</attrlabl>
+			<attrdef>Ethnic Group: None of the above[PertEtnica_Ningunodelosanteriores]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S007</attrlabl>
+			<attrdef>Ethnic Group: No Information[PertEtnica_NoInforma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S008</attrlabl>
+			<attrdef>Ethnic Group: Total[PertEtnica_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S009</attrlabl>
+			<attrdef>Educational Institution: Yes[TipoInstituc_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S010</attrlabl>
+			<attrdef>Educational Institution:  No[TipoInstituc_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S011</attrlabl>
+			<attrdef>Educational Institution:  No Information[TipoInstituc_NOInforma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S012</attrlabl>
+			<attrdef>Educational Institution:  Total[TipoInstituc_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S013</attrlabl>
+			<attrdef>Disability limiting ability to socialize: Yes[Limit_Socializ_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S014</attrlabl>
+			<attrdef>Disability limiting ability to socialize: No[Limit_Socializ_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S015</attrlabl>
+			<attrdef>Disability limiting ability to socialize: No Information[Limit_Socializ_NOInforma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S016</attrlabl>
+			<attrdef>Disability limiting ability to socialize: Total[Limit_Socializ_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S017</attrlabl>
+			<attrdef>Disability limiting ability to use arms or hands: Yes[Limit_Brazos_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S018</attrlabl>
+			<attrdef>Disability limiting ability to use arms or hands: No[Limit_Brazos_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S019</attrlabl>
+			<attrdef>Disability limiting ability to use arms or hands: No Information[Limit_Brazos_NOInforma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S020</attrlabl>
+			<attrdef>Disability limiting ability to use arms or hands: Total[Limit_Brazos_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S021</attrlabl>
+			<attrdef>Speak the language of your people: Yes[HablaLengua_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S022</attrlabl>
+			<attrdef>Speak the language of your people: No[HablaLengua_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S023</attrlabl>
+			<attrdef>Speak the language of your people: No information[HablaLengua_NoInforma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S024</attrlabl>
+			<attrdef>Speak the language of your people: Total people[HablaLengua_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S025</attrlabl>
+			<attrdef>Literate: Yes[LeerEscribir_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S026</attrlabl>
+			<attrdef>Literate: No[LeerEscribir_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S027</attrlabl>
+			<attrdef>Literate: No Information[LeerEscribir_NoInforma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S028</attrlabl>
+			<attrdef>Total literate[LeerEscribir_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S029</attrlabl>
+			<attrdef>Disability limiting ability to learn: Yes[LimAprender_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S030</attrlabl>
+			<attrdef>Disability limiting ability to learn: No[LimAprender_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S031</attrlabl>
+			<attrdef>Disability limiting ability to learn: No Information[LimAprender_NOInforma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S032</attrlabl>
+			<attrdef>Disability limiting ability to learn: Total[LimAprender_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S033</attrlabl>
+			<attrdef>Disability limiting bathing oneself: Yes[LimBanarse_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S034</attrlabl>
+			<attrdef>Disability limiting bathing oneself: No[LimBanarse_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S035</attrlabl>
+			<attrdef>Disability limiting bathing oneself: No Information[LimBanarse_NOInforma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S036</attrlabl>
+			<attrdef>Disability limiting bathing oneself: Total[LimBanarse_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S037</attrlabl>
+			<attrdef>Disability limiting ability to walk: Yes[LimCaminar_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S038</attrlabl>
+			<attrdef>Disability limiting ability to walk: No[LimCaminar_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S039</attrlabl>
+			<attrdef>Disability limiting ability to walk: No Information[LimCaminar_NOInforma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S040</attrlabl>
+			<attrdef>Disability limiting ability to walk: Total[LimCaminar_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S041</attrlabl>
+			<attrdef>Disability limiting ability to talk: Yes[LimHablar_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S042</attrlabl>
+			<attrdef>Disability limiting ability to talk: No[LimHablar_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S043</attrlabl>
+			<attrdef>Disability limiting ability to talk: No Information[LimHablar_NOInorma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S044</attrlabl>
+			<attrdef>Disability limiting ability to talk: Total[LimHablar_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S045</attrlabl>
+			<attrdef>Disability limiting ability to hear: Yes[LimitOir_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S046</attrlabl>
+			<attrdef>Disability limiting ability to hear: No[LimitOir_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S047</attrlabl>
+			<attrdef>Disability limiting ability to hear: No Information[LimitOir_NOInforma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S048</attrlabl>
+			<attrdef>Disability limiting ability to hear: Total[LimitOir_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S049</attrlabl>
+			<attrdef>Disability limiting ability to see: Yes[LimVer_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S050</attrlabl>
+			<attrdef>Disability limiting ability to see: No[LimVer_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S051</attrlabl>
+			<attrdef>Disability limiting ability to see: No Information[LimVer_NOInforma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S052</attrlabl>
+			<attrdef>Disability limiting ability to see: Total[LimVer_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S053</attrlabl>
+			<attrdef>Of multiple disability does one cause more difficulty than others: Yes[TipoLimitac_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S054</attrlabl>
+			<attrdef>Of multiple disability does one cause more difficulty than others: No[TipoLimitac_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S055</attrlabl>
+			<attrdef>Of multiple disability does one cause more difficulty than others: No Information[TipoLimitac_NOInforma]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S056</attrlabl>
+			<attrdef>Of multiple disability does one cause more difficulty than others: Total[TipoLimitac_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S057</attrlabl>
+			<attrdef>Have Any Disability: Yes[Limitacion_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S058</attrlabl>
+			<attrdef>Have Any Disability: No[Limitacion_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S059</attrlabl>
+			<attrdef>Have Any Disability: Total[Limitacion_A1_T]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S060</attrlabl>
+			<attrdef>Attendance at any educational institute: Yes[AsistInstEduca_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S061</attrlabl>
+			<attrdef>Attendance at any educational institute: No[AsistInstEduca_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S062</attrlabl>
+			<attrdef>Attendance at any educational institute: No information[AsistInstEduca_No_Informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S063</attrlabl>
+			<attrdef>Attendance at any educational institute: Total[AsistInstEduca_A1_T]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S064</attrlabl>
+			<attrdef>Had days of fasting: Yes[DiasdeAyuno_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S065</attrlabl>
+			<attrdef>Had days of fasting: No[DiasdeAyuno_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S066</attrlabl>
+			<attrdef>Had days of fasting: No Information[DiasdeAyuno_No_Informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S067</attrlabl>
+			<attrdef>Had days of fasting: Total[DiasdeAyuno_A1_T]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S068</attrlabl>
+			<attrdef>Type of studies attended: Preschool[Preescolar]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S069</attrlabl>
+			<attrdef>Type of studies attended: Basic Primary[Basica_primaria]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S070</attrlabl>
+			<attrdef>Type of studies attended: Basic Secondary[Basica_secundaria]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S071</attrlabl>
+			<attrdef>Type of studies attended: Academic or classical Degree[Media_academica_o_clásica]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S072</attrlabl>
+			<attrdef>Type of studies attended: Technical Degree[Media_tecnica]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S073</attrlabl>
+			<attrdef>Type of studies attended: Extended Normalista[Normalista]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S074</attrlabl>
+			<attrdef>Type of studies attended: Higher Degree[Superior_y_postgrado]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S075</attrlabl>
+			<attrdef>Type of studies attended: None[Ninguno]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S076</attrlabl>
+			<attrdef>Type of studies attended: not reported[No_informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S077</attrlabl>
+			<attrdef>Type of studies attended: Total[A1_T]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census_Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_colombia_social_2005</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_colombia_social_2005</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

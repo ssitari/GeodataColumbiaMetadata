@@ -1,1030 +1,1030 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Ecuador (3658394)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Ecuador</placekey>
-<placekey>Ecuador</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2010</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-92.2072392</westbc>
-<eastbc>-75.192504</eastbc>
-<northbc>1.8835964</northbc>
-<southbc>-5.0159314</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Ecuador (3658394)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Ecuador</placekey>
+				<placekey>Ecuador</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2010</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-92.2072392</westbc>
+				<eastbc>-75.192504</eastbc>
+				<northbc>1.8835964</northbc>
+				<southbc>-5.0159314</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Ecuador Social Census Data, 2010 is a polygon theme representing Sectors (6th level administrative units) in Ecuador as of 2010. Attribute data include social variables from the 2010 census.
 Official population and housing data for the Ecuador from the 2010 census. This census is provided at the sector administrative level (ADM6) and includes 40,649 polygons with 1235 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo: Hombre" was updated to D001 and given the alias "Sex: Man[Sexo: Hombre]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social). Four base tables could not be identified and were retained as NUMHOG_, NUMHOG_1, NUMHOG_2 and PCD_. Where possible, all variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Ecuador Social Census Data, 2010</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Ecuador Social Census Data, 2010</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_ecuador_social_2010.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2010</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2010</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>WGS_1984_UTM_Zone_17S</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>WGS_1984_UTM_Zone_17S</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Ecuador_2010</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-  <attrlabl>Join_Code</attrlabl>
-  <attrdef>Join_Code[ REDCODE]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S001</attrlabl>
-  <attrdef>Is Or Was Affiliated With The Ecuador Social Security Insitute (Iess): Yes [Si_PERSON_ALFAB_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S002</attrlabl>
-  <attrdef>Is Or Was Affiliated With The Ecuador Social Security Insitute (Iess): No [No_PERSON_ALFAB_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S003</attrlabl>
-  <attrdef>Is Or Was Affiliated With The Ecuador Social Security Insitute (Iess): No Response [Ignorado_PERSON_ALFAB_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S004</attrlabl>
-  <attrdef>Is Or Was Affiliated With The Ecuador Social Security Insitute (Iess): Total [Total_PERSON_ALFAB_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S005</attrlabl>
-  <attrdef>Literacy: Yes, Literate [Si_PERSON_ALFAB_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S006</attrlabl>
-  <attrdef>Literacy: No, Illiterate [No_PERSON_ALFAB_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S007</attrlabl>
-  <attrdef>Literacy: No Response [Ignorado_PERSON_ALFAB_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S008</attrlabl>
-  <attrdef>Literacy: Total [Total_PERSON_ALFAB_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S009</attrlabl>
-  <attrdef>Currently Contributes To The Ecuador Social Security Insitute (Iess): Yes [Si_PERSON_DISCAP_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S010</attrlabl>
-  <attrdef>Currently Contributes To The Ecuador Social Security Insitute (Iess): No [No_PERSON_DISCAP_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S011</attrlabl>
-  <attrdef>Currently Contributes To The Ecuador Social Security Insitute (Iess): No Response [Ignorado_PERSON_ASISTE_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S012</attrlabl>
-  <attrdef>Currently Contributes To The Ecuador Social Security Insitute (Iess): Total [Total_PERSON_ASISTE_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S013</attrlabl>
-  <attrdef>Attends A Teaching Establishment: Yes [Si_Asiste]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S014</attrlabl>
-  <attrdef>Attends A Teaching Establishment: No [No_Asiste]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S015</attrlabl>
-  <attrdef>Attends A Teaching Establishment: No Response [Ignorado_PERSON_ASISTE_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S016</attrlabl>
-  <attrdef>Attends A Teaching Establishment: Total [Total_PERSON_ASISTE_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S017</attrlabl>
-  <attrdef>Idenitifies As Having A Disability: Yes [Si_PERSON_DISCAP_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S018</attrlabl>
-  <attrdef>Idenitifies As Having A Disability: No [No_PERSON_DISCAP_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S019</attrlabl>
-  <attrdef>Idenitifies As Having A Disability: No Response [Se_ignora_PERSON_ORGCAMP_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S020</attrlabl>
-  <attrdef>Idenitifies As Having A Disability: Total [Total_PERSON_GRADO_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S021</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 0 [F0]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S022</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 1 [F1]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S023</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 2 [F2_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S024</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 3 [F3_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S025</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 4 [F4_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S026</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 5 [F5_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S027</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 6 [F6_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S028</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 7 [F7_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S029</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 8 [F8_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S030</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 9 [F9_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S031</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 10 [F10_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S032</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 11 [F11_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S033</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 12 [F12_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S034</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: 13 [F13_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S035</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: F99 [F99]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S036</attrlabl>
-  <attrdef>Highest Number Of School Years Completed: Total [Total_PERSON_GRADO_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S037</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 2 [F2_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S038</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 3 [F3_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S039</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 4 [F4_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S040</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 5 [F5_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S041</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 6 [F6_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S042</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 7 [F7_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S043</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 8 [F8_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S044</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 9 [F9_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S045</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 10 [F10_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S046</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 11 [F11_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S047</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 12 [F12_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S048</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 13 [F13_PERSON_GRAESC_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S049</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 14 [F14]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S050</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 15 [F15]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S051</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 16 [F16]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S052</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 17 [F17]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S053</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 18 [F18]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S054</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 19 [F19]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S055</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 20 [F20]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S056</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 21 [F21]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S057</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 22 [F22]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S058</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: 23 [F23]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S059</attrlabl>
-  <attrdef>Highest Degree Of Schooling Attained: Total [Total_PERSON_IDIOMA_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S060</attrlabl>
-  <attrdef>Main Language Spoken: Only Speaks Spanish [Solo_español]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S061</attrlabl>
-  <attrdef>Main Language Spoken: Speaks An Indigenous Language [Lengua_nativa]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S062</attrlabl>
-  <attrdef>Main Language Spoken: Speaks A Foreign Language [Extranjero]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S063</attrlabl>
-  <attrdef>Main Language Spoken: Is A Native Spanish Speaker [Español_nativa]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S064</attrlabl>
-  <attrdef>Main Language Spoken: Speaks Another Language [Otro]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S065</attrlabl>
-  <attrdef>Main Language Spoken: Total [Total_PERSON_IDIOMA_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S066</attrlabl>
-  <attrdef>Indigenous Language Spoken: Achuar [Achuar]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S067</attrlabl>
-  <attrdef>Indigenous Language Spoken: Awapit [Awapit]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S068</attrlabl>
-  <attrdef>Indigenous Language Spoken: A'Ingae [A_ingae]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S069</attrlabl>
-  <attrdef>Indigenous Language Spoken: Cha_Palaa [Cha_palaa]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S070</attrlabl>
-  <attrdef>Indigenous Language Spoken: Siapedie [Siapedie]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S071</attrlabl>
-  <attrdef>Indigenous Language Spoken: Huao / Terero [Huao___Terero]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S072</attrlabl>
-  <attrdef>Indigenous Language Spoken: Quichua [Quichua]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S073</attrlabl>
-  <attrdef>Indigenous Language Spoken: Secoya [Secoya]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S074</attrlabl>
-  <attrdef>Indigenous Language Spoken: Shuar / Chicha [Shuar___Chicha]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S075</attrlabl>
-  <attrdef>Indigenous Language Spoken: Paicoca [Paicoca]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S076</attrlabl>
-  <attrdef>Indigenous Language Spoken: Tsa'Fiqui [Tsa_fiqui]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S077</attrlabl>
-  <attrdef>Indigenous Language Spoken: Zaparo [Zaparo]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S078</attrlabl>
-  <attrdef>Indigenous Language Spoken: Shiwiar [Shiwiar]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S079</attrlabl>
-  <attrdef>Indigenous Language Spoken: Kichwa [Kichwa]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S080</attrlabl>
-  <attrdef>Indigenous Language Spoken: No Response [Ignorado]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S081</attrlabl>
-  <attrdef>Indigenous Language Spoken: Total [Total_PERSON_NIVINS_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S082</attrlabl>
-  <attrdef>Highest Level Of Schooling Achieved: None [Ninguno]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S083</attrlabl>
-  <attrdef>Highest Level Of Schooling Achieved: Literacy [Alfabetizacion]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S084</attrlabl>
-  <attrdef>Highest Level Of Schooling Achieved: Primary School [Primario]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S085</attrlabl>
-  <attrdef>Highest Level Of Schooling Achieved: Secondary School [Secundario]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S086</attrlabl>
-  <attrdef>Highest Level Of Schooling Achieved: Basic Education [Educacion_Basica]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S087</attrlabl>
-  <attrdef>Highest Level Of Schooling Achieved: Middle Education [Educacion_Media]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S088</attrlabl>
-  <attrdef>Highest Level Of Schooling Achieved: Post Baccalaureate Cycle [Ciclo_Post_Bachillerato]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S089</attrlabl>
-  <attrdef>Highest Level Of Schooling Achieved: Graduate  [Superior]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S090</attrlabl>
-  <attrdef>Highest Level Of Schooling Achieved: Post-Graduate [Postgrado]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S091</attrlabl>
-  <attrdef>Highest Level Of Schooling Achieved: No Response [Ignora]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S092</attrlabl>
-  <attrdef>Highest Level Of Schooling Achieved: Total [Total_PERSON_NIVINS_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S093</attrlabl>
-  <attrdef>Member Of A Peasants Organization (Like A Farmers Union): Yes [Si_PERSON_TIENTIT_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S094</attrlabl>
-  <attrdef>Member Of A Peasants Organization (Like A Farmers Union): No [No_PERSON_TIENTIT_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S095</attrlabl>
-  <attrdef>Member Of A Peasants Organization (Like A Farmers Union): No Response [Se_ignora_PERSON_ORGCAMP_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S096</attrlabl>
-  <attrdef>Member Of A Peasants Organization (Like A Farmers Union): Total [Total_PERSON_TIENTIT_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S097</attrlabl>
-  <attrdef>Persons Who Have A University Degree: Yes [Si_PERSON_TIENTIT_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S098</attrlabl>
-  <attrdef>Persons Who Have A University Degree: No [No_PERSON_TIENTIT_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S099</attrlabl>
-  <attrdef>Persons Who Have A University Degree: Total [Total_PERSON_TIENTIT_.xls]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S100</attrlabl>
-  <attrdef>Type Of Diability: Blindness [Para_ver]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S101</attrlabl>
-  <attrdef>Type Of Diability: Paralysis [Para_mover_cuerpo]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S102</attrlabl>
-  <attrdef>Type Of Diability: Deafness [Es_sordo]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S103</attrlabl>
-  <attrdef>Type Of Diability: Developmental Disability [Retardo_mental]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S104</attrlabl>
-  <attrdef>Type Of Diability: Psychiatric Illness [Enfermedad_siquiatrica]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S105</attrlabl>
-  <attrdef>Type Of Diability: A Combination Of Hte Above [Multiple]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S106</attrlabl>
-  <attrdef>Type Of Diability: Other [Otra]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S107</attrlabl>
-  <attrdef>Type Of Diability: Total [Total]</attrdef>
-  <attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>Country</attrlabl>
-  <attrdef>Country</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Country where census took place as 3-digit ISO code</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>Census_Year</attrlabl>
-  <attrdef>Census_Year</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Year census was conducted as YYYY</udom>
-  </attrdomv>
-</attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Ecuador_2010</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>Join_Code</attrlabl>
+			<attrdef>Join_Code[ REDCODE]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S001</attrlabl>
+			<attrdef>Is Or Was Affiliated With The Ecuador Social Security Insitute (Iess): Yes [Si_PERSON_ALFAB_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S002</attrlabl>
+			<attrdef>Is Or Was Affiliated With The Ecuador Social Security Insitute (Iess): No [No_PERSON_ALFAB_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S003</attrlabl>
+			<attrdef>Is Or Was Affiliated With The Ecuador Social Security Insitute (Iess): No Response [Ignorado_PERSON_ALFAB_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S004</attrlabl>
+			<attrdef>Is Or Was Affiliated With The Ecuador Social Security Insitute (Iess): Total [Total_PERSON_ALFAB_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S005</attrlabl>
+			<attrdef>Literacy: Yes, Literate [Si_PERSON_ALFAB_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S006</attrlabl>
+			<attrdef>Literacy: No, Illiterate [No_PERSON_ALFAB_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S007</attrlabl>
+			<attrdef>Literacy: No Response [Ignorado_PERSON_ALFAB_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S008</attrlabl>
+			<attrdef>Literacy: Total [Total_PERSON_ALFAB_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S009</attrlabl>
+			<attrdef>Currently Contributes To The Ecuador Social Security Insitute (Iess): Yes [Si_PERSON_DISCAP_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S010</attrlabl>
+			<attrdef>Currently Contributes To The Ecuador Social Security Insitute (Iess): No [No_PERSON_DISCAP_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S011</attrlabl>
+			<attrdef>Currently Contributes To The Ecuador Social Security Insitute (Iess): No Response [Ignorado_PERSON_ASISTE_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S012</attrlabl>
+			<attrdef>Currently Contributes To The Ecuador Social Security Insitute (Iess): Total [Total_PERSON_ASISTE_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S013</attrlabl>
+			<attrdef>Attends A Teaching Establishment: Yes [Si_Asiste]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S014</attrlabl>
+			<attrdef>Attends A Teaching Establishment: No [No_Asiste]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S015</attrlabl>
+			<attrdef>Attends A Teaching Establishment: No Response [Ignorado_PERSON_ASISTE_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S016</attrlabl>
+			<attrdef>Attends A Teaching Establishment: Total [Total_PERSON_ASISTE_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S017</attrlabl>
+			<attrdef>Idenitifies As Having A Disability: Yes [Si_PERSON_DISCAP_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S018</attrlabl>
+			<attrdef>Idenitifies As Having A Disability: No [No_PERSON_DISCAP_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S019</attrlabl>
+			<attrdef>Idenitifies As Having A Disability: No Response [Se_ignora_PERSON_ORGCAMP_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S020</attrlabl>
+			<attrdef>Idenitifies As Having A Disability: Total [Total_PERSON_GRADO_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S021</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 0 [F0]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S022</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 1 [F1]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S023</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 2 [F2_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S024</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 3 [F3_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S025</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 4 [F4_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S026</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 5 [F5_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S027</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 6 [F6_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S028</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 7 [F7_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S029</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 8 [F8_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S030</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 9 [F9_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S031</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 10 [F10_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S032</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 11 [F11_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S033</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 12 [F12_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S034</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: 13 [F13_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S035</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: F99 [F99]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S036</attrlabl>
+			<attrdef>Highest Number Of School Years Completed: Total [Total_PERSON_GRADO_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S037</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 2 [F2_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S038</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 3 [F3_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S039</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 4 [F4_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S040</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 5 [F5_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S041</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 6 [F6_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S042</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 7 [F7_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S043</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 8 [F8_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S044</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 9 [F9_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S045</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 10 [F10_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S046</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 11 [F11_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S047</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 12 [F12_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S048</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 13 [F13_PERSON_GRAESC_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S049</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 14 [F14]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S050</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 15 [F15]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S051</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 16 [F16]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S052</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 17 [F17]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S053</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 18 [F18]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S054</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 19 [F19]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S055</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 20 [F20]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S056</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 21 [F21]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S057</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 22 [F22]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S058</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: 23 [F23]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S059</attrlabl>
+			<attrdef>Highest Degree Of Schooling Attained: Total [Total_PERSON_IDIOMA_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S060</attrlabl>
+			<attrdef>Main Language Spoken: Only Speaks Spanish [Solo_español]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S061</attrlabl>
+			<attrdef>Main Language Spoken: Speaks An Indigenous Language [Lengua_nativa]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S062</attrlabl>
+			<attrdef>Main Language Spoken: Speaks A Foreign Language [Extranjero]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S063</attrlabl>
+			<attrdef>Main Language Spoken: Is A Native Spanish Speaker [Español_nativa]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S064</attrlabl>
+			<attrdef>Main Language Spoken: Speaks Another Language [Otro]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S065</attrlabl>
+			<attrdef>Main Language Spoken: Total [Total_PERSON_IDIOMA_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S066</attrlabl>
+			<attrdef>Indigenous Language Spoken: Achuar [Achuar]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S067</attrlabl>
+			<attrdef>Indigenous Language Spoken: Awapit [Awapit]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S068</attrlabl>
+			<attrdef>Indigenous Language Spoken: A'Ingae [A_ingae]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S069</attrlabl>
+			<attrdef>Indigenous Language Spoken: Cha_Palaa [Cha_palaa]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S070</attrlabl>
+			<attrdef>Indigenous Language Spoken: Siapedie [Siapedie]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S071</attrlabl>
+			<attrdef>Indigenous Language Spoken: Huao / Terero [Huao___Terero]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S072</attrlabl>
+			<attrdef>Indigenous Language Spoken: Quichua [Quichua]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S073</attrlabl>
+			<attrdef>Indigenous Language Spoken: Secoya [Secoya]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S074</attrlabl>
+			<attrdef>Indigenous Language Spoken: Shuar / Chicha [Shuar___Chicha]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S075</attrlabl>
+			<attrdef>Indigenous Language Spoken: Paicoca [Paicoca]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S076</attrlabl>
+			<attrdef>Indigenous Language Spoken: Tsa'Fiqui [Tsa_fiqui]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S077</attrlabl>
+			<attrdef>Indigenous Language Spoken: Zaparo [Zaparo]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S078</attrlabl>
+			<attrdef>Indigenous Language Spoken: Shiwiar [Shiwiar]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S079</attrlabl>
+			<attrdef>Indigenous Language Spoken: Kichwa [Kichwa]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S080</attrlabl>
+			<attrdef>Indigenous Language Spoken: No Response [Ignorado]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S081</attrlabl>
+			<attrdef>Indigenous Language Spoken: Total [Total_PERSON_NIVINS_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S082</attrlabl>
+			<attrdef>Highest Level Of Schooling Achieved: None [Ninguno]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S083</attrlabl>
+			<attrdef>Highest Level Of Schooling Achieved: Literacy [Alfabetizacion]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S084</attrlabl>
+			<attrdef>Highest Level Of Schooling Achieved: Primary School [Primario]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S085</attrlabl>
+			<attrdef>Highest Level Of Schooling Achieved: Secondary School [Secundario]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S086</attrlabl>
+			<attrdef>Highest Level Of Schooling Achieved: Basic Education [Educacion_Basica]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S087</attrlabl>
+			<attrdef>Highest Level Of Schooling Achieved: Middle Education [Educacion_Media]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S088</attrlabl>
+			<attrdef>Highest Level Of Schooling Achieved: Post Baccalaureate Cycle [Ciclo_Post_Bachillerato]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S089</attrlabl>
+			<attrdef>Highest Level Of Schooling Achieved: Graduate  [Superior]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S090</attrlabl>
+			<attrdef>Highest Level Of Schooling Achieved: Post-Graduate [Postgrado]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S091</attrlabl>
+			<attrdef>Highest Level Of Schooling Achieved: No Response [Ignora]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S092</attrlabl>
+			<attrdef>Highest Level Of Schooling Achieved: Total [Total_PERSON_NIVINS_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S093</attrlabl>
+			<attrdef>Member Of A Peasants Organization (Like A Farmers Union): Yes [Si_PERSON_TIENTIT_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S094</attrlabl>
+			<attrdef>Member Of A Peasants Organization (Like A Farmers Union): No [No_PERSON_TIENTIT_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S095</attrlabl>
+			<attrdef>Member Of A Peasants Organization (Like A Farmers Union): No Response [Se_ignora_PERSON_ORGCAMP_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S096</attrlabl>
+			<attrdef>Member Of A Peasants Organization (Like A Farmers Union): Total [Total_PERSON_TIENTIT_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S097</attrlabl>
+			<attrdef>Persons Who Have A University Degree: Yes [Si_PERSON_TIENTIT_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S098</attrlabl>
+			<attrdef>Persons Who Have A University Degree: No [No_PERSON_TIENTIT_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S099</attrlabl>
+			<attrdef>Persons Who Have A University Degree: Total [Total_PERSON_TIENTIT_.xls]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S100</attrlabl>
+			<attrdef>Type Of Diability: Blindness [Para_ver]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S101</attrlabl>
+			<attrdef>Type Of Diability: Paralysis [Para_mover_cuerpo]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S102</attrlabl>
+			<attrdef>Type Of Diability: Deafness [Es_sordo]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S103</attrlabl>
+			<attrdef>Type Of Diability: Developmental Disability [Retardo_mental]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S104</attrlabl>
+			<attrdef>Type Of Diability: Psychiatric Illness [Enfermedad_siquiatrica]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S105</attrlabl>
+			<attrdef>Type Of Diability: A Combination Of Hte Above [Multiple]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S106</attrlabl>
+			<attrdef>Type Of Diability: Other [Otra]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S107</attrlabl>
+			<attrdef>Type Of Diability: Total [Total]</attrdef>
+			<attrdefs>Institute of National Statistics and Census (INEC) Republic of Ecuador, 2010 [Instituto Nacional de Estadística y Censos (INEC) La Republica del Ecuador, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census_Year</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_ecuador_social_2010</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_ecuador_social_2010</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

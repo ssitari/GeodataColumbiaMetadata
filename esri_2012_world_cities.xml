@@ -25,7 +25,8 @@
 					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
 				</pubinfo>
 				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_world_cities.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_world_cities.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>publication date</current>
@@ -67,7 +68,22 @@
 					<sngdate>
 						<caldate>200711</caldate>
 					</sngdate>
-					<sngdate><caldate>200911</caldate></sngdate><sngdate><caldate>201109</caldate></sngdate><sngdate><caldate>201108</caldate></sngdate><sngdate><caldate>201109</caldate></sngdate><sngdate><caldate>20110831</caldate></sngdate></mdattim>
+					<sngdate>
+						<caldate>200911</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>201109</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>201108</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>201109</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>20110831</caldate>
+					</sngdate>
+				</mdattim>
 			</timeinfo>
 		</timeperd>
 		<status>
@@ -118,8 +134,14 @@
 				<tempkey>2002</tempkey>
 				<tempkey>2003</tempkey>
 				<tempkey>2007</tempkey>
-				<tempkey>2009</tempkey><tempkey>2011</tempkey></temporal>
-			<theme><themekt>ISO 19115 Topic Category</themekt><themekey>society</themekey></theme></keywords>
+				<tempkey>2009</tempkey>
+				<tempkey>2011</tempkey>
+			</temporal>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -151,357 +173,12 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_world_cities.jpg</browsen><browsed>Thumbnail</browsed><browset>jpg</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<esriterm Name="cities">
-				<efeatyp>Simple</efeatyp>
-				<efeageom>Point</efeageom>
-				<esritopo>FALSE</esritopo>
-				<efeacnt>2540</efeacnt>
-				<spindex>TRUE</spindex>
-				<linrefer>FALSE</linrefer>
-				<featdesc>World City</featdesc>
-			</esriterm>
-			<sdtsterm Name="cities">
-				<sdtstype>Entity point</sdtstype>
-				<ptvctcnt>2540</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<cordsysn>
-				<geogcsn>GCS_WGS_1984</geogcsn>
-			</cordsysn>
-			<geograph>
-				<geogunit>Decimal degrees</geogunit>
-				<latres>0.000000</latres>
-				<longres>0.000000</longres>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed Name="cities">
-			<enttyp>
-				<enttypl>cities</enttypl>
-				<enttypt>Feature Class</enttypt>
-				<enttypc>2540</enttypc>
-				<enttypd>The points represent the locations of the major cities of the world.</enttypd>
-				<enttypds>Esri</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>ObjectID</attrlabl>
-				<attalias>ObjectID</attalias>
-				<attrtype>OID</attrtype>
-				<attwidth>4</attwidth>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attalias>Shape</attalias>
-				<attrtype>Geometry</attrtype>
-				<attwidth>0</attwidth>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CITY_NAME</attrlabl>
-				<attalias>CITY_NAME</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>30</attwidth>
-				<attrdef>The city name.</attrdef>
-				<attrdefs>ArcWorld Supplement, CIA The World Factbook</attrdefs>
-				<attrdomv>
-					<udom>Names for the features.</udom>
-				</attrdomv>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>GMI_ADMIN</attrlabl>
-				<attalias>GMI_ADMIN</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>7</attwidth>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Global Mapping International Codes</codesetn>
-						<codesets>Global Mapping International</codesets>
-					</codesetd>
-				</attrdomv>
-				<attrdef>The administrative division code (three-letter country code and three-letter administrative division code (if available)) for the administrative division in which the city is located.</attrdef>
-				<attrdefs>Global Mapping International</attrdefs>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>ADMIN_NAME</attrlabl>
-				<attalias>ADMIN_NAME</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>42</attwidth>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Global Mapping International Names</codesetn>
-						<codesets>Global Mapping International</codesets>
-					</codesetd>
-				</attrdomv>
-				<attrdef>The name of the administrative division in which the city is located.</attrdef>
-				<attrdefs>Global Mapping International</attrdefs>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>FIPS_CNTRY</attrlabl>
-				<attalias>FIPS_CNTRY</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>2</attwidth>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards Publication 10-4</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-				<attrdef>The FIPS code (two-letter) for the country in which the city is located.</attrdef>
-				<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>CNTRY_NAME</attrlabl>
-				<attalias>CNTRY_NAME</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>30</attwidth>
-				<attrdef>The name for the country in which the city is located.</attrdef>
-				<attrdomv>
-					<udom>Names for the features.</udom>
-				</attrdomv>
-				<attrdefs>ArcWorld Supplement, Geographic and Global Issues, CIA The World Factbook</attrdefs>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>STATUS</attrlabl>
-				<attalias>STATUS</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>50</attwidth>
-				<attrdef>The status of the city.</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>National and provincial capital, National capital, National capital and provincial capital enclave, Provincial capital, Provincial capital enclave, Other</edomv>
-						<edomvds>ArcWorld Supplement</edomvds>
-						<edomvd>The types of status for the city.</edomvd>
-					</edom>
-				</attrdomv>
-				<attrdefs>ArcWorld Supplement, CIA The World Factbook</attrdefs>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>POP</attrlabl>
-				<attalias>POP</attalias>
-				<attrtype>Double</attrtype>
-				<attwidth>8</attwidth>
-				<atprecis>11</atprecis>
-				<attscale>0</attscale>
-				<attrdomv><udom>Numbers for the features.</udom></attrdomv><attrdef>The population of the city.</attrdef><attrdefs>GeoNames</attrdefs><attrdomv><edom><edomv>-999</edomv><edomvd>Unknown.</edomvd><edomvds>Esri</edomvds></edom></attrdomv></attr>
-			<attr>
-				<attrlabl>POP_RANK</attrlabl>
-				<attalias>POP_RANK</attalias>
-				<attrtype>Double</attrtype>
-				<attwidth>8</attwidth>
-				<attrdef>The rank of the population class for the city.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>1</edomv>
-						<edomvds>ArcWorld Supplement</edomvds>
-						<edomvd>5,000,000 and greater.</edomvd>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvds>ArcWorld Supplement</edomvds>
-						<edomvd>1,000,000 to 4,999,999.</edomvd>
-					</edom>
-					<edom>
-						<edomv>3</edomv>
-						<edomvds>ArcWorld Supplement</edomvds>
-						<edomvd>500,000 to 999,999.</edomvd>
-					</edom>
-					<edom>
-						<edomv>4</edomv>
-						<edomvds>ArcWorld Supplement</edomvds>
-						<edomvd>250,000 to 499,999.</edomvd>
-					</edom>
-					<edom>
-						<edomv>5</edomv>
-						<edomvds>ArcWorld Supplement</edomvds>
-						<edomvd>100,000 to 249,999.</edomvd>
-					</edom>
-					<edom>
-						<edomv>6</edomv>
-						<edomvds>ArcWorld Supplement</edomvds>
-						<edomvd>50,000 to 99,999.</edomvd>
-					</edom>
-					<edom>
-						<edomv>7</edomv>
-						<edomvds>ArcWorld Supplement</edomvds>
-						<edomvd>Less than 50,000.</edomvd>
-					</edom>
-				</attrdomv>
-				<atprecis>11</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>POP_CLASS</attrlabl>
-				<attalias>POP_CLASS</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>25</attwidth>
-				<attrdefs>Esri</attrdefs>
-				<attrdef>The classification of the city based on its population.</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>5,000,000 and greater, 1,000,000 to 4,999,999, 500,000 to 999,999, 250,000 to 499,999, 100,000 to 249,999, 50,000 to 99,999, less than 50,000.</edomv>
-						<edomvd>The list of population classifications.</edomvd>
-						<edomvds>ArcWorld Supplement</edomvds>
-					</edom>
-				</attrdomv>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>PORT_ID</attrlabl>
-				<attalias>PORT_ID</attalias>
-				<attrtype>Double</attrtype>
-				<attwidth>8</attwidth>
-				<attrdefs>U.S. National Geospatial-Intelligence Agency</attrdefs>
-				<attrdef>The Port Identification Number for the city.</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>0</edomv>
-						<edomvd>The city is not a port.</edomvd>
-						<edomvds>U.S. National Geospatial-Intelligence Agency</edomvds>
-					</edom>
-					<edom>
-						<edomv>Positive Number</edomv>
-						<edomvd>The Port Identification Number for the city.</edomvd>
-						<edomvds>U.S. National Geospatial-Intelligence Agency</edomvds>
-					</edom>
-				</attrdomv>
-				<atprecis>11</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>LABEL_FLAG</attrlabl>
-				<attalias>LABEL_FLAG</attalias>
-				<attrtype>Double</attrtype>
-				<attwidth>8</attwidth>
-				<atprecis>11</atprecis>
-				<attscale>0</attscale>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>0</edomv>
-						<edomvd>This name is not duplicated in another layer.</edomvd>
-						<edomvds>Esri</edomvds>
-					</edom>
-					<edom>
-						<edomv>1</edomv>
-						<edomvds>Esri</edomvds>
-						<edomvd>This name is duplicated in another layer.</edomvd>
-					</edom>
-				</attrdomv>
-				<attrdef>The indicator that assists in the display of the map documents (.mxd).</attrdef>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<transize>0.089</transize>
-					<dssize>0.089</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
-				</digtinfo>
-				<digtopt>
-					<offoptn>
-						<offmedia>DVD-ROM</offmedia>
-						<reccap>
-							<recden>4.38 or 7.95</recden>
-							<recdenu>GB (gigabytes)</recdenu>
-						</reccap>
-						<recfmt>UDF (Universal Disc Format)</recfmt>
-					</offoptn>
-					<onlinopt><computer><networka><networkr>http://www.ArcGIS.com</networkr></networka></computer></onlinopt></digtopt>
-			</digform>
-			<fees>Software purchase price</fees>
-			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
-		</stdorder>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Esri; Esri Offices</cntorg>
-				</cntorgp>
-				<cntinst>In the United States, contact the Esri Telebusiness staff at 800-447-9778 for more information about our software and data.
-
-Outside the United States, please direct all inquiries to your local Esri Office.  This information can be found at http://www.esri.com/about-esri/locations.html.</cntinst>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>800-447-9778</cntvoice>
-			</cntinfo>
-		</distrib>
-		<techpreq>To use this data requires software that supports SDC files.</techpreq>
-		<distliab>See use constraints.</distliab>
-		<resdesc>esri_2012_world_cities</resdesc>
-	</distinfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_world_cities.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>jpg</browset>
+		</browse>
+	</idinfo>
 	<dataqual>
 		<lineage>
 			<srcinfo>
@@ -586,7 +263,10 @@ The following steps were performed by Esri: Extracted the features from ArcWorld
 							<publish>U.S. Central Intelligence Agency</publish>
 						</pubinfo>
 						<onlink>http://www.cia.gov/cia/publications/factbook/index.html</onlink>
-						<onlink>https://www.cia.gov/library/publications/the-world-factbook/</onlink><geoform>document</geoform><othercit>The online Factbook is updated weekly.</othercit></citeinfo>
+						<onlink>https://www.cia.gov/library/publications/the-world-factbook/</onlink>
+						<geoform>document</geoform>
+						<othercit>The online Factbook is updated weekly.</othercit>
+					</citeinfo>
 				</srccite>
 				<typesrc>online</typesrc>
 				<srctime>
@@ -604,7 +284,10 @@ The following steps were performed by Esri: Extracted the features from ArcWorld
 							<sngdate>
 								<caldate>200711</caldate>
 							</sngdate>
-							<sngdate><caldate>201109</caldate></sngdate></mdattim>
+							<sngdate>
+								<caldate>201109</caldate>
+							</sngdate>
+						</mdattim>
 					</timeinfo>
 					<srccurr>publication date</srccurr>
 				</srctime>
@@ -645,10 +328,23 @@ The following steps were performed by Esri: Extracted the features from ArcWorld
 							<pubplace>Springfield, VA, USA</pubplace>
 							<publish>U.S. National Geospatial-Intelligence Agency</publish>
 						</pubinfo>
-						<othercit>Geopolitical Entities and Codes (Formerly FIPS PUB 10-4) Update 5</othercit><pubdate>unknown, 20110831</pubdate><geoform>document</geoform><onlink>http://earth-info.nga.mil/gns/html/UPDATE5.pdf</onlink></citeinfo>
+						<othercit>Geopolitical Entities and Codes (Formerly FIPS PUB 10-4) Update 5</othercit>
+						<pubdate>unknown, 20110831</pubdate>
+						<geoform>document</geoform>
+						<onlink>http://earth-info.nga.mil/gns/html/UPDATE5.pdf</onlink>
+					</citeinfo>
 				</srccite>
 				<srccontr>Attribute data</srccontr>
-				<typesrc>online</typesrc><srctime><timeinfo><sngdate><caldate>20110831</caldate></sngdate></timeinfo><srccurr>publication date</srccurr></srctime></srcinfo>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20110831</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+			</srcinfo>
 			<srcinfo>
 				<srccontr>Attribute and geospatial data</srccontr>
 				<srccite>
@@ -828,7 +524,83 @@ The following steps were performed by Esri: Extracted the features from ArcWorld
 				<procdate>20071112</procdate>
 				<srcused>CIA Factbook</srcused>
 			</procstep>
-			<srcinfo><srccite><citeinfo><onlink>http://www.geonames.org/</onlink><origin>GeoNames</origin><pubdate>200911, 201109 </pubdate><title>GeoNames, 2012</title><geoform>tabular digital data</geoform><pubinfo><pubplace>online</pubplace><publish>GeoNames</publish></pubinfo><onlink>http://creativecommons.org/licenses/by/3.0/</onlink><othercit>Provides the source for the population-based attributes and others.</othercit></citeinfo></srccite><typesrc>online</typesrc><srctime><timeinfo><mdattim><sngdate><caldate>200911</caldate></sngdate><sngdate><caldate>201109</caldate></sngdate></mdattim></timeinfo><srccurr>publication date</srccurr></srctime><srccitea>GeoNames</srccitea><srccontr>Attribute data</srccontr></srcinfo><procstep><procdesc>The following steps were performed by Esri: Downloaded the data from the GeoNames website. Added the POP field and calculated city population values from the GeoNames data. Calculated the POP field to -999 (Unknown) for cities that didn't find a match in the GeoNames data or didn't have a population value. Recalculated the existing POP_RANK and POP_CLASS fields from the POP field. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc><procsv>ArcGIS 10, ArcGIS 9, ArcView GIS 3</procsv><srcused>GeoNames</srcused><procdate>20100301</procdate></procstep><srcinfo><typesrc>online</typesrc><srccontr>Attribute and geospatial data</srccontr><srccite><citeinfo><title>ArcGIS.com - World Topographic Map</title><origin>Environmental Systems Research Institute (Redlands, Calif.)</origin><pubdate>201108</pubdate><geoform>vector digital data</geoform><pubinfo><pubplace>Redlands, California, USA</pubplace><publish>Esri</publish></pubinfo><othercit>This map is updated monthly and was last updated August 2011.</othercit><onlink>http://www.arcgis.com/home/item.html?id=f2498e3d0ff642bfb4b155828351ef0e</onlink></citeinfo></srccite><srctime><timeinfo><sngdate><caldate>201108</caldate></sngdate></timeinfo><srccurr>publication date</srccurr></srctime><srccitea>ArcGIS.com - World Topographic Map</srccitea><srcscale>144000</srcscale></srcinfo><procstep><srcused>CIA Factbook</srcused><srcused>ArcGIS.com - World Topographic Map</srcused><srcused>GeoNames</srcused><procsv>ArcGIS 10, ArcGIS 9</procsv><srcused>NGA Geopolitical</srcused><procdate>20110927</procdate><procdesc>The following steps were performed by Esri: Added a new point for Juba, South Sudan using the World Factbook and the World Topographic Map. Selected Juba and the other two existing cities in South Sudan and updated their field values based on GeoNames, the World Factbook, and Geopolitical Entities and Codes. Updated the field values for cities Skopje and Laayoune. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc></procstep></lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<onlink>http://www.geonames.org/</onlink>
+						<origin>GeoNames</origin>
+						<pubdate>200911, 201109 </pubdate>
+						<title>GeoNames, 2012</title>
+						<geoform>tabular digital data</geoform>
+						<pubinfo>
+							<pubplace>online</pubplace>
+							<publish>GeoNames</publish>
+						</pubinfo>
+						<onlink>http://creativecommons.org/licenses/by/3.0/</onlink>
+						<othercit>Provides the source for the population-based attributes and others.</othercit>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>200911</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>201109</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>GeoNames</srccitea>
+				<srccontr>Attribute data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Downloaded the data from the GeoNames website. Added the POP field and calculated city population values from the GeoNames data. Calculated the POP field to -999 (Unknown) for cities that didn't find a match in the GeoNames data or didn't have a population value. Recalculated the existing POP_RANK and POP_CLASS fields from the POP field. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<procsv>ArcGIS 10, ArcGIS 9, ArcView GIS 3</procsv>
+				<srcused>GeoNames</srcused>
+				<procdate>20100301</procdate>
+			</procstep>
+			<srcinfo>
+				<typesrc>online</typesrc>
+				<srccontr>Attribute and geospatial data</srccontr>
+				<srccite>
+					<citeinfo>
+						<title>ArcGIS.com - World Topographic Map</title>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<pubdate>201108</pubdate>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Redlands, California, USA</pubplace>
+							<publish>Esri</publish>
+						</pubinfo>
+						<othercit>This map is updated monthly and was last updated August 2011.</othercit>
+						<onlink>http://www.arcgis.com/home/item.html?id=f2498e3d0ff642bfb4b155828351ef0e</onlink>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>201108</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>ArcGIS.com - World Topographic Map</srccitea>
+				<srcscale>144000</srcscale>
+			</srcinfo>
+			<procstep>
+				<srcused>CIA Factbook</srcused>
+				<srcused>ArcGIS.com - World Topographic Map</srcused>
+				<srcused>GeoNames</srcused>
+				<procsv>ArcGIS 10, ArcGIS 9</procsv>
+				<srcused>NGA Geopolitical</srcused>
+				<procdate>20110927</procdate>
+				<procdesc>The following steps were performed by Esri: Added a new point for Juba, South Sudan using the World Factbook and the World Topographic Map. Selected Juba and the other two existing cities in South Sudan and updated their field values based on GeoNames, the World Factbook, and Geopolitical Entities and Codes. Updated the field values for cities Skopje and Laayoune. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+			</procstep>
+		</lineage>
 		<posacc>
 			<horizpa>
 				<horizpar>The geospatial part of this data set was extracted from the ArcWorld Supplement database. No detailed evaluation of the positional accuracy of the ArcWorld Supplement data has been made; knowledge of the source World Data Bank II (WDBII) data is insufficient to determine positional accuracy of data derived from the source.</horizpar>
@@ -837,4 +609,373 @@ The following steps were performed by Esri: Extracted the features from ArcWorld
 		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.  The data set is created directly from a topologically correct ArcInfo coverage.</logic>
 		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
 	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<esriterm Name="cities">
+				<efeatyp>Simple</efeatyp>
+				<efeageom>Point</efeageom>
+				<esritopo>FALSE</esritopo>
+				<efeacnt>2540</efeacnt>
+				<spindex>TRUE</spindex>
+				<linrefer>FALSE</linrefer>
+				<featdesc>World City</featdesc>
+			</esriterm>
+			<sdtsterm Name="cities">
+				<sdtstype>Entity point</sdtstype>
+				<ptvctcnt>2540</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn>GCS_WGS_1984</geogcsn>
+			</cordsysn>
+			<geograph>
+				<geogunit>Decimal degrees</geogunit>
+				<latres>0.000000</latres>
+				<longres>0.000000</longres>
+			</geograph>
+			<geodetic>
+				<horizdn>D_WGS_1984</horizdn>
+				<ellips>WGS_1984</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="cities">
+			<enttyp>
+				<enttypl>cities</enttypl>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>2540</enttypc>
+				<enttypd>The points represent the locations of the major cities of the world.</enttypd>
+				<enttypds>Esri</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>ObjectID</attrlabl>
+				<attalias>ObjectID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attalias>Shape</attalias>
+				<attrtype>Geometry</attrtype>
+				<attwidth>0</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CITY_NAME</attrlabl>
+				<attalias>CITY_NAME</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>30</attwidth>
+				<attrdef>The city name.</attrdef>
+				<attrdefs>ArcWorld Supplement, CIA The World Factbook</attrdefs>
+				<attrdomv>
+					<udom>Names for the features.</udom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>GMI_ADMIN</attrlabl>
+				<attalias>GMI_ADMIN</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>7</attwidth>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Global Mapping International Codes</codesetn>
+						<codesets>Global Mapping International</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrdef>The administrative division code (three-letter country code and three-letter administrative division code (if available)) for the administrative division in which the city is located.</attrdef>
+				<attrdefs>Global Mapping International</attrdefs>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ADMIN_NAME</attrlabl>
+				<attalias>ADMIN_NAME</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>42</attwidth>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Global Mapping International Names</codesetn>
+						<codesets>Global Mapping International</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrdef>The name of the administrative division in which the city is located.</attrdef>
+				<attrdefs>Global Mapping International</attrdefs>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>FIPS_CNTRY</attrlabl>
+				<attalias>FIPS_CNTRY</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>2</attwidth>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Federal Information Processing Standards Publication 10-4</codesetn>
+						<codesets>National Institute of Standards and Technology</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrdef>The FIPS code (two-letter) for the country in which the city is located.</attrdef>
+				<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>CNTRY_NAME</attrlabl>
+				<attalias>CNTRY_NAME</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>30</attwidth>
+				<attrdef>The name for the country in which the city is located.</attrdef>
+				<attrdomv>
+					<udom>Names for the features.</udom>
+				</attrdomv>
+				<attrdefs>ArcWorld Supplement, Geographic and Global Issues, CIA The World Factbook</attrdefs>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>STATUS</attrlabl>
+				<attalias>STATUS</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>50</attwidth>
+				<attrdef>The status of the city.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>National and provincial capital, National capital, National capital and provincial capital enclave, Provincial capital, Provincial capital enclave, Other</edomv>
+						<edomvds>ArcWorld Supplement</edomvds>
+						<edomvd>The types of status for the city.</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdefs>ArcWorld Supplement, CIA The World Factbook</attrdefs>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>POP</attrlabl>
+				<attalias>POP</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>8</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+				<attrdomv>
+					<udom>Numbers for the features.</udom>
+				</attrdomv>
+				<attrdef>The population of the city.</attrdef>
+				<attrdefs>GeoNames</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-999</edomv>
+						<edomvd>Unknown.</edomvd>
+						<edomvds>Esri</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>POP_RANK</attrlabl>
+				<attalias>POP_RANK</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>8</attwidth>
+				<attrdef>The rank of the population class for the city.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvds>ArcWorld Supplement</edomvds>
+						<edomvd>5,000,000 and greater.</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvds>ArcWorld Supplement</edomvds>
+						<edomvd>1,000,000 to 4,999,999.</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvds>ArcWorld Supplement</edomvds>
+						<edomvd>500,000 to 999,999.</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvds>ArcWorld Supplement</edomvds>
+						<edomvd>250,000 to 499,999.</edomvd>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvds>ArcWorld Supplement</edomvds>
+						<edomvd>100,000 to 249,999.</edomvd>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvds>ArcWorld Supplement</edomvds>
+						<edomvd>50,000 to 99,999.</edomvd>
+					</edom>
+					<edom>
+						<edomv>7</edomv>
+						<edomvds>ArcWorld Supplement</edomvds>
+						<edomvd>Less than 50,000.</edomvd>
+					</edom>
+				</attrdomv>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>POP_CLASS</attrlabl>
+				<attalias>POP_CLASS</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>25</attwidth>
+				<attrdefs>Esri</attrdefs>
+				<attrdef>The classification of the city based on its population.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>5,000,000 and greater, 1,000,000 to 4,999,999, 500,000 to 999,999, 250,000 to 499,999, 100,000 to 249,999, 50,000 to 99,999, less than 50,000.</edomv>
+						<edomvd>The list of population classifications.</edomvd>
+						<edomvds>ArcWorld Supplement</edomvds>
+					</edom>
+				</attrdomv>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>PORT_ID</attrlabl>
+				<attalias>PORT_ID</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>8</attwidth>
+				<attrdefs>U.S. National Geospatial-Intelligence Agency</attrdefs>
+				<attrdef>The Port Identification Number for the city.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>The city is not a port.</edomvd>
+						<edomvds>U.S. National Geospatial-Intelligence Agency</edomvds>
+					</edom>
+					<edom>
+						<edomv>Positive Number</edomv>
+						<edomvd>The Port Identification Number for the city.</edomvd>
+						<edomvds>U.S. National Geospatial-Intelligence Agency</edomvds>
+					</edom>
+				</attrdomv>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>LABEL_FLAG</attrlabl>
+				<attalias>LABEL_FLAG</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>8</attwidth>
+				<atprecis>11</atprecis>
+				<attscale>0</attscale>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>This name is not duplicated in another layer.</edomvd>
+						<edomvds>Esri</edomvds>
+					</edom>
+					<edom>
+						<edomv>1</edomv>
+						<edomvds>Esri</edomvds>
+						<edomvd>This name is duplicated in another layer.</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>The indicator that assists in the display of the map documents (.mxd).</attrdef>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.089</transize>
+					<dssize>0.089</dssize>
+					<formname>SDC</formname>
+					<filedec>ArcGIS software</filedec>
+					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+				</digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>DVD-ROM</offmedia>
+						<reccap>
+							<recden>4.38 or 7.95</recden>
+							<recdenu>GB (gigabytes)</recdenu>
+						</reccap>
+						<recfmt>UDF (Universal Disc Format)</recfmt>
+					</offoptn>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ArcGIS.com</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>Software purchase price</fees>
+			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Esri; Esri Offices</cntorg>
+				</cntorgp>
+				<cntinst>In the United States, contact the Esri Telebusiness staff at 800-447-9778 for more information about our software and data.
+
+Outside the United States, please direct all inquiries to your local Esri Office.  This information can be found at http://www.esri.com/about-esri/locations.html.</cntinst>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>380 New York Street</address>
+					<city>Redlands</city>
+					<state>California</state>
+					<postal>92373-8100</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>800-447-9778</cntvoice>
+			</cntinfo>
+		</distrib>
+		<techpreq>To use this data requires software that supports SDC files.</techpreq>
+		<distliab>See use constraints.</distliab>
+		<resdesc>esri_2012_world_cities</resdesc>
+	</distinfo>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

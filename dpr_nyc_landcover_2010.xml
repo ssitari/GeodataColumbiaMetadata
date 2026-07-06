@@ -1,110 +1,110 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>imageBaseMapsEarthCover</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>New York City (5128581)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>New York City</placekey>
-<placekey>NYC</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2010</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-74.257061</westbc>
-<eastbc>-73.699273</eastbc>
-<northbc>40.915087</northbc>
-<southbc>40.498294</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>imageBaseMapsEarthCover</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>New York City (5128581)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>New York City</placekey>
+				<placekey>NYC</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2010</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-74.257061</westbc>
+				<eastbc>-73.699273</eastbc>
+				<northbc>40.915087</northbc>
+				<southbc>40.498294</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 New York City Land Cover, 2010 is a high resolution landcover dataset for New York City. This is the 3ft version of the high-resolution land cover dataset for New York City. Seven land cover classes were mapped: (1) tree canopy, (2) grass/shrub, (3) bare earth, (4) water, (5) buildings, (6) roads, and (7) other paved surfaces. The minimum mapping unit for the delineation of features was set at 3 square feet. The primary sources used to derive this land cover layer were the 2010 LiDAR and the 2008 4-band orthoimagery. Ancillary data sources included GIS data (city boundary, building footprints, water, parking lots, roads, railroads, railroad structures, ballfields) provided by New York City (all ancillary datasets except railroads); UVM Spatial Analysis Laboratory manually created railroad polygons from manual interpretation of 2008 4-band orthoimagery.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>New York City Land Cover, 2010</title>
-<origin>New York (N.Y.). Department of Parks and Recreation</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>New York (N.Y.). Department of Parks and Recreation</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>New York City Land Cover, 2010</title>
+				<origin>New York (N.Y.). Department of Parks and Recreation</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>New York (N.Y.). Department of Parks and Recreation</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/dpr_nyc_landcover_2010.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2010</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>New York (N.Y.). Department of Parks and Recreation</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2010</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>New York (N.Y.). Department of Parks and Recreation</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Raster</direct>
+	<direct>Raster</direct>
 </spdoinfo>
-<metainfo>
-<metd>20190901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-</metainfo>
 <distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>TIFF</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>dpr_nyc_landcover_2010</resdesc>
-<distrib>
-</distrib>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>TIFF</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>dpr_nyc_landcover_2010</resdesc>
+	<distrib>
+	</distrib>
 </distinfo>
+<metainfo>
+	<metd>20190901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

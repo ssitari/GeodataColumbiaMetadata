@@ -10,170 +10,181 @@
 					<pubplace>Washington, DC</pubplace>
 					<publish>United States. Bureau of Transportation Statistics</publish>
 				</pubinfo>
-				<origin>United States. Bureau of the Census. Geography Division</origin><pubdate>2013</pubdate><onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_county_pol.zip
-			</onlink></citeinfo>
-		</citation>
-		<descript>
-			<abstract>The TIGER/Line geopackages and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. The primary legal divisions of most States are termed counties. In Louisiana, these divisions are known as parishes. In Alaska, which has no counties, the equivalent entities are the organized boroughs, city and boroughs, and municipalities, and for the unorganized area, census areas. The latter are delineated cooperatively for statistical purposes by the State of Alaska and the Census Bureau. In four States (Maryland, Missouri, Nevada, and Virginia), there are one or more incorporated places that are independent of any county organization and thus constitute primary divisions of their States. These incorporated places are known as independent cities and are treated as equivalent entities for purposes of data presentation. The District of Columbia and Guam have no primary divisions, and each area is considered an equivalent entity for purposes of data presentation. The Census Bureau treats the following entities as equivalents of counties for purposes of data presentation: Municipios in Puerto Rico, Districts and Islands in American Samoa, Municipalities in the Commonwealth of the Northern Mariana Islands, and Islands in the U.S. Virgin Islands. The entire area of the United States, Puerto Rico, and the Island Areas is covered by counties or equivalent entities. The 2010 Census boundaries for counties and equivalent entities are as of January 1, 2010, primarily as reported through the Census Bureau's Boundary and Annexation Survey (BAS).</abstract>
-			<purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.</purpose>
-		</descript>
-		<spdom>
-			<bounding>
-				<westbc>-179.231101</westbc>
-				<eastbc>179.859666</eastbc>
-				<northbc>71.441059</northbc>
-				<southbc>-14.601806</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>boundaries</themekey>
-				<themekey>planningCadastre</themekey>
-				<themekey>society</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>United States (6252001)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>United States</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2013</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>None</accconst>
-		<useconst>None</useconst>
-		<timeperd><timeinfo><sngdate><caldate>2013</caldate></sngdate></timeinfo><current>publication date</current></timeperd></idinfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>GT-polygon composed of chains</sdtstype>
-				<ptvctcnt>3234</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>8.983152841195215e-009</latres>
-				<longres>8.983152841195215e-009</longres>
-				<geogunit>Decimal Degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D WGS 1984</horizdn>
-				<ellips>WGS 1984</ellips>
-				<semiaxis>6378137.0</semiaxis>
-				<denflat>298.257223563</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>county_pol</enttypl>
-				<enttypd>2010 Census County and Equivalent State-based</enttypd>
-				<enttypds>U.S. Census Bureau</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>STFIPS</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>CTFIPS</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>STATE</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>COUNTY</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>fafid</attrlabl>
-				<attrdef>ID of faf region county resides in</attrdef>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research and Innovative Technology Administration/Bureau of Transportation Statistics</cntorg>
-					<cntper>Office of Geospatial Information Systems</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>unknown</addrtype>
-					<address>1200 New Jersey Ave. SE</address>
-					<city>Washington</city>
-					<state>DC</state>
-					<postal>20590</postal>
-				</cntaddr>
-				<cntvoice>202-366-DATA</cntvoice>
-				<cntemail>answers@BTS.gov</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>ntad_2013_county_pol</resdesc>
-		<stdorder>
-			<digform>
+				<origin>United States. Bureau of the Census. Geography Division</origin>
+				<pubdate>2013</pubdate>
+<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_county_pol.zip
+			</onlink>
+		</citeinfo>
+	</citation>
+	<descript>
+		<abstract>The TIGER/Line geopackages and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. The primary legal divisions of most States are termed counties. In Louisiana, these divisions are known as parishes. In Alaska, which has no counties, the equivalent entities are the organized boroughs, city and boroughs, and municipalities, and for the unorganized area, census areas. The latter are delineated cooperatively for statistical purposes by the State of Alaska and the Census Bureau. In four States (Maryland, Missouri, Nevada, and Virginia), there are one or more incorporated places that are independent of any county organization and thus constitute primary divisions of their States. These incorporated places are known as independent cities and are treated as equivalent entities for purposes of data presentation. The District of Columbia and Guam have no primary divisions, and each area is considered an equivalent entity for purposes of data presentation. The Census Bureau treats the following entities as equivalents of counties for purposes of data presentation: Municipios in Puerto Rico, Districts and Islands in American Samoa, Municipalities in the Commonwealth of the Northern Mariana Islands, and Islands in the U.S. Virgin Islands. The entire area of the United States, Puerto Rico, and the Island Areas is covered by counties or equivalent entities. The 2010 Census boundaries for counties and equivalent entities are as of January 1, 2010, primarily as reported through the Census Bureau's Boundary and Annexation Survey (BAS).</abstract>
+		<purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.</purpose>
+	</descript>
+	<spdom>
+		<bounding>
+			<westbc>-179.231101</westbc>
+			<eastbc>179.859666</eastbc>
+			<northbc>71.441059</northbc>
+			<southbc>-14.601806</southbc>
+		</bounding>
+	</spdom>
+	<keywords>
+		<theme>
+			<themekt>ISO 19115 Topic Category</themekt>
+			<themekey>boundaries</themekey>
+			<themekey>planningCadastre</themekey>
+			<themekey>society</themekey>
+		</theme>
+		<place>
+			<placekt>GeoNames</placekt>
+			<placekey>United States (6252001)</placekey>
+		</place>
+		<place>
+			<placekt>Library of Congress Subject Headings</placekt>
+			<placekey>United States</placekey>
+		</place>
+		<temporal>
+			<tempkt>None</tempkt>
+			<tempkey>2013</tempkey>
+		</temporal>
+	</keywords>
+	<accconst>None</accconst>
+	<useconst>None</useconst>
+	<timeperd>
+		<timeinfo>
+			<sngdate>
+				<caldate>2013</caldate>
+			</sngdate>
+		</timeinfo>
+		<current>publication date</current>
+	</timeperd>
+</idinfo>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>GT-polygon composed of chains</sdtstype>
+			<ptvctcnt>3234</ptvctcnt>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<spref>
+	<horizsys>
+		<geograph>
+			<latres>8.983152841195215e-009</latres>
+			<longres>8.983152841195215e-009</longres>
+			<geogunit>Decimal Degrees</geogunit>
+		</geograph>
+		<geodetic>
+			<horizdn>D WGS 1984</horizdn>
+			<ellips>WGS 1984</ellips>
+			<semiaxis>6378137.0</semiaxis>
+			<denflat>298.257223563</denflat>
+		</geodetic>
+	</horizsys>
+</spref>
+<eainfo>
+	<detailed>
+		<enttyp>
+			<enttypl>county_pol</enttypl>
+			<enttypd>2010 Census County and Equivalent State-based</enttypd>
+			<enttypds>U.S. Census Bureau</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>FID</attrlabl>
+			<attrdef>Internal feature number.</attrdef>
+			<attrdefs>Esri</attrdefs>
+			<attrdomv>
+				<udom>Sequential unique whole numbers that are automatically generated.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Shape</attrlabl>
+			<attrdef>Feature geometry.</attrdef>
+			<attrdefs>Esri</attrdefs>
+			<attrdomv>
+				<udom>Coordinates defining the features.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>STFIPS</attrlabl>
+		</attr>
+		<attr>
+			<attrlabl>CTFIPS</attrlabl>
+		</attr>
+		<attr>
+			<attrlabl>STATE</attrlabl>
+		</attr>
+		<attr>
+			<attrlabl>COUNTY</attrlabl>
+		</attr>
+		<attr>
+			<attrlabl>fafid</attrlabl>
+			<attrdef>ID of faf region county resides in</attrdef>
+		</attr>
+	</detailed>
+</eainfo>
+<distinfo>
+	<distrib>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Research and Innovative Technology Administration/Bureau of Transportation Statistics</cntorg>
+				<cntper>Office of Geospatial Information Systems</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>unknown</addrtype>
+				<address>1200 New Jersey Ave. SE</address>
+				<city>Washington</city>
+				<state>DC</state>
+				<postal>20590</postal>
+			</cntaddr>
+			<cntvoice>202-366-DATA</cntvoice>
+			<cntemail>answers@BTS.gov</cntemail>
+		</cntinfo>
+	</distrib>
+	<resdesc>ntad_2013_county_pol</resdesc>
+	<stdorder>
+		<digform>
 
-				<digtopt>
-					<onlinopt>
-						<computer>
-							<networka>
-								<networkr>http://www.census.gov/geo/www/tiger</networkr>
-							</networka>
-						</computer>
-					</onlinopt>
-					<offoptn>
-						<offmedia>dvd</offmedia>
-						<recfmt>ISO 9660</recfmt>
-					</offoptn>
-				</digtopt>
-			</digform>
-			<ordering>Call (202-366-DATA), fax (202-366-3640), or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2013 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/. To obtain more information about ordering TIGER/Line shapefiles visit http://www.census.gov/geo/www/tiger</ordering>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>20140925</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
+			<digtopt>
+				<onlinopt>
+					<computer>
+						<networka>
+							<networkr>http://www.census.gov/geo/www/tiger</networkr>
+						</networka>
+					</computer>
+				</onlinopt>
+				<offoptn>
+					<offmedia>dvd</offmedia>
+					<recfmt>ISO 9660</recfmt>
+				</offoptn>
+			</digtopt>
+		</digform>
+		<ordering>Call (202-366-DATA), fax (202-366-3640), or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2013 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/. To obtain more information about ordering TIGER/Line shapefiles visit http://www.census.gov/geo/www/tiger</ordering>
+	</stdorder>
+</distinfo>
+<metainfo>
+	<metd>20140925</metd>
+	<metc>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St., 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+				<country>USA</country>
+			</cntaddr>
+			<cntvoice>(212)854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+	<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+</metainfo>
 </metadata>

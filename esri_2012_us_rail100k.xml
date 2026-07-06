@@ -29,7 +29,8 @@ No data for Alaska or Hawaii.</supplinf>
 				</pubinfo>
 				<origin>United States. Bureau of Transportation Statistics</origin>
 				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_rail100k.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_rail100k.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>publication date</current>
@@ -87,7 +88,11 @@ No data for Alaska or Hawaii.</supplinf>
 				<tempkey>2000</tempkey>
 				<tempkey>1998</tempkey>
 			</temporal>
-			<theme><themekt>ISO 19115 Topic Category</themekt><themekey>transportation</themekey></theme></keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>transportation</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -119,30 +124,82 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/usa_railrdl.jpg</browsen><browsed>Thumbnail Image</browsed><browset>JPEG</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/usa_railrdl.jpg</browsen>
+			<browsed>Thumbnail Image</browsed>
+			<browset>JPEG</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>National Rail Network 1:100,000 (line)</title>
+						<origin>Federal Railroad Administration (FRA)</origin>
+						<pubdate>2002</pubdate>
+						<edition>2002</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>National Rail Network 1:100,000</sername>
+							<issue>2002</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>Bureau of Transportation Statistics (BTS)</publish>
+							<pubplace>Washington, DC, USA</pubplace>
+						</pubinfo>
+						<origin>Bureau of Transportation Statistics (BTS)</origin>
+						<onlink>http://www.bts.gov/gis/</onlink>
+						<othercit>From the National Transportation Atlas Databases (NTAD) 2002 CD-ROM.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>100000</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>2002</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>2000</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>199812</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>FRA-BTS - NRN100</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>This geospatial data layer was compiled and reviewed by BTS in April 2002.</procdesc>
+				<srcprod>FRA-BTS - NRN100</srcprod>
+				<procdate>200204</procdate>
+				<procsv>ArcView GIS 3</procsv>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Extracted data set from National Transportation Atlas Databases (NTAD) 2002. Removed "Abandoned" features. Removed unneeded attributes. Coded four features, missing FRA_REG attribute values, based on surrounding features. Clarified values for the MILITARY attribute. Renamed and rearranged attributes. Created  ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 8</procsv>
+				<srcused>FRA-BTS - NRN100</srcused>
+				<procdate>20021111</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Added MILES attribute and calculated its values.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
+				<procdate>20040308</procdate>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The positional accuracy can be stated as being that associated with a 1;100,000 scale map.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry. The network is not topologically connected.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -441,7 +498,14 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 						</reccap>
 						<recfmt>UDF (Universal Disc Format)</recfmt>
 					</offoptn>
-					<onlinopt><computer><networka><networkr>http://www.ArcGIS.com</networkr></networka></computer></onlinopt></digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ArcGIS.com</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
 			</digform>
 			<fees>Software purchase price</fees>
 			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
@@ -469,74 +533,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_us_rail100k</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>National Rail Network 1:100,000 (line)</title>
-						<origin>Federal Railroad Administration (FRA)</origin>
-						<pubdate>2002</pubdate>
-						<edition>2002</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>National Rail Network 1:100,000</sername>
-							<issue>2002</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>Bureau of Transportation Statistics (BTS)</publish>
-							<pubplace>Washington, DC, USA</pubplace>
-						</pubinfo>
-						<origin>Bureau of Transportation Statistics (BTS)</origin>
-						<onlink>http://www.bts.gov/gis/</onlink>
-						<othercit>From the National Transportation Atlas Databases (NTAD) 2002 CD-ROM.</othercit>
-					</citeinfo>
-				</srccite>
-				<srcscale>100000</srcscale>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>2002</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>2000</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>199812</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>FRA-BTS - NRN100</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>This geospatial data layer was compiled and reviewed by BTS in April 2002.</procdesc>
-				<srcprod>FRA-BTS - NRN100</srcprod>
-				<procdate>200204</procdate>
-				<procsv>ArcView GIS 3</procsv>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Extracted data set from National Transportation Atlas Databases (NTAD) 2002. Removed "Abandoned" features. Removed unneeded attributes. Coded four features, missing FRA_REG attribute values, based on surrounding features. Clarified values for the MILITARY attribute. Renamed and rearranged attributes. Created  ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
-				<procsv>ArcView GIS 3, ArcGIS 8</procsv>
-				<srcused>FRA-BTS - NRN100</srcused>
-				<procdate>20021111</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Added MILES attribute and calculated its values.</procdesc>
-				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
-				<procdate>20040308</procdate>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The positional accuracy can be stated as being that associated with a 1;100,000 scale map.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry. The network is not topologically connected.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

@@ -1,105 +1,109 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-<pubdate>2008</pubdate>
-<title>World Time Zones, 2008</title>
-<edition>2008</edition>
-<geoform>vector digital data</geoform>
-<serinfo>
-<sername>ESRI Data &amp; Maps</sername>
-<issue>2008 World, Europe, United States, Canada, and Mexico</issue>
-</serinfo>
-<pubinfo>
-<pubplace>Redlands, California, USA</pubplace>
-<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
-</pubinfo>
-<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2008_world_timezone.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+				<pubdate>2008</pubdate>
+				<title>World Time Zones, 2008</title>
+				<edition>2008</edition>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>ESRI Data &amp; Maps</sername>
+					<issue>2008 World, Europe, United States, Canada, and Mexico</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Redlands, California, USA</pubplace>
+					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
+				</pubinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2008_world_timezone.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
 <abstract>World Time Zones is a polygon theme representing the time zones of the world.  The time zones are best displayed with World Countries or World Administrative Units.
 
 This dataset is a part of the 2008 ESRI Data and Maps Collection.</abstract>
-<purpose>World Time Zones provides time zones for countries and cities within them.  Note that daylight-savings time is not shown.</purpose>
-</descript>
-<timeperd>
+			<purpose>World Time Zones provides time zones for countries and cities within them.  Note that daylight-savings time is not shown.</purpose>
+		</descript>
+		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2008</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2008</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>publication date</current>
 		</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Annually</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -180.000000</westbc>
-<eastbc>
+					<eastbc>
 180.000000</eastbc>
-<northbc>
+						<northbc>
 85.000000</northbc>
-<southbc>
+							<southbc>
 -85.000000</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>None</themekt>
-<themekey>polygon</themekey>
-<themekey>time</themekey>
-<themekey>time zone</themekey>
-<themekey>Greenwich mean time</themekey>
-<themekey>regions</themekey>
-</theme>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>location</themekey>
-<themekey>transportation</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Earth (6295630)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>World</placekey>
-<placekey>Earth</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2001</tempkey>
-<tempkey>2001</tempkey>
-<tempkey>2000</tempkey>
-<tempkey>1992</tempkey>
-<tempkey>1992</tempkey>
-<tempkey>1996</tempkey>
-<tempkey>1991</tempkey>
-</temporal>
-</keywords>
-<accconst>For current Columbia affiliates only.</accconst>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>polygon</themekey>
+								<themekey>time</themekey>
+								<themekey>time zone</themekey>
+								<themekey>Greenwich mean time</themekey>
+								<themekey>regions</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>location</themekey>
+								<themekey>transportation</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Earth (6295630)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>World</placekey>
+								<placekey>Earth</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2001</tempkey>
+								<tempkey>2001</tempkey>
+								<tempkey>2000</tempkey>
+								<tempkey>1992</tempkey>
+								<tempkey>1992</tempkey>
+								<tempkey>1996</tempkey>
+								<tempkey>1991</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
 
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>ESRI</cntorg>
-<cntper>Data Team</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>909-793-2853</cntvoice>
-<cntfax>909-793-5953</cntfax>
-<cntemail>info@esri.com</cntemail>
-<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>ESRI</cntorg>
+									<cntper>Data Team</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>380 New York Street</address>
+									<city>Redlands</city>
+									<state>California</state>
+									<postal>92373-8100</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>909-793-2853</cntvoice>
+								<cntfax>909-793-5953</cntfax>
+								<cntemail>info@esri.com</cntemail>
+								<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
 <cntinst>In the United States:
 Please direct all inquiries regarding software/data pricing and consulting services to your local ESRI Regional Office.  For support, you may contact ESRI Support Center by telephone (voice) between 6:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing 888-377-4575; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com/; ESRI holidays excluded. 
 
@@ -107,433 +111,433 @@ Outside the United States
 Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.  
 
 For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_world_timezone.jpg</browsen>
-<browsed>Thumbnail</browsed>
-<browset>JPEG</browset>
-</browse>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.1.0.722</native>
-</idinfo>
-<dataqual>
-<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
-<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-<posacc>
-<horizpa>
-<horizpar>The horizontal positional accuracy is unknown.</horizpar>
-</horizpa>
-</posacc>
-<lineage>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Commissioner of Nunavut</origin>
-<pubdate>20010329</pubdate>
-<title>An Act to Amend the Interpretation Act (Time Zones)</title>
-<geoform>document</geoform>
-<pubinfo>
-<pubplace>online</pubplace>
-<publish>Commissioner of Nunavut</publish>
-</pubinfo>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_world_timezone.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.1.0.722</native>
+					</idinfo>
+					<dataqual>
+						<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+						<posacc>
+							<horizpa>
+								<horizpar>The horizontal positional accuracy is unknown.</horizpar>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Commissioner of Nunavut</origin>
+										<pubdate>20010329</pubdate>
+										<title>An Act to Amend the Interpretation Act (Time Zones)</title>
+										<geoform>document</geoform>
+										<pubinfo>
+											<pubplace>online</pubplace>
+											<publish>Commissioner of Nunavut</publish>
+										</pubinfo>
 <othercit>FIFTH SESSION FIRST LEGISLATIVE ASSEMBLY OF NUNAVUT,
 GOVERNMENT BILL,
 BILL 4</othercit>
-<onlink>http://www.nunavutcourtofjustice.ca/library/statutes/2001ch4.pdf</onlink>
-</citeinfo>
-</srccite>
-<typesrc>online</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>20010401</caldate>
-<time>1:59 a.m.</time>
-</sngdate>
-</timeinfo>
-<srccurr>ground condition</srccurr>
-</srctime>
-<srccitea>www.nunavutcourtofjustice.ca</srccitea>
-<srccontr>Attribute and geospatial data</srccontr>
-</srcinfo>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>nunavut.com</origin>
-<pubdate>Unknown</pubdate>
-<title>MAP OF NUNAVUT</title>
-<geoform>map</geoform>
-<pubinfo>
-<pubplace>online</pubplace>
-<publish>nunavut.com</publish>
-</pubinfo>
-<onlink>http://www.nunavut.com/nunavut99/english/map.html</onlink>
-</citeinfo>
-</srccite>
-<typesrc>online</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>unknown</caldate>
-</sngdate>
-</timeinfo>
-</srctime>
-<srccitea>www.nunavut.com</srccitea>
-<srccontr>geospatial data</srccontr>
-</srcinfo>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>National Research Council Canada and the Institute for National Measurement Standards</origin>
-<pubdate>20010718</pubdate>
-<title>INMS - Time Zones and Daylight Saving Time</title>
-<geoform>map</geoform>
-<pubinfo>
-<pubplace>online</pubplace>
-<publish>National Research Council Canada and the Institute for National Measurement Standards</publish>
-</pubinfo>
-<onlink>http://www.nrc.ca/inms/time/tze.html</onlink>
-</citeinfo>
-</srccite>
-<typesrc>online</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>20010718</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>www.nrc.ca</srccitea>
-<srccontr>Attribute and geospatial data</srccontr>
-</srcinfo>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>DMTI Spatial Inc.</origin>
-<pubdate>20001020</pubdate>
-<title>Canadian Data Bundle Data sets from DMTI Spatial CanMap with source scales of 1:2000 to 1:50,000.</title>
-<edition>1</edition>
-<geoform>vector digital data</geoform>
-<pubinfo>
-<pubplace>Markham, Ontario, Canada</pubplace>
-<publish>DMTI Spatial Inc.</publish>
-</pubinfo>
-</citeinfo>
-</srccite>
-<srcscale>200050000</srcscale>
-<typesrc>CDROM</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>20001020</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>DMTI Spatial Inc. - 2 to 50</srccitea>
-<srccontr>Attribute and geospatial data</srccontr>
-</srcinfo>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-<pubdate>19920801</pubdate>
-<title>ArcWorld 1:3M</title>
-<edition>1</edition>
-<geoform>vector digital data</geoform>
-<pubinfo>
-<pubplace>Redlands, California, USA</pubplace>
-<publish>ESRI</publish>
-</pubinfo>
-</citeinfo>
-</srccite>
-<srcscale>3000000</srcscale>
-<typesrc>CDROM</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>19920801</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>ArcWorld 1:3M</srccitea>
-<srccontr>Attribute and geospatial data</srccontr>
-</srcinfo>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-<pubdate>19920601</pubdate>
-<title>ArcUSA 1:2M</title>
-<edition>1</edition>
-<geoform>vector digital data</geoform>
-<pubinfo>
-<pubplace>Redlands, California, USA</pubplace>
-<publish>ESRI</publish>
-</pubinfo>
-</citeinfo>
-</srccite>
-<srcscale>2000000</srcscale>
-<typesrc>CDROM</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>19920601</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>ArcUSA 1:2M</srccitea>
-<srccontr>Attribute and geospatial data</srccontr>
-</srcinfo>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>DATA+ (Russia)</origin>
-<origin>Institute of Geography of the Russian Academy of Sciences</origin>
-<origin>M. V. Lomonosov Moscow State University</origin>
-<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-<pubdate>1996</pubdate>
-<title>ArcAtlas: Our Earth</title>
-<geoform>vector digital data</geoform>
-<pubinfo>
-<pubplace>Redlands, California, USA</pubplace>
-<publish>ESRI</publish>
-</pubinfo>
-</citeinfo>
-</srccite>
-<srcscale>10000000, 20000000, 25000000</srcscale>
-<typesrc>CDROM</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>1996</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>ArcAtlas</srccitea>
-<srccontr>Attribute and geospatial data</srccontr>
-</srcinfo>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Rand McNally &amp; Company</origin>
-<pubdate>1991</pubdate>
-<title>Rand McNally New International Atlas, 2008</title>
-<edition>2nd printing, revised</edition>
-<serinfo>
-<sername>Rand McNally New International Atlas</sername>
-<issue>2nd printing, revised</issue>
-</serinfo>
-<pubinfo>
-<pubplace>Chicago, Illinois, USA</pubplace>
-<publish>Rand McNally &amp; Company</publish>
-</pubinfo>
-</citeinfo>
-</srccite>
-<typesrc>paper</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>1991</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>Rand McNally Int.</srccitea>
-<srccontr>Attribute data</srccontr>
-</srcinfo>
-<procstep>
-<procdesc>This data set was created from several sources and finalized.  Most features are based on a generalized version of the ArcWorld 1:3M coverage.  The country and administrative unit boundaries were utilized for most of the zone boundaries.  In a few instances, the ArcUSA 1:2M county level data for the United States and the ArcAtlas data for some zone boundaries in Russia were used.  Most of the zones in ocean areas followed lines of longitude and latitude and were mathematically generated.  The values of plus and minus hours from Greenwich are from a Central Intelligence Agency (CIA) map and the Rand McNally New International Atlas.</procdesc>
-<srcused>ArcWorld 1:3M</srcused>
-<srcused>ArcUSA 1:2M</srcused>
-<srcused>ArcAtlas</srcused>
-<srcused>Rand McNally Int.</srcused>
-<procdate>1999</procdate>
-</procstep>
-<procstep>
-<procdesc>The following steps were performed by ESRI for Data &amp; Maps 2002: Extracted the finalized data set.  Updated areas in Canada including Nunavut.  Densified arcs at 0.1 decimal degrees to maintain curvature of longitude lines when projecting.  Generalized arcs at .02 decimal degrees.  Created regions based on the Zone attribute.  Output the data set as a shapefile.  Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
-<srcused>ArcWorld 1:3M</srcused>
-<srcused>ArcUSA 1:2M</srcused>
-<srcused>ArcAtlas</srcused>
-<srcused>Rand McNally Int.</srcused>
-<srcused>www.nunavutcourtofjustice.ca</srcused>
-<srcused>www.nunavut.com</srcused>
-<srcused>www.nrc.ca</srcused>
-<srcused>DMTI Spatial Inc. - 2 to 50</srcused>
-<procdate>20020218</procdate>
-</procstep>
-<procstep>
-<procdesc>The following steps were performed by ESRI: Added SQKM attribute and calculated its values. Added SQ_MI attribute and calculated its values. Added COLORMAP attribute and calculated values between 1 and 8.</procdesc>
-<procdate>20040307</procdate>
-</procstep>
-<procstep>
-<procdesc>The following steps were performed by ESRI: Densified all features so the data set lines project more smoothly.</procdesc>
-<procdate>20050211</procdate>
-</procstep>
-<procstep>
-<procdesc>The following steps were performed by ESRI: Corrected the east, north, and south geographic extents. Converted the data set to SDC.</procdesc>
-<procdate>20060328</procdate>
-</procstep>
-<procstep>
-<procdesc>Dataset copied.</procdesc>
-<srcused>I:\ESRI_93\Data and Maps\world\data\timezone.sdc</srcused>
-<procdate>20090701</procdate>
-<proctime>16153300</proctime>
-</procstep>
-<procstep>
-<procdesc>Dataset moved.</procdesc>
-<srcused>D:\MyDocs\jt2118\esri_93\world\esri_93_world_timezone.sdc</srcused>
-<procdate>20090702</procdate>
-<proctime>13212400</proctime>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-<ptvctcnt>38</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<geograph>
-<latres>0.000001</latres>
-<longres>0.000001</longres>
-<geogunit>Decimal degrees</geogunit>
-</geograph>
-<geodetic>
-<horizdn>D_WGS_1984</horizdn>
-<ellips>WGS_1984</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257224</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+										<onlink>http://www.nunavutcourtofjustice.ca/library/statutes/2001ch4.pdf</onlink>
+									</citeinfo>
+								</srccite>
+								<typesrc>online</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>20010401</caldate>
+											<time>1:59 a.m.</time>
+										</sngdate>
+									</timeinfo>
+									<srccurr>ground condition</srccurr>
+								</srctime>
+								<srccitea>www.nunavutcourtofjustice.ca</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>nunavut.com</origin>
+										<pubdate>Unknown</pubdate>
+										<title>MAP OF NUNAVUT</title>
+										<geoform>map</geoform>
+										<pubinfo>
+											<pubplace>online</pubplace>
+											<publish>nunavut.com</publish>
+										</pubinfo>
+										<onlink>http://www.nunavut.com/nunavut99/english/map.html</onlink>
+									</citeinfo>
+								</srccite>
+								<typesrc>online</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>unknown</caldate>
+										</sngdate>
+									</timeinfo>
+								</srctime>
+								<srccitea>www.nunavut.com</srccitea>
+								<srccontr>geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>National Research Council Canada and the Institute for National Measurement Standards</origin>
+										<pubdate>20010718</pubdate>
+										<title>INMS - Time Zones and Daylight Saving Time</title>
+										<geoform>map</geoform>
+										<pubinfo>
+											<pubplace>online</pubplace>
+											<publish>National Research Council Canada and the Institute for National Measurement Standards</publish>
+										</pubinfo>
+										<onlink>http://www.nrc.ca/inms/time/tze.html</onlink>
+									</citeinfo>
+								</srccite>
+								<typesrc>online</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>20010718</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>www.nrc.ca</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>DMTI Spatial Inc.</origin>
+										<pubdate>20001020</pubdate>
+										<title>Canadian Data Bundle Data sets from DMTI Spatial CanMap with source scales of 1:2000 to 1:50,000.</title>
+										<edition>1</edition>
+										<geoform>vector digital data</geoform>
+										<pubinfo>
+											<pubplace>Markham, Ontario, Canada</pubplace>
+											<publish>DMTI Spatial Inc.</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<srcscale>200050000</srcscale>
+								<typesrc>CDROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>20001020</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>DMTI Spatial Inc. - 2 to 50</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+										<pubdate>19920801</pubdate>
+										<title>ArcWorld 1:3M</title>
+										<edition>1</edition>
+										<geoform>vector digital data</geoform>
+										<pubinfo>
+											<pubplace>Redlands, California, USA</pubplace>
+											<publish>ESRI</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<srcscale>3000000</srcscale>
+								<typesrc>CDROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>19920801</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>ArcWorld 1:3M</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+										<pubdate>19920601</pubdate>
+										<title>ArcUSA 1:2M</title>
+										<edition>1</edition>
+										<geoform>vector digital data</geoform>
+										<pubinfo>
+											<pubplace>Redlands, California, USA</pubplace>
+											<publish>ESRI</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<srcscale>2000000</srcscale>
+								<typesrc>CDROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>19920601</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>ArcUSA 1:2M</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>DATA+ (Russia)</origin>
+										<origin>Institute of Geography of the Russian Academy of Sciences</origin>
+										<origin>M. V. Lomonosov Moscow State University</origin>
+										<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+										<pubdate>1996</pubdate>
+										<title>ArcAtlas: Our Earth</title>
+										<geoform>vector digital data</geoform>
+										<pubinfo>
+											<pubplace>Redlands, California, USA</pubplace>
+											<publish>ESRI</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<srcscale>10000000, 20000000, 25000000</srcscale>
+								<typesrc>CDROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>1996</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>ArcAtlas</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Rand McNally &amp; Company</origin>
+										<pubdate>1991</pubdate>
+										<title>Rand McNally New International Atlas, 2008</title>
+										<edition>2nd printing, revised</edition>
+										<serinfo>
+											<sername>Rand McNally New International Atlas</sername>
+											<issue>2nd printing, revised</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Chicago, Illinois, USA</pubplace>
+											<publish>Rand McNally &amp; Company</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<typesrc>paper</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>1991</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>Rand McNally Int.</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<procstep>
+								<procdesc>This data set was created from several sources and finalized.  Most features are based on a generalized version of the ArcWorld 1:3M coverage.  The country and administrative unit boundaries were utilized for most of the zone boundaries.  In a few instances, the ArcUSA 1:2M county level data for the United States and the ArcAtlas data for some zone boundaries in Russia were used.  Most of the zones in ocean areas followed lines of longitude and latitude and were mathematically generated.  The values of plus and minus hours from Greenwich are from a Central Intelligence Agency (CIA) map and the Rand McNally New International Atlas.</procdesc>
+								<srcused>ArcWorld 1:3M</srcused>
+								<srcused>ArcUSA 1:2M</srcused>
+								<srcused>ArcAtlas</srcused>
+								<srcused>Rand McNally Int.</srcused>
+								<procdate>1999</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI for Data &amp; Maps 2002: Extracted the finalized data set.  Updated areas in Canada including Nunavut.  Densified arcs at 0.1 decimal degrees to maintain curvature of longitude lines when projecting.  Generalized arcs at .02 decimal degrees.  Created regions based on the Zone attribute.  Output the data set as a shapefile.  Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
+								<srcused>ArcWorld 1:3M</srcused>
+								<srcused>ArcUSA 1:2M</srcused>
+								<srcused>ArcAtlas</srcused>
+								<srcused>Rand McNally Int.</srcused>
+								<srcused>www.nunavutcourtofjustice.ca</srcused>
+								<srcused>www.nunavut.com</srcused>
+								<srcused>www.nrc.ca</srcused>
+								<srcused>DMTI Spatial Inc. - 2 to 50</srcused>
+								<procdate>20020218</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Added SQKM attribute and calculated its values. Added SQ_MI attribute and calculated its values. Added COLORMAP attribute and calculated values between 1 and 8.</procdesc>
+								<procdate>20040307</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Densified all features so the data set lines project more smoothly.</procdesc>
+								<procdate>20050211</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Corrected the east, north, and south geographic extents. Converted the data set to SDC.</procdesc>
+								<procdate>20060328</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>Dataset copied.</procdesc>
+								<srcused>I:\ESRI_93\Data and Maps\world\data\timezone.sdc</srcused>
+								<procdate>20090701</procdate>
+								<proctime>16153300</proctime>
+							</procstep>
+							<procstep>
+								<procdesc>Dataset moved.</procdesc>
+								<srcused>D:\MyDocs\jt2118\esri_93\world\esri_93_world_timezone.sdc</srcused>
+								<procdate>20090702</procdate>
+								<proctime>13212400</proctime>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>G-polygon</sdtstype>
+								<ptvctcnt>38</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000001</latres>
+								<longres>0.000001</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 timezone</enttypl>
-<enttypd>The polygon regions represent the thirty-eight time zones of the world and give a zone's difference in hours from Greenwich Mean Time.</enttypd>
-<enttypds>ESRI</enttypds>
-</enttyp>
-<attr>
-<attrlabl>ObjectID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ZONE</attrlabl>
-<attrdef>The difference in hours between the zone and Greenwich Mean Time. Negative numbers represent zones west of 0 degrees Longitude and positive numbers represent zones east of 0 degrees Longitude.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Hours for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>SQ_MI</attrlabl>
-<attrdef>The measure of area in square miles.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Calculated area for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>SQKM</attrlabl>
-<attrdef>The measure of area in square kilometers.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Calculated area for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>COLORMAP</attrlabl>
-<attrdef>The number allows the country to be shaded unique from its neighbors.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<rdom>
-<rdommin>1</rdommin>
-<rdommax>8</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-</detailed>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>ESRI; ESRI International Distributors</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>800-447-9778</cntvoice>
+									<enttypd>The polygon regions represent the thirty-eight time zones of the world and give a zone's difference in hours from Greenwich Mean Time.</enttypd>
+									<enttypds>ESRI</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>ObjectID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>ZONE</attrlabl>
+									<attrdef>The difference in hours between the zone and Greenwich Mean Time. Negative numbers represent zones west of 0 degrees Longitude and positive numbers represent zones east of 0 degrees Longitude.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Hours for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>SQ_MI</attrlabl>
+									<attrdef>The measure of area in square miles.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Calculated area for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>SQKM</attrlabl>
+									<attrdef>The measure of area in square kilometers.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Calculated area for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>COLORMAP</attrlabl>
+									<attrdef>The number allows the country to be shaded unique from its neighbors.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<rdom>
+											<rdommin>1</rdommin>
+											<rdommax>8</rdommax>
+										</rdom>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>ESRI; ESRI International Distributors</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>380 New York Street</address>
+										<city>Redlands</city>
+										<state>California</state>
+										<postal>92373-8100</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>800-447-9778</cntvoice>
 <cntinst>In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data.
 
 Outside the United States, please direct all inquiries to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.</cntinst>
-</cntinfo>
-</distrib>
-<resdesc>esri_2008_world_timezone</resdesc>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>SDC</formname>
-<formspec>zip</formspec>
-<transize>0.144</transize>
-</digtinfo>
-<digtopt>
-</digtopt>
-</digform>
-<fees>Software purchase price</fees>
-<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
-</stdorder>
-<techpreq>To use this data requires software that supports SDC files.</techpreq>
-</distinfo>
-<metainfo>
-<metd>20090716</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+								</cntinfo>
+							</distrib>
+							<resdesc>esri_2008_world_timezone</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>SDC</formname>
+										<formspec>zip</formspec>
+										<transize>0.144</transize>
+									</digtinfo>
+									<digtopt>
+									</digtopt>
+								</digform>
+								<fees>Software purchase price</fees>
+								<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
+							</stdorder>
+							<techpreq>To use this data requires software that supports SDC files.</techpreq>
+						</distinfo>
+						<metainfo>
+							<metd>20090716</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

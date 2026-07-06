@@ -1,1124 +1,1124 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Peru (3932488)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Peru</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2017</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-81.4109425524</westbc>
-<eastbc>-68.6650797187</eastbc>
-<northbc>-0.0572054988649</northbc>
-<southbc>-18.3479753557</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Peru (3932488)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Peru</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2017</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-81.4109425524</westbc>
+				<eastbc>-68.6650797187</eastbc>
+				<northbc>-0.0572054988649</northbc>
+				<southbc>-18.3479753557</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Peru Migration Census Data, 2017 is a polygon theme representing Districts (3rd level administrative units) in Peru as of 2017. Attribute data include summary results of the 2017 Perun census questions regarding Migration characteristics. The documentation of these variables can be found in the "Migration" section from the accompanying code book. This dataset is part of Peru 2017 Census collection.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Peru Migration Census Data, 2017</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2020</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Peru Migration Census Data, 2017</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2020</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_peru_migration_2017.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2017</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2017</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Peru_2017</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-  <attrlabl>CAPITAL</attrlabl>
-  <attrdef>Capital Of Department</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Name of Capital Of The Department</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM1_NAME</attrlabl>
-  <attrdef>Department Name</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Name of the department the census sector falls in.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM1</attrlabl>
-  <attrdef>Department Code</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM2_NAME</attrlabl>
-  <attrdef>Province Name</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Name of the Province the census sector falls in.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM2</attrlabl>
-  <attrdef>Province Code</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM3_NAME</attrlabl>
-  <attrdef>District Name [distrito]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Name of the district the census sector falls in.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM3</attrlabl>
-  <attrdef>District Code</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>CODE</attrlabl>
-  <attrdef>Join Code [codigo]</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M001</attrlabl>
-  <attrdef>Household Has A Former Member That Lives In Another Country: Yes [Sí se fueron a vivir a otro país]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M002</attrlabl>
-  <attrdef>Household Has A Former Member That Lives In Another Country: No [No se fueron a vivir a otro país]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M003</attrlabl>
-  <attrdef>Total Members Of The Household  Who Are Living In Another Country: 1 Person [1 persona]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M004</attrlabl>
-  <attrdef>Total Members Of The Household  Who Are Living In Another Country: 2 Persons [2 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M005</attrlabl>
-  <attrdef>Total Members Of The Household  Who Are Living In Another Country: 3 Persons [3 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M006</attrlabl>
-  <attrdef>Total Members Of The Household  Who Are Living In Another Country: 4 Persons [4 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M007</attrlabl>
-  <attrdef>Total Members Of The Household  Who Are Living In Another Country: 5 Persons [5 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M008</attrlabl>
-  <attrdef>Total Members Of The Household  Who Are Living In Another Country: 6 Persons [6 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M009</attrlabl>
-  <attrdef>Total Members Of The Household  Who Are Living In Another Country: 7 Persons [7 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M010</attrlabl>
-  <attrdef>Total Members Of The Household  Who Are Living In Another Country: 8 Persons [8 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M011</attrlabl>
-  <attrdef>Total Members Of The Household  Who Are Living In Another Country: 9 Persons [9 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M012</attrlabl>
-  <attrdef>Total Members Of The Household  Who Are Living In Another Country: 10 Persons [10 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M013</attrlabl>
-  <attrdef>Total Members Of The Household  Who Are Living In Another Country: 11 Persons [11 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M014</attrlabl>
-  <attrdef>Total Members Of The Household  Who Are Living In Another Country: 12 Persons [12 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M015</attrlabl>
-  <attrdef>Household Members Living In This District: Yes [Sí, vive permanentemente en este distrito]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M016</attrlabl>
-  <attrdef>Household Members Living In This District: No [No vive permanentemente en este distrito]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M017</attrlabl>
-  <attrdef>Member Of The Household Living In This District Five Years Ago: Was Not Born Yet [Aún no había nacido]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M018</attrlabl>
-  <attrdef>Member Of The Household Living In This District Five Years Ago: Yes [Sí, vivía hace 5 años en este distrito]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M019</attrlabl>
-  <attrdef>Member Of The Household Living In This District Five Years Ago: No [No vivía hace 5 años en este distrito]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M020</attrlabl>
-  <attrdef>When You Were Born Was Your Mother Living In This District: Yes [Sí, la madre vivía en este distrito]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M021</attrlabl>
-  <attrdef>When You Were Born Was Your Mother Living In This District: No [No, la madre vivía en otro distrito]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M022</attrlabl>
-  <attrdef>Type Of National Identity Document: Only Have A Birth Certificate [Solo tiene partida de nacimiento]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M023</attrlabl>
-  <attrdef>Type Of National Identity Document: Only Has Immigration Card [Solo tiene carne de extranjería]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M024</attrlabl>
-  <attrdef>Type Of National Identity Document: Has No Documents [No tiene documento alguno]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M025</attrlabl>
-  <attrdef>Type Of National Identity Document: Does Not Remember [No recuerda]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M026</attrlabl>
-  <attrdef>Type Of National Identity Document: Has Id [Tiene DNI]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M027</attrlabl>
-  <attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Quechua [Quechua]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M028</attrlabl>
-  <attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Aimara [Aimara]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M029</attrlabl>
-  <attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Native Amazonian [Nativo o indígena de la amazonía]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M030</attrlabl>
-  <attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Other Indigenous Or Native Group [Parte de otro pueblo indígena u originario]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M031</attrlabl>
-  <attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Afro-Descendant  [Negro, moreno, zambo, mulato / pueblo afroperuano o afrodescendiente]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M032</attrlabl>
-  <attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: White [Blanco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M033</attrlabl>
-  <attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Mixed Race [Mestizo]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M034</attrlabl>
-  <attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Other [Otro]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M035</attrlabl>
-  <attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Unsure Or No Response [No sabe / No responde]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M036</attrlabl>
-  <attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Nikkei [Nikkei]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M037</attrlabl>
-  <attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Tusán [Tusán]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M038</attrlabl>
-  <attrdef>Department Where You Live Permanently: Foreign Area Not In A Department [Extranjeros]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M039</attrlabl>
-  <attrdef>Department Where You Live Permanently: Amazonas Department [Departamento de Amazonas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M040</attrlabl>
-  <attrdef>Department Where You Live Permanently: Áncash Department [Departamento de Áncash]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M041</attrlabl>
-  <attrdef>Department Where You Live Permanently: Apurímac Department [Departamento de Apurímac]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M042</attrlabl>
-  <attrdef>Department Where You Live Permanently: Arequipa Department [Departamento de Arequipa]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M043</attrlabl>
-  <attrdef>Department Where You Live Permanently: Ayacucho Department [Departamento de Ayacucho]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M044</attrlabl>
-  <attrdef>Department Where You Live Permanently: Cajamarca Department [Departamento de Cajamarca]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M045</attrlabl>
-  <attrdef>Department Where You Live Permanently:Constitutional Province Of Callao  [Provincia Constitucional del Callao]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M046</attrlabl>
-  <attrdef>Department Where You Live Permanently: Cusco Department [Departamento de Cusco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M047</attrlabl>
-  <attrdef>Department Where You Live Permanently: Huancavelica Department [Departamento de Huancavelica]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M048</attrlabl>
-  <attrdef>Department Where You Live Permanently: Huánuco Department [Departamento de Huánuco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M049</attrlabl>
-  <attrdef>Department Where You Live Permanently: Ica Department [Departamento de Ica]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M050</attrlabl>
-  <attrdef>Department Where You Live Permanently: Junín Department [Departamento de Junín]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M051</attrlabl>
-  <attrdef>Department Where You Live Permanently: La Libertad Department [Departamento de La Libertad]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M052</attrlabl>
-  <attrdef>Department Where You Live Permanently: Lambayeque Department [Departamento de Lambayeque]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M053</attrlabl>
-  <attrdef>Department Where You Live Permanently: Lima Department [Departamento de Lima]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M054</attrlabl>
-  <attrdef>Department Where You Live Permanently: Loreto Department [Departamento de Loreto]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M055</attrlabl>
-  <attrdef>Department Where You Live Permanently: Madre De Dios Department [Departamento de Madre de Dios]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M056</attrlabl>
-  <attrdef>Department Where You Live Permanently: Moquegua Department [Departamento de Moquegua]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M057</attrlabl>
-  <attrdef>Department Where You Live Permanently: Pasco Department [Departamento de Pasco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M058</attrlabl>
-  <attrdef>Department Where You Live Permanently: Piura Department [Departamento de Piura]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M059</attrlabl>
-  <attrdef>Department Where You Live Permanently: Puno Department [Departamento de Puno]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M060</attrlabl>
-  <attrdef>Department Where You Live Permanently: San Martín Department [Departamento de San Martín]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M061</attrlabl>
-  <attrdef>Department Where You Live Permanently: Tacna Department [Departamento de Tacna]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M062</attrlabl>
-  <attrdef>Department Where You Live Permanently: Tumbes Department [Departamento de Tumbes]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M063</attrlabl>
-  <attrdef>Department Where You Live Permanently: Ucayali Department [Departamento de Ucayali]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M064</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Foreign Area Not In A Department [Extranjeros]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M065</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Amazonas Department [Departamento de Amazonas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M066</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Áncash Department [Departamento de Áncash]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M067</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Apurímac Department [Departamento de Apurímac]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M068</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Arequipa Department [Departamento de Arequipa]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M069</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Ayacucho Department [Departamento de Ayacucho]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M070</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Cajamarca Department [Departamento de Cajamarca]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M071</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Constitutional Province Of Callao [Provincia Constitucional del Callao]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M072</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Cusco Department [Departamento de Cusco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M073</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Huancavelica Department [Departamento de Huancavelica]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M074</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Huánuco Department [Departamento de Huánuco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M075</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Ica Department [Departamento de Ica]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M076</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Junín Department [Departamento de Junín]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M077</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: La Libertad Department [Departamento de La Libertad]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M078</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Lambayeque Department [Departamento de Lambayeque]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M079</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Lima Department [Departamento de Lima]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M080</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Loreto Department [Departamento de Loreto]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M081</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Madre De Dios Department [Departamento de Madre de Dios]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M082</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Moquegua Department [Departamento de Moquegua]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M083</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Pasco Department [Departamento de Pasco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M084</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Piura Department [Departamento de Piura]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M085</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Puno Department [Departamento de Puno]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M086</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: San Martín Department [Departamento de San Martín]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M087</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Tacna Department [Departamento de Tacna]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M088</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Tumbes Department [Departamento de Tumbes]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M089</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Ucayali Department [Departamento de Ucayali]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M090</attrlabl>
-  <attrdef>Department Where You Lived 5 Years Ago: Total [Departamento no especificado]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M091</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Foreign Area Not In A Department [Extranjeros]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M092</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Amazonas Department [Departamento de Amazonas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M093</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Áncash Department [Departamento de Áncash]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M094</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Apurímac Department [Departamento de Apurímac]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M095</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Arequipa Department [Departamento de Arequipa]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M096</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Ayacucho Department [Departamento de Ayacucho]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M097</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Cajamarca Department [Departamento de Cajamarca]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M098</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Constitutional Province Of Callao [Provincia Constitucional del Callao]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M099</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Cusco Department [Departamento de Cusco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M100</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Huancavelica Department [Departamento de Huancavelica]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M101</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Huánuco Department [Departamento de Huánuco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M102</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Ica Department [Departamento de Ica]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M103</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Junín Department [Departamento de Junín]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M104</attrlabl>
-  <attrdef>Department Where Your Mother Lived: La Libertad Department [Departamento de La Libertad]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M105</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Lambayeque Department [Departamento de Lambayeque]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M106</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Lima Department [Departamento de Lima]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M107</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Loreto Department [Departamento de Loreto]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M108</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Madre De Dios Department [Departamento de Madre de Dios]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M109</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Moquegua Department [Departamento de Moquegua]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M110</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Pasco Department [Departamento de Pasco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M111</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Piura Department [Departamento de Piura]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M112</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Puno Department [Departamento de Puno]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M113</attrlabl>
-  <attrdef>Department Where Your Mother Lived: San Martín Department [Departamento de San Martín]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M114</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Tacna Department [Departamento de Tacna]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M115</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Tumbes Department [Departamento de Tumbes]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M116</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Ucayali Department [Departamento de Ucayali]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M117</attrlabl>
-  <attrdef>Department Where Your Mother Lived: Department Not Specified [Departamento no especificado]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Peru_2017</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CAPITAL</attrlabl>
+			<attrdef>Capital Of Department</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Name of Capital Of The Department</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM1_NAME</attrlabl>
+			<attrdef>Department Name</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Name of the department the census sector falls in.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM1</attrlabl>
+			<attrdef>Department Code</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM2_NAME</attrlabl>
+			<attrdef>Province Name</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Name of the Province the census sector falls in.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM2</attrlabl>
+			<attrdef>Province Code</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM3_NAME</attrlabl>
+			<attrdef>District Name [distrito]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Name of the district the census sector falls in.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM3</attrlabl>
+			<attrdef>District Code</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Join Code [codigo]</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M001</attrlabl>
+			<attrdef>Household Has A Former Member That Lives In Another Country: Yes [Sí se fueron a vivir a otro país]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M002</attrlabl>
+			<attrdef>Household Has A Former Member That Lives In Another Country: No [No se fueron a vivir a otro país]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M003</attrlabl>
+			<attrdef>Total Members Of The Household  Who Are Living In Another Country: 1 Person [1 persona]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M004</attrlabl>
+			<attrdef>Total Members Of The Household  Who Are Living In Another Country: 2 Persons [2 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M005</attrlabl>
+			<attrdef>Total Members Of The Household  Who Are Living In Another Country: 3 Persons [3 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M006</attrlabl>
+			<attrdef>Total Members Of The Household  Who Are Living In Another Country: 4 Persons [4 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M007</attrlabl>
+			<attrdef>Total Members Of The Household  Who Are Living In Another Country: 5 Persons [5 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M008</attrlabl>
+			<attrdef>Total Members Of The Household  Who Are Living In Another Country: 6 Persons [6 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M009</attrlabl>
+			<attrdef>Total Members Of The Household  Who Are Living In Another Country: 7 Persons [7 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M010</attrlabl>
+			<attrdef>Total Members Of The Household  Who Are Living In Another Country: 8 Persons [8 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M011</attrlabl>
+			<attrdef>Total Members Of The Household  Who Are Living In Another Country: 9 Persons [9 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M012</attrlabl>
+			<attrdef>Total Members Of The Household  Who Are Living In Another Country: 10 Persons [10 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M013</attrlabl>
+			<attrdef>Total Members Of The Household  Who Are Living In Another Country: 11 Persons [11 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M014</attrlabl>
+			<attrdef>Total Members Of The Household  Who Are Living In Another Country: 12 Persons [12 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M015</attrlabl>
+			<attrdef>Household Members Living In This District: Yes [Sí, vive permanentemente en este distrito]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M016</attrlabl>
+			<attrdef>Household Members Living In This District: No [No vive permanentemente en este distrito]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M017</attrlabl>
+			<attrdef>Member Of The Household Living In This District Five Years Ago: Was Not Born Yet [Aún no había nacido]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M018</attrlabl>
+			<attrdef>Member Of The Household Living In This District Five Years Ago: Yes [Sí, vivía hace 5 años en este distrito]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M019</attrlabl>
+			<attrdef>Member Of The Household Living In This District Five Years Ago: No [No vivía hace 5 años en este distrito]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M020</attrlabl>
+			<attrdef>When You Were Born Was Your Mother Living In This District: Yes [Sí, la madre vivía en este distrito]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M021</attrlabl>
+			<attrdef>When You Were Born Was Your Mother Living In This District: No [No, la madre vivía en otro distrito]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M022</attrlabl>
+			<attrdef>Type Of National Identity Document: Only Have A Birth Certificate [Solo tiene partida de nacimiento]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M023</attrlabl>
+			<attrdef>Type Of National Identity Document: Only Has Immigration Card [Solo tiene carne de extranjería]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M024</attrlabl>
+			<attrdef>Type Of National Identity Document: Has No Documents [No tiene documento alguno]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M025</attrlabl>
+			<attrdef>Type Of National Identity Document: Does Not Remember [No recuerda]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M026</attrlabl>
+			<attrdef>Type Of National Identity Document: Has Id [Tiene DNI]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M027</attrlabl>
+			<attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Quechua [Quechua]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M028</attrlabl>
+			<attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Aimara [Aimara]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M029</attrlabl>
+			<attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Native Amazonian [Nativo o indígena de la amazonía]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M030</attrlabl>
+			<attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Other Indigenous Or Native Group [Parte de otro pueblo indígena u originario]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M031</attrlabl>
+			<attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Afro-Descendant  [Negro, moreno, zambo, mulato / pueblo afroperuano o afrodescendiente]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M032</attrlabl>
+			<attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: White [Blanco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M033</attrlabl>
+			<attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Mixed Race [Mestizo]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M034</attrlabl>
+			<attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Other [Otro]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M035</attrlabl>
+			<attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Unsure Or No Response [No sabe / No responde]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M036</attrlabl>
+			<attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Nikkei [Nikkei]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M037</attrlabl>
+			<attrdef>People Who Consider Themselves A Part Of A Specific Cultural Group: Tusán [Tusán]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M038</attrlabl>
+			<attrdef>Department Where You Live Permanently: Foreign Area Not In A Department [Extranjeros]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M039</attrlabl>
+			<attrdef>Department Where You Live Permanently: Amazonas Department [Departamento de Amazonas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M040</attrlabl>
+			<attrdef>Department Where You Live Permanently: Áncash Department [Departamento de Áncash]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M041</attrlabl>
+			<attrdef>Department Where You Live Permanently: Apurímac Department [Departamento de Apurímac]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M042</attrlabl>
+			<attrdef>Department Where You Live Permanently: Arequipa Department [Departamento de Arequipa]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M043</attrlabl>
+			<attrdef>Department Where You Live Permanently: Ayacucho Department [Departamento de Ayacucho]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M044</attrlabl>
+			<attrdef>Department Where You Live Permanently: Cajamarca Department [Departamento de Cajamarca]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M045</attrlabl>
+			<attrdef>Department Where You Live Permanently:Constitutional Province Of Callao  [Provincia Constitucional del Callao]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M046</attrlabl>
+			<attrdef>Department Where You Live Permanently: Cusco Department [Departamento de Cusco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M047</attrlabl>
+			<attrdef>Department Where You Live Permanently: Huancavelica Department [Departamento de Huancavelica]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M048</attrlabl>
+			<attrdef>Department Where You Live Permanently: Huánuco Department [Departamento de Huánuco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M049</attrlabl>
+			<attrdef>Department Where You Live Permanently: Ica Department [Departamento de Ica]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M050</attrlabl>
+			<attrdef>Department Where You Live Permanently: Junín Department [Departamento de Junín]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M051</attrlabl>
+			<attrdef>Department Where You Live Permanently: La Libertad Department [Departamento de La Libertad]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M052</attrlabl>
+			<attrdef>Department Where You Live Permanently: Lambayeque Department [Departamento de Lambayeque]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M053</attrlabl>
+			<attrdef>Department Where You Live Permanently: Lima Department [Departamento de Lima]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M054</attrlabl>
+			<attrdef>Department Where You Live Permanently: Loreto Department [Departamento de Loreto]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M055</attrlabl>
+			<attrdef>Department Where You Live Permanently: Madre De Dios Department [Departamento de Madre de Dios]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M056</attrlabl>
+			<attrdef>Department Where You Live Permanently: Moquegua Department [Departamento de Moquegua]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M057</attrlabl>
+			<attrdef>Department Where You Live Permanently: Pasco Department [Departamento de Pasco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M058</attrlabl>
+			<attrdef>Department Where You Live Permanently: Piura Department [Departamento de Piura]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M059</attrlabl>
+			<attrdef>Department Where You Live Permanently: Puno Department [Departamento de Puno]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M060</attrlabl>
+			<attrdef>Department Where You Live Permanently: San Martín Department [Departamento de San Martín]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M061</attrlabl>
+			<attrdef>Department Where You Live Permanently: Tacna Department [Departamento de Tacna]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M062</attrlabl>
+			<attrdef>Department Where You Live Permanently: Tumbes Department [Departamento de Tumbes]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M063</attrlabl>
+			<attrdef>Department Where You Live Permanently: Ucayali Department [Departamento de Ucayali]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M064</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Foreign Area Not In A Department [Extranjeros]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M065</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Amazonas Department [Departamento de Amazonas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M066</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Áncash Department [Departamento de Áncash]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M067</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Apurímac Department [Departamento de Apurímac]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M068</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Arequipa Department [Departamento de Arequipa]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M069</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Ayacucho Department [Departamento de Ayacucho]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M070</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Cajamarca Department [Departamento de Cajamarca]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M071</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Constitutional Province Of Callao [Provincia Constitucional del Callao]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M072</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Cusco Department [Departamento de Cusco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M073</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Huancavelica Department [Departamento de Huancavelica]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M074</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Huánuco Department [Departamento de Huánuco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M075</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Ica Department [Departamento de Ica]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M076</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Junín Department [Departamento de Junín]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M077</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: La Libertad Department [Departamento de La Libertad]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M078</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Lambayeque Department [Departamento de Lambayeque]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M079</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Lima Department [Departamento de Lima]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M080</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Loreto Department [Departamento de Loreto]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M081</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Madre De Dios Department [Departamento de Madre de Dios]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M082</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Moquegua Department [Departamento de Moquegua]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M083</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Pasco Department [Departamento de Pasco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M084</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Piura Department [Departamento de Piura]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M085</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Puno Department [Departamento de Puno]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M086</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: San Martín Department [Departamento de San Martín]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M087</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Tacna Department [Departamento de Tacna]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M088</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Tumbes Department [Departamento de Tumbes]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M089</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Ucayali Department [Departamento de Ucayali]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M090</attrlabl>
+			<attrdef>Department Where You Lived 5 Years Ago: Total [Departamento no especificado]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M091</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Foreign Area Not In A Department [Extranjeros]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M092</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Amazonas Department [Departamento de Amazonas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M093</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Áncash Department [Departamento de Áncash]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M094</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Apurímac Department [Departamento de Apurímac]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M095</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Arequipa Department [Departamento de Arequipa]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M096</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Ayacucho Department [Departamento de Ayacucho]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M097</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Cajamarca Department [Departamento de Cajamarca]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M098</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Constitutional Province Of Callao [Provincia Constitucional del Callao]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M099</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Cusco Department [Departamento de Cusco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M100</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Huancavelica Department [Departamento de Huancavelica]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M101</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Huánuco Department [Departamento de Huánuco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M102</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Ica Department [Departamento de Ica]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M103</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Junín Department [Departamento de Junín]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M104</attrlabl>
+			<attrdef>Department Where Your Mother Lived: La Libertad Department [Departamento de La Libertad]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M105</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Lambayeque Department [Departamento de Lambayeque]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M106</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Lima Department [Departamento de Lima]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M107</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Loreto Department [Departamento de Loreto]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M108</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Madre De Dios Department [Departamento de Madre de Dios]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M109</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Moquegua Department [Departamento de Moquegua]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M110</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Pasco Department [Departamento de Pasco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M111</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Piura Department [Departamento de Piura]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M112</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Puno Department [Departamento de Puno]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M113</attrlabl>
+			<attrdef>Department Where Your Mother Lived: San Martín Department [Departamento de San Martín]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M114</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Tacna Department [Departamento de Tacna]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M115</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Tumbes Department [Departamento de Tumbes]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M116</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Ucayali Department [Departamento de Ucayali]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M117</attrlabl>
+			<attrdef>Department Where Your Mother Lived: Department Not Specified [Departamento no especificado]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
-<metainfo>
-<metd>20210701</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-</metainfo>
 <distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_peru_migration_2017</resdesc>
-<distrib>
-</distrib>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_peru_migration_2017</resdesc>
+	<distrib>
+	</distrib>
 </distinfo>
+<metainfo>
+	<metd>20210701</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

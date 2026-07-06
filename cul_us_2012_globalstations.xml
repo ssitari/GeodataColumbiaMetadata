@@ -1,5 +1,139 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata xml:lang="en">
+	<idinfo>
+		<spdom>
+			<bounding>
+				<westbc>-179.98333</westbc>
+				<eastbc>179.5</eastbc>
+				<northbc>83.65</northbc>
+				<southbc>-90</southbc>
+			</bounding>
+		</spdom>
+		<ptcontac>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Room 120, 151 Patton Avenue</address>
+					<city>Asheville</city>
+					<state>NC</state>
+					<postal>28801-5001</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(828) 271-4800</cntvoice>
+				<cntfax>271-4876</cntfax>
+				<cntorgp>
+					<cntorg>The National Climatic Data Center</cntorg>
+				</cntorgp>
+			</cntinfo>
+		</ptcontac>
+		<citation>
+			<citeinfo>
+				<origin>National Climatic Data Center (U.S.)</origin>
+				<origin>United States. National Environmental Satellite, Data, and Information Service</origin>
+				<origin>United States. National Oceanic and Atmospheric Administration</origin>
+				<origin>Columbia University. Libraries</origin>
+				<pubdate>2012</pubdate>
+				<title>World Weather Stations, 2012</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Asheville, North Carolina</pubplace>
+					<publish>National Climatic Data Center (U.S.)</publish>
+				</pubinfo>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/cul_us_2012_globalstations.zip</onlink>
+			</citeinfo>
+		</citation>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>climatologyMeteorologyAtmosphere</themekey>
+			</theme>
+			<theme>
+				<themekey>weather</themekey>
+				<themekt>None</themekt>
+				<themekey>weather stations</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Earth (6295630)</placekey>
+			</place>
+			<place>
+				<placekt>Library of Congress Subject Headings</placekt>
+				<placekey>World</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2012</tempkey>
+			</temporal>
+		</keywords>
+		<descript>
+			<purpose>For educational, non-commercial purposes.</purpose>
+			<abstract>World Weather Stations is a point theme representing weather stations worldwide.</abstract>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2007</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+		</status>
+		<accconst>None</accconst>
+
+		<useconst>None</useconst>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/GlobalStations.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>jpg</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+							<cntper>GIS/Map librarian</cntper>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>420 W. 118th St. 215 IAB, MC 330</address>
+							<city>New York</city>
+							<state>NY</state>
+							<postal>10027</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(212) 854-6012</cntvoice>
+						<cntemail>data@library.columbia.edu</cntemail>
+					</cntinfo>
+				</proccont>
+				<procdesc>RDS staff compiled station data and converted to geopackage format</procdesc>
+				<procdate>2012</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>11548</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn>D_WGS_1984</horizdn>
+				<ellips>WGS_1984</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
 	<eainfo>
 		<detailed>
 			<attr>
@@ -92,130 +226,6 @@
 			</enttyp>
 		</detailed>
 	</eainfo>
-	<idinfo>
-		<spdom>
-			<bounding>
-				<westbc>-179.98333</westbc>
-				<eastbc>179.5</eastbc>
-				<northbc>83.65</northbc>
-				<southbc>-90</southbc>
-			</bounding>
-		</spdom>
-		<ptcontac>
-			<cntinfo>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>Room 120, 151 Patton Avenue</address>
-					<city>Asheville</city>
-					<state>NC</state>
-					<postal>28801-5001</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(828) 271-4800</cntvoice>
-				<cntfax>271-4876</cntfax>
-				<cntorgp>
-					<cntorg>The National Climatic Data Center</cntorg>
-				</cntorgp>
-			</cntinfo>
-		</ptcontac>
-		<citation>
-			<citeinfo>
-				<origin>National Climatic Data Center (U.S.)</origin>
-				<origin>United States. National Environmental Satellite, Data, and Information Service</origin>
-				<origin>United States. National Oceanic and Atmospheric Administration</origin>
-				<origin>Columbia University. Libraries</origin>
-				<pubdate>2012</pubdate>
-				<title>World Weather Stations, 2012</title>
-				<geoform>vector digital data</geoform>
-				<pubinfo>
-					<pubplace>Asheville, North Carolina</pubplace>
-					<publish>National Climatic Data Center (U.S.)</publish>
-				</pubinfo>
-				<onlink>https://www.columbia.edu/acis/eds/gis/images/cul_us_2012_globalstations.zip</onlink>
-			</citeinfo>
-		</citation>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>climatologyMeteorologyAtmosphere</themekey>
-			</theme>
-			<theme>
-				<themekey>weather</themekey>
-				<themekt>None</themekt>
-				<themekey>weather stations</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Earth (6295630)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>World</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2012</tempkey>
-			</temporal>
-		</keywords>
-		<descript>
-			<purpose>For educational, non-commercial purposes.</purpose>
-			<abstract>World Weather Stations is a point theme representing weather stations worldwide.</abstract>
-		</descript>
-		<timeperd>
-			<timeinfo>
-				<sngdate>
-					<caldate>2007</caldate>
-				</sngdate>
-			</timeinfo>
-			<current>ground condition</current>
-		</timeperd>
-		<status>
-			<progress>Complete</progress>
-		</status>
-		<accconst>None</accconst>
-
-		<useconst>None</useconst>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/GlobalStations.jpg</browsen>
-			<browsed>Thumbnail</browsed>
-			<browset>jpg</browset>
-		</browse>
-	</idinfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>Point</sdtstype>
-				<ptvctcnt>11548</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<dataqual>
-		<lineage>
-			<procstep>
-				<proccont>
-					<cntinfo>
-						<cntorgp>
-							<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-							<cntper>GIS/Map librarian</cntper>
-						</cntorgp>
-						<cntaddr>
-							<addrtype>mailing and physical address</addrtype>
-							<address>420 W. 118th St. 215 IAB, MC 330</address>
-							<city>New York</city>
-							<state>NY</state>
-							<postal>10027</postal>
-							<country>USA</country>
-						</cntaddr>
-						<cntvoice>(212) 854-6012</cntvoice>
-						<cntemail>data@library.columbia.edu</cntemail>
-					</cntinfo>
-				</proccont>
-				<procdesc>RDS staff compiled station data and converted to geopackage format</procdesc>
-				<procdate>2012</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
 	<distinfo>
 		<distrib>
 			<cntinfo>
@@ -267,14 +277,4 @@
 		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
 		<metstdv>FGDC-STD-001-1998</metstdv>
 	</metainfo>
-	<spref>
-		<horizsys>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
 </metadata>

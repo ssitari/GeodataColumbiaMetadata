@@ -1,1304 +1,1304 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Paraguay (3437598)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Paraguay</placekey>
-<placekey>Paraguay</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>1992</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-60.604551</westbc>
-<eastbc>-54.297299</eastbc>
-<northbc>-21.032259</northbc>
-<southbc>-27.408933</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Paraguay (3437598)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Paraguay</placekey>
+				<placekey>Paraguay</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>1992</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-60.604551</westbc>
+				<eastbc>-54.297299</eastbc>
+				<northbc>-21.032259</northbc>
+				<southbc>-27.408933</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Paraguay Social Census Data, 1992 is a polygon theme representing Manzanas (6th level administrative units) in Paraguay.  Attribute information includes social variables from the 1992 census.
 
 Official population and housing data for Paraguay from the 1992 census. This census is provided at the manzana administrative level (ADM6) and includes 51,085 polygons with 668 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Varón" was updated to D001 and given the alias "Male Population [Varón]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Paraguay Social Census Data, 1992</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2021</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Paraguay Social Census Data, 1992</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_paraguay_social_1992.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>1992</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>1992</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Paraguay_1992</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-  <attrlabl>Join_Code</attrlabl>
-  <attrdef>Code [Codig]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S001</attrlabl>
-  <attrdef>Cause Of Disability 1: Born With Disability [Nació_Así_Causa2.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S002</attrlabl>
-  <attrdef>Cause Of Disability 1: Disease [Por_Enfermedad_Causa2.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S003</attrlabl>
-  <attrdef>Cause Of Disability 1: By Accident [Por_Accidente_Causa2.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S004</attrlabl>
-  <attrdef>Cause Of Disability 1: Advanced Age [Por_Edad_Avanzad]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S005</attrlabl>
-  <attrdef>Cause Of Disability 1: Another Cause [Otra_Causa_Causa2.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S006</attrlabl>
-  <attrdef>Cause Of Disability 1: No Response [Nr_Impedim1.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S007</attrlabl>
-  <attrdef>Cause Of Disability 1: Total [Total_Causa2.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S008</attrlabl>
-  <attrdef>Cause Of Disability 2: Born With Diability [Nació_Así_Causa2.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S009</attrlabl>
-  <attrdef>Cause Of Disability 2: Disease [Por_Enfermedad_Causa2.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S010</attrlabl>
-  <attrdef>Cause Of Disability 2: By Accident [Por_Accidente_Causa2.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S011</attrlabl>
-  <attrdef>Cause Of Disability 2: Advanced Age [Por_Edad_Avanzada_Causa3.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S012</attrlabl>
-  <attrdef>Cause Of Disability 2: Another Cause [Otra_Causa_Causa2.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S013</attrlabl>
-  <attrdef>Cause Of Disability 2: No Specific Cause Given [Causa_No_Especificada_Causa3.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S014</attrlabl>
-  <attrdef>Cause Of Disability 2: Total [Total_Causa2.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S015</attrlabl>
-  <attrdef>Cause Of Disability 3: Born With Diability [Nació_Así]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S016</attrlabl>
-  <attrdef>Cause Of Disability 3: Disease [Por_Enfermedad]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S017</attrlabl>
-  <attrdef>Cause Of Disability 3: By Accident [Por_Accidente]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S018</attrlabl>
-  <attrdef>Cause Of Disability 3: Advanced Age [Por_Edad_Avanzada_Causa3.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S019</attrlabl>
-  <attrdef>Cause Of Disability 3: No Specific Cause Given [Causa_No_Especificada_Causa3.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S020</attrlabl>
-  <attrdef>Disability 1: Paralysis In Legs Or Arms [Parál_Pierna_Bra]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S021</attrlabl>
-  <attrdef>Disability 1: Missing Body Parts [Falt_Parte_Cuerp]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S022</attrlabl>
-  <attrdef>Disability 1: Deaf [Sordo]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S023</attrlabl>
-  <attrdef>Disability 1: Does Not Hear Well [No_Escucha_Bien]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S024</attrlabl>
-  <attrdef>Disability 1: Mute [Mudo]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S025</attrlabl>
-  <attrdef>Disability 1: Speak With Great Difficulty [Habla_C_Dificu_]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S026</attrlabl>
-  <attrdef>Disability 1: Blind [Ciego]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S027</attrlabl>
-  <attrdef>Disability 1: Blind In One Eye [Ciego_En_Un_Ojo]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S028</attrlabl>
-  <attrdef>Disability 1: Move With Difficulty [Ve_Con_Dificult_]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S029</attrlabl>
-  <attrdef>Disability 1: Down Syndrome [Síndrome_De_Down]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S030</attrlabl>
-  <attrdef>Disability 1: Some Mental Diasbility [Algún_Ret_Mental]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S031</attrlabl>
-  <attrdef>Disability 1: Dementia [Demencia]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S032</attrlabl>
-  <attrdef>Disability 1: Total Paralysis [Parálisis_Total]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S033</attrlabl>
-  <attrdef>Disability 1: Probably I/S Member [Probl_Miembr_I_S]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S034</attrlabl>
-  <attrdef>Disability 1: Parkinsons [Mal_De_Parkinson]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S035</attrlabl>
-  <attrdef>Disability 1: Autism [Autismo]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S036</attrlabl>
-  <attrdef>Disability 1: Impediment Unspecified [Impedimento_No_Especificado]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S037</attrlabl>
-  <attrdef>Disability 1: No Response [Nr_Impedim1.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S038</attrlabl>
-  <attrdef>Disability 1: Total [Total_Impedim1.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S039</attrlabl>
-  <attrdef>University Attendance: Yes [Carrera_Univers_]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S040</attrlabl>
-  <attrdef>University Attendance: No [Carr__No_Univers]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S041</attrlabl>
-  <attrdef>University Attendance: F3 [F3]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S042</attrlabl>
-  <attrdef>University Attendance: Not Investigated In Indigenous Census [Carr__Ignorada]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S043</attrlabl>
-  <attrdef>Years Of Study: 1 [F0_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S044</attrlabl>
-  <attrdef>Years Of Study: 2 [F1_Año]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S045</attrlabl>
-  <attrdef>Years Of Study: 3 [F2_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S046</attrlabl>
-  <attrdef>Years Of Study: 4 [F3_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S047</attrlabl>
-  <attrdef>Years Of Study: 5 [F4_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S048</attrlabl>
-  <attrdef>Years Of Study: 6 [F5_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S049</attrlabl>
-  <attrdef>Years Of Study: 7 [F6_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S050</attrlabl>
-  <attrdef>Years Of Study: 8 [F7_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S051</attrlabl>
-  <attrdef>Years Of Study: 9 [F8_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S052</attrlabl>
-  <attrdef>Years Of Study: 10 [F9_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S053</attrlabl>
-  <attrdef>Years Of Study: 11 [F10_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S054</attrlabl>
-  <attrdef>Years Of Study: 12 [F11_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S055</attrlabl>
-  <attrdef>Years Of Study: 13 [F12_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S056</attrlabl>
-  <attrdef>Years Of Study: 14 [F13_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S057</attrlabl>
-  <attrdef>Years Of Study: 15 [F14_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S058</attrlabl>
-  <attrdef>Years Of Study: 16 [F15_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S059</attrlabl>
-  <attrdef>Years Of Study: 17 [F16_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S060</attrlabl>
-  <attrdef>Years Of Study: 18 [F17_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S061</attrlabl>
-  <attrdef>Years Of Study: 19 [F18_Años]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S062</attrlabl>
-  <attrdef>Years Of Study: Not Reported [No_Reportado]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S063</attrlabl>
-  <attrdef>Years Of Study: Total [Total_Impedim1.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S064</attrlabl>
-  <attrdef>Attended School: Yes [Sí__Asistió]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S065</attrlabl>
-  <attrdef>Attended School: No [No_Asistió]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S066</attrlabl>
-  <attrdef>Attended School: No Information [No_Informado]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S067</attrlabl>
-  <attrdef>Attended School: Total [Total_P11_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S068</attrlabl>
-  <attrdef>Currently Attending School: Yes [Sí_Asiste]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S069</attrlabl>
-  <attrdef>Currently Attending School: No [No_Asiste]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S070</attrlabl>
-  <attrdef>Currently Attending School: No Response [Nr_P13_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S071</attrlabl>
-  <attrdef>Currently Attending School: Total [Total_P11_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S072</attrlabl>
-  <attrdef>Pursued University Education: Yes [Sí_Carrera_Univ_]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S073</attrlabl>
-  <attrdef>Pursued University Education: No [No_Carrera_Univ_]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S074</attrlabl>
-  <attrdef>Pursued University Education: No Response [Nr_P13_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S075</attrlabl>
-  <attrdef>Pursued University Education: Indigenous Census Not Reported [No_Investigado_En_Censo_Indigena_P14_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S076</attrlabl>
-  <attrdef>Pursued University Education: Total [Total_P14_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S077</attrlabl>
-  <attrdef>Concluded University Career: Yes [Sí__Concluyó_C_S]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S078</attrlabl>
-  <attrdef>Concluded University Career: No [No_Concluyó]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S079</attrlabl>
-  <attrdef>Concluded University Career: No Response [Nr_Recorarr_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S080</attrlabl>
-  <attrdef>Concluded University Career: Indigenous Census Not Reported [No_Investigado_En_Censo_Indigena_P14_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S081</attrlabl>
-  <attrdef>Concluded University Career: Total [Total_P14_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S082</attrlabl>
-  <attrdef>Primary Language: Guaraní [Guaraní]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S083</attrlabl>
-  <attrdef>Primary Language: Spanish [Castellano]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S084</attrlabl>
-  <attrdef>Primary Language: Portuguese [Portugues]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S085</attrlabl>
-  <attrdef>Primary Language: German [Alemán]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S086</attrlabl>
-  <attrdef>Primary Language: English [Ingles]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S087</attrlabl>
-  <attrdef>Primary Language: French [Frances]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S088</attrlabl>
-  <attrdef>Primary Language: Japanese [Japones]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S089</attrlabl>
-  <attrdef>Primary Language: Chinese [Chino]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S090</attrlabl>
-  <attrdef>Primary Language: Korean [Coreano]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S091</attrlabl>
-  <attrdef>Primary Language: Italian [Italiano]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S092</attrlabl>
-  <attrdef>Primary Language: Arabic [Arabe]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S093</attrlabl>
-  <attrdef>Primary Language: Other Language [Otros_Idiomas]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S094</attrlabl>
-  <attrdef>Primary Language: Ne Other Language [Ne_Otro_Idioma]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S095</attrlabl>
-  <attrdef>Primary Language: Ache [Ache]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S096</attrlabl>
-  <attrdef>Primary Language: Enlhet Norte [Enlhet_Norte]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S097</attrlabl>
-  <attrdef>Primary Language: Enxet Sur [Enxet_Sur]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S098</attrlabl>
-  <attrdef>Primary Language: Angaite [Angaite]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S099</attrlabl>
-  <attrdef>Primary Language: Guana [Guana]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S100</attrlabl>
-  <attrdef>Primary Language: Maskoy [Maskoy]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S101</attrlabl>
-  <attrdef>Primary Language: Nivacle [Nivacle]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S102</attrlabl>
-  <attrdef>Primary Language: Maka [Maka]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S103</attrlabl>
-  <attrdef>Primary Language: Manjuy [Manjuy]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S104</attrlabl>
-  <attrdef>Primary Language: Ayoreo [Ayoreo]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S105</attrlabl>
-  <attrdef>Primary Language: Ybytoso [Ybytoso]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S106</attrlabl>
-  <attrdef>Primary Language: Toba-Qom [Toba_Qom]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S107</attrlabl>
-  <attrdef>Primary Language: Ne Indigenous Language [Ne_Idioma_Indíg_]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S108</attrlabl>
-  <attrdef>Primary Language: Total [Total_Recorarr_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S109</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Guarani [Guaraní]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S110</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Spanish [Castellano]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S111</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Portuguese [Portugues]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S112</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: German [Alemán]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S113</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: English [Ingles]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S114</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: French [Frances]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S115</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Japanese [Japones]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S116</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Chinese [Chino]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S117</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Korean [Coreano]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S118</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Italian [Italiano]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S119</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Arab [Arabe]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S120</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Others [Otros]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S121</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Mbya [Mbya]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S122</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Pai-Tavytera [Pai_Tavytera]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S123</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Guarani West [Guarani_Occident]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S124</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Enxet South [Enxet_Sur]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S125</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Sanapana [Sanapana]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S126</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Angaite [Angaite]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S127</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Nivacle [Nivacle]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S128</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Ayoreo [Ayoreo]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S129</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Ybytoso [Ybytoso]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S130</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Doesnt Speak [No_Habla]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S131</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: No Response [Nr_V23_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S132</attrlabl>
-  <attrdef>Primary Language Spoken In The Household: Total [Total_V22_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S133</attrlabl>
-  <attrdef>Disabled Persons Living In The Home: Yes [Sí]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S134</attrlabl>
-  <attrdef>Disabled Persons Living In The Home: No [No]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S135</attrlabl>
-  <attrdef>Disabled Persons Living In The Home: Total [Total_Vimpe_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S136</attrlabl>
-  <attrdef>Persons With Identity Card: Yes, Paraguayan [Sí__Paraguaya]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S137</attrlabl>
-  <attrdef>Persons With Identity Card: Yes, Foreign [Sí__Extranjera]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S138</attrlabl>
-  <attrdef>Persons With Identity Card: Paraguayan And Foreign [Paraguaya_Extran]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S139</attrlabl>
-  <attrdef>Persons With Identity Card: No Identity Card [No_Tiene]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S140</attrlabl>
-  <attrdef>Persons With Identity Card: No Response [Nr_P18_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>S141</attrlabl>
-  <attrdef>Persons With Identity Card: Total [Total_P18_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>Country</attrlabl>
-  <attrdef>Country</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Country where census took place as 3-digit ISO code</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>Year</attrlabl>
-  <attrdef>Year</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Year census was conducted as YYYY</udom>
-  </attrdomv>
-</attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Paraguay_1992</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>Join_Code</attrlabl>
+			<attrdef>Code [Codig]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S001</attrlabl>
+			<attrdef>Cause Of Disability 1: Born With Disability [Nació_Así_Causa2.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S002</attrlabl>
+			<attrdef>Cause Of Disability 1: Disease [Por_Enfermedad_Causa2.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S003</attrlabl>
+			<attrdef>Cause Of Disability 1: By Accident [Por_Accidente_Causa2.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S004</attrlabl>
+			<attrdef>Cause Of Disability 1: Advanced Age [Por_Edad_Avanzad]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S005</attrlabl>
+			<attrdef>Cause Of Disability 1: Another Cause [Otra_Causa_Causa2.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S006</attrlabl>
+			<attrdef>Cause Of Disability 1: No Response [Nr_Impedim1.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S007</attrlabl>
+			<attrdef>Cause Of Disability 1: Total [Total_Causa2.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S008</attrlabl>
+			<attrdef>Cause Of Disability 2: Born With Diability [Nació_Así_Causa2.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S009</attrlabl>
+			<attrdef>Cause Of Disability 2: Disease [Por_Enfermedad_Causa2.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S010</attrlabl>
+			<attrdef>Cause Of Disability 2: By Accident [Por_Accidente_Causa2.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S011</attrlabl>
+			<attrdef>Cause Of Disability 2: Advanced Age [Por_Edad_Avanzada_Causa3.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S012</attrlabl>
+			<attrdef>Cause Of Disability 2: Another Cause [Otra_Causa_Causa2.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S013</attrlabl>
+			<attrdef>Cause Of Disability 2: No Specific Cause Given [Causa_No_Especificada_Causa3.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S014</attrlabl>
+			<attrdef>Cause Of Disability 2: Total [Total_Causa2.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S015</attrlabl>
+			<attrdef>Cause Of Disability 3: Born With Diability [Nació_Así]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S016</attrlabl>
+			<attrdef>Cause Of Disability 3: Disease [Por_Enfermedad]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S017</attrlabl>
+			<attrdef>Cause Of Disability 3: By Accident [Por_Accidente]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S018</attrlabl>
+			<attrdef>Cause Of Disability 3: Advanced Age [Por_Edad_Avanzada_Causa3.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S019</attrlabl>
+			<attrdef>Cause Of Disability 3: No Specific Cause Given [Causa_No_Especificada_Causa3.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S020</attrlabl>
+			<attrdef>Disability 1: Paralysis In Legs Or Arms [Parál_Pierna_Bra]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S021</attrlabl>
+			<attrdef>Disability 1: Missing Body Parts [Falt_Parte_Cuerp]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S022</attrlabl>
+			<attrdef>Disability 1: Deaf [Sordo]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S023</attrlabl>
+			<attrdef>Disability 1: Does Not Hear Well [No_Escucha_Bien]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S024</attrlabl>
+			<attrdef>Disability 1: Mute [Mudo]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S025</attrlabl>
+			<attrdef>Disability 1: Speak With Great Difficulty [Habla_C_Dificu_]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S026</attrlabl>
+			<attrdef>Disability 1: Blind [Ciego]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S027</attrlabl>
+			<attrdef>Disability 1: Blind In One Eye [Ciego_En_Un_Ojo]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S028</attrlabl>
+			<attrdef>Disability 1: Move With Difficulty [Ve_Con_Dificult_]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S029</attrlabl>
+			<attrdef>Disability 1: Down Syndrome [Síndrome_De_Down]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S030</attrlabl>
+			<attrdef>Disability 1: Some Mental Diasbility [Algún_Ret_Mental]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S031</attrlabl>
+			<attrdef>Disability 1: Dementia [Demencia]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S032</attrlabl>
+			<attrdef>Disability 1: Total Paralysis [Parálisis_Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S033</attrlabl>
+			<attrdef>Disability 1: Probably I/S Member [Probl_Miembr_I_S]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S034</attrlabl>
+			<attrdef>Disability 1: Parkinsons [Mal_De_Parkinson]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S035</attrlabl>
+			<attrdef>Disability 1: Autism [Autismo]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S036</attrlabl>
+			<attrdef>Disability 1: Impediment Unspecified [Impedimento_No_Especificado]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S037</attrlabl>
+			<attrdef>Disability 1: No Response [Nr_Impedim1.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S038</attrlabl>
+			<attrdef>Disability 1: Total [Total_Impedim1.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S039</attrlabl>
+			<attrdef>University Attendance: Yes [Carrera_Univers_]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S040</attrlabl>
+			<attrdef>University Attendance: No [Carr__No_Univers]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S041</attrlabl>
+			<attrdef>University Attendance: F3 [F3]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S042</attrlabl>
+			<attrdef>University Attendance: Not Investigated In Indigenous Census [Carr__Ignorada]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S043</attrlabl>
+			<attrdef>Years Of Study: 1 [F0_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S044</attrlabl>
+			<attrdef>Years Of Study: 2 [F1_Año]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S045</attrlabl>
+			<attrdef>Years Of Study: 3 [F2_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S046</attrlabl>
+			<attrdef>Years Of Study: 4 [F3_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S047</attrlabl>
+			<attrdef>Years Of Study: 5 [F4_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S048</attrlabl>
+			<attrdef>Years Of Study: 6 [F5_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S049</attrlabl>
+			<attrdef>Years Of Study: 7 [F6_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S050</attrlabl>
+			<attrdef>Years Of Study: 8 [F7_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S051</attrlabl>
+			<attrdef>Years Of Study: 9 [F8_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S052</attrlabl>
+			<attrdef>Years Of Study: 10 [F9_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S053</attrlabl>
+			<attrdef>Years Of Study: 11 [F10_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S054</attrlabl>
+			<attrdef>Years Of Study: 12 [F11_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S055</attrlabl>
+			<attrdef>Years Of Study: 13 [F12_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S056</attrlabl>
+			<attrdef>Years Of Study: 14 [F13_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S057</attrlabl>
+			<attrdef>Years Of Study: 15 [F14_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S058</attrlabl>
+			<attrdef>Years Of Study: 16 [F15_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S059</attrlabl>
+			<attrdef>Years Of Study: 17 [F16_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S060</attrlabl>
+			<attrdef>Years Of Study: 18 [F17_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S061</attrlabl>
+			<attrdef>Years Of Study: 19 [F18_Años]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S062</attrlabl>
+			<attrdef>Years Of Study: Not Reported [No_Reportado]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S063</attrlabl>
+			<attrdef>Years Of Study: Total [Total_Impedim1.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S064</attrlabl>
+			<attrdef>Attended School: Yes [Sí__Asistió]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S065</attrlabl>
+			<attrdef>Attended School: No [No_Asistió]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S066</attrlabl>
+			<attrdef>Attended School: No Information [No_Informado]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S067</attrlabl>
+			<attrdef>Attended School: Total [Total_P11_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S068</attrlabl>
+			<attrdef>Currently Attending School: Yes [Sí_Asiste]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S069</attrlabl>
+			<attrdef>Currently Attending School: No [No_Asiste]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S070</attrlabl>
+			<attrdef>Currently Attending School: No Response [Nr_P13_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S071</attrlabl>
+			<attrdef>Currently Attending School: Total [Total_P11_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S072</attrlabl>
+			<attrdef>Pursued University Education: Yes [Sí_Carrera_Univ_]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S073</attrlabl>
+			<attrdef>Pursued University Education: No [No_Carrera_Univ_]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S074</attrlabl>
+			<attrdef>Pursued University Education: No Response [Nr_P13_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S075</attrlabl>
+			<attrdef>Pursued University Education: Indigenous Census Not Reported [No_Investigado_En_Censo_Indigena_P14_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S076</attrlabl>
+			<attrdef>Pursued University Education: Total [Total_P14_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S077</attrlabl>
+			<attrdef>Concluded University Career: Yes [Sí__Concluyó_C_S]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S078</attrlabl>
+			<attrdef>Concluded University Career: No [No_Concluyó]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S079</attrlabl>
+			<attrdef>Concluded University Career: No Response [Nr_Recorarr_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S080</attrlabl>
+			<attrdef>Concluded University Career: Indigenous Census Not Reported [No_Investigado_En_Censo_Indigena_P14_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S081</attrlabl>
+			<attrdef>Concluded University Career: Total [Total_P14_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S082</attrlabl>
+			<attrdef>Primary Language: Guaraní [Guaraní]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S083</attrlabl>
+			<attrdef>Primary Language: Spanish [Castellano]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S084</attrlabl>
+			<attrdef>Primary Language: Portuguese [Portugues]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S085</attrlabl>
+			<attrdef>Primary Language: German [Alemán]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S086</attrlabl>
+			<attrdef>Primary Language: English [Ingles]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S087</attrlabl>
+			<attrdef>Primary Language: French [Frances]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S088</attrlabl>
+			<attrdef>Primary Language: Japanese [Japones]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S089</attrlabl>
+			<attrdef>Primary Language: Chinese [Chino]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S090</attrlabl>
+			<attrdef>Primary Language: Korean [Coreano]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S091</attrlabl>
+			<attrdef>Primary Language: Italian [Italiano]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S092</attrlabl>
+			<attrdef>Primary Language: Arabic [Arabe]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S093</attrlabl>
+			<attrdef>Primary Language: Other Language [Otros_Idiomas]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S094</attrlabl>
+			<attrdef>Primary Language: Ne Other Language [Ne_Otro_Idioma]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S095</attrlabl>
+			<attrdef>Primary Language: Ache [Ache]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S096</attrlabl>
+			<attrdef>Primary Language: Enlhet Norte [Enlhet_Norte]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S097</attrlabl>
+			<attrdef>Primary Language: Enxet Sur [Enxet_Sur]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S098</attrlabl>
+			<attrdef>Primary Language: Angaite [Angaite]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S099</attrlabl>
+			<attrdef>Primary Language: Guana [Guana]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S100</attrlabl>
+			<attrdef>Primary Language: Maskoy [Maskoy]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S101</attrlabl>
+			<attrdef>Primary Language: Nivacle [Nivacle]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S102</attrlabl>
+			<attrdef>Primary Language: Maka [Maka]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S103</attrlabl>
+			<attrdef>Primary Language: Manjuy [Manjuy]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S104</attrlabl>
+			<attrdef>Primary Language: Ayoreo [Ayoreo]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S105</attrlabl>
+			<attrdef>Primary Language: Ybytoso [Ybytoso]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S106</attrlabl>
+			<attrdef>Primary Language: Toba-Qom [Toba_Qom]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S107</attrlabl>
+			<attrdef>Primary Language: Ne Indigenous Language [Ne_Idioma_Indíg_]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S108</attrlabl>
+			<attrdef>Primary Language: Total [Total_Recorarr_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S109</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Guarani [Guaraní]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S110</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Spanish [Castellano]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S111</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Portuguese [Portugues]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S112</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: German [Alemán]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S113</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: English [Ingles]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S114</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: French [Frances]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S115</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Japanese [Japones]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S116</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Chinese [Chino]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S117</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Korean [Coreano]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S118</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Italian [Italiano]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S119</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Arab [Arabe]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S120</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Others [Otros]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S121</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Mbya [Mbya]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S122</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Pai-Tavytera [Pai_Tavytera]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S123</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Guarani West [Guarani_Occident]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S124</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Enxet South [Enxet_Sur]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S125</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Sanapana [Sanapana]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S126</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Angaite [Angaite]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S127</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Nivacle [Nivacle]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S128</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Ayoreo [Ayoreo]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S129</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Ybytoso [Ybytoso]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S130</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Doesnt Speak [No_Habla]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S131</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: No Response [Nr_V23_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S132</attrlabl>
+			<attrdef>Primary Language Spoken In The Household: Total [Total_V22_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S133</attrlabl>
+			<attrdef>Disabled Persons Living In The Home: Yes [Sí]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S134</attrlabl>
+			<attrdef>Disabled Persons Living In The Home: No [No]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S135</attrlabl>
+			<attrdef>Disabled Persons Living In The Home: Total [Total_Vimpe_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S136</attrlabl>
+			<attrdef>Persons With Identity Card: Yes, Paraguayan [Sí__Paraguaya]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S137</attrlabl>
+			<attrdef>Persons With Identity Card: Yes, Foreign [Sí__Extranjera]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S138</attrlabl>
+			<attrdef>Persons With Identity Card: Paraguayan And Foreign [Paraguaya_Extran]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S139</attrlabl>
+			<attrdef>Persons With Identity Card: No Identity Card [No_Tiene]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S140</attrlabl>
+			<attrdef>Persons With Identity Card: No Response [Nr_P18_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S141</attrlabl>
+			<attrdef>Persons With Identity Card: Total [Total_P18_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Year</attrlabl>
+			<attrdef>Year</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_paraguay_social_1992</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 <metainfo>
-<metd>20220801</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220801</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_paraguay_social_1992</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

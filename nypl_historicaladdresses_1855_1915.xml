@@ -1,118 +1,118 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>location</themekey>
-<themekey>structure</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>New York City (5128581)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>New York City</placekey>
-<placekey>NYC</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>1855</tempkey>
-<tempkey>1915</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-74.017</westbc>
-<eastbc>-73.8951</eastbc>
-<northbc>40.83938</northbc>
-<southbc>40.672</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>location</themekey>
+				<themekey>structure</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>New York City (5128581)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>New York City</placekey>
+				<placekey>NYC</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>1855</tempkey>
+				<tempkey>1915</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-74.017</westbc>
+				<eastbc>-73.8951</eastbc>
+				<northbc>40.83938</northbc>
+				<southbc>40.672</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 New York City Historical Addresses, 1855-1915 is a point theme representing the location of building addresses in New York City between 1855 and 1915.  This dataset is part of the NYC Space/Time Directory created by the New York Public Library and was created in part through data collected through the NYPL Building Inspector project. The source data for this dataset was downloaded in October of 2020 at this link:  http://spacetime.nypl.org/#data which has further information about the creation of the data.  Columbia libraries staff converted the "flattened file" GeoJSON file to the geopackage file format.  All original filed are packaged in the direct download format.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>New York City Historical Addresses, 1855-1915</title>
-<origin>New York Public Library</origin>
-<pubdate>2017</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>New York Public Library</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>New York City Historical Addresses, 1855-1915</title>
+				<origin>New York Public Library</origin>
+				<pubdate>2017</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>New York Public Library</publish>
+				</pubinfo>
 <onlink>https://www.columbia.edu/acis/eds/gis/images/nypl_historicaladdresses_1855_1915.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>1855-1915</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>None</accconst>
-<useconst>None</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>New York Public Library</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>1855-1915</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>None</accconst>
+	<useconst>None</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>New York Public Library</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>Entity point</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>Entity point</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>geopackage and GEOJSON</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>nypl_historicaladdresses_1855_1915</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20210816</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20210816</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>geopackage and GEOJSON</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>nypl_historicaladdresses_1855_1915</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

@@ -20,7 +20,10 @@
 		</descript>
 		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2005</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2005</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>ground condition</current>
 		</timeperd>
 		<status>
@@ -31,220 +34,220 @@
 			<bounding>
 				<westbc>
 -3.828542</westbc>
-				<eastbc>
+					<eastbc>
 -3.527997</eastbc>
-				<northbc>
+						<northbc>
 40.536802</northbc>
-				<southbc>
+							<southbc>
 40.278044</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>transportation</themekey>
-			</theme>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>Roads</themekey>
-				<themekey>Streets</themekey>
-				<themekey>Center lines</themekey>
-				<themekey>roadways</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Madrid (3117735)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>Madrid (Spain)</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2005</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntperp>
-					<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
-				</cntperp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>PO Box 261961</address>
-					<city>Highlands Ranch</city>
-					<state>CO</state>
-					<postal>80163-1961</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>303-790-9730</cntvoice>
-				<cntemail>sales@landinfo.com</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/MADRID_ROADS.jpg</browsen>
-			<browsed>Thumbnail</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
-	</idinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>DigitalGlobe</origin>
-						<pubdate>2005</pubdate>
-						<title>Madrid Orthophotos</title>
-						<geoform>raster digital data</geoform>
-					</citeinfo>
-				</srccite>
-				<srcscale>50000</srcscale>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>20050920</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>20051201</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>Madrid Orthophotos</srccitea>
-			</srcinfo>
-			<procstep>
-				<procdesc>Street centerlines were digitized from digital orthophotos.</procdesc>
-				<srcused>Barcelona Orthophotos</srcused>
-				<procdate>2007</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>String</sdtstype>
-				<ptvctcnt>77194</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<planar>
-				<mapproj>
-					<mapprojn>Transverse Mercator</mapprojn>
-					<transmer>
-						<sfctrmer>0.999600</sfctrmer>
-						<longcm>-3.000000</longcm>
-						<latprjo>0.000000</latprjo>
-						<feast>500000.000000</feast>
-						<fnorth>0.000000</fnorth>
-					</transmer>
-				</mapproj>
-				<planci>
-					<plance>coordinate pair</plance>
-					<coordrep>
-						<absres>0.000000</absres>
-						<ordres>0.000000</ordres>
-					</coordrep>
-					<plandu>meters</plandu>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>WGS84</horizdn>
-				<ellips>GRS 1980</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257222</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>transportation</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Roads</themekey>
+								<themekey>Streets</themekey>
+								<themekey>Center lines</themekey>
+								<themekey>roadways</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Madrid (3117735)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>Madrid (Spain)</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2005</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntperp>
+									<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
+								</cntperp>
+								<cntaddr>
+									<addrtype>mailing address</addrtype>
+									<address>PO Box 261961</address>
+									<city>Highlands Ranch</city>
+									<state>CO</state>
+									<postal>80163-1961</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>303-790-9730</cntvoice>
+								<cntemail>sales@landinfo.com</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/MADRID_ROADS.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+					</idinfo>
+					<dataqual>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>DigitalGlobe</origin>
+										<pubdate>2005</pubdate>
+										<title>Madrid Orthophotos</title>
+										<geoform>raster digital data</geoform>
+									</citeinfo>
+								</srccite>
+								<srcscale>50000</srcscale>
+								<srctime>
+									<timeinfo>
+										<mdattim>
+											<sngdate>
+												<caldate>20050920</caldate>
+											</sngdate>
+											<sngdate>
+												<caldate>20051201</caldate>
+											</sngdate>
+										</mdattim>
+									</timeinfo>
+									<srccurr>ground condition</srccurr>
+								</srctime>
+								<srccitea>Madrid Orthophotos</srccitea>
+							</srcinfo>
+							<procstep>
+								<procdesc>Street centerlines were digitized from digital orthophotos.</procdesc>
+								<srcused>Barcelona Orthophotos</srcused>
+								<procdate>2007</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>String</sdtstype>
+								<ptvctcnt>77194</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<planar>
+								<mapproj>
+									<mapprojn>Transverse Mercator</mapprojn>
+									<transmer>
+										<sfctrmer>0.999600</sfctrmer>
+										<longcm>-3.000000</longcm>
+										<latprjo>0.000000</latprjo>
+										<feast>500000.000000</feast>
+										<fnorth>0.000000</fnorth>
+									</transmer>
+								</mapproj>
+								<planci>
+									<plance>coordinate pair</plance>
+									<coordrep>
+										<absres>0.000000</absres>
+										<ordres>0.000000</ordres>
+									</coordrep>
+									<plandu>meters</plandu>
+								</planci>
+							</planar>
+							<geodetic>
+								<horizdn>WGS84</horizdn>
+								<ellips>GRS 1980</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 MADRID_ROADS</enttypl>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>DESCRIPTIO</attrlabl>
-				<attrdef>Road Type</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>REMARKS</attrlabl>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>PO Box 261961</address>
-					<city>Highlands Ranch</city>
-					<state>CO</state>
-					<postal>80163-1961</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>303-790-9730</cntvoice>
-				<cntemail>sales@landinfo.com</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>landinfo_madrid_roads_2006</resdesc>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>Geopackage</formname>
-					<transize>.006618</transize>
-				</digtinfo>
-			</digform>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>20080408</metd>
-		<metrd>20100115</metrd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-				<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>DESCRIPTIO</attrlabl>
+									<attrdef>Road Type</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>REMARKS</attrlabl>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing address</addrtype>
+										<address>PO Box 261961</address>
+										<city>Highlands Ranch</city>
+										<state>CO</state>
+										<postal>80163-1961</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>303-790-9730</cntvoice>
+									<cntemail>sales@landinfo.com</cntemail>
+								</cntinfo>
+							</distrib>
+							<resdesc>landinfo_madrid_roads_2006</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>Geopackage</formname>
+										<transize>.006618</transize>
+									</digtinfo>
+								</digform>
+							</stdorder>
+						</distinfo>
+						<metainfo>
+							<metd>20080408</metd>
+							<metrd>20100115</metrd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+									<hours>11:00AM-5:00PM Monday - Thursday, 1:00PM-5:00PM Friday EST-USA</hours>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

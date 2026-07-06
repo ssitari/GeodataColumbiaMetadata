@@ -1,829 +1,829 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-<themekey>economy</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Peru (3932488)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Peru</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2017</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-81.4109425524</westbc>
-<eastbc>-68.6650797187</eastbc>
-<northbc>-0.0572054988649</northbc>
-<southbc>-18.3479753557</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+				<themekey>economy</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Peru (3932488)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Peru</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2017</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-81.4109425524</westbc>
+				<eastbc>-68.6650797187</eastbc>
+				<northbc>-0.0572054988649</northbc>
+				<southbc>-18.3479753557</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Peru Economic Census Data, 2017 is a polygon theme representing Districts (3rd level administrative units) in Peru as of 2017. Attribute data include summary results of the 2017 Perun census questions regarding economic characteristics. The documentation of these variables can be found in the "Demographic" section from the accompanying code book. This dataset is part of Peru 2017 Census collection.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Peru Economic Census Data, 2017</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2020</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Peru Economic Census Data, 2017</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2020</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_peru_economic_2017.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2017</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2017</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Peru_2017</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-  <attrlabl>CAPITAL</attrlabl>
-  <attrdef>Capital Of Department</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Name of Capital Of The Department</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM1_NAME</attrlabl>
-  <attrdef>Department Name</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Name of the department the census sector falls in.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM1</attrlabl>
-  <attrdef>Department Code</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM2_NAME</attrlabl>
-  <attrdef>Province Name</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Name of the Province the census sector falls in.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM2</attrlabl>
-  <attrdef>Province Code</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM3_NAME</attrlabl>
-  <attrdef>District Name [distrito]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Name of the district the census sector falls in.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM3</attrlabl>
-  <attrdef>District Code</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>CODE</attrlabl>
-  <attrdef>Join Code [codigo]</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E001</attrlabl>
-  <attrdef>Status Of Work The Week Prior To The Census: No Did Not Work For Pay [Sí, trabajó por algún pago]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E002</attrlabl>
-  <attrdef>Status Of Work The Week Prior To The Census: Yes Worked For Pay  [No trabajó por algún pago]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E003</attrlabl>
-  <attrdef>Work Done The Week Prior To The Census: Employed But Did Not Work [No trabajó pero tenía trabajo]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E004</attrlabl>
-  <attrdef>Work Done The Week Prior To The Census: Owns Their Own Business But Did Not Work [Aunque no trabajó, tiene algún negocio propio]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E005</attrlabl>
-  <attrdef>Work Done The Week Prior To The Census: Did Occasional Work For Pay [Realizó algún trabajo ocasional (cachuelo) por un pago]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E006</attrlabl>
-  <attrdef>Work Done The Week Prior To The Census: Worked On A Farm  [Realizó labores en la chacra]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E007</attrlabl>
-  <attrdef>Work Done The Week Prior To The Census: Helped With Work For No Pay [Estuvo ayudando, sin pago]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E008</attrlabl>
-  <attrdef>Work Done The Week Prior To The Census: Was In Home Care And Did Not Work.  [Estuvo al cuidado del hogar y no trabajó]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E009</attrlabl>
-  <attrdef>Work Done The Week Prior To The Census: Did Not Work [No trabajó]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E010</attrlabl>
-  <attrdef>Looking For Work The Week Prior To The Census: Yes [Sí, la semana pasada estuvo buscando trabajo]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E011</attrlabl>
-  <attrdef>Looking For Work The Week Prior To The Census: No [No, la semana pasada no estuvo buscando trabajo]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E012</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Large Group: Member Of The Executive, Legislative, Judicial Branch Public And Private [Miembros del Poder Ejecutivo, Legislativo, Judicial y personal directivo de la administración pública y privada]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E013</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Large Group: Scientific And Intellectual Professionals [Profesionales científicos e intelectuales]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E014</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Large Group: Technical Professionals [Profesionales tecnicos]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E015</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Large Group: Managers And Administrative Employees [Jefes y empleados administrativos]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E016</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Large Group: Service Workers And Shop And Market Vendors [Trabajadores de los servicios y vendedores de comercios y mercados]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E017</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Large Group: Farmers And Skilled Agricultural, Forestry And Fishing Workers [Agricultores y trabajadores calificados agropecuarios, forestales y pesqueros]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E018</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Large Group: Construction, Building, Craft, Electrical And Telecommunications Workers [Trabajadores de la construcción, edificación, productos artesanales, electricidad y las telecomunicaciones]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E019</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Large Group: Industrial Machinery Operators, Assemblers And Transport Drivers [Operadores de maquinaria industrial, ensambladores y conductores de transporte]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E020</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Large Group: Elementary Occupations [Ocupaciones elementales]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E021</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Large Group: Military And Police Occupations [Ocupaciones militares y policiales]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E022</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Agriculture Forestry And Fishing [A. Agricultura, ganadería, silvicultura y pesca]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E023</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Mining And Quarrying [B. Explotación de minas y canteras]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E024</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Manufacturing [C. Industrias manufactureras]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E025</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry:  Supply Of Electricity, Gas, Steam And Air Conditioning [D. Suministro de electricidad, gas, vapor y aire acondicionado]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E026</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Water Supply, Seewage Disposal, Waste Water Management [E. Suministro de agua; evacuación de aguas residuales, gestión de desechos y descontaminación]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E027</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Construction [F. Construcción]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E028</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Wholesale And Retail Motor Vehicle And Motorcycle Repair [G. Comercio al por mayor y al por menor; reparación de vehículos automotores y motocicletas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E029</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Transportation And Storage [H. Transporte y almacenamiento]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E030</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Accomodation And Food Service [I. Actividades de alojamiento y de servicio de comidas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E031</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Information And Communication [J. Información y comunicaciones]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E032</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Finance And Insurance [K. Actividades financieras y de seguros]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E033</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Real Estate [L. Actividades inmobiliarias]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E034</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Professional Scientific And Technical [M. Actividades profesionales, científicas y tecnicas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E035</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Administrative And Support Services [N. Actividades de servicios administrativos y de apoyo]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E036</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Public Administration And Defence; Compulsory Affiliation Social Security Plans [O. Administración pública y defensa; planes de seguridad social de afiliación obligatoria]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E037</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Teaching [P. Enseñanza]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E038</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Health Care And Social Assistance [Q. Actividades de atención de la salud humana y de asistencia social]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E039</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Artistic, Entertainement And Recreational Activities  [R. Actividades artísticas, de entretenimiento y recreativas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E040</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Other Service Activities [S. Otras actividades de servicios]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E041</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Production Of Goods And Services For Personal Use [T. Actividades de los hogares como empleadores; actividades no diferenciadas de los hogares como productores de bienes y servicios para uso propio]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E042</attrlabl>
-  <attrdef>Occupation The Week Prior To The Census By Industry: Extraterritorial Organizations And Bodies (Ambassadors And International Work) [U. Actividades de organizaciones y órganos extraterritoriales]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E043</attrlabl>
-  <attrdef>Position Held At Work: Employer [Empleador(a) o patrono(a)]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E044</attrlabl>
-  <attrdef>Position Held At Work: Freelance Or Self Employed [Trabajador(a) independiente o por cuenta propia]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E045</attrlabl>
-  <attrdef>Position Held At Work: Employee [Empleado(a)]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E046</attrlabl>
-  <attrdef>Position Held At Work: Worker [Obrero(a)]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E047</attrlabl>
-  <attrdef>Position Held At Work: Worker For A Family Business [Trabajador(a) en negocio de un familiar]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E048</attrlabl>
-  <attrdef>Position Held At Work: Homeworker [Trabajador(a) del hogar]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E049</attrlabl>
-  <attrdef>Number Of Employees At Your Workplace: 1-5 People [De 1 a 5 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E050</attrlabl>
-  <attrdef>Number Of Employees At Your Workplace: 6 - 10 People [De 6 a 10 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E051</attrlabl>
-  <attrdef>Number Of Employees At Your Workplace: 11-50 People [De 11 a 50 personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E052</attrlabl>
-  <attrdef>Number Of Employees At Your Workplace: 51 Or More People [De 51 a más personas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E053</attrlabl>
-  <attrdef>Location Of Workplace: In The Same District You Live In [En este distrito]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E054</attrlabl>
-  <attrdef>Location Of Workplace: In Another District [En otro distrito]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E055</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Other Country Or Area [Extranjeros]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E056</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Amazonas Department [Departamento de Amazonas]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E057</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Áncash Department [Departamento de Áncash]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E058</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Apurímac Department [Departamento de Apurímac]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E059</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Arequipa Department [Departamento de Arequipa]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E060</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Ayacucho Department [Departamento de Ayacucho]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E061</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Cajamarca Department [Departamento de Cajamarca]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E062</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Constitutional Province Of Callao [Provincia Constitucional del Callao]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E063</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Cusco Department [Departamento de Cusco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E064</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Huancavelica Department [Departamento de Huancavelica]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E065</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Huánuco Department [Departamento de Huánuco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E066</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Ica Department [Departamento de Ica]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E067</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Junín Department [Departamento de Junín]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E068</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: La Libertad Department [Departamento de La Libertad]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E069</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Lambayeque Department [Departamento de Lambayeque]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E070</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Lima Department [Departamento de Lima]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E071</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Loreto Department [Departamento de Loreto]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E072</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Madre De Dios Department [Departamento de Madre de Dios]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E073</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Moquegua Department [Departamento de Moquegua]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E074</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Pasco Department [Departamento de Pasco]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E075</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Piura Department [Departamento de Piura]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E076</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Puno Department [Departamento de Puno]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E077</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: San Martín Department [Departamento de San Martín]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E078</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Tacna Department [Departamento de Tacna]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E079</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Tumbes Department [Departamento de Tumbes]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>E080</attrlabl>
-  <attrdef>Department Where Your Work Is Centered: Ucayali Department [Departamento de Ucayali]</attrdef>
-  <attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Peru_2017</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CAPITAL</attrlabl>
+			<attrdef>Capital Of Department</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Name of Capital Of The Department</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM1_NAME</attrlabl>
+			<attrdef>Department Name</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Name of the department the census sector falls in.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM1</attrlabl>
+			<attrdef>Department Code</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM2_NAME</attrlabl>
+			<attrdef>Province Name</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Name of the Province the census sector falls in.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM2</attrlabl>
+			<attrdef>Province Code</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM3_NAME</attrlabl>
+			<attrdef>District Name [distrito]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Name of the district the census sector falls in.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM3</attrlabl>
+			<attrdef>District Code</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Join Code [codigo]</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E001</attrlabl>
+			<attrdef>Status Of Work The Week Prior To The Census: No Did Not Work For Pay [Sí, trabajó por algún pago]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E002</attrlabl>
+			<attrdef>Status Of Work The Week Prior To The Census: Yes Worked For Pay  [No trabajó por algún pago]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E003</attrlabl>
+			<attrdef>Work Done The Week Prior To The Census: Employed But Did Not Work [No trabajó pero tenía trabajo]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E004</attrlabl>
+			<attrdef>Work Done The Week Prior To The Census: Owns Their Own Business But Did Not Work [Aunque no trabajó, tiene algún negocio propio]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E005</attrlabl>
+			<attrdef>Work Done The Week Prior To The Census: Did Occasional Work For Pay [Realizó algún trabajo ocasional (cachuelo) por un pago]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E006</attrlabl>
+			<attrdef>Work Done The Week Prior To The Census: Worked On A Farm  [Realizó labores en la chacra]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E007</attrlabl>
+			<attrdef>Work Done The Week Prior To The Census: Helped With Work For No Pay [Estuvo ayudando, sin pago]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E008</attrlabl>
+			<attrdef>Work Done The Week Prior To The Census: Was In Home Care And Did Not Work.  [Estuvo al cuidado del hogar y no trabajó]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E009</attrlabl>
+			<attrdef>Work Done The Week Prior To The Census: Did Not Work [No trabajó]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E010</attrlabl>
+			<attrdef>Looking For Work The Week Prior To The Census: Yes [Sí, la semana pasada estuvo buscando trabajo]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E011</attrlabl>
+			<attrdef>Looking For Work The Week Prior To The Census: No [No, la semana pasada no estuvo buscando trabajo]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E012</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Large Group: Member Of The Executive, Legislative, Judicial Branch Public And Private [Miembros del Poder Ejecutivo, Legislativo, Judicial y personal directivo de la administración pública y privada]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E013</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Large Group: Scientific And Intellectual Professionals [Profesionales científicos e intelectuales]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E014</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Large Group: Technical Professionals [Profesionales tecnicos]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E015</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Large Group: Managers And Administrative Employees [Jefes y empleados administrativos]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E016</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Large Group: Service Workers And Shop And Market Vendors [Trabajadores de los servicios y vendedores de comercios y mercados]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E017</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Large Group: Farmers And Skilled Agricultural, Forestry And Fishing Workers [Agricultores y trabajadores calificados agropecuarios, forestales y pesqueros]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E018</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Large Group: Construction, Building, Craft, Electrical And Telecommunications Workers [Trabajadores de la construcción, edificación, productos artesanales, electricidad y las telecomunicaciones]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E019</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Large Group: Industrial Machinery Operators, Assemblers And Transport Drivers [Operadores de maquinaria industrial, ensambladores y conductores de transporte]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E020</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Large Group: Elementary Occupations [Ocupaciones elementales]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E021</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Large Group: Military And Police Occupations [Ocupaciones militares y policiales]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E022</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Agriculture Forestry And Fishing [A. Agricultura, ganadería, silvicultura y pesca]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E023</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Mining And Quarrying [B. Explotación de minas y canteras]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E024</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Manufacturing [C. Industrias manufactureras]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E025</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry:  Supply Of Electricity, Gas, Steam And Air Conditioning [D. Suministro de electricidad, gas, vapor y aire acondicionado]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E026</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Water Supply, Seewage Disposal, Waste Water Management [E. Suministro de agua; evacuación de aguas residuales, gestión de desechos y descontaminación]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E027</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Construction [F. Construcción]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E028</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Wholesale And Retail Motor Vehicle And Motorcycle Repair [G. Comercio al por mayor y al por menor; reparación de vehículos automotores y motocicletas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E029</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Transportation And Storage [H. Transporte y almacenamiento]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E030</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Accomodation And Food Service [I. Actividades de alojamiento y de servicio de comidas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E031</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Information And Communication [J. Información y comunicaciones]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E032</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Finance And Insurance [K. Actividades financieras y de seguros]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E033</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Real Estate [L. Actividades inmobiliarias]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E034</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Professional Scientific And Technical [M. Actividades profesionales, científicas y tecnicas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E035</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Administrative And Support Services [N. Actividades de servicios administrativos y de apoyo]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E036</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Public Administration And Defence; Compulsory Affiliation Social Security Plans [O. Administración pública y defensa; planes de seguridad social de afiliación obligatoria]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E037</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Teaching [P. Enseñanza]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E038</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Health Care And Social Assistance [Q. Actividades de atención de la salud humana y de asistencia social]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E039</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Artistic, Entertainement And Recreational Activities  [R. Actividades artísticas, de entretenimiento y recreativas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E040</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Other Service Activities [S. Otras actividades de servicios]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E041</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Production Of Goods And Services For Personal Use [T. Actividades de los hogares como empleadores; actividades no diferenciadas de los hogares como productores de bienes y servicios para uso propio]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E042</attrlabl>
+			<attrdef>Occupation The Week Prior To The Census By Industry: Extraterritorial Organizations And Bodies (Ambassadors And International Work) [U. Actividades de organizaciones y órganos extraterritoriales]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E043</attrlabl>
+			<attrdef>Position Held At Work: Employer [Empleador(a) o patrono(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E044</attrlabl>
+			<attrdef>Position Held At Work: Freelance Or Self Employed [Trabajador(a) independiente o por cuenta propia]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E045</attrlabl>
+			<attrdef>Position Held At Work: Employee [Empleado(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E046</attrlabl>
+			<attrdef>Position Held At Work: Worker [Obrero(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E047</attrlabl>
+			<attrdef>Position Held At Work: Worker For A Family Business [Trabajador(a) en negocio de un familiar]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E048</attrlabl>
+			<attrdef>Position Held At Work: Homeworker [Trabajador(a) del hogar]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E049</attrlabl>
+			<attrdef>Number Of Employees At Your Workplace: 1-5 People [De 1 a 5 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E050</attrlabl>
+			<attrdef>Number Of Employees At Your Workplace: 6 - 10 People [De 6 a 10 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E051</attrlabl>
+			<attrdef>Number Of Employees At Your Workplace: 11-50 People [De 11 a 50 personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E052</attrlabl>
+			<attrdef>Number Of Employees At Your Workplace: 51 Or More People [De 51 a más personas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E053</attrlabl>
+			<attrdef>Location Of Workplace: In The Same District You Live In [En este distrito]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E054</attrlabl>
+			<attrdef>Location Of Workplace: In Another District [En otro distrito]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E055</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Other Country Or Area [Extranjeros]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E056</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Amazonas Department [Departamento de Amazonas]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E057</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Áncash Department [Departamento de Áncash]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E058</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Apurímac Department [Departamento de Apurímac]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E059</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Arequipa Department [Departamento de Arequipa]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E060</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Ayacucho Department [Departamento de Ayacucho]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E061</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Cajamarca Department [Departamento de Cajamarca]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E062</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Constitutional Province Of Callao [Provincia Constitucional del Callao]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E063</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Cusco Department [Departamento de Cusco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E064</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Huancavelica Department [Departamento de Huancavelica]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E065</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Huánuco Department [Departamento de Huánuco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E066</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Ica Department [Departamento de Ica]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E067</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Junín Department [Departamento de Junín]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E068</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: La Libertad Department [Departamento de La Libertad]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E069</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Lambayeque Department [Departamento de Lambayeque]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E070</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Lima Department [Departamento de Lima]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E071</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Loreto Department [Departamento de Loreto]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E072</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Madre De Dios Department [Departamento de Madre de Dios]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E073</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Moquegua Department [Departamento de Moquegua]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E074</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Pasco Department [Departamento de Pasco]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E075</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Piura Department [Departamento de Piura]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E076</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Puno Department [Departamento de Puno]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E077</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: San Martín Department [Departamento de San Martín]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E078</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Tacna Department [Departamento de Tacna]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E079</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Tumbes Department [Departamento de Tumbes]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E080</attrlabl>
+			<attrdef>Department Where Your Work Is Centered: Ucayali Department [Departamento de Ucayali]</attrdef>
+			<attrdefs>National Institute of Statistics and Information (INEI) Peru, 2017 [Instituto Nacional de Estadistica e Informatica (INEI) Peru, 2017]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
-<metainfo>
-<metd>20210701</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-</metainfo>
 <distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_peru_economic_2017</resdesc>
-<distrib>
-</distrib>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_peru_economic_2017</resdesc>
+	<distrib>
+	</distrib>
 </distinfo>
+<metainfo>
+	<metd>20210701</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

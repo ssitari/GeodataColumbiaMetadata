@@ -1,139 +1,139 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <idinfo>
-    <citation>
-      <citeinfo>
-        <origin>East View Cartographic, Inc.</origin>
-        <pubdate>2021</pubdate>
-        <title>Chile Manzanas with Housing Census Data, 2017</title>
-        <geoform>vector digital data</geoform>
-        <pubinfo>
-        <publish>East View Geospatial (Firm)</publish>
-        </pubinfo>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<title>Chile Manzanas with Housing Census Data, 2017</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
         <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_chile_housing_2017.zip
-        </onlink>
-      </citeinfo>
-    </citation>
-    <descript>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<descript>
       <abstract> Chile Manzanas with Housing Census Data, 2017 is a polygon theme representing Manzanas (6th level administrative units) in Chile as of 2017.  Attribute information includes official population and housing data for Chile from the 2017 census. Official population and housing data for Chile from the 2017 census. This census is provided at the manzana administrative level (ADM6) and includes 151,545 polygons with 54 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "TOTAL_PERS" was updated to D001 and given the alias "Total Number of People[TOTAL_PERS]", the letter D was given as it relates to the Demographic theme table. D = Demographic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-      </abstract>
-      <purpose>This dataset provides population statistics for Chile, with correlating administrative boundaries in vector format, for use in GIS software.</purpose>
-    </descript>
-    <timeperd>
-      <timeinfo>
-        <sngdate>
-          <caldate>2017</caldate>
-        </sngdate>
-      </timeinfo>
-      <current>Ground condition</current>
-    </timeperd>
-    <status>
-      <progress>Complete</progress>
-      <update>Unknown</update>
-    </status>
-    <spdom>
-      <bounding>
-        <westbc>-118.754914871</westbc>
-        <eastbc>-68.842485104</eastbc>
-        <northbc>-14.931578981</northbc>
-        <southbc>-53.314873533</southbc>
-      </bounding>
-    </spdom>
-    <keywords>
-      <theme>
-        <themekt>ISO 19115 Topic Category</themekt>
-        <themekey>society</themekey>
-        <themekey>boundaries</themekey>
-      </theme>
-      <theme>
-        <themekt>None</themekt>
-        <themekey>house-type</themekey>
-        <themekey>rural</themekey>
-        <themekey>literacy</themekey>
-        <themekey>demographics</themekey>
-        <themekey>occupancy</themekey>
-        <themekey>housing</themekey>
-        <themekey>census</themekey>
-        <themekey>occupants</themekey>
-        <themekey>ownership</themekey>
-        <themekey>families</themekey>
-        <themekey>households</themekey>
-        <themekey>urban</themekey>
-        <themekey>household</themekey>
-      </theme>
-      <place>
-      	<placekt>GeoNames</placekt>
-      	<placekey>Chile (3895114)</placekey>
-      </place>
-      <place>
-        <placekt>None</placekt>
-        <placekey>Republic of Chile</placekey>
-        <placekey>Chile</placekey>
-      </place>
-      <temporal>
-      <tempkt>None</tempkt>
-      <tempkey>2017</tempkey>
-      </temporal>
-    </keywords>
-    <accconst>For current Columbia affiliates only.</accconst>
-    <useconst>For educational, non-commercial use only.</useconst>
-    <datacred>National Statistics Insitute (INE) of Chile, 2017 [Instituto Nacional de Estadísticas (INE) de Chile, 2017]</datacred>
-    <ptcontac>
-    <cntinfo>
-    <cntperp>
-    <cntorg>East View Cartographic, Incorporated</cntorg>
-    </cntperp>
-    </cntinfo>
-    </ptcontac>
-  </idinfo>
-  <spdoinfo>
-  <direct>Vector</direct>
-  <ptvctinf>
-  <sdtsterm>
-  <sdtstype>G-polygon</sdtstype>
-  </sdtsterm>
-  </ptvctinf>
-  </spdoinfo>
-  <spref>
+	</abstract>
+	<purpose>This dataset provides population statistics for Chile, with correlating administrative boundaries in vector format, for use in GIS software.</purpose>
+</descript>
+<timeperd>
+	<timeinfo>
+		<sngdate>
+			<caldate>2017</caldate>
+		</sngdate>
+	</timeinfo>
+	<current>Ground condition</current>
+</timeperd>
+<status>
+	<progress>Complete</progress>
+	<update>Unknown</update>
+</status>
+<spdom>
+	<bounding>
+		<westbc>-118.754914871</westbc>
+		<eastbc>-68.842485104</eastbc>
+		<northbc>-14.931578981</northbc>
+		<southbc>-53.314873533</southbc>
+	</bounding>
+</spdom>
+<keywords>
+	<theme>
+		<themekt>ISO 19115 Topic Category</themekt>
+		<themekey>society</themekey>
+		<themekey>boundaries</themekey>
+	</theme>
+	<theme>
+		<themekt>None</themekt>
+		<themekey>house-type</themekey>
+		<themekey>rural</themekey>
+		<themekey>literacy</themekey>
+		<themekey>demographics</themekey>
+		<themekey>occupancy</themekey>
+		<themekey>housing</themekey>
+		<themekey>census</themekey>
+		<themekey>occupants</themekey>
+		<themekey>ownership</themekey>
+		<themekey>families</themekey>
+		<themekey>households</themekey>
+		<themekey>urban</themekey>
+		<themekey>household</themekey>
+	</theme>
+	<place>
+		<placekt>GeoNames</placekt>
+		<placekey>Chile (3895114)</placekey>
+	</place>
+	<place>
+		<placekt>None</placekt>
+		<placekey>Republic of Chile</placekey>
+		<placekey>Chile</placekey>
+	</place>
+	<temporal>
+		<tempkt>None</tempkt>
+		<tempkey>2017</tempkey>
+	</temporal>
+</keywords>
+<accconst>For current Columbia affiliates only.</accconst>
+<useconst>For educational, non-commercial use only.</useconst>
+<datacred>National Statistics Insitute (INE) of Chile, 2017 [Instituto Nacional de Estadísticas (INE) de Chile, 2017]</datacred>
+<ptcontac>
+	<cntinfo>
+		<cntperp>
+			<cntorg>East View Cartographic, Incorporated</cntorg>
+		</cntperp>
+	</cntinfo>
+</ptcontac>
+</idinfo>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<spref>
 	<horizsys>
 		<gridsys>GCS_WGS_1984</gridsys>
 	</horizsys>
-  </spref>
+</spref>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_chile_housing_2017</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
-  <metainfo>
-  <metd>20220801</metd>
-  <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-  <metstdv>FGDC-STD-001-1998</metstdv>
-  <mettc>local time</mettc>
-  <metc>
-  <cntinfo>
-  <cntperp>
-  <cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-  <cntper>GIS/Metadata Librarian</cntper>
-  </cntperp>
-  <cntaddr>
-  <addrtype>mailing and physical address</addrtype>
-  <address>420 W. 118th St. 215 IAB, MC 3301</address>
-  <city>New York</city>
-  <state>NY</state>
-  <postal>10027</postal>
-  </cntaddr>
-  <cntvoice>(212) 854-6012</cntvoice>
-  <cntemail>data@library.columbia.edu</cntemail>
-  </cntinfo>
-  </metc>
-  </metainfo>
-  <distinfo>
-  <stdorder>
-  <digform>
-  <digtinfo>
-  <formname>geopackage</formname>
-  <formspec>zip</formspec>
-  </digtinfo>
-  </digform>
-  </stdorder>
-  <resdesc>ev_chile_housing_2017</resdesc>
-  <distrib>
-  </distrib>
-  </distinfo>
+<metainfo>
+	<metd>20220801</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

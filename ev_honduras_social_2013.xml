@@ -1,1349 +1,1349 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Honduras (3608932)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Honduras</placekey>
-<placekey>Honduras</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2013</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-89.356610</westbc>
-<eastbc>-83.149552</eastbc>
-<northbc>16.518630</northbc>
-<southbc>12.984875</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Honduras (3608932)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Honduras</placekey>
+				<placekey>Honduras</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2013</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-89.356610</westbc>
+				<eastbc>-83.149552</eastbc>
+				<northbc>16.518630</northbc>
+				<southbc>12.984875</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Honduras Social Census Data, 2013 is a polygon theme representing Barrios (5th level administrative units) in Honduras as of 2013.  Attribute data includes social variables from the 2013 Hondurasian census.
 Official population and housing data for Honduras from the 2013 census. This census is provided at the barrio administrative level (ADM5) and includes 3732 polygons with 629 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Parentesco: Jefe O Jefa Del Hogar" was updated to D001 and given the alias "Relationship: Head Of Household[Parentesco: Jefe O Jefa Del Hogar]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
- </abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Honduras Social Census Data, 2013</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Honduras Social Census Data, 2013</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_honduras_social_2013.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2013</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2013</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 
 <spref>
-<horizsys>
-  <gridsys>WGS_1984_Web_Mercator_Auxiliary_Sphere</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>WGS_1984_Web_Mercator_Auxiliary_Sphere</gridsys>
+	</horizsys>
 </spref>
 
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Honduras_2013</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S001</attrlabl>
-    <attrdef>Self Identifies As: Indigenous[Uno Se Identifica Como: Indígena]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S002</attrlabl>
-    <attrdef>Self Identifies As: Afro Honduran[Uno Se Identifica Como: Afrohondureno]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S003</attrlabl>
-    <attrdef>Self Identifies As: Black[Uno Se Identifica Como: Negro/a]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S004</attrlabl>
-    <attrdef>Self Identifies As: Mestizo[Uno Se Identifica Como: Mestizo/a]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S005</attrlabl>
-    <attrdef>Self Identifies As: White[Uno Se Identifica Como: Blanco/a]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S006</attrlabl>
-    <attrdef>Self Identifies As: Other[Uno Se Identifica Como: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S007</attrlabl>
-    <attrdef>Self Identifies As: Total[Uno Se Identifica Como: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S008</attrlabl>
-    <attrdef>Indigenous People: Maya Chorti[Pueblo Indígena: Maya Chorti]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S009</attrlabl>
-    <attrdef>Indigenous People: Lenca[Pueblo Indígena: Lenca]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S010</attrlabl>
-    <attrdef>Indigenous People: Miskito[Pueblo Indígena: Miskito]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S011</attrlabl>
-    <attrdef>Indigenous People: Nahua[Pueblo Indígena: Nahua]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S012</attrlabl>
-    <attrdef>Indigenous People: Pech[Pueblo Indígena: Pech]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S013</attrlabl>
-    <attrdef>Indigenous People: Tolupan[Pueblo Indígena: Tolupan]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S014</attrlabl>
-    <attrdef>Indigenous People: Tawahka[Pueblo Indígena: Tawahka]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S015</attrlabl>
-    <attrdef>Indigenous People: Garifuna[Pueblo Indígena: Garifuna]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S016</attrlabl>
-    <attrdef>Indigenous People: Black; English Speaking[Pueblo Indígena: Negro De Habla Inglesa]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S017</attrlabl>
-    <attrdef>Indigenous People: Other[Pueblo Indígena: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S018</attrlabl>
-    <attrdef>Indigenous People: Total[Pueblo Indígena: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S019</attrlabl>
-    <attrdef>Limitation To Move Or Walk: Yes[Limitación Para Moverse O Caminar: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S020</attrlabl>
-    <attrdef>Limitation To Move Or Walk: No[Limitación Para Moverse O Caminar: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S021</attrlabl>
-    <attrdef>Limitation To Move Or Walk: Total[Limitación Para Moverse O Caminar: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S022</attrlabl>
-    <attrdef>Cause Of Their Limitation To Move Or Walk: Birth[Causa De Limitacion Para Moverse O Caminar: Nacimiento]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S023</attrlabl>
-    <attrdef>Cause Of Their Limitation To Move Or Walk: Disease[Causa De Limitacion Para Moverse O Caminar: Enfermedad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S024</attrlabl>
-    <attrdef>Cause Of Their Limitation To Move Or Walk: Accident[Causa De Limitacion Para Moverse O Caminar: Accidente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S025</attrlabl>
-    <attrdef>Cause Of Their Limitation To Move Or Walk: Age[Causa De Limitacion Para Moverse O Caminar: Edad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S026</attrlabl>
-    <attrdef>Cause Of Their Limitation To Move Or Walk: Total[Causa De Limitacion Para Moverse O Caminar: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S027</attrlabl>
-    <attrdef>Limitation To Use Their Arms Or Hands: Yes[Limitación Para Usar Sus Brazos O Manos: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S028</attrlabl>
-    <attrdef>Limitation To Use Their Arms Or Hands: No[Limitación Para Usar Sus Brazos O Manos: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S029</attrlabl>
-    <attrdef>Limitation To Use Their Arms Or Hands: Total[Limitación Para Usar Sus Brazos O Manos: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S030</attrlabl>
-    <attrdef>Cause Of Their Limitation To Use Their Arms Or Hands: Birth[Causa De Limitacion Para Usar Sus Brazos O Manos: Nacimiento]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S031</attrlabl>
-    <attrdef>Cause Of Their Limitation To Use Their Arms Or Hands: Disease[Causa De Limitacion Para Usar Sus Brazos O Manos: Enfermedad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S032</attrlabl>
-    <attrdef>Cause Of Their Limitation To Use Their Arms Or Hands: Accident[Causa De Limitacion Para Usar Sus Brazos O Manos: Accidente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S033</attrlabl>
-    <attrdef>Cause Of Their Limitation To Use Their Arms Or Hands: Age[Causa De Limitacion Para Usar Sus Brazos O Manos: Edad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S034</attrlabl>
-    <attrdef>Cause Of Their Limitation To Use Their Arms Or Hands: Total[Causa De Limitacion Para Usar Sus Brazos O Manos: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S035</attrlabl>
-    <attrdef>Limitation To See: Yes[Limitación Para Ver: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S036</attrlabl>
-    <attrdef>Limitation To See: No[Limitación Para Ver: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S037</attrlabl>
-    <attrdef>Limitation To See: Total[Limitación Para Ver: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S038</attrlabl>
-    <attrdef>Cause Of Sight Limitation: Birth[Causa De Su Limitacion Para Ver: Nacimiento]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S039</attrlabl>
-    <attrdef>Cause Of Sight Limitation: Disease[Causa De Su Limitacion Para Ver: Enfermedad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S040</attrlabl>
-    <attrdef>Cause Of Sight Limitation: Accident[Causa De Su Limitacion Para Ver: Accidente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S041</attrlabl>
-    <attrdef>Cause Of Sight Limitation: Age[Causa De Su Limitacion Para Ver: Edad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S042</attrlabl>
-    <attrdef>Cause Of Sight Limitation: Total[Causa De Su Limitacion Para Ver: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S043</attrlabl>
-    <attrdef>Limitation Hear: Yes[Limitación Para Oir: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S044</attrlabl>
-    <attrdef>Limitation Hear: No[Limitación Para Oir: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S045</attrlabl>
-    <attrdef>Limitation Hear: Total[Limitación Para Oir: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S046</attrlabl>
-    <attrdef>Cause Of Their Limitation To Hear: Birth[Causa De Su Limitacion Para Oir: Nacimiento]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S047</attrlabl>
-    <attrdef>Cause Of Their Limitation To Hear: Disease[Causa De Su Limitacion Para Oir: Enfermedad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S048</attrlabl>
-    <attrdef>Cause Of Their Limitation To Hear: Accident[Causa De Su Limitacion Para Oir: Accidente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S049</attrlabl>
-    <attrdef>Cause Of Their Limitation To Hear: Age[Causa De Su Limitacion Para Oir: Edad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S050</attrlabl>
-    <attrdef>Cause Of Their Limitation To Hear: Total[Causa De Su Limitacion Para Oir: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S051</attrlabl>
-    <attrdef>Limitation Talk: Yes[Limitación Para Hablar: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S052</attrlabl>
-    <attrdef>Limitation Talk: No[Limitación Para Hablar: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S053</attrlabl>
-    <attrdef>Limitation Talk: Total[Limitación Para Hablar: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S054</attrlabl>
-    <attrdef>Cause Of Their Limitation To Talk: Birth[Causa De Su Limitacion Para Hablar: Nacimiento]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S055</attrlabl>
-    <attrdef>Cause Of Their Limitation To Talk: Disease[Causa De Su Limitacion Para Hablar: Enfermedad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S056</attrlabl>
-    <attrdef>Cause Of Their Limitation To Talk: Accident[Causa De Su Limitacion Para Hablar: Accidente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S057</attrlabl>
-    <attrdef>Cause Of Their Limitation To Talk: Age[Causa De Su Limitacion Para Hablar: Edad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S058</attrlabl>
-    <attrdef>Cause Of Their Limitation To Talk: Total[Causa De Su Limitacion Para Hablar: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S059</attrlabl>
-    <attrdef>Mental Retardation: Yes[Retraso Mental: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S060</attrlabl>
-    <attrdef>Mental Retardation: No[Retraso Mental: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S061</attrlabl>
-    <attrdef>Mental Retardation: Total[Retraso Mental: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S062</attrlabl>
-    <attrdef>Cause Of Their Mental Retardation: Birth[Causa De Su Retraso Mental: Nacimiento]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S063</attrlabl>
-    <attrdef>Cause Of Their Mental Retardation: Disease[Causa De Su Retraso Mental: Enfermedad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S064</attrlabl>
-    <attrdef>Cause Of Their Mental Retardation: Accident[Causa De Su Retraso Mental: Accidente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S065</attrlabl>
-    <attrdef>Cause Of Their Mental Retardation: Age[Causa De Su Retraso Mental: Edad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S066</attrlabl>
-    <attrdef>Cause Of Their Mental Retardation: Total[Causa De Su Retraso Mental: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S067</attrlabl>
-    <attrdef>Limitation Taking Care Of Oneself: Yes[Limitación Para Cuidarse A Sí Mismo: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S068</attrlabl>
-    <attrdef>Limitation Taking Care Of Oneself: No[Limitación Para Cuidarse A Sí Mismo: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S069</attrlabl>
-    <attrdef>Limitation Taking Care Of Oneself: Total[Limitación Para Cuidarse A Sí Mismo: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S070</attrlabl>
-    <attrdef>Cause Of Their Limitation To Take Care Of Oneself: Birth[Causa De Su Limitacion Para Cuidarse A Sí Mismo: Nacimiento]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S071</attrlabl>
-    <attrdef>Cause Of Their Limitation To Take Care Of Oneself: Disease[Causa De Su Limitacion Para Cuidarse A Sí Mismo: Enfermedad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S072</attrlabl>
-    <attrdef>Cause Of Their Limitation To Take Care Of Oneself: Accident[Causa De Su Limitacion Para Cuidarse A Sí Mismo: Accidente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S073</attrlabl>
-    <attrdef>Cause Of Their Limitation To Take Care Of Oneself: Age[Causa De Su Limitacion Para Cuidarse A Sí Mismo: Edad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S074</attrlabl>
-    <attrdef>Cause Of Their Limitation To Take Care Of Oneself: Total[Causa De Su Limitacion Para Cuidarse A Sí Mismo: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S075</attrlabl>
-    <attrdef>Other Deficiency: Yes[Otra Deficiencia: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S076</attrlabl>
-    <attrdef>Other Deficiency: No[Otra Deficiencia: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S077</attrlabl>
-    <attrdef>Other Deficiency: Total[Otra Deficiencia: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S078</attrlabl>
-    <attrdef>Cause Of Limitation For This Another Deficiency: Birth[Causa De Su Limitacion Para Esta Otra Deficiencia: Nacimiento]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S079</attrlabl>
-    <attrdef>Cause Of Limitation For This Another Deficiency: Disease[Causa De Su Limitacion Para Esta Otra Deficiencia: Enfermedad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S080</attrlabl>
-    <attrdef>Cause Of Limitation For This Another Deficiency: Accident[Causa De Su Limitacion Para Esta Otra Deficiencia: Accidente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S081</attrlabl>
-    <attrdef>Cause Of Limitation For This Another Deficiency: Age[Causa De Su Limitacion Para Esta Otra Deficiencia: Edad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S082</attrlabl>
-    <attrdef>Cause Of Limitation For This Another Deficiency: Total[Causa De Su Limitacion Para Esta Otra Deficiencia: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S083</attrlabl>
-    <attrdef>Literate: Yes[Sabe Leer Y Escribir: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S084</attrlabl>
-    <attrdef>Literate: No[Sabe Leer Y Escribir: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S085</attrlabl>
-    <attrdef>Literate: Total[Sabe Leer Y Escribir: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S086</attrlabl>
-    <attrdef>School Attendance: Yes[Asistencia Escolar: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S087</attrlabl>
-    <attrdef>School Attendance: No[Asistencia Escolar: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S088</attrlabl>
-    <attrdef>School Attendance: Total[Asistencia Escolar: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S089</attrlabl>
-    <attrdef>Last Completed Degree: None[Ultimo Grado Aprobado: Ninguno]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S090</attrlabl>
-    <attrdef>Last Completed Degree: Literacy[Ultimo Grado Aprobado: Alfabetizacion]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S091</attrlabl>
-    <attrdef>Last Completed Degree: Pre Basic[Ultimo Grado Aprobado: Pre Basica]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S092</attrlabl>
-    <attrdef>Last Completed Degree: Primary[Ultimo Grado Aprobado: Basica]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S093</attrlabl>
-    <attrdef>Last Completed Degree: Common Secondary Cycle[Ultimo Grado Aprobado: Secundaria Ciclo Comun]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S094</attrlabl>
-    <attrdef>Last Completed Degree: Secondary Diversified[Ultimo Grado Aprobado: Secundaria Diversificado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S095</attrlabl>
-    <attrdef>Last Completed Degree: Advanced Technician[Ultimo Grado Aprobado: Tecnico Superior]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S096</attrlabl>
-    <attrdef>Last Completed Degree: Higher Non-University[Ultimo Grado Aprobado: Superior No Universitaria]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S097</attrlabl>
-    <attrdef>Last Completed Degree: University[Ultimo Grado Aprobado: Universitaria]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S098</attrlabl>
-    <attrdef>Last Completed Degree: Post University Degree[Ultimo Grado Aprobado: Post Grado Universitario]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S099</attrlabl>
-    <attrdef>Last Completed Degree: Total[Ultimo Grado Aprobado: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S100</attrlabl>
-    <attrdef>Last Completed Year: P11B_Range[Ultimo Año Aprobado: P11B_Rango]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S101</attrlabl>
-    <attrdef>Last Completed Year: P11B_F4[Ultimo Año Aprobado: P11B_F4]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S102</attrlabl>
-    <attrdef>Last Completed Year: P11B_F5[Ultimo Año Aprobado: P11B_F5]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S103</attrlabl>
-    <attrdef>Last Completed Year: P11B_F6[Ultimo Año Aprobado: P11B_F6]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S104</attrlabl>
-    <attrdef>Last Completed Year: P11B_F7[Ultimo Año Aprobado: P11B_F7]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S105</attrlabl>
-    <attrdef>Last Completed Year: P11B_F8[Ultimo Año Aprobado: P11B_F8]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S106</attrlabl>
-    <attrdef>Last Completed Year: P11B_F9[Ultimo Año Aprobado: P11B_F9]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S107</attrlabl>
-    <attrdef>Last Completed Year: P11B_F10[Ultimo Año Aprobado: P11B_F10]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S108</attrlabl>
-    <attrdef>Last Completed Year: P11B_F11[Ultimo Año Aprobado: P11B_F11]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S109</attrlabl>
-    <attrdef>Last Completed Year: P11B_Range1[Ultimo Año Aprobado: P11B_Rango1]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S110</attrlabl>
-    <attrdef>Last Completed Year: P11B_Total[Ultimo Año Aprobado: P11B_Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S111</attrlabl>
-    <attrdef>Finished Their Specialization: Yes[Termino Su Especialización: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S112</attrlabl>
-    <attrdef>Finished Their Specialization: No[Termino Su Especialización: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S113</attrlabl>
-    <attrdef>Finished Their Specialization: Total[Termino Su Especialización: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S114</attrlabl>
-    <attrdef>Years Of Study: 0[Años De Estudio: 0]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S115</attrlabl>
-    <attrdef>Years Of Study: 1[Años De Estudio: 1]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S116</attrlabl>
-    <attrdef>Years Of Study: 2[Años De Estudio: 2]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S117</attrlabl>
-    <attrdef>Years Of Study: 3[Años De Estudio: 3]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S118</attrlabl>
-    <attrdef>Years Of Study: 4[Años De Estudio: 4]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S119</attrlabl>
-    <attrdef>Years Of Study: 5[Años De Estudio: 5]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S120</attrlabl>
-    <attrdef>Years Of Study: 6[Años De Estudio: 6]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S121</attrlabl>
-    <attrdef>Years Of Study: 7[Años De Estudio: 7]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S122</attrlabl>
-    <attrdef>Years Of Study: 8[Años De Estudio: 8]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S123</attrlabl>
-    <attrdef>Years Of Study: 9[Años De Estudio: 9]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S124</attrlabl>
-    <attrdef>Years Of Study: 10[Años De Estudio: 10]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S125</attrlabl>
-    <attrdef>Years Of Study: 11[Años De Estudio: 11]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S126</attrlabl>
-    <attrdef>Years Of Study: 12[Años De Estudio: 12]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S127</attrlabl>
-    <attrdef>Years Of Study: 13[Años De Estudio: 13]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S128</attrlabl>
-    <attrdef>Years Of Study: 14[Años De Estudio: 14]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S129</attrlabl>
-    <attrdef>Years Of Study: 15[Años De Estudio: 15]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S130</attrlabl>
-    <attrdef>Years Of Study: 16[Años De Estudio: 16]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S131</attrlabl>
-    <attrdef>Years Of Study: 17[Años De Estudio: 17]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S132</attrlabl>
-    <attrdef>Years Of Study: 18[Años De Estudio: 18]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S133</attrlabl>
-    <attrdef>Years Of Study: 19[Años De Estudio: 19]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S134</attrlabl>
-    <attrdef>Years Of Study: 20[Años De Estudio: 20]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S135</attrlabl>
-    <attrdef>Years Of Study: 21[Años De Estudio: 21]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S136</attrlabl>
-    <attrdef>Years Of Study: 22[Años De Estudio: 22]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S137</attrlabl>
-    <attrdef>Years Of Study: 23[Años De Estudio: 23]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S138</attrlabl>
-    <attrdef>Years Of Study: Total[Años De Estudio: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S139</attrlabl>
-    <attrdef>Has Email: Yes[Tiene Correo Electrónico: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S140</attrlabl>
-    <attrdef>Has Email: No[Tiene Correo Electrónico: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S141</attrlabl>
-    <attrdef>Has Email: Total[Tiene Correo Electrónico: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S142</attrlabl>
-    <attrdef>Has A Cellphone: Yes[Tiene Celular: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S143</attrlabl>
-    <attrdef>Has A Cellphone: No[Tiene Celular: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S144</attrlabl>
-    <attrdef>Has A Cellphone: Total[Tiene Celular: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S145</attrlabl>
-    <attrdef>With Age Children Not Enrolled In Basic Education: No NBI[Con Niños En Edad De Educación Básica No Matriculados: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S146</attrlabl>
-    <attrdef>With Age Children Not Enrolled In Basic Education: With NBI[Con Niños En Edad De Educación Básica No Matriculados: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>S147</attrlabl>
-    <attrdef>With Age Children Not Enrolled In Basic Education: Total[Con Niños En Edad De Educación Básica No Matriculados: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv/>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv/>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Honduras_2013</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S001</attrlabl>
+			<attrdef>Self Identifies As: Indigenous[Uno Se Identifica Como: Indígena]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S002</attrlabl>
+			<attrdef>Self Identifies As: Afro Honduran[Uno Se Identifica Como: Afrohondureno]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S003</attrlabl>
+			<attrdef>Self Identifies As: Black[Uno Se Identifica Como: Negro/a]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S004</attrlabl>
+			<attrdef>Self Identifies As: Mestizo[Uno Se Identifica Como: Mestizo/a]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S005</attrlabl>
+			<attrdef>Self Identifies As: White[Uno Se Identifica Como: Blanco/a]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S006</attrlabl>
+			<attrdef>Self Identifies As: Other[Uno Se Identifica Como: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S007</attrlabl>
+			<attrdef>Self Identifies As: Total[Uno Se Identifica Como: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S008</attrlabl>
+			<attrdef>Indigenous People: Maya Chorti[Pueblo Indígena: Maya Chorti]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S009</attrlabl>
+			<attrdef>Indigenous People: Lenca[Pueblo Indígena: Lenca]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S010</attrlabl>
+			<attrdef>Indigenous People: Miskito[Pueblo Indígena: Miskito]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S011</attrlabl>
+			<attrdef>Indigenous People: Nahua[Pueblo Indígena: Nahua]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S012</attrlabl>
+			<attrdef>Indigenous People: Pech[Pueblo Indígena: Pech]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S013</attrlabl>
+			<attrdef>Indigenous People: Tolupan[Pueblo Indígena: Tolupan]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S014</attrlabl>
+			<attrdef>Indigenous People: Tawahka[Pueblo Indígena: Tawahka]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S015</attrlabl>
+			<attrdef>Indigenous People: Garifuna[Pueblo Indígena: Garifuna]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S016</attrlabl>
+			<attrdef>Indigenous People: Black; English Speaking[Pueblo Indígena: Negro De Habla Inglesa]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S017</attrlabl>
+			<attrdef>Indigenous People: Other[Pueblo Indígena: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S018</attrlabl>
+			<attrdef>Indigenous People: Total[Pueblo Indígena: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S019</attrlabl>
+			<attrdef>Limitation To Move Or Walk: Yes[Limitación Para Moverse O Caminar: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S020</attrlabl>
+			<attrdef>Limitation To Move Or Walk: No[Limitación Para Moverse O Caminar: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S021</attrlabl>
+			<attrdef>Limitation To Move Or Walk: Total[Limitación Para Moverse O Caminar: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S022</attrlabl>
+			<attrdef>Cause Of Their Limitation To Move Or Walk: Birth[Causa De Limitacion Para Moverse O Caminar: Nacimiento]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S023</attrlabl>
+			<attrdef>Cause Of Their Limitation To Move Or Walk: Disease[Causa De Limitacion Para Moverse O Caminar: Enfermedad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S024</attrlabl>
+			<attrdef>Cause Of Their Limitation To Move Or Walk: Accident[Causa De Limitacion Para Moverse O Caminar: Accidente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S025</attrlabl>
+			<attrdef>Cause Of Their Limitation To Move Or Walk: Age[Causa De Limitacion Para Moverse O Caminar: Edad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S026</attrlabl>
+			<attrdef>Cause Of Their Limitation To Move Or Walk: Total[Causa De Limitacion Para Moverse O Caminar: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S027</attrlabl>
+			<attrdef>Limitation To Use Their Arms Or Hands: Yes[Limitación Para Usar Sus Brazos O Manos: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S028</attrlabl>
+			<attrdef>Limitation To Use Their Arms Or Hands: No[Limitación Para Usar Sus Brazos O Manos: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S029</attrlabl>
+			<attrdef>Limitation To Use Their Arms Or Hands: Total[Limitación Para Usar Sus Brazos O Manos: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S030</attrlabl>
+			<attrdef>Cause Of Their Limitation To Use Their Arms Or Hands: Birth[Causa De Limitacion Para Usar Sus Brazos O Manos: Nacimiento]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S031</attrlabl>
+			<attrdef>Cause Of Their Limitation To Use Their Arms Or Hands: Disease[Causa De Limitacion Para Usar Sus Brazos O Manos: Enfermedad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S032</attrlabl>
+			<attrdef>Cause Of Their Limitation To Use Their Arms Or Hands: Accident[Causa De Limitacion Para Usar Sus Brazos O Manos: Accidente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S033</attrlabl>
+			<attrdef>Cause Of Their Limitation To Use Their Arms Or Hands: Age[Causa De Limitacion Para Usar Sus Brazos O Manos: Edad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S034</attrlabl>
+			<attrdef>Cause Of Their Limitation To Use Their Arms Or Hands: Total[Causa De Limitacion Para Usar Sus Brazos O Manos: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S035</attrlabl>
+			<attrdef>Limitation To See: Yes[Limitación Para Ver: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S036</attrlabl>
+			<attrdef>Limitation To See: No[Limitación Para Ver: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S037</attrlabl>
+			<attrdef>Limitation To See: Total[Limitación Para Ver: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S038</attrlabl>
+			<attrdef>Cause Of Sight Limitation: Birth[Causa De Su Limitacion Para Ver: Nacimiento]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S039</attrlabl>
+			<attrdef>Cause Of Sight Limitation: Disease[Causa De Su Limitacion Para Ver: Enfermedad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S040</attrlabl>
+			<attrdef>Cause Of Sight Limitation: Accident[Causa De Su Limitacion Para Ver: Accidente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S041</attrlabl>
+			<attrdef>Cause Of Sight Limitation: Age[Causa De Su Limitacion Para Ver: Edad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S042</attrlabl>
+			<attrdef>Cause Of Sight Limitation: Total[Causa De Su Limitacion Para Ver: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S043</attrlabl>
+			<attrdef>Limitation Hear: Yes[Limitación Para Oir: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S044</attrlabl>
+			<attrdef>Limitation Hear: No[Limitación Para Oir: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S045</attrlabl>
+			<attrdef>Limitation Hear: Total[Limitación Para Oir: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S046</attrlabl>
+			<attrdef>Cause Of Their Limitation To Hear: Birth[Causa De Su Limitacion Para Oir: Nacimiento]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S047</attrlabl>
+			<attrdef>Cause Of Their Limitation To Hear: Disease[Causa De Su Limitacion Para Oir: Enfermedad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S048</attrlabl>
+			<attrdef>Cause Of Their Limitation To Hear: Accident[Causa De Su Limitacion Para Oir: Accidente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S049</attrlabl>
+			<attrdef>Cause Of Their Limitation To Hear: Age[Causa De Su Limitacion Para Oir: Edad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S050</attrlabl>
+			<attrdef>Cause Of Their Limitation To Hear: Total[Causa De Su Limitacion Para Oir: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S051</attrlabl>
+			<attrdef>Limitation Talk: Yes[Limitación Para Hablar: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S052</attrlabl>
+			<attrdef>Limitation Talk: No[Limitación Para Hablar: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S053</attrlabl>
+			<attrdef>Limitation Talk: Total[Limitación Para Hablar: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S054</attrlabl>
+			<attrdef>Cause Of Their Limitation To Talk: Birth[Causa De Su Limitacion Para Hablar: Nacimiento]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S055</attrlabl>
+			<attrdef>Cause Of Their Limitation To Talk: Disease[Causa De Su Limitacion Para Hablar: Enfermedad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S056</attrlabl>
+			<attrdef>Cause Of Their Limitation To Talk: Accident[Causa De Su Limitacion Para Hablar: Accidente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S057</attrlabl>
+			<attrdef>Cause Of Their Limitation To Talk: Age[Causa De Su Limitacion Para Hablar: Edad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S058</attrlabl>
+			<attrdef>Cause Of Their Limitation To Talk: Total[Causa De Su Limitacion Para Hablar: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S059</attrlabl>
+			<attrdef>Mental Retardation: Yes[Retraso Mental: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S060</attrlabl>
+			<attrdef>Mental Retardation: No[Retraso Mental: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S061</attrlabl>
+			<attrdef>Mental Retardation: Total[Retraso Mental: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S062</attrlabl>
+			<attrdef>Cause Of Their Mental Retardation: Birth[Causa De Su Retraso Mental: Nacimiento]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S063</attrlabl>
+			<attrdef>Cause Of Their Mental Retardation: Disease[Causa De Su Retraso Mental: Enfermedad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S064</attrlabl>
+			<attrdef>Cause Of Their Mental Retardation: Accident[Causa De Su Retraso Mental: Accidente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S065</attrlabl>
+			<attrdef>Cause Of Their Mental Retardation: Age[Causa De Su Retraso Mental: Edad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S066</attrlabl>
+			<attrdef>Cause Of Their Mental Retardation: Total[Causa De Su Retraso Mental: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S067</attrlabl>
+			<attrdef>Limitation Taking Care Of Oneself: Yes[Limitación Para Cuidarse A Sí Mismo: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S068</attrlabl>
+			<attrdef>Limitation Taking Care Of Oneself: No[Limitación Para Cuidarse A Sí Mismo: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S069</attrlabl>
+			<attrdef>Limitation Taking Care Of Oneself: Total[Limitación Para Cuidarse A Sí Mismo: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S070</attrlabl>
+			<attrdef>Cause Of Their Limitation To Take Care Of Oneself: Birth[Causa De Su Limitacion Para Cuidarse A Sí Mismo: Nacimiento]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S071</attrlabl>
+			<attrdef>Cause Of Their Limitation To Take Care Of Oneself: Disease[Causa De Su Limitacion Para Cuidarse A Sí Mismo: Enfermedad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S072</attrlabl>
+			<attrdef>Cause Of Their Limitation To Take Care Of Oneself: Accident[Causa De Su Limitacion Para Cuidarse A Sí Mismo: Accidente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S073</attrlabl>
+			<attrdef>Cause Of Their Limitation To Take Care Of Oneself: Age[Causa De Su Limitacion Para Cuidarse A Sí Mismo: Edad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S074</attrlabl>
+			<attrdef>Cause Of Their Limitation To Take Care Of Oneself: Total[Causa De Su Limitacion Para Cuidarse A Sí Mismo: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S075</attrlabl>
+			<attrdef>Other Deficiency: Yes[Otra Deficiencia: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S076</attrlabl>
+			<attrdef>Other Deficiency: No[Otra Deficiencia: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S077</attrlabl>
+			<attrdef>Other Deficiency: Total[Otra Deficiencia: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S078</attrlabl>
+			<attrdef>Cause Of Limitation For This Another Deficiency: Birth[Causa De Su Limitacion Para Esta Otra Deficiencia: Nacimiento]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S079</attrlabl>
+			<attrdef>Cause Of Limitation For This Another Deficiency: Disease[Causa De Su Limitacion Para Esta Otra Deficiencia: Enfermedad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S080</attrlabl>
+			<attrdef>Cause Of Limitation For This Another Deficiency: Accident[Causa De Su Limitacion Para Esta Otra Deficiencia: Accidente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S081</attrlabl>
+			<attrdef>Cause Of Limitation For This Another Deficiency: Age[Causa De Su Limitacion Para Esta Otra Deficiencia: Edad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S082</attrlabl>
+			<attrdef>Cause Of Limitation For This Another Deficiency: Total[Causa De Su Limitacion Para Esta Otra Deficiencia: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S083</attrlabl>
+			<attrdef>Literate: Yes[Sabe Leer Y Escribir: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S084</attrlabl>
+			<attrdef>Literate: No[Sabe Leer Y Escribir: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S085</attrlabl>
+			<attrdef>Literate: Total[Sabe Leer Y Escribir: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S086</attrlabl>
+			<attrdef>School Attendance: Yes[Asistencia Escolar: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S087</attrlabl>
+			<attrdef>School Attendance: No[Asistencia Escolar: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S088</attrlabl>
+			<attrdef>School Attendance: Total[Asistencia Escolar: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S089</attrlabl>
+			<attrdef>Last Completed Degree: None[Ultimo Grado Aprobado: Ninguno]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S090</attrlabl>
+			<attrdef>Last Completed Degree: Literacy[Ultimo Grado Aprobado: Alfabetizacion]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S091</attrlabl>
+			<attrdef>Last Completed Degree: Pre Basic[Ultimo Grado Aprobado: Pre Basica]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S092</attrlabl>
+			<attrdef>Last Completed Degree: Primary[Ultimo Grado Aprobado: Basica]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S093</attrlabl>
+			<attrdef>Last Completed Degree: Common Secondary Cycle[Ultimo Grado Aprobado: Secundaria Ciclo Comun]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S094</attrlabl>
+			<attrdef>Last Completed Degree: Secondary Diversified[Ultimo Grado Aprobado: Secundaria Diversificado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S095</attrlabl>
+			<attrdef>Last Completed Degree: Advanced Technician[Ultimo Grado Aprobado: Tecnico Superior]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S096</attrlabl>
+			<attrdef>Last Completed Degree: Higher Non-University[Ultimo Grado Aprobado: Superior No Universitaria]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S097</attrlabl>
+			<attrdef>Last Completed Degree: University[Ultimo Grado Aprobado: Universitaria]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S098</attrlabl>
+			<attrdef>Last Completed Degree: Post University Degree[Ultimo Grado Aprobado: Post Grado Universitario]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S099</attrlabl>
+			<attrdef>Last Completed Degree: Total[Ultimo Grado Aprobado: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S100</attrlabl>
+			<attrdef>Last Completed Year: P11B_Range[Ultimo Año Aprobado: P11B_Rango]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S101</attrlabl>
+			<attrdef>Last Completed Year: P11B_F4[Ultimo Año Aprobado: P11B_F4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S102</attrlabl>
+			<attrdef>Last Completed Year: P11B_F5[Ultimo Año Aprobado: P11B_F5]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S103</attrlabl>
+			<attrdef>Last Completed Year: P11B_F6[Ultimo Año Aprobado: P11B_F6]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S104</attrlabl>
+			<attrdef>Last Completed Year: P11B_F7[Ultimo Año Aprobado: P11B_F7]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S105</attrlabl>
+			<attrdef>Last Completed Year: P11B_F8[Ultimo Año Aprobado: P11B_F8]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S106</attrlabl>
+			<attrdef>Last Completed Year: P11B_F9[Ultimo Año Aprobado: P11B_F9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S107</attrlabl>
+			<attrdef>Last Completed Year: P11B_F10[Ultimo Año Aprobado: P11B_F10]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S108</attrlabl>
+			<attrdef>Last Completed Year: P11B_F11[Ultimo Año Aprobado: P11B_F11]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S109</attrlabl>
+			<attrdef>Last Completed Year: P11B_Range1[Ultimo Año Aprobado: P11B_Rango1]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S110</attrlabl>
+			<attrdef>Last Completed Year: P11B_Total[Ultimo Año Aprobado: P11B_Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S111</attrlabl>
+			<attrdef>Finished Their Specialization: Yes[Termino Su Especialización: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S112</attrlabl>
+			<attrdef>Finished Their Specialization: No[Termino Su Especialización: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S113</attrlabl>
+			<attrdef>Finished Their Specialization: Total[Termino Su Especialización: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S114</attrlabl>
+			<attrdef>Years Of Study: 0[Años De Estudio: 0]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S115</attrlabl>
+			<attrdef>Years Of Study: 1[Años De Estudio: 1]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S116</attrlabl>
+			<attrdef>Years Of Study: 2[Años De Estudio: 2]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S117</attrlabl>
+			<attrdef>Years Of Study: 3[Años De Estudio: 3]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S118</attrlabl>
+			<attrdef>Years Of Study: 4[Años De Estudio: 4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S119</attrlabl>
+			<attrdef>Years Of Study: 5[Años De Estudio: 5]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S120</attrlabl>
+			<attrdef>Years Of Study: 6[Años De Estudio: 6]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S121</attrlabl>
+			<attrdef>Years Of Study: 7[Años De Estudio: 7]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S122</attrlabl>
+			<attrdef>Years Of Study: 8[Años De Estudio: 8]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S123</attrlabl>
+			<attrdef>Years Of Study: 9[Años De Estudio: 9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S124</attrlabl>
+			<attrdef>Years Of Study: 10[Años De Estudio: 10]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S125</attrlabl>
+			<attrdef>Years Of Study: 11[Años De Estudio: 11]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S126</attrlabl>
+			<attrdef>Years Of Study: 12[Años De Estudio: 12]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S127</attrlabl>
+			<attrdef>Years Of Study: 13[Años De Estudio: 13]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S128</attrlabl>
+			<attrdef>Years Of Study: 14[Años De Estudio: 14]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S129</attrlabl>
+			<attrdef>Years Of Study: 15[Años De Estudio: 15]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S130</attrlabl>
+			<attrdef>Years Of Study: 16[Años De Estudio: 16]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S131</attrlabl>
+			<attrdef>Years Of Study: 17[Años De Estudio: 17]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S132</attrlabl>
+			<attrdef>Years Of Study: 18[Años De Estudio: 18]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S133</attrlabl>
+			<attrdef>Years Of Study: 19[Años De Estudio: 19]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S134</attrlabl>
+			<attrdef>Years Of Study: 20[Años De Estudio: 20]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S135</attrlabl>
+			<attrdef>Years Of Study: 21[Años De Estudio: 21]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S136</attrlabl>
+			<attrdef>Years Of Study: 22[Años De Estudio: 22]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S137</attrlabl>
+			<attrdef>Years Of Study: 23[Años De Estudio: 23]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S138</attrlabl>
+			<attrdef>Years Of Study: Total[Años De Estudio: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S139</attrlabl>
+			<attrdef>Has Email: Yes[Tiene Correo Electrónico: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S140</attrlabl>
+			<attrdef>Has Email: No[Tiene Correo Electrónico: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S141</attrlabl>
+			<attrdef>Has Email: Total[Tiene Correo Electrónico: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S142</attrlabl>
+			<attrdef>Has A Cellphone: Yes[Tiene Celular: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S143</attrlabl>
+			<attrdef>Has A Cellphone: No[Tiene Celular: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S144</attrlabl>
+			<attrdef>Has A Cellphone: Total[Tiene Celular: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S145</attrlabl>
+			<attrdef>With Age Children Not Enrolled In Basic Education: No NBI[Con Niños En Edad De Educación Básica No Matriculados: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S146</attrlabl>
+			<attrdef>With Age Children Not Enrolled In Basic Education: With NBI[Con Niños En Edad De Educación Básica No Matriculados: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>S147</attrlabl>
+			<attrdef>With Age Children Not Enrolled In Basic Education: Total[Con Niños En Edad De Educación Básica No Matriculados: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv/>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv/>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_honduras_social_2013</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_honduras_social_2013</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

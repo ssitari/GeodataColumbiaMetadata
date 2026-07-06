@@ -14,13 +14,15 @@
 				</pubinfo>
 				<othercit>This data is created and maintained by the Customs and Border Protection (CBP), and spatially enhanced by BTS. The CBP also designated the port codes, names, and attributes.</othercit>
 				<lworkcit>
-						<origin>USDOT-RITA-BTS</origin>
-						<pubdate>20120724</pubdate>
-						<title>National Transportation Atlas Databases (NTAD) 2013</title>
-						<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+					<origin>USDOT-RITA-BTS</origin>
+					<pubdate>20120724</pubdate>
+					<title>National Transportation Atlas Databases (NTAD) 2013</title>
+					<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
 
 				</lworkcit>
-				<edition>2013</edition><onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_border_x.zip</onlink></citeinfo>
+				<edition>2013</edition>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_border_x.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>Border Crossing Ports are points of entry for land modes along the U.S. - Canadian and U.S.- Mexcian borders. The ports of entry are located in 15 states along the U.S. borders. The nominal scale of the data set is 1:1000,000 with a maximal positional error of +- 10 meters.</abstract>
@@ -154,11 +156,11 @@
 				<srccite>
 					<citeinfo>
 						<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
-					<onlink>http://culspatial-dev.cul.columbia.edu/geoserver/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=Columbia.&amp;outputFormat=SHAPE-ZIP</onlink>
+						<onlink>http://culspatial-dev.cul.columbia.edu/geoserver/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=Columbia.&amp;outputFormat=SHAPE-ZIP</onlink>
 
-				<typesrc>None</typesrc>
-			</citeinfo>
-			</srccite>
+						<typesrc>None</typesrc>
+					</citeinfo>
+				</srccite>
 			</srcinfo>
 			<procstep>
 				<procdesc>The creation of this geospatial data layer was completed by USDOT-RITA-BTS in November 2011 and updated in February 2013. Step 1: Convert textual data into shapefile using the ArcGIS function. Step 2: Export the shapefile into KML and display the ports on Google Earth. Each port was checked with road network and country bounderies. Corrections were made for the locations that are far from ports, then record their geographic coordinates. Step 3: Export KML file with port locations into shapefile using the third-party software. Then other attributes were added within ArcGIS.</procdesc>

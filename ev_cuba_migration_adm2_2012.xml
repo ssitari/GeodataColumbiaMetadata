@@ -14,7 +14,7 @@
 			<place>
 				<placekt>None</placekt>
 				<placekey>Republic of Cuba</placekey>
-        <placekey>Cuba</placekey>
+				<placekey>Cuba</placekey>
 			</place>
 			<temporal>
 				<tempkt>None</tempkt>
@@ -32,7 +32,7 @@
 		<descript>
 			<abstract>
 Cuba Migration Census Data (Municipality), 2012 is a polygon theme representing Municipalities (2nd level administrative units) in Cuba as of 2012. Attribute data include summary results of the 2012 Cuban census questions regarding migration characteristics. The documentation of these variables can be found in the "Migration" section from the accompanying code book. This dataset is part of Cuba 2012 Census collection.
-</abstract>
+			</abstract>
 		</descript>
 		<citation>
 			<citeinfo>
@@ -44,650 +44,650 @@ Cuba Migration Census Data (Municipality), 2012 is a polygon theme representing 
 					<publish>East View Geospatial (Firm)</publish>
 				</pubinfo>
 				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_cuba_migration_adm2_2012.zip
-</onlink>
-			</citeinfo>
-		</citation>
-		<timeperd>
-			<current>Ground condition</current>
-			<timeinfo>
-				<sngdate>
-					<caldate>2012</caldate>
-				</sngdate>
-			</timeinfo>
-		</timeperd>
-		<status>
-			<progress>Complete</progress>
-			<update>Unknown</update>
-		</status>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntperp>
-					<cntorg>East View Cartographic, Incorporated</cntorg>
-				</cntperp>
-			</cntinfo>
-		</ptcontac>
-	</idinfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>G-polygon</sdtstype>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-  <eainfo>
-  <detailed>
-    <enttyp>
-      <enttypl>Cuba_2012</enttypl>
-      <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-      <enttypds>East View Geospatial</enttypds>
-    </enttyp>
-    <attr>
-    <attrlabl>ADM1_CODE</attrlabl>
-    <attrdef>Province Code [cod_prov]</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census cestor as a coded value</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>ADM1_NAME</attrlabl>
-    <attrdef>Province Name</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Name of Province the census sector falls in </udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>ADM2_CODE</attrlabl>
-    <attrdef>Municipality Join Code [municipio]</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census cestor as a coded value</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>ADM2_NAME</attrlabl>
-    <attrdef>Municipality Name [nombre]</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Name of Municipality the census sector falls in </udom>
-    </attrdomv>
-  </attr>
-  <attr>
-	  <attrlabl>SUM_M001</attrlabl>
-	  <attrdef>State Of Birth: Born In Cuba [F1_Native_born]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M002</attrlabl>
-	  <attrdef>State Of Birth: Born Outside Of Cuba [F2_Foreign_born]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M003</attrlabl>
-	  <attrdef>Country Of Birth: Cuba [F21080_Cuba]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M004</attrlabl>
-	  <attrdef>Country Of Birth: Haiti [F21130_Haiti]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M005</attrlabl>
-	  <attrdef>Country Of Birth: Jamaica [F21140_Jamaica]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M006</attrlabl>
-	  <attrdef>Country Of Birth: Mexico [F22060_Mexico]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M007</attrlabl>
-	  <attrdef>Country Of Birth: United_States [F24040_United_States]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M008</attrlabl>
-	  <attrdef>Country Of Birth: China [F31010_China]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M009</attrlabl>
-	  <attrdef>Country Of Birth: Afghanistan [F32010_Afghanistan]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M010</attrlabl>
-	  <attrdef>Country Of Birth: Russia,USSR [F41080_Russia_USSR]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M011</attrlabl>
-	  <attrdef>Country Of Birth: Ukraine [F41100_Ukraine]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M012</attrlabl>
-	  <attrdef>Country Of Birth: Spain [F43120_Spain]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M013</attrlabl>
-	  <attrdef>Country Of Birth: Germany [F44040_Germany]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M014</attrlabl>
-	  <attrdef>Country Of Birth: Oceania [F50000_Oceania]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M015</attrlabl>
-	  <attrdef>Country Of Birth: Other County Not Specified [F69900_Other_countries_not_specified]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M016</attrlabl>
-	  <attrdef>Province Of Birth: Pinar Del Rio [F1_Pinar_del_Rio]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M017</attrlabl>
-	  <attrdef>Province Of Birth: La Habana [F2_La_Habana]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M018</attrlabl>
-	  <attrdef>Province Of Birth: Ciudad De La Habana [F3_Ciudad_de_la_Habana]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M019</attrlabl>
-	  <attrdef>Province Of Birth: Matanzas [F4_Matanzas]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M020</attrlabl>
-	  <attrdef>Province Of Birth: Villa Clara [F5_Villa_Clara]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M021</attrlabl>
-	  <attrdef>Province Of Birth: Cienfuegos [F6_Cienfuegos]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M022</attrlabl>
-	  <attrdef>Province Of Birth: Sancti Spiritus [F7_Sancti_Spiritus]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M023</attrlabl>
-	  <attrdef>Province Of Birth: Ciego De Avila [F8_Ciego_de_Avila]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M024</attrlabl>
-	  <attrdef>Province Of Birth: Camaguey [F9_Camaguey]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M025</attrlabl>
-	  <attrdef>Province Of Birth: Las Tunas [F10_Las_Tunas]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M026</attrlabl>
-	  <attrdef>Province Of Birth: Holguin [F11_Holguin]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M027</attrlabl>
-	  <attrdef>Province Of Birth: Granma [F12_Granma]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M028</attrlabl>
-	  <attrdef>Province Of Birth: Santiago De Cuba [F13_Santiago_de_Cuba]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M029</attrlabl>
-	  <attrdef>Province Of Birth: Guantanamo [F14_Guantanamo]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M030</attrlabl>
-	  <attrdef>Province Of Birth: Unknown [F998_Unknown]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M031</attrlabl>
-	  <attrdef>Migration Within Cuba: Migrated Within The Same Major And Minor Administrative Unit [F11_Same_major_same_minor_administrative_unit]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M032</attrlabl>
-	  <attrdef>Migration Within Cuba: Migrated Within The Same Major But A Different Minor Administrative Unit [F12_Same_major_different_minor_administrative_unit]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M033</attrlabl>
-	  <attrdef>Migration Within Cuba: Migrated To A Different Major Administrative Unit [F20_Different_major_administrative_unit]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M034</attrlabl>
-	  <attrdef>Migration Within Cuba: Migrated Abroad [F30_Abroad]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M035</attrlabl>
-	  <attrdef>Migration Within Cuba: No Response [F99_Not_reported_missing]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M036</attrlabl>
-	  <attrdef>Country Of Migration: Africa [F10000_Africa]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M037</attrlabl>
-	  <attrdef>Country Of Migration: Haiti [F21130_Haiti]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M038</attrlabl>
-	  <attrdef>Country Of Migration: Jamaica [F21140_Jamaica]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M039</attrlabl>
-	  <attrdef>Country Of Migration: Mexico [F22060_Mexico]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M040</attrlabl>
-	  <attrdef>Country Of Migration: United States [F24050_United_States]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M041</attrlabl>
-	  <attrdef>Country Of Migration: Afghanistan [F32010_Afghanistan]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M042</attrlabl>
-	  <attrdef>Country Of Migration: Russia, USSR [F41080_Russia_USSR]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M043</attrlabl>
-	  <attrdef>Country Of Migration: Ukraine [F41100_Ukraine]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M044</attrlabl>
-	  <attrdef>Country Of Migration: Spain [F43120_Spain]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M045</attrlabl>
-	  <attrdef>Country Of Migration: Germany [F44040_Germany]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M046</attrlabl>
-	  <attrdef>Country Of Migration: Oceania [F50000_Oceania]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M047</attrlabl>
-	  <attrdef>Country Of Migration: Non-International Migration [F90000_Non_migrants__International_]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M048</attrlabl>
-	  <attrdef>Country Of Migration: No Response [F99998_Response_suppressed]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M049</attrlabl>
-	  <attrdef>Country Of Migration: Unknown [F99999_Unknown]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M050</attrlabl>
-	  <attrdef>Province Of Previous Residence: Pinar Del Rio [F192001_Pinar_del_Rio]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M051</attrlabl>
-	  <attrdef>Province Of Previous Residence: La Habana [F192002_La_Habana]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M052</attrlabl>
-	  <attrdef>Province Of Previous Residence: Ciudad De La Habana [F192003_Ciudad_Habana]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M053</attrlabl>
-	  <attrdef>Province Of Previous Residence: Matanzas [F192004_Matanzas]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M054</attrlabl>
-	  <attrdef>Province Of Previous Residence: Villa Clara [F192005_Villa_Clara]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M055</attrlabl>
-	  <attrdef>Province Of Previous Residence: Cienfuegos [F192006_Cienfuegos]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M056</attrlabl>
-	  <attrdef>Province Of Previous Residence: Sancti Spiritus [F192007_Sancti_Spiritus]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M057</attrlabl>
-	  <attrdef>Province Of Previous Residence: Ciego De Avila [F192008_Ciego_Avila]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M058</attrlabl>
-	  <attrdef>Province Of Previous Residence: Camaguey [F192009_Camaguey]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M059</attrlabl>
-	  <attrdef>Province Of Previous Residence: Las Tunas [F192010_Las_Tunas]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M060</attrlabl>
-	  <attrdef>Province Of Previous Residence: Holguin [F192011_Holguin]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M061</attrlabl>
-	  <attrdef>Province Of Previous Residence: Granma [F192012_Granma]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M062</attrlabl>
-	  <attrdef>Province Of Previous Residence: Santiago De Cuba [F192013_Santiago_de_Cuba]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M063</attrlabl>
-	  <attrdef>Province Of Previous Residence: Guantanamo [F192014_Guantanamo]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M064</attrlabl>
-	  <attrdef>Province Of Previous Residence: Isla De La Juventud [F192099_Isla_de_la_Juventud]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M065</attrlabl>
-	  <attrdef>Province Of Previous Residence: Abroad [F192997_Abroad]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M066</attrlabl>
-	  <attrdef>Province Of Previous Residence: Unknown [F192998_Unknown]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-	<attr>
-	  <attrlabl>SUM_M067</attrlabl>
-	  <attrdef>Province Of Previous Residence: No Response [F192999_NIU__not_in_universe_]</attrdef>
-	  <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-	  <attrdomv>
-	    <udom>Frequency of response in the census sector</udom>
-	  </attrdomv>
-	</attr>
-  </detailed>
-  </eainfo>
-	<metainfo>
-		<metd>20210701</metd>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metc>
-			<cntinfo>
-				<cntperp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntperp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
-	<distinfo>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>Geopackage</formname>
-					<formspec>zip</formspec>
-				</digtinfo>
-			</digform>
-		</stdorder>
-		<resdesc>ev_cuba_migration_adm2_2012</resdesc>
-		<distrib>
-		</distrib>
-	</distinfo>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2012</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+</idinfo>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<eainfo>
+	<detailed>
+		<enttyp>
+			<enttypl>Cuba_2012</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>ADM1_CODE</attrlabl>
+			<attrdef>Province Code [cod_prov]</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census cestor as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM1_NAME</attrlabl>
+			<attrdef>Province Name</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Name of Province the census sector falls in </udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM2_CODE</attrlabl>
+			<attrdef>Municipality Join Code [municipio]</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census cestor as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM2_NAME</attrlabl>
+			<attrdef>Municipality Name [nombre]</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Name of Municipality the census sector falls in </udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M001</attrlabl>
+			<attrdef>State Of Birth: Born In Cuba [F1_Native_born]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M002</attrlabl>
+			<attrdef>State Of Birth: Born Outside Of Cuba [F2_Foreign_born]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M003</attrlabl>
+			<attrdef>Country Of Birth: Cuba [F21080_Cuba]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M004</attrlabl>
+			<attrdef>Country Of Birth: Haiti [F21130_Haiti]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M005</attrlabl>
+			<attrdef>Country Of Birth: Jamaica [F21140_Jamaica]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M006</attrlabl>
+			<attrdef>Country Of Birth: Mexico [F22060_Mexico]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M007</attrlabl>
+			<attrdef>Country Of Birth: United_States [F24040_United_States]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M008</attrlabl>
+			<attrdef>Country Of Birth: China [F31010_China]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M009</attrlabl>
+			<attrdef>Country Of Birth: Afghanistan [F32010_Afghanistan]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M010</attrlabl>
+			<attrdef>Country Of Birth: Russia,USSR [F41080_Russia_USSR]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M011</attrlabl>
+			<attrdef>Country Of Birth: Ukraine [F41100_Ukraine]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M012</attrlabl>
+			<attrdef>Country Of Birth: Spain [F43120_Spain]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M013</attrlabl>
+			<attrdef>Country Of Birth: Germany [F44040_Germany]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M014</attrlabl>
+			<attrdef>Country Of Birth: Oceania [F50000_Oceania]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M015</attrlabl>
+			<attrdef>Country Of Birth: Other County Not Specified [F69900_Other_countries_not_specified]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M016</attrlabl>
+			<attrdef>Province Of Birth: Pinar Del Rio [F1_Pinar_del_Rio]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M017</attrlabl>
+			<attrdef>Province Of Birth: La Habana [F2_La_Habana]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M018</attrlabl>
+			<attrdef>Province Of Birth: Ciudad De La Habana [F3_Ciudad_de_la_Habana]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M019</attrlabl>
+			<attrdef>Province Of Birth: Matanzas [F4_Matanzas]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M020</attrlabl>
+			<attrdef>Province Of Birth: Villa Clara [F5_Villa_Clara]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M021</attrlabl>
+			<attrdef>Province Of Birth: Cienfuegos [F6_Cienfuegos]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M022</attrlabl>
+			<attrdef>Province Of Birth: Sancti Spiritus [F7_Sancti_Spiritus]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M023</attrlabl>
+			<attrdef>Province Of Birth: Ciego De Avila [F8_Ciego_de_Avila]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M024</attrlabl>
+			<attrdef>Province Of Birth: Camaguey [F9_Camaguey]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M025</attrlabl>
+			<attrdef>Province Of Birth: Las Tunas [F10_Las_Tunas]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M026</attrlabl>
+			<attrdef>Province Of Birth: Holguin [F11_Holguin]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M027</attrlabl>
+			<attrdef>Province Of Birth: Granma [F12_Granma]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M028</attrlabl>
+			<attrdef>Province Of Birth: Santiago De Cuba [F13_Santiago_de_Cuba]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M029</attrlabl>
+			<attrdef>Province Of Birth: Guantanamo [F14_Guantanamo]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M030</attrlabl>
+			<attrdef>Province Of Birth: Unknown [F998_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M031</attrlabl>
+			<attrdef>Migration Within Cuba: Migrated Within The Same Major And Minor Administrative Unit [F11_Same_major_same_minor_administrative_unit]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M032</attrlabl>
+			<attrdef>Migration Within Cuba: Migrated Within The Same Major But A Different Minor Administrative Unit [F12_Same_major_different_minor_administrative_unit]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M033</attrlabl>
+			<attrdef>Migration Within Cuba: Migrated To A Different Major Administrative Unit [F20_Different_major_administrative_unit]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M034</attrlabl>
+			<attrdef>Migration Within Cuba: Migrated Abroad [F30_Abroad]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M035</attrlabl>
+			<attrdef>Migration Within Cuba: No Response [F99_Not_reported_missing]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M036</attrlabl>
+			<attrdef>Country Of Migration: Africa [F10000_Africa]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M037</attrlabl>
+			<attrdef>Country Of Migration: Haiti [F21130_Haiti]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M038</attrlabl>
+			<attrdef>Country Of Migration: Jamaica [F21140_Jamaica]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M039</attrlabl>
+			<attrdef>Country Of Migration: Mexico [F22060_Mexico]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M040</attrlabl>
+			<attrdef>Country Of Migration: United States [F24050_United_States]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M041</attrlabl>
+			<attrdef>Country Of Migration: Afghanistan [F32010_Afghanistan]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M042</attrlabl>
+			<attrdef>Country Of Migration: Russia, USSR [F41080_Russia_USSR]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M043</attrlabl>
+			<attrdef>Country Of Migration: Ukraine [F41100_Ukraine]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M044</attrlabl>
+			<attrdef>Country Of Migration: Spain [F43120_Spain]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M045</attrlabl>
+			<attrdef>Country Of Migration: Germany [F44040_Germany]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M046</attrlabl>
+			<attrdef>Country Of Migration: Oceania [F50000_Oceania]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M047</attrlabl>
+			<attrdef>Country Of Migration: Non-International Migration [F90000_Non_migrants__International_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M048</attrlabl>
+			<attrdef>Country Of Migration: No Response [F99998_Response_suppressed]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M049</attrlabl>
+			<attrdef>Country Of Migration: Unknown [F99999_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M050</attrlabl>
+			<attrdef>Province Of Previous Residence: Pinar Del Rio [F192001_Pinar_del_Rio]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M051</attrlabl>
+			<attrdef>Province Of Previous Residence: La Habana [F192002_La_Habana]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M052</attrlabl>
+			<attrdef>Province Of Previous Residence: Ciudad De La Habana [F192003_Ciudad_Habana]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M053</attrlabl>
+			<attrdef>Province Of Previous Residence: Matanzas [F192004_Matanzas]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M054</attrlabl>
+			<attrdef>Province Of Previous Residence: Villa Clara [F192005_Villa_Clara]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M055</attrlabl>
+			<attrdef>Province Of Previous Residence: Cienfuegos [F192006_Cienfuegos]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M056</attrlabl>
+			<attrdef>Province Of Previous Residence: Sancti Spiritus [F192007_Sancti_Spiritus]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M057</attrlabl>
+			<attrdef>Province Of Previous Residence: Ciego De Avila [F192008_Ciego_Avila]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M058</attrlabl>
+			<attrdef>Province Of Previous Residence: Camaguey [F192009_Camaguey]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M059</attrlabl>
+			<attrdef>Province Of Previous Residence: Las Tunas [F192010_Las_Tunas]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M060</attrlabl>
+			<attrdef>Province Of Previous Residence: Holguin [F192011_Holguin]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M061</attrlabl>
+			<attrdef>Province Of Previous Residence: Granma [F192012_Granma]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M062</attrlabl>
+			<attrdef>Province Of Previous Residence: Santiago De Cuba [F192013_Santiago_de_Cuba]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M063</attrlabl>
+			<attrdef>Province Of Previous Residence: Guantanamo [F192014_Guantanamo]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M064</attrlabl>
+			<attrdef>Province Of Previous Residence: Isla De La Juventud [F192099_Isla_de_la_Juventud]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M065</attrlabl>
+			<attrdef>Province Of Previous Residence: Abroad [F192997_Abroad]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M066</attrlabl>
+			<attrdef>Province Of Previous Residence: Unknown [F192998_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_M067</attrlabl>
+			<attrdef>Province Of Previous Residence: No Response [F192999_NIU__not_in_universe_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
+</eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_cuba_migration_adm2_2012</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
+<metainfo>
+	<metd>20210701</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

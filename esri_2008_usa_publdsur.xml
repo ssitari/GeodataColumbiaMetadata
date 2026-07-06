@@ -29,7 +29,11 @@ This dataset is a part of the 2008 ESRI Data &amp; Maps collection.</abstract>
 		</descript>
 		<timeperd>
 			<timeinfo>
-				<rngdates><begdate>1972</begdate><enddate>2002</enddate></rngdates></timeinfo>
+				<rngdates>
+					<begdate>1972</begdate>
+					<enddate>2002</enddate>
+				</rngdates>
+			</timeinfo>
 			<current>ground condition: 1972-2002; publication date: 200301</current>
 		</timeperd>
 		<status>
@@ -40,69 +44,69 @@ This dataset is a part of the 2008 ESRI Data &amp; Maps collection.</abstract>
 			<bounding>
 				<westbc>
 -179.133392</westbc>
-				<eastbc>
+					<eastbc>
 179.788210</eastbc>
-				<northbc>
+						<northbc>
 71.398194</northbc>
-				<southbc>
+							<southbc>
 17.674692</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>polygon</themekey>
-				<themekey>public land survey</themekey>
-				<themekey>public land survey system</themekey>
-				<themekey>township</themekey>
-				<themekey>range</themekey>
-				<themekey>private surveys</themekey>
-				<themekey>land grants</themekey>
-				<themekey>civil colonies</themekey>
-				<themekey>donation land claims</themekey>
-				<themekey>unsurveyed areas</themekey>
-				<themekey>Indian lands</themekey>
-				<themekey>military reservation</themekey>
-			</theme>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>planningCadastre</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>United States (6252001)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>United States</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>1972-2002</tempkey>
-				<tempkey>2003</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>polygon</themekey>
+								<themekey>public land survey</themekey>
+								<themekey>public land survey system</themekey>
+								<themekey>township</themekey>
+								<themekey>range</themekey>
+								<themekey>private surveys</themekey>
+								<themekey>land grants</themekey>
+								<themekey>civil colonies</themekey>
+								<themekey>donation land claims</themekey>
+								<themekey>unsurveyed areas</themekey>
+								<themekey>Indian lands</themekey>
+								<themekey>military reservation</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>planningCadastre</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>United States (6252001)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>United States</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>1972-2002</tempkey>
+								<tempkey>2003</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
 
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI</cntorg>
-					<cntper>Data Team</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>909-793-2853</cntvoice>
-				<cntfax>909-793-5953</cntfax>
-				<cntemail>info@esri.com</cntemail>
-				<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>ESRI</cntorg>
+									<cntper>Data Team</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>380 New York Street</address>
+									<city>Redlands</city>
+									<state>California</state>
+									<postal>92373-8100</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>909-793-2853</cntvoice>
+								<cntfax>909-793-5953</cntfax>
+								<cntemail>info@esri.com</cntemail>
+								<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
 				<cntinst>In the United States:
 Please direct all inquiries regarding software/data pricing and consulting services to your local ESRI Regional Office.  For support, you may contact ESRI Support Center by telephone (voice) between 6:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing 888-377-4575; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com/; ESRI holidays excluded. 
 
@@ -110,314 +114,314 @@ Outside the United States
 Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.  
 
 For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_publdsur.jpg</browsen>
-			<browsed>Thumbnail</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.1.0.706</native>
-	</idinfo>
-	<dataqual>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-		<posacc>
-			<horizpa>
-				<horizpar>The geospatial part of this data set was originally extracted from 1:500,000 and 1:1,000,000-scale state base maps for the western U.S. states and USGS topographic 1:100,000-scale maps for the eastern U.S. states. Data from both sources were integrated into the 1:2,000,000-scale State boundary Digital Line Graph (DLG) files produced by the U.S. Geological Survey. The positional accuracy of the 1:2,000,000-scale State boundary Digital Line Graph (DLG) files is known to be 1,720 meters. The positional accuracies of the other sources are unknown.</horizpar>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>National Atlas of the United States and the U.S. Geological Survey</origin>
-						<pubdate>200301</pubdate>
-						<title>Public Land Survey System of the United States, 2008</title>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<pubplace>Reston, Virginia, USA</pubplace>
-							<publish>U.S. Geological Survey</publish>
-						</pubinfo>
-						<othercit>The data set was downloaded from the web site in November 2004.</othercit>
-						<onlink>http://www.nationalatlas.gov/atlasftp.html</onlink>
-					</citeinfo>
-				</srccite>
-				<srcscale>2000000</srcscale>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>1972-2002</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>National Atlas</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Downloaded plss00p020.tar.gz from the National Atlas of the United States web site and extracted the shapefile. Added attributes TOWNSHIP, RANGE, and TWNRNG and created their values from parsing the values of the FEATURE2 attribute. Reduced the attribute widths of FEATURE1, FEATURE2, FEATURE3, NAME1, NAME2, and STATE. Renamed attribute AREA to SQMI and calculated its values. Removed unneeded attributes. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-				<srcused>National Atlas</srcused>
-				<procdate>20050306</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>G-polygon</sdtstype>
-				<ptvctcnt>90919</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.000009</latres>
-				<longres>0.000009</longres>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_publdsur.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.1.0.706</native>
+					</idinfo>
+					<dataqual>
+						<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+						<posacc>
+							<horizpa>
+								<horizpar>The geospatial part of this data set was originally extracted from 1:500,000 and 1:1,000,000-scale state base maps for the western U.S. states and USGS topographic 1:100,000-scale maps for the eastern U.S. states. Data from both sources were integrated into the 1:2,000,000-scale State boundary Digital Line Graph (DLG) files produced by the U.S. Geological Survey. The positional accuracy of the 1:2,000,000-scale State boundary Digital Line Graph (DLG) files is known to be 1,720 meters. The positional accuracies of the other sources are unknown.</horizpar>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>National Atlas of the United States and the U.S. Geological Survey</origin>
+										<pubdate>200301</pubdate>
+										<title>Public Land Survey System of the United States, 2008</title>
+										<geoform>vector digital data</geoform>
+										<pubinfo>
+											<pubplace>Reston, Virginia, USA</pubplace>
+											<publish>U.S. Geological Survey</publish>
+										</pubinfo>
+										<othercit>The data set was downloaded from the web site in November 2004.</othercit>
+										<onlink>http://www.nationalatlas.gov/atlasftp.html</onlink>
+									</citeinfo>
+								</srccite>
+								<srcscale>2000000</srcscale>
+								<typesrc>online</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>1972-2002</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>ground condition</srccurr>
+								</srctime>
+								<srccitea>National Atlas</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Downloaded plss00p020.tar.gz from the National Atlas of the United States web site and extracted the shapefile. Added attributes TOWNSHIP, RANGE, and TWNRNG and created their values from parsing the values of the FEATURE2 attribute. Reduced the attribute widths of FEATURE1, FEATURE2, FEATURE3, NAME1, NAME2, and STATE. Renamed attribute AREA to SQMI and calculated its values. Removed unneeded attributes. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+								<srcused>National Atlas</srcused>
+								<procdate>20050306</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>G-polygon</sdtstype>
+								<ptvctcnt>90919</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000009</latres>
+								<longres>0.000009</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 publdsur</enttypl>
-				<enttypd>The polygons represent the Public Land Survey which is a rectangular system of surveys devised to subdivide public domain lands within United States; in addition are donation land claims, Indian lands, land grants, civil colonies, military reservations, overlapping land grants, private surveys, unsurveyed areas, and areas not part of the Public Land Survey System within United States.</enttypd>
-				<enttypds>National Atlas of the United States and the United States Geological Survey</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>ObjectID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>FEATURE1</attrlabl>
-				<attrdef>The primary survey area type.</attrdef>
-				<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>Donation Land Claims</edomv>
-						<edomvd>An area that was allocated to a settler under the Donation Act of September 27, 1850 to preserve the rights of pre-statehood settlers claimed prior to the regular division of townships and ranges.</edomvd>
-						<edomvds>U.S. Geological Survey</edomvds>
-					</edom>
-					<edom>
-						<edomv>Indian Lands</edomv>
-						<edomvd>Land granted to native Americans and excluded from the public domain.</edomvd>
-						<edomvds>U.S. Geological Survey</edomvds>
-					</edom>
-					<edom>
-						<edomv>Land Grants, Civil Colonies</edomv>
-						<edomvd>An area of land to which title was conferred by a predecessor government and confirmed by the U.S. Government after the territory in which it is situated was acquired by the United States.</edomvd>
-						<edomvds>U.S. Geological Survey</edomvds>
-					</edom>
-					<edom>
-						<edomv>Military Reservation</edomv>
-						<edomvd>A military or lighthouse reservation that limits the public lands.</edomvd>
-						<edomvds>U.S. Geological Survey</edomvds>
-					</edom>
-					<edom>
-						<edomv>Not Part of Public Land Surveys System</edomv>
-						<edomvd>An area that is outside of the Public Land Survey System.</edomvd>
-						<edomvds>U.S. Geological Survey</edomvds>
-					</edom>
-					<edom>
-						<edomv>Overlapping Land Grants</edomv>
-						<edomvd>An area of land to which more than one title was conferred by a predecessor government and confirmed by the U.S. Government after the territory in which it is situated was acquired by the United States. These areas are the result of survey error or disputed claims.</edomvd>
-						<edomvds>U.S. Geological Survey</edomvds>
-					</edom>
-					<edom>
-						<edomv>Private Survey</edomv>
-						<edomvd>An area of private surveys of public domain lands.</edomvd>
-						<edomvds>U.S. Geological Survey</edomvds>
-					</edom>
-					<edom>
-						<edomv>Public Survey</edomv>
-						<edomvd>An area of land subdivided by the Public Land Survey System (PLSS), which was originally created on public domain lands and the rules for its use were defined by the authority of the U.S. Government. The PLSS has since been extended, following similar rules, into non- public domain areas.</edomvd>
-						<edomvds>U.S. Geological Survey</edomvds>
-					</edom>
-					<edom>
-						<edomv>Unsurveyed Area</edomv>
-						<edomvd>An area that is part of the public domain but which has not been subdivided.</edomvd>
-						<edomvds>U.S. Geological Survey</edomvds>
-					</edom>
-					<edom>
-						<edomv>Water</edomv>
-						<edomvd>Areas of navigable streams and meanderable lakes which are excluded from the Public Land Survey System.</edomvd>
-						<edomvds>U.S. Geological Survey</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>FEATURE2</attrlabl>
-				<attrdef>The township and range designation for the area.</attrdef>
-				<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
-				<attrdomv>
-					<udom>There is no predefined set of valid township and range designations. Designations are in the format "Township xxx aaaaa Range yyy bbbb", where xxx and yyy are numbers, aaaaa is either North or South, and bbbb is either East or West.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>FEATURE3</attrlabl>
-				<attrdef>The secondary survey area type.</attrdef>
-				<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>Land Grants, Civil Colonies</edomv>
-						<edomvd>An area of land to which title was conferred by a predecessor government and confirmed by the U.S. Government after the territory in which it is situated was acquired by the United States.</edomvd>
-						<edomvds>U.S. Geological Survey</edomvds>
-					</edom>
-					<edom>
-						<edomv>Overlapping Land Grants</edomv>
-						<edomvd>An area of land to which more than one title was conferred by a predecessor government and confirmed by the U.S. Government after the territory in which it is situated was acquired by the United States. These areas are the result of survey error or disputed claims.</edomvd>
-						<edomvds>U.S. Geological Survey</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME1</attrlabl>
-				<attrdef>The primary name of the survey area. This is the principal meridian, Ohio base, or land grant name.</attrdef>
-				<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>GeoData Data Users Guide 1</codesetn>
-						<codesets>U.S. Geological Survey</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME2</attrlabl>
-				<attrdef>The secondary name of the survey area. This is an additional land grant name.</attrdef>
-				<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>GeoData Data Users Guide 1</codesetn>
-						<codesets>U.S. Geological Survey</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>STATE</attrlabl>
-				<attrdef>The two-letter abbreviation for each state in which the survey area is located.</attrdef>
-				<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards 52</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>TOWNSHIP</attrlabl>
-				<attrdef>The abbreviated township designation for the area.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Designations are in the format "Txxxa", where xxx is a number and a is either N or S.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>RANGE</attrlabl>
-				<attrdef>The abbreviated range designation for the area.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Designations are in the format "Ryyyb", where yyy is a number and b is either E or W.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>TWNRNG</attrlabl>
-				<attrdef>The abbreviated township and range designation for the area.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Designations are in the format "Txxxa Ryyyb", where xxx and yyy are numbers, a is either N or S, and b is either E or W.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>SQMI</attrlabl>
-				<attrdef>The area of the survey area in square miles.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Calculated areas for the features.</udom>
-				</attrdomv>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>ESRI; ESRI International Distributors</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>800-447-9778</cntvoice>
+									<enttypd>The polygons represent the Public Land Survey which is a rectangular system of surveys devised to subdivide public domain lands within United States; in addition are donation land claims, Indian lands, land grants, civil colonies, military reservations, overlapping land grants, private surveys, unsurveyed areas, and areas not part of the Public Land Survey System within United States.</enttypd>
+									<enttypds>National Atlas of the United States and the United States Geological Survey</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>ObjectID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FEATURE1</attrlabl>
+									<attrdef>The primary survey area type.</attrdef>
+									<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>Donation Land Claims</edomv>
+											<edomvd>An area that was allocated to a settler under the Donation Act of September 27, 1850 to preserve the rights of pre-statehood settlers claimed prior to the regular division of townships and ranges.</edomvd>
+											<edomvds>U.S. Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>Indian Lands</edomv>
+											<edomvd>Land granted to native Americans and excluded from the public domain.</edomvd>
+											<edomvds>U.S. Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>Land Grants, Civil Colonies</edomv>
+											<edomvd>An area of land to which title was conferred by a predecessor government and confirmed by the U.S. Government after the territory in which it is situated was acquired by the United States.</edomvd>
+											<edomvds>U.S. Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>Military Reservation</edomv>
+											<edomvd>A military or lighthouse reservation that limits the public lands.</edomvd>
+											<edomvds>U.S. Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>Not Part of Public Land Surveys System</edomv>
+											<edomvd>An area that is outside of the Public Land Survey System.</edomvd>
+											<edomvds>U.S. Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>Overlapping Land Grants</edomv>
+											<edomvd>An area of land to which more than one title was conferred by a predecessor government and confirmed by the U.S. Government after the territory in which it is situated was acquired by the United States. These areas are the result of survey error or disputed claims.</edomvd>
+											<edomvds>U.S. Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>Private Survey</edomv>
+											<edomvd>An area of private surveys of public domain lands.</edomvd>
+											<edomvds>U.S. Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>Public Survey</edomv>
+											<edomvd>An area of land subdivided by the Public Land Survey System (PLSS), which was originally created on public domain lands and the rules for its use were defined by the authority of the U.S. Government. The PLSS has since been extended, following similar rules, into non- public domain areas.</edomvd>
+											<edomvds>U.S. Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>Unsurveyed Area</edomv>
+											<edomvd>An area that is part of the public domain but which has not been subdivided.</edomvd>
+											<edomvds>U.S. Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>Water</edomv>
+											<edomvd>Areas of navigable streams and meanderable lakes which are excluded from the Public Land Survey System.</edomvd>
+											<edomvds>U.S. Geological Survey</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FEATURE2</attrlabl>
+									<attrdef>The township and range designation for the area.</attrdef>
+									<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
+									<attrdomv>
+										<udom>There is no predefined set of valid township and range designations. Designations are in the format "Township xxx aaaaa Range yyy bbbb", where xxx and yyy are numbers, aaaaa is either North or South, and bbbb is either East or West.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FEATURE3</attrlabl>
+									<attrdef>The secondary survey area type.</attrdef>
+									<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>Land Grants, Civil Colonies</edomv>
+											<edomvd>An area of land to which title was conferred by a predecessor government and confirmed by the U.S. Government after the territory in which it is situated was acquired by the United States.</edomvd>
+											<edomvds>U.S. Geological Survey</edomvds>
+										</edom>
+										<edom>
+											<edomv>Overlapping Land Grants</edomv>
+											<edomvd>An area of land to which more than one title was conferred by a predecessor government and confirmed by the U.S. Government after the territory in which it is situated was acquired by the United States. These areas are the result of survey error or disputed claims.</edomvd>
+											<edomvds>U.S. Geological Survey</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME1</attrlabl>
+									<attrdef>The primary name of the survey area. This is the principal meridian, Ohio base, or land grant name.</attrdef>
+									<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>GeoData Data Users Guide 1</codesetn>
+											<codesets>U.S. Geological Survey</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME2</attrlabl>
+									<attrdef>The secondary name of the survey area. This is an additional land grant name.</attrdef>
+									<attrdefs>National Atlas of the United States and the United States Geological Survey</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>GeoData Data Users Guide 1</codesetn>
+											<codesets>U.S. Geological Survey</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STATE</attrlabl>
+									<attrdef>The two-letter abbreviation for each state in which the survey area is located.</attrdef>
+									<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards 52</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>TOWNSHIP</attrlabl>
+									<attrdef>The abbreviated township designation for the area.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Designations are in the format "Txxxa", where xxx is a number and a is either N or S.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>RANGE</attrlabl>
+									<attrdef>The abbreviated range designation for the area.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Designations are in the format "Ryyyb", where yyy is a number and b is either E or W.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>TWNRNG</attrlabl>
+									<attrdef>The abbreviated township and range designation for the area.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Designations are in the format "Txxxa Ryyyb", where xxx and yyy are numbers, a is either N or S, and b is either E or W.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>SQMI</attrlabl>
+									<attrdef>The area of the survey area in square miles.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Calculated areas for the features.</udom>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>ESRI; ESRI International Distributors</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>380 New York Street</address>
+										<city>Redlands</city>
+										<state>California</state>
+										<postal>92373-8100</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>800-447-9778</cntvoice>
 				<cntinst>In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data.
 
 Outside the United States, please direct all inquiries to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.</cntinst>
-			</cntinfo>
-		</distrib>
-		<resdesc>esri_2008_usa_publdsur</resdesc>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>SDC</formname>
-					<formspec>zip</formspec>
-					<transize>7.483</transize>
-				</digtinfo>
-				<digtopt>
-				</digtopt>
-			</digform>
-			<fees>Software purchase price</fees>
-			<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
-		</stdorder>
-		<techpreq>To use this data requires software that supports SDC files.</techpreq>
-	</distinfo>
-	<metainfo>
-		<metd>20090715</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+								</cntinfo>
+							</distrib>
+							<resdesc>esri_2008_usa_publdsur</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>SDC</formname>
+										<formspec>zip</formspec>
+										<transize>7.483</transize>
+									</digtinfo>
+									<digtopt>
+									</digtopt>
+								</digform>
+								<fees>Software purchase price</fees>
+								<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
+							</stdorder>
+							<techpreq>To use this data requires software that supports SDC files.</techpreq>
+						</distinfo>
+						<metainfo>
+							<metd>20090715</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

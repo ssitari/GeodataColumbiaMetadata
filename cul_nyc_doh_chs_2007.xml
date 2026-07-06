@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
+	<idinfo>
 		<citation>
 			<citeinfo>
 				<origin>Columbia University. Libraries</origin>
@@ -9,7 +9,8 @@
 				<title>New York City Community Health Survey, 2007</title>
 				<pubinfo>
 					<pubplace>New York City</pubplace>
-					<publish></publish>
+					<publish>
+					</publish>
 				</pubinfo>
 				<onlink>https://www.columbia.edu/acis/eds/gis/images/cul_nyc_doh_chs_2007.zip</onlink>
 			</citeinfo>
@@ -32,11 +33,11 @@
 		</status>
 		<spdom>
 			<bounding>
-<westbc>-74.257061</westbc>
-<eastbc>-73.699273</eastbc>
-<northbc>40.915087</northbc>
-<southbc>40.498294</southbc>
-</bounding>
+				<westbc>-74.257061</westbc>
+				<eastbc>-73.699273</eastbc>
+				<northbc>40.915087</northbc>
+				<southbc>40.498294</southbc>
+			</bounding>
 		</spdom>
 		<keywords>
 			<theme>
@@ -49,24 +50,24 @@
 				<themekt>ISO 19115 Topic Category</themekt>
 				<themekey>health</themekey>
 				<themekey>boundaries</themekey>
-				</theme>
+			</theme>
 			<place>
 				<placekt>GeoNames</placekt>
 				<placekey>New York City (5128581)</placekey>
 			</place>
 			<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>New York (N.Y.)</placekey>
-<placekey>Brooklyn (New York, N.Y.)</placekey>
-<placekey>Bronx (New York, N.Y.)</placekey>
-<placekey>Queens (New York, N.Y.)</placekey>
-<placekey>Manhattan (New York, N.Y.)</placekey>
-<placekey>Staten Island (New York, N.Y.)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>NYC</placekey>
-</place>
+				<placekt>Library of Congress Subject Headings</placekt>
+				<placekey>New York (N.Y.)</placekey>
+				<placekey>Brooklyn (New York, N.Y.)</placekey>
+				<placekey>Bronx (New York, N.Y.)</placekey>
+				<placekey>Queens (New York, N.Y.)</placekey>
+				<placekey>Manhattan (New York, N.Y.)</placekey>
+				<placekey>Staten Island (New York, N.Y.)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>NYC</placekey>
+			</place>
 			<temporal>
 				<tempkt>None</tempkt>
 				<tempkey>2007</tempkey>
@@ -76,612 +77,613 @@
 		<useconst>None</useconst>
 	</idinfo>
 
-			<dataqual>
-	<lineage>
-<procstep>
-<procdate>2014</procdate>
-<procdesc>Data Service staff merged the UHF boundaries with the 2007 Community Health Survey Data</procdesc>
-</procstep>
-</lineage>
-</dataqual>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdate>2014</procdate>
+				<procdesc>Data Service staff merged the UHF boundaries with the 2007 Community Health Survey Data</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
 
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm Name="CHS_2007_DOHMH_2008">
-<sdtstype>G-polygon</sdtstype>
-<ptvctcnt>35</ptvctcnt>
-</sdtsterm>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="CHS_2007_DOHMH_2008">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>35</ptvctcnt>
+			</sdtsterm>
 
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<planar>
-<planci>
-<plance>coordinate pair</plance>
-<coordrep>
-<absres>0.000000</absres>
-<ordres>0.000000</ordres>
-</coordrep>
-<plandu>survey feet</plandu>
-</planci>
-<mapproj>
-<mapprojn>Lambert Conformal Conic</mapprojn>
-<lambertc>
-<stdparll>40.666667</stdparll>
-<stdparll>41.033333</stdparll>
-<longcm>-74.000000</longcm>
-<latprjo>40.166667</latprjo>
-<feast>984250.000000</feast>
-<fnorth>0.000000</fnorth>
-</lambertc>
-</mapproj>
-</planar>
-<geodetic>
-<horizdn>North American Datum of 1983</horizdn>
-<ellips>Geodetic Reference System 80</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257222</denflat>
-</geodetic>
-<cordsysn>
-<geogcsn>GCS_North_American_1983</geogcsn>
-<projcsn>NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn>
-</cordsysn>
-</horizsys>
-<vertdef>
-<altsys>
-<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-<altres>1.000000</altres>
-</altsys>
-</vertdef>
-</spref>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000</absres>
+						<ordres>0.000000</ordres>
+					</coordrep>
+					<plandu>survey feet</plandu>
+				</planci>
+				<mapproj>
+					<mapprojn>Lambert Conformal Conic</mapprojn>
+					<lambertc>
+						<stdparll>40.666667</stdparll>
+						<stdparll>41.033333</stdparll>
+						<longcm>-74.000000</longcm>
+						<latprjo>40.166667</latprjo>
+						<feast>984250.000000</feast>
+						<fnorth>0.000000</fnorth>
+					</lambertc>
+				</mapproj>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn>GCS_North_American_1983</geogcsn>
+				<projcsn>NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres>1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
 
-<eainfo>
-<detailed Name="CHS_2007_DOHMH_2008">
-<attr>
-<attrlabl>FOBTST2</attrlabl>
-<attrdef>Percentage reporting ever having a fecal occult blood test by neighborhood</attrdef>
-<attrdefs>Preventive Services: Respondents were asked if they have ever had a fecal occult blood test.</attrdefs>
-<attrvai>
-<attrva>Results restricted to adults 50 and older.</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<atnumdec>1</atnumdec>
-<attalias>SHSMOK2</attalias>
-</attr>
-<attr>
-<attrlabl>FID</attrlabl>
-<attalias>FID</attalias>
-<attrtype>OID</attrtype>
-<attwidth>4</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<enttyp>
-<enttypl>CHS_2007_DOHMH_2008</enttypl>
-<enttypt>Feature Class</enttypt>
-<enttypc>35</enttypc>
-</enttyp>
-<attr>
-<attrlabl>shsmok2</attrlabl>
-<attrdef>Prevalence of exposure to second hand smoke by neighborhood</attrdef>
-<attrdefs>Cigarette Smoking and Alcohol: Non-smokers who are exposed to second-hand smoke all or most of the time either in their homes or at their place of work are considered to be exposed to second-hand smoke at home or work.</attrdefs>
-<attrvai>
-<attrva>Results restricted to never and former smokers.</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-</attr>
-<attr>
-<attrlabl>OBJECTID</attrlabl>
-<attrtype>String</attrtype>
-<attwidth>16</attwidth>
-</attr>
-<attr>
-<attrlabl>UHF34_CODE</attrlabl>
-<attrdef>UHF Neighborhood</attrdef>
-<attrtype>String</attrtype>
-<attwidth>50</attwidth>
-</attr>
-<attr>
-<attrlabl>BOROUGH</attrlabl>
-<attrdef>Borough</attrdef>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-</attr>
-<attr>
-<attrlabl>OID_</attrlabl>
-<attalias>OID_</attalias>
-<attrtype>Number</attrtype>
-<attwidth>14</attwidth>
-</attr>
-<attr>
-<attrlabl>OBS</attrlabl>
-<attalias>OBS</attalias>
-<attrtype>String</attrtype>
-<attwidth>27</attwidth>
-</attr>
-<attr>
-<attrlabl>NEIGHBOR</attrlabl>
-<attalias>NEIGHBOR</attalias>
-<attrdef>Neighborhood Name</attrdef>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>UHF_NAME</attrlabl>
-<attrdef>UHF Name</attrdef>
-<attrdef>UHF Neighborhood Name</attrdef>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>Obs</attrlabl>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>ANYSTD2</attrlabl>
-<attrdef>Prevalence of having a sexually transmitted infection by neighborhood</attrdef>
-<attrdefs>HIV Testing and Sex Behavior: Respondents who indicated they had ever been diagnosed with genital herpes or genital warts or had been diagnosed with Gonorrhea or Chlamydia in the past 12 months</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-<attalias>FID</attalias>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>ASTHMA2</attrlabl>
-<attrdef>Prevalence of current asthma by neighborhood</attrdef>
-<attrdefs>Asthma and Diabetes: During the past 12 months, have you had an episode of asthma or an asthma attack?</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>CIGARS2</attrlabl>
-<attrdef>Percentage of heavy smokers by neighborhood</attrdef>
-<attrdefs>Cigarette Smoking and Alcohol: People who smoke more than 10 cigarettes a day are considered to be heavy smokers</attrdefs>
-<attrvai>
-<attrva>Results restricted to current smokers.</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>COCKSR2</attrlabl>
-<attrdef>Percentage seeing cockroaches in their home in the past month</attrdef>
-<attrdefs>Preventive Services: In the past month, have you seen any cockroaches inside your home?</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Float</attrtype>
-<attwidth>19</attwidth>
-<atnumdec>11</atnumdec>
-<attalias>Shape</attalias>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>CONDOM2</attrlabl>
-<attrdef>Percentage using condoms at last sex by neighborhood</attrdef>
-<attrdefs>HIV Testing and Sexual Behavior: The last time you had sex, did you or your partner use a condom?</attrdefs>
-<attrvai>
-<attrva>Results restricted to adults ages 18-64</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>COTEST2</attrlabl>
-<attrdef>Percentage reporting a colonoscopy in the past 10 years by neighborhood</attrdef>
-<attrdefs>Preventive Services: Respondents were asked if they have ever had a colonoscopy and if so, how long ago was it.</attrdefs>
-<attrvai>
-<attrva>Results restricted to adults 50 and older.</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>DIABET2</attrlabl>
-<attrdef>Prevalence of diabetes by neighborhood</attrdef>
-<attrdefs>Asthma and Diabetes: Ever been told you have diabetes?</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>EVISIT4</attrlabl>
-<attrdef>Percentage with no emergency department visits for asthma</attrdef>
-<attrdefs>Asthma and Diabetes: Number of ED visits in the past 12 months due to asthma</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>EXERCS2</attrlabl>
-<attrdef>Percentage participating in physical activity in past 30 days by neighborhood</attrdef>
-<attrdefs>Cardiovascular Risk Factors: During the past 30 days, other than your regular job, did you participate in any physical activities or exercises?</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>FLUSHT2</attrlabl>
-<attrdef>Percentage who received an influenza vaccination in the past 12 months by neighborhood</attrdef>
-<attrdefs>Preventive Services: During the past 12 months, have you had a flu shot?</attrdefs>
-<attrvai>
-<attrva>Results restricted to adults 50 and older.</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>GENHLT4</attrlabl>
-<attrdef>Percentage reporting poor or fair general health by neighborhood</attrdef>
-<attrdefs>Health Status: Would you say that in general your health is Excellent, Very Good, Good, Fair or Poor?</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>HIVTWO2</attrlabl>
-<attrdef>Percentage who received an HIV test during last 6 months by neighborhood</attrdef>
-<attrdefs>HIV Testing and Sexual Behavior: Have you had an HIV test during the last 12 months? Do not count tests you may have had as part of a blood donation.</attrdefs>
-<attrvai>
-<attrva>Results restricted to adults ages 18-64.</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>INSURE5</attrlabl>
-<attrdef>Percentage with no health insurance by neighborhood</attrdef>
-<attrdefs>Access to Health Care: Respondents were asked if they were personally covered by a number of different types of health insurance, or if they had no health insurance at all.</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>MANMAN2</attrlabl>
-<attrdef>Prevalence of men having sex with men by neighborhood</attrdef>
-<attrdefs>HIV Testing and Sexual Behavior: Men who report having sex with men</attrdefs>
-<attrvai>
-<attrva>Results restricted to men ages 18-64</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>MHDDAY4</attrlabl>
-<attrdef>Percent reporting no poor mental health days during the past 30 days by neighborhood</attrdef>
-<attrdefs>Health Status: How many days during the past 30 days did poor mental health keep you from doing your usual activities, such as self care, work, or recreation?</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>NEEDCA2</attrlabl>
-<attrdef>Percentage not receiving medical care due to cost</attrdef>
-<attrdefs>Access to Health Care: In the last 12 months, was there any time when you had a medical problem but did not go to a doctor or clinic because of the cost?</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-</attr>
-<attr>
-<attrlabl>NOFILL2</attrlabl>
-<attrdef>Percentage who did not fill prescription due to cost</attrdef>
-<attrdefs>Access to Health Care: In the last 12 months, was there any time when you did not fill a prescription for medicine because of  the cost?</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>NSPDAY4</attrlabl>
-<attrdef>Percent reporting no poor physical health days during the past 30 days by neighborhood</attrdef>
-<attrdefs>Health Status: How many days during the past 30 days did poor physical health keep you from doing your usual activities, such as self care, work, or recreation?</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>OBESES2</attrlabl>
-<attrdef>Prevalence of obesity by neighborhood</attrdef>
-<attrdefs>Cardiovascular Risk Factors: Obesity is calculated based on respondents' self-reported weight and height. A BMI of 30 or greater is classified as obese.</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>OVERWT2</attrlabl>
-<attrdef>Prevalence of overweight by neighborhood</attrdef>
-<attrdefs>Cardiovascular Risk Factors: Being overweight is calculated based on respondents' self-reported weight and height. A BMI between 25.0 and 29.9 is classified as overweight.</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>PCAREP2</attrlabl>
-<attrdef>Percentage having a primary care provider by neighborhood</attrdef>
-<attrdefs>Access to Health Care: Do you have one person you think of as your personal doctor or health care provider?</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>PNEUMV2</attrlabl>
-<attalias>PNEUMV2</attalias>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>QUITSK2</attrlabl>
-<attrdef>Percentage of current smokers who tried to quit smoking by neighborhood</attrdef>
-<attrdefs>Cigarette Smoking and Alcohol: Quit attempts are defined as an attempt to quit smoking for 24 hours or longer.</attrdefs>
-<attrvai>
-<attrva>Results restricted to current and former smokers.</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>RCDKS22</attrlabl>
-<attrdef>Prevalence of heavy drinking by neighborhood</attrdef>
-<attrdefs>Cigarette Smoking and Alcohol: Heavy drinking is defined as an average of 2 or more drinks per day for men and 1 or more drinks per day for women.</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>RDRINK2</attrlabl>
-<attrdef>Prevalence of binge drinking by neighborhood</attrdef>
-<attrdefs>Cigarette Smoking and Alcohol: Persons who reported 5 or more drinks on one occasion in the past 30 days are considered at risk for binge drinking.</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Float</attrtype>
-<attwidth>19</attwidth>
-<atnumdec>11</atnumdec>
-</attr>
-<attr>
-<attrlabl>SHSMOK3</attrlabl>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-<attrdef></attrdef>
-</attr>
-<attr>
-<attrlabl>RSMOKE3</attrlabl>
-<attrdef>Percentage of current smokers by neighborhood</attrdef>
-<attrdefs>Cigarette Smoking and Alcohol: Smoking status is defined as being a current, former, or never smoker.</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>SEXNUM4</attrlabl>
-<attrdef>Percentage having three or more sex partners in the past 12 months by neighborhood</attrdef>
-<attrdefs>HIV Testing and Sexual Behavior: All respondents were asked how many men and how many women they had sex with in the past 12 months.  Answers from both these questions were combined to get total number of sexual partners.</attrdefs>
-<attrvai>
-<attrva>Results restricted to adults ages 18-64.</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Float</attrtype>
-<attwidth>19</attwidth>
-<atnumdec>11</atnumdec>
-<attalias>Shape</attalias>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>SHSHOM2</attrlabl>
-<attrdef>Prevalence of exposure to second hand smoke at home by neighborhood</attrdef>
-<attrdefs>Cigarette Smoking and Alcohol: Non-smokers who are exposed to second-hand smoke all or most of the time in their homes are considered to be exposed to second-hand smoke at home.</attrdefs>
-<attrvai>
-<attrva>Results restricted to never and former smokers.</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>SHSMOK2</attrlabl>
-<attalias>SHSMOK2</attalias>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>SHSWKS2</attrlabl>
-<attrdef>Prevalence of exposure to second hand smoke at work by neighborhood</attrdef>
-<attrdefs>Cigarette Smoking and Alcohol: Non-smokers who are exposed to second-hand smoke all or most of the time either in their homes or at their place of work are considered to be exposed to second-hand smoke at home or work.</attrdefs>
-<attrvai>
-<attrva>Results restricted to never and former smokers.</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>SICKAD6</attrlabl>
-<attrdef>Percentage using a private doctor for medical care</attrdef>
-<attrdefs>Access to Health Care: When you are sick or need advice about your health, to which one of the following places do you usually go?</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>SMISMI2</attrlabl>
-<attrdef>PercentPrevalence of non-specific psychological distress by neighborhood</attrdef>
-<attrdefs>Health Status: Non-specific psychological distress is a composite measure of 6 questions regarding symptoms of anxiety, depression and other emotional problems.</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attalias>SHSMOK2</attalias>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>WKWORK3</attrlabl>
-<attrdef>Percentage walking/biking for transportation in the past 30 days by neighborhood</attrdef>
-<attrdefs>Cardiovascular Risk Factors: Over the past 30 days, have you walked or bicycled more than 10 blocks as part of getting to and from work, or school, or to do errands?</attrdefs>
-<attrvai>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>WOMENS2</attrlabl>
-<attrdef>Prevalence of women having sex with women by neighborhood</attrdef>
-<attrdefs>HIV Testing and Sexual Behavior: Women who report having sex with women</attrdefs>
-<attrvai>
-<attrva>Results restricted to women ages 18-64</attrva>
-<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
-</attrvai>
-<attrtype>Number</attrtype>
-<attwidth>10</attwidth>
-<atnumdec>1</atnumdec>
-</attr>
-<attr>
-<attrlabl>area</attrlabl>
-<attalias>area</attalias>
-<attrtype>Double</attrtype>
-<attwidth>19</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-</attr>
-</detailed>
-</eainfo>
+	<eainfo>
+		<detailed Name="CHS_2007_DOHMH_2008">
+			<attr>
+				<attrlabl>FOBTST2</attrlabl>
+				<attrdef>Percentage reporting ever having a fecal occult blood test by neighborhood</attrdef>
+				<attrdefs>Preventive Services: Respondents were asked if they have ever had a fecal occult blood test.</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to adults 50 and older.</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<atnumdec>1</atnumdec>
+				<attalias>SHSMOK2</attalias>
+			</attr>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<enttyp>
+				<enttypl>CHS_2007_DOHMH_2008</enttypl>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>35</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl>shsmok2</attrlabl>
+				<attrdef>Prevalence of exposure to second hand smoke by neighborhood</attrdef>
+				<attrdefs>Cigarette Smoking and Alcohol: Non-smokers who are exposed to second-hand smoke all or most of the time either in their homes or at their place of work are considered to be exposed to second-hand smoke at home or work.</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to never and former smokers.</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrtype>String</attrtype>
+				<attwidth>16</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>UHF34_CODE</attrlabl>
+				<attrdef>UHF Neighborhood</attrdef>
+				<attrtype>String</attrtype>
+				<attwidth>50</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>BOROUGH</attrlabl>
+				<attrdef>Borough</attrdef>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>OID_</attrlabl>
+				<attalias>OID_</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>14</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>OBS</attrlabl>
+				<attalias>OBS</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>27</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>NEIGHBOR</attrlabl>
+				<attalias>NEIGHBOR</attalias>
+				<attrdef>Neighborhood Name</attrdef>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>UHF_NAME</attrlabl>
+				<attrdef>UHF Name</attrdef>
+				<attrdef>UHF Neighborhood Name</attrdef>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>Obs</attrlabl>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>ANYSTD2</attrlabl>
+				<attrdef>Prevalence of having a sexually transmitted infection by neighborhood</attrdef>
+				<attrdefs>HIV Testing and Sex Behavior: Respondents who indicated they had ever been diagnosed with genital herpes or genital warts or had been diagnosed with Gonorrhea or Chlamydia in the past 12 months</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+				<attalias>FID</attalias>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ASTHMA2</attrlabl>
+				<attrdef>Prevalence of current asthma by neighborhood</attrdef>
+				<attrdefs>Asthma and Diabetes: During the past 12 months, have you had an episode of asthma or an asthma attack?</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>CIGARS2</attrlabl>
+				<attrdef>Percentage of heavy smokers by neighborhood</attrdef>
+				<attrdefs>Cigarette Smoking and Alcohol: People who smoke more than 10 cigarettes a day are considered to be heavy smokers</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to current smokers.</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>COCKSR2</attrlabl>
+				<attrdef>Percentage seeing cockroaches in their home in the past month</attrdef>
+				<attrdefs>Preventive Services: In the past month, have you seen any cockroaches inside your home?</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<atnumdec>11</atnumdec>
+				<attalias>Shape</attalias>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CONDOM2</attrlabl>
+				<attrdef>Percentage using condoms at last sex by neighborhood</attrdef>
+				<attrdefs>HIV Testing and Sexual Behavior: The last time you had sex, did you or your partner use a condom?</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to adults ages 18-64</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>COTEST2</attrlabl>
+				<attrdef>Percentage reporting a colonoscopy in the past 10 years by neighborhood</attrdef>
+				<attrdefs>Preventive Services: Respondents were asked if they have ever had a colonoscopy and if so, how long ago was it.</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to adults 50 and older.</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>DIABET2</attrlabl>
+				<attrdef>Prevalence of diabetes by neighborhood</attrdef>
+				<attrdefs>Asthma and Diabetes: Ever been told you have diabetes?</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>EVISIT4</attrlabl>
+				<attrdef>Percentage with no emergency department visits for asthma</attrdef>
+				<attrdefs>Asthma and Diabetes: Number of ED visits in the past 12 months due to asthma</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>EXERCS2</attrlabl>
+				<attrdef>Percentage participating in physical activity in past 30 days by neighborhood</attrdef>
+				<attrdefs>Cardiovascular Risk Factors: During the past 30 days, other than your regular job, did you participate in any physical activities or exercises?</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>FLUSHT2</attrlabl>
+				<attrdef>Percentage who received an influenza vaccination in the past 12 months by neighborhood</attrdef>
+				<attrdefs>Preventive Services: During the past 12 months, have you had a flu shot?</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to adults 50 and older.</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>GENHLT4</attrlabl>
+				<attrdef>Percentage reporting poor or fair general health by neighborhood</attrdef>
+				<attrdefs>Health Status: Would you say that in general your health is Excellent, Very Good, Good, Fair or Poor?</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>HIVTWO2</attrlabl>
+				<attrdef>Percentage who received an HIV test during last 6 months by neighborhood</attrdef>
+				<attrdefs>HIV Testing and Sexual Behavior: Have you had an HIV test during the last 12 months? Do not count tests you may have had as part of a blood donation.</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to adults ages 18-64.</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>INSURE5</attrlabl>
+				<attrdef>Percentage with no health insurance by neighborhood</attrdef>
+				<attrdefs>Access to Health Care: Respondents were asked if they were personally covered by a number of different types of health insurance, or if they had no health insurance at all.</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>MANMAN2</attrlabl>
+				<attrdef>Prevalence of men having sex with men by neighborhood</attrdef>
+				<attrdefs>HIV Testing and Sexual Behavior: Men who report having sex with men</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to men ages 18-64</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>MHDDAY4</attrlabl>
+				<attrdef>Percent reporting no poor mental health days during the past 30 days by neighborhood</attrdef>
+				<attrdefs>Health Status: How many days during the past 30 days did poor mental health keep you from doing your usual activities, such as self care, work, or recreation?</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>NEEDCA2</attrlabl>
+				<attrdef>Percentage not receiving medical care due to cost</attrdef>
+				<attrdefs>Access to Health Care: In the last 12 months, was there any time when you had a medical problem but did not go to a doctor or clinic because of the cost?</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+			</attr>
+			<attr>
+				<attrlabl>NOFILL2</attrlabl>
+				<attrdef>Percentage who did not fill prescription due to cost</attrdef>
+				<attrdefs>Access to Health Care: In the last 12 months, was there any time when you did not fill a prescription for medicine because of  the cost?</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>NSPDAY4</attrlabl>
+				<attrdef>Percent reporting no poor physical health days during the past 30 days by neighborhood</attrdef>
+				<attrdefs>Health Status: How many days during the past 30 days did poor physical health keep you from doing your usual activities, such as self care, work, or recreation?</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>OBESES2</attrlabl>
+				<attrdef>Prevalence of obesity by neighborhood</attrdef>
+				<attrdefs>Cardiovascular Risk Factors: Obesity is calculated based on respondents' self-reported weight and height. A BMI of 30 or greater is classified as obese.</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>OVERWT2</attrlabl>
+				<attrdef>Prevalence of overweight by neighborhood</attrdef>
+				<attrdefs>Cardiovascular Risk Factors: Being overweight is calculated based on respondents' self-reported weight and height. A BMI between 25.0 and 29.9 is classified as overweight.</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>PCAREP2</attrlabl>
+				<attrdef>Percentage having a primary care provider by neighborhood</attrdef>
+				<attrdefs>Access to Health Care: Do you have one person you think of as your personal doctor or health care provider?</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>PNEUMV2</attrlabl>
+				<attalias>PNEUMV2</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>QUITSK2</attrlabl>
+				<attrdef>Percentage of current smokers who tried to quit smoking by neighborhood</attrdef>
+				<attrdefs>Cigarette Smoking and Alcohol: Quit attempts are defined as an attempt to quit smoking for 24 hours or longer.</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to current and former smokers.</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>RCDKS22</attrlabl>
+				<attrdef>Prevalence of heavy drinking by neighborhood</attrdef>
+				<attrdefs>Cigarette Smoking and Alcohol: Heavy drinking is defined as an average of 2 or more drinks per day for men and 1 or more drinks per day for women.</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>RDRINK2</attrlabl>
+				<attrdef>Prevalence of binge drinking by neighborhood</attrdef>
+				<attrdefs>Cigarette Smoking and Alcohol: Persons who reported 5 or more drinks on one occasion in the past 30 days are considered at risk for binge drinking.</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<atnumdec>11</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>SHSMOK3</attrlabl>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+				<attrdef>
+				</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>RSMOKE3</attrlabl>
+				<attrdef>Percentage of current smokers by neighborhood</attrdef>
+				<attrdefs>Cigarette Smoking and Alcohol: Smoking status is defined as being a current, former, or never smoker.</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>SEXNUM4</attrlabl>
+				<attrdef>Percentage having three or more sex partners in the past 12 months by neighborhood</attrdef>
+				<attrdefs>HIV Testing and Sexual Behavior: All respondents were asked how many men and how many women they had sex with in the past 12 months.  Answers from both these questions were combined to get total number of sexual partners.</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to adults ages 18-64.</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<atnumdec>11</atnumdec>
+				<attalias>Shape</attalias>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SHSHOM2</attrlabl>
+				<attrdef>Prevalence of exposure to second hand smoke at home by neighborhood</attrdef>
+				<attrdefs>Cigarette Smoking and Alcohol: Non-smokers who are exposed to second-hand smoke all or most of the time in their homes are considered to be exposed to second-hand smoke at home.</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to never and former smokers.</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>SHSMOK2</attrlabl>
+				<attalias>SHSMOK2</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>SHSWKS2</attrlabl>
+				<attrdef>Prevalence of exposure to second hand smoke at work by neighborhood</attrdef>
+				<attrdefs>Cigarette Smoking and Alcohol: Non-smokers who are exposed to second-hand smoke all or most of the time either in their homes or at their place of work are considered to be exposed to second-hand smoke at home or work.</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to never and former smokers.</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>SICKAD6</attrlabl>
+				<attrdef>Percentage using a private doctor for medical care</attrdef>
+				<attrdefs>Access to Health Care: When you are sick or need advice about your health, to which one of the following places do you usually go?</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>SMISMI2</attrlabl>
+				<attrdef>PercentPrevalence of non-specific psychological distress by neighborhood</attrdef>
+				<attrdefs>Health Status: Non-specific psychological distress is a composite measure of 6 questions regarding symptoms of anxiety, depression and other emotional problems.</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attalias>SHSMOK2</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>WKWORK3</attrlabl>
+				<attrdef>Percentage walking/biking for transportation in the past 30 days by neighborhood</attrdef>
+				<attrdefs>Cardiovascular Risk Factors: Over the past 30 days, have you walked or bicycled more than 10 blocks as part of getting to and from work, or school, or to do errands?</attrdefs>
+				<attrvai>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>WOMENS2</attrlabl>
+				<attrdef>Prevalence of women having sex with women by neighborhood</attrdef>
+				<attrdefs>HIV Testing and Sexual Behavior: Women who report having sex with women</attrdefs>
+				<attrvai>
+					<attrva>Results restricted to women ages 18-64</attrva>
+					<attrvae>Total estimated populations may not equal the sum of subgroup estimated populations due to rounding or missing data.</attrvae>
+				</attrvai>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<atnumdec>1</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>area</attrlabl>
+				<attalias>area</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>19</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
 
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>GIS Center, NYC Department of Health and Mental Hygiene</cntorg>
-</cntorgp>
-<cntemail>giscenter@health.nyc.gov</cntemail>
-</cntinfo>
-</distrib>
-<resdesc>cul_nyc_doh_chs_2007</resdesc>
-</distinfo>
-<metainfo>
-<metc>
-<cntinfo>
-<cntaddr>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<addrtype>mailing and physical address</addrtype>
-<address>MS-561</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntperp>
-<cntper>GIS/Metadata Librarian</cntper>
-<cntorg>Research Data Services (RDS)</cntorg>
-</cntperp>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>GIS Center, NYC Department of Health and Mental Hygiene</cntorg>
+				</cntorgp>
+				<cntemail>giscenter@health.nyc.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>cul_nyc_doh_chs_2007</resdesc>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<address>420 W. 118th St., 215 IAB, MC 3301</address>
+					<addrtype>mailing and physical address</addrtype>
+					<address>MS-561</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntperp>
+					<cntper>GIS/Metadata Librarian</cntper>
+					<cntorg>Research Data Services (RDS)</cntorg>
+				</cntperp>
 
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metd>20170713</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<metsi>
-<metsc>Unclassified</metsc>
-</metsi>
-</metainfo>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metd>20170713</metd>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+	</metainfo>
 </metadata>

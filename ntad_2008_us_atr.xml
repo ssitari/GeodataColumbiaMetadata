@@ -1,32 +1,33 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>Federal Highway Administration Resource Center (U.S.)</origin>
-<origin>United States. Bureau of Transportation Statistics</origin>
-<pubdate>2006</pubdate>
-<title>United States Automatic Traffic Recorders (ATR), 2008</title>
-<geoform>vector digital data</geoform>
-<pubinfo>
-	<pubplace>Washington, DC</pubplace>
-	<publish>United States. Bureau of Transportation Statistics</publish>
-</pubinfo>
-<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2008_us_atr.zip</onlink>
-<lworkcit>
-<citeinfo>
-<origin>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</origin>
-<pubdate>2008</pubdate>
-<title>National Transportation Atlas Databases (NTAD) 2008</title>
-<pubinfo>
-<pubplace>Washington, DC</pubplace>
-<publish>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</publish>
-</pubinfo>
-<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
-</citeinfo>
-</lworkcit>
-</citeinfo>
-</citation>
-<descript>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Federal Highway Administration Resource Center (U.S.)</origin>
+				<origin>United States. Bureau of Transportation Statistics</origin>
+				<pubdate>2006</pubdate>
+				<title>United States Automatic Traffic Recorders (ATR), 2008</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Washington, DC</pubplace>
+					<publish>United States. Bureau of Transportation Statistics</publish>
+				</pubinfo>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2008_us_atr.zip</onlink>
+				<lworkcit>
+					<citeinfo>
+						<origin>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</origin>
+						<pubdate>2008</pubdate>
+						<title>National Transportation Atlas Databases (NTAD) 2008</title>
+						<pubinfo>
+							<pubplace>Washington, DC</pubplace>
+							<publish>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</publish>
+						</pubinfo>
+						<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
 <abstract>Automatic Traffic Recorders (ATR) is a point theme representing Weigh-in-Motion (WIM), and Automatic Traffic Counters (ATR) in the United States
 
 The data included in the GIS Traffic Stations Version database have been assimilated from station description files provided by FHWA for Weigh-in-Motion (WIM), and Automatic Traffic Counters (ATR). Location referencing information was derived from the National Highway Planning Network version 4.0.  and State offices of Transportation
@@ -36,137 +37,137 @@ The attributes on the point elements of the database have come from two primary 
 There is a separate Station Description Table (SDT) for each of the different station types; WIM, and ATR. The attributes in the Station Description Table correspond with the Station Description Record found in Chapter 6 of the latest Traffic Monitoring Guide. The SDT contains the most recent stations available for each state and station type. This table was derived from files provided UTCTR by FHWA. The Station Description Table can be linked to the station geopackage via the STNNKEY field .
 
 A single exception table containing records for those stations that could not be located is provided for WIM, and ATR stations. Generally, this table contains records where location descriptions were not clear enough to locate a station. It is hoped that FHWA will be able to contact the States for a more detailed description</abstract>
-<purpose>The GIS Traffic Stations database provides structural linkages between the National Highway Planning Network Weigh In Motion (WIM), and Automatic Traffic Count Stations (ATR)</purpose>
-</descript>
-<timeperd>
-<timeinfo>
-<sngdate>
-<caldate>2008</caldate>
-</sngdate>
-</timeinfo>
-<current>publication date</current>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>As needed</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+			<purpose>The GIS Traffic Stations database provides structural linkages between the National Highway Planning Network Weigh In Motion (WIM), and Automatic Traffic Count Stations (ATR)</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2008</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -159.404750</westbc>
-<eastbc>
+					<eastbc>
 -67.370607</eastbc>
-<northbc>
+						<northbc>
 64.979661</northbc>
-<southbc>
+							<southbc>
 19.502810</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>transportation</themekey>
-</theme>
-<theme>
-<themekt>None</themekt>
-<themekey>Automatic Traffic counters</themekey>
-<themekey>Automatic Traffic Recorders</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>United States (6252001)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>United States</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2008</tempkey>
-</temporal>
-</keywords>
-<accconst>None</accconst>
-<useconst>None</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>Federal Highway Administration (FHWA)</cntorg>
-<cntper>David L. Jones</cntper>
-</cntorgp>
-<cntpos>Transportation Specialist</cntpos>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>1200 New Jersey Ave, SE</address>
-<city>Washington</city>
-<state>DC</state>
-<postal>20590</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>202.366.5053</cntvoice>
-<cntfax>202.366.7742</cntfax>
-<cntemail>david.jones@fhea.dot.gov</cntemail>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/atr.bmp</browsen>
-<browsed>Thumbnail</browsed>
-<browset>bmp</browset>
-</browse>
-<secinfo>
-<secclass>Unclassified</secclass>
-</secinfo>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
-<crossref>
-<citeinfo>
-<origin>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</origin>
-<pubdate>2008</pubdate>
-<title>National Transportation Atlas Databases (NTAD) 2008</title>
-<pubinfo>
-<pubplace>Washington, DC</pubplace>
-<publish>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</publish>
-</pubinfo>
-<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
-</citeinfo>
-</crossref>
-</idinfo>
-<dataqual>
-<attracc>
-<attraccr>Weigh Station attributes were obtained from the individual State DOTs,  University of Tennessee data, National Highway Planning Network, Federal Highway Administration, and RITA (Research and Innovative Technology Administration).  All records were assigned the accurate state name, state abbreviation, state FIPS code and county FIPS code.</attraccr>
-</attracc>
-<logic>Uniqueness of entity Ids are verified by computer algorithm.</logic>
-<complete>The data are as complete as possible. There are approximately 25 stations that could not be located due to a poor location description.</complete>
-<posacc>
-<horizpa>
-<horizpar>The elements of the GIS Traffic Stations have been conflated to the 1:100,000NHPN v4.0 data set which maintains a nominal accuracy of at least 80 meters. Where no NHPN roads exist, the station was located using text description or teleatlas data.</horizpar>
-</horizpa>
-<vertacc>
-<vertaccr>The elements of the GIS Traffic Stations have been conflated to the 1:100,000 NHPN v4.0 data set which maintains a nominal accuracy of at least 80 meters. Where no NHPN roads exist, the station was located using text description or Teleatlas data.</vertaccr>
-</vertacc>
-</posacc>
-<lineage>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Federal Highway Administrations (FHWA)</origin>
-<origin>State Departments' of Transportation</origin>
-<origin>University of Tennessee Center for Transportation Research (UTCTR)</origin>
-<pubdate>2006</pubdate>
-<title>Automatic Traffic Recorders (ATR)</title>
-</citeinfo>
-</srccite>
-<typesrc>computer program</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>2006</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>Weight Stations</srccitea>
-<srccontr>WIM/ATR site information, as reported by State DOTs to the FHWA, may consist of multiple data collecting stations for a single site, each identified by a unique identifier (ID).</srccontr>
-</srcinfo>
-<procstep>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>transportation</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Automatic Traffic counters</themekey>
+								<themekey>Automatic Traffic Recorders</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>United States (6252001)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>United States</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2008</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>None</accconst>
+						<useconst>None</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Federal Highway Administration (FHWA)</cntorg>
+									<cntper>David L. Jones</cntper>
+								</cntorgp>
+								<cntpos>Transportation Specialist</cntpos>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>1200 New Jersey Ave, SE</address>
+									<city>Washington</city>
+									<state>DC</state>
+									<postal>20590</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>202.366.5053</cntvoice>
+								<cntfax>202.366.7742</cntfax>
+								<cntemail>david.jones@fhea.dot.gov</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/atr.bmp</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>bmp</browset>
+						</browse>
+						<secinfo>
+							<secclass>Unclassified</secclass>
+						</secinfo>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+						<crossref>
+							<citeinfo>
+								<origin>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</origin>
+								<pubdate>2008</pubdate>
+								<title>National Transportation Atlas Databases (NTAD) 2008</title>
+								<pubinfo>
+									<pubplace>Washington, DC</pubplace>
+									<publish>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</publish>
+								</pubinfo>
+								<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+							</citeinfo>
+						</crossref>
+					</idinfo>
+					<dataqual>
+						<attracc>
+							<attraccr>Weigh Station attributes were obtained from the individual State DOTs,  University of Tennessee data, National Highway Planning Network, Federal Highway Administration, and RITA (Research and Innovative Technology Administration).  All records were assigned the accurate state name, state abbreviation, state FIPS code and county FIPS code.</attraccr>
+						</attracc>
+						<logic>Uniqueness of entity Ids are verified by computer algorithm.</logic>
+						<complete>The data are as complete as possible. There are approximately 25 stations that could not be located due to a poor location description.</complete>
+						<posacc>
+							<horizpa>
+								<horizpar>The elements of the GIS Traffic Stations have been conflated to the 1:100,000NHPN v4.0 data set which maintains a nominal accuracy of at least 80 meters. Where no NHPN roads exist, the station was located using text description or teleatlas data.</horizpar>
+							</horizpa>
+							<vertacc>
+								<vertaccr>The elements of the GIS Traffic Stations have been conflated to the 1:100,000 NHPN v4.0 data set which maintains a nominal accuracy of at least 80 meters. Where no NHPN roads exist, the station was located using text description or Teleatlas data.</vertaccr>
+							</vertacc>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Federal Highway Administrations (FHWA)</origin>
+										<origin>State Departments' of Transportation</origin>
+										<origin>University of Tennessee Center for Transportation Research (UTCTR)</origin>
+										<pubdate>2006</pubdate>
+										<title>Automatic Traffic Recorders (ATR)</title>
+									</citeinfo>
+								</srccite>
+								<typesrc>computer program</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>2006</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>Weight Stations</srccitea>
+								<srccontr>WIM/ATR site information, as reported by State DOTs to the FHWA, may consist of multiple data collecting stations for a single site, each identified by a unique identifier (ID).</srccontr>
+							</srcinfo>
+							<procstep>
 <procdesc>Weigh Station collection began with FHWA delivering all new weigh station points ot RITA.  Also acquired was the older University of Tennessee dataset to use as a comparison with new FHWA data.  Analysis of data began by comparing the two datasets.  All duplicate points were eliminated from the new FHWA dataset.  Once a final dataset was complete, a state-by-state analysis began.  As each state's database was populated differently, analysis varied from state to state.
 Process steps included indentifying county code per point. Determine broad location of road segment using LRS Id.  Value could then be tied into the LRSKEY value on road segments.
 If no LRS ID was provided, HPMS values were also used to determine location.
@@ -175,408 +176,408 @@ Once exact location was determined, edit session was begun and the point was man
 After all points were populated, the latitude and longitude fields were calculated using a script in an edit session.
 The AADT and FCLASS were appended by using the STTNKEY attribute.
 Standard quality control processes performed in preparation for publication.</procdesc>
-<procdate>2006</procdate>
-<proccont>
-<cntinfo>
-<cntorgp>
-<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
-<cntper>Geospatial Information Program whenever Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS) is the Contact Organization.</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>1200 New Jersey Ave., SE</address>
-<city>Washington</city>
-<state>DC</state>
-<postal>20590</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>202-366-DATA</cntvoice>
-<cntemail>answers@bts.gov</cntemail>
-</cntinfo>
-</proccont>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>Entity point</sdtstype>
-<ptvctcnt>6349</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<geograph>
-<latres>0.000001</latres>
-<longres>0.000001</longres>
-<geogunit>Decimal degrees</geogunit>
-</geograph>
-<geodetic>
-<horizdn>D_WGS_1984</horizdn>
-<ellips>WGS_1984</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257224</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+								<procdate>2006</procdate>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
+											<cntper>Geospatial Information Program whenever Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS) is the Contact Organization.</cntper>
+										</cntorgp>
+										<cntaddr>
+											<addrtype>mailing and physical address</addrtype>
+											<address>1200 New Jersey Ave., SE</address>
+											<city>Washington</city>
+											<state>DC</state>
+											<postal>20590</postal>
+											<country>USA</country>
+										</cntaddr>
+										<cntvoice>202-366-DATA</cntvoice>
+										<cntemail>answers@bts.gov</cntemail>
+									</cntinfo>
+								</proccont>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>Entity point</sdtstype>
+								<ptvctcnt>6349</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000001</latres>
+								<longres>0.000001</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 atr</enttypl>
-<enttypd>Points</enttypd>
-<enttypds>University of Tennessee/FHWA</enttypds>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STTNKEY</attrlabl>
-<attrdef>Unique Station Identifier: Concatenated State FIPS code and Unique Station ID</attrdef>
-<attrdefs>State DOTs</attrdefs>
-<attrdomv>
-<udom>IDs Assigned by State DOTs</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STTNID</attrlabl>
-<attrdef>Unique ID designated to each point</attrdef>
-<attrdefs>University of Tennessee/FHWA</attrdefs>
-<attrdomv>
-<udom>Character value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>NHS</attrlabl>
-<attrdef>Indicates whether the section is on the National Highway System (NHS) or is an NHS connector to an intermodal facility.</attrdef>
-<attrdefs>HPMS Field Manual</attrdefs>
-<attrdomv>
-<edom>
-<edomv>0</edomv>
-<edomvd>Section is not on the NHS</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>1</edomv>
-<edomvd>Section is on the NHS, but is not a NHS intermodal connector</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>2</edomv>
-<edomvd>NHS Intermodal Connector - Major Airport</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>3</edomv>
-<edomvd>NHS Intermodal Connector - Major Port Facility</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>4</edomv>
-<edomvd>NHS Intermodal Connector - Major Amtrak Station</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>5</edomv>
-<edomvd>NHS Intermodal Connector - Major Rail/Truck Terminal</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>6</edomv>
-<edomvd>NHS Intermodal Connector - Major Intercity Bus Terminal</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>7</edomv>
-<edomvd>NHS Intermodal Connector - Major Public Transit or Multi-Modal Passenger Terminal</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>8</edomv>
-<edomvd>NHS Intermodal Connector - Major Pipeline Terminal</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>9</edomv>
-<edomvd>NHS Intermodal Connector - Major Ferry Terminal</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LOCATION</attrlabl>
-<attrdef>Station Location Description</attrdef>
-<attrdefs>FHWA</attrdefs>
-<attrdomv>
-<udom>Character value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>CONFIDENCE</attrlabl>
-<attrdef>Confidence that point was created correctly using the data provided</attrdef>
-<attrdefs>FHWA</attrdefs>
-<attrdomv>
-<edom>
-<edomv>1</edomv>
-<edomvd>low confidence</edomvd>
-<edomvds>FHWA</edomvds>
-</edom>
-<edom>
-<edomv>2</edomv>
-<edomvd>confident</edomvd>
-<edomvds>FHWA</edomvds>
-</edom>
-<edom>
-<edomv>3</edomv>
-<edomvd>highly confident</edomvd>
-<edomvds>FHWA</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>COMMENT</attrlabl>
-<attrdef>Notes on point creation and relationship to location</attrdef>
-<attrdefs>UTN, State DOT &amp; RITA/BTS</attrdefs>
-<attrdomv>
-<udom>Character value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LONGITUDE</attrlabl>
-<attrdef>The longitude of the point expressed as a signed real number. This value is in decimal degrees with negative values indicating West longitude and positive values indicating East longitude.</attrdef>
-<attrdefs>RITA/BTS</attrdefs>
-<attrdomv>
-<rdom>
-<rdommin>180 West</rdommin>
-<rdommax>180 East</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>LATITUDE</attrlabl>
-<attrdef>The latitude of the point expressed as a signed real number. This value is in decimal degrees with negative values indicating South latitude and positive values indicating North latitude.</attrdef>
-<attrdefs>RITA/BTS</attrdefs>
-<attrdomv>
-<rdom>
-<rdommin>90 South</rdommin>
-<rdommax>90 North</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STPOSTAL</attrlabl>
-<attrdef>State Postal Code Abbreviations</attrdef>
-<attrdefs>USPS</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Official List of U.S. Postal Code Abbreviations</codesetn>
-<codesets>U.S. Postal Service (USPS)</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>AADT</attrlabl>
-<attrdef>Annual Average Daily Traffic (2005)</attrdef>
-<attrdefs>State DOTs</attrdefs>
-<attrdomv>
-<udom>Numeric value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>YEAR_GEO</attrlabl>
-<attrdef>Year the location was spatial located</attrdef>
-<attrdefs>UTN, State DOT &amp; RITA/BTS</attrdefs>
-<attrdomv>
-<udom>Numeric value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>FCLASS</attrlabl>
-<attrdef>The functional system upon which the section is located.</attrdef>
-<attrdefs>HPMS Field Manual</attrdefs>
-<attrdomv>
-<edom>
-<edomv>1</edomv>
-<edomvd>Rural Principal Arterial - Interstate</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>2</edomv>
-<edomvd>Rural Principal Arterial - Other</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>6</edomv>
-<edomvd>Rural Minor Arterial</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>7</edomv>
-<edomvd>Rural Major Collector</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>8</edomv>
-<edomvd>Rural Minor Collector</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>9</edomv>
-<edomvd>Rural Local</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>11</edomv>
-<edomvd>Urban Principal Arterial - Interstate</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>12</edomv>
-<edomvd>Urban Principal Arterial - Other Freeways and Expressways</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>14</edomv>
-<edomvd>Urban Principal Arterial - Other</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>16</edomv>
-<edomvd>Urban Minor Arterial</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>17</edomv>
-<edomvd>Urban Collector</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-<edom>
-<edomv>19</edomv>
-<edomvd>Urban Local</edomvd>
-<edomvds>HPMS Field Manual</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>STFIPS</attrlabl>
-<attrdef>State FIPS Code</attrdef>
-<attrdefs>FHWA Station Description Files</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Federal Information Processing Standard- FIPS Pub 6-4</codesetn>
-<codesets>National Institute for Standards and Technology (NIST)</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>CTFIPS</attrlabl>
-<attrdef>3 digit code for where the point resides</attrdef>
-<attrdefs>Federal Information Processing Standards</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Federal Information Processing Standard- FIPS Pub 6-4</codesetn>
-<codesets>National Institute for Standards and Technology (NIST)</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>VERSION</attrlabl>
-<attrdef>Version of the database</attrdef>
-<attrdefs>RITA/BTS</attrdefs>
-<attrdomv>
-<rdom>
-<rdommin>00</rdommin>
-<rdommax>99</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-</detailed>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
-<cntper>Geospatial Information Program</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>1200 New Jersey Ave., SE</address>
-<city>Washington</city>
-<state>District of Columbia</state>
-<postal>20590</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>202-366-DATA</cntvoice>
-<cntemail>answers@bts.gov</cntemail>
-</cntinfo>
-</distrib>
-<resdesc>ntad_2008_us_atr</resdesc>
-<distliab>None</distliab>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>geopackage</formname>
+									<enttypd>Points</enttypd>
+									<enttypds>University of Tennessee/FHWA</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STTNKEY</attrlabl>
+									<attrdef>Unique Station Identifier: Concatenated State FIPS code and Unique Station ID</attrdef>
+									<attrdefs>State DOTs</attrdefs>
+									<attrdomv>
+										<udom>IDs Assigned by State DOTs</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STTNID</attrlabl>
+									<attrdef>Unique ID designated to each point</attrdef>
+									<attrdefs>University of Tennessee/FHWA</attrdefs>
+									<attrdomv>
+										<udom>Character value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NHS</attrlabl>
+									<attrdef>Indicates whether the section is on the National Highway System (NHS) or is an NHS connector to an intermodal facility.</attrdef>
+									<attrdefs>HPMS Field Manual</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>0</edomv>
+											<edomvd>Section is not on the NHS</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>1</edomv>
+											<edomvd>Section is on the NHS, but is not a NHS intermodal connector</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>2</edomv>
+											<edomvd>NHS Intermodal Connector - Major Airport</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>3</edomv>
+											<edomvd>NHS Intermodal Connector - Major Port Facility</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>4</edomv>
+											<edomvd>NHS Intermodal Connector - Major Amtrak Station</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>5</edomv>
+											<edomvd>NHS Intermodal Connector - Major Rail/Truck Terminal</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>6</edomv>
+											<edomvd>NHS Intermodal Connector - Major Intercity Bus Terminal</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>7</edomv>
+											<edomvd>NHS Intermodal Connector - Major Public Transit or Multi-Modal Passenger Terminal</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>8</edomv>
+											<edomvd>NHS Intermodal Connector - Major Pipeline Terminal</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>9</edomv>
+											<edomvd>NHS Intermodal Connector - Major Ferry Terminal</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LOCATION</attrlabl>
+									<attrdef>Station Location Description</attrdef>
+									<attrdefs>FHWA</attrdefs>
+									<attrdomv>
+										<udom>Character value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CONFIDENCE</attrlabl>
+									<attrdef>Confidence that point was created correctly using the data provided</attrdef>
+									<attrdefs>FHWA</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>1</edomv>
+											<edomvd>low confidence</edomvd>
+											<edomvds>FHWA</edomvds>
+										</edom>
+										<edom>
+											<edomv>2</edomv>
+											<edomvd>confident</edomvd>
+											<edomvds>FHWA</edomvds>
+										</edom>
+										<edom>
+											<edomv>3</edomv>
+											<edomvd>highly confident</edomvd>
+											<edomvds>FHWA</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>COMMENT</attrlabl>
+									<attrdef>Notes on point creation and relationship to location</attrdef>
+									<attrdefs>UTN, State DOT &amp; RITA/BTS</attrdefs>
+									<attrdomv>
+										<udom>Character value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LONGITUDE</attrlabl>
+									<attrdef>The longitude of the point expressed as a signed real number. This value is in decimal degrees with negative values indicating West longitude and positive values indicating East longitude.</attrdef>
+									<attrdefs>RITA/BTS</attrdefs>
+									<attrdomv>
+										<rdom>
+											<rdommin>180 West</rdommin>
+											<rdommax>180 East</rdommax>
+										</rdom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LATITUDE</attrlabl>
+									<attrdef>The latitude of the point expressed as a signed real number. This value is in decimal degrees with negative values indicating South latitude and positive values indicating North latitude.</attrdef>
+									<attrdefs>RITA/BTS</attrdefs>
+									<attrdomv>
+										<rdom>
+											<rdommin>90 South</rdommin>
+											<rdommax>90 North</rdommax>
+										</rdom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STPOSTAL</attrlabl>
+									<attrdef>State Postal Code Abbreviations</attrdef>
+									<attrdefs>USPS</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Official List of U.S. Postal Code Abbreviations</codesetn>
+											<codesets>U.S. Postal Service (USPS)</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>AADT</attrlabl>
+									<attrdef>Annual Average Daily Traffic (2005)</attrdef>
+									<attrdefs>State DOTs</attrdefs>
+									<attrdomv>
+										<udom>Numeric value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>YEAR_GEO</attrlabl>
+									<attrdef>Year the location was spatial located</attrdef>
+									<attrdefs>UTN, State DOT &amp; RITA/BTS</attrdefs>
+									<attrdomv>
+										<udom>Numeric value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FCLASS</attrlabl>
+									<attrdef>The functional system upon which the section is located.</attrdef>
+									<attrdefs>HPMS Field Manual</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>1</edomv>
+											<edomvd>Rural Principal Arterial - Interstate</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>2</edomv>
+											<edomvd>Rural Principal Arterial - Other</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>6</edomv>
+											<edomvd>Rural Minor Arterial</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>7</edomv>
+											<edomvd>Rural Major Collector</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>8</edomv>
+											<edomvd>Rural Minor Collector</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>9</edomv>
+											<edomvd>Rural Local</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>11</edomv>
+											<edomvd>Urban Principal Arterial - Interstate</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>12</edomv>
+											<edomvd>Urban Principal Arterial - Other Freeways and Expressways</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>14</edomv>
+											<edomvd>Urban Principal Arterial - Other</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>16</edomv>
+											<edomvd>Urban Minor Arterial</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>17</edomv>
+											<edomvd>Urban Collector</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+										<edom>
+											<edomv>19</edomv>
+											<edomvd>Urban Local</edomvd>
+											<edomvds>HPMS Field Manual</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STFIPS</attrlabl>
+									<attrdef>State FIPS Code</attrdef>
+									<attrdefs>FHWA Station Description Files</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standard- FIPS Pub 6-4</codesetn>
+											<codesets>National Institute for Standards and Technology (NIST)</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CTFIPS</attrlabl>
+									<attrdef>3 digit code for where the point resides</attrdef>
+									<attrdefs>Federal Information Processing Standards</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standard- FIPS Pub 6-4</codesetn>
+											<codesets>National Institute for Standards and Technology (NIST)</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>VERSION</attrlabl>
+									<attrdef>Version of the database</attrdef>
+									<attrdefs>RITA/BTS</attrdefs>
+									<attrdomv>
+										<rdom>
+											<rdommin>00</rdommin>
+											<rdommax>99</rdommax>
+										</rdom>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
+										<cntper>Geospatial Information Program</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>1200 New Jersey Ave., SE</address>
+										<city>Washington</city>
+										<state>District of Columbia</state>
+										<postal>20590</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>202-366-DATA</cntvoice>
+									<cntemail>answers@bts.gov</cntemail>
+								</cntinfo>
+							</distrib>
+							<resdesc>ntad_2008_us_atr</resdesc>
+							<distliab>None</distliab>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>geopackage</formname>
 
-</digtinfo>
-<digtopt>
-<onlinopt>
-<computer>
-<networka>
-</networka>
-</computer>
-</onlinopt>
-</digtopt>
-</digform>
-<fees>None</fees>
-<ordering>Call 202-366-DATA, or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2008 DVD.  This and other RITA/BTS products may be ordered from the RITA/BTS Internet website http://www.bts.gov/programs/geographic_information_services/.</ordering>
-</stdorder>
-<techpreq>Software that can process GIS files.</techpreq>
-<availabl>
-<timeinfo>
-<sngdate>
-<caldate>2008</caldate>
-</sngdate>
-</timeinfo>
-</availabl>
-</distinfo>
-<metainfo>
-<metd>20090601</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212)854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+									</digtinfo>
+									<digtopt>
+										<onlinopt>
+											<computer>
+												<networka>
+												</networka>
+											</computer>
+										</onlinopt>
+									</digtopt>
+								</digform>
+								<fees>None</fees>
+								<ordering>Call 202-366-DATA, or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2008 DVD.  This and other RITA/BTS products may be ordered from the RITA/BTS Internet website http://www.bts.gov/programs/geographic_information_services/.</ordering>
+							</stdorder>
+							<techpreq>Software that can process GIS files.</techpreq>
+							<availabl>
+								<timeinfo>
+									<sngdate>
+										<caldate>2008</caldate>
+									</sngdate>
+								</timeinfo>
+							</availabl>
+						</distinfo>
+						<metainfo>
+							<metd>20090601</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

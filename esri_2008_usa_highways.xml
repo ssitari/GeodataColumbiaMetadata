@@ -1,101 +1,105 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>Tele Atlas (Firm : U.S.)</origin>
-<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-<pubdate>2008</pubdate>
-<title>United States Highways, 2008</title>
-<edition>2008</edition>
-<geoform>vector digital data</geoform>
-<serinfo>
-<sername>ESRI Data &amp; Maps</sername>
-<issue>2008 World, Europe, United States, Canada, and Mexico</issue>
-</serinfo>
-<pubinfo>
-<pubplace>Redlands, California, USA</pubplace>
-<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
-</pubinfo>
-<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2008_usa_highways.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Tele Atlas (Firm : U.S.)</origin>
+				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+				<pubdate>2008</pubdate>
+				<title>United States Highways, 2008</title>
+				<edition>2008</edition>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>ESRI Data &amp; Maps</sername>
+					<issue>2008 World, Europe, United States, Canada, and Mexico</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Redlands, California, USA</pubplace>
+					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
+				</pubinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2008_usa_highways.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
 <abstract>United States Highways is a polyline theme representing the major and minor highways of the United States. These include interstates, U.S. highways, state highways, major roads, and minor roads. This dataset is a subset of the Streets dataset. It contains all Class 1, 2, and 3 road segments plus any other roads segments necessary to provide network connectivity for the Class_Rte field.  Attribute information includes the highway type, class, direction and name.
 
 This dataset is a part of the 2008 ESRI Data &amp; Maps collection.</abstract>
-<purpose>United States Highways provides a subset of highways and roads from the Streets dataset for national, state, and regional display.</purpose>
-<supplinf>Largest scale when displaying the data: 1:100,000.</supplinf>
-</descript>
-<timeperd>
+			<purpose>United States Highways provides a subset of highways and roads from the Streets dataset for national, state, and regional display.</purpose>
+			<supplinf>Largest scale when displaying the data: 1:100,000.</supplinf>
+		</descript>
+		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2008</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2008</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>publication date</current>
 		</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Annually</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -166.556500</westbc>
-<eastbc>
+					<eastbc>
 -66.979673</eastbc>
-<northbc>
+						<northbc>
 71.295691</northbc>
-<southbc>
+							<southbc>
 19.058082</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>None</themekt>
-<themekey>line</themekey>
-<themekey>interstates</themekey>
-<themekey>highways</themekey>
-<themekey>freeways or expressways</themekey>
-<themekey>major streets</themekey>
-</theme>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>location</themekey>
-<themekey>transportation</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>United States (6252001)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>United States</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2000</tempkey>
-<tempkey>2002</tempkey>
-</temporal>
-</keywords>
-<accconst>For current Columbia affiliates only.</accconst>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>line</themekey>
+								<themekey>interstates</themekey>
+								<themekey>highways</themekey>
+								<themekey>freeways or expressways</themekey>
+								<themekey>major streets</themekey>
+							</theme>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>location</themekey>
+								<themekey>transportation</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>United States (6252001)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>United States</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2000</tempkey>
+								<tempkey>2002</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
 
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>ESRI</cntorg>
-<cntper>Data Team</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>909-793-2853</cntvoice>
-<cntfax>909-793-5953</cntfax>
-<cntemail>info@esri.com</cntemail>
-<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>ESRI</cntorg>
+									<cntper>Data Team</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>380 New York Street</address>
+									<city>Redlands</city>
+									<state>California</state>
+									<postal>92373-8100</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>909-793-2853</cntvoice>
+								<cntfax>909-793-5953</cntfax>
+								<cntemail>info@esri.com</cntemail>
+								<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
 <cntinst>In the United States:
 Please direct all inquiries regarding software/data pricing and consulting services to your local ESRI Regional Office.  For support, you may contact ESRI Support Center by telephone (voice) between 6:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing 888-377-4575; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com/; ESRI holidays excluded. 
 
@@ -103,352 +107,352 @@ Outside the United States
 Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.  
 
 For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_highways.jpg</browsen>
-<browsed>Thumbnail</browsed>
-<browset>JPEG</browset>
-</browse>
-<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 9.0.0.532</native>
-</idinfo>
-<dataqual>
-<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
-<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-<posacc>
-<horizpa>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_highways.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 9.0.0.532</native>
+					</idinfo>
+					<dataqual>
+						<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+						<posacc>
+							<horizpa>
 <horizpar>The geospatial part of this data set was extracted from the 2000 Census TIGER/Line files. The positional accuracy varies with the source materials used, but generally the information is no better than the established national map Accuracy standards for 1:100,000-scale maps from the U.S. Geological Survey (USGS). To improve the accuracy, Tele Atlas ran a process against the entire nationwide database.
 
 The level of positional accuracy in the StreetMap files is not suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface.</horizpar>
-</horizpa>
-</posacc>
-<lineage>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Tele Atlas North America, Inc.</origin>
-<pubdate>2002</pubdate>
-<title>Tele Atlas TIGER/Line 2000 Streets, 2008</title>
-<geoform>vector digital data</geoform>
-<pubinfo>
-<pubplace>Lebanon, New Hampshire, USA</pubplace>
-<publish>Tele Atlas North America, Inc.</publish>
-</pubinfo>
-<othercit>TIGER/Line 2000 Data Processed by a proprietary line straightening process by Tele Atlas North America, Inc.</othercit>
-</citeinfo>
-</srccite>
-<srcscale>100000</srcscale>
-<typesrc>CD-ROM</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>2000</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>ground condition</srccurr>
-</srctime>
-<srccitea>Tele Atlas TIGER/Line Streets</srccitea>
-<srccontr>Attribute and geospatial data</srccontr>
-</srcinfo>
-<procstep>
-<procdesc>The following steps were performed by ESRI: From StreetMap Detailed Streets, extracted all Class 1, 2, and 3 road segments plus any other road segments necessary to provide network connectivity for the CLASS_RTE attribute. Converted the data set to SDC. Created the projection file (.prj) and spatial indices.</procdesc>
-<srcused>Tele Atlas TIGER/Line Streets</srcused>
-<procdate>20031212</procdate>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>String</sdtstype>
-<ptvctcnt>348093</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<geograph>
-<latres>0.000009</latres>
-<longres>0.000009</longres>
-<geogunit>Decimal degrees</geogunit>
-</geograph>
-<geodetic>
-<horizdn>D_WGS_1984</horizdn>
-<ellips>WGS_1984</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257224</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Tele Atlas North America, Inc.</origin>
+										<pubdate>2002</pubdate>
+										<title>Tele Atlas TIGER/Line 2000 Streets, 2008</title>
+										<geoform>vector digital data</geoform>
+										<pubinfo>
+											<pubplace>Lebanon, New Hampshire, USA</pubplace>
+											<publish>Tele Atlas North America, Inc.</publish>
+										</pubinfo>
+										<othercit>TIGER/Line 2000 Data Processed by a proprietary line straightening process by Tele Atlas North America, Inc.</othercit>
+									</citeinfo>
+								</srccite>
+								<srcscale>100000</srcscale>
+								<typesrc>CD-ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>2000</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>ground condition</srccurr>
+								</srctime>
+								<srccitea>Tele Atlas TIGER/Line Streets</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: From StreetMap Detailed Streets, extracted all Class 1, 2, and 3 road segments plus any other road segments necessary to provide network connectivity for the CLASS_RTE attribute. Converted the data set to SDC. Created the projection file (.prj) and spatial indices.</procdesc>
+								<srcused>Tele Atlas TIGER/Line Streets</srcused>
+								<procdate>20031212</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>String</sdtstype>
+								<ptvctcnt>348093</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000009</latres>
+								<longres>0.000009</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 highways</enttypl>
-<enttypd>The lines represent the major and minor highways of the United States. These include Interstates, U.S. Highways, State Highways, major roads, and minor roads.</enttypd>
-<enttypds>ESRI</enttypds>
-</enttyp>
-<attr>
-<attrlabl>ObjectID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>PREFIX</attrlabl>
-<attrdef>The prefix direction.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Prefix directions of the address attributes for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>PRETYPE</attrlabl>
-<attrdef>The prefix highway type.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Prefix highway types of the address attributes for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>NAME</attrlabl>
-<attrdef>The name of the highway.</attrdef>
-<attrdefs>Tele Atlas North America, Inc.</attrdefs>
-<attrdomv>
-<udom>Names for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>TYPE</attrlabl>
-<attrdef>The suffix highway type.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Suffix highway types of the address attributes for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>SUFFIX</attrlabl>
-<attrdef>The suffix direction.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Suffix directions of the address attributes for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>CLASS</attrlabl>
-<attrdef>The highway class.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<edom>
-<edomv>1</edomv>
-<edomvd>Limited Access.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>2</edomv>
-<edomvd>Highway.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>3</edomv>
-<edomvd>Major Road.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>4</edomv>
-<edomvd>Local Road.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>5</edomv>
-<edomvd>Minor Road.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>6</edomv>
-<edomvd>Other Road.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>7</edomv>
-<edomvd>Ramp.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>8</edomv>
-<edomvd>Ferry.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>9</edomv>
-<edomvd>Pedestrian Way.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>CLASS_RTE</attrlabl>
-<attrdef>The highway class (used for routing and connectivity).</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<edom>
-<edomv>1</edomv>
-<edomvd>Limited Access.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>2</edomv>
-<edomvd>Highway.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>3</edomv>
-<edomvd>Major Road.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>4</edomv>
-<edomvd>Local Road.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>5</edomv>
-<edomvd>Minor Road.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>6</edomv>
-<edomvd>Other Road.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>7</edomv>
-<edomvd>Ramp.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>8</edomv>
-<edomvd>Ferry.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>9</edomv>
-<edomvd>Pedestrian Way.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>0</edomv>
-<edomvd>A special class of highway to do very fast high level cross-country routing that also selects the through-route in complicated urban areas.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>HWY_TYPE</attrlabl>
-<attrdef>The highway type.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<edom>
-<edomv>I</edomv>
-<edomvd>Interstate.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>S</edomv>
-<edomvd>State Highway.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>U</edomv>
-<edomvd>U.S. Highway.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-<edom>
-<edomv>&lt;blank&gt;</edomv>
-<edomvd>None of the above.</edomvd>
-<edomvds>ESRI</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>HWY_SYMBOL</attrlabl>
-<attrdef>The highway symbol (usually route number).</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Numbers for the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-</detailed>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>ESRI; ESRI International Distributors</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>800-447-9778</cntvoice>
+									<enttypd>The lines represent the major and minor highways of the United States. These include Interstates, U.S. Highways, State Highways, major roads, and minor roads.</enttypd>
+									<enttypds>ESRI</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>ObjectID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>PREFIX</attrlabl>
+									<attrdef>The prefix direction.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Prefix directions of the address attributes for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>PRETYPE</attrlabl>
+									<attrdef>The prefix highway type.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Prefix highway types of the address attributes for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME</attrlabl>
+									<attrdef>The name of the highway.</attrdef>
+									<attrdefs>Tele Atlas North America, Inc.</attrdefs>
+									<attrdomv>
+										<udom>Names for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>TYPE</attrlabl>
+									<attrdef>The suffix highway type.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Suffix highway types of the address attributes for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>SUFFIX</attrlabl>
+									<attrdef>The suffix direction.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Suffix directions of the address attributes for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CLASS</attrlabl>
+									<attrdef>The highway class.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>1</edomv>
+											<edomvd>Limited Access.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>2</edomv>
+											<edomvd>Highway.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>3</edomv>
+											<edomvd>Major Road.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>4</edomv>
+											<edomvd>Local Road.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>5</edomv>
+											<edomvd>Minor Road.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>6</edomv>
+											<edomvd>Other Road.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>7</edomv>
+											<edomvd>Ramp.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>8</edomv>
+											<edomvd>Ferry.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>9</edomv>
+											<edomvd>Pedestrian Way.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CLASS_RTE</attrlabl>
+									<attrdef>The highway class (used for routing and connectivity).</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>1</edomv>
+											<edomvd>Limited Access.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>2</edomv>
+											<edomvd>Highway.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>3</edomv>
+											<edomvd>Major Road.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>4</edomv>
+											<edomvd>Local Road.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>5</edomv>
+											<edomvd>Minor Road.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>6</edomv>
+											<edomvd>Other Road.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>7</edomv>
+											<edomvd>Ramp.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>8</edomv>
+											<edomvd>Ferry.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>9</edomv>
+											<edomvd>Pedestrian Way.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>0</edomv>
+											<edomvd>A special class of highway to do very fast high level cross-country routing that also selects the through-route in complicated urban areas.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>HWY_TYPE</attrlabl>
+									<attrdef>The highway type.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>I</edomv>
+											<edomvd>Interstate.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>S</edomv>
+											<edomvd>State Highway.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>U</edomv>
+											<edomvd>U.S. Highway.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+										<edom>
+											<edomv>&lt;blank&gt;</edomv>
+											<edomvd>None of the above.</edomvd>
+											<edomvds>ESRI</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>HWY_SYMBOL</attrlabl>
+									<attrdef>The highway symbol (usually route number).</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Numbers for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>ESRI; ESRI International Distributors</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>380 New York Street</address>
+										<city>Redlands</city>
+										<state>California</state>
+										<postal>92373-8100</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>800-447-9778</cntvoice>
 <cntinst>In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data.
 
 Outside the United States, please direct all inquiries to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contact/.</cntinst>
-</cntinfo>
-</distrib>
-<resdesc>esri_2008_usa_highways</resdesc>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>SDC</formname>
-<formspec>zip</formspec>
-<transize>26.957</transize>
-</digtinfo>
-<digtopt>
-</digtopt>
-</digform>
-<fees>Software purchase price</fees>
-<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
-</stdorder>
-<techpreq>To use this data requires software that supports SDC files.</techpreq>
-</distinfo>
-<metainfo>
-<metd>20090715</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+								</cntinfo>
+							</distrib>
+							<resdesc>esri_2008_usa_highways</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>SDC</formname>
+										<formspec>zip</formspec>
+										<transize>26.957</transize>
+									</digtinfo>
+									<digtopt>
+									</digtopt>
+								</digform>
+								<fees>Software purchase price</fees>
+								<ordering>ESRI Data &amp; Maps is available only as part of ESRI software.</ordering>
+							</stdorder>
+							<techpreq>To use this data requires software that supports SDC files.</techpreq>
+						</distinfo>
+						<metainfo>
+							<metd>20090715</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

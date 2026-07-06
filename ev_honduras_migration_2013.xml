@@ -1,818 +1,818 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Honduras (3608932)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Honduras</placekey>
-<placekey>Honduras</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2013</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-89.356610</westbc>
-<eastbc>-83.149552</eastbc>
-<northbc>16.518630</northbc>
-<southbc>12.984875</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Honduras (3608932)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Honduras</placekey>
+				<placekey>Honduras</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2013</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-89.356610</westbc>
+				<eastbc>-83.149552</eastbc>
+				<northbc>16.518630</northbc>
+				<southbc>12.984875</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Honduras Migration Census Data, 2013 is a polygon theme representing Barrios (5th level administrative units) in Honduras as of 2013.  Attribute data includes migration variables from the 2013 Hondurasian census.
 Official population and housing data for Honduras from the 2013 census. This census is provided at the barrio administrative level (ADM5) and includes 3732 polygons with 629 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Parentesco: Jefe O Jefa Del Hogar" was updated to D001 and given the alias "Relationship: Head Of Household[Parentesco: Jefe O Jefa Del Hogar]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
- </abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Honduras Migration Census Data, 2013</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Honduras Migration Census Data, 2013</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_honduras_migration_2013.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2013</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2013</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>WGS_1984_Web_Mercator_Auxiliary_Sphere</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>WGS_1984_Web_Mercator_Auxiliary_Sphere</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Honduras_2013</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M001</attrlabl>
-    <attrdef>Registered In The National Registry: Si[Inscripto En Registro: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M002</attrlabl>
-    <attrdef>Registered In The National Registry: No[Inscripto En Registro: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M003</attrlabl>
-    <attrdef>Registered In The National Registry: Total[Inscripto En Registro: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M004</attrlabl>
-    <attrdef>Place Of Birth: In This Municipality[Lugar De Nacimiento: En Este Municipio]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M005</attrlabl>
-    <attrdef>Place Of Birth: In Another Municipality In The Country[Lugar De Nacimiento: En Otro Municipio Del Pais]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M006</attrlabl>
-    <attrdef>Place Of Birth: In Other Country[Lugar De Nacimiento: En Otro Pais]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M007</attrlabl>
-    <attrdef>Place Of Birth: Total[Lugar De Nacimiento: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M008</attrlabl>
-    <attrdef>Department Of Birth: Atlantida[Departamento De Nacimiento: Atlantida]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M009</attrlabl>
-    <attrdef>Department Of Birth: Colon[Departamento De Nacimiento: Colon]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M010</attrlabl>
-    <attrdef>Department Of Birth: Comayagua[Departamento De Nacimiento: Comayagua]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M011</attrlabl>
-    <attrdef>Department Of Birth: Copan[Departamento De Nacimiento: Copan]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M012</attrlabl>
-    <attrdef>Department Of Birth: Cortes[Departamento De Nacimiento: Cortes]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M013</attrlabl>
-    <attrdef>Department Of Birth: Choluteca[Departamento De Nacimiento: Choluteca]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M014</attrlabl>
-    <attrdef>Department Of Birth: El Paraiso[Departamento De Nacimiento: El Paraiso]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M015</attrlabl>
-    <attrdef>Department Of Birth: Francisco Morazan[Departamento De Nacimiento: Francisco Morazan]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M016</attrlabl>
-    <attrdef>Department Of Birth: Gracias A Dios[Departamento De Nacimiento: Gracias A Dios]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M017</attrlabl>
-    <attrdef>Department Of Birth: Intubuca[Departamento De Nacimiento: Intubuca]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M018</attrlabl>
-    <attrdef>Department Of Birth: Islas De La Bahia[Departamento De Nacimiento: Islas De La Bahia]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M019</attrlabl>
-    <attrdef>Department Of Birth: La Paz[Departamento De Nacimiento: La Paz]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M020</attrlabl>
-    <attrdef>Department Of Birth: Lempira[Departamento De Nacimiento: Lempira]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M021</attrlabl>
-    <attrdef>Department Of Birth: Ocotepeque[Departamento De Nacimiento: Ocotepeque]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M022</attrlabl>
-    <attrdef>Department Of Birth: Olancho[Departamento De Nacimiento: Olancho]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M023</attrlabl>
-    <attrdef>Department Of Birth: Santa Barbara[Departamento De Nacimiento: Santa Barbara]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M024</attrlabl>
-    <attrdef>Department Of Birth: Valle[Departamento De Nacimiento: Valle]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M025</attrlabl>
-    <attrdef>Department Of Birth: Yoro[Departamento De Nacimiento: Yoro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M026</attrlabl>
-    <attrdef>Department Of Birth: Total[Departamento De Nacimiento: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M027</attrlabl>
-    <attrdef>Residence 5 Years Ago: In This Village Or City[Residencia 5 Años Atras: En Este Caserio Aldea O Ciudad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M028</attrlabl>
-    <attrdef>Residence 5 Years Ago: Another Part Of The Country[Residencia 5 Años Atras: En Otro Lugar Del Pais]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M029</attrlabl>
-    <attrdef>Residence 5 Years Ago: In Another Country[Residencia 5 Años Atras: En Otro Pais]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M030</attrlabl>
-    <attrdef>Residence 5 Years Ago: Total[Residencia 5 Años Atras: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M031</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Atlantida[Departamento De Residencia 5 Años Atras: Atlantida]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M032</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Colon[Departamento De Residencia 5 Años Atras: Colon]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M033</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Comayagua[Departamento De Residencia 5 Años Atras: Comayagua]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M034</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Copan[Departamento De Residencia 5 Años Atras: Copan]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M035</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Cortes[Departamento De Residencia 5 Años Atras: Cortes]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M036</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Choluteca[Departamento De Residencia 5 Años Atras: Choluteca]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M037</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: El Paraiso[Departamento De Residencia 5 Años Atras: El Paraiso]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M038</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Francisco Morazan[Departamento De Residencia 5 Años Atras: Francisco Morazan]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M039</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Gracias A Dios[Departamento De Residencia 5 Años Atras: Gracias A Dios]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M040</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Intubuca[Departamento De Residencia 5 Años Atras: Intubuca]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M041</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Islas De La Bahia[Departamento De Residencia 5 Años Atras: Islas De La Bahia]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M042</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: La Paz[Departamento De Residencia 5 Años Atras: La Paz]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M043</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Lempira[Departamento De Residencia 5 Años Atras: Lempira]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M044</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Ocotepeque[Departamento De Residencia 5 Años Atras: Ocotepeque]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M045</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Olancho[Departamento De Residencia 5 Años Atras: Olancho]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M046</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Santa Barbara[Departamento De Residencia 5 Años Atras: Santa Barbara]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M047</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Valle[Departamento De Residencia 5 Años Atras: Valle]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M048</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Yoro[Departamento De Residencia 5 Años Atras: Yoro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M049</attrlabl>
-    <attrdef>Department Of Residence 5 Years Ago: Total[Departamento De Residencia 5 Años Atras: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M050</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_1[Municipio De Residencia 5 Años Antes: P_14C_Mun_1]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M051</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_2[Municipio De Residencia 5 Años Antes: P_14C_Mun_2]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M052</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_3[Municipio De Residencia 5 Años Antes: P_14C_Mun_3]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M053</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_4[Municipio De Residencia 5 Años Antes: P_14C_Mun_4]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M054</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_5[Municipio De Residencia 5 Años Antes: P_14C_Mun_5]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M055</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_6[Municipio De Residencia 5 Años Antes: P_14C_Mun_6]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M056</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_7[Municipio De Residencia 5 Años Antes: P_14C_Mun_7]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M057</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_8[Municipio De Residencia 5 Años Antes: P_14C_Mun_8]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M058</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_9[Municipio De Residencia 5 Años Antes: P_14C_Mun_9]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M059</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_10[Municipio De Residencia 5 Años Antes: P_14C_Mun_10]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M060</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_11[Municipio De Residencia 5 Años Antes: P_14C_Mun_11]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M061</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_12[Municipio De Residencia 5 Años Antes: P_14C_Mun_12]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M062</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_13[Municipio De Residencia 5 Años Antes: P_14C_Mun_13]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M063</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_14[Municipio De Residencia 5 Años Antes: P_14C_Mun_14]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M064</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_15[Municipio De Residencia 5 Años Antes: P_14C_Mun_15]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M065</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_16[Municipio De Residencia 5 Años Antes: P_14C_Mun_16]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M066</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_17[Municipio De Residencia 5 Años Antes: P_14C_Mun_17]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M067</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_18[Municipio De Residencia 5 Años Antes: P_14C_Mun_18]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M068</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_19[Municipio De Residencia 5 Años Antes: P_14C_Mun_19]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M069</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_20[Municipio De Residencia 5 Años Antes: P_14C_Mun_20]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M070</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_21[Municipio De Residencia 5 Años Antes: P_14C_Mun_21]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M071</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_22[Municipio De Residencia 5 Años Antes: P_14C_Mun_22]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M072</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_23[Municipio De Residencia 5 Años Antes: P_14C_Mun_23]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M073</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_24[Municipio De Residencia 5 Años Antes: P_14C_Mun_24]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M074</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_25[Municipio De Residencia 5 Años Antes: P_14C_Mun_25]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M075</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_26[Municipio De Residencia 5 Años Antes: P_14C_Mun_26]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M076</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_27[Municipio De Residencia 5 Años Antes: P_14C_Mun_27]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M077</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_28[Municipio De Residencia 5 Años Antes: P_14C_Mun_28]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M078</attrlabl>
-    <attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_Total[Municipio De Residencia 5 Años Antes: P_14C_Mun_Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M079</attrlabl>
-    <attrdef>Identity Card: Yes[Tarjeta De Identidad: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M080</attrlabl>
-    <attrdef>Identity Card: No[Tarjeta De Identidad: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>M081</attrlabl>
-    <attrdef>Identity Card: Total[Tarjeta De Identidad: Total]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv/>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv/>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Honduras_2013</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M001</attrlabl>
+			<attrdef>Registered In The National Registry: Si[Inscripto En Registro: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M002</attrlabl>
+			<attrdef>Registered In The National Registry: No[Inscripto En Registro: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M003</attrlabl>
+			<attrdef>Registered In The National Registry: Total[Inscripto En Registro: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M004</attrlabl>
+			<attrdef>Place Of Birth: In This Municipality[Lugar De Nacimiento: En Este Municipio]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M005</attrlabl>
+			<attrdef>Place Of Birth: In Another Municipality In The Country[Lugar De Nacimiento: En Otro Municipio Del Pais]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M006</attrlabl>
+			<attrdef>Place Of Birth: In Other Country[Lugar De Nacimiento: En Otro Pais]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M007</attrlabl>
+			<attrdef>Place Of Birth: Total[Lugar De Nacimiento: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M008</attrlabl>
+			<attrdef>Department Of Birth: Atlantida[Departamento De Nacimiento: Atlantida]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M009</attrlabl>
+			<attrdef>Department Of Birth: Colon[Departamento De Nacimiento: Colon]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M010</attrlabl>
+			<attrdef>Department Of Birth: Comayagua[Departamento De Nacimiento: Comayagua]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M011</attrlabl>
+			<attrdef>Department Of Birth: Copan[Departamento De Nacimiento: Copan]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M012</attrlabl>
+			<attrdef>Department Of Birth: Cortes[Departamento De Nacimiento: Cortes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M013</attrlabl>
+			<attrdef>Department Of Birth: Choluteca[Departamento De Nacimiento: Choluteca]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M014</attrlabl>
+			<attrdef>Department Of Birth: El Paraiso[Departamento De Nacimiento: El Paraiso]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M015</attrlabl>
+			<attrdef>Department Of Birth: Francisco Morazan[Departamento De Nacimiento: Francisco Morazan]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M016</attrlabl>
+			<attrdef>Department Of Birth: Gracias A Dios[Departamento De Nacimiento: Gracias A Dios]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M017</attrlabl>
+			<attrdef>Department Of Birth: Intubuca[Departamento De Nacimiento: Intubuca]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M018</attrlabl>
+			<attrdef>Department Of Birth: Islas De La Bahia[Departamento De Nacimiento: Islas De La Bahia]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M019</attrlabl>
+			<attrdef>Department Of Birth: La Paz[Departamento De Nacimiento: La Paz]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M020</attrlabl>
+			<attrdef>Department Of Birth: Lempira[Departamento De Nacimiento: Lempira]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M021</attrlabl>
+			<attrdef>Department Of Birth: Ocotepeque[Departamento De Nacimiento: Ocotepeque]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M022</attrlabl>
+			<attrdef>Department Of Birth: Olancho[Departamento De Nacimiento: Olancho]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M023</attrlabl>
+			<attrdef>Department Of Birth: Santa Barbara[Departamento De Nacimiento: Santa Barbara]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M024</attrlabl>
+			<attrdef>Department Of Birth: Valle[Departamento De Nacimiento: Valle]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M025</attrlabl>
+			<attrdef>Department Of Birth: Yoro[Departamento De Nacimiento: Yoro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M026</attrlabl>
+			<attrdef>Department Of Birth: Total[Departamento De Nacimiento: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M027</attrlabl>
+			<attrdef>Residence 5 Years Ago: In This Village Or City[Residencia 5 Años Atras: En Este Caserio Aldea O Ciudad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M028</attrlabl>
+			<attrdef>Residence 5 Years Ago: Another Part Of The Country[Residencia 5 Años Atras: En Otro Lugar Del Pais]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M029</attrlabl>
+			<attrdef>Residence 5 Years Ago: In Another Country[Residencia 5 Años Atras: En Otro Pais]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M030</attrlabl>
+			<attrdef>Residence 5 Years Ago: Total[Residencia 5 Años Atras: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M031</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Atlantida[Departamento De Residencia 5 Años Atras: Atlantida]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M032</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Colon[Departamento De Residencia 5 Años Atras: Colon]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M033</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Comayagua[Departamento De Residencia 5 Años Atras: Comayagua]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M034</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Copan[Departamento De Residencia 5 Años Atras: Copan]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M035</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Cortes[Departamento De Residencia 5 Años Atras: Cortes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M036</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Choluteca[Departamento De Residencia 5 Años Atras: Choluteca]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M037</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: El Paraiso[Departamento De Residencia 5 Años Atras: El Paraiso]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M038</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Francisco Morazan[Departamento De Residencia 5 Años Atras: Francisco Morazan]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M039</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Gracias A Dios[Departamento De Residencia 5 Años Atras: Gracias A Dios]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M040</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Intubuca[Departamento De Residencia 5 Años Atras: Intubuca]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M041</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Islas De La Bahia[Departamento De Residencia 5 Años Atras: Islas De La Bahia]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M042</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: La Paz[Departamento De Residencia 5 Años Atras: La Paz]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M043</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Lempira[Departamento De Residencia 5 Años Atras: Lempira]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M044</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Ocotepeque[Departamento De Residencia 5 Años Atras: Ocotepeque]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M045</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Olancho[Departamento De Residencia 5 Años Atras: Olancho]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M046</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Santa Barbara[Departamento De Residencia 5 Años Atras: Santa Barbara]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M047</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Valle[Departamento De Residencia 5 Años Atras: Valle]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M048</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Yoro[Departamento De Residencia 5 Años Atras: Yoro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M049</attrlabl>
+			<attrdef>Department Of Residence 5 Years Ago: Total[Departamento De Residencia 5 Años Atras: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M050</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_1[Municipio De Residencia 5 Años Antes: P_14C_Mun_1]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M051</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_2[Municipio De Residencia 5 Años Antes: P_14C_Mun_2]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M052</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_3[Municipio De Residencia 5 Años Antes: P_14C_Mun_3]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M053</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_4[Municipio De Residencia 5 Años Antes: P_14C_Mun_4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M054</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_5[Municipio De Residencia 5 Años Antes: P_14C_Mun_5]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M055</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_6[Municipio De Residencia 5 Años Antes: P_14C_Mun_6]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M056</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_7[Municipio De Residencia 5 Años Antes: P_14C_Mun_7]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M057</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_8[Municipio De Residencia 5 Años Antes: P_14C_Mun_8]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M058</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_9[Municipio De Residencia 5 Años Antes: P_14C_Mun_9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M059</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_10[Municipio De Residencia 5 Años Antes: P_14C_Mun_10]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M060</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_11[Municipio De Residencia 5 Años Antes: P_14C_Mun_11]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M061</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_12[Municipio De Residencia 5 Años Antes: P_14C_Mun_12]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M062</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_13[Municipio De Residencia 5 Años Antes: P_14C_Mun_13]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M063</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_14[Municipio De Residencia 5 Años Antes: P_14C_Mun_14]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M064</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_15[Municipio De Residencia 5 Años Antes: P_14C_Mun_15]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M065</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_16[Municipio De Residencia 5 Años Antes: P_14C_Mun_16]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M066</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_17[Municipio De Residencia 5 Años Antes: P_14C_Mun_17]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M067</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_18[Municipio De Residencia 5 Años Antes: P_14C_Mun_18]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M068</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_19[Municipio De Residencia 5 Años Antes: P_14C_Mun_19]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M069</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_20[Municipio De Residencia 5 Años Antes: P_14C_Mun_20]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M070</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_21[Municipio De Residencia 5 Años Antes: P_14C_Mun_21]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M071</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_22[Municipio De Residencia 5 Años Antes: P_14C_Mun_22]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M072</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_23[Municipio De Residencia 5 Años Antes: P_14C_Mun_23]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M073</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_24[Municipio De Residencia 5 Años Antes: P_14C_Mun_24]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M074</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_25[Municipio De Residencia 5 Años Antes: P_14C_Mun_25]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M075</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_26[Municipio De Residencia 5 Años Antes: P_14C_Mun_26]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M076</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_27[Municipio De Residencia 5 Años Antes: P_14C_Mun_27]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M077</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_28[Municipio De Residencia 5 Años Antes: P_14C_Mun_28]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M078</attrlabl>
+			<attrdef>Municipality Of Residence 5 Years Ago: P_14C_Mun_Total[Municipio De Residencia 5 Años Antes: P_14C_Mun_Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M079</attrlabl>
+			<attrdef>Identity Card: Yes[Tarjeta De Identidad: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M080</attrlabl>
+			<attrdef>Identity Card: No[Tarjeta De Identidad: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M081</attrlabl>
+			<attrdef>Identity Card: Total[Tarjeta De Identidad: Total]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2013 [Instituto Nacional de Estadistica (INE) Honduras, 2013]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv/>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv/>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_honduras_migration_2013</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_honduras_migration_2013</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

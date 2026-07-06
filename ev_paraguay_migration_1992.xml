@@ -1,366 +1,366 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Paraguay (3437598)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Paraguay</placekey>
-<placekey>Paraguay</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>1992</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-60.604551</westbc>
-<eastbc>-54.297299</eastbc>
-<northbc>-21.032259</northbc>
-<southbc>-27.408933</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Paraguay (3437598)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Paraguay</placekey>
+				<placekey>Paraguay</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>1992</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-60.604551</westbc>
+				<eastbc>-54.297299</eastbc>
+				<northbc>-21.032259</northbc>
+				<southbc>-27.408933</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Paraguay Migration Census Data, 1992 is a polygon theme representing Manzanas (6th level administrative units) in Paraguay.  Attribute information includes migration variables from the 1992 census.
 
 Official population and housing data for Paraguay from the 1992 census. This census is provided at the manzana administrative level (ADM6) and includes 51,085 polygons with 668 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Varón" was updated to D001 and given the alias "Male Population [Varón]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Paraguay Migration Census Data, 1992</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2021</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Paraguay Migration Census Data, 1992</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_paraguay_migration_1992.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>1992</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>1992</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Paraguay_1992</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-  <attrlabl>Join_Code</attrlabl>
-  <attrdef>Code [Codig]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M001</attrlabl>
-  <attrdef>Place Of Residence: In The Same Place As Response [En_Este_Lugar_P08A_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M002</attrlabl>
-  <attrdef>Place Of Residence: Other Place [Otro_Lugar_P08A_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M003</attrlabl>
-  <attrdef>Place Of Residence: Other Country [Otro_País_P08A_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M004</attrlabl>
-  <attrdef>Place Of Residence: Total [Total_P07D_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M005</attrlabl>
-  <attrdef>Other Place If Residence: Another Country [Exterior_P09D_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M006</attrlabl>
-  <attrdef>Other Place If Residence: City,Village [Ciudad__Pueblo_P09D_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M007</attrlabl>
-  <attrdef>Other Place If Residence: Company, Colony [Compañía__Colonia]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M008</attrlabl>
-  <attrdef>Other Place If Residence: No Response [Nr_P08A_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M009</attrlabl>
-  <attrdef>Other Place If Residence: Total [Total_P07D_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M010</attrlabl>
-  <attrdef>Place Of Birth: In The Same Place As Response [En_Este_Lugar_P08A_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M011</attrlabl>
-  <attrdef>Place Of Birth: Other Place [Otro_Lugar_P08A_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M012</attrlabl>
-  <attrdef>Place Of Birth: Other Country [Otro_País_P08A_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M013</attrlabl>
-  <attrdef>Place Of Birth: No Response [Nr_P08A_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M014</attrlabl>
-  <attrdef>Place Of Birth: Total [Total_P09A_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M015</attrlabl>
-  <attrdef>Place Of Residence 5 Years Previous: In The Same Place As Response [En_Este_Lugar]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M016</attrlabl>
-  <attrdef>Place Of Residence 5 Years Previous: Other Place [Otro_Lugar]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M017</attrlabl>
-  <attrdef>Place Of Residence 5 Years Previous: Other Country [Otro_País]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M018</attrlabl>
-  <attrdef>Place Of Residence 5 Years Previous: No Response [Nr]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M019</attrlabl>
-  <attrdef>Place Of Residence 5 Years Previous: Total [Total_P09A_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M020</attrlabl>
-  <attrdef>Other Place Of Residence 5 Years Previous: Another Country [Exterior_P09D_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M021</attrlabl>
-  <attrdef>Other Place Of Residence 5 Years Previous: City,Village [Ciudad__Pueblo_P09D_.Xls]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M022</attrlabl>
-  <attrdef>Other Place Of Residence 5 Years Previous: Company, Colony [Compañía__Coloni]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M023</attrlabl>
-  <attrdef>Other Place Of Residence 5 Years Previous: No Response [No_Informado]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>M024</attrlabl>
-  <attrdef>Other Place Of Residence 5 Years Previous: Total [Total]</attrdef>
-  <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
-  <attrdomv>
-    <udom>frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>Country</attrlabl>
-  <attrdef>Country</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Country where census took place as 3-digit ISO code</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>Year</attrlabl>
-  <attrdef>Year</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Year census was conducted as YYYY</udom>
-  </attrdomv>
-</attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Paraguay_1992</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>Join_Code</attrlabl>
+			<attrdef>Code [Codig]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M001</attrlabl>
+			<attrdef>Place Of Residence: In The Same Place As Response [En_Este_Lugar_P08A_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M002</attrlabl>
+			<attrdef>Place Of Residence: Other Place [Otro_Lugar_P08A_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M003</attrlabl>
+			<attrdef>Place Of Residence: Other Country [Otro_País_P08A_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M004</attrlabl>
+			<attrdef>Place Of Residence: Total [Total_P07D_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M005</attrlabl>
+			<attrdef>Other Place If Residence: Another Country [Exterior_P09D_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M006</attrlabl>
+			<attrdef>Other Place If Residence: City,Village [Ciudad__Pueblo_P09D_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M007</attrlabl>
+			<attrdef>Other Place If Residence: Company, Colony [Compañía__Colonia]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M008</attrlabl>
+			<attrdef>Other Place If Residence: No Response [Nr_P08A_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M009</attrlabl>
+			<attrdef>Other Place If Residence: Total [Total_P07D_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M010</attrlabl>
+			<attrdef>Place Of Birth: In The Same Place As Response [En_Este_Lugar_P08A_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M011</attrlabl>
+			<attrdef>Place Of Birth: Other Place [Otro_Lugar_P08A_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M012</attrlabl>
+			<attrdef>Place Of Birth: Other Country [Otro_País_P08A_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M013</attrlabl>
+			<attrdef>Place Of Birth: No Response [Nr_P08A_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M014</attrlabl>
+			<attrdef>Place Of Birth: Total [Total_P09A_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M015</attrlabl>
+			<attrdef>Place Of Residence 5 Years Previous: In The Same Place As Response [En_Este_Lugar]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M016</attrlabl>
+			<attrdef>Place Of Residence 5 Years Previous: Other Place [Otro_Lugar]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M017</attrlabl>
+			<attrdef>Place Of Residence 5 Years Previous: Other Country [Otro_País]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M018</attrlabl>
+			<attrdef>Place Of Residence 5 Years Previous: No Response [Nr]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M019</attrlabl>
+			<attrdef>Place Of Residence 5 Years Previous: Total [Total_P09A_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M020</attrlabl>
+			<attrdef>Other Place Of Residence 5 Years Previous: Another Country [Exterior_P09D_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M021</attrlabl>
+			<attrdef>Other Place Of Residence 5 Years Previous: City,Village [Ciudad__Pueblo_P09D_.Xls]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M022</attrlabl>
+			<attrdef>Other Place Of Residence 5 Years Previous: Company, Colony [Compañía__Coloni]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M023</attrlabl>
+			<attrdef>Other Place Of Residence 5 Years Previous: No Response [No_Informado]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>M024</attrlabl>
+			<attrdef>Other Place Of Residence 5 Years Previous: Total [Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 1992 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 1992]</attrdefs>
+			<attrdomv>
+				<udom>frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Year</attrlabl>
+			<attrdef>Year</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_paraguay_migration_1992</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20220801</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220801</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_paraguay_migration_1992</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><metadata>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
 	<idinfo>
 		<citation>
 			<citeinfo>
@@ -7,9 +8,9 @@
 				<title>New York City Sub-Borough Areas, 2004</title>
 				<geoform>vector digital data</geoform>
 				<pubinfo>
-<pubplace>Washington, DC</pubplace>
-<publish>United States. Bureau of the Census. Geography Division</publish>
-</pubinfo>
+					<pubplace>Washington, DC</pubplace>
+					<publish>United States. Bureau of the Census. Geography Division</publish>
+				</pubinfo>
 				<onlink>https://www.columbia.edu/acis/eds/gis/images/cul_2004_nyc_subborough.zip</onlink>
 			</citeinfo>
 		</citation>
@@ -60,7 +61,7 @@
 			</place>
 		</keywords>
 		<accconst>None</accconst>
-<useconst>None</useconst>
+		<useconst>None</useconst>
 		<ptcontac>
 			<cntinfo>
 				<cntorgp>
@@ -69,26 +70,38 @@
 			</cntinfo>
 		</ptcontac>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</native>
-		</idinfo>
+	</idinfo>
 	<dataqual>
 		<lineage>
 			<procstep>
 				<procdesc>
 Spatial files were originally obtained from the US Census Bureau's 2000 TIGER/Line tracts for the five boroughs for New York City.  Using definitions from the NYCHVS (http://www.census.gov/hhes/www/housing/nychvs/nychvs.html), tracts were selected, tract boundaries dissolved, and information added manually.
 EDS takes no responsibility for the accuracy of the spatial file.
-</procdesc>
+				</procdesc>
 			</procstep>
-			<procstep><procdesc>These features were clipped from the New York State TIGER file.</procdesc></procstep><procstep><procdesc>The dataset projection was updated to the Lambert Conformal Conic projection.</procdesc><procdate>20070326</procdate></procstep><procstep>
+			<procstep>
+				<procdesc>These features were clipped from the New York State TIGER file.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>The dataset projection was updated to the Lambert Conformal Conic projection.</procdesc>
+				<procdate>20070326</procdate>
+			</procstep>
+			<procstep>
 				<procdesc>Dataset moved.</procdesc>
 				<srcused>E:\work\Files for N drive\new_york\nyc_census\nyc_census_boundaries\NYC_Sub_borough_Area</srcused>
 				<time>11195300</time>
 			</procstep>
 			<procstep>
 				<procdesc>Dataset copied.</procdesc>
-				<srcused></srcused>
+				<srcused>
+				</srcused>
 				<time>11132100</time>
 			</procstep>
-			<procstep><procdesc>The dataset projection was updated to the Lambert Conformal Conic projection.</procdesc><proctime>20070327</proctime></procstep></lineage>
+			<procstep>
+				<procdesc>The dataset projection was updated to the Lambert Conformal Conic projection.</procdesc>
+				<proctime>20070327</proctime>
+			</procstep>
+		</lineage>
 	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
@@ -190,4 +203,4 @@ EDS takes no responsibility for the accuracy of the spatial file.
 		<metstdv>FGDC-STD-001-1998</metstdv>
 		<mettc>local time</mettc>
 	</metainfo>
-	<Esri><ModDate>20070402</ModDate><ModTime>16013200</ModTime></Esri><mdDateSt>20070402</mdDateSt></metadata>
+</metadata>

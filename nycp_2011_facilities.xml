@@ -79,7 +79,10 @@
 		</ptcontac>
 		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2011</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2011</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>publication date</current>
 		</timeperd>
 		<status>
@@ -89,33 +92,6 @@
 		<accconst>None</accconst>
 		<useconst>None</useconst>
 	</idinfo>
-	<spref>
-		<horizsys>
-			<geodetic>
-				<horizdn>North American Datum of 1983</horizdn>
-				<ellips>Geodetic Reference System 1980</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257222</denflat>
-			</geodetic>
-			<planar>
-				<planci>
-					<plance>coordinate pair</plance>
-					<plandu>survey feet</plandu>
-				</planci>
-				<mapproj>
-					<mapprojn>Lambert Conformal Conic</mapprojn>
-					<lambertc>
-						<stdparll>40.666667</stdparll>
-						<stdparll>41.033333</stdparll>
-						<longcm>-74.000000</longcm>
-						<latprjo>40.166667</latprjo>
-						<feast>984250.000000</feast>
-						<fnorth>0.000000</fnorth>
-					</lambertc>
-				</mapproj>
-			</planar>
-		</horizsys>
-	</spref>
 	<dataqual>
 		<lineage>
 			<procstep>
@@ -158,33 +134,60 @@ Residential Facilities and Food Programs for Adults and Families:
 New York City Department of Homeless Services April, 2011
 New York State Department of Health (Adult Homes) July, 2011
 Food for Survival (Soup Kitchens) March, 2011
-</procdesc>
-				<procdate>2010-2011</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>RDS staff projected the facility tables based on the included XY values and created a geopackage.</procdesc>
-				<procdate>2012</procdate>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>Certain records of properties along the water contain X and Y coordinates of tax lots that extend into the water. Symbols created using these X and Y coordinates may be placed in the water on the map.</horizpar>
-			</horizpa>
-		</posacc>
-	</dataqual>
-	<spdoinfo>
-		<direct>Point</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>Entity point</sdtstype>
-				<ptvctcnt>19058</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+			</procdesc>
+			<procdate>2010-2011</procdate>
+		</procstep>
+		<procstep>
+			<procdesc>RDS staff projected the facility tables based on the included XY values and created a geopackage.</procdesc>
+			<procdate>2012</procdate>
+		</procstep>
+	</lineage>
+	<posacc>
+		<horizpa>
+			<horizpar>Certain records of properties along the water contain X and Y coordinates of tax lots that extend into the water. Symbols created using these X and Y coordinates may be placed in the water on the map.</horizpar>
+		</horizpa>
+	</posacc>
+</dataqual>
+<spdoinfo>
+	<direct>Point</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>Entity point</sdtstype>
+			<ptvctcnt>19058</ptvctcnt>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<spref>
+	<horizsys>
+		<geodetic>
+			<horizdn>North American Datum of 1983</horizdn>
+			<ellips>Geodetic Reference System 1980</ellips>
+			<semiaxis>6378137.000000</semiaxis>
+			<denflat>298.257222</denflat>
+		</geodetic>
+		<planar>
+			<planci>
+				<plance>coordinate pair</plance>
+				<plandu>survey feet</plandu>
+			</planci>
+			<mapproj>
+				<mapprojn>Lambert Conformal Conic</mapprojn>
+				<lambertc>
+					<stdparll>40.666667</stdparll>
+					<stdparll>41.033333</stdparll>
+					<longcm>-74.000000</longcm>
+					<latprjo>40.166667</latprjo>
+					<feast>984250.000000</feast>
+					<fnorth>0.000000</fnorth>
+				</lambertc>
+			</mapproj>
+		</planar>
+	</horizsys>
+</spref>
+<eainfo>
+	<detailed>
+		<enttyp>
+			<enttypl>
 nyc_facilities</enttypl>
 				<enttypd>Facilities</enttypd>
 			</enttyp>
@@ -1317,7 +1320,17 @@ nyc_facilities</enttypl>
 			<attr>
 				<attrlabl>SERVICE_AR</attrlabl>
 				<attrdef>The one character code identifying the extent of the areas the facility or program serves.</attrdef>
-				<attrdomv><edom><edomv>L</edomv><edomvd>Local/Neighborhood</edomvd></edom><edom><edomv>R</edomv><edomvd>Regional/Citywide</edomvd></edom></attrdomv></attr>
+				<attrdomv>
+					<edom>
+						<edomv>L</edomv>
+						<edomvd>Local/Neighborhood</edomvd>
+					</edom>
+					<edom>
+						<edomv>R</edomv>
+						<edomvd>Regional/Citywide</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
 		</detailed>
 		<overview>
 			<eaover>DATA DICTIONARY FOR SELECTED FACILITIES AND
@@ -1935,10 +1948,31 @@ coordinates are expressed in the New York Long Island State Plane
 coordinate system.</eaover>
 		</overview>
 	</eainfo>
-	<distinfo><distrib><cntinfo><cntaddr><addrtype>mailing and physical address</addrtype><address>22 Reade St</address><city>New York</city><state>NY</state><postal>10007</postal></cntaddr><cntvoice>212.720.3505</cntvoice><cntorgp><cntorg>New York City Department of City Planning</cntorg></cntorgp></cntinfo></distrib><stdorder><digform><digtinfo><formname>Shapefile</formname></digtinfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>22 Reade St</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10007</postal>
+				</cntaddr>
+				<cntvoice>212.720.3505</cntvoice>
+				<cntorgp>
+					<cntorg>New York City Department of City Planning</cntorg>
+				</cntorgp>
+			</cntinfo>
+		</distrib>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile</formname>
+				</digtinfo>
 			</digform>
 		</stdorder>
-		<resdesc>nycp_2011_facilities</resdesc></distinfo>
+		<resdesc>nycp_2011_facilities</resdesc>
+	</distinfo>
 	<metainfo>
 		<metc>
 			<cntinfo>

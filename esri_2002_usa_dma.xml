@@ -19,12 +19,14 @@
 					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
 				</pubinfo>
 				<othercit>Location: ESRI Data &amp; Maps 2002 (CD 2) \usa</othercit>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2002_usa_dma.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2002_usa_dma.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>United States Designated Market Areas is a polygon theme representing groups of surrounding counties or split counties (by five-digit ZIP) in which metropolitan central area commercial TV stations achieve the largest audience share.  DMAs are designed by A.C. Nielsen and define non-overlapping geography for planning, buying, and evaluating television audiences across various U.S. markets.</abstract>
 			<supplinf>Largest scale when displaying the data: 1:100,000.</supplinf>
-			<purpose>For educational, non-commercial purposes.</purpose></descript>
+			<purpose>For educational, non-commercial purposes.</purpose>
+		</descript>
 		<timeperd>
 			<timeinfo>
 				<sngdate>
@@ -41,57 +43,63 @@
 			<bounding>
 				<westbc>
 -178.219143</westbc>
-				<eastbc>
+					<eastbc>
 179.768243</eastbc>
-				<northbc>
+						<northbc>
 71.378784</northbc>
-				<southbc>
+							<southbc>
 18.910507</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>marketing</themekey>
-				<themekey>television</themekey>
-				<themekey>audience share</themekey>
-				<themekey>market share</themekey>
-				<themekey>economy</themekey>
-				<themekey>Nielson</themekey></theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>United States (6252001)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>United States</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2000</tempkey>
-			</temporal>
-			<theme><themekey>society</themekey><themekt>ISO 19115 Topic Category</themekt><themekey>boundaries</themekey></theme></keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>marketing</themekey>
+								<themekey>television</themekey>
+								<themekey>audience share</themekey>
+								<themekey>market share</themekey>
+								<themekey>economy</themekey>
+								<themekey>Nielson</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>United States (6252001)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>United States</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2000</tempkey>
+							</temporal>
+							<theme>
+								<themekey>society</themekey>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>boundaries</themekey>
+							</theme>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
 
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Environmental Systems Research Institute, Inc. (ESRI)</cntorg>
-					<cntper>Data Team</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>909-793-2853</cntvoice>
-				<cntfax>909-793-5953</cntfax>
-				<cntemail>info@esri.com</cntemail>
-				<hours>8:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Environmental Systems Research Institute, Inc. (ESRI)</cntorg>
+									<cntper>Data Team</cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>380 New York Street</address>
+									<city>Redlands</city>
+									<state>California</state>
+									<postal>92373-8100</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>909-793-2853</cntvoice>
+								<cntfax>909-793-5953</cntfax>
+								<cntemail>info@esri.com</cntemail>
+								<hours>8:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
 				<cntinst>In the United States
 Please direct all inquiries regarding software/data pricing and consulting services to your local ESRI Regional Office.  For support, you may contact Technical Support by telephone (voice) between 6:00 a.m. and 6:00 p.m. Pacific time, Monday through Friday, by dialing 909-793-3774; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com; ESRI holidays excluded.
 
@@ -99,205 +107,211 @@ Outside the United States?
 Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contactint.cfm.
 
 For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-			</cntinfo>
-		</ptcontac>
-		<datacred>A.C. Nielsen?</datacred>
-		<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 8.1.3.679</native>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/dma.jpg</browsen><browsed>Thumbnail</browsed><browset>JPEG</browset></browse></idinfo>
-	<dataqual>
-		<logic>No duplicate features are present.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.  When political boundaries extend into water, the coded boundary line follows the shoreline, creating a visible landmark. Any extensions of political boundaries into water areas are not represented.</complete>
-		<posacc>
-			<horizpa>
+							</cntinfo>
+						</ptcontac>
+						<datacred>A.C. Nielsen?</datacred>
+						<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 8.1.3.679</native>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/dma.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+					</idinfo>
+					<dataqual>
+						<logic>No duplicate features are present.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.  When political boundaries extend into water, the coded boundary line follows the shoreline, creating a visible landmark. Any extensions of political boundaries into water areas are not represented.</complete>
+						<posacc>
+							<horizpa>
 				<horizpar>The geospatial part of this data set was extracted from the 2000 Census Version TIGER/Line files (CD-ROM edition) then generalized to 1,000 points per polygon and 4,000 points per feature. Generalization was applied only to those polygons requiring it, so the polygons not generalized have the same positional accuracy as the TIGER/Line coordinates and the generalized polygons have less positional accuracy.
 
 The positional accuracy of the TIGER/Line coordinates varies with the source materials used but at best meets the established National Map Accuracy standards (+/- 167 feet approximately) where 1:100,000-scale maps from the USGS are the source. The Census Bureau cannot specify the accuracy of feature updates added by its field staff or of features derived from the GBF/DIME-Files or other map sources. Thus, the level of positional accuracy in the TIGER/Line files is not suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface.</horizpar>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Geographic Data Technology, Inc.</origin>
-						<pubdate>200104</pubdate>
-						<title>Dynamap/DMA Boundary and Inventory Files 1.8</title>
-						<edition>Version 1.8</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>Dynamap/DMA Boundary and Inventory Files</sername>
-							<issue>v1.8</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-							<publish>Geographic Data Technology, Inc</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>100000</srcscale>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2000</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>Dynamap/DMA Boundary and Inventory Files 1.8</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Geographic Data Technology, Inc.</origin>
+										<pubdate>200104</pubdate>
+										<title>Dynamap/DMA Boundary and Inventory Files 1.8</title>
+										<edition>Version 1.8</edition>
+										<geoform>vector digital data</geoform>
+										<serinfo>
+											<sername>Dynamap/DMA Boundary and Inventory Files</sername>
+											<issue>v1.8</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Lebanon, New Hampshire, USA</pubplace>
+											<publish>Geographic Data Technology, Inc</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<srcscale>100000</srcscale>
+								<typesrc>CD-ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>2000</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>ground condition</srccurr>
+								</srctime>
+								<srccitea>Dynamap/DMA Boundary and Inventory Files 1.8</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<procstep>
 				<procdesc>The GDT DMA Boundary File was generated from two sources: the Nielsen Media Research State/County Universe Estimates file and the GDT 5-digit Zip Code boundaries. All but eight counties are unique to individual DMAs. The zone numbers used in the file correspond to DMA Market Production Codes. Every DMA defined by Nielsen is included.
 
 U.S. Designated Market Areas have been generalized to 1,000 points per polygon and 4,000 points per feature to conform to most applications. Generalization was applied only to those polygons requiring it.</procdesc>
-				<procdate>200104</procdate>
-				<srcprod>Dynamap/DMA Boundary and Inventory Files 1.8</srcprod>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI for Data &amp; Maps 2002: Extracted data set from Dynamap/DMA Boundary and Inventory Files 1.8.  Converted Hawaii to North American Datum of 1983 (NAD83).  Finalized attribute order and replaced short abbreviations with longer ones in the Name attribute.  Created ArcView legend file (.avl), ArcGIS layer file (.lyr) file, projection file (.prj), and spatial indices.</procdesc>
-				<srcused>Dynamap/DMA Boundary and Inventory Files 1.8</srcused>
-				<procdate>20020206</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>G-polygon</sdtstype>
-				<ptvctcnt>211</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.000001</latres>
-				<longres>0.000001</longres>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>North American Datum of 1983</horizdn>
-				<ellips>Geodetic Reference System 80</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257222</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+								<procdate>200104</procdate>
+								<srcprod>Dynamap/DMA Boundary and Inventory Files 1.8</srcprod>
+							</procstep>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI for Data &amp; Maps 2002: Extracted data set from Dynamap/DMA Boundary and Inventory Files 1.8.  Converted Hawaii to North American Datum of 1983 (NAD83).  Finalized attribute order and replaced short abbreviations with longer ones in the Name attribute.  Created ArcView legend file (.avl), ArcGIS layer file (.lyr) file, projection file (.prj), and spatial indices.</procdesc>
+								<srcused>Dynamap/DMA Boundary and Inventory Files 1.8</srcused>
+								<procdate>20020206</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>G-polygon</sdtstype>
+								<ptvctcnt>211</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000001</latres>
+								<longres>0.000001</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 dma</enttypl>
-				<enttypd>The polygons represent non-overlapping geography for planning, buying, and evaluating television audiences across various U.S. markets.</enttypd>
-				<enttypds>A.C. Nielsen; Geographic Data Technology, Inc.</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>DMA</attrlabl>
-				<attrdef>The unique identification of the Designated Market Area Code that corresponds to the DMA Market Production Codes.</attrdef>
-				<attrdefs>A.C. Nielsen</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>DMA Market Production Codes</codesetn>
-						<codesets>A.C. Nielsen</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NAME</attrlabl>
-				<attrdef>The name/identification for the Designated Market Area.</attrdef>
-				<attrdefs>A.C. Nielsen</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>DMA Market Production Codes names</codesetn>
-						<codesets>A.C. Nielsen</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Environmental Systems Research Institute, Inc. (ESRI); ESRI International Distributors</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>380 New York Street</address>
-					<city>Redlands</city>
-					<state>California</state>
-					<postal>92373-8100</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>800-447-9778</cntvoice>
+									<enttypd>The polygons represent non-overlapping geography for planning, buying, and evaluating television audiences across various U.S. markets.</enttypd>
+									<enttypds>A.C. Nielsen; Geographic Data Technology, Inc.</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>DMA</attrlabl>
+									<attrdef>The unique identification of the Designated Market Area Code that corresponds to the DMA Market Production Codes.</attrdef>
+									<attrdefs>A.C. Nielsen</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>DMA Market Production Codes</codesetn>
+											<codesets>A.C. Nielsen</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>NAME</attrlabl>
+									<attrdef>The name/identification for the Designated Market Area.</attrdef>
+									<attrdefs>A.C. Nielsen</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>DMA Market Production Codes names</codesetn>
+											<codesets>A.C. Nielsen</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Environmental Systems Research Institute, Inc. (ESRI); ESRI International Distributors</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>380 New York Street</address>
+										<city>Redlands</city>
+										<state>California</state>
+										<postal>92373-8100</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>800-447-9778</cntvoice>
 				<cntinst>In the United States, contact the ESRI Telesales staff at 800-447-9778 for more information about our software and data.
 
 Outside the United States, please direct all inquiries to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contactint.cfm.</cntinst>
-			</cntinfo>
-		</distrib>
-		<resdesc>esri_2002_usa_dma</resdesc>
-		<distliab>See use constraints.</distliab>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>SHP</formname>
-					<formspec>The SHP file contains the geospatial data. The SHX file contains the index of the geospatial data. The DBF file contains the attribute data in dBASE format. The PRJ file contains the coordinate system information (optional). The AVL file contains the legend information (optional). The SBN and SBX files contain the spatial index of the geospatial data (optional). The XML file contains the metadata describing the data set &lt;data set name&gt;.shp.xml (optional).</formspec>
-					<filedec>no compression applied</filedec>
-					<transize>5.250</transize>
-				</digtinfo>
-				<digtopt>
-					<offoptn>
-						<offmedia>ESRI Data &amp; Maps 2002 CD?ROM Set is available only as part of ESRI software.</offmedia>
-						<reccap>
-							<recden>650</recden>
-							<recdenu>MB (megabytes)</recdenu>
-						</reccap>
-						<recfmt>ISO 9660</recfmt>
-					</offoptn>
-				</digtopt>
-			</digform>
-			<fees>Software purchase price</fees>
-		</stdorder>
+								</cntinfo>
+							</distrib>
+							<resdesc>esri_2002_usa_dma</resdesc>
+							<distliab>See use constraints.</distliab>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>SHP</formname>
+										<formspec>The SHP file contains the geospatial data. The SHX file contains the index of the geospatial data. The DBF file contains the attribute data in dBASE format. The PRJ file contains the coordinate system information (optional). The AVL file contains the legend information (optional). The SBN and SBX files contain the spatial index of the geospatial data (optional). The XML file contains the metadata describing the data set &lt;data set name&gt;.shp.xml (optional).</formspec>
+										<filedec>no compression applied</filedec>
+										<transize>5.250</transize>
+									</digtinfo>
+									<digtopt>
+										<offoptn>
+											<offmedia>ESRI Data &amp; Maps 2002 CD?ROM Set is available only as part of ESRI software.</offmedia>
+											<reccap>
+												<recden>650</recden>
+												<recdenu>MB (megabytes)</recdenu>
+											</reccap>
+											<recfmt>ISO 9660</recfmt>
+										</offoptn>
+									</digtopt>
+								</digform>
+								<fees>Software purchase price</fees>
+							</stdorder>
 
-	</distinfo>
-	<metainfo>
-		<metd>20080225</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper></cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-	<Esri><ModDate>20080225</ModDate><ModTime>11554900</ModTime></Esri><mdDateSt>20080225</mdDateSt></metadata>
+						</distinfo>
+						<metainfo>
+							<metd>20080225</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St. 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212) 854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

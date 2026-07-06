@@ -1,91 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata xml:lang="en">
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>East View Cartographic</cntorg>
-				</cntorgp>
-			</cntinfo>
-		</distrib>
-		<resdesc>ev_nicaragua_corinto_2001</resdesc>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>TIFF</formname>
-					<formspec>zip</formspec>
-					<transize>137</transize>
-				</digtinfo>
-			</digform>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metd>20120328</metd>
-	</metainfo>
-	<dataqual>
-		<lineage>
-			<procstep>
-				<procdesc>Map was scanned and georeferenced</procdesc>
-				<procdate>Unknown</procdate>
-				<proccont>
-					<cntinfo>
-						<cntorgp>
-							<cntorg>East View Cartographic, Inc.</cntorg>
-						</cntorgp>
-					</cntinfo>
-				</proccont>
-				<srcused>Corinto</srcused>
-			</procstep>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>United States. Defense Mapping Agency. Hydrographic/Topographic Center</origin>
-						<pubdate>2001</pubdate>
-						<title>Corinto, 2001 (Scanned Map)</title>
-						<geoform>map</geoform>
-						<serinfo>
-							<issue>Series E956.</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Washington, D.C.</pubplace>
-							<publish>United States. Defense Mapping Agency. Hydrographic/Topographic Center</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>10000</srcscale>
-				<typesrc>paper</typesrc>
-				<srccitea>Corinto</srccitea>
-				<srccontr>Map was fully scanned</srccontr>
-			</srcinfo>
-		</lineage>
-	</dataqual>
-	<spref>
-		<horizsys>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
 	<idinfo>
 		<spdom>
 			<bounding>
@@ -115,59 +29,148 @@
 				<pubinfo>
 					<pubplace>Washington, D.C</pubplace>
 					<publish>United States. Defense Mapping Agency. Hydrographic/Topographic Center
-</publish>
-				</pubinfo>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_nicaragua_corinto_2001.zip</onlink>
-			</citeinfo>
-		</citation>
-		<keywords>
-			<theme>
-				<themekt>Library of Congress Subject Headings</themekt>
-				<themekey>Corinto (Nicaragua) -- Maps</themekey>
-			</theme>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>imageryBaseMapsEarthCover</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Corinto (3620269)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>Corinto (Nicaragua) </placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2001</tempkey>
-			</temporal>
-		</keywords>
-		<descript>
-			<abstract>Corinto is a scanned, georeferenced map of the city of Corinto, Nicaragua at a scale of 1:10,000</abstract>
-			<purpose>Scanned maps may be used for a variety of purposes. This image may be used in a GIS.</purpose>
+				</publish>
+			</pubinfo>
+			<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_nicaragua_corinto_2001.zip</onlink>
+		</citeinfo>
+	</citation>
+	<keywords>
+		<theme>
+			<themekt>Library of Congress Subject Headings</themekt>
+			<themekey>Corinto (Nicaragua) -- Maps</themekey>
+		</theme>
+		<theme>
+			<themekt>ISO 19115 Topic Category</themekt>
+			<themekey>imageryBaseMapsEarthCover</themekey>
+		</theme>
+		<place>
+			<placekt>GeoNames</placekt>
+			<placekey>Corinto (3620269)</placekey>
+		</place>
+		<place>
+			<placekt>Library of Congress Subject Headings</placekt>
+			<placekey>Corinto (Nicaragua) </placekey>
+		</place>
+		<temporal>
+			<tempkt>None</tempkt>
+			<tempkey>2001</tempkey>
+		</temporal>
+	</keywords>
+	<descript>
+		<abstract>Corinto is a scanned, georeferenced map of the city of Corinto, Nicaragua at a scale of 1:10,000</abstract>
+		<purpose>Scanned maps may be used for a variety of purposes. This image may be used in a GIS.</purpose>
 			<supplinf>Ed. 1-DMA
 1 map : col. ; 59 x 49 cm. on sheet 79 x 62 cm.
 Title from upper margin./ Includes legend, glossary, guide to numbered features, index to streets, city location map and boundaries map./ "Compiled in 1988 from best available sources."/ "Reprinted by NIMA 4-01."/ Also available electronically ; ask staff for assistance with DMAdisc.\
 Scale 1:10,000 ;; Transverse Mercator proj.; (W 87°12'00"- -W 87°09'20"/N 12°30'40"- -N 12°27'30").</supplinf>
-		</descript>
-		<timeperd>
-			<timeinfo>
-				<sngdate>
-					<caldate>2001</caldate>
-				</sngdate>
-			</timeinfo>
-			<current>publication date</current>
-		</timeperd>
-		<status>
-			<progress>Complete</progress>
-			<update>Unknown</update>
-		</status>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/NicaraguaCorinto.jpg</browsen>
-			<browsed>Thumbnail</browsed>
-			<browset>JPEG</browset>
-		</browse>
-	</idinfo>
-	<spdoinfo><direct>Raster</direct></spdoinfo></metadata>
+	</descript>
+	<timeperd>
+		<timeinfo>
+			<sngdate>
+				<caldate>2001</caldate>
+			</sngdate>
+		</timeinfo>
+		<current>publication date</current>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<browse>
+		<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/NicaraguaCorinto.jpg</browsen>
+		<browsed>Thumbnail</browsed>
+		<browset>JPEG</browset>
+	</browse>
+</idinfo>
+<dataqual>
+	<lineage>
+		<procstep>
+			<procdesc>Map was scanned and georeferenced</procdesc>
+			<procdate>Unknown</procdate>
+			<proccont>
+				<cntinfo>
+					<cntorgp>
+						<cntorg>East View Cartographic, Inc.</cntorg>
+					</cntorgp>
+				</cntinfo>
+			</proccont>
+			<srcused>Corinto</srcused>
+		</procstep>
+		<srcinfo>
+			<srccite>
+				<citeinfo>
+					<origin>United States. Defense Mapping Agency. Hydrographic/Topographic Center</origin>
+					<pubdate>2001</pubdate>
+					<title>Corinto, 2001 (Scanned Map)</title>
+					<geoform>map</geoform>
+					<serinfo>
+						<issue>Series E956.</issue>
+					</serinfo>
+					<pubinfo>
+						<pubplace>Washington, D.C.</pubplace>
+						<publish>United States. Defense Mapping Agency. Hydrographic/Topographic Center</publish>
+					</pubinfo>
+				</citeinfo>
+			</srccite>
+			<srcscale>10000</srcscale>
+			<typesrc>paper</typesrc>
+			<srccitea>Corinto</srccitea>
+			<srccontr>Map was fully scanned</srccontr>
+		</srcinfo>
+	</lineage>
+</dataqual>
+<spdoinfo>
+	<direct>Raster</direct>
+</spdoinfo>
+<spref>
+	<horizsys>
+		<geodetic>
+			<horizdn>D_WGS_1984</horizdn>
+			<ellips>WGS_1984</ellips>
+			<semiaxis>6378137.000000</semiaxis>
+			<denflat>298.257224</denflat>
+		</geodetic>
+	</horizsys>
+</spref>
+<distinfo>
+	<distrib>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>East View Cartographic</cntorg>
+			</cntorgp>
+		</cntinfo>
+	</distrib>
+	<resdesc>ev_nicaragua_corinto_2001</resdesc>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>TIFF</formname>
+				<formspec>zip</formspec>
+				<transize>137</transize>
+			</digtinfo>
+		</digform>
+	</stdorder>
+</distinfo>
+<metainfo>
+	<metc>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+	<metd>20120328</metd>
+</metainfo>
+</metadata>

@@ -30,88 +30,110 @@
 					<publish>University of Michigan. China Data Center</publish>
 				</pubinfo>
 			<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/cdc_2004_china_religion.zip
-</onlink>
-</citeinfo>
-		</citation>
-		<keywords>
-			<temporal>
-				<tempkey>2004</tempkey>
-				<tempkt>None</tempkt>
-				<tempkey>2010</tempkey>
-			</temporal>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>society</themekey>
-			</theme>
-			<theme>
-				<themekey>Religion</themekey>
-				<themekey>Buddhism</themekey>
-				<themekey>Taoism</themekey>
-				<themekey>Christianity</themekey>
-				<themekey>Muslim</themekey>
-				<themekt>None</themekt>
-				<themekey>religious sites</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>China (1814991)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>China</placekey>
-			</place>
-		</keywords>
-		<descript>
-			<abstract>The Atlas of Religions in China is a point theme representing a total of about 70,000 religious sites (Buddhism, Taoism, Christianity, Muslim, and others) on Mainland China. Each site includes site name, address, contact information, County GB Code, postcode, starting year, primary activities, and employee scale.</abstract>
-			<purpose>The data set was developed for display and analysis using GIS.</purpose>
-			<langdata>English and Chinese</langdata>
-		</descript>
-		<timeperd>
-			<timeinfo>
-				<sngdate>
-					<caldate>2004</caldate>
-				</sngdate>
-			</timeinfo>
-			<current>ground condition</current>
-		</timeperd>
-		<status>
-			<progress>Complete</progress>
-			<update>Unknown</update>
-		</status>
-		<spdom>
-			<bounding>
-				<westbc>73.446960</westbc>
-				<eastbc>135.085831</eastbc>
-				<northbc>53.557926</northbc>
-				<southbc>6.318641</southbc>
-			</bounding>
-		</spdom>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<keywords>
+		<temporal>
+			<tempkey>2004</tempkey>
+			<tempkt>None</tempkt>
+			<tempkey>2010</tempkey>
+		</temporal>
+		<theme>
+			<themekt>ISO 19115 Topic Category</themekt>
+			<themekey>society</themekey>
+		</theme>
+		<theme>
+			<themekey>Religion</themekey>
+			<themekey>Buddhism</themekey>
+			<themekey>Taoism</themekey>
+			<themekey>Christianity</themekey>
+			<themekey>Muslim</themekey>
+			<themekt>None</themekt>
+			<themekey>religious sites</themekey>
+		</theme>
+		<place>
+			<placekt>GeoNames</placekt>
+			<placekey>China (1814991)</placekey>
+		</place>
+		<place>
+			<placekt>Library of Congress Subject Headings</placekt>
+			<placekey>China</placekey>
+		</place>
+	</keywords>
+	<descript>
+		<abstract>The Atlas of Religions in China is a point theme representing a total of about 70,000 religious sites (Buddhism, Taoism, Christianity, Muslim, and others) on Mainland China. Each site includes site name, address, contact information, County GB Code, postcode, starting year, primary activities, and employee scale.</abstract>
+		<purpose>The data set was developed for display and analysis using GIS.</purpose>
+		<langdata>English and Chinese</langdata>
+	</descript>
+	<timeperd>
+		<timeinfo>
+			<sngdate>
+				<caldate>2004</caldate>
+			</sngdate>
+		</timeinfo>
+		<current>ground condition</current>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<spdom>
+		<bounding>
+			<westbc>73.446960</westbc>
+			<eastbc>135.085831</eastbc>
+			<northbc>53.557926</northbc>
+			<southbc>6.318641</southbc>
+		</bounding>
+	</spdom>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
 
 
 
 
 
-	</idinfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>Entity point</sdtstype>
-				<ptvctcnt>72983</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
+</idinfo>
+<dataqual>
+	<lineage>
+		<srcinfo>
+			<srccite>
+				<citeinfo>
+					<title>2004 China Economic Census </title>
+	<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/.zip
+				</onlink>
+			</citeinfo>
+		</srccite>
+	</srcinfo>
+	<srcinfo>
+		<srccite>
+			<citeinfo>
+				<title>Zip maps of Mainland China</title>
+	<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/.zip
+			</onlink>
+		</citeinfo>
+	</srccite>
+</srcinfo>
+</lineage>
+</dataqual>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>Entity point</sdtstype>
+			<ptvctcnt>72983</ptvctcnt>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
 <spref>
-  <horizsys>
-    <geodetic>
-      <horizdn>D_WGS_1984</horizdn>
-      <ellips>WGS_1984</ellips>
-      <semiaxis>6378137.000000</semiaxis>
-      <denflat>298.257224</denflat>
-    </geodetic>
-  </horizsys>
+	<horizsys>
+		<geodetic>
+			<horizdn>D_WGS_1984</horizdn>
+			<ellips>WGS_1984</ellips>
+			<semiaxis>6378137.000000</semiaxis>
+			<denflat>298.257224</denflat>
+		</geodetic>
+	</horizsys>
 </spref>
 	
 		
@@ -123,252 +145,262 @@
 			
 		
 	
-	<eainfo>
-		<detailed>
-			<attr>
-				<attrlabl>ID</attrlabl>
-				<attrdef>The Identity ID of each site</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Type</attrlabl>
-				<attrdef>The type of religions (for reference only, not necessarily accurate)</attrdef>
-				<attrdomv><edom><edomv>0</edomv><edomvd>Religious Management</edomvd><edomvds>China Data Center</edomvds></edom><edom><edomv>1</edomv><edomvd>Buddhism</edomvd><edomvds>China Data Center</edomvds></edom><edom><edomv>3</edomv><edomvd>Taoism</edomvd><edomvds>China Data Center</edomvds></edom><edom><edomv>4</edomv><edomvd>Islam</edomvd><edomvds>China Data Center</edomvds></edom><edom><edomv>5</edomv><edomvd>Christianity</edomvd><edomvds>China Data Center</edomvds></edom><edom><edomv>9</edomv><edomvd>Others</edomvd><edomvds>China Data Center</edomvds></edom></attrdomv></attr>
-			<attr>
-				<attrlabl>Site_Ch</attrlabl>
-				<attrdef>Name of the site in Chinese </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Site_En</attrlabl>
-				<attrdef>Name of the site in English </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Source</attrlabl>
-				<attrdef>Source of the data (1 - unit with legal status; 0 - unit without independent legal status)</attrdef>
-			</attr>
-			<enttyp>
-				<enttypl>religion2004</enttypl>
-				<enttypd>Religious Site</enttypd>
-			</enttyp>
-			<attr>
-				<attrlabl>Name_Ch</attrlabl>
-				<attrdef>Name of contact person in Chinese </attrdef>
-			</attr>
-		</detailed>
-		<detailed>
-			<attr>
-				<attrlabl>Name_En</attrlabl>
-				<attrdef>Name of contact person in English </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Name_Ch</attrlabl>
-				<attrdef>Address in Chinese </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Name_En</attrlabl>
-				<attrdef>Name of contact person in English </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Addr_Ch</attrlabl>
-				<attrdef>Address in Chinese </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Addr_En</attrlabl>
-				<attrdef>Address in English </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>AreaCode</attrlabl>
-				<attrdef>Area code of phone number </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Tel</attrlabl>
-				<attrdef>Phone number</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Zip2004</attrlabl>
-				<attrdef>Post code in 2004</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>PriAct_Ch</attrlabl>
-				<attrdef>Primary activities in Chinese</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>PriAct_En</attrlabl>
-				<attrdef>Primary activities in English</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>OwnCode</attrlabl>
-				<attrdef>Ownership code</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Own_Ch</attrlabl>
-				<attrdef>Type of ownership in Chinese </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Own_En</attrlabl>
-				<attrdef>Type of ownership in English </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>StartYear</attrlabl>
-				<attrdef>Starting year</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>RenuCode</attrlabl>
-				<attrdef>Code of revenue range </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Renu_Ch</attrlabl>
-				<attrdef>Revenue range in Chinese </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Renu_En</attrlabl>
-				<attrdef>Revenue range in English </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>EmpCode</attrlabl>
-				<attrdef>Code of employee scale </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Emp_Ch</attrlabl>
-				<attrdef>Employee scale in Chinese </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Emp_En</attrlabl>
-				<attrdef>Employee scale in English </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>GBProv</attrlabl>
-				<attrdef>GB Code for Province </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Prov_Ch</attrlabl>
-				<attrdef>Province name in Chinese </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Prov_En</attrlabl>
-				<attrdef>Province name in English </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>GBCity</attrlabl>
-				<attrdef>GB Code for County in 2000</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Cnty00_Ch</attrlabl>
-				<attrdef>County name in Chinese in 2000</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Cnty00_En</attrlabl>
-				<attrdef>County name in English in 2000</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>GBCnty04</attrlabl>
-				<attrdef>County code in 2004</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Cnty04_Ch</attrlabl>
-				<attrdef>County Chinese name in 2004</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Cnty04_En</attrlabl>
-				<attrdef>County English name in 2004</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>GBTwp</attrlabl>
-				<attrdef>GB Code for Township </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Twp_Ch</attrlabl>
-				<attrdef>Township name in Chinese </attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Twp_En</attrlabl>
-				<attrdef>Township name in English</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>ZIP</attrlabl>
-				<attrdef>Postcode (adjusted)</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>PointX</attrlabl>
-				<attrdef>X coordinate</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>PointY</attrlabl>
-				<attrdef>Y coordinate</attrdef>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>China Data Center - University of Michigan</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>330 Packard Rd</address>
-					<city>Ann Arbor</city>
-					<state>MI</state>
-					<postal>USA</postal>
-					<country>48106</country>
-				</cntaddr>
-				<cntvoice>(734) 647-9610</cntvoice>
-				<cntfax>(734) 763-0335</cntfax>
-				<cntemail>chinadata@umich.edu</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>cdc_2004_china_religion</resdesc>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>Geopackage</formname>
-					<formspec>zip</formspec>
-				</digtinfo>
-			</digform>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Digital Social Scence Center, Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metd>20130213</metd>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-	</metainfo>
-	<dataqual>
-	<lineage>
-	<srcinfo>
-	<srccite>
-	<citeinfo>
-	<title>2004 China Economic Census </title>
-	<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/.zip
-</onlink>
-</citeinfo>
-	</srccite>
-	</srcinfo>
-	<srcinfo>
-	<srccite>
-	<citeinfo>
-	<title>Zip maps of Mainland China</title>
-	<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/.zip
-</onlink>
-</citeinfo>
-	</srccite>
-	</srcinfo>
-	</lineage>
-	</dataqual>
-	</metadata>
+<eainfo>
+	<detailed>
+		<attr>
+			<attrlabl>ID</attrlabl>
+			<attrdef>The Identity ID of each site</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Type</attrlabl>
+			<attrdef>The type of religions (for reference only, not necessarily accurate)</attrdef>
+			<attrdomv>
+				<edom>
+					<edomv>0</edomv>
+					<edomvd>Religious Management</edomvd>
+					<edomvds>China Data Center</edomvds>
+				</edom>
+				<edom>
+					<edomv>1</edomv>
+					<edomvd>Buddhism</edomvd>
+					<edomvds>China Data Center</edomvds>
+				</edom>
+				<edom>
+					<edomv>3</edomv>
+					<edomvd>Taoism</edomvd>
+					<edomvds>China Data Center</edomvds>
+				</edom>
+				<edom>
+					<edomv>4</edomv>
+					<edomvd>Islam</edomvd>
+					<edomvds>China Data Center</edomvds>
+				</edom>
+				<edom>
+					<edomv>5</edomv>
+					<edomvd>Christianity</edomvd>
+					<edomvds>China Data Center</edomvds>
+				</edom>
+				<edom>
+					<edomv>9</edomv>
+					<edomvd>Others</edomvd>
+					<edomvds>China Data Center</edomvds>
+				</edom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Site_Ch</attrlabl>
+			<attrdef>Name of the site in Chinese </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Site_En</attrlabl>
+			<attrdef>Name of the site in English </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Source</attrlabl>
+			<attrdef>Source of the data (1 - unit with legal status; 0 - unit without independent legal status)</attrdef>
+		</attr>
+		<enttyp>
+			<enttypl>religion2004</enttypl>
+			<enttypd>Religious Site</enttypd>
+		</enttyp>
+		<attr>
+			<attrlabl>Name_Ch</attrlabl>
+			<attrdef>Name of contact person in Chinese </attrdef>
+		</attr>
+	</detailed>
+	<detailed>
+		<attr>
+			<attrlabl>Name_En</attrlabl>
+			<attrdef>Name of contact person in English </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Name_Ch</attrlabl>
+			<attrdef>Address in Chinese </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Name_En</attrlabl>
+			<attrdef>Name of contact person in English </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Addr_Ch</attrlabl>
+			<attrdef>Address in Chinese </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Addr_En</attrlabl>
+			<attrdef>Address in English </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>AreaCode</attrlabl>
+			<attrdef>Area code of phone number </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Tel</attrlabl>
+			<attrdef>Phone number</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Zip2004</attrlabl>
+			<attrdef>Post code in 2004</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>PriAct_Ch</attrlabl>
+			<attrdef>Primary activities in Chinese</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>PriAct_En</attrlabl>
+			<attrdef>Primary activities in English</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>OwnCode</attrlabl>
+			<attrdef>Ownership code</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Own_Ch</attrlabl>
+			<attrdef>Type of ownership in Chinese </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Own_En</attrlabl>
+			<attrdef>Type of ownership in English </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>StartYear</attrlabl>
+			<attrdef>Starting year</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>RenuCode</attrlabl>
+			<attrdef>Code of revenue range </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Renu_Ch</attrlabl>
+			<attrdef>Revenue range in Chinese </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Renu_En</attrlabl>
+			<attrdef>Revenue range in English </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>EmpCode</attrlabl>
+			<attrdef>Code of employee scale </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Emp_Ch</attrlabl>
+			<attrdef>Employee scale in Chinese </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Emp_En</attrlabl>
+			<attrdef>Employee scale in English </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>GBProv</attrlabl>
+			<attrdef>GB Code for Province </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Prov_Ch</attrlabl>
+			<attrdef>Province name in Chinese </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Prov_En</attrlabl>
+			<attrdef>Province name in English </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>GBCity</attrlabl>
+			<attrdef>GB Code for County in 2000</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Cnty00_Ch</attrlabl>
+			<attrdef>County name in Chinese in 2000</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Cnty00_En</attrlabl>
+			<attrdef>County name in English in 2000</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>GBCnty04</attrlabl>
+			<attrdef>County code in 2004</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Cnty04_Ch</attrlabl>
+			<attrdef>County Chinese name in 2004</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Cnty04_En</attrlabl>
+			<attrdef>County English name in 2004</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>GBTwp</attrlabl>
+			<attrdef>GB Code for Township </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Twp_Ch</attrlabl>
+			<attrdef>Township name in Chinese </attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Twp_En</attrlabl>
+			<attrdef>Township name in English</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>ZIP</attrlabl>
+			<attrdef>Postcode (adjusted)</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>PointX</attrlabl>
+			<attrdef>X coordinate</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>PointY</attrlabl>
+			<attrdef>Y coordinate</attrdef>
+		</attr>
+	</detailed>
+</eainfo>
+<distinfo>
+	<distrib>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>China Data Center - University of Michigan</cntorg>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>330 Packard Rd</address>
+				<city>Ann Arbor</city>
+				<state>MI</state>
+				<postal>USA</postal>
+				<country>48106</country>
+			</cntaddr>
+			<cntvoice>(734) 647-9610</cntvoice>
+			<cntfax>(734) 763-0335</cntfax>
+			<cntemail>chinadata@umich.edu</cntemail>
+		</cntinfo>
+	</distrib>
+	<resdesc>cdc_2004_china_religion</resdesc>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+</distinfo>
+<metainfo>
+	<metc>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Digital Social Scence Center, Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St., 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+				<country>USA</country>
+			</cntaddr>
+			<cntvoice>(212)854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+	<metd>20130213</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+</metainfo>
+</metadata>

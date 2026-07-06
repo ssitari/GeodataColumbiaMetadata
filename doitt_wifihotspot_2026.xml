@@ -58,12 +58,12 @@
 			<temporal>
 				<tempkey>2026</tempkey>
 				<tempkt>None</tempkt>
-		</temporal>
-		<place>
-			<placekt>GeoNames</placekt>
-			<placekey>New York City (5128581)</placekey>
-		</place>
-		<place>
+			</temporal>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>New York City (5128581)</placekey>
+			</place>
+			<place>
 				<placekt>Library of Congress Subject Headings</placekt>
 				<placekey>New York (N.Y.)</placekey>
 				<placekey>Brooklyn (New York, N.Y.)</placekey>
@@ -75,7 +75,12 @@
 			<place>
 				<placekt>None</placekt>
 				<placekey>NYC</placekey>
-			</place><theme><themekt>ISO 19115 Topic Category</themekt><themekey>utilitiesCommunication</themekey></theme></keywords>
+			</place>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>utilitiesCommunication</themekey>
+			</theme>
+		</keywords>
 		<accconst>None</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -137,9 +142,25 @@
 			</altsys>
 		</vertdef>
 	</spref>
-	<spdoinfo>
-		<ptvctinf/></spdoinfo>
-
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Department of Information Technology and Telecommunications</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>2 Metrotech Center, 4th Floor</address>
+					<city>Brooklyn</city>
+					<state>NY</state>
+					<postal>11201</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntemail>spatialdatarequest@doitt.nyc.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>doitt_wifihotspot_2026</resdesc>
+	</distinfo>
 	<metainfo>
 		<metc>
 			<cntinfo>
@@ -166,22 +187,4 @@
 			<metsc>Unclassified</metsc>
 		</metsi>
 	</metainfo>
-	<distinfo><distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Department of Information Technology and Telecommunications</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>2 Metrotech Center, 4th Floor</address>
-					<city>Brooklyn</city>
-					<state>NY</state>
-					<postal>11201</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntemail>spatialdatarequest@doitt.nyc.gov</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>doitt_wifihotspot_2026</resdesc>
-	</distinfo>
 </metadata>

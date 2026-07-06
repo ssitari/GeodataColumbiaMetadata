@@ -13,12 +13,15 @@
 					<sername>NJ Transportation Maps and Tables</sername>
 				</serinfo>
 				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/halcrow_amtrak_station_2012.zip</onlink>
-				<origin>Halcrow Group Limited</origin><pubdate>2012</pubdate></citeinfo>
+				<origin>Halcrow Group Limited</origin>
+				<pubdate>2012</pubdate>
+			</citeinfo>
 		</citation>
 		<descript>
 			<purpose>For research purposes only.</purpose>
 			<supplinf>See http://www.amtrak.com for more information.</supplinf>
-			<abstract>Northeast Amtrak Stations 2012 is a point theme representing Amtrak stations at a regional scale.  Includes stations in the northeast US on lines which serve New York and New Jersey stations.  Attribute information includes the name and address of the station as well as available amenities.</abstract></descript>
+			<abstract>Northeast Amtrak Stations 2012 is a point theme representing Amtrak stations at a regional scale.  Includes stations in the northeast US on lines which serve New York and New Jersey stations.  Attribute information includes the name and address of the station as well as available amenities.</abstract>
+		</descript>
 		<timeperd>
 			<timeinfo>
 				<sngdate>
@@ -35,372 +38,447 @@
 			<bounding>
 				<westbc>
 -80.396391</westbc>
-				<eastbc>
+					<eastbc>
 -70.903685</eastbc>
-				<northbc>
+						<northbc>
 45.000381</northbc>
-				<southbc>
+							<southbc>
 38.800842</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>transportation</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>New York City (5128581)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>New York</placekey><placekey>New Jersey</placekey><placekey>Pennsylvania</placekey><placekey>Connecticut</placekey><placekey>Rhode Island</placekey><placekey>Delaware</placekey><placekey>Maryland</placekey><placekey>Massachusetts</placekey><placekey>Washington (D.C.)</placekey><placekey>New York (N.Y.)</placekey></place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2012</tempkey>
-			</temporal>
-			<theme><themekey>Amtrak</themekey><themekey>Passenger trains</themekey><themekey>Rail lines</themekey><themekey>Rail stations</themekey><themekt>None</themekt><themekey>Railroad</themekey></theme></keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Halcrow / CH2M Hill</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>22 Cortlandt St</address>
-					<city>New York</city>
-					<state>NY </state>
-					<postal>10007</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>212-608-3990</cntvoice>
-				<cntfax>212-566-5059</cntfax>
-				<cntemail>maps@halcrow.com</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-		</browse>
-		<crossref>
-			<citeinfo>
-			</citeinfo>
-		</crossref>
-	</idinfo>
-	<dataqual>
-		<lineage>
-			<procstep>
-				<procdesc>Original vector data obtained from New Jersey Transit in May 1999. It's developed from 1:100,000 TIGER files, and amended by them.</procdesc>
-				<procdate>May 1999</procdate>
-			</procstep>
-			<procstep><procdesc>Data reprojected to NAD83 NY-Long Island (feet) to align with new NYC data. Separate file created for Port Authority facilities.</procdesc><procdate>20051107</procdate><proccont><cntinfo><cntorgp><cntorg>CommunityCartography</cntorg></cntorgp></cntinfo></proccont></procstep><procstep><proccont><cntinfo><cntorgp><cntorg>CommunityCartography</cntorg></cntorgp></cntinfo></proccont><procdesc>Several updates: New shapefiles were obtained from New Jersey Transit and reprojected. The original source file was created by NJ Transit in March 2001 by tracing from 1995/97 USGS 1-meter resolution orthophotography.
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>transportation</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>New York City (5128581)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>New York</placekey>
+								<placekey>New Jersey</placekey>
+								<placekey>Pennsylvania</placekey>
+								<placekey>Connecticut</placekey>
+								<placekey>Rhode Island</placekey>
+								<placekey>Delaware</placekey>
+								<placekey>Maryland</placekey>
+								<placekey>Massachusetts</placekey>
+								<placekey>Washington (D.C.)</placekey>
+								<placekey>New York (N.Y.)</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2012</tempkey>
+							</temporal>
+							<theme>
+								<themekey>Amtrak</themekey>
+								<themekey>Passenger trains</themekey>
+								<themekey>Rail lines</themekey>
+								<themekey>Rail stations</themekey>
+								<themekt>None</themekt>
+								<themekey>Railroad</themekey>
+							</theme>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Halcrow / CH2M Hill</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>22 Cortlandt St</address>
+									<city>New York</city>
+									<state>NY </state>
+									<postal>10007</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>212-608-3990</cntvoice>
+								<cntfax>212-566-5059</cntfax>
+								<cntemail>maps@halcrow.com</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+						</browse>
+						<crossref>
+							<citeinfo>
+							</citeinfo>
+						</crossref>
+					</idinfo>
+					<dataqual>
+						<lineage>
+							<procstep>
+								<procdesc>Original vector data obtained from New Jersey Transit in May 1999. It's developed from 1:100,000 TIGER files, and amended by them.</procdesc>
+								<procdate>May 1999</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>Data reprojected to NAD83 NY-Long Island (feet) to align with new NYC data. Separate file created for Port Authority facilities.</procdesc>
+								<procdate>20051107</procdate>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>CommunityCartography</cntorg>
+										</cntorgp>
+									</cntinfo>
+								</proccont>
+							</procstep>
+							<procstep>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>CommunityCartography</cntorg>
+										</cntorgp>
+									</cntinfo>
+								</proccont>
+<procdesc>Several updates: New shapefiles were obtained from New Jersey Transit and reprojected. The original source file was created by NJ Transit in March 2001 by tracing from 1995/97 USGS 1-meter resolution orthophotography.
 
 Separated passenger lines from freight/inactive lines.  Separate shapefiles created for NJT Rail, NJT Hudson-Bergen Light Rail, NJT Newark Subway, NJT Riverline, Amtrak, PATCO, and SEPTA  lines.
 
-Lines were snapped to station points and split.  Features at transit hubs were redrawn based on the NJ DEP Orthophotos (2002).</procdesc><procdate>20071001</procdate></procstep><procstep><proccont><cntinfo><cntorgp><cntorg>CommunityCartography</cntorg></cntorgp></cntinfo></proccont><procdesc>ComCarto recreated the Amtrak lines from National Atlas data.  Lines and stations were extracted from the 2005 national files and projected to NAD83 NJSP feet.  Lines were snapped to station points.  Lines sharing tracks with NJ Transit were replaced with the NJ Transit shapes.  Attributes were added. Lines were duplicated for each service route, each split where stops are made, based on service information from the Amtrak website.</procdesc><procdate>20071001</procdate></procstep><procstep><proccont><cntinfo><cntperp><cntorg>Halcrow</cntorg></cntperp></cntinfo></proccont><procdesc>Updated stations served by each line. Added Vermont stations and lines.</procdesc><procdate>200912001</procdate></procstep><procstep><proccont><cntinfo><cntorgp><cntorg>Halcrow / CH2M Hill</cntorg></cntorgp></cntinfo></proccont><procdesc>Metadata was updated to 10.1 format. Checked routes and stations against the current Amtrak website. No changes to the following routes: Acela; Adirondak; Cardinal; Carolinian; Crescent; Empire State; Keystone; Maple Leaf; Silver/Palmetto; Vermonter; NE Regional. Changes were made to these routes: Ethan Allen (Fairhaven VT station changed to Castleton VT); Lake Shore (added Poughkeepsie stop); Pennsylvanian (removed Princeton stop, removed Downington stop). Attributes for new station added based on Amtrak website info. Attributes for existing stations were not reviewed. Geometry edits included: recalculate geometry fields.</procdesc><procdate>20121109</procdate></procstep></lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>Entity point</sdtstype>
-				<ptvctcnt>97</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<planar>
-				<gridsys>
-					<gridsysn>State Plane Coordinate System</gridsysn>
-					<spcs>
-						<spcszone>2900</spcszone>
-						<transmer>
-							<sfctrmer>0.999900</sfctrmer>
-							<longcm>-74.500000</longcm>
-							<latprjo>38.833333</latprjo>
-							<feast>492125.000000</feast>
-							<fnorth>0.000000</fnorth>
-						</transmer>
-					</spcs>
-				</gridsys>
-				<planci>
-					<plance>coordinate pair</plance>
-					<coordrep>
-						<absres>0.000000</absres>
-						<ordres>0.000000</ordres>
-					</coordrep>
-					<plandu>survey feet</plandu>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>North American Datum of 1983</horizdn>
-				<ellips>Geodetic Reference System 80</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257222</denflat>
-			</geodetic>
-		</horizsys>
-		<vertdef>
-			<altsys>
-				<altres>0.000010</altres>
-				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-			</altsys>
-		</vertdef>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+Lines were snapped to station points and split.  Features at transit hubs were redrawn based on the NJ DEP Orthophotos (2002).</procdesc>
+								<procdate>20071001</procdate>
+							</procstep>
+							<procstep>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>CommunityCartography</cntorg>
+										</cntorgp>
+									</cntinfo>
+								</proccont>
+								<procdesc>ComCarto recreated the Amtrak lines from National Atlas data.  Lines and stations were extracted from the 2005 national files and projected to NAD83 NJSP feet.  Lines were snapped to station points.  Lines sharing tracks with NJ Transit were replaced with the NJ Transit shapes.  Attributes were added. Lines were duplicated for each service route, each split where stops are made, based on service information from the Amtrak website.</procdesc>
+								<procdate>20071001</procdate>
+							</procstep>
+							<procstep>
+								<proccont>
+									<cntinfo>
+										<cntperp>
+											<cntorg>Halcrow</cntorg>
+										</cntperp>
+									</cntinfo>
+								</proccont>
+								<procdesc>Updated stations served by each line. Added Vermont stations and lines.</procdesc>
+								<procdate>200912001</procdate>
+							</procstep>
+							<procstep>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>Halcrow / CH2M Hill</cntorg>
+										</cntorgp>
+									</cntinfo>
+								</proccont>
+								<procdesc>Metadata was updated to 10.1 format. Checked routes and stations against the current Amtrak website. No changes to the following routes: Acela; Adirondak; Cardinal; Carolinian; Crescent; Empire State; Keystone; Maple Leaf; Silver/Palmetto; Vermonter; NE Regional. Changes were made to these routes: Ethan Allen (Fairhaven VT station changed to Castleton VT); Lake Shore (added Poughkeepsie stop); Pennsylvanian (removed Princeton stop, removed Downington stop). Attributes for new station added based on Amtrak website info. Attributes for existing stations were not reviewed. Geometry edits included: recalculate geometry fields.</procdesc>
+								<procdate>20121109</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>Entity point</sdtstype>
+								<ptvctcnt>97</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<planar>
+								<gridsys>
+									<gridsysn>State Plane Coordinate System</gridsysn>
+									<spcs>
+										<spcszone>2900</spcszone>
+										<transmer>
+											<sfctrmer>0.999900</sfctrmer>
+											<longcm>-74.500000</longcm>
+											<latprjo>38.833333</latprjo>
+											<feast>492125.000000</feast>
+											<fnorth>0.000000</fnorth>
+										</transmer>
+									</spcs>
+								</gridsys>
+								<planci>
+									<plance>coordinate pair</plance>
+									<coordrep>
+										<absres>0.000000</absres>
+										<ordres>0.000000</ordres>
+									</coordrep>
+									<plandu>survey feet</plandu>
+								</planci>
+							</planar>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+						<vertdef>
+							<altsys>
+								<altres>0.000010</altres>
+								<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+							</altsys>
+						</vertdef>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 amtrak_station</enttypl>
-				<enttypd>Rail station</enttypd></enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>LONGITUDE</attrlabl>
-				<attrdef>coordinate in decimal degrees, implied sixth place decimal</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-				<attrvai>
-					<attrvae>null for added stations</attrvae>
-				</attrvai>
-			</attr>
-			<attr>
-				<attrlabl>LATITUDE</attrlabl>
-				<attrdef>coordinate in decimal degrees, implied sixth place decimal</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-				<attrvai>
-					<attrvae>null for added stations</attrvae>
-				</attrvai>
-			</attr>
-			<attr>
-				<attrlabl>FEATID</attrlabl>
-				<attrdef>Amtrak feature code</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>DESCRIPT</attrlabl>
-				<attrdef>station name</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>STR_ADDRES</attrlabl>
-				<attrdef>station address</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>CITY</attrlabl>
-				<attrdef>station city</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>STATE</attrlabl>
-				<attrdef>station state</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>ZIPCODE</attrlabl>
-				<attrdef>station zipcode</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>STATUS</attrlabl>
-				<attrdef>status in 2000</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>active</edomv>
-					</edom>
-					<edom>
-						<edomv>seasonal</edomv>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>RR1</attrlabl>
-				<attrdef>primary operator of service at the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>RR2</attrlabl>
-				<attrdef>additional provider of service at the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>TICKET_OFF</attrlabl>
-				<attrdef>Whether there is a ticket office in the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>Y</edomv>
-						<edomvd>yes</edomvd>
-						<edomvds>National Atlas/Amtrak</edomvds>
-					</edom>
-					<edom>
-						<edomv>N</edomv>
-						<edomvd>no</edomvd>
-						<edomvds>National Atlas/Amtrak</edomvds>
-					</edom>
-					<edom>
-						<edomv>null</edomv>
-						<edomvd>station not in National Atlas data, information for this station not listed on the Amtrak website</edomvd>
-						<edomvds>ComCarto</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CHECKED_BA</attrlabl>
-				<attrdef>Whether the station handles checked baggage</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>BAG_HELP</attrlabl>
-				<attrdef>Whether assistance with luggage is available at the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>HP_ACCESS</attrlabl>
-				<attrdef>The wheelchair-accessibility of the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>ENCLOSED_W</attrlabl>
-				<attrdef>Whether the station has an enclosed waiting area</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>RESTROOMS</attrlabl>
-				<attrdef>Whether there are public restrooms in the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>PAY_PHONES</attrlabl>
-				<attrdef>Whether there are public telephones in the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>FOOD</attrlabl>
-				<attrdef>The kind of food service facilities in the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>ATM</attrlabl>
-				<attrdef>Whether there is an automated teller machine in the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>SHORT_PARK</attrlabl>
-				<attrdef>The type of short-term parking available at the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>LONG_PARK</attrlabl>
-				<attrdef>The type of long-term parking available at the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>CAR_RENTAL</attrlabl>
-				<attrdef>Whether car rental is available at the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>TAXI</attrlabl>
-				<attrdef>Whether taxi service available at the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>INTER_BUS</attrlabl>
-				<attrdef>Whether intercity bus service is available within two blocks</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>TRANSIT</attrlabl>
-				<attrdef>Whether there is a public transit connection at the station</attrdef>
-				<attrdefs>National Atlas</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>CUSTOMS</attrlabl>
-				<attrdef>Whether there is a customs checkpoint at the station</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>AMTKEXP</attrlabl>
-				<attrdef>Whether Amtrak Package Express service is available at the station</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>GREAT_VAC</attrlabl>
-				<attrdef>Whether Amtrak Great Vacations package(s) are available at the station</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>SELF_TIX</attrlabl>
-				<attrdef>Whether a Quik-Trak ticket machine is available for credit/debit ticket sales</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>X</attrlabl>
-				<attrdef>coordinate in NJ SP feet</attrdef>
-				<attrdefs>ComCarto</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>Y</attrlabl>
-				<attrdef>coordinate in NJ SP feet</attrdef>
-				<attrdefs>ComCarto</attrdefs>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Halcrow / CH2M Hill</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>22 Cortlandt St</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10007</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>212-608-3990</cntvoice>
-				<cntfax>212-566-5059</cntfax>
-				<cntemail>maps@halcrow.com</cntemail>
-			</cntinfo>
-		</distrib>
+									<enttypd>Rail station</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LONGITUDE</attrlabl>
+									<attrdef>coordinate in decimal degrees, implied sixth place decimal</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+									<attrvai>
+										<attrvae>null for added stations</attrvae>
+									</attrvai>
+								</attr>
+								<attr>
+									<attrlabl>LATITUDE</attrlabl>
+									<attrdef>coordinate in decimal degrees, implied sixth place decimal</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+									<attrvai>
+										<attrvae>null for added stations</attrvae>
+									</attrvai>
+								</attr>
+								<attr>
+									<attrlabl>FEATID</attrlabl>
+									<attrdef>Amtrak feature code</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>DESCRIPT</attrlabl>
+									<attrdef>station name</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>STR_ADDRES</attrlabl>
+									<attrdef>station address</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>CITY</attrlabl>
+									<attrdef>station city</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>STATE</attrlabl>
+									<attrdef>station state</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>ZIPCODE</attrlabl>
+									<attrdef>station zipcode</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>STATUS</attrlabl>
+									<attrdef>status in 2000</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>active</edomv>
+										</edom>
+										<edom>
+											<edomv>seasonal</edomv>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>RR1</attrlabl>
+									<attrdef>primary operator of service at the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>RR2</attrlabl>
+									<attrdef>additional provider of service at the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>TICKET_OFF</attrlabl>
+									<attrdef>Whether there is a ticket office in the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>Y</edomv>
+											<edomvd>yes</edomvd>
+											<edomvds>National Atlas/Amtrak</edomvds>
+										</edom>
+										<edom>
+											<edomv>N</edomv>
+											<edomvd>no</edomvd>
+											<edomvds>National Atlas/Amtrak</edomvds>
+										</edom>
+										<edom>
+											<edomv>null</edomv>
+											<edomvd>station not in National Atlas data, information for this station not listed on the Amtrak website</edomvd>
+											<edomvds>ComCarto</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CHECKED_BA</attrlabl>
+									<attrdef>Whether the station handles checked baggage</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>BAG_HELP</attrlabl>
+									<attrdef>Whether assistance with luggage is available at the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>HP_ACCESS</attrlabl>
+									<attrdef>The wheelchair-accessibility of the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>ENCLOSED_W</attrlabl>
+									<attrdef>Whether the station has an enclosed waiting area</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>RESTROOMS</attrlabl>
+									<attrdef>Whether there are public restrooms in the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>PAY_PHONES</attrlabl>
+									<attrdef>Whether there are public telephones in the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>FOOD</attrlabl>
+									<attrdef>The kind of food service facilities in the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>ATM</attrlabl>
+									<attrdef>Whether there is an automated teller machine in the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>SHORT_PARK</attrlabl>
+									<attrdef>The type of short-term parking available at the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>LONG_PARK</attrlabl>
+									<attrdef>The type of long-term parking available at the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>CAR_RENTAL</attrlabl>
+									<attrdef>Whether car rental is available at the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>TAXI</attrlabl>
+									<attrdef>Whether taxi service available at the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>INTER_BUS</attrlabl>
+									<attrdef>Whether intercity bus service is available within two blocks</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>TRANSIT</attrlabl>
+									<attrdef>Whether there is a public transit connection at the station</attrdef>
+									<attrdefs>National Atlas</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>CUSTOMS</attrlabl>
+									<attrdef>Whether there is a customs checkpoint at the station</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>AMTKEXP</attrlabl>
+									<attrdef>Whether Amtrak Package Express service is available at the station</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>GREAT_VAC</attrlabl>
+									<attrdef>Whether Amtrak Great Vacations package(s) are available at the station</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>SELF_TIX</attrlabl>
+									<attrdef>Whether a Quik-Trak ticket machine is available for credit/debit ticket sales</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>X</attrlabl>
+									<attrdef>coordinate in NJ SP feet</attrdef>
+									<attrdefs>ComCarto</attrdefs>
+								</attr>
+								<attr>
+									<attrlabl>Y</attrlabl>
+									<attrdef>coordinate in NJ SP feet</attrdef>
+									<attrdefs>ComCarto</attrdefs>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Halcrow / CH2M Hill</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>22 Cortlandt St</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10007</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>212-608-3990</cntvoice>
+									<cntfax>212-566-5059</cntfax>
+									<cntemail>maps@halcrow.com</cntemail>
+								</cntinfo>
+							</distrib>
 
-		<resdesc>halcrow_amtrak_station_2012</resdesc></distinfo>
-	<metainfo>
-		<metd>20140318</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+							<resdesc>halcrow_amtrak_station_2012</resdesc>
+						</distinfo>
+						<metainfo>
+							<metd>20140318</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

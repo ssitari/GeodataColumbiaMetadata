@@ -1,511 +1,511 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Colombia (3686110)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Colombia</placekey>
-<placekey>Colombia</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2005</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-81.722456</westbc>
-<eastbc>-67.474110</eastbc>
-<northbc>13.385775</northbc>
-<southbc>-0.566358</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Colombia (3686110)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Colombia</placekey>
+				<placekey>Colombia</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2005</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-81.722456</westbc>
+				<eastbc>-67.474110</eastbc>
+				<northbc>13.385775</northbc>
+				<southbc>-0.566358</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Colombia Housing Census Data, 2005 is a polygon theme representing Manzanas (6th level administrative units) in Colombia as of 2005. Attribute information includes housing variables from the 2005 Census.
 
  Official population and housing data for Colombia from the 2005 census. This census is provided at the manzana administrative level (ADM6) and includes 261,263 polygons with 194 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo_Hombre" was updated to D001 and given the alias "Gender: Male[Sexo_Hombre]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Colombia Housing Census Data, 2005</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2021</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Colombia Housing Census Data, 2005</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_colombia_housing_2005.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2005</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2005</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Colombia_2005</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Block[Manzana]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H001</attrlabl>
-    <attrdef>Electricity: Yes[Energ_electr_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H002</attrlabl>
-    <attrdef>Electricity: No[Energ_electr_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H003</attrlabl>
-    <attrdef>Electricity: Total[Energ_electr_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H004</attrlabl>
-    <attrdef>Aqueduct access: Yes[Acueducto_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H005</attrlabl>
-    <attrdef>Aqueduct access: No[Acueducto_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H006</attrlabl>
-    <attrdef>Sewer access: Yes[Alcantarillado_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H007</attrlabl>
-    <attrdef>Sewer access: No[Alcantarillado_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H008</attrlabl>
-    <attrdef>Sewer access: Total[AlcantarilladoTotal]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H009</attrlabl>
-    <attrdef>Property Occupation Type: Inhabited with people present at time of census[Ocupadaconperspresen]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H010</attrlabl>
-    <attrdef>Property Occupation Type: Inhabited with people absent at time of census[Ocupadapersausentes]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H011</attrlabl>
-    <attrdef>Property Occupation Type: Unoccupied house[Desocupadas]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H012</attrlabl>
-    <attrdef>Property Occupation Type: Unoccupied housing for temporary use[DesocupadaporUsoTemp]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H013</attrlabl>
-    <attrdef>Housing Occupancy Total[OcupacionTotal]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H014</attrlabl>
-    <attrdef>Natural Gas: Yes[Gas_Natural_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H015</attrlabl>
-    <attrdef>Natural Gas: No[Gas_Natural_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H016</attrlabl>
-    <attrdef>Natural Gas: No Information[Gas_Natural_No_Informa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H017</attrlabl>
-    <attrdef>Natural Gas: Total[Gas_Natural_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H018</attrlabl>
-    <attrdef>Telephone: Yes[Telefono_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H019</attrlabl>
-    <attrdef>Telephone: No[Telefono_NO]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H020</attrlabl>
-    <attrdef>Telephone: No Information[Telefono_No_Informa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H021</attrlabl>
-    <attrdef>Telephone: Total[Telefono_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H022</attrlabl>
-    <attrdef>Property Type: House[Casa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H023</attrlabl>
-    <attrdef>Property Type: House Indian[Casa_indigena]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H024</attrlabl>
-    <attrdef>Property Type: Apartment[Apartamento]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H025</attrlabl>
-    <attrdef>Property Type: Fourth Type[Tipo_cuarto]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H026</attrlabl>
-    <attrdef>Property Type: Other[Otro_tipo_de_vivienda]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H027</attrlabl>
-    <attrdef>Property Type: Total[TipoVivienda_Total]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H028</attrlabl>
-    <attrdef>Relationship to head of household: Chief or head of household[Jefe_o_jefa_del_hogar]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H029</attrlabl>
-    <attrdef>Relationship to head of household: Spouse[Conyuge_pareja]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H030</attrlabl>
-    <attrdef>Relationship to head of household: Son/daughter, stepson/stepdaughter[Hijo_hijastro]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H031</attrlabl>
-    <attrdef>Relationship to head of household: Son in law/Daughter in law[Yerno_nuera]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H032</attrlabl>
-    <attrdef>Relationship to head of household: Grandchild[Nieto]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H033</attrlabl>
-    <attrdef>Relationship to Head of household: Father, mother, or father/mother in law[Padre_madre_o_suegro]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H034</attrlabl>
-    <attrdef>Relationship to head of household: Brother/sister, stepbrother/stepsister[Hermano_hermanastro]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H035</attrlabl>
-    <attrdef>Relationship to head of household: Another relative[Otro_pariente]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H036</attrlabl>
-    <attrdef>Relationship to Head of household: Domestic employee[Empleado_domestico]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H037</attrlabl>
-    <attrdef>Relationship to head of household: Other nonrelative[Otro_no_pariente]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H038</attrlabl>
-    <attrdef>Relationship to head of household: Total[A1_T]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H039</attrlabl>
-    <attrdef>Census Unit Use: Housing[UsoUnidadCensal_UsoVivienda]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H040</attrlabl>
-    <attrdef>Census Unit Use: Economic/Business[UsoUnidadCensal_Uso_Unidad_Economica]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H041</attrlabl>
-    <attrdef>Census Unit Use: Special Housing Acommodation[UsoUnidadCensal_UsoLEA]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H042</attrlabl>
-    <attrdef>Census Unit Use: Total[A1_T]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census_Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Colombia_2005</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Block[Manzana]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H001</attrlabl>
+			<attrdef>Electricity: Yes[Energ_electr_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H002</attrlabl>
+			<attrdef>Electricity: No[Energ_electr_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H003</attrlabl>
+			<attrdef>Electricity: Total[Energ_electr_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H004</attrlabl>
+			<attrdef>Aqueduct access: Yes[Acueducto_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H005</attrlabl>
+			<attrdef>Aqueduct access: No[Acueducto_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H006</attrlabl>
+			<attrdef>Sewer access: Yes[Alcantarillado_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H007</attrlabl>
+			<attrdef>Sewer access: No[Alcantarillado_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H008</attrlabl>
+			<attrdef>Sewer access: Total[AlcantarilladoTotal]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H009</attrlabl>
+			<attrdef>Property Occupation Type: Inhabited with people present at time of census[Ocupadaconperspresen]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H010</attrlabl>
+			<attrdef>Property Occupation Type: Inhabited with people absent at time of census[Ocupadapersausentes]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H011</attrlabl>
+			<attrdef>Property Occupation Type: Unoccupied house[Desocupadas]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H012</attrlabl>
+			<attrdef>Property Occupation Type: Unoccupied housing for temporary use[DesocupadaporUsoTemp]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H013</attrlabl>
+			<attrdef>Housing Occupancy Total[OcupacionTotal]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H014</attrlabl>
+			<attrdef>Natural Gas: Yes[Gas_Natural_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H015</attrlabl>
+			<attrdef>Natural Gas: No[Gas_Natural_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H016</attrlabl>
+			<attrdef>Natural Gas: No Information[Gas_Natural_No_Informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H017</attrlabl>
+			<attrdef>Natural Gas: Total[Gas_Natural_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H018</attrlabl>
+			<attrdef>Telephone: Yes[Telefono_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H019</attrlabl>
+			<attrdef>Telephone: No[Telefono_NO]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H020</attrlabl>
+			<attrdef>Telephone: No Information[Telefono_No_Informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H021</attrlabl>
+			<attrdef>Telephone: Total[Telefono_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H022</attrlabl>
+			<attrdef>Property Type: House[Casa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H023</attrlabl>
+			<attrdef>Property Type: House Indian[Casa_indigena]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H024</attrlabl>
+			<attrdef>Property Type: Apartment[Apartamento]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H025</attrlabl>
+			<attrdef>Property Type: Fourth Type[Tipo_cuarto]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H026</attrlabl>
+			<attrdef>Property Type: Other[Otro_tipo_de_vivienda]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H027</attrlabl>
+			<attrdef>Property Type: Total[TipoVivienda_Total]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H028</attrlabl>
+			<attrdef>Relationship to head of household: Chief or head of household[Jefe_o_jefa_del_hogar]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H029</attrlabl>
+			<attrdef>Relationship to head of household: Spouse[Conyuge_pareja]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H030</attrlabl>
+			<attrdef>Relationship to head of household: Son/daughter, stepson/stepdaughter[Hijo_hijastro]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H031</attrlabl>
+			<attrdef>Relationship to head of household: Son in law/Daughter in law[Yerno_nuera]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H032</attrlabl>
+			<attrdef>Relationship to head of household: Grandchild[Nieto]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H033</attrlabl>
+			<attrdef>Relationship to Head of household: Father, mother, or father/mother in law[Padre_madre_o_suegro]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H034</attrlabl>
+			<attrdef>Relationship to head of household: Brother/sister, stepbrother/stepsister[Hermano_hermanastro]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H035</attrlabl>
+			<attrdef>Relationship to head of household: Another relative[Otro_pariente]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H036</attrlabl>
+			<attrdef>Relationship to Head of household: Domestic employee[Empleado_domestico]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H037</attrlabl>
+			<attrdef>Relationship to head of household: Other nonrelative[Otro_no_pariente]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H038</attrlabl>
+			<attrdef>Relationship to head of household: Total[A1_T]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H039</attrlabl>
+			<attrdef>Census Unit Use: Housing[UsoUnidadCensal_UsoVivienda]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H040</attrlabl>
+			<attrdef>Census Unit Use: Economic/Business[UsoUnidadCensal_Uso_Unidad_Economica]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H041</attrlabl>
+			<attrdef>Census Unit Use: Special Housing Acommodation[UsoUnidadCensal_UsoLEA]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H042</attrlabl>
+			<attrdef>Census Unit Use: Total[A1_T]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census_Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_colombia_housing_2005</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_colombia_housing_2005</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

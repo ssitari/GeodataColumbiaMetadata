@@ -26,12 +26,16 @@
 					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
 				</pubinfo>
 				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_volcano.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_volcano.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>publication date</current>
 			<timeinfo>
-				<sngdate><caldate>200509</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>200509</caldate>
+				</sngdate>
+			</timeinfo>
 		</timeperd>
 		<status>
 			<progress>Complete</progress>
@@ -67,12 +71,18 @@
 			<place>
 				<placekey>United States</placekey>
 				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>North America</placekey><placekey>Central America</placekey></place>
+				<placekey>North America</placekey>
+				<placekey>Central America</placekey>
+			</place>
 			<temporal>
 				<tempkt>None</tempkt>
 				<tempkey>2005</tempkey>
 			</temporal>
-			<theme><themekt>ISO 19115 Topic Category</themekt><themekey>geoscientificInformation</themekey></theme></keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>geoscientificInformation</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -104,30 +114,70 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_volcano.jpg</browsen><browsed>Thumbnail</browsed><browset>JPEG</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_volcano.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>JPEG</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Volcanoes, 2012</title>
+						<pubdate>200509</pubdate>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+							<pubplace>Reston, Virginia, USA</pubplace>
+						</pubinfo>
+						<origin>National Atlas of the United States, and the U.S. Geological Survey</origin>
+						<onlink>http://nationalatlas.gov/atlasftp.html</onlink>
+						<origin>Smithsonian Institution, Global Volcanism Program</origin>
+						<onlink>http://www.volcano.si.edu/</onlink>
+						<othercit>1) Downloaded the data set in November 2005.
+
+2)The data is a subset of data available from the Global Volcanism Program, Smithsonian Institution at http://www.volcano.si.edu/world/summary.cfm.</othercit>
+						<onlink>http://www.volcano.si.edu/world/summary.cfm</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>200509</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>National Atlas</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+				<srcscale>2000000</srcscale>
+			</srcinfo>
+			<procstep>
+				<procdesc>The data was downloaded from the Global Volcanism Program website.  West longitude and south latitude values were converted to negative values.  The points that are within the geographic extent of the Shorelines for the National Atlas file were extracted. The file was loaded into ArcView and a shapefile was created.</procdesc>
+				<procsv>ArcView GIS 3</procsv>
+				<srcprod>National Atlas</srcprod>
+				<procdate>200507</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Downloaded the compressed file from the National Atlas of the United States and uncompressed the shapefile (volcanx020.shp).  Renamed and rearranged the attributes similar to last year.  Removed all features except for those in North and Central America.  Converted the data set to SDC.  Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
+				<srcused>National Atlas</srcused>
+				<procdate>20060418</procdate>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The geospatial part of this data set was calculated from latitude/longitude coordinates. The positional accuracy is unknown.
+
+Note that some locations are the center point of broad volcanic fields, and that even at individual volcanoes the coordinates given do not necessarily match the eruption site. Tens of kilometers may separate eruptive centers of a single volcano, particularly in large caldera complexes and rift settings.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -516,7 +566,14 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 						</reccap>
 						<recfmt>UDF (Universal Disc Format)</recfmt>
 					</offoptn>
-					<onlinopt><computer><networka><networkr>http://www.ArcGIS.com</networkr></networka></computer></onlinopt></digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ArcGIS.com</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
 			</digform>
 			<fees>Software purchase price</fees>
 			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
@@ -544,59 +601,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_us_volcano</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Volcanoes, 2012</title>
-						<pubdate>200509</pubdate>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<publish>U.S. Geological Survey</publish>
-							<pubplace>Reston, Virginia, USA</pubplace>
-						</pubinfo>
-						<origin>National Atlas of the United States, and the U.S. Geological Survey</origin>
-						<onlink>http://nationalatlas.gov/atlasftp.html</onlink>
-						<origin>Smithsonian Institution, Global Volcanism Program</origin>
-						<onlink>http://www.volcano.si.edu/</onlink>
-						<othercit>1) Downloaded the data set in November 2005.
-
-2)The data is a subset of data available from the Global Volcanism Program, Smithsonian Institution at http://www.volcano.si.edu/world/summary.cfm.</othercit>
-						<onlink>http://www.volcano.si.edu/world/summary.cfm</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate><caldate>200509</caldate></sngdate></timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>National Atlas</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-				<srcscale>2000000</srcscale>
-			</srcinfo>
-			<procstep>
-				<procdesc>The data was downloaded from the Global Volcanism Program website.  West longitude and south latitude values were converted to negative values.  The points that are within the geographic extent of the Shorelines for the National Atlas file were extracted. The file was loaded into ArcView and a shapefile was created.</procdesc>
-				<procsv>ArcView GIS 3</procsv>
-				<srcprod>National Atlas</srcprod>
-				<procdate>200507</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Downloaded the compressed file from the National Atlas of the United States and uncompressed the shapefile (volcanx020.shp).  Renamed and rearranged the attributes similar to last year.  Removed all features except for those in North and Central America.  Converted the data set to SDC.  Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-				<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
-				<srcused>National Atlas</srcused>
-				<procdate>20060418</procdate>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The geospatial part of this data set was calculated from latitude/longitude coordinates. The positional accuracy is unknown.
-
-Note that some locations are the center point of broad volcanic fields, and that even at individual volcanoes the coordinates given do not necessarily match the eruption site. Tens of kilometers may separate eruptive centers of a single volcano, particularly in large caldera complexes and rift settings.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

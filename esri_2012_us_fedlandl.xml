@@ -26,7 +26,8 @@
 					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
 				</pubinfo>
 				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_fedlandl.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_fedlandl.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>ground condition</current>
@@ -78,7 +79,12 @@
 				<tempkt>None</tempkt>
 				<tempkey>1972-2001</tempkey>
 			</temporal>
-			<theme><themekey>planningCadastre</themekey><themekt>ISO 19115 Topic Category</themekt><themekey>inlandWaters</themekey></theme></keywords>
+			<theme>
+				<themekey>planningCadastre</themekey>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>inlandWaters</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -110,30 +116,79 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_fedlandl.jpg</browsen><browsed>Thumbnail</browsed><browset>JPEG</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_fedlandl.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>JPEG</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Federal Land Features of the United States - Parkways and Scenic Rivers, 2012</title>
+						<pubdate>200107</pubdate>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+							<pubplace>Reston, Virginia, USA</pubplace>
+						</pubinfo>
+						<origin>National Atlas of the United States and the U.S. Geological Survey</origin>
+						<onlink>http://www.nationalatlas.gov/atlasftp.html</onlink>
+						<othercit>The data set was downloaded from the website in August 2002.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>2000000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1972-2001</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>National Atlas</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>This file was originally digitized by the National Mapping Division based on the sectional maps contained in 'The National Atlas of the United States of America' published by the USGS in 1970. The sectional maps were updated during 1978-1981 and digitized in the early 1980's. The data were updated in 1995 using 1:1,000,000-scale and 1:2,000,000-scale Bureau of Land Management State base maps. These data were published on CD-ROM in 1995. Using ARC/INFO software, the DLG optional format files were converted to ARC/INFO coverages using the DLGARC command. Only linear federal land features and attribute information were extracted for inclusion. The individual State coverages were then merged together using the ARC/INFO command APPEND. The resulting data set was ATLAS-FEDL (Federal Land Features of the U.S. (linear)).
+
+Using ATLAS-FEDL the spatial and attribute data were updated using the Wild and Scenic Rivers website. The spatial data was aligned with ATLAS-HY (Hydrography Features of the U.S.) and ATLAS-RD (Major roads and trails of the U.S.).
+
+Sudbury, Assabet, and Concord Wild and Scenic Rivers, MA were added using Linear Federal Land Features of the United States 1999, Wild and Scenic Rivers website, and ATLAS-HY (Hydrography Features of the U.S.) in 2000. The resulting data set was Federal Land Features of the United States - Parkways and Scenic Rivers 2000.
+
+Wilson Creek Wild and Scenic River, NC was added and Baltimore-Washington Parkway, MD and Suitland Parkway, MD were added using Federal Land Features of the United States - Parkways and Scenic Rivers 2000, Wild and Scenic Rivers website, National Park Guide website, USGS Geographic Data website, ATLAS-HY (Hydrography Features of the U.S.), ATLAS-RD (Major roads and trails of the U.S.) in 2001.</procdesc>
+				<procsv>ARC/INFO, ArcView GIS 3</procsv>
+				<srcprod>National Atlas</srcprod>
+				<procdate>2001</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Downloaded the ArcView GIS Shapefile compressed file, fedlanl020.tar.gz, from the National Atlas of the United States and extracted it. Removed unneeded attributes. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 8</procsv>
+				<srcused>National Atlas</srcused>
+				<procdate>20021017</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Added MILES attribute and calculated its values.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
+				<procdate>20040308</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Reduced the number of features by dissolving on the NAME and FEATURE attributes. Recalculated the values for the MILES attribute during the dissolve.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
+				<procdate>20050318</procdate>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The geospatial part of this data set was originally extracted from the individual 1:2,000,000-scale State boundary Digital Line Graph (DLG) files produced by the U.S. Geological Survey which have a positional accuracy of 1,720 meters.  It was updated several times using various sources whose horizontal positional accuracies are unknown.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials. Data completeness generally reflects the content of the original Digital Line Graph (DLG) files.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -334,7 +389,14 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 						</reccap>
 						<recfmt>UDF (Universal Disc Format)</recfmt>
 					</offoptn>
-					<onlinopt><computer><networka><networkr>http://www.ArcGIS.com</networkr></networka></computer></onlinopt></digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ArcGIS.com</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
 			</digform>
 			<fees>Software purchase price</fees>
 			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
@@ -362,66 +424,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_us_fedlandl</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Federal Land Features of the United States - Parkways and Scenic Rivers, 2012</title>
-						<pubdate>200107</pubdate>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<publish>U.S. Geological Survey</publish>
-							<pubplace>Reston, Virginia, USA</pubplace>
-						</pubinfo>
-						<origin>National Atlas of the United States and the U.S. Geological Survey</origin>
-						<onlink>http://www.nationalatlas.gov/atlasftp.html</onlink>
-						<othercit>The data set was downloaded from the website in August 2002.</othercit>
-					</citeinfo>
-				</srccite>
-				<srcscale>2000000</srcscale>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>1972-2001</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>National Atlas</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>This file was originally digitized by the National Mapping Division based on the sectional maps contained in 'The National Atlas of the United States of America' published by the USGS in 1970. The sectional maps were updated during 1978-1981 and digitized in the early 1980's. The data were updated in 1995 using 1:1,000,000-scale and 1:2,000,000-scale Bureau of Land Management State base maps. These data were published on CD-ROM in 1995. Using ARC/INFO software, the DLG optional format files were converted to ARC/INFO coverages using the DLGARC command. Only linear federal land features and attribute information were extracted for inclusion. The individual State coverages were then merged together using the ARC/INFO command APPEND. The resulting data set was ATLAS-FEDL (Federal Land Features of the U.S. (linear)).
-
-Using ATLAS-FEDL the spatial and attribute data were updated using the Wild and Scenic Rivers website. The spatial data was aligned with ATLAS-HY (Hydrography Features of the U.S.) and ATLAS-RD (Major roads and trails of the U.S.).
-
-Sudbury, Assabet, and Concord Wild and Scenic Rivers, MA were added using Linear Federal Land Features of the United States 1999, Wild and Scenic Rivers website, and ATLAS-HY (Hydrography Features of the U.S.) in 2000. The resulting data set was Federal Land Features of the United States - Parkways and Scenic Rivers 2000.
-
-Wilson Creek Wild and Scenic River, NC was added and Baltimore-Washington Parkway, MD and Suitland Parkway, MD were added using Federal Land Features of the United States - Parkways and Scenic Rivers 2000, Wild and Scenic Rivers website, National Park Guide website, USGS Geographic Data website, ATLAS-HY (Hydrography Features of the U.S.), ATLAS-RD (Major roads and trails of the U.S.) in 2001.</procdesc>
-				<procsv>ARC/INFO, ArcView GIS 3</procsv>
-				<srcprod>National Atlas</srcprod>
-				<procdate>2001</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Downloaded the ArcView GIS Shapefile compressed file, fedlanl020.tar.gz, from the National Atlas of the United States and extracted it. Removed unneeded attributes. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
-				<procsv>ArcView GIS 3, ArcGIS 8</procsv>
-				<srcused>National Atlas</srcused>
-				<procdate>20021017</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Added MILES attribute and calculated its values.</procdesc>
-				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
-				<procdate>20040308</procdate>
-			</procstep>
-			<procstep><procdesc>The following steps were performed by Esri: Reduced the number of features by dissolving on the NAME and FEATURE attributes. Recalculated the values for the MILES attribute during the dissolve.</procdesc><procsv>ArcView GIS 3, ArcGIS 9</procsv><procdate>20050318</procdate></procstep></lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The geospatial part of this data set was originally extracted from the individual 1:2,000,000-scale State boundary Digital Line Graph (DLG) files produced by the U.S. Geological Survey which have a positional accuracy of 1,720 meters.  It was updated several times using various sources whose horizontal positional accuracies are unknown.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials. Data completeness generally reflects the content of the original Digital Line Graph (DLG) files.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

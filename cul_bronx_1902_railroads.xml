@@ -56,8 +56,16 @@
 			<theme>
 				<themekt>ISO 19115 Topic Category</themekt>
 				<themekey>imageryBaseMapsEarthCover</themekey>
-				<themekey>transportaion</themekey></theme>
-			<theme><themekey>railroads</themekey><themekey>railroad tracks</themekey><themekey>rail</themekey><themekt>None</themekt><themekey>trains</themekey></theme></keywords>
+				<themekey>transportaion</themekey>
+			</theme>
+			<theme>
+				<themekey>railroads</themekey>
+				<themekey>railroad tracks</themekey>
+				<themekey>rail</themekey>
+				<themekt>None</themekt>
+				<themekey>trains</themekey>
+			</theme>
+		</keywords>
 		<descript>
 			<purpose>This map set was digitized for general use.  This dataset may be used in a GIS.</purpose>
 			<abstract>Bronx 1902 Railroad Lines is a line theme representing railroads in the Bronx in  1902.  The features were digitized from the map series entitled "Map or plan of that part of the Borough of the Bronx, City of New York, lying easterly of the Bronx River : compiled from surveys made under the direction of the Commissioner of Street Improvements of the 23 &amp; 24 Wards and the Board of Public Improvements " published in 1902 from the Bronx Office of the President.</abstract>
@@ -151,12 +159,33 @@ Includes ill.</othercit>
 			</srcinfo>
 		</lineage>
 	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>String</sdtstype>
+				<ptvctcnt>237</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn>D_WGS_1984</horizdn>
+				<ellips>WGS_1984</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
 	<eainfo>
 		<detailed Name="aquaduct">
 			<enttyp>
 				<enttypt>Feature Class</enttypt>
 				<enttypc>0</enttypc>
-				<enttypl>railroads</enttypl><enttypd>railroad track</enttypd></enttyp>
+				<enttypl>railroads</enttypl>
+				<enttypd>railroad track</enttypd>
+			</enttyp>
 			<attr>
 				<attrlabl>OBJECTID</attrlabl>
 				<attalias>OBJECTID</attalias>
@@ -190,7 +219,8 @@ Includes ill.</othercit>
 				<attwidth>150</attwidth>
 				<atprecis>0</atprecis>
 				<attscale>0</attscale>
-				<attrdef>name</attrdef></attr>
+				<attrdef>name</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>Shape_Length</attrlabl>
 				<attalias>Shape_Length</attalias>
@@ -258,17 +288,4 @@ Includes ill.</othercit>
 		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
 		<metstdv>FGDC-STD-001-1998</metstdv>
 	</metainfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>String</sdtstype><ptvctcnt>237</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
-		<spref>
-		<horizsys>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
 </metadata>

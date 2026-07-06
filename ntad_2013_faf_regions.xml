@@ -12,7 +12,8 @@
 					<pubplace>Washington, DC</pubplace>
 					<publish>United States. Bureau of Transportation Statistics</publish>
 				</pubinfo>
-			<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_faf_regions.zip</onlink></citeinfo>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_faf_regions.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>FAF domestic region level datasets and products provide information for states, state portions of large metropolitan areas, and remainders of states. Metropolitan areas consist of Metropolitan Statistical Areas or Consolidated Statistical Areas as defined by the Office of Management and Budget. When a metropolitan area is entirely within a state or when a state's portion of a multi-state metropolitan area is large enough to support the sampling procedures in the Commodity Flow Survey, the area becomes a separate FAF region. Small single-state metropolitan areas and small portions of a multi-state metropolitan area are part of the State or Remainder of State. FAF has two metropolitan areas that are each divided into three FAF regions, four that are each divided into two FAF regions, and several that have small pieces combined with States or Remainders of States.</abstract>
@@ -77,7 +78,15 @@
 			</cntinfo>
 		</ptcontac>
 		<datacred>United States Department of Transportation, Federal Highway Administration. For more information, see the site http://www.ops.fhwa.dot.gov/freight/freight_analysis/faf/faf3/userguide/index.htm</datacred>
-		<timeperd><timeinfo><sngdate><caldate>2013</caldate></sngdate></timeinfo><current>publication date</current></timeperd></idinfo>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2013</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+	</idinfo>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>

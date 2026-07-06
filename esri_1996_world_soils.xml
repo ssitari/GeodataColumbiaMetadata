@@ -1,885 +1,814 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata xml:lang="en">
-<idinfo>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
-<descript>
-<langdata>en</langdata>
-<purpose>For educational, non-commercial purposes.  This dataset is appropriate for use in a GIS.</purpose>
-<abstract>Soils is a polygon theme representing soil types worldwide.</abstract>
+	<idinfo>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+		<descript>
+			<langdata>en</langdata>
+			<purpose>For educational, non-commercial purposes.  This dataset is appropriate for use in a GIS.</purpose>
+			<abstract>Soils is a polygon theme representing soil types worldwide.</abstract>
 <supplinf>Soil is a surface layer of the land that is formed by the influence of vegetation, animals, organic residues, solar radiation, and atmospheric precipitation on rocks. Soil is central to a natural landscape and its geochemical system because soil is related to all other landscape systems, such as the cycles of water, air, and other geochemicals. Soil accumulates technogenic substances delivered through precipitation, both liquid and solid. Such substances include industrial, communal, and agricultural wastes, and toxic microelements contained in fertilizers and chemicals.
 
 The soil maps show (1) the soil cover of the continents, (2) soil-bioclimatic regions of the world, and (3) the technogenic contamination hazard of soils including (a) soil exidation and resistance to acid threats, (b) pollution of soils by lead compounds, and (c) pollution of soils by selenium compounds.
 
 The soil distributions were based on the following concepts: (1) The bioclimatic latitudinal and altitudinal zonality of soils, (2) the facies and provinces of soils (due to climate and other features of atmospheric circulation), (3) the lithogenic diversity of soils within zones, facies and provinces, and (4) soil age (time causes different "maturity" of soil profiles, evolution variety of soil, and relict climatic and hydrologic features).</supplinf>
-</descript>
-<citation>
-<citeinfo>
-<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-<pubdate>1996</pubdate>
-<title>World Soils, 1996</title>
-<ftname>soils</ftname>
-<geoform>vector digital data</geoform>
-<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_1996_world_soils.zip</onlink>
-<serinfo>
-<sername>ArcAtlas</sername>
-</serinfo>
-<pubinfo>
-<pubplace>Redlands, Calif.</pubplace>
-<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
-</pubinfo>
-</citeinfo>
-</citation>
-<timeperd>
-<current>publication date</current>
-<timeinfo>
-<sngdate>
-<caldate>1996</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>None planned</update>
-</status>
-<spdom>
-<bounding>
-<westbc>-180</westbc>
-<eastbc>180</eastbc>
-<northbc>85</northbc>
-<southbc>-85</southbc>
-</bounding>
-<lboundng>
-<leftbc>-180.000000</leftbc>
-<rightbc>180.000000</rightbc>
-<bottombc>-55.902229</bottombc>
-<topbc>83.623032</topbc>
-</lboundng>
-</spdom>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>geoscientificinformation</themekey>
-</theme>
-<theme>
-<themekt>None</themekt>
-<themekey>soils</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Earth (6295630)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>Earth</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>1996</tempkey>
-</temporal>
-</keywords>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<natvform>Shapefile</natvform>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>ESRI</cntorg>
-<cntper>Data Team</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>	380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>	USA</country>
-</cntaddr>
-<cntvoice>909-793-2853</cntvoice>
-<cntfax>909-793-5953</cntfax>
-<cntemail>info@esri.com</cntemail>
-<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday¿Friday</hours>
-<cntinst>n the United States- Please direct all inquiries regarding software/data pricing and consulting services to your local ESRI Regional Office. For support, you may contact Technical Support by telephone (voice) between 6:00 a.m. and 5:00 p.m. Pacific time, Monday through Friday, by dialing 888-377-4575; facsimile (fax) available at 909-792-0960; electronic mail (e-mail) support@esri.com; or visit http://support.esri.com; ESRI holidays excluded. Outside the United States¿ Please direct all inquiries regarding software/data pricing, sales, support, and consulting services to your local ESRI International Distributor. This information can be found at http://gis.esri.com/intldist/contactint.cfm. For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/soils.jpg</browsen>
-<browsed>Thumbnail</browsed>
-<browset>JPEG</browset>
-</browse>
-</idinfo>
-<dataIdInfo>
-<envirDesc>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc>
-<dataLang>
-<languageCode value="en">
-</languageCode>
-</dataLang>
-<idCitation>
-<resTitle>soils</resTitle>
-<presForm>
-<PresFormCd value="005">
-</PresFormCd>
-</presForm>
-</idCitation>
-<spatRpType>
-<SpatRepTypCd value="001">
-</SpatRepTypCd>
-</spatRpType>
-<dataExt>
-<geoEle>
-<GeoBndBox esriExtentType="native">
-<westBL>-180</westBL>
-<eastBL>180</eastBL>
-<northBL>83.623032</northBL>
-<southBL>-55.902229</southBL>
-<exTypeCode>1</exTypeCode>
-</GeoBndBox>
-</geoEle>
-</dataExt>
-<geoBox esriExtentType="decdegrees">
-<westBL>-180</westBL>
-<eastBL>180</eastBL>
-<northBL>83.623032</northBL>
-<southBL>-55.902229</southBL>
-<exTypeCode>1</exTypeCode>
-</geoBox>
-</dataIdInfo>
-<metainfo>
-<langmeta>en</langmeta>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntper>GIS/Metadata Librarian</cntper>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
-</cntinfo>
-</metc>
-<metd>20090625</metd>
-</metainfo>
-<mdLang>
-<languageCode value="en">
-</languageCode>
-</mdLang>
-<mdStanName>ISO 19115 Geographic Information - Metadata</mdStanName>
-<mdStanVer>DIS_ESRI1.0</mdStanVer>
-<mdChar>
-<CharSetCd value="004">
-</CharSetCd>
-</mdChar>
-<mdHrLv>
-<ScopeCd value="005">
-</ScopeCd>
-</mdHrLv>
-<mdHrLvName>dataset</mdHrLvName>
-<distinfo>
-<resdesc>esri_1996_world_soils</resdesc>
-<stdorder>
-<digform>
-<digtinfo>
-<transize>15.200</transize>
-<dssize>15.200</dssize>
-<formname>geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>ESRI; ESRI International Distributors</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>380 New York Street</address>
-<city>Redlands</city>
-<state>California</state>
-<postal>92373-8100</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>800-447-9778</cntvoice>
-<cntinst>	In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data. Outside the United States, please direct all inquiries to your local ESRI International Distributor. This information can be found at http://gis.esri.com/intldist/contactint.cfm.</cntinst>
-</cntinfo>
-</distrib>
-</distinfo>
-<distInfo>
-<distributor>
-<distorTran>
-<onLineSrc>
-<orDesc>002</orDesc>
-<linkage>file://\\iab215pc12\D\MyDocs\ArcAtlas\ModifiedData\RESOURCE\soils.shp</linkage>
-<protocol>Local Area Network</protocol>
-</onLineSrc>
-<transSize>15.200</transSize>
-</distorTran>
-<distorFormat>
-<formatName>Shapefile</formatName>
-</distorFormat>
-</distributor>
-</distInfo>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<esriterm Name="soils">
-<efeatyp>Simple</efeatyp>
-<efeageom>Polygon</efeageom>
-<esritopo>FALSE</esritopo>
-<efeacnt>5710</efeacnt>
-<spindex>TRUE</spindex>
-<linrefer>FALSE</linrefer>
-</esriterm>
-<sdtsterm Name="soils">
-<sdtstype>G-polygon</sdtstype>
-<ptvctcnt>5710</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<cordsysn>
-<geogcsn>GCS_Clarke_1866</geogcsn>
-</cordsysn>
-<geograph>
-<geogunit>Decimal degrees</geogunit>
-<latres>0.000000</latres>
-<longres>0.000000</longres>
-</geograph>
-<geodetic>
-<horizdn>D_Clarke_1866</horizdn>
-<ellips>Clarke 1866</ellips>
-<semiaxis>6378206.400000</semiaxis>
-<denflat>294.978698</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<refSysInfo>
-<RefSystem>
-<refSysID>
-<identCode>GCS_Clarke_1866</identCode>
-</refSysID>
-</RefSystem>
-</refSysInfo>
-<spatRepInfo>
-<VectSpatRep>
-<topLvl>
-<TopoLevCd value="001">
-</TopoLevCd>
-</topLvl>
-<geometObjs Name="soils">
-<geoObjTyp>
-<GeoObjTypCd value="001">
-</GeoObjTypCd>
-</geoObjTyp>
-<geoObjCnt>5710</geoObjCnt>
-</geometObjs>
-</VectSpatRep>
-</spatRepInfo>
-<eainfo>
-<detailed Name="soils">
-<enttyp>
-<enttypl>soils</enttypl>
-<enttypt>Feature Class</enttypt>
-<enttypc>5710</enttypc>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attalias>FID</attalias>
-<attrtype>OID</attrtype>
-<attwidth>4</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attalias>Shape</attalias>
-<attrtype>Geometry</attrtype>
-<attwidth>0</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>AREA</attrlabl>
-<attalias>AREA</attalias>
-<attrtype>Float</attrtype>
-<attwidth>13</attwidth>
-<atnumdec>11</atnumdec>
-<attrdef>Area</attrdef>
-</attr>
-<attr>
-<attrlabl>PERIMETER</attrlabl>
-<attalias>PERIMETER</attalias>
-<attrtype>Float</attrtype>
-<attwidth>13</attwidth>
-<atnumdec>11</atnumdec>
-<attrdef>Perimeter</attrdef>
-</attr>
-<attr>
-<attrlabl>SASOILDD_</attrlabl>
-<attalias>SASOILDD_</attalias>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<attrdef>South America</attrdef>
-</attr>
-<attr>
-<attrlabl>SASOILDD_I</attrlabl>
-<attalias>SASOILDD_I</attalias>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<attrdef>South America ID</attrdef>
-</attr>
-<attr>
-<attrlabl>MAJ_TYPE</attrlabl>
-<attalias>MAJ_TYPE</attalias>
-<attrtype>Number</attrtype>
-<attwidth>5</attwidth>
-<attrdef>Contains a code for the major soil type.</attrdef>
-<attrdefs>See Entity Attribute Overview Description</attrdefs>
-</attr>
-<attr>
-<attrlabl>MIN_TYPE</attrlabl>
-<attalias>MIN_TYPE</attalias>
-<attrtype>Number</attrtype>
-<attwidth>5</attwidth>
-<attrdef>Contains a code for the minor (secondary) soil type.</attrdef>
-<attrdefs>See Entity Attribute Overview Description</attrdefs>
-</attr>
-<attr>
-<attrlabl>NOSOIL</attrlabl>
-<attalias>NOSOIL</attalias>
-<attrtype>Number</attrtype>
-<attwidth>5</attwidth>
-<attrdef>Nonsoil inclusions and their type, if present.</attrdef>
-<attrdomv>
-<edom>
-<edomv>0</edomv>
-<edomvd>Soil</edomvd>
-</edom>
-<edom>
-<edomv>301</edomv>
-<edomvd>Sand</edomvd>
-</edom>
-<edom>
-<edomv>302</edomv>
-<edomvd>ferruginous sand</edomvd>
-</edom>
-<edom>
-<edomv>303</edomv>
-<edomvd>protrusion of bedrock</edomvd>
-</edom>
-<edom>
-<edomv>304</edomv>
-<edomvd>stone fields</edomvd>
-</edom>
-<edom>
-<edomv>305</edomv>
-<edomvd>loess</edomvd>
-</edom>
-<edom>
-<edomv>306</edomv>
-<edomvd>lateritic crust</edomvd>
-</edom>
-<edom>
-<edomv>307</edomv>
-<edomvd>ferruginous concretions</edomvd>
-</edom>
-<edom>
-<edomv>308</edomv>
-<edomvd>limestone crust</edomvd>
-</edom>
-<edom>
-<edomv>309</edomv>
-<edomvd>gypsum crust</edomvd>
-</edom>
-<edom>
-<edomv>310</edomv>
-<edomvd>flinty crust</edomvd>
-</edom>
-<edom>
-<edomv>311</edomv>
-<edomvd>glaciers</edomvd>
-</edom>
-<edom>
-<edomv>312</edomv>
-<edomvd>lakes</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>SOIL_FAM</attrlabl>
-<attalias>SOIL_FAM</attalias>
-<attrtype>Number</attrtype>
-<attwidth>5</attwidth>
-<attrdef>Contains a code for the soil genetic group (family)</attrdef>
-<attrdomv>
-<edom>
-<edomv>0</edomv>
-<edomvd>No soil family (primitive soils, nonsoil areas)</edomvd>
-</edom>
-<edom>
-<edomv>1</edomv>
-<edomvd>Detritus-and humus-accumulative, unsaturated</edomvd>
-</edom>
-<edom>
-<edomv>2</edomv>
-<edomvd>Humus-accumulative, weakly saturated, residual-calcareous</edomvd>
-</edom>
-<edom>
-<edomv>3</edomv>
-<edomvd>Iron-humus-impregnative-illuvial</edomvd>
-</edom>
-<edom>
-<edomv>4</edomv>
-<edomvd>Podzols, iron-humus-illuvial</edomvd>
-</edom>
-<edom>
-<edomv>5</edomv>
-<edomvd>Gley, unsaturated</edomvd>
-</edom>
-<edom>
-<edomv>6</edomv>
-<edomvd>Peaty-gley and peaty, unsaturated and weakly unsaturated</edomvd>
-</edom>
-<edom>
-<edomv>7</edomv>
-<edomvd>Detritus- and humus-accumulative, weakly unsaturated, sometimes solodized</edomvd>
-</edom>
-<edom>
-<edomv>8</edomv>
-<edomvd>Low-humus, xero-calcaric</edomvd>
-</edom>
-<edom>
-<edomv>9</edomv>
-<edomvd>Fluvial</edomvd>
-</edom>
-<edom>
-<edomv>10</edomv>
-<edomvd>Siallitic, unsaturated</edomvd>
-</edom>
-<edom>
-<edomv>11</edomv>
-<edomvd>Siallitic, clay-differentiated, unsaturated</edomvd>
-</edom>
-<edom>
-<edomv>12</edomv>
-<edomvd>Gley-eluvial, unsaturated</edomvd>
-</edom>
-<edom>
-<edomv>13</edomv>
-<edomvd>Humus-accumulative, weakly unsaturated</edomvd>
-</edom>
-<edom>
-<edomv>14</edomv>
-<edomvd>Strongly humus-accumulative, weakly unsaturated and saturated</edomvd>
-</edom>
-<edom>
-<edomv>15</edomv>
-<edomvd>Humus-accumulative, saturated, sometimes solonetzic</edomvd>
-</edom>
-<edom>
-<edomv>16</edomv>
-<edomvd>Gleyic, humus-accumulative, neutral and alkaline</edomvd>
-</edom>
-<edom>
-<edomv>17</edomv>
-<edomvd>Solods and solonetzes</edomvd>
-</edom>
-<edom>
-<edomv>18</edomv>
-<edomvd>Solonchaks</edomvd>
-</edom>
-<edom>
-<edomv>19</edomv>
-<edomvd>Low-humus solonetzic, gypsiferous</edomvd>
-</edom>
-<edom>
-<edomv>20</edomv>
-<edomvd>Humus allophane</edomvd>
-</edom>
-<edom>
-<edomv>21</edomv>
-<edomvd>Ferralitized and ferrallitic unsaturated</edomvd>
-</edom>
-<edom>
-<edomv>22</edomv>
-<edomvd>Weakly developed lateritic and laterized</edomvd>
-</edom>
-<edom>
-<edomv>23</edomv>
-<edomvd>Ferralitized and ferrallitic, clay-differentiated</edomvd>
-</edom>
-<edom>
-<edomv>24</edomv>
-<edomvd>Ferralitized and ferrallitic, weakly unsaturated and neutral, locally lessive</edomvd>
-</edom>
-<edom>
-<edomv>25</edomv>
-<edomvd>Vertic and vertisols</edomvd>
-</edom>
-<edom>
-<edomv>26</edomv>
-<edomvd>Low-humus, ferruginated, locally residual ferrallitic</edomvd>
-</edom>
-<edom>
-<edomv>27</edomv>
-<edomvd>Low-humus, desertic, sometimes strongly calcareous, and gypsiferous</edomvd>
-</edom>
-<edom>
-<edomv>28</edomv>
-<edomvd>Anthropogenically changed soils</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>WATER</attrlabl>
-<attalias>WATER</attalias>
-<attrtype>Number</attrtype>
-<attwidth>5</attwidth>
-<attrdef>The type of soil water regime.</attrdef>
-<attrdomv>
-<edom>
-<edomv>0</edomv>
-<edomvd>No soil water regime (primitive soils and nonsoil areas)</edomvd>
-</edom>
-<edom>
-<edomv>1</edomv>
-<edomvd>Percolative water regime</edomvd>
-</edom>
-<edom>
-<edomv>2</edomv>
-<edomvd>Percolative water regime with periodic surface or ground water stagnation</edomvd>
-</edom>
-<edom>
-<edomv>3</edomv>
-<edomvd>Stagnant water regime</edomvd>
-</edom>
-<edom>
-<edomv>4</edomv>
-<edomvd>Periodically non-percolative water regime</edomvd>
-</edom>
-<edom>
-<edomv>5</edomv>
-<edomvd>Extremely non-percolative water regime</edomvd>
-</edom>
-<edom>
-<edomv>6</edomv>
-<edomvd>Fluvial water regime</edomvd>
-</edom>
-<edom>
-<edomv>7</edomv>
-<edomvd>Non-percolative water regime</edomvd>
-</edom>
-<edom>
-<edomv>8</edomv>
-<edomvd>Fluctuating water regime</edomvd>
-</edom>
-<edom>
-<edomv>9</edomv>
-<edomvd>Exudative water regime</edomvd>
-</edom>
-<edom>
-<edomv>10</edomv>
-<edomvd>Man-induced water regime</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>RELIEF</attrlabl>
-<attalias>RELIEF</attalias>
-<attrtype>Number</attrtype>
-<attwidth>5</attwidth>
-<attrdef>The relief of the surface.</attrdef>
-<attrdomv>
-<edom>
-<edomv>0</edomv>
-<edomvd>no relief data (for nonsoil areas and some small islands in Australia)</edomvd>
-</edom>
-<edom>
-<edomv>201</edomv>
-<edomvd>Plains</edomvd>
-</edom>
-<edom>
-<edomv>202</edomv>
-<edomvd>Plateau and tablelands</edomvd>
-</edom>
-<edom>
-<edomv>203</edomv>
-<edomvd>Mountains</edomvd>
-</edom>
-<edom>
-<edomv>204</edomv>
-<edomvd>High mountain plateau and tablelands</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>TEXTURE</attrlabl>
-<attalias>TEXTURE</attalias>
-<attrtype>Number</attrtype>
-<attwidth>5</attwidth>
-<attrdef>Contins a code for the granulometric composition of a soil</attrdef>
-<attrdomv>
-<edom>
-<edomv>0</edomv>
-<edomvd>No soil texture (primitive soils and nonsoil areas)</edomvd>
-</edom>
-<edom>
-<edomv>401</edomv>
-<edomvd>Sand and loamy sand</edomvd>
-</edom>
-<edom>
-<edomv>402</edomv>
-<edomvd>Sand and loamy sand, gravel and rock debris</edomvd>
-</edom>
-<edom>
-<edomv>403</edomv>
-<edomvd>Loamy sand and light loam</edomvd>
-</edom>
-<edom>
-<edomv>404</edomv>
-<edomvd>Loamy sand and light loam, gravel and rock debris</edomvd>
-</edom>
-<edom>
-<edomv>405</edomv>
-<edomvd>Medium loam</edomvd>
-</edom>
-<edom>
-<edomv>406</edomv>
-<edomvd>Medium loam and rock debris</edomvd>
-</edom>
-<edom>
-<edomv>407</edomv>
-<edomvd>Light and medium loam</edomvd>
-</edom>
-<edom>
-<edomv>408</edomv>
-<edomvd>Light and medium loam, gravel and rock debris</edomvd>
-</edom>
-<edom>
-<edomv>409</edomv>
-<edomvd>Medium and heavy loam</edomvd>
-</edom>
-<edom>
-<edomv>410</edomv>
-<edomvd>Medium loam and clay</edomvd>
-</edom>
-<edom>
-<edomv>411</edomv>
-<edomvd>Medium loam and clay, boulder and gravel and rock debris</edomvd>
-</edom>
-<edom>
-<edomv>412</edomv>
-<edomvd>Heavy loam and clay</edomvd>
-</edom>
-<edom>
-<edomv>413</edomv>
-<edomvd>Heavy clay</edomvd>
-</edom>
-<edom>
-<edomv>414</edomv>
-<edomvd>Layered</edomvd>
-</edom>
-<edom>
-<edomv>415</edomv>
-<edomvd>Rock debris and stone</edomvd>
-</edom>
-<edom>
-<edomv>416</edomv>
-<edomvd>Silt and rock debris</edomvd>
-</edom>
-<edom>
-<edomv>417</edomv>
-<edomvd>Heterogeneous, frequently varying</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>SR</attrlabl>
-<attalias>SR</attalias>
-<attrtype>Number</attrtype>
-<attwidth>3</attwidth>
-<attrdef>Contains a code for the soil bioclimatic region</attrdef>
-<attrdomv>
-<edom>
-<edomv>11</edomv>
-<edomvd>Very humid and humid regions</edomvd>
-</edom>
-<edom>
-<edomv>12</edomv>
-<edomvd>Moderately humid and moderately dry regions</edomvd>
-</edom>
-<edom>
-<edomv>13</edomv>
-<edomvd>moderately dry regions</edomvd>
-</edom>
-<edom>
-<edomv>14</edomv>
-<edomvd>Regions with various moisture regimes</edomvd>
-</edom>
-<edom>
-<edomv>21</edomv>
-<edomvd>Very humid and humid regions</edomvd>
-</edom>
-<edom>
-<edomv>22</edomv>
-<edomvd>Moderately humid and moderately dry regions</edomvd>
-</edom>
-<edom>
-<edomv>23</edomv>
-<edomvd>Arid and extra-arid regions</edomvd>
-</edom>
-<edom>
-<edomv>24</edomv>
-<edomvd>Regions with various moisture regimes</edomvd>
-</edom>
-<edom>
-<edomv>31</edomv>
-<edomvd>Very humid and humid regions</edomvd>
-</edom>
-<edom>
-<edomv>32</edomv>
-<edomvd>Moderately humid and moderately dry regions</edomvd>
-</edom>
-<edom>
-<edomv>33</edomv>
-<edomvd>Arid and extra-arid regions</edomvd>
-</edom>
-<edom>
-<edomv>34</edomv>
-<edomvd>Regions with various moisture regimes</edomvd>
-</edom>
-<edom>
-<edomv>44</edomv>
-<edomvd>Regions with various moisture regimes</edomvd>
-</edom>
-<edom>
-<edomv>50</edomv>
-<edomvd>Primitive soils (lithosols) and hard rocks</edomvd>
-</edom>
-<edom>
-<edomv>99</edomv>
-<edomvd>Lakes</edomvd>
-</edom>
-<edom>
-<edomv>0</edomv>
-<edomvd>Nonsoil</edomvd>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>FE</attrlabl>
-<attalias>FE</attalias>
-<attrtype>String</attrtype>
-<attwidth>10</attwidth>
-<attrdef>Soil susceptibility to acid degradation according to the presence of mobile iron  and aluminium</attrdef>
-</attr>
-<attr>
-<attrlabl>PB</attrlabl>
-<attalias>PB</attalias>
-<attrtype>String</attrtype>
-<attwidth>10</attwidth>
-<attrdef>Soil susceptibility to contamination by mobile lead combinations </attrdef>
-</attr>
-<attr>
-<attrlabl>SE</attrlabl>
-<attalias>SE</attalias>
-<attrtype>String</attrtype>
-<attwidth>10</attwidth>
-<attrdef>Soil susceptibility to contamination by mobile selenium combinations.</attrdef>
-</attr>
-<attr>
-<attrlabl>NASOILDD_</attrlabl>
-<attalias>NASOILDD_</attalias>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<attrdef>North America</attrdef>
-</attr>
-<attr>
-<attrlabl>NASOILDD_I</attrlabl>
-<attalias>NASOILDD_I</attalias>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<attrdef>North America ID</attrdef>
-</attr>
-<attr>
-<attrlabl>EUSOILDD_</attrlabl>
-<attalias>EUSOILDD_</attalias>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<attrdef>Europe</attrdef>
-</attr>
-<attr>
-<attrlabl>EUSOILDD_I</attrlabl>
-<attalias>EUSOILDD_I</attalias>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<attrdef>Europe ID</attrdef>
-</attr>
-<attr>
-<attrlabl>AUSOILDD_</attrlabl>
-<attalias>AUSOILDD_</attalias>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<attrdef>Australia</attrdef>
-</attr>
-<attr>
-<attrlabl>AUSOILDD_I</attrlabl>
-<attalias>AUSOILDD_I</attalias>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<attrdef>Australia ID</attrdef>
-</attr>
-<attr>
-<attrlabl>ASSOILDD_</attrlabl>
-<attalias>ASSOILDD_</attalias>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<attrdef>Asia</attrdef>
-</attr>
-<attr>
-<attrlabl>ASSOILDD_I</attrlabl>
-<attalias>ASSOILDD_I</attalias>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<attrdef>Asia ID</attrdef>
-</attr>
-<attr>
-<attrlabl>AFSOILDD_</attrlabl>
-<attalias>AFSOILDD_</attalias>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<attrdef>Africa</attrdef>
-</attr>
-<attr>
-<attrlabl>AFSOILDD_I</attrlabl>
-<attalias>AFSOILDD_I</attalias>
-<attrtype>Number</attrtype>
-<attwidth>9</attwidth>
-<attrdef>Africa ID</attrdef>
-</attr>
-</detailed>
-<overview>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+				<pubdate>1996</pubdate>
+				<title>World Soils, 1996</title>
+				<ftname>soils</ftname>
+				<geoform>vector digital data</geoform>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_1996_world_soils.zip</onlink>
+				<serinfo>
+					<sername>ArcAtlas</sername>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Redlands, Calif.</pubplace>
+					<publish>Environmental Systems Research Institute (Redlands, Calif.)</publish>
+				</pubinfo>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>1996</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-180</westbc>
+				<eastbc>180</eastbc>
+				<northbc>85</northbc>
+				<southbc>-85</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>geoscientificinformation</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>soils</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Earth (6295630)</placekey>
+			</place>
+			<place>
+				<placekt>Library of Congress Subject Headings</placekt>
+				<placekey>Earth</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>1996</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>For current Columbia affiliates only.</accconst>
+		<useconst>For educational, non-commercial use only.</useconst>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/soils.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>JPEG</browset>
+		</browse>
+	</idinfo>
+
+	<dataqual>
+		<lineage>
+			<procstep>
+				<proccont>
+					<cntinfo>
+						<cntaddr/>
+					</cntinfo>
+				</proccont>
+<procdesc>The maps have a traditional soil cartography design. Soils are characterized by indexes (numbers) in the legend and the database. The soil contours were laid out using cartographic sources according to geographical situations. In some cases, the boundaries of areas were detailed by the geological, geomorphological, Quaternary, and other maps developed for this atlas. Various cartographic and textual materials were used to compile the maps, as well.
+
+The map legends and the maps were compiled according to the principles of two classification systems: those of M. A. Glazovskaya (1972) and those of V. M. Fridland (1981). According to these systems, soils are classified into types and subtypes with similar chemical, physical, and morphological features, profiles, and hydrothermic regimes. A soil unit (area) can be a single soil that prevails in an area, or it can be a soil that is associated with another and is either the prevailing one or the accompanying one depending on relief, drainage, or bedrock. Moreover, each unit contains information on general features of thermic regimes (3 regions), water regimes (10 types), and granulometric composition (17 categories). The soils are classified by soil formation into families, which are characterized in the legend. Relief conditions of soil formation are shown for each area -- plains and mountains are separated (mountains are classified into 3 types). Landscapes without developed soils (sand, rocks, stone-fields, glaciers, etc.) are shown on the maps, as well.
+
+The map legends are made as arrays of soil families, types, and subtypes. Each array describes soil hydrothermic conditions, water regimes of prevailing soil, and soil family.
+
+The maps also give information about soil characteristics and regimes, which was the basis for assessment of the ecological and geochemical resistance of soil to acid degradation and accumulation of lead and selenium. Soil units were classified into pedobiomes using specific parameters (explained below), then classified into pedogeochemical associations using quantitative characteristics. The defining parameter values were set according to the significance of a parameter as a factor in the resistance of a soil to the hazard in question (acid degradation, lead pollution, or selenium pollution). Classification of these pedobiomes is important for evaluation of these environmental threats as well as for a general assessment of technogenic degradation and pollution of the soil.
+
+Soil units were classified into H-pedobiomes primarily by two parameters: (1) acid and alkaline state and resistance of soil to acid threat and (2) soil bufferability. Pb-pedobiomes and Se-pedobiomes were each classified using four main parameters. The first two were (1) the acid and alkaline state of soil and (2) oxidation and reduction conditions. The combination of these two parameters determines the mobility of lead or selenium combinations in the soil. The other parameters were (3) the absorbing capacity of the soil and (4) the carbonate profile of soil (for lead) and the content of noncrystallized iron  ydroxides (for selenium). The combination of these two parameters characterizes geochemical barriers (sorption and sedimentation for lead, hemosorption for selenium) and the risk of soil accumulation of low mobile lead or selenium combinations and complexes.
+
+
+Afanacieva, T.V., V.I. Vasilenko, T.V. Tereshina, and B.V.Shermet. Pochvy SSSR.
+Spravochnik-opredekitel' geografa i puteshestvennika (Soils of the USSR. Determination
+reference book for a geographer and traveler). 1979. Mysl', Moscow. 380 pp.
+
+Dobrovolskiy, V.V., ed. Tyazhelyye metally v okruzhayushhey srede (Heavy metals in the
+environment). 1980. Moscow University Publ. House, Moscow. 132 p.
+
+Fiziko-geograficheskiy atlas mira (Physical-geographical atlas of the world). 1964. AN
+SSSR Publishing House -- GUGK, Moscow. 298 pp.
+
+Fridland, V.M. Struktura pochvennogo pokrova mira (Structure of the world soil cover).
+1984. Mysl', Moscow. 236 pp.
+
+Fridland, V.M. Osnovy profil'no-geneticheskogo komponenta bazovoy klassifikatsii pochv
+(Basis of profile-genetic component of basic soil classification). 1981. Pochvovedeniye, 6,
+pp.106-118.
+
+Geomorphologicheskaya karta mira (Geomorphological map of the world -- for high
+schools). 1:15,000,000. 1988. GUGK, Moscow. 4 s.
+
+Gerassimov, I.P. Mirovyye pochvennyye edinitsy FAO- Unesco v svetye kontseptsii
+elementarnykh pochvennykh protsessov (EPP) (The world soil units of FAO-UNESCO
+concerning the conception of elementary soil processes). 1980. Pochvovedeniye, 4, pp.
+16-26.
+
+Glazovskaya, M.A. Opyt klassifikatsii pochv mira po ustoychivosti k tekhnogennym kislotnym
+vozdeystviyam (Classification of the world's soils by resistance to technogenic acid threat).
+1990. Pochvovedeniye, 4, pp. 82-96.
+
+Glazovskaya, M.A. Pochvy mira. Osnovnyye semeystva i tipy pochv (Soils of the world.
+Basic soil families and types). 1972. Moscow University Publishing House, Moscow. 231
+pp.
+
+Mongol'skaya Narodnaya Respublika. Natsional'nyy Atlas (Mongolian People's Republic.
+National Atlas). 1990. GUGK SSSR -- GUGK MNR, Moscow -- Ulaanbaatar. 144 pp.
+
+National Agricultural Atlas of the People's Republic of China. 1989. Cartographic
+Publishing House, Beijing. 163 pp.
+
+Pochvennaya karta Mongol'skoy Narodnoy Respubliki (Soil map of the Mongolian People's
+Republic), 1:2,500,000. 1980. GUGK, Moscow. 1 s.
+
+Pochvennaya karta RSFSR (Soil map of RSFSR), 1:2,500,000. 1988. GUGK, Moscow. 16
+s.
+
+Soil map of China. 1:20,000,000. 1988. Science Press, Beijing. 1 s.
+
+Soil Map of the EC. 1:1,000,000. Directorate General for Agriculture -- Coordination of
+Agricultural Research. 1985. EEC, Brussels.
+
+Soil Map of the World. FAO-UNESCO. 1:5,000,000. 1977-1981. UNESCO, Paris. Vols. 1-
+10.
+
+Soil Taxonomy. A Basic System of Soil Classification for Making and Interpreting Soil
+Surveys. 1975. In: Agriculture Handbook, Soil Conservation Service, U.S. Department of
+Agriculture. 436, 754 pp.
+
+World Map on Status of Human-Induced Soil Degradation. 1:10,000,000. 1990.
+UNEP/ISRIC, the Netherlands.</procdesc>
+				<procdate>Unknown</procdate>
+				<srcused>See references</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>Datasets for eacch continent were converted from ESRI coverage to the ESRI shapefile format using the 'copy features' tool and merged into one layer using the 'merge' tool.</procdesc>
+				<procdate>20090507</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>GIS/MapLibrarian</cntper>
+							<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+						</cntperp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>420 W. 118th St. 215 IAB, MC 3301</address>
+							<city>New York</city>
+							<state>NY</state>
+							<postal>10027</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(212) 854-6012</cntvoice>
+						<cntemail>data@library.columbia.edu</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="soils">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>5710</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn>GCS_Clarke_1866</geogcsn>
+			</cordsysn>
+			<geograph>
+				<geogunit>Decimal degrees</geogunit>
+				<latres>0.000000</latres>
+				<longres>0.000000</longres>
+			</geograph>
+			<geodetic>
+				<horizdn>D_Clarke_1866</horizdn>
+				<ellips>Clarke 1866</ellips>
+				<semiaxis>6378206.400000</semiaxis>
+				<denflat>294.978698</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+
+	<eainfo>
+		<detailed Name="soils">
+			<enttyp>
+				<enttypl>soils</enttypl>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>5710</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attalias>Shape</attalias>
+				<attrtype>Geometry</attrtype>
+				<attwidth>0</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AREA</attrlabl>
+				<attalias>AREA</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>13</attwidth>
+				<atnumdec>11</atnumdec>
+				<attrdef>Area</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>PERIMETER</attrlabl>
+				<attalias>PERIMETER</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>13</attwidth>
+				<atnumdec>11</atnumdec>
+				<attrdef>Perimeter</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>SASOILDD_</attrlabl>
+				<attalias>SASOILDD_</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>South America</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>SASOILDD_I</attrlabl>
+				<attalias>SASOILDD_I</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>South America ID</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>MAJ_TYPE</attrlabl>
+				<attalias>MAJ_TYPE</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>Contains a code for the major soil type.</attrdef>
+				<attrdefs>See Entity Attribute Overview Description</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>MIN_TYPE</attrlabl>
+				<attalias>MIN_TYPE</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>Contains a code for the minor (secondary) soil type.</attrdef>
+				<attrdefs>See Entity Attribute Overview Description</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>NOSOIL</attrlabl>
+				<attalias>NOSOIL</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>Nonsoil inclusions and their type, if present.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>Soil</edomvd>
+					</edom>
+					<edom>
+						<edomv>301</edomv>
+						<edomvd>Sand</edomvd>
+					</edom>
+					<edom>
+						<edomv>302</edomv>
+						<edomvd>ferruginous sand</edomvd>
+					</edom>
+					<edom>
+						<edomv>303</edomv>
+						<edomvd>protrusion of bedrock</edomvd>
+					</edom>
+					<edom>
+						<edomv>304</edomv>
+						<edomvd>stone fields</edomvd>
+					</edom>
+					<edom>
+						<edomv>305</edomv>
+						<edomvd>loess</edomvd>
+					</edom>
+					<edom>
+						<edomv>306</edomv>
+						<edomvd>lateritic crust</edomvd>
+					</edom>
+					<edom>
+						<edomv>307</edomv>
+						<edomvd>ferruginous concretions</edomvd>
+					</edom>
+					<edom>
+						<edomv>308</edomv>
+						<edomvd>limestone crust</edomvd>
+					</edom>
+					<edom>
+						<edomv>309</edomv>
+						<edomvd>gypsum crust</edomvd>
+					</edom>
+					<edom>
+						<edomv>310</edomv>
+						<edomvd>flinty crust</edomvd>
+					</edom>
+					<edom>
+						<edomv>311</edomv>
+						<edomvd>glaciers</edomvd>
+					</edom>
+					<edom>
+						<edomv>312</edomv>
+						<edomvd>lakes</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SOIL_FAM</attrlabl>
+				<attalias>SOIL_FAM</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>Contains a code for the soil genetic group (family)</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>No soil family (primitive soils, nonsoil areas)</edomvd>
+					</edom>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Detritus-and humus-accumulative, unsaturated</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Humus-accumulative, weakly saturated, residual-calcareous</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Iron-humus-impregnative-illuvial</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Podzols, iron-humus-illuvial</edomvd>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Gley, unsaturated</edomvd>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Peaty-gley and peaty, unsaturated and weakly unsaturated</edomvd>
+					</edom>
+					<edom>
+						<edomv>7</edomv>
+						<edomvd>Detritus- and humus-accumulative, weakly unsaturated, sometimes solodized</edomvd>
+					</edom>
+					<edom>
+						<edomv>8</edomv>
+						<edomvd>Low-humus, xero-calcaric</edomvd>
+					</edom>
+					<edom>
+						<edomv>9</edomv>
+						<edomvd>Fluvial</edomvd>
+					</edom>
+					<edom>
+						<edomv>10</edomv>
+						<edomvd>Siallitic, unsaturated</edomvd>
+					</edom>
+					<edom>
+						<edomv>11</edomv>
+						<edomvd>Siallitic, clay-differentiated, unsaturated</edomvd>
+					</edom>
+					<edom>
+						<edomv>12</edomv>
+						<edomvd>Gley-eluvial, unsaturated</edomvd>
+					</edom>
+					<edom>
+						<edomv>13</edomv>
+						<edomvd>Humus-accumulative, weakly unsaturated</edomvd>
+					</edom>
+					<edom>
+						<edomv>14</edomv>
+						<edomvd>Strongly humus-accumulative, weakly unsaturated and saturated</edomvd>
+					</edom>
+					<edom>
+						<edomv>15</edomv>
+						<edomvd>Humus-accumulative, saturated, sometimes solonetzic</edomvd>
+					</edom>
+					<edom>
+						<edomv>16</edomv>
+						<edomvd>Gleyic, humus-accumulative, neutral and alkaline</edomvd>
+					</edom>
+					<edom>
+						<edomv>17</edomv>
+						<edomvd>Solods and solonetzes</edomvd>
+					</edom>
+					<edom>
+						<edomv>18</edomv>
+						<edomvd>Solonchaks</edomvd>
+					</edom>
+					<edom>
+						<edomv>19</edomv>
+						<edomvd>Low-humus solonetzic, gypsiferous</edomvd>
+					</edom>
+					<edom>
+						<edomv>20</edomv>
+						<edomvd>Humus allophane</edomvd>
+					</edom>
+					<edom>
+						<edomv>21</edomv>
+						<edomvd>Ferralitized and ferrallitic unsaturated</edomvd>
+					</edom>
+					<edom>
+						<edomv>22</edomv>
+						<edomvd>Weakly developed lateritic and laterized</edomvd>
+					</edom>
+					<edom>
+						<edomv>23</edomv>
+						<edomvd>Ferralitized and ferrallitic, clay-differentiated</edomvd>
+					</edom>
+					<edom>
+						<edomv>24</edomv>
+						<edomvd>Ferralitized and ferrallitic, weakly unsaturated and neutral, locally lessive</edomvd>
+					</edom>
+					<edom>
+						<edomv>25</edomv>
+						<edomvd>Vertic and vertisols</edomvd>
+					</edom>
+					<edom>
+						<edomv>26</edomv>
+						<edomvd>Low-humus, ferruginated, locally residual ferrallitic</edomvd>
+					</edom>
+					<edom>
+						<edomv>27</edomv>
+						<edomvd>Low-humus, desertic, sometimes strongly calcareous, and gypsiferous</edomvd>
+					</edom>
+					<edom>
+						<edomv>28</edomv>
+						<edomvd>Anthropogenically changed soils</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WATER</attrlabl>
+				<attalias>WATER</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>The type of soil water regime.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>No soil water regime (primitive soils and nonsoil areas)</edomvd>
+					</edom>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Percolative water regime</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Percolative water regime with periodic surface or ground water stagnation</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Stagnant water regime</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Periodically non-percolative water regime</edomvd>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Extremely non-percolative water regime</edomvd>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Fluvial water regime</edomvd>
+					</edom>
+					<edom>
+						<edomv>7</edomv>
+						<edomvd>Non-percolative water regime</edomvd>
+					</edom>
+					<edom>
+						<edomv>8</edomv>
+						<edomvd>Fluctuating water regime</edomvd>
+					</edom>
+					<edom>
+						<edomv>9</edomv>
+						<edomvd>Exudative water regime</edomvd>
+					</edom>
+					<edom>
+						<edomv>10</edomv>
+						<edomvd>Man-induced water regime</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RELIEF</attrlabl>
+				<attalias>RELIEF</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>The relief of the surface.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>no relief data (for nonsoil areas and some small islands in Australia)</edomvd>
+					</edom>
+					<edom>
+						<edomv>201</edomv>
+						<edomvd>Plains</edomvd>
+					</edom>
+					<edom>
+						<edomv>202</edomv>
+						<edomvd>Plateau and tablelands</edomvd>
+					</edom>
+					<edom>
+						<edomv>203</edomv>
+						<edomvd>Mountains</edomvd>
+					</edom>
+					<edom>
+						<edomv>204</edomv>
+						<edomvd>High mountain plateau and tablelands</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TEXTURE</attrlabl>
+				<attalias>TEXTURE</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>5</attwidth>
+				<attrdef>Contins a code for the granulometric composition of a soil</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>No soil texture (primitive soils and nonsoil areas)</edomvd>
+					</edom>
+					<edom>
+						<edomv>401</edomv>
+						<edomvd>Sand and loamy sand</edomvd>
+					</edom>
+					<edom>
+						<edomv>402</edomv>
+						<edomvd>Sand and loamy sand, gravel and rock debris</edomvd>
+					</edom>
+					<edom>
+						<edomv>403</edomv>
+						<edomvd>Loamy sand and light loam</edomvd>
+					</edom>
+					<edom>
+						<edomv>404</edomv>
+						<edomvd>Loamy sand and light loam, gravel and rock debris</edomvd>
+					</edom>
+					<edom>
+						<edomv>405</edomv>
+						<edomvd>Medium loam</edomvd>
+					</edom>
+					<edom>
+						<edomv>406</edomv>
+						<edomvd>Medium loam and rock debris</edomvd>
+					</edom>
+					<edom>
+						<edomv>407</edomv>
+						<edomvd>Light and medium loam</edomvd>
+					</edom>
+					<edom>
+						<edomv>408</edomv>
+						<edomvd>Light and medium loam, gravel and rock debris</edomvd>
+					</edom>
+					<edom>
+						<edomv>409</edomv>
+						<edomvd>Medium and heavy loam</edomvd>
+					</edom>
+					<edom>
+						<edomv>410</edomv>
+						<edomvd>Medium loam and clay</edomvd>
+					</edom>
+					<edom>
+						<edomv>411</edomv>
+						<edomvd>Medium loam and clay, boulder and gravel and rock debris</edomvd>
+					</edom>
+					<edom>
+						<edomv>412</edomv>
+						<edomvd>Heavy loam and clay</edomvd>
+					</edom>
+					<edom>
+						<edomv>413</edomv>
+						<edomvd>Heavy clay</edomvd>
+					</edom>
+					<edom>
+						<edomv>414</edomv>
+						<edomvd>Layered</edomvd>
+					</edom>
+					<edom>
+						<edomv>415</edomv>
+						<edomvd>Rock debris and stone</edomvd>
+					</edom>
+					<edom>
+						<edomv>416</edomv>
+						<edomvd>Silt and rock debris</edomvd>
+					</edom>
+					<edom>
+						<edomv>417</edomv>
+						<edomvd>Heterogeneous, frequently varying</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SR</attrlabl>
+				<attalias>SR</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>3</attwidth>
+				<attrdef>Contains a code for the soil bioclimatic region</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>11</edomv>
+						<edomvd>Very humid and humid regions</edomvd>
+					</edom>
+					<edom>
+						<edomv>12</edomv>
+						<edomvd>Moderately humid and moderately dry regions</edomvd>
+					</edom>
+					<edom>
+						<edomv>13</edomv>
+						<edomvd>moderately dry regions</edomvd>
+					</edom>
+					<edom>
+						<edomv>14</edomv>
+						<edomvd>Regions with various moisture regimes</edomvd>
+					</edom>
+					<edom>
+						<edomv>21</edomv>
+						<edomvd>Very humid and humid regions</edomvd>
+					</edom>
+					<edom>
+						<edomv>22</edomv>
+						<edomvd>Moderately humid and moderately dry regions</edomvd>
+					</edom>
+					<edom>
+						<edomv>23</edomv>
+						<edomvd>Arid and extra-arid regions</edomvd>
+					</edom>
+					<edom>
+						<edomv>24</edomv>
+						<edomvd>Regions with various moisture regimes</edomvd>
+					</edom>
+					<edom>
+						<edomv>31</edomv>
+						<edomvd>Very humid and humid regions</edomvd>
+					</edom>
+					<edom>
+						<edomv>32</edomv>
+						<edomvd>Moderately humid and moderately dry regions</edomvd>
+					</edom>
+					<edom>
+						<edomv>33</edomv>
+						<edomvd>Arid and extra-arid regions</edomvd>
+					</edom>
+					<edom>
+						<edomv>34</edomv>
+						<edomvd>Regions with various moisture regimes</edomvd>
+					</edom>
+					<edom>
+						<edomv>44</edomv>
+						<edomvd>Regions with various moisture regimes</edomvd>
+					</edom>
+					<edom>
+						<edomv>50</edomv>
+						<edomvd>Primitive soils (lithosols) and hard rocks</edomvd>
+					</edom>
+					<edom>
+						<edomv>99</edomv>
+						<edomvd>Lakes</edomvd>
+					</edom>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>Nonsoil</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FE</attrlabl>
+				<attalias>FE</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>10</attwidth>
+				<attrdef>Soil susceptibility to acid degradation according to the presence of mobile iron  and aluminium</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>PB</attrlabl>
+				<attalias>PB</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>10</attwidth>
+				<attrdef>Soil susceptibility to contamination by mobile lead combinations </attrdef>
+			</attr>
+			<attr>
+				<attrlabl>SE</attrlabl>
+				<attalias>SE</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>10</attwidth>
+				<attrdef>Soil susceptibility to contamination by mobile selenium combinations.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>NASOILDD_</attrlabl>
+				<attalias>NASOILDD_</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>North America</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>NASOILDD_I</attrlabl>
+				<attalias>NASOILDD_I</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>North America ID</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>EUSOILDD_</attrlabl>
+				<attalias>EUSOILDD_</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>Europe</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>EUSOILDD_I</attrlabl>
+				<attalias>EUSOILDD_I</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>Europe ID</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>AUSOILDD_</attrlabl>
+				<attalias>AUSOILDD_</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>Australia</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>AUSOILDD_I</attrlabl>
+				<attalias>AUSOILDD_I</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>Australia ID</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>ASSOILDD_</attrlabl>
+				<attalias>ASSOILDD_</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>Asia</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>ASSOILDD_I</attrlabl>
+				<attalias>ASSOILDD_I</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>Asia ID</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>AFSOILDD_</attrlabl>
+				<attalias>AFSOILDD_</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>Africa</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>AFSOILDD_I</attrlabl>
+				<attalias>AFSOILDD_I</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attrdef>Africa ID</attrdef>
+			</attr>
+		</detailed>
+		<overview>
 <eaover>Soil type codes
 SOILS OF COLD AREAS, USUALLY WITH PERMAFROST
 VERY HUMID AND HUMID REGIONS
@@ -1156,112 +1085,65 @@ NONSOIL AREAS
 180 Nonsoil
 NO CODE
 0 No soil type code is assigned (for minor soil types only).</eaover>
-</overview>
-</eainfo>
-<mdDateSt>20090625</mdDateSt>
-<dataqual>
-<lineage>
-<procstep>
-<proccont>
-<cntinfo>
-<cntaddr/>
-</cntinfo>
-</proccont>
-<procdesc>The maps have a traditional soil cartography design. Soils are characterized by indexes (numbers) in the legend and the database. The soil contours were laid out using cartographic sources according to geographical situations. In some cases, the boundaries of areas were detailed by the geological, geomorphological, Quaternary, and other maps developed for this atlas. Various cartographic and textual materials were used to compile the maps, as well.
+		</overview>
+	</eainfo>
 
-The map legends and the maps were compiled according to the principles of two classification systems: those of M. A. Glazovskaya (1972) and those of V. M. Fridland (1981). According to these systems, soils are classified into types and subtypes with similar chemical, physical, and morphological features, profiles, and hydrothermic regimes. A soil unit (area) can be a single soil that prevails in an area, or it can be a soil that is associated with another and is either the prevailing one or the accompanying one depending on relief, drainage, or bedrock. Moreover, each unit contains information on general features of thermic regimes (3 regions), water regimes (10 types), and granulometric composition (17 categories). The soils are classified by soil formation into families, which are characterized in the legend. Relief conditions of soil formation are shown for each area -- plains and mountains are separated (mountains are classified into 3 types). Landscapes without developed soils (sand, rocks, stone-fields, glaciers, etc.) are shown on the maps, as well.
+	<distinfo>
+		<resdesc>esri_1996_world_soils</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>15.200</transize>
+					<dssize>15.200</dssize>
+					<formname>geopackage</formname>
+					<formspec>zip</formspec>
+				</digtinfo>
+			</digform>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>ESRI; ESRI International Distributors</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>380 New York Street</address>
+					<city>Redlands</city>
+					<state>California</state>
+					<postal>92373-8100</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>800-447-9778</cntvoice>
+				<cntinst>	In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data. Outside the United States, please direct all inquiries to your local ESRI International Distributor. This information can be found at http://gis.esri.com/intldist/contactint.cfm.</cntinst>
+			</cntinfo>
+		</distrib>
+	</distinfo>
 
-The map legends are made as arrays of soil families, types, and subtypes. Each array describes soil hydrothermic conditions, water regimes of prevailing soil, and soil family.
 
-The maps also give information about soil characteristics and regimes, which was the basis for assessment of the ecological and geochemical resistance of soil to acid degradation and accumulation of lead and selenium. Soil units were classified into pedobiomes using specific parameters (explained below), then classified into pedogeochemical associations using quantitative characteristics. The defining parameter values were set according to the significance of a parameter as a factor in the resistance of a soil to the hazard in question (acid degradation, lead pollution, or selenium pollution). Classification of these pedobiomes is important for evaluation of these environmental threats as well as for a general assessment of technogenic degradation and pollution of the soil.
-
-Soil units were classified into H-pedobiomes primarily by two parameters: (1) acid and alkaline state and resistance of soil to acid threat and (2) soil bufferability. Pb-pedobiomes and Se-pedobiomes were each classified using four main parameters. The first two were (1) the acid and alkaline state of soil and (2) oxidation and reduction conditions. The combination of these two parameters determines the mobility of lead or selenium combinations in the soil. The other parameters were (3) the absorbing capacity of the soil and (4) the carbonate profile of soil (for lead) and the content of noncrystallized iron  ydroxides (for selenium). The combination of these two parameters characterizes geochemical barriers (sorption and sedimentation for lead, hemosorption for selenium) and the risk of soil accumulation of low mobile lead or selenium combinations and complexes.
-
-
-Afanacieva, T.V., V.I. Vasilenko, T.V. Tereshina, and B.V.Shermet. Pochvy SSSR.
-Spravochnik-opredekitel' geografa i puteshestvennika (Soils of the USSR. Determination
-reference book for a geographer and traveler). 1979. Mysl', Moscow. 380 pp.
-
-Dobrovolskiy, V.V., ed. Tyazhelyye metally v okruzhayushhey srede (Heavy metals in the
-environment). 1980. Moscow University Publ. House, Moscow. 132 p.
-
-Fiziko-geograficheskiy atlas mira (Physical-geographical atlas of the world). 1964. AN
-SSSR Publishing House -- GUGK, Moscow. 298 pp.
-
-Fridland, V.M. Struktura pochvennogo pokrova mira (Structure of the world soil cover).
-1984. Mysl', Moscow. 236 pp.
-
-Fridland, V.M. Osnovy profil'no-geneticheskogo komponenta bazovoy klassifikatsii pochv
-(Basis of profile-genetic component of basic soil classification). 1981. Pochvovedeniye, 6,
-pp.106-118.
-
-Geomorphologicheskaya karta mira (Geomorphological map of the world -- for high
-schools). 1:15,000,000. 1988. GUGK, Moscow. 4 s.
-
-Gerassimov, I.P. Mirovyye pochvennyye edinitsy FAO- Unesco v svetye kontseptsii
-elementarnykh pochvennykh protsessov (EPP) (The world soil units of FAO-UNESCO
-concerning the conception of elementary soil processes). 1980. Pochvovedeniye, 4, pp.
-16-26.
-
-Glazovskaya, M.A. Opyt klassifikatsii pochv mira po ustoychivosti k tekhnogennym kislotnym
-vozdeystviyam (Classification of the world's soils by resistance to technogenic acid threat).
-1990. Pochvovedeniye, 4, pp. 82-96.
-
-Glazovskaya, M.A. Pochvy mira. Osnovnyye semeystva i tipy pochv (Soils of the world.
-Basic soil families and types). 1972. Moscow University Publishing House, Moscow. 231
-pp.
-
-Mongol'skaya Narodnaya Respublika. Natsional'nyy Atlas (Mongolian People's Republic.
-National Atlas). 1990. GUGK SSSR -- GUGK MNR, Moscow -- Ulaanbaatar. 144 pp.
-
-National Agricultural Atlas of the People's Republic of China. 1989. Cartographic
-Publishing House, Beijing. 163 pp.
-
-Pochvennaya karta Mongol'skoy Narodnoy Respubliki (Soil map of the Mongolian People's
-Republic), 1:2,500,000. 1980. GUGK, Moscow. 1 s.
-
-Pochvennaya karta RSFSR (Soil map of RSFSR), 1:2,500,000. 1988. GUGK, Moscow. 16
-s.
-
-Soil map of China. 1:20,000,000. 1988. Science Press, Beijing. 1 s.
-
-Soil Map of the EC. 1:1,000,000. Directorate General for Agriculture -- Coordination of
-Agricultural Research. 1985. EEC, Brussels.
-
-Soil Map of the World. FAO-UNESCO. 1:5,000,000. 1977-1981. UNESCO, Paris. Vols. 1-
-10.
-
-Soil Taxonomy. A Basic System of Soil Classification for Making and Interpreting Soil
-Surveys. 1975. In: Agriculture Handbook, Soil Conservation Service, U.S. Department of
-Agriculture. 436, 754 pp.
-
-World Map on Status of Human-Induced Soil Degradation. 1:10,000,000. 1990.
-UNEP/ISRIC, the Netherlands.</procdesc>
-<procdate>Unknown</procdate>
-<srcused>See references</srcused>
-</procstep>
-<procstep>
-<procdesc>Datasets for eacch continent were converted from ESRI coverage to the ESRI shapefile format using the 'copy features' tool and merged into one layer using the 'merge' tool.</procdesc>
-<procdate>20090507</procdate>
-<proccont>
-<cntinfo>
-<cntperp>
-<cntper>GIS/MapLibrarian</cntper>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</proccont>
-</procstep>
-</lineage>
-</dataqual>
+	<metainfo>
+		<langmeta>en</langmeta>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>GIS/Metadata Librarian</cntper>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+				<hours>7:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
+			</cntinfo>
+		</metc>
+		<metd>20090625</metd>
+	</metainfo>
 </metadata>

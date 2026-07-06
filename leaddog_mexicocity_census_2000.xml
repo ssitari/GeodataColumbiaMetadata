@@ -37,870 +37,870 @@
 				<eastbc>-98.745945</eastbc>
 				<northbc>
 19.889814</northbc>
-				<southbc>
+					<southbc>
 19.181533</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>society</themekey>
-				<themekey>boundaries</themekey>
-			</theme>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>census</themekey>
-				<themekey>people</themekey>
-				<themekey>demographics</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Mexico City (3530597)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>Mexico City (Mexico)</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2007</tempkey>
-				<tempkey>2000</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>LeadDog Consulting, LLC</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>1743 Morningside Ct</address>
-					<city>Anchorage</city>
-					<state>AK</state>
-					<postal>99501</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>888-750-0309</cntvoice>
-				<cntemail>Jim@GoLeadDog.com</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/mexico_city_census.jpg</browsen>
-			<browsed>Thumbnail</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
-	</idinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Maps at 1:5000 scale</title>
-					</citeinfo>
-				</srccite>
-				<srcscale>5000</srcscale>
-			</srcinfo>
-			<procstep>
-				<procdesc>Maps at 1:5000 scale digitized by LeadDog Consulting</procdesc>
-				<srcused>Maps at 1:5000 scale</srcused>
-			</procstep>
-			<procstep>
-				<proccont>
+					</bounding>
+				</spdom>
+				<keywords>
+					<theme>
+						<themekt>ISO 19115 Topic Category</themekt>
+						<themekey>society</themekey>
+						<themekey>boundaries</themekey>
+					</theme>
+					<theme>
+						<themekt>None</themekt>
+						<themekey>census</themekey>
+						<themekey>people</themekey>
+						<themekey>demographics</themekey>
+					</theme>
+					<place>
+						<placekt>GeoNames</placekt>
+						<placekey>Mexico City (3530597)</placekey>
+					</place>
+					<place>
+						<placekt>Library of Congress Subject Headings</placekt>
+						<placekey>Mexico City (Mexico)</placekey>
+					</place>
+					<temporal>
+						<tempkt>None</tempkt>
+						<tempkey>2007</tempkey>
+						<tempkey>2000</tempkey>
+					</temporal>
+				</keywords>
+				<accconst>For current Columbia affiliates only.</accconst>
+				<useconst>For educational, non-commercial use only.</useconst>
+				<ptcontac>
 					<cntinfo>
 						<cntorgp>
-							<cntorg>Data Service staff</cntorg>
+							<cntorg>LeadDog Consulting, LLC</cntorg>
 						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>1743 Morningside Ct</address>
+							<city>Anchorage</city>
+							<state>AK</state>
+							<postal>99501</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>888-750-0309</cntvoice>
+						<cntemail>Jim@GoLeadDog.com</cntemail>
 					</cntinfo>
-				</proccont>
-				<procdesc>Data Service staff changed * values in table to -999 and changed empty cells &amp; cells with N.D. to -99 </procdesc>
-				<procdate>20111115</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>G-polygon</sdtstype>
-				<ptvctcnt>4598</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>mexico_city_census</enttypl>
-				<enttypd>Census districts</enttypd>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CLVAGB</attrlabl>
-				<attrdef>Identifier for the district</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>STATE_CODE</attrlabl>
-				<attrdef>Identifier for the state</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>MUNI_CODE</attrlabl>
-				<attrdef>Identifier for the municipality</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>TOWN_CODE</attrlabl>
-				<attrdef>Identifier for the town</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z1</attrlabl>
-				<attrdef>Total Population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z2</attrlabl>
-				<attrdef>Male Population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z3</attrlabl>
-				<attrdef>Female Population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z4</attrlabl>
-				<attrdef>0-4 years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z5</attrlabl>
-				<attrdef>0-4 years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z6</attrlabl>
-				<attrdef>0-4 years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z7</attrlabl>
-				<attrdef>0-14 years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z8</attrlabl>
-				<attrdef>0-14 years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z9</attrlabl>
-				<attrdef>0-14 years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z10</attrlabl>
-				<attrdef>5 abd more years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z11</attrlabl>
-				<attrdef>5 abd more years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z12</attrlabl>
-				<attrdef>5 abd more years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z13</attrlabl>
-				<attrdef>6 abd more years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z14</attrlabl>
-				<attrdef>6 abd more years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z15</attrlabl>
-				<attrdef>6 abd more years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z16</attrlabl>
-				<attrdef>6-14 years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z17</attrlabl>
-				<attrdef>6-14 years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z18</attrlabl>
-				<attrdef>6-14 years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z19</attrlabl>
-				<attrdef>12 abd more years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z20</attrlabl>
-				<attrdef>12 abd more years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z21</attrlabl>
-				<attrdef>12 abd more years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z22</attrlabl>
-				<attrdef>15 abd more years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z23</attrlabl>
-				<attrdef>15 abd more years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z24</attrlabl>
-				<attrdef>15 abd more years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z25</attrlabl>
-				<attrdef>15-49 years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z26</attrlabl>
-				<attrdef>15-64 years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z27</attrlabl>
-				<attrdef>15-64 years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z28</attrlabl>
-				<attrdef>15-64 years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z29</attrlabl>
-				<attrdef>15-19 years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z30</attrlabl>
-				<attrdef>15-19 years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z31</attrlabl>
-				<attrdef>15-19 years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z32</attrlabl>
-				<attrdef>18 abd more years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z33</attrlabl>
-				<attrdef>18 abd more years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z34</attrlabl>
-				<attrdef>18 abd more years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z35</attrlabl>
-				<attrdef>20 abd more years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z36</attrlabl>
-				<attrdef>20 abd more years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z37</attrlabl>
-				<attrdef>20 abd more years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z38</attrlabl>
-				<attrdef>20-24 years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z39</attrlabl>
-				<attrdef>20-24 years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z40</attrlabl>
-				<attrdef>20-24 years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z41</attrlabl>
-				<attrdef>50 abd more years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z42</attrlabl>
-				<attrdef>60 abd more years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z43</attrlabl>
-				<attrdef>60 abd more years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z44</attrlabl>
-				<attrdef>60 abd more years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z45</attrlabl>
-				<attrdef>65 abd more years old population</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z46</attrlabl>
-				<attrdef>65 abd more years old population male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z47</attrlabl>
-				<attrdef>65 abd more years old population female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z48</attrlabl>
-				<attrdef>Number of people from 0 to 14 years old and 65 or more (dependents) for each 100 people between 15 and 64 years old (econ</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z49</attrlabl>
-				<attrdef>Number of children from 0 to 14 for each 100 women between 15 and 49 years old</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z50</attrlabl>
-				<attrdef>Population with health service from a public institution (IMSS, ISSSTE, PEMEX, Defense, Navy or other kind) or private in</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z51</attrlabl>
-				<attrdef>Population without health service</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z52</attrlabl>
-				<attrdef>Population with health service from Mexican Institute of Social Security (IMSS)</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z53</attrlabl>
-				<attrdef>Population with disability</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z54</attrlabl>
-				<attrdef>Resident population born in the state</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z55</attrlabl>
-				<attrdef>Resident population born in other state</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z56</attrlabl>
-				<attrdef>Population of 5 years old or more that resides  in the same municipality since 1995</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z57</attrlabl>
-				<attrdef>Population of 5 years old or more that resides  in the same state since 1995</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z58</attrlabl>
-				<attrdef>Catholic population from 5 years old or more</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z59</attrlabl>
-				<attrdef>Non catholic population from 5 years old or more</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z60</attrlabl>
-				<attrdef>Non catholic population from 5 years old or more including with no religion</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z61</attrlabl>
-				<attrdef>Population from 6 to 14 years old that read and write</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z62</attrlabl>
-				<attrdef>Population from 6 to 14 years old that read and write male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z63</attrlabl>
-				<attrdef>Population from 6 to 14 years old that read and write female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z64</attrlabl>
-				<attrdef>Population of 15 years and more literate</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z65</attrlabl>
-				<attrdef>Population of 15 years and more literate male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z66</attrlabl>
-				<attrdef>Population of 15 years and more literate male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z67</attrlabl>
-				<attrdef>Population from 6 to 14 years old that go to school</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z68</attrlabl>
-				<attrdef>Population from 6 to 14 years old that go to school male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z69</attrlabl>
-				<attrdef>Population from 6 to 14 years old that go to school female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z70</attrlabl>
-				<attrdef>Population of 15 years old or more that have no schooling</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z71</attrlabl>
-				<attrdef>Population of 15 years old with partial elementary school</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z72</attrlabl>
-				<attrdef>Population of 15 years old with complete elementary school</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z73</attrlabl>
-				<attrdef>Population of 15 years old with more than elementary school</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z74</attrlabl>
-				<attrdef>Population of 15 years old without more than elementary school</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z75</attrlabl>
-				<attrdef>Population of 15 years old with high school or technical commercial studies</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z76</attrlabl>
-				<attrdef>Population of 15 years old or more with complete high school</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z77</attrlabl>
-				<attrdef>Population of 15 years old or more with incomplete high school</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z78</attrlabl>
-				<attrdef>Population of 15 years old or more with professional education or technical education</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z79</attrlabl>
-				<attrdef>Population of 18 years old or more without professional education or technical education</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z80</attrlabl>
-				<attrdef>Population of 18 years old or more with technical education</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z81</attrlabl>
-				<attrdef>Population of 18 years old or more without professional education</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z82</attrlabl>
-				<attrdef>Population of 18 years old or more with professional education</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z83</attrlabl>
-				<attrdef>Average of education degree</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z84</attrlabl>
-				<attrdef>Population single with 12 years old or more</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z85</attrlabl>
-				<attrdef>Population single with 12 years old or more male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z86</attrlabl>
-				<attrdef>Population single with 12 years old or more female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z87</attrlabl>
-				<attrdef>Population single from 15 to 24 years old</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z88</attrlabl>
-				<attrdef>Population single from 15 to 24 years old male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z89</attrlabl>
-				<attrdef>Population single from 15 to 24 years old female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z90</attrlabl>
-				<attrdef>Population married form 12 years old or more</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z91</attrlabl>
-				<attrdef>Population married form 12 years old or more male</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z92</attrlabl>
-				<attrdef>Population married form 12 years old or more female</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z93</attrlabl>
-				<attrdef>Population living together and not married form 12 years old or more</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z94</attrlabl>
-				<attrdef>Total born alive children of women between 15 and 49 years old</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z95</attrlabl>
-				<attrdef>Total born alive children of women of 50 years old or more</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z96</attrlabl>
-				<attrdef>Total born alive children of women between 15 and 49 years old that have died</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z97</attrlabl>
-				<attrdef>Total born alive children of women of 50 years old or more that have died</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z98</attrlabl>
-				<attrdef>Number of children born alive in 1999</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z99</attrlabl>
-				<attrdef>Number of children born alive from march 1999 to Feb. 2000</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z100</attrlabl>
-				<attrdef>Average of born alive children from women of 12 years old or more</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z101</attrlabl>
-				<attrdef>Population economically active</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z102</attrlabl>
-				<attrdef>Population economically not active</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z103</attrlabl>
-				<attrdef>Population that looked for job  in the week of reference</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z104</attrlabl>
-				<attrdef>Population from 12 years old or more that are economically active and students</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z105</attrlabl>
-				<attrdef>Population from 12 years old or more that are economically not active and work in home duties</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z106</attrlabl>
-				<attrdef>Population occupied that worked in mining, electricity, water, construction or manufacturing industry (Secondary sector)</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z107</attrlabl>
-				<attrdef>Population occupied that worked in services, commerce, financing services, professional services, government (third secto</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z108</attrlabl>
-				<attrdef>Population occupied as employee</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z109</attrlabl>
-				<attrdef>Population that worked in journeys</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z110</attrlabl>
-				<attrdef>Population working by their own</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z111</attrlabl>
-				<attrdef>Population that worked 32 hours in the work week</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z112</attrlabl>
-				<attrdef>Population that worked for 33 to 40 hours in the work week</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z113</attrlabl>
-				<attrdef>Population that worked for 41 to 48 hours in the work week</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z114</attrlabl>
-				<attrdef>Population that do not receive income for their job</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z115</attrlabl>
-				<attrdef>Population that receive less than the official salary rate</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z116</attrlabl>
-				<attrdef>Population occupied that receive from 1 to 2 official salary rate</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z117</attrlabl>
-				<attrdef>Population occupied that receive more than 2 to 5 official salary rate</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z118</attrlabl>
-				<attrdef>Population occupied that receive more than 5 official salary rate</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z119</attrlabl>
-				<attrdef>Total of habitated houses</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z120</attrlabl>
-				<attrdef>Private houses occupied</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z121</attrlabl>
-				<attrdef>Private houses with ceiling made with light materials</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z122</attrlabl>
-				<attrdef>Private houses with ceiling made with concrete, blocks, etc.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z123</attrlabl>
-				<attrdef>Private houses with walls made with light material</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z124</attrlabl>
-				<attrdef>Private houses with walls made with concrete, blocks, etc.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z125</attrlabl>
-				<attrdef>Private houses with floor made with cement, wood or other cover.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z126</attrlabl>
-				<attrdef>Private home with 1 room (can be 2 rooms if kitchen is use exclusive)</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z127</attrlabl>
-				<attrdef>Private home from 2 to 5 rooms (without including kitchen)</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z128</attrlabl>
-				<attrdef>Private home with 1 room</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z129</attrlabl>
-				<attrdef>Private home from 2 to 5 rooms (including kitchen)</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z130</attrlabl>
-				<attrdef>Private home with 1 bed room</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z131</attrlabl>
-				<attrdef>Private home with 2 to 4 bed rooms</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z132</attrlabl>
-				<attrdef>Private home with exclusive purposes kitchen</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z133</attrlabl>
-				<attrdef>Private home with no exclusive purposes kitchen</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z134</attrlabl>
-				<attrdef>Private homes that use gas to cook</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z135</attrlabl>
-				<attrdef>Private homes with exclusive sanitary service</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z136</attrlabl>
-				<attrdef>Private homes with sewer connected to the public network</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z137</attrlabl>
-				<attrdef>Private homes with sewer connected to a septic hole, river, lake, sea</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z138</attrlabl>
-				<attrdef>Private homes without sanitary service</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z139</attrlabl>
-				<attrdef>Private homes with electricity service</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z140</attrlabl>
-				<attrdef>Private homes with water service network connected to the building</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z141</attrlabl>
-				<attrdef>Private homes with water service network connected to the parcel</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z142</attrlabl>
-				<attrdef>Private homes that have water service from a public llave</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z143</attrlabl>
-				<attrdef>Private homes with only sewer and water service</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z144</attrlabl>
-				<attrdef>Private homes with only sewer and electricity service</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z145</attrlabl>
-				<attrdef>Private homes with only water and electricity service</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z146</attrlabl>
-				<attrdef>Private homes with Water, sewer and electricity service</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z147</attrlabl>
-				<attrdef>Private homes without Water, sewer and electricity service</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z148</attrlabl>
-				<attrdef>Private homes owned</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z149</attrlabl>
-				<attrdef>Private homes paid</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z150</attrlabl>
-				<attrdef>Private homes rented</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z151</attrlabl>
-				<attrdef>Private homes that have radio or tape recorder</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z152</attrlabl>
-				<attrdef>Private homes that have TV</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z153</attrlabl>
-				<attrdef>Private homes that have VHS</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z154</attrlabl>
-				<attrdef>Private homes with mixer</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z155</attrlabl>
-				<attrdef>Private homes with refrigerator</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z156</attrlabl>
-				<attrdef>Private homes with washer</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z157</attrlabl>
-				<attrdef>Private homes with telephone</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z158</attrlabl>
-				<attrdef>Private home with heater</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z159</attrlabl>
-				<attrdef>Private homes with car</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z160</attrlabl>
-				<attrdef>Private homes with computer</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z161</attrlabl>
-				<attrdef>Private home with all equipment listed</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z162</attrlabl>
-				<attrdef>Private home without equipment listed</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z163</attrlabl>
-				<attrdef>Average of people per private house</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z164</attrlabl>
-				<attrdef>Average of people per room per private house</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z165</attrlabl>
-				<attrdef>Total of homes</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z166</attrlabl>
-				<attrdef>Homes with a male head of household</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z167</attrlabl>
-				<attrdef>Homes with a female head of household</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z168</attrlabl>
-				<attrdef>Population that live at homes (not public)</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z169</attrlabl>
-				<attrdef>Population in homes with a male head of household</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Z170</attrlabl>
-				<attrdef>Population in homes with a female head of household</attrdef>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntperp>
-					<cntorg>LeadDog Consulting, LLC</cntorg>
-				</cntperp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>PO Box 261961</address>
-					<city>Highlands Ranch</city>
-					<state>CO</state>
-					<postal>80163-1961</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>888-750-0309</cntvoice>
-				<cntemail>Jim@GoLeadDog.com</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>leaddog_mexicocity_census_2000</resdesc>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<transize>1.2</transize>
-					<formname>ESRI shapefile</formname>
-					<formspec>zip</formspec>
-					<dssize>1.2</dssize>
-				</digtinfo>
-			</digform>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>20120210</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+				</ptcontac>
+				<browse>
+					<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/mexico_city_census.jpg</browsen>
+					<browsed>Thumbnail</browsed>
+					<browset>JPEG</browset>
+				</browse>
+				<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+			</idinfo>
+			<dataqual>
+				<lineage>
+					<srcinfo>
+						<srccite>
+							<citeinfo>
+								<title>Maps at 1:5000 scale</title>
+							</citeinfo>
+						</srccite>
+						<srcscale>5000</srcscale>
+					</srcinfo>
+					<procstep>
+						<procdesc>Maps at 1:5000 scale digitized by LeadDog Consulting</procdesc>
+						<srcused>Maps at 1:5000 scale</srcused>
+					</procstep>
+					<procstep>
+						<proccont>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Data Service staff</cntorg>
+								</cntorgp>
+							</cntinfo>
+						</proccont>
+						<procdesc>Data Service staff changed * values in table to -999 and changed empty cells &amp; cells with N.D. to -99 </procdesc>
+						<procdate>20111115</procdate>
+					</procstep>
+				</lineage>
+			</dataqual>
+			<spdoinfo>
+				<direct>Vector</direct>
+				<ptvctinf>
+					<sdtsterm>
+						<sdtstype>G-polygon</sdtstype>
+						<ptvctcnt>4598</ptvctcnt>
+					</sdtsterm>
+				</ptvctinf>
+			</spdoinfo>
+			<eainfo>
+				<detailed>
+					<enttyp>
+						<enttypl>mexico_city_census</enttypl>
+						<enttypd>Census districts</enttypd>
+					</enttyp>
+					<attr>
+						<attrlabl>FID</attrlabl>
+						<attrdef>Internal feature number.</attrdef>
+						<attrdefs>ESRI</attrdefs>
+						<attrdomv>
+							<udom>Sequential unique whole numbers that are automatically generated.</udom>
+						</attrdomv>
+					</attr>
+					<attr>
+						<attrlabl>Shape</attrlabl>
+						<attrdef>Feature geometry.</attrdef>
+						<attrdefs>ESRI</attrdefs>
+						<attrdomv>
+							<udom>Coordinates defining the features.</udom>
+						</attrdomv>
+					</attr>
+					<attr>
+						<attrlabl>CLVAGB</attrlabl>
+						<attrdef>Identifier for the district</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>STATE_CODE</attrlabl>
+						<attrdef>Identifier for the state</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>MUNI_CODE</attrlabl>
+						<attrdef>Identifier for the municipality</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>TOWN_CODE</attrlabl>
+						<attrdef>Identifier for the town</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z1</attrlabl>
+						<attrdef>Total Population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z2</attrlabl>
+						<attrdef>Male Population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z3</attrlabl>
+						<attrdef>Female Population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z4</attrlabl>
+						<attrdef>0-4 years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z5</attrlabl>
+						<attrdef>0-4 years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z6</attrlabl>
+						<attrdef>0-4 years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z7</attrlabl>
+						<attrdef>0-14 years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z8</attrlabl>
+						<attrdef>0-14 years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z9</attrlabl>
+						<attrdef>0-14 years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z10</attrlabl>
+						<attrdef>5 abd more years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z11</attrlabl>
+						<attrdef>5 abd more years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z12</attrlabl>
+						<attrdef>5 abd more years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z13</attrlabl>
+						<attrdef>6 abd more years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z14</attrlabl>
+						<attrdef>6 abd more years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z15</attrlabl>
+						<attrdef>6 abd more years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z16</attrlabl>
+						<attrdef>6-14 years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z17</attrlabl>
+						<attrdef>6-14 years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z18</attrlabl>
+						<attrdef>6-14 years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z19</attrlabl>
+						<attrdef>12 abd more years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z20</attrlabl>
+						<attrdef>12 abd more years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z21</attrlabl>
+						<attrdef>12 abd more years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z22</attrlabl>
+						<attrdef>15 abd more years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z23</attrlabl>
+						<attrdef>15 abd more years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z24</attrlabl>
+						<attrdef>15 abd more years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z25</attrlabl>
+						<attrdef>15-49 years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z26</attrlabl>
+						<attrdef>15-64 years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z27</attrlabl>
+						<attrdef>15-64 years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z28</attrlabl>
+						<attrdef>15-64 years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z29</attrlabl>
+						<attrdef>15-19 years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z30</attrlabl>
+						<attrdef>15-19 years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z31</attrlabl>
+						<attrdef>15-19 years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z32</attrlabl>
+						<attrdef>18 abd more years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z33</attrlabl>
+						<attrdef>18 abd more years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z34</attrlabl>
+						<attrdef>18 abd more years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z35</attrlabl>
+						<attrdef>20 abd more years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z36</attrlabl>
+						<attrdef>20 abd more years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z37</attrlabl>
+						<attrdef>20 abd more years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z38</attrlabl>
+						<attrdef>20-24 years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z39</attrlabl>
+						<attrdef>20-24 years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z40</attrlabl>
+						<attrdef>20-24 years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z41</attrlabl>
+						<attrdef>50 abd more years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z42</attrlabl>
+						<attrdef>60 abd more years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z43</attrlabl>
+						<attrdef>60 abd more years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z44</attrlabl>
+						<attrdef>60 abd more years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z45</attrlabl>
+						<attrdef>65 abd more years old population</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z46</attrlabl>
+						<attrdef>65 abd more years old population male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z47</attrlabl>
+						<attrdef>65 abd more years old population female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z48</attrlabl>
+						<attrdef>Number of people from 0 to 14 years old and 65 or more (dependents) for each 100 people between 15 and 64 years old (econ</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z49</attrlabl>
+						<attrdef>Number of children from 0 to 14 for each 100 women between 15 and 49 years old</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z50</attrlabl>
+						<attrdef>Population with health service from a public institution (IMSS, ISSSTE, PEMEX, Defense, Navy or other kind) or private in</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z51</attrlabl>
+						<attrdef>Population without health service</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z52</attrlabl>
+						<attrdef>Population with health service from Mexican Institute of Social Security (IMSS)</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z53</attrlabl>
+						<attrdef>Population with disability</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z54</attrlabl>
+						<attrdef>Resident population born in the state</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z55</attrlabl>
+						<attrdef>Resident population born in other state</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z56</attrlabl>
+						<attrdef>Population of 5 years old or more that resides  in the same municipality since 1995</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z57</attrlabl>
+						<attrdef>Population of 5 years old or more that resides  in the same state since 1995</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z58</attrlabl>
+						<attrdef>Catholic population from 5 years old or more</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z59</attrlabl>
+						<attrdef>Non catholic population from 5 years old or more</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z60</attrlabl>
+						<attrdef>Non catholic population from 5 years old or more including with no religion</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z61</attrlabl>
+						<attrdef>Population from 6 to 14 years old that read and write</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z62</attrlabl>
+						<attrdef>Population from 6 to 14 years old that read and write male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z63</attrlabl>
+						<attrdef>Population from 6 to 14 years old that read and write female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z64</attrlabl>
+						<attrdef>Population of 15 years and more literate</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z65</attrlabl>
+						<attrdef>Population of 15 years and more literate male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z66</attrlabl>
+						<attrdef>Population of 15 years and more literate male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z67</attrlabl>
+						<attrdef>Population from 6 to 14 years old that go to school</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z68</attrlabl>
+						<attrdef>Population from 6 to 14 years old that go to school male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z69</attrlabl>
+						<attrdef>Population from 6 to 14 years old that go to school female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z70</attrlabl>
+						<attrdef>Population of 15 years old or more that have no schooling</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z71</attrlabl>
+						<attrdef>Population of 15 years old with partial elementary school</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z72</attrlabl>
+						<attrdef>Population of 15 years old with complete elementary school</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z73</attrlabl>
+						<attrdef>Population of 15 years old with more than elementary school</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z74</attrlabl>
+						<attrdef>Population of 15 years old without more than elementary school</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z75</attrlabl>
+						<attrdef>Population of 15 years old with high school or technical commercial studies</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z76</attrlabl>
+						<attrdef>Population of 15 years old or more with complete high school</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z77</attrlabl>
+						<attrdef>Population of 15 years old or more with incomplete high school</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z78</attrlabl>
+						<attrdef>Population of 15 years old or more with professional education or technical education</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z79</attrlabl>
+						<attrdef>Population of 18 years old or more without professional education or technical education</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z80</attrlabl>
+						<attrdef>Population of 18 years old or more with technical education</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z81</attrlabl>
+						<attrdef>Population of 18 years old or more without professional education</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z82</attrlabl>
+						<attrdef>Population of 18 years old or more with professional education</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z83</attrlabl>
+						<attrdef>Average of education degree</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z84</attrlabl>
+						<attrdef>Population single with 12 years old or more</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z85</attrlabl>
+						<attrdef>Population single with 12 years old or more male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z86</attrlabl>
+						<attrdef>Population single with 12 years old or more female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z87</attrlabl>
+						<attrdef>Population single from 15 to 24 years old</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z88</attrlabl>
+						<attrdef>Population single from 15 to 24 years old male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z89</attrlabl>
+						<attrdef>Population single from 15 to 24 years old female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z90</attrlabl>
+						<attrdef>Population married form 12 years old or more</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z91</attrlabl>
+						<attrdef>Population married form 12 years old or more male</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z92</attrlabl>
+						<attrdef>Population married form 12 years old or more female</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z93</attrlabl>
+						<attrdef>Population living together and not married form 12 years old or more</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z94</attrlabl>
+						<attrdef>Total born alive children of women between 15 and 49 years old</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z95</attrlabl>
+						<attrdef>Total born alive children of women of 50 years old or more</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z96</attrlabl>
+						<attrdef>Total born alive children of women between 15 and 49 years old that have died</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z97</attrlabl>
+						<attrdef>Total born alive children of women of 50 years old or more that have died</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z98</attrlabl>
+						<attrdef>Number of children born alive in 1999</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z99</attrlabl>
+						<attrdef>Number of children born alive from march 1999 to Feb. 2000</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z100</attrlabl>
+						<attrdef>Average of born alive children from women of 12 years old or more</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z101</attrlabl>
+						<attrdef>Population economically active</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z102</attrlabl>
+						<attrdef>Population economically not active</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z103</attrlabl>
+						<attrdef>Population that looked for job  in the week of reference</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z104</attrlabl>
+						<attrdef>Population from 12 years old or more that are economically active and students</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z105</attrlabl>
+						<attrdef>Population from 12 years old or more that are economically not active and work in home duties</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z106</attrlabl>
+						<attrdef>Population occupied that worked in mining, electricity, water, construction or manufacturing industry (Secondary sector)</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z107</attrlabl>
+						<attrdef>Population occupied that worked in services, commerce, financing services, professional services, government (third secto</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z108</attrlabl>
+						<attrdef>Population occupied as employee</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z109</attrlabl>
+						<attrdef>Population that worked in journeys</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z110</attrlabl>
+						<attrdef>Population working by their own</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z111</attrlabl>
+						<attrdef>Population that worked 32 hours in the work week</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z112</attrlabl>
+						<attrdef>Population that worked for 33 to 40 hours in the work week</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z113</attrlabl>
+						<attrdef>Population that worked for 41 to 48 hours in the work week</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z114</attrlabl>
+						<attrdef>Population that do not receive income for their job</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z115</attrlabl>
+						<attrdef>Population that receive less than the official salary rate</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z116</attrlabl>
+						<attrdef>Population occupied that receive from 1 to 2 official salary rate</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z117</attrlabl>
+						<attrdef>Population occupied that receive more than 2 to 5 official salary rate</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z118</attrlabl>
+						<attrdef>Population occupied that receive more than 5 official salary rate</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z119</attrlabl>
+						<attrdef>Total of habitated houses</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z120</attrlabl>
+						<attrdef>Private houses occupied</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z121</attrlabl>
+						<attrdef>Private houses with ceiling made with light materials</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z122</attrlabl>
+						<attrdef>Private houses with ceiling made with concrete, blocks, etc.</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z123</attrlabl>
+						<attrdef>Private houses with walls made with light material</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z124</attrlabl>
+						<attrdef>Private houses with walls made with concrete, blocks, etc.</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z125</attrlabl>
+						<attrdef>Private houses with floor made with cement, wood or other cover.</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z126</attrlabl>
+						<attrdef>Private home with 1 room (can be 2 rooms if kitchen is use exclusive)</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z127</attrlabl>
+						<attrdef>Private home from 2 to 5 rooms (without including kitchen)</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z128</attrlabl>
+						<attrdef>Private home with 1 room</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z129</attrlabl>
+						<attrdef>Private home from 2 to 5 rooms (including kitchen)</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z130</attrlabl>
+						<attrdef>Private home with 1 bed room</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z131</attrlabl>
+						<attrdef>Private home with 2 to 4 bed rooms</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z132</attrlabl>
+						<attrdef>Private home with exclusive purposes kitchen</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z133</attrlabl>
+						<attrdef>Private home with no exclusive purposes kitchen</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z134</attrlabl>
+						<attrdef>Private homes that use gas to cook</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z135</attrlabl>
+						<attrdef>Private homes with exclusive sanitary service</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z136</attrlabl>
+						<attrdef>Private homes with sewer connected to the public network</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z137</attrlabl>
+						<attrdef>Private homes with sewer connected to a septic hole, river, lake, sea</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z138</attrlabl>
+						<attrdef>Private homes without sanitary service</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z139</attrlabl>
+						<attrdef>Private homes with electricity service</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z140</attrlabl>
+						<attrdef>Private homes with water service network connected to the building</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z141</attrlabl>
+						<attrdef>Private homes with water service network connected to the parcel</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z142</attrlabl>
+						<attrdef>Private homes that have water service from a public llave</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z143</attrlabl>
+						<attrdef>Private homes with only sewer and water service</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z144</attrlabl>
+						<attrdef>Private homes with only sewer and electricity service</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z145</attrlabl>
+						<attrdef>Private homes with only water and electricity service</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z146</attrlabl>
+						<attrdef>Private homes with Water, sewer and electricity service</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z147</attrlabl>
+						<attrdef>Private homes without Water, sewer and electricity service</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z148</attrlabl>
+						<attrdef>Private homes owned</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z149</attrlabl>
+						<attrdef>Private homes paid</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z150</attrlabl>
+						<attrdef>Private homes rented</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z151</attrlabl>
+						<attrdef>Private homes that have radio or tape recorder</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z152</attrlabl>
+						<attrdef>Private homes that have TV</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z153</attrlabl>
+						<attrdef>Private homes that have VHS</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z154</attrlabl>
+						<attrdef>Private homes with mixer</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z155</attrlabl>
+						<attrdef>Private homes with refrigerator</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z156</attrlabl>
+						<attrdef>Private homes with washer</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z157</attrlabl>
+						<attrdef>Private homes with telephone</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z158</attrlabl>
+						<attrdef>Private home with heater</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z159</attrlabl>
+						<attrdef>Private homes with car</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z160</attrlabl>
+						<attrdef>Private homes with computer</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z161</attrlabl>
+						<attrdef>Private home with all equipment listed</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z162</attrlabl>
+						<attrdef>Private home without equipment listed</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z163</attrlabl>
+						<attrdef>Average of people per private house</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z164</attrlabl>
+						<attrdef>Average of people per room per private house</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z165</attrlabl>
+						<attrdef>Total of homes</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z166</attrlabl>
+						<attrdef>Homes with a male head of household</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z167</attrlabl>
+						<attrdef>Homes with a female head of household</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z168</attrlabl>
+						<attrdef>Population that live at homes (not public)</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z169</attrlabl>
+						<attrdef>Population in homes with a male head of household</attrdef>
+					</attr>
+					<attr>
+						<attrlabl>Z170</attrlabl>
+						<attrdef>Population in homes with a female head of household</attrdef>
+					</attr>
+				</detailed>
+			</eainfo>
+			<distinfo>
+				<distrib>
+					<cntinfo>
+						<cntperp>
+							<cntorg>LeadDog Consulting, LLC</cntorg>
+						</cntperp>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>PO Box 261961</address>
+							<city>Highlands Ranch</city>
+							<state>CO</state>
+							<postal>80163-1961</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>888-750-0309</cntvoice>
+						<cntemail>Jim@GoLeadDog.com</cntemail>
+					</cntinfo>
+				</distrib>
+				<resdesc>leaddog_mexicocity_census_2000</resdesc>
+				<stdorder>
+					<digform>
+						<digtinfo>
+							<transize>1.2</transize>
+							<formname>ESRI shapefile</formname>
+							<formspec>zip</formspec>
+							<dssize>1.2</dssize>
+						</digtinfo>
+					</digform>
+				</stdorder>
+			</distinfo>
+			<metainfo>
+				<metd>20120210</metd>
+				<metc>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+							<cntper>GIS/Metadata Librarian</cntper>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>420 W. 118th St. 215 IAB, MC 3301</address>
+							<city>New York</city>
+							<state>NY</state>
+							<postal>10027</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(212) 854-6012</cntvoice>
+						<cntemail>data@library.columbia.edu</cntemail>
+					</cntinfo>
+				</metc>
+				<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+				<metstdv>FGDC-STD-001-1998</metstdv>
+				<mettc>local time</mettc>
+			</metainfo>
+		</metadata>

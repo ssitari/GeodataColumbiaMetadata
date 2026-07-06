@@ -26,12 +26,21 @@
 				</pubinfo>
 				<othercit>Location: \usa\census</othercit>
 				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_cities.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_cities.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>ground condition: 200004; publication date: 20070606</current>
 			<timeinfo>
-				<mdattim><sngdate><caldate>200004</caldate></sngdate><sngdate><caldate>20070606</caldate></sngdate></mdattim></timeinfo>
+				<mdattim>
+					<sngdate>
+						<caldate>200004</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>20070606</caldate>
+					</sngdate>
+				</mdattim>
+			</timeinfo>
 		</timeperd>
 		<status>
 			<progress>Complete</progress>
@@ -74,8 +83,13 @@
 			<temporal>
 				<tempkey>2000</tempkey>
 				<tempkt>None</tempkt>
-				<tempkey>2007</tempkey></temporal>
-			<theme><themekt>ISO 19115 Topic Category</themekt><themekey>society</themekey></theme></keywords>
+				<tempkey>2007</tempkey>
+			</temporal>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -107,30 +121,108 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_cities.jpg</browsen><browsed>Thumbnail</browsed><browset>JPEG</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_cities.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>JPEG</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Department of Commerce, Census Bureau</origin>
+						<title>Summary File 1 (SF1)</title>
+						<edition>2000</edition>
+						<serinfo>
+							<sername>Summary File 1 (SF1)</sername>
+							<issue>2000</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>Department of Commerce, Census Bureau</publish>
+							<pubplace>USA</pubplace>
+						</pubinfo>
+						<othercit>The Summary File 1 (SF1) data is based on the 2000 Census of Population.  The geospatial data is calculated from the latitude/longitude coordinate attributes.</othercit>
+						<pubdate>2001</pubdate>
+						<geoform>tabular digital data</geoform>
+					</citeinfo>
+				</srccite>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>200004</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Census SF1</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procsv>ArcView GIS 3.x</procsv>
+				<procdesc>The following steps were performed by Esri: Created a data set by extracting state capitals, the national capital, and places of 10,000 or more inhabitants from U.S. Census Bureau 2000 Summary File 1 (SF1).  Ran ArcView GIS command Add Event Theme on the data set to create the point location centroids shapefile. Reformatted attributes and finalized attribute order.  Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
+				<srcused>Census SF1</srcused>
+				<procdate>20021010</procdate>
+			</procstep>
+			<procstep>
+				<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
+				<procdesc>The following steps were performed by Esri: Simplified the AREANAME values for some of the features.</procdesc>
+				<procdate>20031212</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Renamed attributes AREANAME to NAME and POP_CL to POP_CLASS. Reduced the attribute width for NAME. Converted the values in the CLASS attribute to title case. Changed the CLASS attribute value "CDP" to "Census Designated Place". Changed the CAPITAL attribute values "Y" and "N" to "National", "State", or blank.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
+				<procdate>20050317</procdate>
+			</procstep>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<pubdate>20070606</pubdate>
+						<title>Esri Data</title>
+						<edition>2007</edition>
+						<geoform>tabular digital data</geoform>
+						<othercit>Provided the POP2007 attribute.</othercit>
+						<onlink>http://www.esri.com/</onlink>
+						<serinfo>
+							<sername>Esri Data</sername>
+							<issue>2007</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Redlands, California, USA</pubplace>
+							<publish>Esri</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<typesrc>DVD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20070606</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Esri Data</srccitea>
+				<srccontr>Attribute data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Added the POP2007 attribute and populated it with values from Esri Data. Converted the data set to SDC. Created projection file (.prj), and spatial indices.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
+				<srcused>Esri Data</srcused>
+				<procdate>20080422</procdate>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The geospatial part of this data set was calculated from latitude/longitude coordinates from the U.S. Census Bureau 2000 Summary File 1 (SF1).  The horizontal positional accuracy is unknown.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -434,7 +526,12 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 				<attwidth>4</attwidth>
 				<atprecis>9</atprecis>
 				<attscale>0</attscale>
-				<attrdef>The 2007 population of the city.</attrdef><attrdefs>Esri</attrdefs><attrdomv><udom>Populations for the features.</udom></attrdomv></attr>
+				<attrdef>The 2007 population of the city.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Populations for the features.</udom>
+				</attrdomv>
+			</attr>
 			<attr>
 				<attrlabl>WHITE</attrlabl>
 				<attalias>WHITE</attalias>
@@ -916,7 +1013,14 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 						</reccap>
 						<recfmt>UDF (Universal Disc Format)</recfmt>
 					</offoptn>
-					<onlinopt><computer><networka><networkr>http://www.ArcGIS.com</networkr></networka></computer></onlinopt></digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ArcGIS.com</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
 			</digform>
 			<fees>Software purchase price</fees>
 			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
@@ -944,62 +1048,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_us_cities</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Department of Commerce, Census Bureau</origin>
-						<title>Summary File 1 (SF1)</title>
-						<edition>2000</edition>
-						<serinfo>
-							<sername>Summary File 1 (SF1)</sername>
-							<issue>2000</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>Department of Commerce, Census Bureau</publish>
-							<pubplace>USA</pubplace>
-						</pubinfo>
-						<othercit>The Summary File 1 (SF1) data is based on the 2000 Census of Population.  The geospatial data is calculated from the latitude/longitude coordinate attributes.</othercit>
-						<pubdate>2001</pubdate>
-						<geoform>tabular digital data</geoform>
-					</citeinfo>
-				</srccite>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>200004</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>Census SF1</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procsv>ArcView GIS 3.x</procsv>
-				<procdesc>The following steps were performed by Esri: Created a data set by extracting state capitals, the national capital, and places of 10,000 or more inhabitants from U.S. Census Bureau 2000 Summary File 1 (SF1).  Ran ArcView GIS command Add Event Theme on the data set to create the point location centroids shapefile. Reformatted attributes and finalized attribute order.  Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
-				<srcused>Census SF1</srcused>
-				<procdate>20021010</procdate>
-			</procstep>
-			<procstep>
-				<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
-				<procdesc>The following steps were performed by Esri: Simplified the AREANAME values for some of the features.</procdesc>
-				<procdate>20031212</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Renamed attributes AREANAME to NAME and POP_CL to POP_CLASS. Reduced the attribute width for NAME. Converted the values in the CLASS attribute to title case. Changed the CLASS attribute value "CDP" to "Census Designated Place". Changed the CAPITAL attribute values "Y" and "N" to "National", "State", or blank.</procdesc>
-				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
-				<procdate>20050317</procdate>
-			</procstep>
-			<srcinfo><srccite><citeinfo><origin>Environmental Systems Research Institute (Redlands, Calif.)</origin><pubdate>20070606</pubdate><title>Esri Data</title><edition>2007</edition><geoform>tabular digital data</geoform><othercit>Provided the POP2007 attribute.</othercit><onlink>http://www.esri.com/</onlink><serinfo><sername>Esri Data</sername><issue>2007</issue></serinfo><pubinfo><pubplace>Redlands, California, USA</pubplace><publish>Esri</publish></pubinfo></citeinfo></srccite><typesrc>DVD-ROM</typesrc><srctime><timeinfo><sngdate><caldate>20070606</caldate></sngdate></timeinfo><srccurr>publication date</srccurr></srctime><srccitea>Esri Data</srccitea><srccontr>Attribute data</srccontr></srcinfo><procstep><procdesc>The following steps were performed by Esri: Added the POP2007 attribute and populated it with values from Esri Data. Converted the data set to SDC. Created projection file (.prj), and spatial indices.</procdesc><procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv><srcused>Esri Data</srcused><procdate>20080422</procdate></procstep></lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The geospatial part of this data set was calculated from latitude/longitude coordinates from the U.S. Census Bureau 2000 Summary File 1 (SF1).  The horizontal positional accuracy is unknown.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

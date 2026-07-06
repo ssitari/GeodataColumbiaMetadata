@@ -1,750 +1,750 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Panama (3703430)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Panama</placekey>
-<placekey>Panama</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2010</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-82.876697</westbc>
-<eastbc>-77.964005</eastbc>
-<northbc>9.548949</northbc>
-<southbc>7.402479</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Panama (3703430)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Panama</placekey>
+				<placekey>Panama</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2010</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-82.876697</westbc>
+				<eastbc>-77.964005</eastbc>
+				<northbc>9.548949</northbc>
+				<southbc>7.402479</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Panama Demographic Census Data (4th level ADM), 2010 is a polygon theme representing populated places (4th level administrative units) in Panama as of 2010.  Attribute data include demographic variables of the 2010 Panamanian census.
 Official population and housing data for Panama from the 2010 census. This census is provided a combination of barrio administrative level polygons (ADM5) and populated place administrative level polygons (ADM4) for a total of 13,124 polygons. Each census sector has 1188 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo: Hombre" was updated to BT_D001 and given the alias "Sex: Man[Sexo: Hombre]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social. BT relates to the Barrios and LP relates to the populated places). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Panama Demographic Census Data (4th level ADM), 2010</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Panama Demographic Census Data (4th level ADM), 2010</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_panama_demographic_lp_2010.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2010</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2010</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Panama_2010</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D001</attrlabl>
-    <attrdef>Sex: Male[Sexo: Hombre]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D002</attrlabl>
-    <attrdef>Sex: Female[Sexo: Mujer]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D003</attrlabl>
-    <attrdef>Sex: Unreported[Sexo: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D004</attrlabl>
-    <attrdef>Sex: Total[Sexo: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D005</attrlabl>
-    <attrdef>Sex(Interviewee): Male[Sexo(Entrevistado): Hombre]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D006</attrlabl>
-    <attrdef>Sex(Interviewee): Female[Sexo(Entrevistado): Mujer]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D007</attrlabl>
-    <attrdef>Sex(Interviewee): Total[Sexo(Entrevistado): Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D008</attrlabl>
-    <attrdef>Social Security: Directly Insured[Segurio Social: Asegurado(a) Directo(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D009</attrlabl>
-    <attrdef>Social Security: Beneficiary [Segurio Social: Beneficiario(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D010</attrlabl>
-    <attrdef>Social Security: Retired or old Age Pensioner[Segurio Social: Jubilado(a) o Pensionado(a) por Vejez]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D011</attrlabl>
-    <attrdef>Social Security: Accident or Illness Pensioner[Segurio Social: Pensionado(a) por Accidente o Enfermedad]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D012</attrlabl>
-    <attrdef>Social Security: Retired or Pensioner by Another Country[Segurio Social: Jubilado(a) o Pensionado(a) de Otro País]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D013</attrlabl>
-    <attrdef>Social Security: None[Segurio Social: No Tiene]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D014</attrlabl>
-    <attrdef>Social Security: Undeclared[Segurio Social: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D015</attrlabl>
-    <attrdef>Social Security: Total[Segurio Social: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D016</attrlabl>
-    <attrdef>Marital Status: Cohabitating[Estado Conyugal: Unido(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D017</attrlabl>
-    <attrdef>Marital Status: Separated From Marriage[Estado Conyugal: Separado(a) de Matrimonio]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D018</attrlabl>
-    <attrdef>Marital Status: Separated From Cohabiting[Estado Conyugal: Separado(a) de Unión]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D019</attrlabl>
-    <attrdef>Marital Status: Married[Estado Conyugal: Casado(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D020</attrlabl>
-    <attrdef>Marital Status: Divorced[Estado Conyugal: Divorciado(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D021</attrlabl>
-    <attrdef>Marital Status: Widow(er)[Estado Conyugal: Viudo(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D022</attrlabl>
-    <attrdef>Marital Status: Single[Estado Conyugal: Soltero(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D023</attrlabl>
-    <attrdef>Marital Status: Less Than 15 Years[Estado Conyugal: Menor de 15 Años]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D024</attrlabl>
-    <attrdef>Marital Status: Total[Estado Conyugal: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D025</attrlabl>
-    <attrdef>Family Relationship: Head[Relacion de Parentesco: Jefe]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D026</attrlabl>
-    <attrdef>Family Relationship: Spouse of the Head [Relacion de Parentesco: Cónyuge del Jefe o la Jefa]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D027</attrlabl>
-    <attrdef>Family Relationship: Son/Daughter[Relacion de Parentesco: Hijo(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D028</attrlabl>
-    <attrdef>Family Relationship: Son/Daughter in law [Relacion de Parentesco: Yerno o Nuera]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D029</attrlabl>
-    <attrdef>Family Relationship: Grandchild or Great-Grandchild[Relacion de Parentesco: Nieto(a) o Bisnieto(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D030</attrlabl>
-    <attrdef>Family Relationship: Father or Mother of Head [Relacion de Parentesco: Padre o Madre del Jefe(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D031</attrlabl>
-    <attrdef>Family Relationship: Father or Mother in Law[Relacion de Parentesco: Suegro(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D032</attrlabl>
-    <attrdef>Family Relationship: Other Relative[Relacion de Parentesco: Otro Pariente]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D033</attrlabl>
-    <attrdef>Family Relationship: Housekeeping[Relacion de Parentesco: Servicio Domestico]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D034</attrlabl>
-    <attrdef>Family Relationship: No Relation[Relacion de Parentesco: No Pariente]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D035</attrlabl>
-    <attrdef>Family Relationship: Total[Relacion de Parentesco: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D036</attrlabl>
-    <attrdef>Another Family Relationship: Brother or Sister[Otra Relacion de Parentesco: Hermano(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D037</attrlabl>
-    <attrdef>Another Family Relationship: Grandfather or Grandmother[Otra Relacion de Parentesco: Abuelo(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D038</attrlabl>
-    <attrdef>Another Family Relationship: Uncle or Aunt[Otra Relacion de Parentesco: Tío(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D039</attrlabl>
-    <attrdef>Another Family Relationship: Nephew[Otra Relacion de Parentesco: Sobrino(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D040</attrlabl>
-    <attrdef>Another Family Relationship: Cousin[Otra Relacion de Parentesco: Primo(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D041</attrlabl>
-    <attrdef>Another Family Relationship: Brother or Sister in Law[Otra Relacion de Parentesco: Cuñado(a) o Concuñado(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D042</attrlabl>
-    <attrdef>Another Family Relationship: Godson[Otra Relacion de Parentesco: Ahijado(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D043</attrlabl>
-    <attrdef>Another Family Relationship: Godfather or Godmother[Otra Relacion de Parentesco: Compadre o Comadre]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D044</attrlabl>
-    <attrdef>Another Family Relationship: Godparents[Otra Relacion de Parentesco: Padrino o Madrina]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D045</attrlabl>
-    <attrdef>Another Family Relationship: Undeclared[Otra Relacion de Parentesco: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D046</attrlabl>
-    <attrdef>Another Family Relationship: Great-Grandfather[Otra Relacion de Parentesco: Bisabuelo]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D047</attrlabl>
-    <attrdef>Another Family Relationship: Great-Grandchild[Otra Relacion de Parentesco: Tataranieto(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D048</attrlabl>
-    <attrdef>Another Family Relationship: Relative by Marriage[Otra Relacion de Parentesco: Consuegro]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D049</attrlabl>
-    <attrdef>Another Family Relationship: Total[Otra Relacion de Parentesco: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D050</attrlabl>
-    <attrdef>Quinquennial Age Group: 0-4[Edad Quinquenal: 0-4]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D051</attrlabl>
-    <attrdef>Quinquennial Age Group: 5-9 [Edad Quinquenal: 5-9 ]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D052</attrlabl>
-    <attrdef>Quinquennial Age Group: 10-14[Edad Quinquenal: 10-14]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D053</attrlabl>
-    <attrdef>Quinquennial Age Group: 15-19[Edad Quinquenal: 15-19]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D054</attrlabl>
-    <attrdef>Quinquennial Age Group: 20-24[Edad Quinquenal: 20-24]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D055</attrlabl>
-    <attrdef>Quinquennial Age Group: 25-29[Edad Quinquenal: 25-29]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D056</attrlabl>
-    <attrdef>Quinquennial Age Group: 30-34[Edad Quinquenal: 30-34]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D057</attrlabl>
-    <attrdef>Quinquennial Age Group: 35-39[Edad Quinquenal: 35-39]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D058</attrlabl>
-    <attrdef>Quinquennial Age Group: 40-44[Edad Quinquenal: 40-44]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D059</attrlabl>
-    <attrdef>Quinquennial Age Group: 45-49[Edad Quinquenal: 45-49]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D060</attrlabl>
-    <attrdef>Quinquennial Age Group: 50-54[Edad Quinquenal: 50-54]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D061</attrlabl>
-    <attrdef>Quinquennial Age Group: 55-59[Edad Quinquenal: 55-59]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D062</attrlabl>
-    <attrdef>Quinquennial Age Group: 60-64[Edad Quinquenal: 60-64]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D063</attrlabl>
-    <attrdef>Quinquennial Age Group: 65-69[Edad Quinquenal: 65-69]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D064</attrlabl>
-    <attrdef>Quinquennial Age Group: 70-74[Edad Quinquenal: 70-74]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D065</attrlabl>
-    <attrdef>Quinquennial Age Group: 75-79[Edad Quinquenal: 75-79]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D066</attrlabl>
-    <attrdef>Quinquennial Age Group: 80-84[Edad Quinquenal: 80-84]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D067</attrlabl>
-    <attrdef>Quinquennial Age Group: 85-89[Edad Quinquenal: 85-89]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D068</attrlabl>
-    <attrdef>Quinquennial Age Group: 90-94[Edad Quinquenal: 90-94]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D069</attrlabl>
-    <attrdef>Quinquennial Age Group: 95-98[Edad Quinquenal: 95-98]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D070</attrlabl>
-    <attrdef>Quinquennial Age Group: 99 and More[Edad Quinquenal: 99 y Más]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D071</attrlabl>
-    <attrdef>Quinquennial Age Group: Unreported[Edad Quinquenal: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>LP_D072</attrlabl>
-    <attrdef>Quinquennial Age Group: Total[Edad Quinquenal: Total]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Panama_2010</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D001</attrlabl>
+			<attrdef>Sex: Male[Sexo: Hombre]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D002</attrlabl>
+			<attrdef>Sex: Female[Sexo: Mujer]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D003</attrlabl>
+			<attrdef>Sex: Unreported[Sexo: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D004</attrlabl>
+			<attrdef>Sex: Total[Sexo: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D005</attrlabl>
+			<attrdef>Sex(Interviewee): Male[Sexo(Entrevistado): Hombre]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D006</attrlabl>
+			<attrdef>Sex(Interviewee): Female[Sexo(Entrevistado): Mujer]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D007</attrlabl>
+			<attrdef>Sex(Interviewee): Total[Sexo(Entrevistado): Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D008</attrlabl>
+			<attrdef>Social Security: Directly Insured[Segurio Social: Asegurado(a) Directo(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D009</attrlabl>
+			<attrdef>Social Security: Beneficiary [Segurio Social: Beneficiario(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D010</attrlabl>
+			<attrdef>Social Security: Retired or old Age Pensioner[Segurio Social: Jubilado(a) o Pensionado(a) por Vejez]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D011</attrlabl>
+			<attrdef>Social Security: Accident or Illness Pensioner[Segurio Social: Pensionado(a) por Accidente o Enfermedad]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D012</attrlabl>
+			<attrdef>Social Security: Retired or Pensioner by Another Country[Segurio Social: Jubilado(a) o Pensionado(a) de Otro País]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D013</attrlabl>
+			<attrdef>Social Security: None[Segurio Social: No Tiene]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D014</attrlabl>
+			<attrdef>Social Security: Undeclared[Segurio Social: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D015</attrlabl>
+			<attrdef>Social Security: Total[Segurio Social: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D016</attrlabl>
+			<attrdef>Marital Status: Cohabitating[Estado Conyugal: Unido(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D017</attrlabl>
+			<attrdef>Marital Status: Separated From Marriage[Estado Conyugal: Separado(a) de Matrimonio]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D018</attrlabl>
+			<attrdef>Marital Status: Separated From Cohabiting[Estado Conyugal: Separado(a) de Unión]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D019</attrlabl>
+			<attrdef>Marital Status: Married[Estado Conyugal: Casado(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D020</attrlabl>
+			<attrdef>Marital Status: Divorced[Estado Conyugal: Divorciado(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D021</attrlabl>
+			<attrdef>Marital Status: Widow(er)[Estado Conyugal: Viudo(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D022</attrlabl>
+			<attrdef>Marital Status: Single[Estado Conyugal: Soltero(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D023</attrlabl>
+			<attrdef>Marital Status: Less Than 15 Years[Estado Conyugal: Menor de 15 Años]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D024</attrlabl>
+			<attrdef>Marital Status: Total[Estado Conyugal: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D025</attrlabl>
+			<attrdef>Family Relationship: Head[Relacion de Parentesco: Jefe]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D026</attrlabl>
+			<attrdef>Family Relationship: Spouse of the Head [Relacion de Parentesco: Cónyuge del Jefe o la Jefa]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D027</attrlabl>
+			<attrdef>Family Relationship: Son/Daughter[Relacion de Parentesco: Hijo(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D028</attrlabl>
+			<attrdef>Family Relationship: Son/Daughter in law [Relacion de Parentesco: Yerno o Nuera]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D029</attrlabl>
+			<attrdef>Family Relationship: Grandchild or Great-Grandchild[Relacion de Parentesco: Nieto(a) o Bisnieto(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D030</attrlabl>
+			<attrdef>Family Relationship: Father or Mother of Head [Relacion de Parentesco: Padre o Madre del Jefe(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D031</attrlabl>
+			<attrdef>Family Relationship: Father or Mother in Law[Relacion de Parentesco: Suegro(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D032</attrlabl>
+			<attrdef>Family Relationship: Other Relative[Relacion de Parentesco: Otro Pariente]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D033</attrlabl>
+			<attrdef>Family Relationship: Housekeeping[Relacion de Parentesco: Servicio Domestico]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D034</attrlabl>
+			<attrdef>Family Relationship: No Relation[Relacion de Parentesco: No Pariente]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D035</attrlabl>
+			<attrdef>Family Relationship: Total[Relacion de Parentesco: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D036</attrlabl>
+			<attrdef>Another Family Relationship: Brother or Sister[Otra Relacion de Parentesco: Hermano(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D037</attrlabl>
+			<attrdef>Another Family Relationship: Grandfather or Grandmother[Otra Relacion de Parentesco: Abuelo(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D038</attrlabl>
+			<attrdef>Another Family Relationship: Uncle or Aunt[Otra Relacion de Parentesco: Tío(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D039</attrlabl>
+			<attrdef>Another Family Relationship: Nephew[Otra Relacion de Parentesco: Sobrino(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D040</attrlabl>
+			<attrdef>Another Family Relationship: Cousin[Otra Relacion de Parentesco: Primo(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D041</attrlabl>
+			<attrdef>Another Family Relationship: Brother or Sister in Law[Otra Relacion de Parentesco: Cuñado(a) o Concuñado(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D042</attrlabl>
+			<attrdef>Another Family Relationship: Godson[Otra Relacion de Parentesco: Ahijado(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D043</attrlabl>
+			<attrdef>Another Family Relationship: Godfather or Godmother[Otra Relacion de Parentesco: Compadre o Comadre]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D044</attrlabl>
+			<attrdef>Another Family Relationship: Godparents[Otra Relacion de Parentesco: Padrino o Madrina]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D045</attrlabl>
+			<attrdef>Another Family Relationship: Undeclared[Otra Relacion de Parentesco: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D046</attrlabl>
+			<attrdef>Another Family Relationship: Great-Grandfather[Otra Relacion de Parentesco: Bisabuelo]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D047</attrlabl>
+			<attrdef>Another Family Relationship: Great-Grandchild[Otra Relacion de Parentesco: Tataranieto(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D048</attrlabl>
+			<attrdef>Another Family Relationship: Relative by Marriage[Otra Relacion de Parentesco: Consuegro]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D049</attrlabl>
+			<attrdef>Another Family Relationship: Total[Otra Relacion de Parentesco: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D050</attrlabl>
+			<attrdef>Quinquennial Age Group: 0-4[Edad Quinquenal: 0-4]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D051</attrlabl>
+			<attrdef>Quinquennial Age Group: 5-9 [Edad Quinquenal: 5-9 ]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D052</attrlabl>
+			<attrdef>Quinquennial Age Group: 10-14[Edad Quinquenal: 10-14]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D053</attrlabl>
+			<attrdef>Quinquennial Age Group: 15-19[Edad Quinquenal: 15-19]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D054</attrlabl>
+			<attrdef>Quinquennial Age Group: 20-24[Edad Quinquenal: 20-24]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D055</attrlabl>
+			<attrdef>Quinquennial Age Group: 25-29[Edad Quinquenal: 25-29]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D056</attrlabl>
+			<attrdef>Quinquennial Age Group: 30-34[Edad Quinquenal: 30-34]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D057</attrlabl>
+			<attrdef>Quinquennial Age Group: 35-39[Edad Quinquenal: 35-39]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D058</attrlabl>
+			<attrdef>Quinquennial Age Group: 40-44[Edad Quinquenal: 40-44]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D059</attrlabl>
+			<attrdef>Quinquennial Age Group: 45-49[Edad Quinquenal: 45-49]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D060</attrlabl>
+			<attrdef>Quinquennial Age Group: 50-54[Edad Quinquenal: 50-54]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D061</attrlabl>
+			<attrdef>Quinquennial Age Group: 55-59[Edad Quinquenal: 55-59]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D062</attrlabl>
+			<attrdef>Quinquennial Age Group: 60-64[Edad Quinquenal: 60-64]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D063</attrlabl>
+			<attrdef>Quinquennial Age Group: 65-69[Edad Quinquenal: 65-69]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D064</attrlabl>
+			<attrdef>Quinquennial Age Group: 70-74[Edad Quinquenal: 70-74]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D065</attrlabl>
+			<attrdef>Quinquennial Age Group: 75-79[Edad Quinquenal: 75-79]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D066</attrlabl>
+			<attrdef>Quinquennial Age Group: 80-84[Edad Quinquenal: 80-84]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D067</attrlabl>
+			<attrdef>Quinquennial Age Group: 85-89[Edad Quinquenal: 85-89]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D068</attrlabl>
+			<attrdef>Quinquennial Age Group: 90-94[Edad Quinquenal: 90-94]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D069</attrlabl>
+			<attrdef>Quinquennial Age Group: 95-98[Edad Quinquenal: 95-98]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D070</attrlabl>
+			<attrdef>Quinquennial Age Group: 99 and More[Edad Quinquenal: 99 y Más]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D071</attrlabl>
+			<attrdef>Quinquennial Age Group: Unreported[Edad Quinquenal: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>LP_D072</attrlabl>
+			<attrdef>Quinquennial Age Group: Total[Edad Quinquenal: Total]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_panama_demographic_lp_2010</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_panama_demographic_lp_2010</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

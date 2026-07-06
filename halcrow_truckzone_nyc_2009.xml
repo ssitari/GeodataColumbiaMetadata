@@ -1,222 +1,223 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>CommunityCartography (Firm)</origin>
-<origin>Halcrow Group Limited</origin>
-<pubdate>2009</pubdate>
-<title>New York City Truck Zones, 2009</title>
-<geoform>vector digital data</geoform>
-<pubinfo>
-	<pubplace>New York City</pubplace>
-	<publish>Halcrow Group Limited</publish>
-</pubinfo>
-<serinfo>
-<sername>Transportation Maps and Tables</sername>
-</serinfo>
-<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/halcrow_truckzone_nyc_2009.zip</onlink>
-</citeinfo>
-</citation>
-<descript>
-<abstract>New York City Truck Zones is a polygon theme representing areas in Manhattan where truck usage is limited or prohibited. Attribute information includes the name of the zone.</abstract>
-<purpose>For research purposes only.</purpose>
-<supplinf>Please see the NYC Department of Transportation website at http://www.nyc.gov/html/dot/html/motorist/trucks.shtml for more information.</supplinf>
-</descript>
-<timeperd>
-<timeinfo>
-<sngdate>
-<caldate>2009</caldate>
-</sngdate>
-</timeinfo>
-<current>publication date</current>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>As needed</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>CommunityCartography (Firm)</origin>
+				<origin>Halcrow Group Limited</origin>
+				<pubdate>2009</pubdate>
+				<title>New York City Truck Zones, 2009</title>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>New York City</pubplace>
+					<publish>Halcrow Group Limited</publish>
+				</pubinfo>
+				<serinfo>
+					<sername>Transportation Maps and Tables</sername>
+				</serinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/halcrow_truckzone_nyc_2009.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>New York City Truck Zones is a polygon theme representing areas in Manhattan where truck usage is limited or prohibited. Attribute information includes the name of the zone.</abstract>
+			<purpose>For research purposes only.</purpose>
+			<supplinf>Please see the NYC Department of Transportation website at http://www.nyc.gov/html/dot/html/motorist/trucks.shtml for more information.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2009</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -74.256483</westbc>
-<eastbc>
+					<eastbc>
 -73.699714</eastbc>
-<northbc>
+						<northbc>
 40.911464</northbc>
-<southbc>
+							<southbc>
 40.502663</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>transportation</themekey>
-</theme>
-<theme>
-<themekt>None</themekt>
-<themekey>Truck routes</themekey>
-<themekey>Truck zones</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>New York City (5128581)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>New York (N.Y.)</placekey>
-<placekey>Manhattan (New York, N.Y.)</placekey>
-<placekey>New York County (N.Y.)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>NYC</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2009</tempkey>
-</temporal>
-</keywords>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>CommunityCartography by Halcrow</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>22 Cortlandt St</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10007</postal>
-</cntaddr>
-<cntvoice>1-212-608-3990</cntvoice>
-<cntfax>212-566-5059</cntfax>
-<cntemail>maps@halcrow.com</cntemail>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/TruckZone.jpg</browsen>
-<browsed>Thumbnail</browsed>
-<browset>JPEG</browset>
-</browse>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</native>
-<crossref>
-<citeinfo>
-<origin>CommunityCartography by Halcrow</origin>
-</citeinfo>
-</crossref>
-</idinfo>
-<dataqual>
-<lineage>
-<procstep>
-<procdesc>PDF maps were downloaded from the NYC Department of Transportation at http://www.nyc.gov/html/dot/html/trans_maps/truckroutes.html (Summer 2007 edition).  ComCarto created the polygon files using on-screen digitizing, to the NYCMap street centerlines.</procdesc>
-<procdate>August 2007</procdate>
-<proccont>
-<cntinfo>
-<cntorgp>
-<cntorg>CommunityCartography</cntorg>
-</cntorgp>
-</cntinfo>
-</proccont>
-</procstep>
-<procstep>
-<procdesc>The "2009 New York City Truck Route Map" dated May 2009 was downloaded as PDF files from the NYC Department of Transportation.  The existing GIS files were updated using on-screen digitizing at a scale of 1:12,000.</procdesc>
-<procdate>September 2009</procdate>
-<proccont>
-<cntinfo>
-<cntorgp>
-<cntorg>Halcrow</cntorg>
-</cntorgp>
-</cntinfo>
-</proccont>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-<ptvctcnt>8</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<planar>
-<mapproj>
-<mapprojn>Lambert Conformal Conic</mapprojn>
-<lambertc>
-<stdparll>40.666667</stdparll>
-<stdparll>41.033333</stdparll>
-<longcm>-74.000000</longcm>
-<latprjo>40.166667</latprjo>
-<feast>984250.000000</feast>
-<fnorth>0.000000</fnorth>
-</lambertc>
-</mapproj>
-<planci>
-<plance>coordinate pair</plance>
-<coordrep>
-<absres>0.000000</absres>
-<ordres>0.000000</ordres>
-</coordrep>
-<plandu>survey feet</plandu>
-</planci>
-</planar>
-<geodetic>
-<horizdn>North American Datum of 1983</horizdn>
-<ellips>Geodetic Reference System 80</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257222</denflat>
-</geodetic>
-</horizsys>
-<vertdef>
-<altsys>
-<altres>0.000010</altres>
-<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-</altsys>
-</vertdef>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>transportation</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Truck routes</themekey>
+								<themekey>Truck zones</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>New York City (5128581)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>New York (N.Y.)</placekey>
+								<placekey>Manhattan (New York, N.Y.)</placekey>
+								<placekey>New York County (N.Y.)</placekey>
+							</place>
+							<place>
+								<placekt>None</placekt>
+								<placekey>NYC</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2009</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>CommunityCartography by Halcrow</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>22 Cortlandt St</address>
+									<city>New York</city>
+									<state>NY</state>
+									<postal>10007</postal>
+								</cntaddr>
+								<cntvoice>1-212-608-3990</cntvoice>
+								<cntfax>212-566-5059</cntfax>
+								<cntemail>maps@halcrow.com</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/TruckZone.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</native>
+						<crossref>
+							<citeinfo>
+								<origin>CommunityCartography by Halcrow</origin>
+							</citeinfo>
+						</crossref>
+					</idinfo>
+					<dataqual>
+						<lineage>
+							<procstep>
+								<procdesc>PDF maps were downloaded from the NYC Department of Transportation at http://www.nyc.gov/html/dot/html/trans_maps/truckroutes.html (Summer 2007 edition).  ComCarto created the polygon files using on-screen digitizing, to the NYCMap street centerlines.</procdesc>
+								<procdate>August 2007</procdate>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>CommunityCartography</cntorg>
+										</cntorgp>
+									</cntinfo>
+								</proccont>
+							</procstep>
+							<procstep>
+								<procdesc>The "2009 New York City Truck Route Map" dated May 2009 was downloaded as PDF files from the NYC Department of Transportation.  The existing GIS files were updated using on-screen digitizing at a scale of 1:12,000.</procdesc>
+								<procdate>September 2009</procdate>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>Halcrow</cntorg>
+										</cntorgp>
+									</cntinfo>
+								</proccont>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>G-polygon</sdtstype>
+								<ptvctcnt>8</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<planar>
+								<mapproj>
+									<mapprojn>Lambert Conformal Conic</mapprojn>
+									<lambertc>
+										<stdparll>40.666667</stdparll>
+										<stdparll>41.033333</stdparll>
+										<longcm>-74.000000</longcm>
+										<latprjo>40.166667</latprjo>
+										<feast>984250.000000</feast>
+										<fnorth>0.000000</fnorth>
+									</lambertc>
+								</mapproj>
+								<planci>
+									<plance>coordinate pair</plance>
+									<coordrep>
+										<absres>0.000000</absres>
+										<ordres>0.000000</ordres>
+									</coordrep>
+									<plandu>survey feet</plandu>
+								</planci>
+							</planar>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+						<vertdef>
+							<altsys>
+								<altres>0.000010</altres>
+								<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+							</altsys>
+						</vertdef>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 TruckZone</enttypl>
-<enttypd>Truck Zones</enttypd>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Zones</attrlabl>
-<attrdef>limited truck zones</attrdef>
-<attrdomv>
-<edom>
-<edomv>Zones A-E; Garment District</edomv>
-<edomvd>No operator of a truck shall operate, enter, stop, stand or park his/her vehicle upon any streets designated within these "Limited Truck Zones," except for the purpose of making a delivery, loading or servicing within said zone and traveling on the respective routes as designated in Sections 4-13(d)(1)(3) and 4-13(d)(1)(4) of the New York City Traffic Rules.</edomvd>
-</edom>
-<edom>
-<edomv>Financial District; Midtown Core</edomv>
-<edomvd>No operator of a vehicle having an overall length of 33 feet or more shall enter his/her vehicle upon any streets include within these "Limited Truck Zones" as designated in Section 4-13(d)(1)(6) of the New York City Traffic Rules.</edomvd>
-</edom>
-</attrdomv>
-</attr>
-</detailed>
-<overview>
+									<enttypd>Truck Zones</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Zones</attrlabl>
+									<attrdef>limited truck zones</attrdef>
+									<attrdomv>
+										<edom>
+											<edomv>Zones A-E; Garment District</edomv>
+											<edomvd>No operator of a truck shall operate, enter, stop, stand or park his/her vehicle upon any streets designated within these "Limited Truck Zones," except for the purpose of making a delivery, loading or servicing within said zone and traveling on the respective routes as designated in Sections 4-13(d)(1)(3) and 4-13(d)(1)(4) of the New York City Traffic Rules.</edomvd>
+										</edom>
+										<edom>
+											<edomv>Financial District; Midtown Core</edomv>
+											<edomvd>No operator of a vehicle having an overall length of 33 feet or more shall enter his/her vehicle upon any streets include within these "Limited Truck Zones" as designated in Section 4-13(d)(1)(6) of the New York City Traffic Rules.</edomvd>
+										</edom>
+									</attrdomv>
+								</attr>
+							</detailed>
+							<overview>
 <eaover>The Local Truck Route Network is designated for trucks with an origin and destination for the purpose of delivery, loading or servicing within a borough. Trucks should only use non-designated routes for the purpose of accessing their destination.
 
 The Through Truck Route Network is primarily composed of major urban arterials and highways and must be used by trucks that have neither an origin or destination within the borough.
@@ -224,59 +225,59 @@ The Through Truck Route Network is primarily composed of major urban arterials a
 Manhattan and Staten Island contain Limited Truck Zones (as depicted on the Truck Route Map) with special time and size restrictions.
 
 All commercial vehicles and trucks are prohibited from utilizing the Parkway system in New York City.</eaover>
-<eadetcit>http://www.nyc.gov/html/dot/html/motorist/trucks.shtml</eadetcit>
-</overview>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>CommunityCartography by Halcrow</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>22 Cortlandt St</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10007</postal>
-</cntaddr>
-<cntvoice>1-212-608-3990</cntvoice>
-<cntfax>212-566-5059</cntfax>
-<cntemail>maps@halcrow.com</cntemail>
-</cntinfo>
-</distrib>
-<resdesc>halcrow_truckzone_nyc_2009</resdesc>
-<distliab>Maps and databases provided by Halcrow use information provided by government agencies and other sources of geographic data, and are subject to change without notice. Halcrow cannot guarantee the data provided by these sources. In no event will Halcrow be liable for any incidental, indirect, consequential or other damages suffered by any users of this information or other persons.</distliab>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
+								<eadetcit>http://www.nyc.gov/html/dot/html/motorist/trucks.shtml</eadetcit>
+							</overview>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>CommunityCartography by Halcrow</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>22 Cortlandt St</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10007</postal>
+									</cntaddr>
+									<cntvoice>1-212-608-3990</cntvoice>
+									<cntfax>212-566-5059</cntfax>
+									<cntemail>maps@halcrow.com</cntemail>
+								</cntinfo>
+							</distrib>
+							<resdesc>halcrow_truckzone_nyc_2009</resdesc>
+							<distliab>Maps and databases provided by Halcrow use information provided by government agencies and other sources of geographic data, and are subject to change without notice. Halcrow cannot guarantee the data provided by these sources. In no event will Halcrow be liable for any incidental, indirect, consequential or other damages suffered by any users of this information or other persons.</distliab>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>Geopackage</formname>
 
-</digtinfo>
-</digform>
-</stdorder>
-</distinfo>
-<metainfo>
-<metd>20100126</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212)854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+									</digtinfo>
+								</digform>
+							</stdorder>
+						</distinfo>
+						<metainfo>
+							<metd>20100126</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

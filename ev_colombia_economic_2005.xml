@@ -1,487 +1,487 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Colombia (3686110)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Colombia</placekey>
-<placekey>Colombia</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2005</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-81.722456</westbc>
-<eastbc>-67.474110</eastbc>
-<northbc>13.385775</northbc>
-<southbc>-0.566358</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Colombia (3686110)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Colombia</placekey>
+				<placekey>Colombia</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2005</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-81.722456</westbc>
+				<eastbc>-67.474110</eastbc>
+				<northbc>13.385775</northbc>
+				<southbc>-0.566358</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
  Colombia Economic Census Data, 2005 is a polygon theme representing Manzanas (6th level administrative units) in Colombia as of 2005. Attribute information includes economic variables from the 2005 Census.
 
  Official population and housing data for Colombia from the 2005 census. This census is provided at the manzana administrative level (ADM6) and includes 261,263 polygons with 194 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo_Hombre" was updated to D001 and given the alias "Gender: Male[Sexo_Hombre]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Colombia Economic Census Data, 2005</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2021</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Colombia Economic Census Data, 2005</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_colombia_economic_2005.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2005</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2005</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Colombia_2005</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Block[Manzana]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E001</attrlabl>
-    <attrdef>Economic Activity in Household: Yes[ActEconHogar_SI]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E002</attrlabl>
-    <attrdef>Economic Activity in Household: No[ActEconHogar_SI1]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E003</attrlabl>
-    <attrdef>Economic Activity in Household: Total[F4]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E004</attrlabl>
-    <attrdef>Business Location Type: Single location[Unica]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E005</attrlabl>
-    <attrdef>Business Location Type: Main[Principal]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E006</attrlabl>
-    <attrdef>Business Location Type: Branch[Sucursal]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E007</attrlabl>
-    <attrdef>Business Location Type: Auxiliary Unit[Unidad auxiliar]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E008</attrlabl>
-    <attrdef>Business Location Type: No Information[No Informa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E009</attrlabl>
-    <attrdef>Auxiliary Unit Location Type: Management[Gerencia]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E010</attrlabl>
-    <attrdef>Auxiliary Unit Location Type: Cellar[Bodega]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E011</attrlabl>
-    <attrdef>Auxiliary Unit Location Type: Point of Sale[Punto de venta]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E012</attrlabl>
-    <attrdef>Auxiliary Unit Location Type: Maintenance Garage[Taller de mantenimeinto]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E013</attrlabl>
-    <attrdef>Auxiliary Unit Location Type: Customer Service[Servicio al Cliente]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E014</attrlabl>
-    <attrdef>Auxiliary Unit Location Type: No Information[No Informa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E015</attrlabl>
-    <attrdef>Type of Property Maintained/Repaired: Motor vehicles[Vehiculos automotores]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E016</attrlabl>
-    <attrdef>Type of Property Maintained/Repaired: Motorcycles[Motocicletas]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E017</attrlabl>
-    <attrdef>Type of Property Maintained/Repaired: Personal effects[Efectos personales]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E018</attrlabl>
-    <attrdef>Type of Property Maintained/Repaired: Household goods[Enseres domesticos]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E019</attrlabl>
-    <attrdef>Type of Property Maintained/Repaired: Computer and office equipment[Computadores y equipos de oficina]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E020</attrlabl>
-    <attrdef>Type of Property Maintained/Repaired: Industrial machinery and equipment[Maquinaria y equipo industrial]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E021</attrlabl>
-    <attrdef>Type of Property Maintained/Repaired: No Information[No Informa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E022</attrlabl>
-    <attrdef>Type of Customer: Retailers[Minoristas]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E023</attrlabl>
-    <attrdef>Type of Customer: General public[Publico en general]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E024</attrlabl>
-    <attrdef>Type of Customer: Reports[No Informa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E025</attrlabl>
-    <attrdef>Type of Merchandise Sold: New[Nuevas]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E026</attrlabl>
-    <attrdef>Type of Merchandise Sold: Used[Usadas]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E027</attrlabl>
-    <attrdef>Type of Merchandise Sold: No Information[No Informa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E028</attrlabl>
-    <attrdef>Type of Service Provided: Full-Service[A la mesa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E029</attrlabl>
-    <attrdef>Type of Service Provided: Self-Service[Autoservicio]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E030</attrlabl>
-    <attrdef>Type of Service Provided: No Information[No Informa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E031</attrlabl>
-    <attrdef>Economic Activity: Industry[Industria]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E032</attrlabl>
-    <attrdef>Economic Activity: Trade[Comercio]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E033</attrlabl>
-    <attrdef>Economic Activity: Services[Servicios]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E034</attrlabl>
-    <attrdef>Economic Activity: Other[Otras Act. Economicas]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E035</attrlabl>
-    <attrdef>Economic Activity: Auxiliary Management Unit[Unidades Auxiliares Tipo Gerencia]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E036</attrlabl>
-    <attrdef>Economic Activity: Different Auxiliary Management Unit[Unidades Auxiliares Diferentes de Gerencia]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E037</attrlabl>
-    <attrdef>Economic Activity: Unemployed[Desocupada]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E038</attrlabl>
-    <attrdef>Economic Activity: No Information[No Informa]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E039</attrlabl>
-    <attrdef>Total Economic Units[Total_Unidades_Economicas]</attrdef>
-    <attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census_Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Colombia_2005</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Block[Manzana]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E001</attrlabl>
+			<attrdef>Economic Activity in Household: Yes[ActEconHogar_SI]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E002</attrlabl>
+			<attrdef>Economic Activity in Household: No[ActEconHogar_SI1]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E003</attrlabl>
+			<attrdef>Economic Activity in Household: Total[F4]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E004</attrlabl>
+			<attrdef>Business Location Type: Single location[Unica]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E005</attrlabl>
+			<attrdef>Business Location Type: Main[Principal]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E006</attrlabl>
+			<attrdef>Business Location Type: Branch[Sucursal]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E007</attrlabl>
+			<attrdef>Business Location Type: Auxiliary Unit[Unidad auxiliar]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E008</attrlabl>
+			<attrdef>Business Location Type: No Information[No Informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E009</attrlabl>
+			<attrdef>Auxiliary Unit Location Type: Management[Gerencia]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E010</attrlabl>
+			<attrdef>Auxiliary Unit Location Type: Cellar[Bodega]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E011</attrlabl>
+			<attrdef>Auxiliary Unit Location Type: Point of Sale[Punto de venta]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E012</attrlabl>
+			<attrdef>Auxiliary Unit Location Type: Maintenance Garage[Taller de mantenimeinto]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E013</attrlabl>
+			<attrdef>Auxiliary Unit Location Type: Customer Service[Servicio al Cliente]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E014</attrlabl>
+			<attrdef>Auxiliary Unit Location Type: No Information[No Informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E015</attrlabl>
+			<attrdef>Type of Property Maintained/Repaired: Motor vehicles[Vehiculos automotores]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E016</attrlabl>
+			<attrdef>Type of Property Maintained/Repaired: Motorcycles[Motocicletas]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E017</attrlabl>
+			<attrdef>Type of Property Maintained/Repaired: Personal effects[Efectos personales]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E018</attrlabl>
+			<attrdef>Type of Property Maintained/Repaired: Household goods[Enseres domesticos]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E019</attrlabl>
+			<attrdef>Type of Property Maintained/Repaired: Computer and office equipment[Computadores y equipos de oficina]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E020</attrlabl>
+			<attrdef>Type of Property Maintained/Repaired: Industrial machinery and equipment[Maquinaria y equipo industrial]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E021</attrlabl>
+			<attrdef>Type of Property Maintained/Repaired: No Information[No Informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E022</attrlabl>
+			<attrdef>Type of Customer: Retailers[Minoristas]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E023</attrlabl>
+			<attrdef>Type of Customer: General public[Publico en general]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E024</attrlabl>
+			<attrdef>Type of Customer: Reports[No Informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E025</attrlabl>
+			<attrdef>Type of Merchandise Sold: New[Nuevas]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E026</attrlabl>
+			<attrdef>Type of Merchandise Sold: Used[Usadas]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E027</attrlabl>
+			<attrdef>Type of Merchandise Sold: No Information[No Informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E028</attrlabl>
+			<attrdef>Type of Service Provided: Full-Service[A la mesa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E029</attrlabl>
+			<attrdef>Type of Service Provided: Self-Service[Autoservicio]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E030</attrlabl>
+			<attrdef>Type of Service Provided: No Information[No Informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E031</attrlabl>
+			<attrdef>Economic Activity: Industry[Industria]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E032</attrlabl>
+			<attrdef>Economic Activity: Trade[Comercio]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E033</attrlabl>
+			<attrdef>Economic Activity: Services[Servicios]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E034</attrlabl>
+			<attrdef>Economic Activity: Other[Otras Act. Economicas]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E035</attrlabl>
+			<attrdef>Economic Activity: Auxiliary Management Unit[Unidades Auxiliares Tipo Gerencia]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E036</attrlabl>
+			<attrdef>Economic Activity: Different Auxiliary Management Unit[Unidades Auxiliares Diferentes de Gerencia]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E037</attrlabl>
+			<attrdef>Economic Activity: Unemployed[Desocupada]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E038</attrlabl>
+			<attrdef>Economic Activity: No Information[No Informa]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E039</attrlabl>
+			<attrdef>Total Economic Units[Total_Unidades_Economicas]</attrdef>
+			<attrdefs>National Administrative Department of Statistics (DANE) Colombia, 2005 [Departamento Administrativo Nacional de Estadística (DANE) Colombia, 2005]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census_Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_colombia_economic_2005</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_colombia_economic_2005</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

@@ -1,1014 +1,1014 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Paraguay (3437598)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Paraguay</placekey>
-<placekey>Paraguay</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2002</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-60.604551</westbc>
-<eastbc>-54.297299</eastbc>
-<northbc>-21.032259</northbc>
-<southbc>-27.408933</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Paraguay (3437598)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Paraguay</placekey>
+				<placekey>Paraguay</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2002</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-60.604551</westbc>
+				<eastbc>-54.297299</eastbc>
+				<northbc>-21.032259</northbc>
+				<southbc>-27.408933</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Paraguay Economic Census Data, 2002 is a polygon theme representing Manzanas (6th level administrative units) in Paraguay as of 2002.  Attribute data include economic variables from the 2002 census.
 Official population and housing data for Paraguay from the 2002 census. This census is provided at the manzana administrative level (ADM6) and includes 56,241 polygons with 782 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sí,murió alguna persona" was updated to D001 and given the alias "Household Death in Previous Year: Yes[Sí,murió alguna persona]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Paraguay Economic Census Data, 2002</title>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
-<origin>East View Cartographic, Inc.</origin>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Paraguay Economic Census Data, 2002</title>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
+				<origin>East View Cartographic, Inc.</origin>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_paraguay_economic_2002.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2002</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2002</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Paraguay_2002</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E001</attrlabl>
-    <attrdef>Work Status: Working[Sí, trabajó]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E002</attrlabl>
-    <attrdef>Work Status: Not working[No trabajó]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E003</attrlabl>
-    <attrdef>Work Status: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E004</attrlabl>
-    <attrdef>Work Status: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E005</attrlabl>
-    <attrdef>Work Absence: Absent for illness/vacation/leave[Sí,tenía trabajo]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E006</attrlabl>
-    <attrdef>Work Absence: No job[No tenía trabajo]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E007</attrlabl>
-    <attrdef>Work Absence: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E008</attrlabl>
-    <attrdef>Work Absence: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E009</attrlabl>
-    <attrdef>Self Employed: Yes[Sí, hizo changa]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E010</attrlabl>
-    <attrdef>Self Employed: No[No hizo changa]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E011</attrlabl>
-    <attrdef>Self Employed: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E012</attrlabl>
-    <attrdef>Self Employed: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E013</attrlabl>
-    <attrdef>Looked for Work: Yes[Sí, buscó trabaj]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E014</attrlabl>
-    <attrdef>Looked for Work: No[No buscó]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E015</attrlabl>
-    <attrdef>Looked for Work: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E016</attrlabl>
-    <attrdef>Looked for Work: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E017</attrlabl>
-    <attrdef>Employment History: Worked before[Sí,trabajó anter]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E018</attrlabl>
-    <attrdef>Employment History: Has not worked before[No trabajó anter]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E019</attrlabl>
-    <attrdef>Employment History: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E020</attrlabl>
-    <attrdef>Employment History: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E021</attrlabl>
-    <attrdef>Unemployment Reason: Housework[Quehaceres domes]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E022</attrlabl>
-    <attrdef>Unemployment Reason: Student[Es estudiante]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E023</attrlabl>
-    <attrdef>Unemployment Reason: Retired[Es jubilado]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E024</attrlabl>
-    <attrdef>Unemployment Reason: Pensioned[Es pensionado]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E025</attrlabl>
-    <attrdef>Unemployment Reason: Landlord[Es rentista]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E026</attrlabl>
-    <attrdef>Unemployment Reason: Military service[S.M.O.]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E027</attrlabl>
-    <attrdef>Unemployment Reason: Impaired[Tiene impediment]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E028</attrlabl>
-    <attrdef>Unemployment Reason: Another situation[Otra situación]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E029</attrlabl>
-    <attrdef>Unemployment Reason: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E030</attrlabl>
-    <attrdef>Unemployment Reason: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E031</attrlabl>
-    <attrdef>Work Type: Self-employed[Trab.cta.propia]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E032</attrlabl>
-    <attrdef>Work Type: Unpaid family worker[Familiar no remu]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E033</attrlabl>
-    <attrdef>Work Type: Employer[Patrón]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E034</attrlabl>
-    <attrdef>Work Type: Domestic worker[Empleado domest.]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E035</attrlabl>
-    <attrdef>Work Type: Employee/worker[Empleado/obrero]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E036</attrlabl>
-    <attrdef>Work Type: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E037</attrlabl>
-    <attrdef>Work Type: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E038</attrlabl>
-    <attrdef>Work Sector: Public Sector[Sector público]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E039</attrlabl>
-    <attrdef>Work Sector: Private Sector[Sector privado]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E040</attrlabl>
-    <attrdef>Work Sector: Not investigated in Indigenous Census[No investigado en Censo Indígena]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E041</attrlabl>
-    <attrdef>Work Sector: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E042</attrlabl>
-    <attrdef>Work Sector: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E043</attrlabl>
-    <attrdef>Employment Permanence: Permanent[Func.permanente]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E044</attrlabl>
-    <attrdef>Employment Permanence: Contracted[Contratado]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E045</attrlabl>
-    <attrdef>Employment Permanence: Not investigated in Indigenous Census[No investigado en Censo Indígena]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E046</attrlabl>
-    <attrdef>Employment Permanence: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E047</attrlabl>
-    <attrdef>Employment Permanence: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E048</attrlabl>
-    <attrdef>Business Size: One person[Solo]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E049</attrlabl>
-    <attrdef>Business Size: 2 to 5 people[De 2 a 5 persona]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E050</attrlabl>
-    <attrdef>Business Size: 6 to 10 people[De 6 a 10 person]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E051</attrlabl>
-    <attrdef>Business Size: 11 to 50 people[De 11 a 50 perso]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E052</attrlabl>
-    <attrdef>Business Size: More than 50 people[Más de 50 person]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E053</attrlabl>
-    <attrdef>Business Size: Do not know[No sabe]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E054</attrlabl>
-    <attrdef>Business Size: Not investigated in Indigenous Census[No investigado en Censo Indígena]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E055</attrlabl>
-    <attrdef>Business Size: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E056</attrlabl>
-    <attrdef>Business Size: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E057</attrlabl>
-    <attrdef>Occupation Field: Teaching and Education Sciences[Formación pers. Docente y Ciencias de la Educación]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E058</attrlabl>
-    <attrdef>Occupation Field: Arts[Artes]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E059</attrlabl>
-    <attrdef>Occupation Field: Humanities[Humanidades]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E060</attrlabl>
-    <attrdef>Occupation Field: Social and Behavioral Sciences[Ciencias Sociales y del Comportamiento]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E061</attrlabl>
-    <attrdef>Occupation Field: Journalism and Information[Periodismo e Información]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E062</attrlabl>
-    <attrdef>Occupation Field: Business Education and Administration[Enseñanza Comercial y Administración]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E063</attrlabl>
-    <attrdef>Occupation Field: Law[Derecho]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E064</attrlabl>
-    <attrdef>Occupation Field: Biological Sciences[Ciencias Biólogicas]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E065</attrlabl>
-    <attrdef>Occupation Field: Physical Sciences[Ciencias Físicas]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E066</attrlabl>
-    <attrdef>Occupation Field: Mathematics and Statistics[Matemática y Estadística]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E067</attrlabl>
-    <attrdef>Occupation Field: Computers[Informática]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E068</attrlabl>
-    <attrdef>Occupation Field: Engineering and Related Careers[Ingeniería y Carreras afines]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E069</attrlabl>
-    <attrdef>Occupation Field: Industry and Production[Industria y Producción]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E070</attrlabl>
-    <attrdef>Occupation Field: Architecture and Construction[Arquitectura y Construcción]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E071</attrlabl>
-    <attrdef>Occupation Field: Agriculture, Forestry, and Fisheries[Agricultura, Silvicultura y Pesca]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E072</attrlabl>
-    <attrdef>Occupation Field: Veterinary[Veterinaria]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E073</attrlabl>
-    <attrdef>Occupation Field: Medicine[Medicina]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E074</attrlabl>
-    <attrdef>Occupation Field: Social Services[Servicios Sociales]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E075</attrlabl>
-    <attrdef>Occupation Field: Personal Services[Servicios Personales]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E076</attrlabl>
-    <attrdef>Occupation Field: Security Services[Servicios de Seguridad]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E077</attrlabl>
-    <attrdef>Occupation Field: Not investigated in Indigenous Census[No investigado en Censo Indígena]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E078</attrlabl>
-    <attrdef>Occupation Field: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E079</attrlabl>
-    <attrdef>Occupation Field: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E080</attrlabl>
-    <attrdef>Recorded Occupation: Executive, Legislative, and Judicial Branch[Poder Ejecutivo,Legisl.Judic. y Pers.Directivo]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E081</attrlabl>
-    <attrdef>Recorded Occupation: Scientists and Intellectuals[Profes.Científicos e Intelectuales]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E082</attrlabl>
-    <attrdef>Recorded Occupation: Midlevel Technicians and Professionals[Tecnicos y Profesionales nivel medio]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E083</attrlabl>
-    <attrdef>Recorded Occupation: Clerks[Empleados de oficina]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E084</attrlabl>
-    <attrdef>Recorded Occupation: Commercial Services and Sales[Trabaj. de Servicios y Vendedores de comercio]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E085</attrlabl>
-    <attrdef>Recorded Occupation: Agricultural, Forestry, and Fishery[Agricult., Agropecuarios y Pesqueros]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E086</attrlabl>
-    <attrdef>Recorded Occupation: Officers, Workers, and Craftsmen[Oficiales, Operarios, Artesanos]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E087</attrlabl>
-    <attrdef>Recorded Occupation: Installation Operators, Machinists, and Assemblers[Operador de Instal.y máquinas y montadores]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E088</attrlabl>
-    <attrdef>Recorded Occupation: Unskilled[Trabajadores no calificados]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E089</attrlabl>
-    <attrdef>Recorded Occupation: Armed Forces[Fuerzas Armadas]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E090</attrlabl>
-    <attrdef>Recorded Occupation: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E091</attrlabl>
-    <attrdef>Recorded Occupation: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E092</attrlabl>
-    <attrdef>Career Branch: Agriculture, Hunting, and Fishing[Agricult. Ganad.,Caza, Silvic., Pesca]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E093</attrlabl>
-    <attrdef>Career Branch: Mining and Quarrying[Explotación de Minas y Canteras]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E094</attrlabl>
-    <attrdef>Career Branch: Manufacturing Industries[Industrias Manufactureras]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E095</attrlabl>
-    <attrdef>Career Branch: Construction[Construcciones]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E096</attrlabl>
-    <attrdef>Career Branch: Electricity, Water, and Sanitation[Electricidad, Agua y Servicios Sanitarios]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E097</attrlabl>
-    <attrdef>Career Branch: Transport and Communications[Transporte y Comunicaciones]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E098</attrlabl>
-    <attrdef>Career Branch: Trade[Comercio]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E099</attrlabl>
-    <attrdef>Career Branch: Finance, Real Estate, and other Services[Finanzas, Bienes Inmuebles y otros Serv.]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E100</attrlabl>
-    <attrdef>Career Branch: Hotels and Restaurants[Hotels y Restaurantes]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E101</attrlabl>
-    <attrdef>Career Branch: Public Administration[Administración Pública]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E102</attrlabl>
-    <attrdef>Career Branch: Teaching[Enseñanza]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E103</attrlabl>
-    <attrdef>Career Branch: Social and Health Services, Comunity/Private Health[Serv. Sociales y de Salud, Comun./hogares privados]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E104</attrlabl>
-    <attrdef>Career Branch: No Response[NR]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>E105</attrlabl>
-    <attrdef>Career Branch: Total[Total]</attrdef>
-    <attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Paraguay_2002</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E001</attrlabl>
+			<attrdef>Work Status: Working[Sí, trabajó]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E002</attrlabl>
+			<attrdef>Work Status: Not working[No trabajó]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E003</attrlabl>
+			<attrdef>Work Status: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E004</attrlabl>
+			<attrdef>Work Status: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E005</attrlabl>
+			<attrdef>Work Absence: Absent for illness/vacation/leave[Sí,tenía trabajo]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E006</attrlabl>
+			<attrdef>Work Absence: No job[No tenía trabajo]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E007</attrlabl>
+			<attrdef>Work Absence: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E008</attrlabl>
+			<attrdef>Work Absence: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E009</attrlabl>
+			<attrdef>Self Employed: Yes[Sí, hizo changa]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E010</attrlabl>
+			<attrdef>Self Employed: No[No hizo changa]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E011</attrlabl>
+			<attrdef>Self Employed: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E012</attrlabl>
+			<attrdef>Self Employed: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E013</attrlabl>
+			<attrdef>Looked for Work: Yes[Sí, buscó trabaj]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E014</attrlabl>
+			<attrdef>Looked for Work: No[No buscó]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E015</attrlabl>
+			<attrdef>Looked for Work: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E016</attrlabl>
+			<attrdef>Looked for Work: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E017</attrlabl>
+			<attrdef>Employment History: Worked before[Sí,trabajó anter]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E018</attrlabl>
+			<attrdef>Employment History: Has not worked before[No trabajó anter]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E019</attrlabl>
+			<attrdef>Employment History: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E020</attrlabl>
+			<attrdef>Employment History: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E021</attrlabl>
+			<attrdef>Unemployment Reason: Housework[Quehaceres domes]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E022</attrlabl>
+			<attrdef>Unemployment Reason: Student[Es estudiante]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E023</attrlabl>
+			<attrdef>Unemployment Reason: Retired[Es jubilado]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E024</attrlabl>
+			<attrdef>Unemployment Reason: Pensioned[Es pensionado]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E025</attrlabl>
+			<attrdef>Unemployment Reason: Landlord[Es rentista]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E026</attrlabl>
+			<attrdef>Unemployment Reason: Military service[S.M.O.]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E027</attrlabl>
+			<attrdef>Unemployment Reason: Impaired[Tiene impediment]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E028</attrlabl>
+			<attrdef>Unemployment Reason: Another situation[Otra situación]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E029</attrlabl>
+			<attrdef>Unemployment Reason: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E030</attrlabl>
+			<attrdef>Unemployment Reason: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E031</attrlabl>
+			<attrdef>Work Type: Self-employed[Trab.cta.propia]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E032</attrlabl>
+			<attrdef>Work Type: Unpaid family worker[Familiar no remu]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E033</attrlabl>
+			<attrdef>Work Type: Employer[Patrón]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E034</attrlabl>
+			<attrdef>Work Type: Domestic worker[Empleado domest.]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E035</attrlabl>
+			<attrdef>Work Type: Employee/worker[Empleado/obrero]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E036</attrlabl>
+			<attrdef>Work Type: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E037</attrlabl>
+			<attrdef>Work Type: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E038</attrlabl>
+			<attrdef>Work Sector: Public Sector[Sector público]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E039</attrlabl>
+			<attrdef>Work Sector: Private Sector[Sector privado]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E040</attrlabl>
+			<attrdef>Work Sector: Not investigated in Indigenous Census[No investigado en Censo Indígena]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E041</attrlabl>
+			<attrdef>Work Sector: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E042</attrlabl>
+			<attrdef>Work Sector: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E043</attrlabl>
+			<attrdef>Employment Permanence: Permanent[Func.permanente]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E044</attrlabl>
+			<attrdef>Employment Permanence: Contracted[Contratado]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E045</attrlabl>
+			<attrdef>Employment Permanence: Not investigated in Indigenous Census[No investigado en Censo Indígena]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E046</attrlabl>
+			<attrdef>Employment Permanence: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E047</attrlabl>
+			<attrdef>Employment Permanence: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E048</attrlabl>
+			<attrdef>Business Size: One person[Solo]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E049</attrlabl>
+			<attrdef>Business Size: 2 to 5 people[De 2 a 5 persona]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E050</attrlabl>
+			<attrdef>Business Size: 6 to 10 people[De 6 a 10 person]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E051</attrlabl>
+			<attrdef>Business Size: 11 to 50 people[De 11 a 50 perso]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E052</attrlabl>
+			<attrdef>Business Size: More than 50 people[Más de 50 person]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E053</attrlabl>
+			<attrdef>Business Size: Do not know[No sabe]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E054</attrlabl>
+			<attrdef>Business Size: Not investigated in Indigenous Census[No investigado en Censo Indígena]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E055</attrlabl>
+			<attrdef>Business Size: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E056</attrlabl>
+			<attrdef>Business Size: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E057</attrlabl>
+			<attrdef>Occupation Field: Teaching and Education Sciences[Formación pers. Docente y Ciencias de la Educación]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E058</attrlabl>
+			<attrdef>Occupation Field: Arts[Artes]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E059</attrlabl>
+			<attrdef>Occupation Field: Humanities[Humanidades]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E060</attrlabl>
+			<attrdef>Occupation Field: Social and Behavioral Sciences[Ciencias Sociales y del Comportamiento]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E061</attrlabl>
+			<attrdef>Occupation Field: Journalism and Information[Periodismo e Información]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E062</attrlabl>
+			<attrdef>Occupation Field: Business Education and Administration[Enseñanza Comercial y Administración]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E063</attrlabl>
+			<attrdef>Occupation Field: Law[Derecho]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E064</attrlabl>
+			<attrdef>Occupation Field: Biological Sciences[Ciencias Biólogicas]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E065</attrlabl>
+			<attrdef>Occupation Field: Physical Sciences[Ciencias Físicas]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E066</attrlabl>
+			<attrdef>Occupation Field: Mathematics and Statistics[Matemática y Estadística]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E067</attrlabl>
+			<attrdef>Occupation Field: Computers[Informática]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E068</attrlabl>
+			<attrdef>Occupation Field: Engineering and Related Careers[Ingeniería y Carreras afines]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E069</attrlabl>
+			<attrdef>Occupation Field: Industry and Production[Industria y Producción]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E070</attrlabl>
+			<attrdef>Occupation Field: Architecture and Construction[Arquitectura y Construcción]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E071</attrlabl>
+			<attrdef>Occupation Field: Agriculture, Forestry, and Fisheries[Agricultura, Silvicultura y Pesca]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E072</attrlabl>
+			<attrdef>Occupation Field: Veterinary[Veterinaria]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E073</attrlabl>
+			<attrdef>Occupation Field: Medicine[Medicina]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E074</attrlabl>
+			<attrdef>Occupation Field: Social Services[Servicios Sociales]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E075</attrlabl>
+			<attrdef>Occupation Field: Personal Services[Servicios Personales]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E076</attrlabl>
+			<attrdef>Occupation Field: Security Services[Servicios de Seguridad]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E077</attrlabl>
+			<attrdef>Occupation Field: Not investigated in Indigenous Census[No investigado en Censo Indígena]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E078</attrlabl>
+			<attrdef>Occupation Field: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E079</attrlabl>
+			<attrdef>Occupation Field: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E080</attrlabl>
+			<attrdef>Recorded Occupation: Executive, Legislative, and Judicial Branch[Poder Ejecutivo,Legisl.Judic. y Pers.Directivo]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E081</attrlabl>
+			<attrdef>Recorded Occupation: Scientists and Intellectuals[Profes.Científicos e Intelectuales]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E082</attrlabl>
+			<attrdef>Recorded Occupation: Midlevel Technicians and Professionals[Tecnicos y Profesionales nivel medio]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E083</attrlabl>
+			<attrdef>Recorded Occupation: Clerks[Empleados de oficina]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E084</attrlabl>
+			<attrdef>Recorded Occupation: Commercial Services and Sales[Trabaj. de Servicios y Vendedores de comercio]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E085</attrlabl>
+			<attrdef>Recorded Occupation: Agricultural, Forestry, and Fishery[Agricult., Agropecuarios y Pesqueros]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E086</attrlabl>
+			<attrdef>Recorded Occupation: Officers, Workers, and Craftsmen[Oficiales, Operarios, Artesanos]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E087</attrlabl>
+			<attrdef>Recorded Occupation: Installation Operators, Machinists, and Assemblers[Operador de Instal.y máquinas y montadores]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E088</attrlabl>
+			<attrdef>Recorded Occupation: Unskilled[Trabajadores no calificados]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E089</attrlabl>
+			<attrdef>Recorded Occupation: Armed Forces[Fuerzas Armadas]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E090</attrlabl>
+			<attrdef>Recorded Occupation: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E091</attrlabl>
+			<attrdef>Recorded Occupation: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E092</attrlabl>
+			<attrdef>Career Branch: Agriculture, Hunting, and Fishing[Agricult. Ganad.,Caza, Silvic., Pesca]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E093</attrlabl>
+			<attrdef>Career Branch: Mining and Quarrying[Explotación de Minas y Canteras]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E094</attrlabl>
+			<attrdef>Career Branch: Manufacturing Industries[Industrias Manufactureras]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E095</attrlabl>
+			<attrdef>Career Branch: Construction[Construcciones]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E096</attrlabl>
+			<attrdef>Career Branch: Electricity, Water, and Sanitation[Electricidad, Agua y Servicios Sanitarios]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E097</attrlabl>
+			<attrdef>Career Branch: Transport and Communications[Transporte y Comunicaciones]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E098</attrlabl>
+			<attrdef>Career Branch: Trade[Comercio]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E099</attrlabl>
+			<attrdef>Career Branch: Finance, Real Estate, and other Services[Finanzas, Bienes Inmuebles y otros Serv.]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E100</attrlabl>
+			<attrdef>Career Branch: Hotels and Restaurants[Hotels y Restaurantes]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E101</attrlabl>
+			<attrdef>Career Branch: Public Administration[Administración Pública]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E102</attrlabl>
+			<attrdef>Career Branch: Teaching[Enseñanza]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E103</attrlabl>
+			<attrdef>Career Branch: Social and Health Services, Comunity/Private Health[Serv. Sociales y de Salud, Comun./hogares privados]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E104</attrlabl>
+			<attrdef>Career Branch: No Response[NR]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>E105</attrlabl>
+			<attrdef>Career Branch: Total[Total]</attrdef>
+			<attrdefs>General Directorate of Statistics, Surveys and Census (DGEEC) Paraguay, 2002 [Dirección General de Estadística, Encuestas y Censos (DGEEC) Paraguay, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_paraguay_economic_2002</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_paraguay_economic_2002</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

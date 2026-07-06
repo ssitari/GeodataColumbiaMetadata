@@ -112,32 +112,78 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			</cntinfo>
 		</ptcontac>
 	</idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20110727</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>U.S. Geographic Names Information System (GNIS)</title>
+						<origin>Geological Survey (U.S.)</origin>
+						<pubdate>19810501</pubdate>
+						<pubinfo>
+							<publish>United States Geological Survey</publish>
+							<pubplace>Reston, Virginia, USA</pubplace>
+						</pubinfo>
+						<othercit>The web page is titled 'U.S. Board on Geographic Names: Domestic Names - State and Topical Gazetteer Download Files'. The data set was last revised on October 2, 2009. Downloaded the NationalFile_20091002.zip file.</othercit>
+						<geoform>tabular digital data</geoform>
+						<onlink>http://geonames.usgs.gov/domestic/download_data.htm</onlink>
+						<edition>20091002</edition>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>19810501</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20091002</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>1974-Present</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>publication date: 19810501, 20091002; ground condition: 1974-Present</srccurr>
+				</srctime>
+				<srccitea>USGS - GNIS</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>GNIS Phase I data compilation and edit - Feature name and attribute data were collected from the largest-scale USGS topographic maps available. These data were compared to the records of the U.S. Board on Geographic Names. This phase is complete.
+ 
+GNIS Phase II data compilation and edit - Feature name and attribute data are collected from official state and local sources and other approved sources including historical maps and documents. This phase is not complete.
+ 
+GNIS Maintenance program - Federal and state maintenance cooperators submit new and corrected data in conjunction with their mapping and geographical information system data maintenance programs. The GNIS has an active data gathering and maintenance program. A web-based data entry and edit application allows authorized users to submit transaction data directly for validation and entry into the database, where it immediately becomes available to all web services and applications. A test and demonstration site is available. Government agencies at all levels are encouraged to join this program. Other organizations and individuals will be considered on a case basis.
+ 
+Partnerships - the Geographic Names Project enters into partnerships with State names authorities and State and local GIS agencies to integrate name, location, and attribute data in the GNIS with State and local datasets. These partnerships utilize GIS and web technology to automate and simplify data maintenance, ensure data consistency, integrity, and accuracy, and meet the requirements of the Board on Geographic Names for national names standardization. Government agencies at all levels are encouraged to join this program. Other organizations and individuals will be considered on a case basis.</procdesc>
+				<srcused>USGS - GNIS</srcused>
+				<procdate>Not complete</procdate>
+			</procstep>
+			<procstep>
+				<procdate>20100209</procdate>
+				<procdesc>The following steps were performed by ESRI: Downloaded the tabular file from the U.S. Geological Survey web site. Converted the file (containing latitude and longitude coordinates) to a shapefile in ArcMap™. Re-projected Alaska and Hawaii to improve their alignment. Reselected out the nine GNIS data sets based on their class types. Removed features with incorrect coordinates and whose NAME contains the word 'Squaw'. Added the STCTYFIPS fields and populated them using source STATE and COUNTY fields. Adjusted the widths of the NAME fields. Converted the data sets to SDC. Created their ArcGIS layer files (.lyr), projection files (.prj), and spatial indices.</procdesc>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The geospatial part of this data set was calculated from latitude/longitude coordinates.
+
+The source data is based upon the use of printed or electronic source graphics which are compiled to meet National Map Accuracy Standards.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>Entity point</sdtstype></sdtsterm></ptvctinf>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Entity point</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
 	</spdoinfo>
 	<spref>
 		<horizsys>
@@ -245,69 +291,27 @@ Outside the United States, please direct all inquiries to your local ESRI Office
 			</cntinfo>
 		</distrib>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>U.S. Geographic Names Information System (GNIS)</title>
-						<origin>Geological Survey (U.S.)</origin>
-						<pubdate>19810501</pubdate>
-						<pubinfo>
-							<publish>United States Geological Survey</publish>
-							<pubplace>Reston, Virginia, USA</pubplace>
-						</pubinfo>
-						<othercit>The web page is titled 'U.S. Board on Geographic Names: Domestic Names - State and Topical Gazetteer Download Files'. The data set was last revised on October 2, 2009. Downloaded the NationalFile_20091002.zip file.</othercit>
-						<geoform>tabular digital data</geoform>
-						<onlink>http://geonames.usgs.gov/domestic/download_data.htm</onlink>
-						<edition>20091002</edition>
-					</citeinfo>
-				</srccite>
-				<srcscale>24000</srcscale>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>19810501</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>20091002</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>1974-Present</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>publication date: 19810501, 20091002; ground condition: 1974-Present</srccurr>
-				</srctime>
-				<srccitea>USGS - GNIS</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>GNIS Phase I data compilation and edit - Feature name and attribute data were collected from the largest-scale USGS topographic maps available. These data were compared to the records of the U.S. Board on Geographic Names. This phase is complete.
- 
-GNIS Phase II data compilation and edit - Feature name and attribute data are collected from official state and local sources and other approved sources including historical maps and documents. This phase is not complete.
- 
-GNIS Maintenance program - Federal and state maintenance cooperators submit new and corrected data in conjunction with their mapping and geographical information system data maintenance programs. The GNIS has an active data gathering and maintenance program. A web-based data entry and edit application allows authorized users to submit transaction data directly for validation and entry into the database, where it immediately becomes available to all web services and applications. A test and demonstration site is available. Government agencies at all levels are encouraged to join this program. Other organizations and individuals will be considered on a case basis.
- 
-Partnerships - the Geographic Names Project enters into partnerships with State names authorities and State and local GIS agencies to integrate name, location, and attribute data in the GNIS with State and local datasets. These partnerships utilize GIS and web technology to automate and simplify data maintenance, ensure data consistency, integrity, and accuracy, and meet the requirements of the Board on Geographic Names for national names standardization. Government agencies at all levels are encouraged to join this program. Other organizations and individuals will be considered on a case basis.</procdesc>
-				<srcused>USGS - GNIS</srcused>
-				<procdate>Not complete</procdate>
-			</procstep>
-			<procstep>
-				<procdate>20100209</procdate>
-				<procdesc>The following steps were performed by ESRI: Downloaded the tabular file from the U.S. Geological Survey web site. Converted the file (containing latitude and longitude coordinates) to a shapefile in ArcMap™. Re-projected Alaska and Hawaii to improve their alignment. Reselected out the nine GNIS data sets based on their class types. Removed features with incorrect coordinates and whose NAME contains the word 'Squaw'. Added the STCTYFIPS fields and populated them using source STATE and COUNTY fields. Adjusted the widths of the NAME fields. Converted the data sets to SDC. Created their ArcGIS layer files (.lyr), projection files (.prj), and spatial indices.</procdesc>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The geospatial part of this data set was calculated from latitude/longitude coordinates.
-
-The source data is based upon the use of printed or electronic source graphics which are compiled to meet National Map Accuracy Standards.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20110727</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

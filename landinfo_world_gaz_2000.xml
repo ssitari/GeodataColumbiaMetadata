@@ -22,7 +22,10 @@
 		</descript>
 		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2000</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2000</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>publication date</current>
 		</timeperd>
 		<status>
@@ -33,322 +36,322 @@
 			<bounding>
 				<westbc>
 -179.979996</westbc>
-				<eastbc>
+					<eastbc>
 179.910004</eastbc>
-				<northbc>
+						<northbc>
 85.213997</northbc>
-				<southbc>
+							<southbc>
 -86.905998</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>society</themekey>
-				<themekey>location</themekey>
-			</theme>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>gazetteer</themekey>
-				<themekey>airports</themekey>
-				<themekey>coastal features</themekey>
-				<themekey>drainage features</themekey>
-				<themekey>islands</themekey>
-				<themekey>land features</themekey>
-				<themekey>ocean features</themekey>
-				<themekey>political features</themekey>
-				<themekey>populated places</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Earth (6295630)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>World</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2000</tempkey>
-				<tempkey>1996</tempkey>
-				<tempkey>1992</tempkey>
-				<tempkey>1993</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>PO Box 261961</address>
-					<city>Highlands Ranch</city>
-					<state>CO</state>
-					<postal>80163-1961</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>303-790-9730</cntvoice>
-				<cntemail>sales@landinfo.com</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_gaz.jpg</browsen>
-			<browsed>Thumbnail</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.6.1500</native>
-	</idinfo>
-	<dataqual>
-		<logic>No duplicate features are present. The shapefile is created directly from a topologically correct ArcInfo coverage.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-		<posacc>
-			<horizpa>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>society</themekey>
+								<themekey>location</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>gazetteer</themekey>
+								<themekey>airports</themekey>
+								<themekey>coastal features</themekey>
+								<themekey>drainage features</themekey>
+								<themekey>islands</themekey>
+								<themekey>land features</themekey>
+								<themekey>ocean features</themekey>
+								<themekey>political features</themekey>
+								<themekey>populated places</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Earth (6295630)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>World</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2000</tempkey>
+								<tempkey>1996</tempkey>
+								<tempkey>1992</tempkey>
+								<tempkey>1993</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>PO Box 261961</address>
+									<city>Highlands Ranch</city>
+									<state>CO</state>
+									<postal>80163-1961</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>303-790-9730</cntvoice>
+								<cntemail>sales@landinfo.com</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_gaz.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.6.1500</native>
+					</idinfo>
+					<dataqual>
+						<logic>No duplicate features are present. The shapefile is created directly from a topologically correct ArcInfo coverage.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+						<posacc>
+							<horizpa>
 				<horizpar>The horizontal accuracy, at a 90 percent confidence level for circular error, ranges from 1,600 feet to 7,300 feet. These figures are the root sum square of Operational Navigation Chart (ONC)/Jet Navigation Chart (JNC) sheet positional errors plus the additional error introduced by the Digital Chart of the World production process.
 Since the features are derived from annotation, they do not correspond with the true location because the latitude and longitude coordinate values were derived from the annotation location rather than the map feature itself. Locations taken from annotation are based on the lower left corner of the first letter. Also, the names associated with fuzzy polygons may occur anywhere in the general area of the feature. For example, the name 'Rocky Mountains' is a point located somewhere in the general area covered by the term Rocky Mountains. Fuzzy polygon names, which appeared on more than one ONC sheet, will occur more than once.</horizpar>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<origin>Defense Mapping Agency, presently known as National Imagery and Mapping Agency</origin>
-						<pubdate>1992</pubdate>
-						<title>Digital Chart of the World</title>
-						<pubinfo>
-							<pubplace>Redlands, California, USA</pubplace>
-							<publish>Environmental Systems Research Institute, Inc. (ESRI)</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>1000000</srcscale>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>1992</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>DCW</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>United States Department of State, Bureau of Intelligence and Research</origin>
-						<pubdate>Winter 1993/1994</pubdate>
-						<title>Geographic and Global Issues Quarterly</title>
-						<serinfo>
-							<sername>Geographic and Global Issues Quarterly</sername>
-							<issue>Volume 3, Number 4</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Washington, DC, USA</pubplace>
-							<publish>United States Department of State, Bureau of Intelligence and Research</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<typesrc>paper</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>Winter 1993/1994</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>Geographic and Global Issues</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>United States Central Intelligence Agency</origin>
-						<pubdate>2000</pubdate>
-						<title>The World Factbook 2000</title>
-						<serinfo>
-							<sername>The World Factbook</sername>
-							<issue>2000</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Washington, DC, USA</pubplace>
-							<publish>United States Central Intelligence Agency</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2000</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>CIA Factbook</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>1996</pubdate>
-						<title>ArcWorld Supplement</title>
-						<pubinfo>
-							<pubplace>Redlands, California, USA</pubplace>
-							<publish>Environmental Systems Research Institute, Inc. (ESRI)</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>3000000</srcscale>
-				<typesrc>CD_ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>1996</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>ArcWorld Supplement</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Government of Nunavut</origin>
-						<pubdate>2000</pubdate>
-						<pubinfo>
-							<pubplace>online</pubplace>
-							<publish>Government of Nunavut</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2000</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>www.gov.nu.ca</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Extracted the features from the Digital Chart of the World. Restructured attributes for easier feature classifications. Updated attribute values based on political changes and other factors. Created ArcGIST layer file (.lyr). Created ArcView legend file (.avl). Created projection file (.prj). Created spatial indices.</procdesc>
-				<srcused>DCW</srcused>
-				<srcused>Geographic and Global Issues</srcused>
-				<srcused>CIA Factbook</srcused>
-				<srcused>ArcWorld Supplement</srcused>
-				<srcused>www.gov.nu.ca</srcused>
-				<procdate>20010112</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>Entity point</sdtstype>
-				<ptvctcnt>55810</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.000000</latres>
-				<longres>0.000000</longres>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+										<origin>Defense Mapping Agency, presently known as National Imagery and Mapping Agency</origin>
+										<pubdate>1992</pubdate>
+										<title>Digital Chart of the World</title>
+										<pubinfo>
+											<pubplace>Redlands, California, USA</pubplace>
+											<publish>Environmental Systems Research Institute, Inc. (ESRI)</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<srcscale>1000000</srcscale>
+								<typesrc>CD-ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>1992</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>DCW</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>United States Department of State, Bureau of Intelligence and Research</origin>
+										<pubdate>Winter 1993/1994</pubdate>
+										<title>Geographic and Global Issues Quarterly</title>
+										<serinfo>
+											<sername>Geographic and Global Issues Quarterly</sername>
+											<issue>Volume 3, Number 4</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Washington, DC, USA</pubplace>
+											<publish>United States Department of State, Bureau of Intelligence and Research</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<typesrc>paper</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>Winter 1993/1994</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>Geographic and Global Issues</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>United States Central Intelligence Agency</origin>
+										<pubdate>2000</pubdate>
+										<title>The World Factbook 2000</title>
+										<serinfo>
+											<sername>The World Factbook</sername>
+											<issue>2000</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Washington, DC, USA</pubplace>
+											<publish>United States Central Intelligence Agency</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<typesrc>online</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>2000</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>CIA Factbook</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+										<pubdate>1996</pubdate>
+										<title>ArcWorld Supplement</title>
+										<pubinfo>
+											<pubplace>Redlands, California, USA</pubplace>
+											<publish>Environmental Systems Research Institute, Inc. (ESRI)</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<srcscale>3000000</srcscale>
+								<typesrc>CD_ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>1996</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>ArcWorld Supplement</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Government of Nunavut</origin>
+										<pubdate>2000</pubdate>
+										<pubinfo>
+											<pubplace>online</pubplace>
+											<publish>Government of Nunavut</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>2000</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>www.gov.nu.ca</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Extracted the features from the Digital Chart of the World. Restructured attributes for easier feature classifications. Updated attribute values based on political changes and other factors. Created ArcGIST layer file (.lyr). Created ArcView legend file (.avl). Created projection file (.prj). Created spatial indices.</procdesc>
+								<srcused>DCW</srcused>
+								<srcused>Geographic and Global Issues</srcused>
+								<srcused>CIA Factbook</srcused>
+								<srcused>ArcWorld Supplement</srcused>
+								<srcused>www.gov.nu.ca</srcused>
+								<procdate>20010112</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>Entity point</sdtstype>
+								<ptvctcnt>55810</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000000</latres>
+								<longres>0.000000</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 esri_gaz</enttypl>
-				<enttypd>The points represent the locations and proper names for map features around the world.</enttypd>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>TEXT</attrlabl>
-				<attrdef>Name</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>TYPE</attrlabl>
-				<attrdef>Description</attrdef>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>PO Box 261961</address>
-					<city>Highlands Ranch</city>
-					<state>CO</state>
-					<postal>80163-1961</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>303-790-9730</cntvoice>
-				<cntemail>sales@landinfo.com</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>landinfo_world_gaz_2000</resdesc>
-	</distinfo>
-	<metainfo>
-		<metd>20080929</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+									<enttypd>The points represent the locations and proper names for map features around the world.</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>TEXT</attrlabl>
+									<attrdef>Name</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TYPE</attrlabl>
+									<attrdef>Description</attrdef>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing address</addrtype>
+										<address>PO Box 261961</address>
+										<city>Highlands Ranch</city>
+										<state>CO</state>
+										<postal>80163-1961</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>303-790-9730</cntvoice>
+									<cntemail>sales@landinfo.com</cntemail>
+								</cntinfo>
+							</distrib>
+							<resdesc>landinfo_world_gaz_2000</resdesc>
+						</distinfo>
+						<metainfo>
+							<metd>20080929</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

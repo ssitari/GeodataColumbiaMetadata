@@ -26,7 +26,8 @@
 				</pubinfo>
 				<origin>Tom Tom Global Content B.V. (Firm)</origin>
 				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_highways.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_highways.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>ground condition: 2000; publication date: 2002</current>
@@ -83,7 +84,12 @@
 				<tempkt>None</tempkt>
 				<tempkey>2002</tempkey>
 			</temporal>
-			<theme><themekey>location</themekey><themekt>ISO 19115 Topic Category</themekt><themekey>transportation</themekey></theme></keywords>
+			<theme>
+				<themekey>location</themekey>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>transportation</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -115,30 +121,83 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_highways.jpg</browsen><browsed>Thumbnail</browsed><browset>JPEG</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_highways.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>JPEG</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>TomTom TIGER/Line 2000 Streets, 2012</title>
+						<origin>TomTom North America, Inc.</origin>
+						<pubdate>2002</pubdate>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<publish>TomTom North America, Inc.</publish>
+							<pubplace>Lebanon, New Hampshire, USA</pubplace>
+						</pubinfo>
+						<othercit>TIGER/Line 2000 Data Processed by a proprietary line straightening process by TomTom North America, Inc.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>100000</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2000</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>TomTom TIGER/Line Streets</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
+				<procdesc>The following steps were performed by Esri: From StreetMap Detailed Streets, extracted all Class 1, 2, and 3 road segments plus any other road segments necessary to provide network connectivity for the CLASS_RTE attribute. Converted the data set to SDC. Created the projection file (.prj) and spatial indices.</procdesc>
+				<procdate>20031212</procdate>
+				<srcused>TomTom TIGER/Line Streets</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Corrected a few known errors.  Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
+				<procdate>20081002</procdate>
+				<srcused>Esri ArcGIS Resource Centers ArcGIS Online services - USA Prime Imagery</srcused>
+			</procstep>
+			<srcinfo>
+				<srccontr>Geospatial data</srccontr>
+				<typesrc>online</typesrc>
+				<srccite>
+					<citeinfo>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<title>ArcGIS Resource Centers ArcGIS Online services - USA Prime Imagery</title>
+						<onlink>http://resources.esri.com/arcgisonlineservices/index.cfm?fa=content_detail&amp;contentID=F7EE515D-1422-2413-199DAEFAA2B134F9</onlink>
+<othercit>Accessed the map service in August 2008.
+Copyright: © 2008 i-cubed; i-cubed, Ft. Collins, CO, USA</othercit>
+						<pubinfo>
+							<pubplace>Redlands, California, USA</pubplace>
+							<publish>Esri</publish>
+						</pubinfo>
+						<geoform>raster digital data</geoform>
+					</citeinfo>
+				</srccite>
+				<srccitea>Esri ArcGIS Resource Centers ArcGIS Online services - USA Prime Imagery</srccitea>
+			</srcinfo>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The geospatial part of this data set was extracted from the 2000 Census TIGER/Line files. The positional accuracy varies with the source materials used, but generally the information is no better than the established national map Accuracy standards for 1:100,000-scale maps from the U.S. Geological Survey (USGS). To improve the accuracy, TomTom ran a process against the entire nationwide database.
+
+The level of positional accuracy in the StreetMap™ files is not suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -460,7 +519,14 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 						</reccap>
 						<recfmt>UDF (Universal Disc Format)</recfmt>
 					</offoptn>
-					<onlinopt><computer><networka><networkr>http://www.ArcGIS.com</networkr></networka></computer></onlinopt></digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ArcGIS.com</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
 			</digform>
 			<fees>Software purchase price</fees>
 			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
@@ -488,51 +554,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_us_highways</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>TomTom TIGER/Line 2000 Streets, 2012</title>
-						<origin>TomTom North America, Inc.</origin>
-						<pubdate>2002</pubdate>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<publish>TomTom North America, Inc.</publish>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-						</pubinfo>
-						<othercit>TIGER/Line 2000 Data Processed by a proprietary line straightening process by TomTom North America, Inc.</othercit>
-					</citeinfo>
-				</srccite>
-				<srcscale>100000</srcscale>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2000</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>TomTom TIGER/Line Streets</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
-				<procdesc>The following steps were performed by Esri: From StreetMap Detailed Streets, extracted all Class 1, 2, and 3 road segments plus any other road segments necessary to provide network connectivity for the CLASS_RTE attribute. Converted the data set to SDC. Created the projection file (.prj) and spatial indices.</procdesc>
-				<procdate>20031212</procdate>
-				<srcused>TomTom TIGER/Line Streets</srcused>
-			</procstep>
-			<procstep><procdesc>The following steps were performed by Esri: Corrected a few known errors.  Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc><procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv><procdate>20081002</procdate><srcused>Esri ArcGIS Resource Centers ArcGIS Online services - USA Prime Imagery</srcused></procstep><srcinfo><srccontr>Geospatial data</srccontr><typesrc>online</typesrc><srccite><citeinfo><origin>Environmental Systems Research Institute (Redlands, Calif.)</origin><title>ArcGIS Resource Centers ArcGIS Online services - USA Prime Imagery</title><onlink>http://resources.esri.com/arcgisonlineservices/index.cfm?fa=content_detail&amp;contentID=F7EE515D-1422-2413-199DAEFAA2B134F9</onlink><othercit>Accessed the map service in August 2008.
-Copyright: © 2008 i-cubed; i-cubed, Ft. Collins, CO, USA</othercit><pubinfo><pubplace>Redlands, California, USA</pubplace><publish>Esri</publish></pubinfo><geoform>raster digital data</geoform></citeinfo></srccite><srccitea>Esri ArcGIS Resource Centers ArcGIS Online services - USA Prime Imagery</srccitea></srcinfo></lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The geospatial part of this data set was extracted from the 2000 Census TIGER/Line files. The positional accuracy varies with the source materials used, but generally the information is no better than the established national map Accuracy standards for 1:100,000-scale maps from the U.S. Geological Survey (USGS). To improve the accuracy, TomTom ran a process against the entire nationwide database.
-
-The level of positional accuracy in the StreetMap™ files is not suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

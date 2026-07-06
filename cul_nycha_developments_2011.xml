@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata xml:lang="en">
-<idinfo>
+	<idinfo>
 		<citation>
 			<citeinfo>
-			<origin>New York City Housing Authority</origin>
+				<origin>New York City Housing Authority</origin>
 				<origin>Columbia University. Libraries</origin>
 				<pubdate>2014</pubdate>
 				<title>New York City Housing Authority Developments, 2011</title>
@@ -32,11 +32,11 @@
 		</status>
 		<spdom>
 			<bounding>
-<westbc>-74.257061</westbc>
-<eastbc>-73.699273</eastbc>
-<northbc>40.915087</northbc>
-<southbc>40.498294</southbc>
-</bounding>
+				<westbc>-74.257061</westbc>
+				<eastbc>-73.699273</eastbc>
+				<northbc>40.915087</northbc>
+				<southbc>40.498294</southbc>
+			</bounding>
 		</spdom>
 		<keywords>
 			<theme>
@@ -47,24 +47,24 @@
 				<themekt>ISO 19115 Topic Category</themekt>
 				<themekey>structure</themekey>
 				<themekey>society</themekey>
-				</theme>
+			</theme>
 			<place>
 				<placekt>GeoNames</placekt>
 				<placekey>New York City (5128581)</placekey>
 			</place>
 			<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>New York (N.Y.)</placekey>
-<placekey>Brooklyn (New York, N.Y.)</placekey>
-<placekey>Bronx (New York, N.Y.)</placekey>
-<placekey>Queens (New York, N.Y.)</placekey>
-<placekey>Manhattan (New York, N.Y.)</placekey>
-<placekey>Staten Island (New York, N.Y.)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>NYC</placekey>
-</place>
+				<placekt>Library of Congress Subject Headings</placekt>
+				<placekey>New York (N.Y.)</placekey>
+				<placekey>Brooklyn (New York, N.Y.)</placekey>
+				<placekey>Bronx (New York, N.Y.)</placekey>
+				<placekey>Queens (New York, N.Y.)</placekey>
+				<placekey>Manhattan (New York, N.Y.)</placekey>
+				<placekey>Staten Island (New York, N.Y.)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>NYC</placekey>
+			</place>
 			<temporal>
 				<tempkt>None</tempkt>
 				<tempkey>2011</tempkey>
@@ -74,111 +74,111 @@
 		<useconst>None</useconst>
 	</idinfo>
 
-<dataqual>
-<lineage>
-<procstep>
-<procdesc>RDS staff downloaded from NYC Open Data</procdesc>
-<procdate>2014</procdate>
-</procstep>
-</lineage>
-</dataqual>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>RDS staff downloaded from NYC Open Data</procdesc>
+				<procdate>2014</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
 
-<spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>Entity point</sdtstype>
-<ptvctcnt>346</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Entity point</sdtstype>
+				<ptvctcnt>346</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
 
-<eainfo>
-<detailed>
-<attr>
-<attrlabl>FID</attrlabl>
-<attalias>FID</attalias>
-<attrtype>OID</attrtype>
-<attwidth>4</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-<attrdef>Internal feature number.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attalias>Shape</attalias>
-<attrtype>Geometry</attrtype>
-<attwidth>0</attwidth>
-<atprecis>0</atprecis>
-<attscale>0</attscale>
-<attrdef>Feature geometry.</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Coordinates defining the features.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>DEVELOPMEN</attrlabl>
-<attrdef>Development name</attrdef>
-</attr>
-<attr>
-<attrlabl>BOROUGH</attrlabl>
-<attrdef>Borough name</attrdef>
-</attr>
-<attr>
-<attrlabl>TDS_NUM</attrlabl>
-<attrdef>ID</attrdef>
-</attr>
-<attr>
-<attrlabl>NONRES_BLD</attrlabl>
-<attrdef>Non-resident buildings</attrdef>
-</attr>
-<attr>
-<attrlabl>RES_BLD</attrlabl>
-<attrdef>Resident buildings</attrdef>
-</attr>
-<attr>
-<attrlabl>CUR_UNIT11</attrlabl>
-<attrdef>Number of housing units</attrdef>
-</attr>
-<attr>
-<attrlabl>TOTPOP11</attrlabl>
-<attrdef>Total poulation</attrdef>
-</attr>
-</detailed>
-</eainfo>
+	<eainfo>
+		<detailed>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attalias>Shape</attalias>
+				<attrtype>Geometry</attrtype>
+				<attwidth>0</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DEVELOPMEN</attrlabl>
+				<attrdef>Development name</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>BOROUGH</attrlabl>
+				<attrdef>Borough name</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>TDS_NUM</attrlabl>
+				<attrdef>ID</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>NONRES_BLD</attrlabl>
+				<attrdef>Non-resident buildings</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>RES_BLD</attrlabl>
+				<attrdef>Resident buildings</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>CUR_UNIT11</attrlabl>
+				<attrdef>Number of housing units</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>TOTPOP11</attrlabl>
+				<attrdef>Total poulation</attrdef>
+			</attr>
+		</detailed>
+	</eainfo>
 
-<distinfo>
-<resdesc>cul_nycha_developments_2011</resdesc>
-</distinfo>
-<metainfo>
-<metc>
-<cntinfo>
-<cntaddr>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<addrtype>mailing and physical address</addrtype>
-<address>MS-561</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntperp>
-<cntper>GIS/Metadata Librarian</cntper>
-<cntorg>Research Data Services (RDS)</cntorg>
-</cntperp>
+	<distinfo>
+		<resdesc>cul_nycha_developments_2011</resdesc>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<address>420 W. 118th St., 215 IAB, MC 3301</address>
+					<addrtype>mailing and physical address</addrtype>
+					<address>MS-561</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntperp>
+					<cntper>GIS/Metadata Librarian</cntper>
+					<cntorg>Research Data Services (RDS)</cntorg>
+				</cntperp>
 
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metd>20170713</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<metsi>
-<metsc>Unclassified</metsc>
-</metsi>
-</metainfo>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metd>20170713</metd>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+	</metainfo>
 </metadata>

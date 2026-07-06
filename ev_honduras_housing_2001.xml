@@ -1,1271 +1,1271 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Honduras (3608932)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Honduras</placekey>
-<placekey>Honduras</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2001</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-89.356610</westbc>
-<eastbc>-83.149552</eastbc>
-<northbc>16.518630</northbc>
-<southbc>12.984875</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Honduras (3608932)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Honduras</placekey>
+				<placekey>Honduras</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2001</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-89.356610</westbc>
+				<eastbc>-83.149552</eastbc>
+				<northbc>16.518630</northbc>
+				<southbc>12.984875</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Honduras Housing Census Data, 2001 is a polygon theme representing Aldeas in Honduras.  Attribute information includes housing information from the 2001 Census.
 Official population and housing data for Honduras from the 2001 census. This census is provided at the Aldeas administrative level (ADM3) and includes 3727 polygons with 399 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "sexo Hombre" was updated to D001 and given the alias "Sex: Male", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.There are Currently 51 Aldeas that do not join correctly from the GIS data to the Tabular data. This is likely due to name or boundary changes. we are working with INE to solve this problem
- </abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Honduras Housing Census Data, 2001</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2021</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Honduras Housing Census Data, 2001</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_honduras_housing_2001.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2001</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2001</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Honduras_2013</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-  <attrlabl>ADM3_Code</attrlabl>
-  <attrdef>Coded Value For ADM3 [Código]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value.</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>ADM3_Name</attrlabl>
-  <attrdef>Name of ADM3 Unit [Nombre_de_la_Aldea]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-<attr>
-  <attrlabl>H001</attrlabl>
-  <attrdef>Primary Source Of Water: Pipe Connected To Public Or Private System [Procedencia del Agua De tubería del sistema público o privado]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H002</attrlabl>
-  <attrdef>Primary Source Of Water: Well Drawworks [Procedencia del Agua De pozo malacate]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H003</attrlabl>
-  <attrdef>Primary Source Of Water: Well Pump [Procedencia del Agua De pozo con bomba]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H004</attrlabl>
-  <attrdef>Primary Source Of Water: Spring Water River Or Stream [Procedencia del Agua De vertiente rio o arroyo]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H005</attrlabl>
-  <attrdef>Primary Source Of Water: Lake Or Pond [Procedencia del Agua De lago o laguna]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H006</attrlabl>
-  <attrdef>Primary Source Of Water: Street Vendor Or Dealer [Procedencia del Agua De vendedor o repartidor ambulante]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H007</attrlabl>
-  <attrdef>Primary Source Of Water: Other [Procedencia del Agua Otro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H008</attrlabl>
-  <attrdef>Household Has Air Conditioner: Yes [Aire Acondicionado Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H009</attrlabl>
-  <attrdef>Household Has Air Conditioner: No [Aire Acondicionado No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H010</attrlabl>
-  <attrdef>Primary Source Of Lighting: The Pubblico Electricity System [Tipo Principal de Alumbrado Electricidad del sistema púbblico]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H011</attrlabl>
-  <attrdef>Primary Source Of Lighting: Electricity From The Private System [Tipo Principal de Alumbrado Electricidad del sistema privado]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H012</attrlabl>
-  <attrdef>Primary Source Of Lighting: Electricity Generator [Tipo Principal de Alumbrado Electricidad de motor propio]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H013</attrlabl>
-  <attrdef>Primary Source Of Lighting: Gas Lamp Or Lamp Kerosene [Tipo Principal de Alumbrado Candil o lámpara de gas  Kerosene ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H014</attrlabl>
-  <attrdef>Primary Source Of Lighting: Candle [Tipo Principal de Alumbrado Vela]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H015</attrlabl>
-  <attrdef>Primary Source Of Lighting: Ocote (Wood) [Tipo Principal de Alumbrado Ocote]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H016</attrlabl>
-  <attrdef>Primary Source Of Lighting: Solar Panel [Tipo Principal de Alumbrado Panel solar]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H017</attrlabl>
-  <attrdef>Primary Source Of Lighting: Other [Tipo Principal de Alumbrado Otro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H018</attrlabl>
-  <attrdef>Housing Location (Area_1): Urban [Area Urbano-Rural Urbano]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H019</attrlabl>
-  <attrdef>Housing Location (Area_1): Rural [Area Urbano-Rural Rural]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H020</attrlabl>
-  <attrdef>Housing Location (Area_): Urban [Area Urbano-Rural Urbano]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H021</attrlabl>
-  <attrdef>Housing Location (Area_): Rural [Area Urbano-Rural Rural]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H022</attrlabl>
-  <attrdef>Garbage Removal: The Street, River, Stream, Lake Or Sea [Eliminación de la Basura La tira a la calle río quebrada lago o mar]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H023</attrlabl>
-  <attrdef>Garbage Removal: Collected By Garbage Truck [Eliminación de la Basura La recoge el carro de la basura]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H024</attrlabl>
-  <attrdef>Garbage Removal: Deposited At A Warehouse Or In A Container [Eliminación de la Basura La lleva al depósito o contenedor]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H025</attrlabl>
-  <attrdef>Garbage Removal: Burning Or Burying [Eliminación de la Basura La quema o entiera]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H026</attrlabl>
-  <attrdef>Garbage Removal: Pays Individuals To Dispose Of [Eliminación de la Basura Paga a particulares para que la boten]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H027</attrlabl>
-  <attrdef>Garbage Removal: Other [Eliminación de la Basura Otro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H028</attrlabl>
-  <attrdef>Has A Room For Cooking In: Yes [Tiene una Pieza para Cocinar Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H029</attrlabl>
-  <attrdef>Has A Room For Cooking In: No [Tiene una Pieza para Cocinar No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H030</attrlabl>
-  <attrdef>Has A Kitchen: Yes [Pieza para Cocinar es Exclusiva Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H031</attrlabl>
-  <attrdef>Has A Kitchen: No [Pieza para Cocinar es Exclusiva No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H032</attrlabl>
-  <attrdef>Primary Source Of Fuel For Cooking: Firewood [Fuente de Energía Principal para Cocinar Leña]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H033</attrlabl>
-  <attrdef>Primary Source Of Fuel For Cooking: Kerosene [Fuente de Energía Principal para Cocinar Gas Kerosene ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H034</attrlabl>
-  <attrdef>Primary Source Of Fuel For Cooking: Propane Gas  [Fuente de Energía Principal para Cocinar Gas propano  Chimbo ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H035</attrlabl>
-  <attrdef>Primary Source Of Fuel For Cooking: Electricity [Fuente de Energía Principal para Cocinar Electricidad]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H036</attrlabl>
-  <attrdef>Primary Source Of Fuel For Cooking: Other [Fuente de Energía Principal para Cocinar Otro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H037</attrlabl>
-  <attrdef>Primary Source Of Fuel For Cooking: Does Not Cook [Fuente de Energía Principal para Cocinar No cocina]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H038</attrlabl>
-  <attrdef>Occupancy Status: Busy With People Present [Condición de Ocupación Ocupada con personas presentes]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H039</attrlabl>
-  <attrdef>Occupancy Status: Busy With Absentees [Condición de Ocupación Ocupada con personas ausentes]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H040</attrlabl>
-  <attrdef>Occupancy Status: Unoccupied For Rent Or Sell [Condición de Ocupación Desocupada para alquiler o vender]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H041</attrlabl>
-  <attrdef>Occupancy Status: Unoccupied Temporary Use [Condición de Ocupación Desocupada de uso temporal]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H042</attrlabl>
-  <attrdef>Occupancy Status: Unoccupied Repair [Condición de Ocupación Desocupada en reparación]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H043</attrlabl>
-  <attrdef>Occupancy Status: Unoccupied Under Construction [Condición de Ocupación Desocupada en construcción]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H044</attrlabl>
-  <attrdef>Occupancy Status: Unoccupied Other [Condición de Ocupación Desocupada otro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H045</attrlabl>
-  <attrdef>Any Person, Group Or Buy / Consume Food Separately: Yes [Alguna Persona, Grupo u Hogar compra/consume alimentos separado Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H046</attrlabl>
-  <attrdef>Any Person, Group Or Buy / Consume Food Separately: No [Alguna Persona, Grupo u Hogar compra/consume alimentos separado No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H047</attrlabl>
-  <attrdef>Radio, Tape Recorder, Or Sound Equipment: Yes [Radio, Radiograbadora o Equipo de Sonido Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H048</attrlabl>
-  <attrdef>Radio, Tape Recorder, Or Sound Equipment: No [Radio, Radiograbadora o Equipo de Sonido No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H049</attrlabl>
-  <attrdef>Household Overcrowding: Less Than 3 People Per Room [Hacinamiento Menos de 3 personas por cuarto]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H050</attrlabl>
-  <attrdef>Household Overcrowding: F3 Or More People Per Room [Hacinamiento F3 o más personas por cuarto]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H051</attrlabl>
-  <attrdef>Electric Washing Machine: Yes [Lavadora Electrica Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H052</attrlabl>
-  <attrdef>Electric Washing Machine: No [Lavadora Electrica No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H053</attrlabl>
-  <attrdef>Sewing Machine: Yes [Mäquina de Coser Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H054</attrlabl>
-  <attrdef>Sewing Machine: No [Mäquina de Coser No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H055</attrlabl>
-  <attrdef>No Water Service: With Nbi (Unsatisfied Basic Needs) [NBI - Agua Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H056</attrlabl>
-  <attrdef>No Water Service: No Nbi (Unsatisfied Basic Needs) [NBI - Agua No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H057</attrlabl>
-  <attrdef>State Of Housing: With Nbi (Unsatisfied Basic Needs) [NBI - Estado de la Vivienda Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H058</attrlabl>
-  <attrdef>State Of Housing: No Nbi (Unsatisfied Basic Needs) [NBI - Estado de la Vivienda No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H059</attrlabl>
-  <attrdef>Overcrowding: With Nbi (Unsatisfied Basic Needs) [NBI - Hacinamiento Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H060</attrlabl>
-  <attrdef>Overcrowding: No Nbi (Unsatisfied Basic Needs) [NBI - Hacinamiento No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H061</attrlabl>
-  <attrdef>Issues With Sanitation: With Nbi (Unsatisfied Basic Needs) [NBI - Saneamiento Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H062</attrlabl>
-  <attrdef>Issues With Sanitation: No Nbi (Unsatisfied Basic Needs) [NBI - Saneamiento No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H063</attrlabl>
-  <attrdef>Exterior Wall Material: Brick [Material predominante en las Paredes Exteriores Ladrillo rafón]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H064</attrlabl>
-  <attrdef>Exterior Wall Material: Stone Cracked Or Quarry [Material predominante en las Paredes Exteriores Piedra rajada o cantera]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H065</attrlabl>
-  <attrdef>Exterior Wall Material: Cement Or Concrete Block [Material predominante en las Paredes Exteriores Bloque de cemento o concreto]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H066</attrlabl>
-  <attrdef>Exterior Wall Material: Adobe [Material predominante en las Paredes Exteriores Adobe]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H067</attrlabl>
-  <attrdef>Exterior Wall Material: Wood [Material predominante en las Paredes Exteriores Madera]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H068</attrlabl>
-  <attrdef>Exterior Wall Material: Bahareque/Straw And Mud [Material predominante en las Paredes Exteriores Bahareque]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H069</attrlabl>
-  <attrdef>Exterior Wall Material: Stick Or Cane [Material predominante en las Paredes Exteriores Palo o caña]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H070</attrlabl>
-  <attrdef>Exterior Wall Material: Waste Material [Material predominante en las Paredes Exteriores Material de desecho]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H071</attrlabl>
-  <attrdef>Exterior Wall Material: Other [Material predominante en las Paredes Exteriores Otro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H072</attrlabl>
-  <attrdef>Relationship To The Head Of Household: Head Of Household [Relación o Parentesco con el Jefe(a) del Hogar Jefe o Jefa del hogar]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H073</attrlabl>
-  <attrdef>Relationship To The Head Of Household: Spouse Or Partner [Relación o Parentesco con el Jefe(a) del Hogar Cónyuge o pareja]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H074</attrlabl>
-  <attrdef>Relationship To The Head Of Household: Son Or Stepson [Relación o Parentesco con el Jefe(a) del Hogar Hijo a  o hijastro a ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H075</attrlabl>
-  <attrdef>Relationship To The Head Of Household: Son Or Daughter [Relación o Parentesco con el Jefe(a) del Hogar Yerno o nuera]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H076</attrlabl>
-  <attrdef>Relationship To The Head Of Household: Grand Child [Relación o Parentesco con el Jefe(a) del Hogar Nieto a ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H077</attrlabl>
-  <attrdef>Relationship To The Head Of Household: Father Or Mother [Relación o Parentesco con el Jefe(a) del Hogar Padre madre o suegro a ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H078</attrlabl>
-  <attrdef>Relationship To The Head Of Household: Brother Or Sister [Relación o Parentesco con el Jefe(a) del Hogar Hermano a  o cuñado a ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H079</attrlabl>
-  <attrdef>Relationship To The Head Of Household: Neice Or Nephew [Relación o Parentesco con el Jefe(a) del Hogar Sobrino a ]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H080</attrlabl>
-  <attrdef>Relationship To The Head Of Household: Other Relative [Relación o Parentesco con el Jefe(a) del Hogar Otro Pariente]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H081</attrlabl>
-  <attrdef>Relationship To The Head Of Household: Employed Or Family Of Employed  [Relación o Parentesco con el Jefe(a) del Hogar Empleada o  dometica o  y sus familiares]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H082</attrlabl>
-  <attrdef>Relationship To The Head Of Household: Other Non-Relative [Relación o Parentesco con el Jefe(a) del Hogar Otro no pariente]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H083</attrlabl>
-  <attrdef>Relationship To The Head Of Household: Collective Household [Relación o Parentesco con el Jefe(a) del Hogar Residente en vivenda colectiva]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H084</attrlabl>
-  <attrdef>Has A Computer: Yes [Computadora Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H085</attrlabl>
-  <attrdef>Has A Computer: No [Computadora No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H086</attrlabl>
-  <attrdef>Floor Material: Earth [Material predominante en el Piso Tierra]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H087</attrlabl>
-  <attrdef>Floor Material: Cement Slab [Material predominante en el Piso Plancha de cemento]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H088</attrlabl>
-  <attrdef>Floor Material: Wood [Material predominante en el Piso Madera]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H089</attrlabl>
-  <attrdef>Floor Material: Cement Brick [Material predominante en el Piso Ladrillo de cemento]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H090</attrlabl>
-  <attrdef>Floor Material: Brick Or Granite Terrazzo [Material predominante en el Piso Ladrillo de terrazo o granito]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H091</attrlabl>
-  <attrdef>Floor Material: Mudbrick [Material predominante en el Piso Ladrillo de barro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H092</attrlabl>
-  <attrdef>Floor Material: Ceramics [Material predominante en el Piso Cerámica]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H093</attrlabl>
-  <attrdef>Floor Material: Other [Material predominante en el Piso Otro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H094</attrlabl>
-  <attrdef>Has A Refrigerator: Yes [Refrigeradora F1/si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H095</attrlabl>
-  <attrdef>Has A Refrigerator: No [Refrigeradora No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H096</attrlabl>
-  <attrdef>Roofing Material: Clay Tile [Material predominante en el Techo Teja de barro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H097</attrlabl>
-  <attrdef>Roofing Material: Asbestos Sheet [Material predominante en el Techo Lámina de asbesto]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H098</attrlabl>
-  <attrdef>Roofing Material: Zinc Sheet [Material predominante en el Techo Lámina de zinc]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H099</attrlabl>
-  <attrdef>Roofing Material: Concrete [Material predominante en el Techo Conreto]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H100</attrlabl>
-  <attrdef>Roofing Material: Palm Straw Or Similar [Material predominante en el Techo Paja palma o similar]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H101</attrlabl>
-  <attrdef>Roofing Material: Waste Material [Material predominante en el Techo Material de desecho]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H102</attrlabl>
-  <attrdef>Roofing Material: Other [Material predominante en el Techo Otro]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H103</attrlabl>
-  <attrdef>Has A Telephone: Yes [Telefono Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H104</attrlabl>
-  <attrdef>Has A Telephone: No [Telefono No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H105</attrlabl>
-  <attrdef>Tenure Of Household: Own [Tenencia de la Vivienda Propia]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H106</attrlabl>
-  <attrdef>Tenure Of Household: Own Paying It In Installments [Tenencia de la Vivienda Propia  pagándola a plazos]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H107</attrlabl>
-  <attrdef>Tenure Of Household: Rented [Tenencia de la Vivienda Alquilada]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H108</attrlabl>
-  <attrdef>Tenure Of Household: Loaned Or Transferred Without Payment [Tenencia de la Vivienda Prestada o cedida sin pago]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H109</attrlabl>
-  <attrdef>Property Type: Independent House [Tipo de Vivienda Casa independiente]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H110</attrlabl>
-  <attrdef>Property Type: Apartment [Tipo de Vivienda Apartamento]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H111</attrlabl>
-  <attrdef>Property Type: Room In Inn Or Rooming [Tipo de Vivienda Cuarto en mesón o cuartería]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H112</attrlabl>
-  <attrdef>Property Type: Local Unbuilt Housing [Tipo de Vivienda Local no construido para vivienda]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H113</attrlabl>
-  <attrdef>Property Type: Transitional Sheltering [Tipo de Vivienda Albergue transitorio]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H114</attrlabl>
-  <attrdef>Property Type: Makeshift House [Tipo de Vivienda Casa improvisada]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H115</attrlabl>
-  <attrdef>Property Type: Other [Tipo de Vivienda Otro particular]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H116</attrlabl>
-  <attrdef>Property Type: Hotel Pension Or Guest House [Tipo de Vivienda Hotel pensión o casa de huespedes]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H117</attrlabl>
-  <attrdef>Property Type: Sanatorium Hospital Or Clinic [Tipo de Vivienda Hospital sanatorio o clínica]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H118</attrlabl>
-  <attrdef>Property Type: Orphanage Or Nursing Home [Tipo de Vivienda Orfanato o asilo]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H119</attrlabl>
-  <attrdef>Property Type: Battalion Headquarters Or Police Station [Tipo de Vivienda Cuartel batallón o posta policial]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H120</attrlabl>
-  <attrdef>Property Type: Prison Or Reformatory [Tipo de Vivienda Prision o reformatorio]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H121</attrlabl>
-  <attrdef>Property Type: Other Collective [Tipo de Vivienda Otro colectiva]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H122</attrlabl>
-  <attrdef>Facilities: Inside The House [Instalaciones Dentro de la vivienda]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H123</attrlabl>
-  <attrdef>Facilities: Outside The House But Within The Property [Instalaciones Fuera de la vivienda pero dentro de la propiedad]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H124</attrlabl>
-  <attrdef>Facilities: Does Not Have [Instalaciones No tiene]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H125</attrlabl>
-  <attrdef>Has A Tv: Yes [Televisor Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H126</attrlabl>
-  <attrdef>Has A Tv: No [Televisor No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H127</attrlabl>
-  <attrdef>Sewage Removal: Toilet Connected To Sewage System [Servicio Sanitario Inodoro conectado a red de alcantarillado]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H128</attrlabl>
-  <attrdef>Sanitary Service: Toilet Connected To Cesspit [Servicio Sanitario Inodoro conectado a pozo septico]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H129</attrlabl>
-  <attrdef>Sanitary Service: Flush Toilet To River Creek Lagoon Or Lake [Servicio Sanitario Inodoro con descarga a rio  quebrada  laguna  mar o lago]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H130</attrlabl>
-  <attrdef>Sanitary Service: Simple Pit Latrine [Servicio Sanitario Letrina de pozo simple]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H131</attrlabl>
-  <attrdef>Sanitary Service: Does Not Have A Toilet [Servicio Sanitario No tiene]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H132</attrlabl>
-  <attrdef>Health Service Is Exclusive: Yes [Servicio Sanitario es Exclusivo Si]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H133</attrlabl>
-  <attrdef>Health Service Is Exclusive: No [Servicio Sanitario es Exclusivo No]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H134</attrlabl>
-  <attrdef>Unsatisfied Basic Needs: Homes With 0 Nbi[Necesidades Basicas Insatisfechas: Vivendas Con 0 Nbi] [NBI - Total F0]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H135</attrlabl>
-  <attrdef>Unsatisfied Basic Needs: Homes With 1 Nbi[Necesidades Basicas Insatisfechas: Vivendas Con 1 Nbi] [NBI - Total F1]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H136</attrlabl>
-  <attrdef>Unsatisfied Basic Needs: Homes With 2 Nbi[Necesidades Basicas Insatisfechas: Vivendas Con 2 Nbi] [NBI - Total F2]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H137</attrlabl>
-  <attrdef>Unsatisfied Basic Needs: Homes With 3 Nbi[Necesidades Basicas Insatisfechas: Vivendas Con 3 Nbi] [NBI - Total F3]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>H138</attrlabl>
-  <attrdef>Unsatisfied Basic Needs: Homes With 4 Or More Nbi[Necesidades Basicas Insatisfechas: Vivendas Con 4 Mas Nbi] [NBI - Total F4 o más]</attrdef>
-  <attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-  </attr>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Honduras_2013</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>ADM3_Code</attrlabl>
+			<attrdef>Coded Value For ADM3 [Código]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM3_Name</attrlabl>
+			<attrdef>Name of ADM3 Unit [Nombre_de_la_Aldea]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+			<attr>
+				<attrlabl>H001</attrlabl>
+				<attrdef>Primary Source Of Water: Pipe Connected To Public Or Private System [Procedencia del Agua De tubería del sistema público o privado]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H002</attrlabl>
+				<attrdef>Primary Source Of Water: Well Drawworks [Procedencia del Agua De pozo malacate]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H003</attrlabl>
+				<attrdef>Primary Source Of Water: Well Pump [Procedencia del Agua De pozo con bomba]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H004</attrlabl>
+				<attrdef>Primary Source Of Water: Spring Water River Or Stream [Procedencia del Agua De vertiente rio o arroyo]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H005</attrlabl>
+				<attrdef>Primary Source Of Water: Lake Or Pond [Procedencia del Agua De lago o laguna]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H006</attrlabl>
+				<attrdef>Primary Source Of Water: Street Vendor Or Dealer [Procedencia del Agua De vendedor o repartidor ambulante]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H007</attrlabl>
+				<attrdef>Primary Source Of Water: Other [Procedencia del Agua Otro]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H008</attrlabl>
+				<attrdef>Household Has Air Conditioner: Yes [Aire Acondicionado Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H009</attrlabl>
+				<attrdef>Household Has Air Conditioner: No [Aire Acondicionado No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H010</attrlabl>
+				<attrdef>Primary Source Of Lighting: The Pubblico Electricity System [Tipo Principal de Alumbrado Electricidad del sistema púbblico]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H011</attrlabl>
+				<attrdef>Primary Source Of Lighting: Electricity From The Private System [Tipo Principal de Alumbrado Electricidad del sistema privado]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H012</attrlabl>
+				<attrdef>Primary Source Of Lighting: Electricity Generator [Tipo Principal de Alumbrado Electricidad de motor propio]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H013</attrlabl>
+				<attrdef>Primary Source Of Lighting: Gas Lamp Or Lamp Kerosene [Tipo Principal de Alumbrado Candil o lámpara de gas  Kerosene ]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H014</attrlabl>
+				<attrdef>Primary Source Of Lighting: Candle [Tipo Principal de Alumbrado Vela]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H015</attrlabl>
+				<attrdef>Primary Source Of Lighting: Ocote (Wood) [Tipo Principal de Alumbrado Ocote]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H016</attrlabl>
+				<attrdef>Primary Source Of Lighting: Solar Panel [Tipo Principal de Alumbrado Panel solar]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H017</attrlabl>
+				<attrdef>Primary Source Of Lighting: Other [Tipo Principal de Alumbrado Otro]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H018</attrlabl>
+				<attrdef>Housing Location (Area_1): Urban [Area Urbano-Rural Urbano]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H019</attrlabl>
+				<attrdef>Housing Location (Area_1): Rural [Area Urbano-Rural Rural]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H020</attrlabl>
+				<attrdef>Housing Location (Area_): Urban [Area Urbano-Rural Urbano]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H021</attrlabl>
+				<attrdef>Housing Location (Area_): Rural [Area Urbano-Rural Rural]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H022</attrlabl>
+				<attrdef>Garbage Removal: The Street, River, Stream, Lake Or Sea [Eliminación de la Basura La tira a la calle río quebrada lago o mar]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H023</attrlabl>
+				<attrdef>Garbage Removal: Collected By Garbage Truck [Eliminación de la Basura La recoge el carro de la basura]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H024</attrlabl>
+				<attrdef>Garbage Removal: Deposited At A Warehouse Or In A Container [Eliminación de la Basura La lleva al depósito o contenedor]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H025</attrlabl>
+				<attrdef>Garbage Removal: Burning Or Burying [Eliminación de la Basura La quema o entiera]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H026</attrlabl>
+				<attrdef>Garbage Removal: Pays Individuals To Dispose Of [Eliminación de la Basura Paga a particulares para que la boten]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H027</attrlabl>
+				<attrdef>Garbage Removal: Other [Eliminación de la Basura Otro]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H028</attrlabl>
+				<attrdef>Has A Room For Cooking In: Yes [Tiene una Pieza para Cocinar Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H029</attrlabl>
+				<attrdef>Has A Room For Cooking In: No [Tiene una Pieza para Cocinar No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H030</attrlabl>
+				<attrdef>Has A Kitchen: Yes [Pieza para Cocinar es Exclusiva Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H031</attrlabl>
+				<attrdef>Has A Kitchen: No [Pieza para Cocinar es Exclusiva No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H032</attrlabl>
+				<attrdef>Primary Source Of Fuel For Cooking: Firewood [Fuente de Energía Principal para Cocinar Leña]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H033</attrlabl>
+				<attrdef>Primary Source Of Fuel For Cooking: Kerosene [Fuente de Energía Principal para Cocinar Gas Kerosene ]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H034</attrlabl>
+				<attrdef>Primary Source Of Fuel For Cooking: Propane Gas  [Fuente de Energía Principal para Cocinar Gas propano  Chimbo ]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H035</attrlabl>
+				<attrdef>Primary Source Of Fuel For Cooking: Electricity [Fuente de Energía Principal para Cocinar Electricidad]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H036</attrlabl>
+				<attrdef>Primary Source Of Fuel For Cooking: Other [Fuente de Energía Principal para Cocinar Otro]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H037</attrlabl>
+				<attrdef>Primary Source Of Fuel For Cooking: Does Not Cook [Fuente de Energía Principal para Cocinar No cocina]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H038</attrlabl>
+				<attrdef>Occupancy Status: Busy With People Present [Condición de Ocupación Ocupada con personas presentes]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H039</attrlabl>
+				<attrdef>Occupancy Status: Busy With Absentees [Condición de Ocupación Ocupada con personas ausentes]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H040</attrlabl>
+				<attrdef>Occupancy Status: Unoccupied For Rent Or Sell [Condición de Ocupación Desocupada para alquiler o vender]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H041</attrlabl>
+				<attrdef>Occupancy Status: Unoccupied Temporary Use [Condición de Ocupación Desocupada de uso temporal]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H042</attrlabl>
+				<attrdef>Occupancy Status: Unoccupied Repair [Condición de Ocupación Desocupada en reparación]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H043</attrlabl>
+				<attrdef>Occupancy Status: Unoccupied Under Construction [Condición de Ocupación Desocupada en construcción]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H044</attrlabl>
+				<attrdef>Occupancy Status: Unoccupied Other [Condición de Ocupación Desocupada otro]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H045</attrlabl>
+				<attrdef>Any Person, Group Or Buy / Consume Food Separately: Yes [Alguna Persona, Grupo u Hogar compra/consume alimentos separado Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H046</attrlabl>
+				<attrdef>Any Person, Group Or Buy / Consume Food Separately: No [Alguna Persona, Grupo u Hogar compra/consume alimentos separado No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H047</attrlabl>
+				<attrdef>Radio, Tape Recorder, Or Sound Equipment: Yes [Radio, Radiograbadora o Equipo de Sonido Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H048</attrlabl>
+				<attrdef>Radio, Tape Recorder, Or Sound Equipment: No [Radio, Radiograbadora o Equipo de Sonido No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H049</attrlabl>
+				<attrdef>Household Overcrowding: Less Than 3 People Per Room [Hacinamiento Menos de 3 personas por cuarto]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H050</attrlabl>
+				<attrdef>Household Overcrowding: F3 Or More People Per Room [Hacinamiento F3 o más personas por cuarto]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H051</attrlabl>
+				<attrdef>Electric Washing Machine: Yes [Lavadora Electrica Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H052</attrlabl>
+				<attrdef>Electric Washing Machine: No [Lavadora Electrica No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H053</attrlabl>
+				<attrdef>Sewing Machine: Yes [Mäquina de Coser Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H054</attrlabl>
+				<attrdef>Sewing Machine: No [Mäquina de Coser No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H055</attrlabl>
+				<attrdef>No Water Service: With Nbi (Unsatisfied Basic Needs) [NBI - Agua Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H056</attrlabl>
+				<attrdef>No Water Service: No Nbi (Unsatisfied Basic Needs) [NBI - Agua No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H057</attrlabl>
+				<attrdef>State Of Housing: With Nbi (Unsatisfied Basic Needs) [NBI - Estado de la Vivienda Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H058</attrlabl>
+				<attrdef>State Of Housing: No Nbi (Unsatisfied Basic Needs) [NBI - Estado de la Vivienda No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H059</attrlabl>
+				<attrdef>Overcrowding: With Nbi (Unsatisfied Basic Needs) [NBI - Hacinamiento Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H060</attrlabl>
+				<attrdef>Overcrowding: No Nbi (Unsatisfied Basic Needs) [NBI - Hacinamiento No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H061</attrlabl>
+				<attrdef>Issues With Sanitation: With Nbi (Unsatisfied Basic Needs) [NBI - Saneamiento Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H062</attrlabl>
+				<attrdef>Issues With Sanitation: No Nbi (Unsatisfied Basic Needs) [NBI - Saneamiento No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H063</attrlabl>
+				<attrdef>Exterior Wall Material: Brick [Material predominante en las Paredes Exteriores Ladrillo rafón]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H064</attrlabl>
+				<attrdef>Exterior Wall Material: Stone Cracked Or Quarry [Material predominante en las Paredes Exteriores Piedra rajada o cantera]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H065</attrlabl>
+				<attrdef>Exterior Wall Material: Cement Or Concrete Block [Material predominante en las Paredes Exteriores Bloque de cemento o concreto]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H066</attrlabl>
+				<attrdef>Exterior Wall Material: Adobe [Material predominante en las Paredes Exteriores Adobe]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H067</attrlabl>
+				<attrdef>Exterior Wall Material: Wood [Material predominante en las Paredes Exteriores Madera]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H068</attrlabl>
+				<attrdef>Exterior Wall Material: Bahareque/Straw And Mud [Material predominante en las Paredes Exteriores Bahareque]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H069</attrlabl>
+				<attrdef>Exterior Wall Material: Stick Or Cane [Material predominante en las Paredes Exteriores Palo o caña]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H070</attrlabl>
+				<attrdef>Exterior Wall Material: Waste Material [Material predominante en las Paredes Exteriores Material de desecho]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H071</attrlabl>
+				<attrdef>Exterior Wall Material: Other [Material predominante en las Paredes Exteriores Otro]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H072</attrlabl>
+				<attrdef>Relationship To The Head Of Household: Head Of Household [Relación o Parentesco con el Jefe(a) del Hogar Jefe o Jefa del hogar]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H073</attrlabl>
+				<attrdef>Relationship To The Head Of Household: Spouse Or Partner [Relación o Parentesco con el Jefe(a) del Hogar Cónyuge o pareja]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H074</attrlabl>
+				<attrdef>Relationship To The Head Of Household: Son Or Stepson [Relación o Parentesco con el Jefe(a) del Hogar Hijo a  o hijastro a ]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H075</attrlabl>
+				<attrdef>Relationship To The Head Of Household: Son Or Daughter [Relación o Parentesco con el Jefe(a) del Hogar Yerno o nuera]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H076</attrlabl>
+				<attrdef>Relationship To The Head Of Household: Grand Child [Relación o Parentesco con el Jefe(a) del Hogar Nieto a ]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H077</attrlabl>
+				<attrdef>Relationship To The Head Of Household: Father Or Mother [Relación o Parentesco con el Jefe(a) del Hogar Padre madre o suegro a ]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H078</attrlabl>
+				<attrdef>Relationship To The Head Of Household: Brother Or Sister [Relación o Parentesco con el Jefe(a) del Hogar Hermano a  o cuñado a ]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H079</attrlabl>
+				<attrdef>Relationship To The Head Of Household: Neice Or Nephew [Relación o Parentesco con el Jefe(a) del Hogar Sobrino a ]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H080</attrlabl>
+				<attrdef>Relationship To The Head Of Household: Other Relative [Relación o Parentesco con el Jefe(a) del Hogar Otro Pariente]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H081</attrlabl>
+				<attrdef>Relationship To The Head Of Household: Employed Or Family Of Employed  [Relación o Parentesco con el Jefe(a) del Hogar Empleada o  dometica o  y sus familiares]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H082</attrlabl>
+				<attrdef>Relationship To The Head Of Household: Other Non-Relative [Relación o Parentesco con el Jefe(a) del Hogar Otro no pariente]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H083</attrlabl>
+				<attrdef>Relationship To The Head Of Household: Collective Household [Relación o Parentesco con el Jefe(a) del Hogar Residente en vivenda colectiva]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H084</attrlabl>
+				<attrdef>Has A Computer: Yes [Computadora Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H085</attrlabl>
+				<attrdef>Has A Computer: No [Computadora No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H086</attrlabl>
+				<attrdef>Floor Material: Earth [Material predominante en el Piso Tierra]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H087</attrlabl>
+				<attrdef>Floor Material: Cement Slab [Material predominante en el Piso Plancha de cemento]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H088</attrlabl>
+				<attrdef>Floor Material: Wood [Material predominante en el Piso Madera]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H089</attrlabl>
+				<attrdef>Floor Material: Cement Brick [Material predominante en el Piso Ladrillo de cemento]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H090</attrlabl>
+				<attrdef>Floor Material: Brick Or Granite Terrazzo [Material predominante en el Piso Ladrillo de terrazo o granito]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H091</attrlabl>
+				<attrdef>Floor Material: Mudbrick [Material predominante en el Piso Ladrillo de barro]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H092</attrlabl>
+				<attrdef>Floor Material: Ceramics [Material predominante en el Piso Cerámica]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H093</attrlabl>
+				<attrdef>Floor Material: Other [Material predominante en el Piso Otro]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H094</attrlabl>
+				<attrdef>Has A Refrigerator: Yes [Refrigeradora F1/si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H095</attrlabl>
+				<attrdef>Has A Refrigerator: No [Refrigeradora No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H096</attrlabl>
+				<attrdef>Roofing Material: Clay Tile [Material predominante en el Techo Teja de barro]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H097</attrlabl>
+				<attrdef>Roofing Material: Asbestos Sheet [Material predominante en el Techo Lámina de asbesto]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H098</attrlabl>
+				<attrdef>Roofing Material: Zinc Sheet [Material predominante en el Techo Lámina de zinc]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H099</attrlabl>
+				<attrdef>Roofing Material: Concrete [Material predominante en el Techo Conreto]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H100</attrlabl>
+				<attrdef>Roofing Material: Palm Straw Or Similar [Material predominante en el Techo Paja palma o similar]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H101</attrlabl>
+				<attrdef>Roofing Material: Waste Material [Material predominante en el Techo Material de desecho]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H102</attrlabl>
+				<attrdef>Roofing Material: Other [Material predominante en el Techo Otro]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H103</attrlabl>
+				<attrdef>Has A Telephone: Yes [Telefono Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H104</attrlabl>
+				<attrdef>Has A Telephone: No [Telefono No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H105</attrlabl>
+				<attrdef>Tenure Of Household: Own [Tenencia de la Vivienda Propia]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H106</attrlabl>
+				<attrdef>Tenure Of Household: Own Paying It In Installments [Tenencia de la Vivienda Propia  pagándola a plazos]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H107</attrlabl>
+				<attrdef>Tenure Of Household: Rented [Tenencia de la Vivienda Alquilada]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H108</attrlabl>
+				<attrdef>Tenure Of Household: Loaned Or Transferred Without Payment [Tenencia de la Vivienda Prestada o cedida sin pago]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H109</attrlabl>
+				<attrdef>Property Type: Independent House [Tipo de Vivienda Casa independiente]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H110</attrlabl>
+				<attrdef>Property Type: Apartment [Tipo de Vivienda Apartamento]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H111</attrlabl>
+				<attrdef>Property Type: Room In Inn Or Rooming [Tipo de Vivienda Cuarto en mesón o cuartería]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H112</attrlabl>
+				<attrdef>Property Type: Local Unbuilt Housing [Tipo de Vivienda Local no construido para vivienda]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H113</attrlabl>
+				<attrdef>Property Type: Transitional Sheltering [Tipo de Vivienda Albergue transitorio]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H114</attrlabl>
+				<attrdef>Property Type: Makeshift House [Tipo de Vivienda Casa improvisada]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H115</attrlabl>
+				<attrdef>Property Type: Other [Tipo de Vivienda Otro particular]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H116</attrlabl>
+				<attrdef>Property Type: Hotel Pension Or Guest House [Tipo de Vivienda Hotel pensión o casa de huespedes]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H117</attrlabl>
+				<attrdef>Property Type: Sanatorium Hospital Or Clinic [Tipo de Vivienda Hospital sanatorio o clínica]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H118</attrlabl>
+				<attrdef>Property Type: Orphanage Or Nursing Home [Tipo de Vivienda Orfanato o asilo]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H119</attrlabl>
+				<attrdef>Property Type: Battalion Headquarters Or Police Station [Tipo de Vivienda Cuartel batallón o posta policial]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H120</attrlabl>
+				<attrdef>Property Type: Prison Or Reformatory [Tipo de Vivienda Prision o reformatorio]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H121</attrlabl>
+				<attrdef>Property Type: Other Collective [Tipo de Vivienda Otro colectiva]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H122</attrlabl>
+				<attrdef>Facilities: Inside The House [Instalaciones Dentro de la vivienda]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H123</attrlabl>
+				<attrdef>Facilities: Outside The House But Within The Property [Instalaciones Fuera de la vivienda pero dentro de la propiedad]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H124</attrlabl>
+				<attrdef>Facilities: Does Not Have [Instalaciones No tiene]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H125</attrlabl>
+				<attrdef>Has A Tv: Yes [Televisor Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H126</attrlabl>
+				<attrdef>Has A Tv: No [Televisor No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H127</attrlabl>
+				<attrdef>Sewage Removal: Toilet Connected To Sewage System [Servicio Sanitario Inodoro conectado a red de alcantarillado]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H128</attrlabl>
+				<attrdef>Sanitary Service: Toilet Connected To Cesspit [Servicio Sanitario Inodoro conectado a pozo septico]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H129</attrlabl>
+				<attrdef>Sanitary Service: Flush Toilet To River Creek Lagoon Or Lake [Servicio Sanitario Inodoro con descarga a rio  quebrada  laguna  mar o lago]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H130</attrlabl>
+				<attrdef>Sanitary Service: Simple Pit Latrine [Servicio Sanitario Letrina de pozo simple]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H131</attrlabl>
+				<attrdef>Sanitary Service: Does Not Have A Toilet [Servicio Sanitario No tiene]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H132</attrlabl>
+				<attrdef>Health Service Is Exclusive: Yes [Servicio Sanitario es Exclusivo Si]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H133</attrlabl>
+				<attrdef>Health Service Is Exclusive: No [Servicio Sanitario es Exclusivo No]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H134</attrlabl>
+				<attrdef>Unsatisfied Basic Needs: Homes With 0 Nbi[Necesidades Basicas Insatisfechas: Vivendas Con 0 Nbi] [NBI - Total F0]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H135</attrlabl>
+				<attrdef>Unsatisfied Basic Needs: Homes With 1 Nbi[Necesidades Basicas Insatisfechas: Vivendas Con 1 Nbi] [NBI - Total F1]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H136</attrlabl>
+				<attrdef>Unsatisfied Basic Needs: Homes With 2 Nbi[Necesidades Basicas Insatisfechas: Vivendas Con 2 Nbi] [NBI - Total F2]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H137</attrlabl>
+				<attrdef>Unsatisfied Basic Needs: Homes With 3 Nbi[Necesidades Basicas Insatisfechas: Vivendas Con 3 Nbi] [NBI - Total F3]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>H138</attrlabl>
+				<attrdef>Unsatisfied Basic Needs: Homes With 4 Or More Nbi[Necesidades Basicas Insatisfechas: Vivendas Con 4 Mas Nbi] [NBI - Total F4 o más]</attrdef>
+				<attrdefs>National Institute of Statistics (INE) Honduras, 2001 [Instituto Nacional de Estadistica (INE) Honduras, 2001]</attrdefs>
+				<attrdomv>
+					<udom>Frequency of response in the census sector</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Census_Year</attrlabl>
+				<attrdef>Census Year</attrdef>
+				<attrdefs>East View Geospatial</attrdefs>
+			</attr>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_honduras_housing_2001</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 <metainfo>
-<metd>20220801</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220801</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_honduras_housing_2001</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

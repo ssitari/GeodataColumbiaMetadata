@@ -27,7 +27,10 @@
 		</descript>
 		<timeperd>
 			<timeinfo>
-				<sngdate><caldate>2000</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2000</caldate>
+				</sngdate>
+			</timeinfo>
 			<current>publication date</current>
 		</timeperd>
 		<status>
@@ -38,426 +41,426 @@
 			<bounding>
 				<westbc>
 -176.151566</westbc>
-				<eastbc>
+					<eastbc>
 179.221893</eastbc>
-				<northbc>
+						<northbc>
 78.199997</northbc>
-				<southbc>
+							<southbc>
 -54.792000</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>society</themekey>
-			</theme>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>Cities</themekey>
-				<themekey>Populated places</themekey>
-				<themekey>Urban areas</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Earth (6295630)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>World</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2000</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>PO Box 261961</address>
-					<city>Highlands Ranch</city>
-					<state>CO</state>
-					<postal>80163-1951</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>303-790-9730</cntvoice>
-				<cntemail>sales@landinfo.com</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/ESRI_cities.jpg</browsen>
-			<browsed>Thumbnail Image</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows 2000 Version 5.0 (Build 2195) ; ESRI ArcCatalog 8.1.0.570</native>
-	</idinfo>
-	<dataqual>
-		<logic>No duplicate features are present.  The shapefile is created directly from a topologically correct ArcInfo? coverage.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-		<posacc>
-			<horizpa>
-				<horizpar>The geospatial part of this data set was extracted from the ArcWorld Supplement database.  No detailed evaluation of the positional accuracy of the ArcWorld Supplement data has been made; knowledge of the source World Data Bank II (WDBII) data is insufficient to determine positional accuracy of data derived from the source.</horizpar>
-			</horizpa>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>1996</pubdate>
-						<title>ArcWorld Supplement</title>
-						<edition>1</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Redlands, California, USA</pubplace>
-							<publish>Environmental Systems Research Institute, Inc. (ESRI)</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>3000000</srcscale>
-				<typesrc>CD?ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>1996</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>ArcWorld Supplement</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>United States Department of State, Bureau of Intelligence and Research</origin>
-						<pubdate>Winter 1993/1994</pubdate>
-						<title>Geographic and Global Issues Quarterly</title>
-						<edition>Volume 3, Number 4</edition>
-						<serinfo>
-							<sername>Geographic and Global Issues Quarterly</sername>
-							<issue>Volume 3, Number 4</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Washington, DC, USA</pubplace>
-							<publish>United States Department of State, Bureau of Intelligence and Research</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<typesrc>paper</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>Winter 1993/1994</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>Geographic and Global Issues</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>United States Central Intelligence Agency</origin>
-						<pubdate>20000101</pubdate>
-						<title>The World Factbook 2000</title>
-						<edition>2000</edition>
-						<serinfo>
-							<sername>The World Factbook</sername>
-							<issue>2000</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Washington, DC, USA</pubplace>
-							<publish>United States Central Intelligence Agency</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>20000101</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>CIA Factbook</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Global Mapping International</origin>
-						<title>Missions Database</title>
-						<pubinfo>
-							<pubplace>Colorado Springs, Colorado, USA</pubplace>
-							<publish>Global Mapping International</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2000</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>GMI</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>U.S. National Imagery and Mapping Agency</origin>
-						<title>World Port Index</title>
-						<pubinfo>
-							<pubplace>Washington, DC, USA</pubplace>
-							<publish>U.S. National Imagery and Mapping Agency</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srccitea>NIMA - WPI</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Extracted the features from ArcWorld Supplement.  Updated by adding/deleting features and changing attribute values, based on political changes and other factors. Created ArcGIS? layer file (.lyr).  Created ArcView legend file (.avl).  Created projection file (.prj).  Created spatial indices.</procdesc>
-				<srcused>ArcWorld Supplement</srcused>
-				<srcused>Geographic and Global Issues</srcused>
-				<srcused>CIA Factbook</srcused>
-				<srcused>GMI</srcused>
-				<srcused>NIMA - WPI</srcused>
-				<procdate>20010112</procdate>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>Entity point</sdtstype>
-				<ptvctcnt>2533</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.000001</latres>
-				<longres>0.000001</longres>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>society</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Cities</themekey>
+								<themekey>Populated places</themekey>
+								<themekey>Urban areas</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Earth (6295630)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>World</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2000</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing address</addrtype>
+									<address>PO Box 261961</address>
+									<city>Highlands Ranch</city>
+									<state>CO</state>
+									<postal>80163-1951</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>303-790-9730</cntvoice>
+								<cntemail>sales@landinfo.com</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/ESRI_cities.jpg</browsen>
+							<browsed>Thumbnail Image</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows 2000 Version 5.0 (Build 2195) ; ESRI ArcCatalog 8.1.0.570</native>
+					</idinfo>
+					<dataqual>
+						<logic>No duplicate features are present.  The shapefile is created directly from a topologically correct ArcInfo? coverage.</logic>
+						<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+						<posacc>
+							<horizpa>
+								<horizpar>The geospatial part of this data set was extracted from the ArcWorld Supplement database.  No detailed evaluation of the positional accuracy of the ArcWorld Supplement data has been made; knowledge of the source World Data Bank II (WDBII) data is insufficient to determine positional accuracy of data derived from the source.</horizpar>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+										<pubdate>1996</pubdate>
+										<title>ArcWorld Supplement</title>
+										<edition>1</edition>
+										<geoform>vector digital data</geoform>
+										<serinfo>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Redlands, California, USA</pubplace>
+											<publish>Environmental Systems Research Institute, Inc. (ESRI)</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<srcscale>3000000</srcscale>
+								<typesrc>CD?ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>1996</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>ArcWorld Supplement</srccitea>
+								<srccontr>Attribute and geospatial data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>United States Department of State, Bureau of Intelligence and Research</origin>
+										<pubdate>Winter 1993/1994</pubdate>
+										<title>Geographic and Global Issues Quarterly</title>
+										<edition>Volume 3, Number 4</edition>
+										<serinfo>
+											<sername>Geographic and Global Issues Quarterly</sername>
+											<issue>Volume 3, Number 4</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Washington, DC, USA</pubplace>
+											<publish>United States Department of State, Bureau of Intelligence and Research</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<typesrc>paper</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>Winter 1993/1994</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>Geographic and Global Issues</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>United States Central Intelligence Agency</origin>
+										<pubdate>20000101</pubdate>
+										<title>The World Factbook 2000</title>
+										<edition>2000</edition>
+										<serinfo>
+											<sername>The World Factbook</sername>
+											<issue>2000</issue>
+										</serinfo>
+										<pubinfo>
+											<pubplace>Washington, DC, USA</pubplace>
+											<publish>United States Central Intelligence Agency</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<typesrc>online</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>20000101</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>CIA Factbook</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Global Mapping International</origin>
+										<title>Missions Database</title>
+										<pubinfo>
+											<pubplace>Colorado Springs, Colorado, USA</pubplace>
+											<publish>Global Mapping International</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<typesrc>CD-ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>2000</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>GMI</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>U.S. National Imagery and Mapping Agency</origin>
+										<title>World Port Index</title>
+										<pubinfo>
+											<pubplace>Washington, DC, USA</pubplace>
+											<publish>U.S. National Imagery and Mapping Agency</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<srccitea>NIMA - WPI</srccitea>
+								<srccontr>Attribute data</srccontr>
+							</srcinfo>
+							<procstep>
+								<procdesc>The following steps were performed by ESRI: Extracted the features from ArcWorld Supplement.  Updated by adding/deleting features and changing attribute values, based on political changes and other factors. Created ArcGIS? layer file (.lyr).  Created ArcView legend file (.avl).  Created projection file (.prj).  Created spatial indices.</procdesc>
+								<srcused>ArcWorld Supplement</srcused>
+								<srcused>Geographic and Global Issues</srcused>
+								<srcused>CIA Factbook</srcused>
+								<srcused>GMI</srcused>
+								<srcused>NIMA - WPI</srcused>
+								<procdate>20010112</procdate>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>Entity point</sdtstype>
+								<ptvctcnt>2533</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000001</latres>
+								<longres>0.000001</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 cities</enttypl>
-				<enttypd>The points represent the locations of major cities of the world.</enttypd>
-				<enttypds>ESRI</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CITY_NAME</attrlabl>
-				<attrdef>The city name.</attrdef>
-				<attrdefs>ArcWorld Supplement</attrdefs>
-				<attrdomv>
-					<udom>Names for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>GMI_ADMIN</attrlabl>
-				<attrdef>The administrative unit code (three-letter country code, three-letter administrative unit code) for the administrative unit in which the city is located.</attrdef>
-				<attrdefs>Global Mapping International</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Global Mapping International Codes</codesetn>
-						<codesets>Global Mapping International</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>ADMIN_NAME</attrlabl>
-				<attrdef>The name of the administrative unit in which the city is located.</attrdef>
-				<attrdefs>Global Mapping International</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Global Mapping International Names</codesetn>
-						<codesets>Global Mapping International</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>FIPS_CNTRY</attrlabl>
-				<attrdef>The FIPS code (two-letter) for the country in which the city is located.</attrdef>
-				<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standards Publication 10-4</codesetn>
-						<codesets>National Institute of Standards and Technology</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>CNTRY_NAME</attrlabl>
-				<attrdef>The name for the country in which the city is located.</attrdef>
-				<attrdefs>ArcWorld Supplement, Geographic and Global Issues, CIA Factbook</attrdefs>
-				<attrdomv>
-					<udom>Names for the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>STATUS</attrlabl>
-				<attrdef>The status of the city.</attrdef>
-				<attrdefs>ArcWorld Supplement</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>National and provincial capital, National capital, National capital and provincial capital enclave, Provincial capital, Provincial capital enclave, Other</edomv>
-						<edomvd>The types of status for the city.</edomvd>
-						<edomvds>ArcWorld Supplement</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>POP_RANK</attrlabl>
-				<attrdef>The rank of the population class for the city.</attrdef>
-				<attrdefs>ArcWorld Supplement</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>5,000,000 and greater.</edomvd>
-						<edomvds>ArcWorld Supplement</edomvds>
-					</edom>
-					<edom>
-						<edomv>2</edomv>
-						<edomvd>1,000,000 to 4,999,999.</edomvd>
-						<edomvds>ArcWorld Supplement</edomvds>
-					</edom>
-					<edom>
-						<edomv>3</edomv>
-						<edomvd>500,000 to 999,999.</edomvd>
-						<edomvds>ArcWorld Supplement</edomvds>
-					</edom>
-					<edom>
-						<edomv>4</edomv>
-						<edomvd>250,000 to 499,999.</edomvd>
-						<edomvds>ArcWorld Supplement</edomvds>
-					</edom>
-					<edom>
-						<edomv>5</edomv>
-						<edomvd>100,000 to 249,999.</edomvd>
-						<edomvds>ArcWorld Supplement</edomvds>
-					</edom>
-					<edom>
-						<edomv>6</edomv>
-						<edomvd>50,000 to 99,999.</edomvd>
-						<edomvds>ArcWorld Supplement</edomvds>
-					</edom>
-					<edom>
-						<edomv>7</edomv>
-						<edomvd>Less than 50,000.</edomvd>
-						<edomvds>ArcWorld Supplement</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>POP_CLASS</attrlabl>
-				<attrdef>The classification of the city based on its population.</attrdef>
-				<attrdefs>ArcWorld Supplement</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>5,000,000 and greater, 1,000,000 to 4,999,999, 500,000 to 999,999, 250,000 to 499,999, 100,000 to 249,999, 50,000 to 99,999, less than 50,000.</edomv>
-						<edomvd>The list of population classifications.</edomvd>
-						<edomvds>ArcWorld Supplement</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>PORT_ID</attrlabl>
-				<attrdef>The Port Identification Number for the city.</attrdef>
-				<attrdefs>U.S. National Imagery and Mapping Agency</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>0</edomv>
-						<edomvd>The city is not a port.</edomvd>
-						<edomvds>U.S. National Imagery and Mapping Agency</edomvds>
-					</edom>
-				</attrdomv>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>PO Box 261961</address>
-					<city>Highlands Ranch</city>
-					<state>CO</state>
-					<postal>80163-1961</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>303-790-9730</cntvoice>
-				<cntemail>sales@landinfo.com</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>landinfo_world_cities_2000</resdesc>
-	</distinfo>
-	<metainfo>
-		<metd>20080929</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+									<enttypd>The points represent the locations of major cities of the world.</enttypd>
+									<enttypds>ESRI</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CITY_NAME</attrlabl>
+									<attrdef>The city name.</attrdef>
+									<attrdefs>ArcWorld Supplement</attrdefs>
+									<attrdomv>
+										<udom>Names for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>GMI_ADMIN</attrlabl>
+									<attrdef>The administrative unit code (three-letter country code, three-letter administrative unit code) for the administrative unit in which the city is located.</attrdef>
+									<attrdefs>Global Mapping International</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Global Mapping International Codes</codesetn>
+											<codesets>Global Mapping International</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>ADMIN_NAME</attrlabl>
+									<attrdef>The name of the administrative unit in which the city is located.</attrdef>
+									<attrdefs>Global Mapping International</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Global Mapping International Names</codesetn>
+											<codesets>Global Mapping International</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FIPS_CNTRY</attrlabl>
+									<attrdef>The FIPS code (two-letter) for the country in which the city is located.</attrdef>
+									<attrdefs>Department of Commerce, National Institute of Standards and Technology</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Federal Information Processing Standards Publication 10-4</codesetn>
+											<codesets>National Institute of Standards and Technology</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CNTRY_NAME</attrlabl>
+									<attrdef>The name for the country in which the city is located.</attrdef>
+									<attrdefs>ArcWorld Supplement, Geographic and Global Issues, CIA Factbook</attrdefs>
+									<attrdomv>
+										<udom>Names for the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>STATUS</attrlabl>
+									<attrdef>The status of the city.</attrdef>
+									<attrdefs>ArcWorld Supplement</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>National and provincial capital, National capital, National capital and provincial capital enclave, Provincial capital, Provincial capital enclave, Other</edomv>
+											<edomvd>The types of status for the city.</edomvd>
+											<edomvds>ArcWorld Supplement</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>POP_RANK</attrlabl>
+									<attrdef>The rank of the population class for the city.</attrdef>
+									<attrdefs>ArcWorld Supplement</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>1</edomv>
+											<edomvd>5,000,000 and greater.</edomvd>
+											<edomvds>ArcWorld Supplement</edomvds>
+										</edom>
+										<edom>
+											<edomv>2</edomv>
+											<edomvd>1,000,000 to 4,999,999.</edomvd>
+											<edomvds>ArcWorld Supplement</edomvds>
+										</edom>
+										<edom>
+											<edomv>3</edomv>
+											<edomvd>500,000 to 999,999.</edomvd>
+											<edomvds>ArcWorld Supplement</edomvds>
+										</edom>
+										<edom>
+											<edomv>4</edomv>
+											<edomvd>250,000 to 499,999.</edomvd>
+											<edomvds>ArcWorld Supplement</edomvds>
+										</edom>
+										<edom>
+											<edomv>5</edomv>
+											<edomvd>100,000 to 249,999.</edomvd>
+											<edomvds>ArcWorld Supplement</edomvds>
+										</edom>
+										<edom>
+											<edomv>6</edomv>
+											<edomvd>50,000 to 99,999.</edomvd>
+											<edomvds>ArcWorld Supplement</edomvds>
+										</edom>
+										<edom>
+											<edomv>7</edomv>
+											<edomvd>Less than 50,000.</edomvd>
+											<edomvds>ArcWorld Supplement</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>POP_CLASS</attrlabl>
+									<attrdef>The classification of the city based on its population.</attrdef>
+									<attrdefs>ArcWorld Supplement</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>5,000,000 and greater, 1,000,000 to 4,999,999, 500,000 to 999,999, 250,000 to 499,999, 100,000 to 249,999, 50,000 to 99,999, less than 50,000.</edomv>
+											<edomvd>The list of population classifications.</edomvd>
+											<edomvds>ArcWorld Supplement</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>PORT_ID</attrlabl>
+									<attrdef>The Port Identification Number for the city.</attrdef>
+									<attrdefs>U.S. National Imagery and Mapping Agency</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>0</edomv>
+											<edomvd>The city is not a port.</edomvd>
+											<edomvds>U.S. National Imagery and Mapping Agency</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing address</addrtype>
+										<address>PO Box 261961</address>
+										<city>Highlands Ranch</city>
+										<state>CO</state>
+										<postal>80163-1961</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>303-790-9730</cntvoice>
+									<cntemail>sales@landinfo.com</cntemail>
+								</cntinfo>
+							</distrib>
+							<resdesc>landinfo_world_cities_2000</resdesc>
+						</distinfo>
+						<metainfo>
+							<metd>20080929</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

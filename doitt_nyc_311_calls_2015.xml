@@ -1,184 +1,153 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>New York City (5128581)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>New York City</placekey>
-<placekey>NYC</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2015</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-74.257061</westbc>
-<eastbc>-73.699273</eastbc>
-<northbc>40.915087</northbc>
-<southbc>40.498294</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>New York City (5128581)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>New York City</placekey>
+				<placekey>NYC</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2015</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-74.257061</westbc>
+				<eastbc>-73.699273</eastbc>
+				<northbc>40.915087</northbc>
+				<southbc>40.498294</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 New York City 311 Service Requests, 2015 is a point theme representing the location of incidents reported to NYC311 in 2015. Attributes include each service request's open and closed date, the reported location, and the type and description of the service request. This dataset was derived from NYC Open Data (https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) in January 2023. Columbia Libraries staff extracted each month's records and converted them to geopackage format by state plane x/y coordinates. Some records may lack geolocation information, and they have coordinates 0,0.  A codebook is included with the download package.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>New York City 311 Service Requests, 2015</title>
-<origin>New York (N.Y.). Department of Information Technology and Telecommunications.</origin>
-<pubdate>2023</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>New York (N.Y.). Department of Information Technology and Telecommunications.</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>New York City 311 Service Requests, 2015</title>
+				<origin>New York (N.Y.). Department of Information Technology and Telecommunications.</origin>
+				<pubdate>2023</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>New York (N.Y.). Department of Information Technology and Telecommunications.</publish>
+				</pubinfo>
 <onlink>https://www.columbia.edu/acis/eds/gis/images/doitt_nyc_311_calls_2015.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2015</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>None</accconst>
-<useconst>None</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>New York (N.Y.). Department of Information Technology and Telecommunications.</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2015</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>None</accconst>
+	<useconst>None</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>New York (N.Y.). Department of Information Technology and Telecommunications.</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 
-<spref>
-  <horizsys>
-    <planar>
-      <gridsys>
-        <gridsysn>State Plane Coordinate System</gridsysn>
-        <spcs>
-          <spcszone>3104</spcszone>
-          <lambertc>
-            <stdparll>40.67791667</stdparll>
-            <stdparll>41.03333333</stdparll>
-            <longcm>-74</longcm>
-            <latprjo>40.16666667</latprjo>
-            <feast>984251.97</feast>
-            <fnorth>0</fnorth>
-          </lambertc>
-        </spcs>
-      </gridsys>
-      <planci>
-        <plance>coordinate pair</plance>
-        <coordrep>
-          <absres>0.00001</absres>
-          <ordres>0.00001</ordres>
-        </coordrep>
-        <plandu>feet</plandu>
-      </planci>
-    </planar>
-    <geodetic>
-      <horizdn>North American Datum of 1983</horizdn>
-      <ellips>Geodetic Reference System 1980</ellips>
-      <semiaxis>6378137.000000</semiaxis>
-      <denflat>298.257222</denflat>
-    </geodetic>
-  </horizsys>
-</spref>
-
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>Entity point</sdtstype>
-<ptvctcnt>2320775</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>Entity point</sdtstype>
+			<ptvctcnt>2320775</ptvctcnt>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 
 <spref>
-<horizsys>
-<planar>
-<planci>
-<plance>coordinate pair</plance>
-<coordrep>
-<absres>0.000328</absres>
-<ordres>0.000328</ordres>
-</coordrep>
-<plandu>survey feet</plandu>
-</planci>
-</planar>
-<geodetic>
-<horizdn>North American Datum of 1983</horizdn>
-<ellips>Geodetic Reference System 80</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257222</denflat>
-</geodetic>
-<cordsysn>
-<geogcsn>GCS_North_American_1983</geogcsn>
-<projcsn>NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn>
-</cordsysn>
-</horizsys>
-<vertdef>
-<altsys>
-<altres>1.000000</altres>
-<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-</altsys>
-</vertdef>
+	<horizsys>
+		<planar>
+			<gridsys>
+				<gridsysn>State Plane Coordinate System</gridsysn>
+				<spcs>
+					<spcszone>3104</spcszone>
+					<lambertc>
+						<stdparll>40.67791667</stdparll>
+						<stdparll>41.03333333</stdparll>
+						<longcm>-74</longcm>
+						<latprjo>40.16666667</latprjo>
+						<feast>984251.97</feast>
+						<fnorth>0</fnorth>
+					</lambertc>
+				</spcs>
+			</gridsys>
+			<planci>
+				<plance>coordinate pair</plance>
+				<coordrep>
+					<absres>0.00001</absres>
+					<ordres>0.00001</ordres>
+				</coordrep>
+				<plandu>feet</plandu>
+			</planci>
+		</planar>
+		<geodetic>
+			<horizdn>North American Datum of 1983</horizdn>
+			<ellips>Geodetic Reference System 1980</ellips>
+			<semiaxis>6378137.000000</semiaxis>
+			<denflat>298.257222</denflat>
+		</geodetic>
+	</horizsys>
 </spref>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>doitt_nyc_311_calls_2015</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 <metainfo>
-<metd>20230112</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20230112</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>doitt_nyc_311_calls_2015</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

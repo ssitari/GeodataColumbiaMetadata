@@ -14,7 +14,9 @@
 					<sername>NJ Transportation Maps and Tables</sername>
 				</serinfo>
 				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/halcrow_freightlines_nj_2007.zip</onlink>
-				<origin>CommunityCartography (Firm)</origin><pubdate>2007</pubdate></citeinfo>
+				<origin>CommunityCartography (Firm)</origin>
+				<pubdate>2007</pubdate>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>New Jersey Freight Rail Lines, 2007 is a line theme representing freight rail lines in New Jersey.  Attribute information includes the name of the line and the name of the operator.</abstract>
@@ -23,225 +25,250 @@
 		<timeperd>
 			<timeinfo>
 				<sngdate>
-					<caldate>2007</caldate></sngdate>
+					<caldate>2007</caldate>
+				</sngdate>
 			</timeinfo>
-			<current>ground condition</current></timeperd>
+			<current>ground condition</current>
+		</timeperd>
 		<status>
-			<progress>Complete</progress></status>
+			<progress>Complete</progress>
+		</status>
 		<spdom>
 			<bounding>
 				<westbc>
 -75.733875</westbc>
-				<eastbc>
+					<eastbc>
 -73.895156</eastbc>
-				<northbc>
+						<northbc>
 42.414187</northbc>
-				<southbc>
+							<southbc>
 38.930551</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>transportation</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>New Jersey (5101760)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>New Jersey</placekey></place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2007</tempkey>
-			</temporal>
-			<theme><themekey>Rail lines</themekey><themekey>Railroad</themekey><themekt>None</themekt><themekey>Freight Trains</themekey></theme></keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>CommunityCartography</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>1200 MacArthur Blvd</address>
-					<city>Mahwah</city>
-					<state>NJ</state>
-					<postal>07430</postal>
-				</cntaddr>
-				<cntvoice>1-877-MakeMap</cntvoice>
-				<cntfax>201-529-5728</cntfax>
-				<cntemail>info@comcarto.com</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/nj_freight.jpg</browsen>
-			<browsed>Thumbnail</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.1.1332</native>
-		<crossref>
-			<citeinfo>
-				<origin>Community Cartography</origin>
-			</citeinfo>
-		</crossref>
-	</idinfo>
-	<dataqual>
-		<lineage>
-			<procstep>
-				<procdesc>The New Jersey rail data is derived from MapInfo files from the New Jersey Port  Authority with a source scale of 1:100,000.  Data were projected and converted to shapefiles.</procdesc>
-				<procdate>2007</procdate>
-				<srcused>MapInfo files from the New Jersey Port Authority</srcused></procstep>
-			<procstep>
-				<procdesc>Separated passenger lines from freight/inactive lines.  Separate shapefiles  created for NJT Rail, NJT Hudson-Bergen Light Rail, NJT Newark Subway, NJT Riverline, Amtrak, PATCO, and SEPTA  lines.</procdesc>
-				<procdate>May - September 2007</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>Freight and inactive rail line records were merged and attributes standardized where appropriate.</procdesc>
-				<procdate>September 2007</procdate>
-			</procstep>
-			<srcinfo><srccite><citeinfo><origin>New Jersey Port Authority</origin><title>MapInfo files from the New Jersey Port Authority</title><geoform>vector digital data</geoform></citeinfo></srccite><srcscale>100000</srcscale><typesrc>GIS vector layers</typesrc><srccitea>MapInfo files from the New Jersey Port Authority</srccitea></srcinfo></lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>String</sdtstype>
-				<ptvctcnt>2184</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<planar>
-				<gridsys>
-					<gridsysn>State Plane Coordinate System</gridsysn>
-					<spcs>
-						<spcszone>2900</spcszone>
-						<transmer>
-							<sfctrmer>0.999900</sfctrmer>
-							<longcm>-74.500000</longcm>
-							<latprjo>38.833333</latprjo>
-							<feast>492125.000000</feast>
-							<fnorth>0.000000</fnorth>
-						</transmer>
-					</spcs>
-				</gridsys>
-				<planci>
-					<plance>coordinate pair</plance>
-					<coordrep>
-						<absres>0.000000</absres>
-						<ordres>0.000000</ordres>
-					</coordrep>
-					<plandu>survey feet</plandu>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>North American Datum of 1983</horizdn>
-				<ellips>Geodetic Reference System 80</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257222</denflat>
-			</geodetic>
-		</horizsys>
-		<vertdef>
-			<altsys>
-				<altres>0.000010</altres>
-				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
-			</altsys>
-		</vertdef>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>transportation</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>New Jersey (5101760)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>New Jersey</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2007</tempkey>
+							</temporal>
+							<theme>
+								<themekey>Rail lines</themekey>
+								<themekey>Railroad</themekey>
+								<themekt>None</themekt>
+								<themekey>Freight Trains</themekey>
+							</theme>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>CommunityCartography</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>1200 MacArthur Blvd</address>
+									<city>Mahwah</city>
+									<state>NJ</state>
+									<postal>07430</postal>
+								</cntaddr>
+								<cntvoice>1-877-MakeMap</cntvoice>
+								<cntfax>201-529-5728</cntfax>
+								<cntemail>info@comcarto.com</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/nj_freight.jpg</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.1.1332</native>
+						<crossref>
+							<citeinfo>
+								<origin>Community Cartography</origin>
+							</citeinfo>
+						</crossref>
+					</idinfo>
+					<dataqual>
+						<lineage>
+							<procstep>
+								<procdesc>The New Jersey rail data is derived from MapInfo files from the New Jersey Port  Authority with a source scale of 1:100,000.  Data were projected and converted to shapefiles.</procdesc>
+								<procdate>2007</procdate>
+								<srcused>MapInfo files from the New Jersey Port Authority</srcused>
+							</procstep>
+							<procstep>
+								<procdesc>Separated passenger lines from freight/inactive lines.  Separate shapefiles  created for NJT Rail, NJT Hudson-Bergen Light Rail, NJT Newark Subway, NJT Riverline, Amtrak, PATCO, and SEPTA  lines.</procdesc>
+								<procdate>May - September 2007</procdate>
+							</procstep>
+							<procstep>
+								<procdesc>Freight and inactive rail line records were merged and attributes standardized where appropriate.</procdesc>
+								<procdate>September 2007</procdate>
+							</procstep>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>New Jersey Port Authority</origin>
+										<title>MapInfo files from the New Jersey Port Authority</title>
+										<geoform>vector digital data</geoform>
+									</citeinfo>
+								</srccite>
+								<srcscale>100000</srcscale>
+								<typesrc>GIS vector layers</typesrc>
+								<srccitea>MapInfo files from the New Jersey Port Authority</srccitea>
+							</srcinfo>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>String</sdtstype>
+								<ptvctcnt>2184</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<planar>
+								<gridsys>
+									<gridsysn>State Plane Coordinate System</gridsysn>
+									<spcs>
+										<spcszone>2900</spcszone>
+										<transmer>
+											<sfctrmer>0.999900</sfctrmer>
+											<longcm>-74.500000</longcm>
+											<latprjo>38.833333</latprjo>
+											<feast>492125.000000</feast>
+											<fnorth>0.000000</fnorth>
+										</transmer>
+									</spcs>
+								</gridsys>
+								<planci>
+									<plance>coordinate pair</plance>
+									<coordrep>
+										<absres>0.000000</absres>
+										<ordres>0.000000</ordres>
+									</coordrep>
+									<plandu>survey feet</plandu>
+								</planci>
+							</planar>
+							<geodetic>
+								<horizdn>North American Datum of 1983</horizdn>
+								<ellips>Geodetic Reference System 80</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257222</denflat>
+							</geodetic>
+						</horizsys>
+						<vertdef>
+							<altsys>
+								<altres>0.000010</altres>
+								<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+							</altsys>
+						</vertdef>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 nj_freight</enttypl>
-				<enttypd>Rail Line</enttypd></enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>LINE</attrlabl>
-				<attrdef>rail line name</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>RAILROAD</attrlabl>
-				<attrdef>operating railroad company code</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>OPERATOR</attrlabl>
-				<attrdef>operating railroad company</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>ACTIVE</attrlabl>
-				<attrdef>active or inactive status</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>LENGTH</attrlabl>
-				<attrdef>calculated length in feet</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>LENGTH_MI</attrlabl>
-				<attrdef>calculated length in miles</attrdef>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>CommunityCartography</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>1200 MacArthur Blvd</address>
-					<city>Mahwah</city>
-					<state>NJ</state>
-					<postal>07430</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>1-877-MakeMap</cntvoice>
-				<cntfax>201-529-5728</cntfax>
-				<cntemail>info@comcarto.com</cntemail>
-			</cntinfo>
-		</distrib>
-		<distliab>Maps and databases provided by CommunityCartography, Inc. use information provided by government agencies and other sources of geographic data, and are subject to change without notice. CommunityCartography cannot guarantee the data provided by these sources. In no event will CommunityCartography be liable for any incidental, indirect, consequential or other damages suffered by any users of this information or other persons.</distliab>
+									<enttypd>Rail Line</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LINE</attrlabl>
+									<attrdef>rail line name</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>RAILROAD</attrlabl>
+									<attrdef>operating railroad company code</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>OPERATOR</attrlabl>
+									<attrdef>operating railroad company</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ACTIVE</attrlabl>
+									<attrdef>active or inactive status</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>LENGTH</attrlabl>
+									<attrdef>calculated length in feet</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>LENGTH_MI</attrlabl>
+									<attrdef>calculated length in miles</attrdef>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>CommunityCartography</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>1200 MacArthur Blvd</address>
+										<city>Mahwah</city>
+										<state>NJ</state>
+										<postal>07430</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>1-877-MakeMap</cntvoice>
+									<cntfax>201-529-5728</cntfax>
+									<cntemail>info@comcarto.com</cntemail>
+								</cntinfo>
+							</distrib>
+							<distliab>Maps and databases provided by CommunityCartography, Inc. use information provided by government agencies and other sources of geographic data, and are subject to change without notice. CommunityCartography cannot guarantee the data provided by these sources. In no event will CommunityCartography be liable for any incidental, indirect, consequential or other damages suffered by any users of this information or other persons.</distliab>
 
-		<resdesc>halcrow_freightlines_nj_2007</resdesc></distinfo>
-	<metainfo>
-		<metd>20080109</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+							<resdesc>halcrow_freightlines_nj_2007</resdesc>
+						</distinfo>
+						<metainfo>
+							<metd>20080109</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

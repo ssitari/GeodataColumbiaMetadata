@@ -10,7 +10,9 @@
 					<pubplace>Washington, DC</pubplace>
 					<publish>United States. Bureau of Transportation Statistics</publish>
 				</pubinfo>
-				<pubdate>2013</pubdate><onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_ports_major.zip</onlink></citeinfo>
+				<pubdate>2013</pubdate>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_ports_major.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>The ports are politically defined by port limits or Corps projects, excluding non-Corps projects not authorized for publication. The determination for the published Principal Ports is based upon the total tonnage for the port for the particular year; therefore the top 150 list can vary from year to year.</abstract>
@@ -20,247 +22,226 @@ summaries (total tons, domestic, foreign, imports and exports)
 for Principal USACE Ports.
 
 
-</purpose>
+		</purpose>
 			<supplinf>File Format: ASCII Comma Delimited and dBase
 Maximum Characters per Record: 96
 Media: CD, disk, tape, hardcopy
-</supplinf>
-		</descript>
-		<spdom>
-			<bounding>
-				<westbc>-166.541700</westbc>
-				<eastbc>0.000000</eastbc>
-				<northbc>67.719180</northbc>
-				<southbc>0.000000</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>Ports,</themekey>
-				<themekey>USACE</themekey>
-				<themekey>Shipping</themekey>
-				<themekey>Major Ports</themekey>
-				<themekey>commerce</themekey>
-				<themekey>economy</themekey>
-			</theme>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>economy</themekey>
-				<themekey>inlandWaters</themekey>
-				<themekey>oceans</themekey>
-				<themekey>structure</themekey>
-				<themekey>transportation</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>United States (6252001)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>United States</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2013</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>None</accconst>
-		<useconst>None</useconst>
-		<timeperd><timeinfo><sngdate><caldate>2013</caldate></sngdate></timeinfo><current>publication date</current></timeperd></idinfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>Entity point</sdtstype>
-				<ptvctcnt>150</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>8.983152841195215e-009</latres>
-				<longres>8.983152841195215e-009</longres>
-				<geogunit>Decimal Degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D WGS 1984</horizdn>
-				<ellips>WGS 1984</ellips>
-				<semiaxis>6378137.0</semiaxis>
-				<denflat>298.257223563</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>ports_major</enttypl>
-				<enttypd>150 tops ports</enttypd>
-				<enttypds>USACE</enttypds>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>sequential number</attrdef>
-				<attrdefs>esri</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>type of geospatial feature</attrdef>
-				<attrdefs>esri</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>Point</edomv>
-						<edomvd>feature type</edomvd>
-						<edomvds>esri</edomvds>
-					</edom>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>PORT</attrlabl>
-				<attrdef>USACE assigned port code identifier.</attrdef>
-				<attrdefs>USACE</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>LONGITUDE1</attrlabl>
-				<attrdef>Longitude</attrdef>
-				<attrdefs>USACE</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>LATITUDE1</attrlabl>
-				<attrdef>Latitude</attrdef>
-				<attrdefs>USACE</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>PORT_NAME</attrlabl>
-				<attrdef>Port name</attrdef>
-				<attrdefs>USACE</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>TOTAL</attrlabl>
-				<attrdef>Commidity tonnage total.</attrdef>
-				<attrdefs>USACE</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>DOMESTIC</attrlabl>
-				<attrdef>Commodity tonnage domestic.</attrdef>
-				<attrdefs>USACE</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>FOREIGN</attrlabl>
-				<attrdef>Commodity tonnage foreign.</attrdef>
-				<attrdefs>USACE</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>IMPORTS</attrlabl>
-				<attrdef>Commodity tonnge imports to port.</attrdef>
-				<attrdefs>USACE</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>EXPORTS</attrlabl>
-				<attrdef>Commodity tonnage exports from port.</attrdef>
-				<attrdefs>USACE</attrdefs>
-			</attr>
-			<attr>
-				<attrlabl>STPOSTAL</attrlabl>
-				<attrdef>U.S. Postal Service two letter state abbreviation</attrdef>
-				<attrdefs>USPS</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Official List of State Postal Abbreviations</codesetn>
-						<codesets>U.S. Postal Service</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>STFIPS</attrlabl>
-				<attrdef>State FIPS code</attrdef>
-				<attrdefs>NIST</attrdefs>
-				<attrdomv>
-					<codesetd>
-						<codesetn>Federal Information Processing Standard (FIPS), Publication 6-4</codesetn>
-						<codesets>National Institute for Standards and Technology (NIST)</codesets>
-					</codesetd>
-				</attrdomv>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>US Army Corps of Engineers</cntorg>
-					<cntper> Waterborne Commerce Statistics Center</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>unknown</addrtype>
-					<address>PO BOX 61280</address>
-					<city>New Orleans, </city>
-					<state>LA</state>
-					<postal>70161-1280</postal>
-				</cntaddr>
-				<cntvoice>504-862-1426 or 504-862-1441</cntvoice>
-				<cntemail>CEIWR-NDCWCSC.WEBMASTER@usace.army.mil</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>ntad_2013_ports_major</resdesc></distinfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research and Innovative Technology Administration/Bureau of Transportation Statistics</cntorg>
-					<cntper>National Transportation Atlas Database (NTAD) 2013</cntper>
-				</cntorgp>
-				<cntpos>Geospatial Information Systems</cntpos>
-				<cntaddr>
-					<addrtype>unknown</addrtype>
-					<address>1200 New Jersey Ave. SE</address>
-					<city>Washington</city>
-					<state>DC</state>
-					<postal>20590</postal>
-				</cntaddr>
-				<cntvoice>202-366-DATA</cntvoice>
-				<cntemail>answers@BTS.gov</cntemail>
-			</cntinfo>
-		</distrib>
-		<stdorder>
-			<digform>
+	</supplinf>
+</descript>
+<spdom>
+	<bounding>
+		<westbc>-166.541700</westbc>
+		<eastbc>0.000000</eastbc>
+		<northbc>67.719180</northbc>
+		<southbc>0.000000</southbc>
+	</bounding>
+</spdom>
+<keywords>
+	<theme>
+		<themekt>None</themekt>
+		<themekey>Ports,</themekey>
+		<themekey>USACE</themekey>
+		<themekey>Shipping</themekey>
+		<themekey>Major Ports</themekey>
+		<themekey>commerce</themekey>
+		<themekey>economy</themekey>
+	</theme>
+	<theme>
+		<themekt>ISO 19115 Topic Category</themekt>
+		<themekey>economy</themekey>
+		<themekey>inlandWaters</themekey>
+		<themekey>oceans</themekey>
+		<themekey>structure</themekey>
+		<themekey>transportation</themekey>
+	</theme>
+	<place>
+		<placekt>GeoNames</placekt>
+		<placekey>United States (6252001)</placekey>
+	</place>
+	<place>
+		<placekt>Library of Congress Subject Headings</placekt>
+		<placekey>United States</placekey>
+	</place>
+	<temporal>
+		<tempkt>None</tempkt>
+		<tempkey>2013</tempkey>
+	</temporal>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<timeperd>
+	<timeinfo>
+		<sngdate>
+			<caldate>2013</caldate>
+		</sngdate>
+	</timeinfo>
+	<current>publication date</current>
+</timeperd>
+</idinfo>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>Entity point</sdtstype>
+			<ptvctcnt>150</ptvctcnt>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<spref>
+	<horizsys>
+		<geograph>
+			<latres>8.983152841195215e-009</latres>
+			<longres>8.983152841195215e-009</longres>
+			<geogunit>Decimal Degrees</geogunit>
+		</geograph>
+		<geodetic>
+			<horizdn>D WGS 1984</horizdn>
+			<ellips>WGS 1984</ellips>
+			<semiaxis>6378137.0</semiaxis>
+			<denflat>298.257223563</denflat>
+		</geodetic>
+	</horizsys>
+</spref>
+<eainfo>
+	<detailed>
+		<enttyp>
+			<enttypl>ports_major</enttypl>
+			<enttypd>150 tops ports</enttypd>
+			<enttypds>USACE</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>FID</attrlabl>
+			<attrdef>sequential number</attrdef>
+			<attrdefs>esri</attrdefs>
+			<attrdomv>
+				<udom>Sequential unique whole numbers that are automatically generated.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Shape</attrlabl>
+			<attrdef>type of geospatial feature</attrdef>
+			<attrdefs>esri</attrdefs>
+			<attrdomv>
+				<edom>
+					<edomv>Point</edomv>
+					<edomvd>feature type</edomvd>
+					<edomvds>esri</edomvds>
+				</edom>
+				<udom>Coordinates defining the features.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>PORT</attrlabl>
+			<attrdef>USACE assigned port code identifier.</attrdef>
+			<attrdefs>USACE</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>LONGITUDE1</attrlabl>
+			<attrdef>Longitude</attrdef>
+			<attrdefs>USACE</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>LATITUDE1</attrlabl>
+			<attrdef>Latitude</attrdef>
+			<attrdefs>USACE</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>PORT_NAME</attrlabl>
+			<attrdef>Port name</attrdef>
+			<attrdefs>USACE</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>TOTAL</attrlabl>
+			<attrdef>Commidity tonnage total.</attrdef>
+			<attrdefs>USACE</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>DOMESTIC</attrlabl>
+			<attrdef>Commodity tonnage domestic.</attrdef>
+			<attrdefs>USACE</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>FOREIGN</attrlabl>
+			<attrdef>Commodity tonnage foreign.</attrdef>
+			<attrdefs>USACE</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>IMPORTS</attrlabl>
+			<attrdef>Commodity tonnge imports to port.</attrdef>
+			<attrdefs>USACE</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>EXPORTS</attrlabl>
+			<attrdef>Commodity tonnage exports from port.</attrdef>
+			<attrdefs>USACE</attrdefs>
+		</attr>
+		<attr>
+			<attrlabl>STPOSTAL</attrlabl>
+			<attrdef>U.S. Postal Service two letter state abbreviation</attrdef>
+			<attrdefs>USPS</attrdefs>
+			<attrdomv>
+				<codesetd>
+					<codesetn>Official List of State Postal Abbreviations</codesetn>
+					<codesets>U.S. Postal Service</codesets>
+				</codesetd>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>STFIPS</attrlabl>
+			<attrdef>State FIPS code</attrdef>
+			<attrdefs>NIST</attrdefs>
+			<attrdomv>
+				<codesetd>
+					<codesetn>Federal Information Processing Standard (FIPS), Publication 6-4</codesetn>
+					<codesets>National Institute for Standards and Technology (NIST)</codesets>
+				</codesetd>
+			</attrdomv>
+		</attr>
+	</detailed>
+</eainfo>
+<distinfo>
+	<distrib>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>US Army Corps of Engineers</cntorg>
+				<cntper> Waterborne Commerce Statistics Center</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>unknown</addrtype>
+				<address>PO BOX 61280</address>
+				<city>New Orleans, </city>
+				<state>LA</state>
+				<postal>70161-1280</postal>
+			</cntaddr>
+			<cntvoice>504-862-1426 or 504-862-1441</cntvoice>
+			<cntemail>CEIWR-NDCWCSC.WEBMASTER@usace.army.mil</cntemail>
+		</cntinfo>
+	</distrib>
+	<resdesc>ntad_2013_ports_major</resdesc>
+</distinfo>
 
-				<digtopt>
-					<offoptn>
-						<offmedia>dvd</offmedia>
-					</offoptn>
-				</digtopt>
-			</digform>
-			<ordering>Call (202-366-DATA), or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2013 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/</ordering>
-		</stdorder>
-	</distinfo>
-	<metainfo>
-		<metd>20140925</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
+<metainfo>
+	<metd>20140925</metd>
+	<metc>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St., 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+				<country>USA</country>
+			</cntaddr>
+			<cntvoice>(212)854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+	<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+</metainfo>
 </metadata>

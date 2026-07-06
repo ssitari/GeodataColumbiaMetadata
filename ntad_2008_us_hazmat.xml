@@ -1,147 +1,148 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><metadata>
-<idinfo>
-<citation>
-<citeinfo>
-<origin>United States. Federal Motor Carrier Safety Administration</origin>
-<origin>United States. Bureau of Transportation Statistics</origin>
-<pubdate>2008</pubdate>
-<title>United States Hazardous Materials Routes, 2008</title>
-<edition>2005 Preliminary Edition</edition>
-<geoform>vector digital data</geoform>
-<serinfo>
-<sername>FMCSA Hazardous Material Routes</sername>
-<issue>None at time of this release.</issue>
-</serinfo>
-<pubinfo>
-	<pubplace>Washington, DC</pubplace>
-	<publish>United States. Bureau of Transportation Statistics</publish>
-</pubinfo>
-<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2008_us_hazmat.zip</onlink>
-<lworkcit>
-<citeinfo>
-<origin>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</origin>
-<pubdate>2008</pubdate>
-<title>National Transportation Atlas Databases (NTAD) 2008</title>
-<geoform>vector digital data</geoform>
-<pubinfo>
-<pubplace>Washington, DC</pubplace>
-<publish>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</publish>
-</pubinfo>
-<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
-</citeinfo>
-</lworkcit>
-</citeinfo>
-</citation>
-<descript>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>United States. Federal Motor Carrier Safety Administration</origin>
+				<origin>United States. Bureau of Transportation Statistics</origin>
+				<pubdate>2008</pubdate>
+				<title>United States Hazardous Materials Routes, 2008</title>
+				<edition>2005 Preliminary Edition</edition>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>FMCSA Hazardous Material Routes</sername>
+					<issue>None at time of this release.</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Washington, DC</pubplace>
+					<publish>United States. Bureau of Transportation Statistics</publish>
+				</pubinfo>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2008_us_hazmat.zip</onlink>
+				<lworkcit>
+					<citeinfo>
+						<origin>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</origin>
+						<pubdate>2008</pubdate>
+						<title>National Transportation Atlas Databases (NTAD) 2008</title>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Washington, DC</pubplace>
+							<publish>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</publish>
+						</pubinfo>
+						<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
 <abstract>Hazardous Materials Routes is a line theme representing routs as described in the National Hazardous Material Route Registry (NMHRR). The on-line NMHRR linkage is http://hazmat.fmcsa.dot.gov/nhmrr/index.asp
 
 With the exception of 13 features that were not identified with the Tiger/Lines, Hazmat routes were created by extracting the TIGER/Line segments that corresponded to each individual route.  Hazmat routes in the NTAD, are organized into 3 database files, hazmat.shp, hmroutes.dbf, and hmstcnty.dbf.  Each record in each database represents a unique Tiger/Line segment.  These Tiger/Line segments are grouped into routes identified as character strings in the ROUTE_ID field in the hmroutes.dbf table.  The route name appearing in the ROUTE_ID is assigned by FMCSA and is unique for each State [this sentence could be deleted - it doesn't add a lot to it].  The hmstcnty.dbf table allows the user to select routes by State and County.  A single geopackage, called hazmat.shp, represents geometry for all routes in the United States.</abstract>
-<purpose>In order for the public to be able to view the Hazardous Material Routes reported to FMCSA, the data is being released in ESRI shapefile format for use in a GIS system.</purpose>
+			<purpose>In order for the public to be able to view the Hazardous Material Routes reported to FMCSA, the data is being released in ESRI shapefile format for use in a GIS system.</purpose>
 <supplinf>The data provided is in the native Latitude/Longitude coordinate
 system inherited from the TIGER/Line data.</supplinf>
-</descript>
-<timeperd>
-<timeinfo>
-<sngdate>
-<caldate>2008</caldate>
-</sngdate>
-</timeinfo>
-<current>2008</current>
-</timeperd>
-<status>
-<progress>On going</progress>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2008</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>2008</current>
+		</timeperd>
+		<status>
+			<progress>On going</progress>
 <update>While this is a preliminary release, updates will be released
 when available.</update>
-</status>
-<spdom>
-<bounding>
-<westbc>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
 -124.216232</westbc>
-<eastbc>
+					<eastbc>
 -71.051495</eastbc>
-<northbc>
+						<northbc>
 49.000758</northbc>
-<southbc>
+							<southbc>
 26.111954</southbc>
-</bounding>
-</spdom>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>transportation</themekey>
-</theme>
-<theme>
-<themekt>None</themekt>
-<themekey>Line Feature</themekey>
-<themekey>Feature Identifier</themekey>
-<themekey>Census Feature Class Code (CFCC)</themekey>
-<themekey>FMCSA</themekey>
-<themekey>Hazardous Material Route</themekey>
-<themekey>Point/Node</themekey>
-<themekey>TIGER/Line</themekey>
-<themekey>Latitude/Longitude</themekey>
-<themekey>Vector</themekey>
-<themekey>TIGER/Line Identification Number (TLID)</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>United States (6252001)</placekey>
-</place>
-<place>
-<placekt>Library of Congress Subject Headings</placekt>
-<placekey>United States</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2008</tempkey>
-</temporal>
-</keywords>
-<accconst>None</accconst>
-<useconst>None</useconst>
-<ptcontac>
-<cntinfo>
-<cntorgp>
-<cntorg>Federal Motor Carrier Safety Administration, Hazardous Materials Branch</cntorg>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>1200 New Jersey Ave., SE</address>
-<city>Washington</city>
-<state>DC</state>
-<postal>20590</postal>
-<country>United States</country>
-</cntaddr>
-<cntvoice>(800) 832-5660</cntvoice>
-</cntinfo>
-</ptcontac>
-<browse>
-<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/hazmat.bmp</browsen>
-<browsed>Thumbnail</browsed>
-<browset>bmp</browset>
-</browse>
-<secinfo>
-<secclass>Unclassified</secclass>
-</secinfo>
-<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
-<crossref>
-<citeinfo>
-<origin>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</origin>
-<pubdate>2008</pubdate>
-<title>National Transportation Atlas Databases (NTAD) 2008</title>
-<geoform>vector digital data</geoform>
-<pubinfo>
-<pubplace>Washington, DC</pubplace>
-<publish>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</publish>
-</pubinfo>
-<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
-</citeinfo>
-</crossref>
-</idinfo>
-<dataqual>
-<attracc>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>transportation</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Line Feature</themekey>
+								<themekey>Feature Identifier</themekey>
+								<themekey>Census Feature Class Code (CFCC)</themekey>
+								<themekey>FMCSA</themekey>
+								<themekey>Hazardous Material Route</themekey>
+								<themekey>Point/Node</themekey>
+								<themekey>TIGER/Line</themekey>
+								<themekey>Latitude/Longitude</themekey>
+								<themekey>Vector</themekey>
+								<themekey>TIGER/Line Identification Number (TLID)</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>United States (6252001)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>United States</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>2008</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>None</accconst>
+						<useconst>None</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>Federal Motor Carrier Safety Administration, Hazardous Materials Branch</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing and physical address</addrtype>
+									<address>1200 New Jersey Ave., SE</address>
+									<city>Washington</city>
+									<state>DC</state>
+									<postal>20590</postal>
+									<country>United States</country>
+								</cntaddr>
+								<cntvoice>(800) 832-5660</cntvoice>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/hazmat.bmp</browsen>
+							<browsed>Thumbnail</browsed>
+							<browset>bmp</browset>
+						</browse>
+						<secinfo>
+							<secclass>Unclassified</secclass>
+						</secinfo>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+						<crossref>
+							<citeinfo>
+								<origin>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</origin>
+								<pubdate>2008</pubdate>
+								<title>National Transportation Atlas Databases (NTAD) 2008</title>
+								<geoform>vector digital data</geoform>
+								<pubinfo>
+									<pubplace>Washington, DC</pubplace>
+									<publish>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</publish>
+								</pubinfo>
+								<onlink>http://www.bts.gov/programs/geographic_information_services/</onlink>
+							</citeinfo>
+						</crossref>
+					</idinfo>
+					<dataqual>
+						<attracc>
 <attraccr>Inherited TIGER/Line attributes are accurate against Federal Information Processing Standards (FIPS), FIPS Publication 6-4, and FIPS-55 at the 100% level for the codes and base names.  The remaining attribute information has been
 examined but has not been fully tested for accuracy.</attraccr>
-</attracc>
+						</attracc>
 <logic>Route consistency is being reviewed at this time. Network consistency is inherited from TIGER/Line: The feature network of lines (as represented by Record Types 1 and 2) is complete for census purposes.  Spatial objects in TIGER/Line belong to the "Geometry and Topology" (GT) class of objects in the "Spatial Data Transfer Standard" (SDTS) FIPS Publication 173 and are topologically valid.  Node/geometry and topology GT-polygon/chain relationships are collected or generated to satisfy topological edit requirements.
 These requirements include:
 (1) Complete chains must begin and end at nodes.
@@ -151,9 +152,9 @@ These requirements include:
 element and are consistent throughout the extract process.
 (5) The chains representing the limits of the files are free of gaps.
 The Census Bureau performed automated tests to ensure logical consistency and limits of files.  All polygons are tested for closure. The Census Bureau uses its internally developed Geographic Update System to enhance and modify spatial and attribute data in the Census TIGER database.  Standard geographic codes, such as FIPS codes for states, counties, municipalities, and places, are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census TIGER database files.  Most of the codes themselves were provided to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55. Feature attribute information has been examined but has not been fully tested for consistency.</logic>
-<complete>Of the 904 routes reported, 897 have been created.</complete>
-<posacc>
-<horizpa>
+						<complete>Of the 904 routes reported, 897 have been created.</complete>
+						<posacc>
+							<horizpa>
 <horizpar>Accuracy is inherited from the TIGER/Line files:
 The Census Bureau uses Global Positioning System (GPS) coordinates at road centerline intersections to evaluate the horizontal spatial accuracy of source files that may be used to realign road features in the TIGER database and test the horizontal spatial accuracy of the road features in the TIGER/Line files.  The test compares a survey-grade GPS coordinate to its associated road centerline intersection in the TIGER file.  The test is based upon an independent collection of GPS coordinates for a random sample of road intersections from a centerline file that meet certain criteria. The points are referred to as the sample points and are gathered through a private contractor working for the Census Bureau.  Since
 the collection method uses survey-quality GPS-based field techniques, the resulting control points are considered "ground truth" against which the TIGER road centerline intersection coordinates are compared. The distances between the coordinates are calculated and the Census Bureau determines the Circular Error 95% (CE95).  That is, the accuracy of the file in meters with 95% confidence.  The CE95 can be calculated from the mean and standard deviation by using the formula: mean of differences plus (2.65 times the standard deviation). CE95 results reported for each file tested are determined using a spreadsheet with embedded statistical formula.  The use and applicability of the spreadsheet and its embedded formula have been verified by Census Bureau statisticians.  The basis of the calculation is the use of the root mean square error (RSME).  This is the method as stated in the U.S. Government's Federal Geographic Data Committee
@@ -164,40 +165,40 @@ are those taken from the centerline file and the coordinate values from
 an independent source of higher accuracy are those acquired through the
 Census Bureau's contractor. Refer to the 2004 First Edition TIGER/Line metadata for each county or statistically equivalent entity for information on the spatial accuracy of features in that county. Please note that the horizontal spatial
 accuracy, where reported, refers only to the realigned road features identified as matched to the positionally accurate source file with that accuracy.  It is not the spatial accuracy of the TIGER/Line file as a whole.</horizpar>
-</horizpa>
-</posacc>
-<lineage>
-<srcinfo>
-<srccite>
-<citeinfo>
-<origin>Hazardous Material Routes:U.S. Department of Transportation Volpe NTSC TIGER/Line:U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
-<pubdate>Unpublished Material</pubdate>
-<pubtime>2008</pubtime>
-<title>National Hazardous Material Routes</title>
-<pubinfo>
-<pubplace>Washington, DC</pubplace>
-<publish>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</publish>
-</pubinfo>
-</citeinfo>
-</srccite>
-<typesrc>CD-ROM</typesrc>
-<srctime>
-<timeinfo>
-<sngdate>
-<caldate>2008</caldate>
-</sngdate>
-</timeinfo>
-<srccurr>publication date</srccurr>
-</srctime>
-<srccitea>NMHRR</srccitea>
-<srccontr>Geographic and cartographic information (line segments) selected from the Census TIGER/Line database.</srccontr>
-</srcinfo>
-<procstep>
-<procdesc>Hazardous Material Routes are extracted from the Census TIGER/Line files. This is the preliminary release.</procdesc>
-<srcused>NMHRR</srcused>
-<procdate>2006</procdate>
-</procstep>
-<procstep>
+							</horizpa>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>Hazardous Material Routes:U.S. Department of Transportation Volpe NTSC TIGER/Line:U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+										<pubdate>Unpublished Material</pubdate>
+										<pubtime>2008</pubtime>
+										<title>National Hazardous Material Routes</title>
+										<pubinfo>
+											<pubplace>Washington, DC</pubplace>
+											<publish>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<typesrc>CD-ROM</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>2008</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>NMHRR</srccitea>
+								<srccontr>Geographic and cartographic information (line segments) selected from the Census TIGER/Line database.</srccontr>
+							</srcinfo>
+							<procstep>
+								<procdesc>Hazardous Material Routes are extracted from the Census TIGER/Line files. This is the preliminary release.</procdesc>
+								<srcused>NMHRR</srcused>
+								<procdate>2006</procdate>
+							</procstep>
+							<procstep>
 <procdesc>RITA/BTS has normalized the original HazMat table in an effort to increase efficiencies in data storage and retrieval.  The original table contained the following fields: FID (Primary Key), Shape (geometry), TLID, FEDIRP, FENAME, FETYPE, FEDIRS, CFCC, STCNTY, RouteID, RouteType.  After studying the table it was found that the STCNTY, ROUTEID and ROUTETYPE fields could be separated from the hazmat table and placed into related tables.   Below are the processes taken to normalize the data.
 
 First the primary key field (FID) was duplicated within hazmat table.  The field was named PK and now acts as the primary key for the table.  Then the table was run through a program that identified which records were duplicates.  For each duplicate record the appropriate Primary Key was assigned.
@@ -207,235 +208,235 @@ Next the hmroutes table was created.  The RouteID and RouteType fields were plac
 Then the hmstcnty table was created.  The STCNTY field was placed in this table along with FK field.  The FK field was populated with the PK values of the hazmat table and will serve as the foreign key field.  The STCNTY field was a concatenation of the State FIPS and the County FIPS codes.  The table was run through a program that parsed and stored the state FIPS and county FIPS into separate fields.
 
 Finally the duplicate records in the hazmat table were deleted.</procdesc>
-<procdate>2006</procdate>
-<proccont>
-<cntinfo>
-<cntorgp>
-<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
-<cntper>Geospatial Information Program</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>1200 New Jersey Ave., SE</address>
-<city>Washington</city>
-<state>DC</state>
-<postal>20590</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>1 202 366 DATA</cntvoice>
-<cntfax>1 202 366 3640</cntfax>
-<cntemail>answers@bts.gov</cntemail>
-</cntinfo>
-</proccont>
-</procstep>
-</lineage>
-</dataqual>
-<spdoinfo>
-<indspref>Federal Information Processing Standards (FIPS) and feature names.</indspref>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>String</sdtstype>
-<ptvctcnt>145005</ptvctcnt>
-</sdtsterm>
-</ptvctinf>
-</spdoinfo>
-<spref>
-<horizsys>
-<geograph>
-<latres>0.000001</latres>
-<longres>0.000001</longres>
-<geogunit>Decimal degrees</geogunit>
-</geograph>
-<geodetic>
-<horizdn>D_WGS_1984</horizdn>
-<ellips>WGS_1984</ellips>
-<semiaxis>6378137.000000</semiaxis>
-<denflat>298.257224</denflat>
-</geodetic>
-</horizsys>
-</spref>
-<eainfo>
-<detailed>
-<enttyp>
-<enttypl>
+								<procdate>2006</procdate>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
+											<cntper>Geospatial Information Program</cntper>
+										</cntorgp>
+										<cntaddr>
+											<addrtype>mailing and physical address</addrtype>
+											<address>1200 New Jersey Ave., SE</address>
+											<city>Washington</city>
+											<state>DC</state>
+											<postal>20590</postal>
+											<country>USA</country>
+										</cntaddr>
+										<cntvoice>1 202 366 DATA</cntvoice>
+										<cntfax>1 202 366 3640</cntfax>
+										<cntemail>answers@bts.gov</cntemail>
+									</cntinfo>
+								</proccont>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<indspref>Federal Information Processing Standards (FIPS) and feature names.</indspref>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>String</sdtstype>
+								<ptvctcnt>145005</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000001</latres>
+								<longres>0.000001</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 hazmat</enttypl>
-<enttypd>FMCSA Hazardous Material Routes in GIS Format</enttypd>
-<enttypds>Federal Motor Carrier Safety Administration</enttypds>
-</enttyp>
-<attr>
-<attrlabl>FID</attrlabl>
-<attrdef>System generated primary key; a unique identification number for the feature</attrdef>
-<attrdefs>ESRI</attrdefs>
-<attrdomv>
-<udom>Sequential unique whole numbers that are automatically generated.</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>Shape</attrlabl>
-<attrdef>Internal Arcview Generated Attribute</attrdef>
-<attrdefs>ArcView</attrdefs>
-<attrdomv>
-<edom>
-<edomv>Polyline</edomv>
-<edomvd>Polygonal Shapes as defined by ArcView</edomvd>
-<edomvds>ArcView Internal Attribute</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>TLID</attrlabl>
-<attrdef>The Tiger Line Identification number</attrdef>
-<attrdefs>Census TIGER/Line</attrdefs>
-<attrdomv>
-<rdom>
-<rdommin>0</rdommin>
-<rdommax>212556923</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>FEDIRP</attrlabl>
-<attrdef>Feature direction prefix</attrdef>
-<attrdefs>Census TIGER/Line</attrdefs>
-<attrdomv>
-<edom>
-<edomv>N</edomv>
-<edomvd>North</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>NE</edomv>
-<edomvd>North East</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>NW</edomv>
-<edomvd>North West</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>E</edomv>
-<edomvd>East</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>S</edomv>
-<edomvd>South</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>SE</edomv>
-<edomvd>South East</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>SW</edomv>
-<edomvd>South West</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>W</edomv>
-<edomvd>West</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>FENAME</attrlabl>
-<attrdef>Feature name</attrdef>
-<attrdefs>Census TIGER/Line</attrdefs>
-<attrdomv>
-<udom>Character Value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>FETYPE</attrlabl>
-<attrdef>Feature Type</attrdef>
-<attrdefs>Census TIGER/Line</attrdefs>
-<attrdomv>
-<udom>Character Value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>FEDIRS</attrlabl>
-<attrdef>Feature Direction Code</attrdef>
-<attrdefs>Census TIGER/Line</attrdefs>
-<attrdomv>
-<edom>
-<edomv>E</edomv>
-<edomvd>East</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>N</edomv>
-<edomvd>North</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>NE</edomv>
-<edomvd>North East</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>NW</edomv>
-<edomvd>North West</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>S</edomv>
-<edomvd>South</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>SE</edomv>
-<edomvd>South East</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>SW</edomv>
-<edomvd>South West</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-<edom>
-<edomv>W</edomv>
-<edomvd>West</edomvd>
-<edomvds>USBOC</edomvds>
-</edom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>CFCC</attrlabl>
-<attrdef>Census Feature Class Code</attrdef>
-<attrdefs>Census TIGER/Line</attrdefs>
-<attrdomv>
-<codesetd>
-<codesetn>Census Feature Class Code</codesetn>
-<codesets>USBOC</codesets>
-</codesetd>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>PK</attrlabl>
-<attrdef>Primary Key</attrdef>
-<attrdefs>RITA/BTS</attrdefs>
-<attrdomv>
-<udom>Numeric Value</udom>
-</attrdomv>
-</attr>
-<attr>
-<attrlabl>VERSION</attrlabl>
-<attrdef>Version of the database</attrdef>
-<attrdefs>RITA/BTS</attrdefs>
-<attrdomv>
-<rdom>
-<rdommin>00</rdommin>
-<rdommax>99</rdommax>
-</rdom>
-</attrdomv>
-</attr>
-</detailed>
-<overview>
+									<enttypd>FMCSA Hazardous Material Routes in GIS Format</enttypd>
+									<enttypds>Federal Motor Carrier Safety Administration</enttypds>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>System generated primary key; a unique identification number for the feature</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Internal Arcview Generated Attribute</attrdef>
+									<attrdefs>ArcView</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>Polyline</edomv>
+											<edomvd>Polygonal Shapes as defined by ArcView</edomvd>
+											<edomvds>ArcView Internal Attribute</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>TLID</attrlabl>
+									<attrdef>The Tiger Line Identification number</attrdef>
+									<attrdefs>Census TIGER/Line</attrdefs>
+									<attrdomv>
+										<rdom>
+											<rdommin>0</rdommin>
+											<rdommax>212556923</rdommax>
+										</rdom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FEDIRP</attrlabl>
+									<attrdef>Feature direction prefix</attrdef>
+									<attrdefs>Census TIGER/Line</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>N</edomv>
+											<edomvd>North</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>NE</edomv>
+											<edomvd>North East</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>NW</edomv>
+											<edomvd>North West</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>E</edomv>
+											<edomvd>East</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>S</edomv>
+											<edomvd>South</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>SE</edomv>
+											<edomvd>South East</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>SW</edomv>
+											<edomvd>South West</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>W</edomv>
+											<edomvd>West</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FENAME</attrlabl>
+									<attrdef>Feature name</attrdef>
+									<attrdefs>Census TIGER/Line</attrdefs>
+									<attrdomv>
+										<udom>Character Value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FETYPE</attrlabl>
+									<attrdef>Feature Type</attrdef>
+									<attrdefs>Census TIGER/Line</attrdefs>
+									<attrdomv>
+										<udom>Character Value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>FEDIRS</attrlabl>
+									<attrdef>Feature Direction Code</attrdef>
+									<attrdefs>Census TIGER/Line</attrdefs>
+									<attrdomv>
+										<edom>
+											<edomv>E</edomv>
+											<edomvd>East</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>N</edomv>
+											<edomvd>North</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>NE</edomv>
+											<edomvd>North East</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>NW</edomv>
+											<edomvd>North West</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>S</edomv>
+											<edomvd>South</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>SE</edomv>
+											<edomvd>South East</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>SW</edomv>
+											<edomvd>South West</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+										<edom>
+											<edomv>W</edomv>
+											<edomvd>West</edomvd>
+											<edomvds>USBOC</edomvds>
+										</edom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>CFCC</attrlabl>
+									<attrdef>Census Feature Class Code</attrdef>
+									<attrdefs>Census TIGER/Line</attrdefs>
+									<attrdomv>
+										<codesetd>
+											<codesetn>Census Feature Class Code</codesetn>
+											<codesets>USBOC</codesets>
+										</codesetd>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>PK</attrlabl>
+									<attrdef>Primary Key</attrdef>
+									<attrdefs>RITA/BTS</attrdefs>
+									<attrdomv>
+										<udom>Numeric Value</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>VERSION</attrlabl>
+									<attrdef>Version of the database</attrdef>
+									<attrdefs>RITA/BTS</attrdefs>
+									<attrdomv>
+										<rdom>
+											<rdommin>00</rdommin>
+											<rdommax>99</rdommax>
+										</rdom>
+									</attrdomv>
+								</attr>
+							</detailed>
+							<overview>
 <eaover>Hazardous Material Route files contain data describing Line Features.
 The data/attributes describing the lines include coordinates, feature identifiers (route id and route type), CFCCs (inherited from TIGER/Line and used to identify
 the TIGER/Line characteristic of a feature) and secondary feature name (Street name: inherited from TIGER/Line)
@@ -458,71 +459,71 @@ ROUTE_ID - The original route identification code presented by Highways.  It's a
 STATEABBR - The two letter state abbreviation
 ROUTE_TYPE - The route type of the related hazmat feature
 ROUTENUM - the route number of the related Hazmat feature.</eadetcit>
-</overview>
-</eainfo>
-<distinfo>
-<distrib>
-<cntinfo>
-<cntorgp>
-<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
-<cntper>Geospatial Information Program</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing address</addrtype>
-<address>1200 New Jersey Ave., SE</address>
-<city>Washington</city>
-<state>DC</state>
-<postal>20590</postal>
-<country>United States</country>
-</cntaddr>
-<cntvoice>(202) 366-3282</cntvoice>
-<cntemail>answers@bts.gov</cntemail>
-</cntinfo>
-</distrib>
-<resdesc>ntad_2008_us_hazmat</resdesc>
-<distliab>None</distliab>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Shapefile</formname>
+							</overview>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
+										<cntper>Geospatial Information Program</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing address</addrtype>
+										<address>1200 New Jersey Ave., SE</address>
+										<city>Washington</city>
+										<state>DC</state>
+										<postal>20590</postal>
+										<country>United States</country>
+									</cntaddr>
+									<cntvoice>(202) 366-3282</cntvoice>
+									<cntemail>answers@bts.gov</cntemail>
+								</cntinfo>
+							</distrib>
+							<resdesc>ntad_2008_us_hazmat</resdesc>
+							<distliab>None</distliab>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>Shapefile</formname>
 
-</digtinfo>
-<digtopt>
-</digtopt>
-</digform>
-<ordering>Call 202-366-DATA, or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2008 DVD.  This and other RITA/BTS products may be ordered from the RITA/BTS Internet website http://www.bts.gov/programs/geographic_information_services/.</ordering>
-</stdorder>
-<techpreq>Knowledge of and access to Geographic Information System (GIS) software.</techpreq>
-<availabl>
-<timeinfo>
-<sngdate>
-<caldate>2008</caldate>
-</sngdate>
-</timeinfo>
-</availabl>
-</distinfo>
-<metainfo>
-<metd>20090601</metd>
-<metc>
-<cntinfo>
-<cntorgp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntorgp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St., 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-<country>USA</country>
-</cntaddr>
-<cntvoice>(212)854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-</metainfo>
-</metadata>
+									</digtinfo>
+									<digtopt>
+									</digtopt>
+								</digform>
+								<ordering>Call 202-366-DATA, or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2008 DVD.  This and other RITA/BTS products may be ordered from the RITA/BTS Internet website http://www.bts.gov/programs/geographic_information_services/.</ordering>
+							</stdorder>
+							<techpreq>Knowledge of and access to Geographic Information System (GIS) software.</techpreq>
+							<availabl>
+								<timeinfo>
+									<sngdate>
+										<caldate>2008</caldate>
+									</sngdate>
+								</timeinfo>
+							</availabl>
+						</distinfo>
+						<metainfo>
+							<metd>20090601</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

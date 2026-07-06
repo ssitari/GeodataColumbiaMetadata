@@ -26,7 +26,8 @@
 				</pubinfo>
 				<origin>U.S. Census Bureau. Geography Division</origin>
 				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_cd112.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_cd112.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>ground condition: 201101-201301; publication date: 200901-200905, 20010508, 20101209, 20100504, 20110915, 20120207</current>
@@ -44,7 +45,16 @@
 					<sngdate>
 						<caldate>20101209</caldate>
 					</sngdate>
-					<sngdate><caldate>20100504</caldate></sngdate><sngdate><caldate>20110915</caldate></sngdate><sngdate><caldate>20120207</caldate></sngdate></mdattim>
+					<sngdate>
+						<caldate>20100504</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>20110915</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>20120207</caldate>
+					</sngdate>
+				</mdattim>
 			</timeinfo>
 		</timeperd>
 		<status>
@@ -74,7 +84,8 @@
 				<themekey>House of Representatives</themekey>
 				<themekey>population</themekey>
 				<themekey>society</themekey>
-				<themekey>boundaries</themekey></theme>
+				<themekey>boundaries</themekey>
+			</theme>
 			<place>
 				<placekt>GeoNames</placekt>
 				<placekey>United States (6252001)</placekey>
@@ -90,8 +101,15 @@
 				<tempkey>2009</tempkey>
 				<tempkey>2001</tempkey>
 				<tempkey>2010</tempkey>
-				<tempkey>2011</tempkey><tempkey>2012</tempkey></temporal>
-			<theme><themekey>boundaries</themekey><themekt>ISO 19115 Topic Category</themekt><themekey>society</themekey></theme></keywords>
+				<tempkey>2011</tempkey>
+				<tempkey>2012</tempkey>
+			</temporal>
+			<theme>
+				<themekey>boundaries</themekey>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -123,30 +141,152 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_cd110.jpg</browsen><browsed>Thumbnail</browsed><browset>jpg</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_cd110.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>jpg</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Census Bureau, Geography Division</origin>
+						<title>2009 TIGER/Line Shapefiles; Census 2000: State and State Equivalent Areas, 2012</title>
+						<serinfo>
+							<sername>TIGER/Line Shapefiles; Census State and State Equivalent Areas</sername>
+							<issue>2009; 2000</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>online</pubplace>
+							<publish>U.S. Census Bureau, Geography Division</publish>
+						</pubinfo>
+						<pubdate>200901-200905; 20010508</pubdate>
+						<edition>2009; 2000</edition>
+						<geoform>vector digital data</geoform>
+						<othercit>The TIGER/Line Shapefiles are an extract of selected geographic and cartographic information from the Census MAF/TIGER database. The Census MAF/TIGER database represents a seamless national file with no overlaps or gaps between parts.</othercit>
+						<onlink>http://www2.census.gov/cgi-bin/shapefiles2009/national-files</onlink>
+						<onlink>http://www.census.gov/geo/www/cob/st2000.html</onlink>
+					</citeinfo>
+				</srccite>
+				<srccontr>Attribute and geospatial data</srccontr>
+				<typesrc>online</typesrc>
+				<srccitea>U.S. Census Bureau, Geography Division</srccitea>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>200901-200905</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20010508</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+			</srcinfo>
+			<srcinfo>
+				<typesrc>online</typesrc>
+				<srccontr>Attribute data</srccontr>
+				<srccite>
+					<citeinfo>
+						<origin>Clerk of the U.S. House of Representatives</origin>
+						<title>UNOFFICIAL LIST OF MEMBERS; OFFICIAL LIST OF MEMBERs, 2012</title>
+						<pubinfo>
+							<pubplace>online</pubplace>
+							<publish>Clerk of the U.S. House of Representatives</publish>
+						</pubinfo>
+						<pubdate>20101209; 20110915; 20120207</pubdate>
+						<geoform>document</geoform>
+						<onlink>http://clerk.house.gov/member_info/unofficial-list-by-state-112.pdf</onlink>
+						<onlink>http://clerk.house.gov/member_info/olm-112.pdf</onlink>
+					</citeinfo>
+				</srccite>
+				<srccitea>http://clerk.house.gov/</srccitea>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>20101209</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20110915</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20120207</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Esri Data - Updated Demographics, 2012</title>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<pubdate>20100504</pubdate>
+						<edition>2010</edition>
+						<geoform>tabular digital data</geoform>
+						<serinfo>
+							<sername>Esri Data - Updated Demographics</sername>
+							<issue>2010</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Redlands, California, USA</pubplace>
+							<publish>Esri</publish>
+						</pubinfo>
+						<onlink>http://www.esri.com/</onlink>
+						<othercit>Provides the POP2010 attribute.</othercit>
+					</citeinfo>
+				</srccite>
+				<srccitea>Esri Data - Updated Demographics</srccitea>
+				<srccontr>Attribute data</srccontr>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20100504</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<typesrc>DVD-ROM</typesrc>
+			</srcinfo>
+			<procstep>
+				<srcused>U.S. Census Bureau, Geography Division</srcused>
+				<procdesc>The following steps were performed by Esri: Copied the latest Esri Data &amp; Maps U.S. 111th Congressional Districts dataset. Downloaded the most current list of members from http://clerk.house.gov/member_info/unofficial-list-by-state-112.pdf and updated fields NAME and PARTY. Converted the data set to SDC. Created projection file (.prj) and spatial indices.</procdesc>
+				<procsv>ArcGIS 10, ArcGIS 9</procsv>
+				<srcused>http://clerk.house.gov/</srcused>
+				<procdate>20101229</procdate>
+				<srcused>Esri Data - Updated Demographics</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Copied the latest Esri Data &amp; Maps U.S. 112th Congressional Districts dataset. Downloaded the most current list of members from http://clerk.house.gov/member_info/olm-112.pdf and updated fields NAME and PARTY. Converted the data set to SDC. Created projection file (.prj) and spatial indices.</procdesc>
+				<procsv>ArcGIS 10, ArcGIS 9</procsv>
+				<srcused>http://clerk.house.gov/</srcused>
+				<procdate>20111004</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Copied the latest Data &amp; Maps U.S. 112th Congressional Districts dataset. Downloaded the most current list of members from http://clerk.house.gov/member_info/olm-112.pdf and updated fields NAME and PARTY. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<procsv>ArcGIS 10, ArcGIS 9</procsv>
+				<srcused>http://clerk.house.gov/</srcused>
+				<procdate>20120216</procdate>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest. The positional accuracy is unknown.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.
+
+The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles and performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.
+
+[Applies to the coastline only - Line simplification and smoothing was performed with a tolerance of 0.005 decimal degrees and a coordinate reduction using the Douglas-Peucker method with a tolerance of 0.0003 decimal degrees. Very small polygons were eliminated when the combination of geographic codes existed elsewhere.]</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -358,7 +498,14 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 						</reccap>
 						<recfmt>UDF (Universal Disc Format)</recfmt>
 					</offoptn>
-					<onlinopt><computer><networka><networkr>http://www.ArcGIS.com</networkr></networka></computer></onlinopt></digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ArcGIS.com</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
 			</digform>
 			<fees>Software purchase price</fees>
 			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
@@ -386,111 +533,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_us_cd112</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>U.S. Census Bureau, Geography Division</origin>
-						<title>2009 TIGER/Line Shapefiles; Census 2000: State and State Equivalent Areas, 2012</title>
-						<serinfo>
-							<sername>TIGER/Line Shapefiles; Census State and State Equivalent Areas</sername>
-							<issue>2009; 2000</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>online</pubplace>
-							<publish>U.S. Census Bureau, Geography Division</publish>
-						</pubinfo>
-						<pubdate>200901-200905; 20010508</pubdate>
-						<edition>2009; 2000</edition>
-						<geoform>vector digital data</geoform>
-						<othercit>The TIGER/Line Shapefiles are an extract of selected geographic and cartographic information from the Census MAF/TIGER database. The Census MAF/TIGER database represents a seamless national file with no overlaps or gaps between parts.</othercit>
-						<onlink>http://www2.census.gov/cgi-bin/shapefiles2009/national-files</onlink>
-						<onlink>http://www.census.gov/geo/www/cob/st2000.html</onlink>
-					</citeinfo>
-				</srccite>
-				<srccontr>Attribute and geospatial data</srccontr>
-				<typesrc>online</typesrc>
-				<srccitea>U.S. Census Bureau, Geography Division</srccitea>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>200901-200905</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>20010508</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-			</srcinfo>
-			<srcinfo>
-				<typesrc>online</typesrc>
-				<srccontr>Attribute data</srccontr>
-				<srccite>
-					<citeinfo>
-						<origin>Clerk of the U.S. House of Representatives</origin>
-						<title>UNOFFICIAL LIST OF MEMBERS; OFFICIAL LIST OF MEMBERs, 2012</title>
-						<pubinfo>
-							<pubplace>online</pubplace>
-							<publish>Clerk of the U.S. House of Representatives</publish>
-						</pubinfo>
-						<pubdate>20101209; 20110915; 20120207</pubdate>
-						<geoform>document</geoform>
-						<onlink>http://clerk.house.gov/member_info/unofficial-list-by-state-112.pdf</onlink><onlink>http://clerk.house.gov/member_info/olm-112.pdf</onlink></citeinfo>
-				</srccite>
-				<srccitea>http://clerk.house.gov/</srccitea>
-				<srctime>
-					<timeinfo>
-						<mdattim><sngdate><caldate>20101209</caldate></sngdate><sngdate><caldate>20110915</caldate></sngdate><sngdate><caldate>20120207</caldate></sngdate></mdattim></timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Esri Data - Updated Demographics, 2012</title>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>20100504</pubdate>
-						<edition>2010</edition>
-						<geoform>tabular digital data</geoform>
-						<serinfo>
-							<sername>Esri Data - Updated Demographics</sername>
-							<issue>2010</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Redlands, California, USA</pubplace>
-							<publish>Esri</publish>
-						</pubinfo>
-						<onlink>http://www.esri.com/</onlink>
-						<othercit>Provides the POP2010 attribute.</othercit>
-					</citeinfo>
-				</srccite>
-				<srccitea>Esri Data - Updated Demographics</srccitea>
-				<srccontr>Attribute data</srccontr>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>20100504</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<typesrc>DVD-ROM</typesrc>
-			</srcinfo>
-			<procstep><srcused>U.S. Census Bureau, Geography Division</srcused><procdesc>The following steps were performed by Esri: Copied the latest Esri Data &amp; Maps U.S. 111th Congressional Districts dataset. Downloaded the most current list of members from http://clerk.house.gov/member_info/unofficial-list-by-state-112.pdf and updated fields NAME and PARTY. Converted the data set to SDC. Created projection file (.prj) and spatial indices.</procdesc><procsv>ArcGIS 10, ArcGIS 9</procsv><srcused>http://clerk.house.gov/</srcused><procdate>20101229</procdate><srcused>Esri Data - Updated Demographics</srcused></procstep><procstep><procdesc>The following steps were performed by Esri: Copied the latest Esri Data &amp; Maps U.S. 112th Congressional Districts dataset. Downloaded the most current list of members from http://clerk.house.gov/member_info/olm-112.pdf and updated fields NAME and PARTY. Converted the data set to SDC. Created projection file (.prj) and spatial indices.</procdesc><procsv>ArcGIS 10, ArcGIS 9</procsv><srcused>http://clerk.house.gov/</srcused><procdate>20111004</procdate></procstep><procstep><procdesc>The following steps were performed by Esri: Copied the latest Data &amp; Maps U.S. 112th Congressional Districts dataset. Downloaded the most current list of members from http://clerk.house.gov/member_info/olm-112.pdf and updated fields NAME and PARTY. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc><procsv>ArcGIS 10, ArcGIS 9</procsv><srcused>http://clerk.house.gov/</srcused><procdate>20120216</procdate></procstep></lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest. The positional accuracy is unknown.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.
-
-The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles and performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.
-
-[Applies to the coastline only - Line simplification and smoothing was performed with a tolerance of 0.005 decimal degrees and a coordinate reduction using the Douglas-Peucker method with a tolerance of 0.0003 decimal degrees. Very small polygons were eliminated when the combination of geographic codes existed elsewhere.]</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

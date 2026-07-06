@@ -109,32 +109,62 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			</cntinfo>
 		</ptcontac>
 	</idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20110729</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Hydrolines.sdc</title>
+						<origin>DeLorme Publishing Company, Inc.</origin>
+						<pubdate>2010</pubdate>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<publish>DeLorme Publishing Company, Inc.</publish>
+							<pubplace>Yarmouth, Maine, USA</pubplace>
+						</pubinfo>
+						<serinfo>
+							<sername>A subset of DeLorme World Base Map (DWBM).</sername>
+							<issue>2010</issue>
+						</serinfo>
+						<onlink>http://www.delorme.com/</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>1000000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2010</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>DeLorme World Base Map 2010</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdate>20100126</procdate>
+				<procdesc>The following steps were performed by ESRI: Downloaded the data set from the Delorme FTP site. Renamed field LABEL to NAME. Added field TYPE and calculated its values using the source DFCC code and descriptive look up table. Deleted all fields except NAME and TYPE. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The level of detail for each feature is generally better than what is traditionally utilized in a 1:500,000 scale product. The positional accuracy is typical of a 1:100,000 scale map, or +/-50 meters 95% of the time.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+		<attracc>
+			<attraccr>All data has been reviewed for correct application of attributes and is accurate to current conditions.</attraccr>
+		</attracc>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>String</sdtstype></sdtsterm></ptvctinf>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>String</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
 	</spdoinfo>
 	<spref>
 		<horizsys>
@@ -239,53 +269,27 @@ Outside the United States, please direct all inquiries to your local ESRI Office
 			</cntinfo>
 		</distrib>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Hydrolines.sdc</title>
-						<origin>DeLorme Publishing Company, Inc.</origin>
-						<pubdate>2010</pubdate>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<publish>DeLorme Publishing Company, Inc.</publish>
-							<pubplace>Yarmouth, Maine, USA</pubplace>
-						</pubinfo>
-						<serinfo>
-							<sername>A subset of DeLorme World Base Map (DWBM).</sername>
-							<issue>2010</issue>
-						</serinfo>
-						<onlink>http://www.delorme.com/</onlink>
-					</citeinfo>
-				</srccite>
-				<srcscale>1000000</srcscale>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2010</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>DeLorme World Base Map 2010</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdate>20100126</procdate>
-				<procdesc>The following steps were performed by ESRI: Downloaded the data set from the Delorme FTP site. Renamed field LABEL to NAME. Added field TYPE and calculated its values using the source DFCC code and descriptive look up table. Deleted all fields except NAME and TYPE. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The level of detail for each feature is generally better than what is traditionally utilized in a 1:500,000 scale product. The positional accuracy is typical of a 1:100,000 scale map, or +/-50 meters 95% of the time.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-		<attracc>
-			<attraccr>All data has been reviewed for correct application of attributes and is accurate to current conditions.</attraccr>
-		</attracc>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20110729</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

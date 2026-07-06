@@ -38,7 +38,8 @@
 					<pubplace>New York</pubplace>
 					<publish>Columbia University. Libraries</publish>
 				</pubinfo>
-				<title>Bronx Streets, 1873</title></citeinfo>
+				<title>Bronx Streets, 1873</title>
+			</citeinfo>
 		</citation>
 		<keywords>
 			<temporal>
@@ -64,8 +65,14 @@
 			<theme>
 				<themekt>ISO 19115 Topic Category</themekt>
 				<themekey>imageryBaseMapsEarthCover</themekey>
-				<themekey>transportation</themekey></theme>
-			<theme><themekey>streets</themekey><themekt>None</themekt><themekey>roads</themekey></theme></keywords>
+				<themekey>transportation</themekey>
+			</theme>
+			<theme>
+				<themekey>streets</themekey>
+				<themekt>None</themekt>
+				<themekey>roads</themekey>
+			</theme>
+		</keywords>
 		<descript>
 			<abstract>Bronx 1873 Streets is a line theme representing streets in the Bronx in 1873. The features were digitized from the map series entitled "Topographical map made from surveys by the commissioners of the Department of Public Parks of the city of New York of that part of Westchester County adjacent to the City and County of New York embraced in chapter 534 of laws of 1871 as amended by chapter 878 of laws of 1872 " published in 1873 from the New York department of Parks.</abstract>
 			<purpose>This map set was digitized for general use.  This dataset may be used in a GIS.</purpose>
@@ -145,6 +152,24 @@
 			</procstep>
 		</lineage>
 	</dataqual>
+	<spdoinfo>
+		<ptvctinf>
+			<esriterm>
+				<efeatyp>Simple</efeatyp>
+				<efeageom code="3">
+				</efeageom>
+				<esritopo>FALSE</esritopo>
+				<efeacnt>0</efeacnt>
+				<spindex>TRUE</spindex>
+				<linrefer>FALSE</linrefer>
+			</esriterm>
+			<sdtsterm>
+				<sdtstype>String</sdtstype>
+				<ptvctcnt>3505</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+		<direct>Vector</direct>
+	</spdoinfo>
 	<spref>
 		<horizsys>
 			<planar>
@@ -172,20 +197,6 @@
 			</geodetic>
 		</horizsys>
 	</spref>
-	<spdoinfo>
-		<ptvctinf>
-			<esriterm>
-				<efeatyp>Simple</efeatyp>
-				<efeageom code="3">
-				</efeageom>
-				<esritopo>FALSE</esritopo>
-				<efeacnt>0</efeacnt>
-				<spindex>TRUE</spindex>
-				<linrefer>FALSE</linrefer>
-			</esriterm>
-			<sdtsterm><sdtstype>String</sdtstype><ptvctcnt>3505</ptvctcnt></sdtsterm></ptvctinf>
-		<direct>Vector</direct>
-	</spdoinfo>
 	<eainfo>
 		<detailed Name="aquaduct">
 			<enttyp>
@@ -219,31 +230,32 @@
 				</attrdomv>
 			</attr>
 			<attr>
-			<attrlabl>Street</attrlabl>
-			<attrdef>Street Name</attrdef>
+				<attrlabl>Street</attrlabl>
+				<attrdef>Street Name</attrdef>
 			</attr>
 			<attr>
-			<attrlabl>Status</attrlabl>
-			<attrdef>Road Status</attrdef>
-			<attrdomv>
-			<edom>
-			<edomv>P</edomv>
-			<edomvd>planned</edomvd>
-			</edom>
-			<edom>
-			<edomv>R</edomv>
-			<edomvd>compleated</edomvd>
-			</edom></attrdomv>
+				<attrlabl>Status</attrlabl>
+				<attrdef>Road Status</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>P</edomv>
+						<edomvd>planned</edomvd>
+					</edom>
+					<edom>
+						<edomv>R</edomv>
+						<edomvd>compleated</edomvd>
+					</edom>
+				</attrdomv>
 			</attr>
 			<attr>
-			<attrlabl>Bridge</attrlabl>
-			<attrdef>Bridge indicator</attrdef>
+				<attrlabl>Bridge</attrlabl>
+				<attrdef>Bridge indicator</attrdef>
 			</attr>
 			<attr>
-			<attrlabl>Shape_Leng</attrlabl>
-			<attrdef>Length of feature in feet</attrdef>
+				<attrlabl>Shape_Leng</attrlabl>
+				<attrdef>Length of feature in feet</attrdef>
 			</attr>
-			</detailed>
+		</detailed>
 	</eainfo>
 	<distinfo>
 		<distrib>

@@ -11,546 +11,532 @@
 					<pubplace>Washington, DC</pubplace>
 					<publish>United States. Bureau of Transportation Statistics</publish>
 				</pubinfo>
-			<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_altfuels.zip</onlink></citeinfo>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_altfuels.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>United States Alternative Fuels Stations, 2013 is a point theme representing alternative fuels stations.  Through a nationwide network of local coalitions, Clean Citiesprovides project assistance to help stakeholders in the public and private sectors deploy alternative and renewable fuels, idle-reduction measures, fuel economy improvements, and emerging transportation technologies.Department of Energy collects this data as part of the Projects undertaken by Clean Cities coalitions and stakeholders to ensure customers access to clean alternative energy. This data can be found at the Department of Energy Alternative Fuels Data Center Web Feature Service: http://www.afdc.energy.gov/locator/stations/Clean Cities is the deployment arm of the U.S. Department of Energy's (DOE) Vehicle Technologies Office.</abstract>
 			<purpose>More than 250 million vehicles consume millions of barrels of petroleum every day in the United States. On-road passenger travel alone accounts for more than 2.5 trillion vehicle miles traveled each year. Vehicle fleet managers and drivers, corporate decision makers, and public transportation planners can use these strategies to conserve fuel.
 
-</purpose>
-		</descript>
-		<status>
-			<update>Annually</update>
-			<progress>Complete</progress></status>
-		<spdom>
-			<bounding>
-				<westbc>-159.475426</westbc>
-				<eastbc>-68.010502</eastbc>
-				<northbc>64.812234</northbc>
-				<southbc>19.649565</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>Fuel</themekey>
-				<themekey>Transportation</themekey>
-				<themekey>vehicle</themekey>
-				<themekey>energy</themekey>
-				<themekey>NTAD</themekey>
-				<themekey>renewable</themekey>
-			</theme>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>economy</themekey>
-				<themekey>environment</themekey>
-				<themekey>transportation</themekey>
-				<themekey>utilitiesCommunication</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>United States (6252001)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>United States</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>2013</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>None</accconst>
-		<useconst>None</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>National Renewable Energy Laboratory (NREL)</cntorg>
-					<cntper>Andrew Hudgins</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>physical</addrtype>
-					<address>15013 Denver West Parkway</address>
-					<city>Golden</city>
-					<state>CO</state>
-					<postal>80401</postal>
-					<country>US</country>
-				</cntaddr>
-				<cntvoice>303-275-4382</cntvoice>
-				<cntemail>Andrew.Hudgins@nrel.gov</cntemail>
-				<hours>9 - 5 Mountain time</hours>
-				<cntinst>http://www.afdc.energy.gov/locator/stations/</cntinst>
-			</cntinfo>
-		</ptcontac>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
-					<cntper>National Transportation Atlas Database (NTAD) 2013</cntper>
-				</cntorgp>
-				<cntpos>Geospatial Information Services</cntpos>
-				<cntaddr>
-					<addrtype>unknown</addrtype>
-					<address>1200 New Jersey Ave. SE</address>
-					<city>Washington</city>
-					<state>DC</state>
-					<postal>20590</postal>
-					<country>US</country>
-				</cntaddr>
-				<cntvoice>800-853-1351</cntvoice>
-				<cntemail>RITAinfo@dot.gov</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<timeperd><timeinfo><sngdate><caldate>2013</caldate></sngdate></timeinfo><current>publication date</current></timeperd></idinfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>Entity point</sdtstype>
-				<ptvctcnt>14613</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>8.983152841195215e-009</latres>
-				<longres>8.983152841195215e-009</longres>
-				<geogunit>Decimal Degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D WGS 1984</horizdn>
-				<ellips>WGS 1984</ellips>
-				<semiaxis>6378137.0</semiaxis>
-				<denflat>298.257223563</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>altfuels</enttypl>
-				<enttypd>Fuel Stations</enttypd></enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>esri generated unique code for features</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>0</edomv>
-						<edomvd>99999</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>esri generated</attrdef>
-				<attrdefs>Esri</attrdefs>
-				<attrdomv>
-					<edom>
-						<edomv>Point</edomv>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Fuel_Type</attrlabl>
-				<attrdef>The type of alternative fuel the station provides. Fuel types are given as code values.</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>BD</edomv>
-						<edomvd>Biodiesel (B20 and above)</edomvd>
-					</edom>
-					<edom>
-						<edomv>CNG</edomv>
-						<edomvd>Compressed Natural Gas</edomvd>
-					</edom>
-					<edom>
-						<edomv>E85</edomv>
-						<edomvd>Ethanol (E85)</edomvd>
-					</edom>
-					<edom>
-						<edomv>ELEC</edomv>
-						<edomvd>Electric</edomvd>
-					</edom>
-					<edom>
-						<edomv>HY</edomv>
-						<edomvd>Hydrogen</edomvd>
-					</edom>
-					<edom>
-						<edomv>LNG</edomv>
-						<edomvd>Liquefied Natural Gas</edomvd>
-					</edom>
-					<edom>
-						<edomv>LPG</edomv>
-						<edomvd>Liquefied Petroluem Gas (Propane)</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Station_Na</attrlabl>
-				<attrdef>The name of the station.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Street_Add</attrlabl>
-				<attrdef>The street address of the station's location.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Intersecti</attrlabl>
-				<attrdef>Brief additional information about how to locate the station.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>City</attrlabl>
-				<attrdef>The city of the station's location.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>State</attrlabl>
-				<attrdef>The two character U.S. state or Canadian province code of the station's location.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Zip</attrlabl>
-				<attrdef>The ZIP code (postal code) of the station's location.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Plus4</attrlabl>
-				<attrdef>The plus-4 portion of the station's ZIP code (U.S. ZIP codes only).</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Station_Ph</attrlabl>
-				<attrdef>The phone number of the station.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Status_Cod</attrlabl>
+		</purpose>
+	</descript>
+	<status>
+		<update>Annually</update>
+		<progress>Complete</progress>
+	</status>
+	<spdom>
+		<bounding>
+			<westbc>-159.475426</westbc>
+			<eastbc>-68.010502</eastbc>
+			<northbc>64.812234</northbc>
+			<southbc>19.649565</southbc>
+		</bounding>
+	</spdom>
+	<keywords>
+		<theme>
+			<themekt>None</themekt>
+			<themekey>Fuel</themekey>
+			<themekey>Transportation</themekey>
+			<themekey>vehicle</themekey>
+			<themekey>energy</themekey>
+			<themekey>NTAD</themekey>
+			<themekey>renewable</themekey>
+		</theme>
+		<theme>
+			<themekt>ISO 19115 Topic Category</themekt>
+			<themekey>economy</themekey>
+			<themekey>environment</themekey>
+			<themekey>transportation</themekey>
+			<themekey>utilitiesCommunication</themekey>
+		</theme>
+		<place>
+			<placekt>GeoNames</placekt>
+			<placekey>United States (6252001)</placekey>
+		</place>
+		<place>
+			<placekt>Library of Congress Subject Headings</placekt>
+			<placekey>United States</placekey>
+		</place>
+		<temporal>
+			<tempkt>None</tempkt>
+			<tempkey>2013</tempkey>
+		</temporal>
+	</keywords>
+	<accconst>None</accconst>
+	<useconst>None</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>National Renewable Energy Laboratory (NREL)</cntorg>
+				<cntper>Andrew Hudgins</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>physical</addrtype>
+				<address>15013 Denver West Parkway</address>
+				<city>Golden</city>
+				<state>CO</state>
+				<postal>80401</postal>
+				<country>US</country>
+			</cntaddr>
+			<cntvoice>303-275-4382</cntvoice>
+			<cntemail>Andrew.Hudgins@nrel.gov</cntemail>
+			<hours>9 - 5 Mountain time</hours>
+			<cntinst>http://www.afdc.energy.gov/locator/stations/</cntinst>
+		</cntinfo>
+	</ptcontac>
+	<ptcontac>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
+				<cntper>National Transportation Atlas Database (NTAD) 2013</cntper>
+			</cntorgp>
+			<cntpos>Geospatial Information Services</cntpos>
+			<cntaddr>
+				<addrtype>unknown</addrtype>
+				<address>1200 New Jersey Ave. SE</address>
+				<city>Washington</city>
+				<state>DC</state>
+				<postal>20590</postal>
+				<country>US</country>
+			</cntaddr>
+			<cntvoice>800-853-1351</cntvoice>
+			<cntemail>RITAinfo@dot.gov</cntemail>
+		</cntinfo>
+	</ptcontac>
+	<timeperd>
+		<timeinfo>
+			<sngdate>
+				<caldate>2013</caldate>
+			</sngdate>
+		</timeinfo>
+		<current>publication date</current>
+	</timeperd>
+</idinfo>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>Entity point</sdtstype>
+			<ptvctcnt>14613</ptvctcnt>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<spref>
+	<horizsys>
+		<geograph>
+			<latres>8.983152841195215e-009</latres>
+			<longres>8.983152841195215e-009</longres>
+			<geogunit>Decimal Degrees</geogunit>
+		</geograph>
+		<geodetic>
+			<horizdn>D WGS 1984</horizdn>
+			<ellips>WGS 1984</ellips>
+			<semiaxis>6378137.0</semiaxis>
+			<denflat>298.257223563</denflat>
+		</geodetic>
+	</horizsys>
+</spref>
+<eainfo>
+	<detailed>
+		<enttyp>
+			<enttypl>altfuels</enttypl>
+			<enttypd>Fuel Stations</enttypd>
+		</enttyp>
+		<attr>
+			<attrlabl>FID</attrlabl>
+			<attrdef>esri generated unique code for features</attrdef>
+			<attrdefs>Esri</attrdefs>
+			<attrdomv>
+				<edom>
+					<edomv>0</edomv>
+					<edomvd>99999</edomvd>
+				</edom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Shape</attrlabl>
+			<attrdef>esri generated</attrdef>
+			<attrdefs>Esri</attrdefs>
+			<attrdomv>
+				<edom>
+					<edomv>Point</edomv>
+				</edom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Fuel_Type</attrlabl>
+			<attrdef>The type of alternative fuel the station provides. Fuel types are given as code values.</attrdef>
+			<attrdomv>
+				<edom>
+					<edomv>BD</edomv>
+					<edomvd>Biodiesel (B20 and above)</edomvd>
+				</edom>
+				<edom>
+					<edomv>CNG</edomv>
+					<edomvd>Compressed Natural Gas</edomvd>
+				</edom>
+				<edom>
+					<edomv>E85</edomv>
+					<edomvd>Ethanol (E85)</edomvd>
+				</edom>
+				<edom>
+					<edomv>ELEC</edomv>
+					<edomvd>Electric</edomvd>
+				</edom>
+				<edom>
+					<edomv>HY</edomv>
+					<edomvd>Hydrogen</edomvd>
+				</edom>
+				<edom>
+					<edomv>LNG</edomv>
+					<edomvd>Liquefied Natural Gas</edomvd>
+				</edom>
+				<edom>
+					<edomv>LPG</edomv>
+					<edomvd>Liquefied Petroluem Gas (Propane)</edomvd>
+				</edom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Station_Na</attrlabl>
+			<attrdef>The name of the station.</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Street_Add</attrlabl>
+			<attrdef>The street address of the station's location.</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Intersecti</attrlabl>
+			<attrdef>Brief additional information about how to locate the station.</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>City</attrlabl>
+			<attrdef>The city of the station's location.</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>State</attrlabl>
+			<attrdef>The two character U.S. state or Canadian province code of the station's location.</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Zip</attrlabl>
+			<attrdef>The ZIP code (postal code) of the station's location.</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Plus4</attrlabl>
+			<attrdef>The plus-4 portion of the station's ZIP code (U.S. ZIP codes only).</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Station_Ph</attrlabl>
+			<attrdef>The phone number of the station.</attrdef>
+		</attr>
+		<attr>
+			<attrlabl>Status_Cod</attrlabl>
 				<attrdef>The current status of the station, given as code values
 
-</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>E</edomv>
-						<edomvd>Open: The station is open.</edomvd>
-					</edom>
-					<edom>
-						<edomv>P</edomv>
-						<edomvd>Planned: The station is not yet open, but plans to carry alternative fuel in the future, or the station is temporarily out of service. See the "Expected Date" field for an anticipated open date.</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Expected_D</attrlabl>
-				<attrdef>For planned stations, the date the station is expected to open or start carrying alternative fuel.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Groups_Wit</attrlabl>
-				<attrdef>A description of who is allowed to access the station and other station access information.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Access_Day</attrlabl>
-				<attrdef>Hours of operation for the station.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Cards_Acce</attrlabl>
+		</attrdef>
+		<attrdomv>
+			<edom>
+				<edomv>E</edomv>
+				<edomvd>Open: The station is open.</edomvd>
+			</edom>
+			<edom>
+				<edomv>P</edomv>
+				<edomvd>Planned: The station is not yet open, but plans to carry alternative fuel in the future, or the station is temporarily out of service. See the "Expected Date" field for an anticipated open date.</edomvd>
+			</edom>
+		</attrdomv>
+	</attr>
+	<attr>
+		<attrlabl>Expected_D</attrlabl>
+		<attrdef>For planned stations, the date the station is expected to open or start carrying alternative fuel.</attrdef>
+	</attr>
+	<attr>
+		<attrlabl>Groups_Wit</attrlabl>
+		<attrdef>A description of who is allowed to access the station and other station access information.</attrdef>
+	</attr>
+	<attr>
+		<attrlabl>Access_Day</attrlabl>
+		<attrdef>Hours of operation for the station.</attrdef>
+	</attr>
+	<attr>
+		<attrlabl>Cards_Acce</attrlabl>
 				<attrdef>A space-separated list of payment methods accepted. Payment methods are given as code values as described below:
 
-</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>A</edomv>
-						<edomvd>American Express</edomvd>
-					</edom>
-					<edom>
-						<edomv>D</edomv>
-						<edomvd>Discover</edomvd>
-					</edom>
-					<edom>
-						<edomv>M</edomv>
-						<edomvd>MasterCard</edomvd>
-					</edom>
-					<edom>
-						<edomv>V</edomv>
-						<edomvd>VISA</edomvd>
-					</edom>
-					<edom>
-						<edomv>Cash</edomv>
-					</edom>
-					<edom>
-						<edomv>Checks</edomv>
-					</edom>
-					<edom>
-						<edomv>CFN</edomv>
-					</edom>
-					<edom>
-						<edomv>CleanEnergy</edomv>
-					</edom>
-					<edom>
-						<edomv>FuelMan</edomv>
-					</edom>
-					<edom>
-						<edomv>GasCard</edomv>
-					</edom>
-					<edom>
-						<edomv>PHH</edomv>
-					</edom>
-					<edom>
-						<edomv>Voyager</edomv>
-					</edom>
-					<edom>
-						<edomv>Wright_Exp</edomv>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Bd_Blends</attrlabl>
-				<attrdef>For biodiesel stations, the level of biodiesel blends the station provides.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>NG_Fill_Ty</attrlabl>
+	</attrdef>
+	<attrdomv>
+		<edom>
+			<edomv>A</edomv>
+			<edomvd>American Express</edomvd>
+		</edom>
+		<edom>
+			<edomv>D</edomv>
+			<edomvd>Discover</edomvd>
+		</edom>
+		<edom>
+			<edomv>M</edomv>
+			<edomvd>MasterCard</edomvd>
+		</edom>
+		<edom>
+			<edomv>V</edomv>
+			<edomvd>VISA</edomvd>
+		</edom>
+		<edom>
+			<edomv>Cash</edomv>
+		</edom>
+		<edom>
+			<edomv>Checks</edomv>
+		</edom>
+		<edom>
+			<edomv>CFN</edomv>
+		</edom>
+		<edom>
+			<edomv>CleanEnergy</edomv>
+		</edom>
+		<edom>
+			<edomv>FuelMan</edomv>
+		</edom>
+		<edom>
+			<edomv>GasCard</edomv>
+		</edom>
+		<edom>
+			<edomv>PHH</edomv>
+		</edom>
+		<edom>
+			<edomv>Voyager</edomv>
+		</edom>
+		<edom>
+			<edomv>Wright_Exp</edomv>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>Bd_Blends</attrlabl>
+	<attrdef>For biodiesel stations, the level of biodiesel blends the station provides.</attrdef>
+</attr>
+<attr>
+	<attrlabl>NG_Fill_Ty</attrlabl>
 				<attrdef>For CNG stations, the type of dispensing capability available, given as code values.
 
 </attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>Q</edomv>
-						<edomvd>Quick fill</edomvd>
-					</edom>
-					<edom>
-						<edomv>T</edomv>
-						<edomvd>Timed fill</edomvd>
-					</edom>
-					<edom>
-						<edomv>B</edomv>
-						<edomvd>Both: quick fill and timed fill</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>NG_PSI</attrlabl>
-				<attrdef>For CNG stations, a space separated list of PSI pressures available.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>EV_Level1</attrlabl>
-				<attrdef>For electric stations, the number of Level 1 EVSE (standard 110V outlet).</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>EV_Level2</attrlabl>
-				<attrdef>For electric stations, the number of Level 2 EVSE (J1772 connector).</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>EV_DC_Fast</attrlabl>
-				<attrdef>For electric stations, the number of DC Fast Chargers.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>EV_Other_I</attrlabl>
+<attrdomv>
+	<edom>
+		<edomv>Q</edomv>
+		<edomvd>Quick fill</edomvd>
+	</edom>
+	<edom>
+		<edomv>T</edomv>
+		<edomvd>Timed fill</edomvd>
+	</edom>
+	<edom>
+		<edomv>B</edomv>
+		<edomvd>Both: quick fill and timed fill</edomvd>
+	</edom>
+</attrdomv>
+</attr>
+<attr>
+	<attrlabl>NG_PSI</attrlabl>
+	<attrdef>For CNG stations, a space separated list of PSI pressures available.</attrdef>
+</attr>
+<attr>
+	<attrlabl>EV_Level1</attrlabl>
+	<attrdef>For electric stations, the number of Level 1 EVSE (standard 110V outlet).</attrdef>
+</attr>
+<attr>
+	<attrlabl>EV_Level2</attrlabl>
+	<attrdef>For electric stations, the number of Level 2 EVSE (J1772 connector).</attrdef>
+</attr>
+<attr>
+	<attrlabl>EV_DC_Fast</attrlabl>
+	<attrdef>For electric stations, the number of DC Fast Chargers.</attrdef>
+</attr>
+<attr>
+	<attrlabl>EV_Other_I</attrlabl>
 				<attrdef>For electric stations, the number and type of additional EVSE, such as:
 •SP Inductive - Small paddle inductive
 •LP Inductive - Large paddle inductive
 •Avcon Conductive</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>EV_Network</attrlabl>
-				<attrdef>For electric stations, the name of the EVSE network, if applicable.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>EV_Netwo_1</attrlabl>
-				<attrdef>For electric stations, the name of the EVSE network, if applicable.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Geocode_St</attrlabl>
+</attr>
+<attr>
+	<attrlabl>EV_Network</attrlabl>
+	<attrdef>For electric stations, the name of the EVSE network, if applicable.</attrdef>
+</attr>
+<attr>
+	<attrlabl>EV_Netwo_1</attrlabl>
+	<attrdef>For electric stations, the name of the EVSE network, if applicable.</attrdef>
+</attr>
+<attr>
+	<attrlabl>Geocode_St</attrlabl>
 				<attrdef>A rating indicating the approximate accuracy of the latitude and longitude for the station's address, given as code values
 
 </attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>GPS</edomv>
-						<edomvd>The location is from a real GPS readout at the station.</edomvd>
-					</edom>
-					<edom>
-						<edomv>200-9</edomv>
-						<edomvd>Premise (building name, property name, shopping center, etc.) level accuracy.</edomvd>
-					</edom>
-					<edom>
-						<edomv>200-8</edomv>
-						<edomvd>Address level accuracy.</edomvd>
-					</edom>
-					<edom>
-						<edomv>200-7</edomv>
-						<edomvd>Intersection level accuracy.</edomvd>
-					</edom>
-					<edom>
-						<edomv>200-6</edomv>
-						<edomvd>Street level accuracy.</edomvd>
-					</edom>
-					<edom>
-						<edomv>200-5</edomv>
-						<edomvd>ZIP code (postal code) level accuracy.</edomvd>
-					</edom>
-					<edom>
-						<edomv>200-4</edomv>
-						<edomvd>Town (city, village) level accuracy.</edomvd>
-					</edom>
-					<edom>
-						<edomv>200-3</edomv>
-						<edomvd>Sub-region (county, municipality, etc.) level accuracy.</edomvd>
-					</edom>
-					<edom>
-						<edomv>200-2</edomv>
-						<edomvd>Region (state, province, prefecture, etc.) level accuracy.</edomvd>
-					</edom>
-					<edom>
-						<edomv>200-1</edomv>
-						<edomvd>Country level accuracy.</edomvd>
-					</edom>
-					<edom>
-						<edomv>200-0</edomv>
-						<edomvd>Unknown accuracy.</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Latitude</attrlabl>
-				<attrdef>The latitude of the station's address (see the "Geocode Status" field for details on the latitude's accuracy).</attrdef>
-				<attrdomv>
-					<rdom>
-						<rdommin>-99</rdommin>
-						<rdommax>99</rdommax>
-					</rdom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Longitude</attrlabl>
-				<attrdef>The longitude of the station's address (see the "Geocode Status" field for details on the longitude's accuracy).</attrdef>
-				<attrdomv>
-					<rdom>
-						<rdommin>-180</rdommin>
-						<rdommax>180</rdommax>
-					</rdom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Date_Last</attrlabl>
-				<attrdef>The date the station's details were last confirmed.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>ID</attrlabl>
-				<attrdef>A unique identifier for this specific station.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Updated_At</attrlabl>
-				<attrdef>The time the station's details were last updated (ISO 8601 format).</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Owner_Type</attrlabl>
-				<attrdef>A space-separated list of payment methods accepted. Payment methods are given as code values.</attrdef>
-				<attrdomv>
-					<edom>
-						<edomv>P</edomv>
-						<edomvd>Privately owned</edomvd>
-					</edom>
-					<edom>
-						<edomv>T</edomv>
-						<edomvd>Utility owned</edomvd>
-					</edom>
-					<edom>
-						<edomv>FG</edomv>
-						<edomvd>Federal government owned</edomvd>
-					</edom>
-					<edom>
-						<edomv>LG</edomv>
-						<edomvd>Local government owned</edomvd>
-					</edom>
-					<edom>
-						<edomv>SG</edomv>
-						<edomvd>State government owned</edomvd>
-					</edom>
-					<edom>
-						<edomv>J</edomv>
-						<edomvd>Jointly owned (combintion of owner types)</edomvd>
-					</edom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Federal_Ag</attrlabl>
-				<attrdef>If the station is owned by a federal agency, a record for the federal agency that owns this station. See federal_1 for response details.</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Federal__1</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>Open_Date</attrlabl>
-				<attrdef>date open</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>Hydrogen_S</attrlabl>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>National Renewable Energy Laboratory (NREL)</cntorg>
-					<cntper>Andrew Hudgins</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>physical address</addrtype>
-					<address>15013 Denver West Parkway</address>
-					<city>Golden</city>
-					<state>CO</state>
-					<postal>80401</postal>
-					<country>US</country>
-				</cntaddr>
-				<cntvoice>303-275-4382</cntvoice>
-				<cntemail>Andrew.Hudgins@nrel.gov</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>ntad_2013_altfuels</resdesc></distinfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research and Innovative Technology Administration's Bureau of Transportation Statistics (RITA/BTS)</cntorg>
-					<cntper>National Transportation Atlas Database (NTAD) 2013</cntper>
-				</cntorgp>
-				<cntpos>Geospatial Information Services</cntpos>
-				<cntaddr>
-					<addrtype>unknown</addrtype>
-					<address>1200 New Jersey Ave. SE</address>
-					<city>Washington</city>
-					<state>DC</state>
-					<postal>20590</postal>
-					<country>US</country>
-				</cntaddr>
-				<cntvoice>800-853-1351, 202-366-DATA</cntvoice>
-				<cntemail>RITAinfo@dot.gov</cntemail>
-				<cntinst>Data can be viewed and downloaded at:
-http://www.afdc.energy.gov/locator/stations/
-or
-http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_atlas_database/2013/index.html
-</cntinst>
-			</cntinfo>
-		</distrib>
-		<distliab>See access and use constraints information.</distliab>
-	</distinfo>
-	<metainfo>
-		<metd>20140925</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
+<attrdomv>
+	<edom>
+		<edomv>GPS</edomv>
+		<edomvd>The location is from a real GPS readout at the station.</edomvd>
+	</edom>
+	<edom>
+		<edomv>200-9</edomv>
+		<edomvd>Premise (building name, property name, shopping center, etc.) level accuracy.</edomvd>
+	</edom>
+	<edom>
+		<edomv>200-8</edomv>
+		<edomvd>Address level accuracy.</edomvd>
+	</edom>
+	<edom>
+		<edomv>200-7</edomv>
+		<edomvd>Intersection level accuracy.</edomvd>
+	</edom>
+	<edom>
+		<edomv>200-6</edomv>
+		<edomvd>Street level accuracy.</edomvd>
+	</edom>
+	<edom>
+		<edomv>200-5</edomv>
+		<edomvd>ZIP code (postal code) level accuracy.</edomvd>
+	</edom>
+	<edom>
+		<edomv>200-4</edomv>
+		<edomvd>Town (city, village) level accuracy.</edomvd>
+	</edom>
+	<edom>
+		<edomv>200-3</edomv>
+		<edomvd>Sub-region (county, municipality, etc.) level accuracy.</edomvd>
+	</edom>
+	<edom>
+		<edomv>200-2</edomv>
+		<edomvd>Region (state, province, prefecture, etc.) level accuracy.</edomvd>
+	</edom>
+	<edom>
+		<edomv>200-1</edomv>
+		<edomvd>Country level accuracy.</edomvd>
+	</edom>
+	<edom>
+		<edomv>200-0</edomv>
+		<edomvd>Unknown accuracy.</edomvd>
+	</edom>
+</attrdomv>
+</attr>
+<attr>
+	<attrlabl>Latitude</attrlabl>
+	<attrdef>The latitude of the station's address (see the "Geocode Status" field for details on the latitude's accuracy).</attrdef>
+	<attrdomv>
+		<rdom>
+			<rdommin>-99</rdommin>
+			<rdommax>99</rdommax>
+		</rdom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>Longitude</attrlabl>
+	<attrdef>The longitude of the station's address (see the "Geocode Status" field for details on the longitude's accuracy).</attrdef>
+	<attrdomv>
+		<rdom>
+			<rdommin>-180</rdommin>
+			<rdommax>180</rdommax>
+		</rdom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>Date_Last</attrlabl>
+	<attrdef>The date the station's details were last confirmed.</attrdef>
+</attr>
+<attr>
+	<attrlabl>ID</attrlabl>
+	<attrdef>A unique identifier for this specific station.</attrdef>
+</attr>
+<attr>
+	<attrlabl>Updated_At</attrlabl>
+	<attrdef>The time the station's details were last updated (ISO 8601 format).</attrdef>
+</attr>
+<attr>
+	<attrlabl>Owner_Type</attrlabl>
+	<attrdef>A space-separated list of payment methods accepted. Payment methods are given as code values.</attrdef>
+	<attrdomv>
+		<edom>
+			<edomv>P</edomv>
+			<edomvd>Privately owned</edomvd>
+		</edom>
+		<edom>
+			<edomv>T</edomv>
+			<edomvd>Utility owned</edomvd>
+		</edom>
+		<edom>
+			<edomv>FG</edomv>
+			<edomvd>Federal government owned</edomvd>
+		</edom>
+		<edom>
+			<edomv>LG</edomv>
+			<edomvd>Local government owned</edomvd>
+		</edom>
+		<edom>
+			<edomv>SG</edomv>
+			<edomvd>State government owned</edomvd>
+		</edom>
+		<edom>
+			<edomv>J</edomv>
+			<edomvd>Jointly owned (combintion of owner types)</edomvd>
+		</edom>
+	</attrdomv>
+</attr>
+<attr>
+	<attrlabl>Federal_Ag</attrlabl>
+	<attrdef>If the station is owned by a federal agency, a record for the federal agency that owns this station. See federal_1 for response details.</attrdef>
+</attr>
+<attr>
+	<attrlabl>Federal__1</attrlabl>
+</attr>
+<attr>
+	<attrlabl>Open_Date</attrlabl>
+	<attrdef>date open</attrdef>
+</attr>
+<attr>
+	<attrlabl>Hydrogen_S</attrlabl>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+	<distrib>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>National Renewable Energy Laboratory (NREL)</cntorg>
+				<cntper>Andrew Hudgins</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>physical address</addrtype>
+				<address>15013 Denver West Parkway</address>
+				<city>Golden</city>
+				<state>CO</state>
+				<postal>80401</postal>
+				<country>US</country>
+			</cntaddr>
+			<cntvoice>303-275-4382</cntvoice>
+			<cntemail>Andrew.Hudgins@nrel.gov</cntemail>
+		</cntinfo>
+	</distrib>
+	<resdesc>ntad_2013_altfuels</resdesc>
+</distinfo>
+	
+<metainfo>
+	<metd>20140925</metd>
+	<metc>
+		<cntinfo>
+			<cntorgp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntorgp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St., 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+				<country>USA</country>
+			</cntaddr>
+			<cntvoice>(212)854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+	<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+</metainfo>
 </metadata>

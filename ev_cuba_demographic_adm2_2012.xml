@@ -14,7 +14,7 @@
 			<place>
 				<placekt>None</placekt>
 				<placekey>Republic of Cuba</placekey>
-        <placekey>Cuba</placekey>
+				<placekey>Cuba</placekey>
 			</place>
 			<temporal>
 				<tempkt>None</tempkt>
@@ -32,7 +32,7 @@
 		<descript>
 			<abstract>
 Cuba Demographic Census Data (Municipality), 2012 is a polygon theme representing Municipalities (2nd level administrative units) in Cuba as of 2012. Attribute data include summary results of the 2012 Cuban census questions regarding demographic characteristics. The documentation of these variables can be found in the "Demographic" section from the accompanying code book. This dataset is part of Cuba 2012 Census collection.
-</abstract>
+			</abstract>
 		</descript>
 		<citation>
 			<citeinfo>
@@ -44,954 +44,954 @@ Cuba Demographic Census Data (Municipality), 2012 is a polygon theme representin
 					<publish>East View Geospatial (Firm)</publish>
 				</pubinfo>
 				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_cuba_demographic_adm2_2012.zip
-</onlink>
-			</citeinfo>
-		</citation>
-		<timeperd>
-			<current>Ground condition</current>
-			<timeinfo>
-				<sngdate>
-					<caldate>2012</caldate>
-				</sngdate>
-			</timeinfo>
-		</timeperd>
-		<status>
-			<progress>Complete</progress>
-			<update>Unknown</update>
-		</status>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntperp>
-					<cntorg>East View Cartographic, Incorporated</cntorg>
-				</cntperp>
-			</cntinfo>
-		</ptcontac>
-	</idinfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>G-polygon</sdtstype>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-  <eainfo>
-  <detailed>
-    <enttyp>
-      <enttypl>Cuba_2012</enttypl>
-      <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-      <enttypds>East View Geospatial</enttypds>
-    </enttyp>
-    <attr>
-    <attrlabl>ADM1_CODE</attrlabl>
-    <attrdef>Province Code [cod_prov]</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census cestor as a coded value</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>ADM1_NAME</attrlabl>
-    <attrdef>Province Name</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Name of Province the census sector falls in </udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>ADM2_CODE</attrlabl>
-    <attrdef>Municipality Join Code [municipio]</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census cestor as a coded value</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>ADM2_NAME</attrlabl>
-    <attrdef>Municipality Name [nombre]</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Name of Municipality the census sector falls in </udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D001</attrlabl>
-    <attrdef>Sex: Male [F1_Male]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D002</attrlabl>
-    <attrdef>Sex: Female [F2_Female]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D003</attrlabl>
-    <attrdef>Marital Status: Single Never Married [F1_Single_never_married]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D004</attrlabl>
-    <attrdef>Marital Status: Married In A Union [F2_Married_in_union]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D005</attrlabl>
-    <attrdef>Marital Status: Separated, Divorced, Or Spose Absent [F3_Separated_divorced_spouse_absent]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D006</attrlabl>
-    <attrdef>Marital Status: Widowed [F4_Widowed]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D007</attrlabl>
-    <attrdef>Marital Status: Never Married And Never Cohabited [F111_Never_married_and_never_cohabited]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D008</attrlabl>
-    <attrdef>Marital Status: Married Formally [F210_Married_formally]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D009</attrlabl>
-    <attrdef>Marital Status: Censensual Union [F220_Consensual_union]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D010</attrlabl>
-    <attrdef>Marital Status: Separated [F330_Separated]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D011</attrlabl>
-    <attrdef>Marital Status: Divorced [F350_Divorced]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D012</attrlabl>
-    <attrdef>Marital Status: Widowed From Consensual Union Or Marriage [F411_Widowed_from_consensual_union_or_marriage]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D013</attrlabl>
-    <attrdef>Consensual Union: Yes  [F1_Yes_in_consensual_union]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D014</attrlabl>
-    <attrdef>Consensual Union: No, Married [F2_No_married]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D015</attrlabl>
-    <attrdef>Consensual Union: No Response [F9_NIU__not_in_universe_]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D016</attrlabl>
-    <attrdef>Information About Stepmother: Biological Mother Present Or No Mother Present [F0_Biological_mother_or_no_mother_present]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D017</attrlabl>
-    <attrdef>Information About Stepmother: Explicitly Identified Stepmother [F3_Explicitly_identified_step_relationship]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D018</attrlabl>
-    <attrdef>Information About Stepmother: Age Difference Of Step Mother And Child Is Improbable [F5_Age_difference_implausible]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D019</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 0 To 4 [F0_4]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D020</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 5 To 9 [F5_9]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D021</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 10 To 14 [F10_14]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D022</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 15 To 19 [F15_19]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D023</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 12 To 24 [F12_24]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D024</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 25 To 29 [F25_29]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D025</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 30 To 34 [F30_34]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D026</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 35 To 39 [F35_39]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D027</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 40 To 44 [F40_44]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D028</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 45 To 49 [F45_49]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D029</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 50 To 54 [F50_54]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D030</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 55 To 59 [F55_59]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D031</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 60 To 64 [F60_64]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D032</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 65 To 69 [F65_69]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D033</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 70 To 74 [F70_74]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D034</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 75 To 79 [F75_79]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D035</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 80 Years And Older [F80_]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D036</attrlabl>
-    <attrdef>Quinqennial Age Group Years: 85 To Years And Older [F85_]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D037</attrlabl>
-    <attrdef>Family Size: 1 Person [F1_1_family_member_present]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D038</attrlabl>
-    <attrdef>Family Size: 2 Persons [F2_2_family_members_present]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D039</attrlabl>
-    <attrdef>Family Size: 3 Persons [F3_3_family_members_present]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D040</attrlabl>
-    <attrdef>Family Size: 4 Persons [F4_4]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D041</attrlabl>
-    <attrdef>Family Size: 5 Persons [F5_5]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D042</attrlabl>
-    <attrdef>Family Size: 6 Persons [F6_6]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D043</attrlabl>
-    <attrdef>Family Size: 7 Persons [F7_7]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D044</attrlabl>
-    <attrdef>Family Size: 8 Persons [F8_8]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D045</attrlabl>
-    <attrdef>Family Size: 9 Persons [F9_9]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D046</attrlabl>
-    <attrdef>Family Size: 10 Persons [F10_10]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D047</attrlabl>
-    <attrdef>Family Size: 11 Persons [F11_11]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D048</attrlabl>
-    <attrdef>Family Size: 12 Persons [F12_12]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D049</attrlabl>
-    <attrdef>Family Size: 13 Persons [F13_13]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D050</attrlabl>
-    <attrdef>Family Size: 14 Persons [F14_14]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D051</attrlabl>
-    <attrdef>Family Size: 15 Persons [F15_15]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D052</attrlabl>
-    <attrdef>Family Size: 16 Persons [F16_16]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D053</attrlabl>
-    <attrdef>Family Size: 17 Persons [F17_17]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D054</attrlabl>
-    <attrdef>Family Size: 18 Persons [F18_18]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D055</attrlabl>
-    <attrdef>Number Of Married Couple In The Household: No Married Couples [F0_No_married_couples_in_household]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D056</attrlabl>
-    <attrdef>Number Of Married Couple In The Household: 1 Married Couple [F1_1_couple]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D057</attrlabl>
-    <attrdef>Number Of Married Couple In The Household: 2 Married Couples [F2_2_couples]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D058</attrlabl>
-    <attrdef>Number Of Married Couple In The Household: 3 Married Couples [F3_3_couples]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D059</attrlabl>
-    <attrdef>Number Of Married Couple In The Household: 4 Married Couples [F4_4_couples]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D060</attrlabl>
-    <attrdef>Number Of Married Couple In The Household: 5 Married Couples [F5_5_couples]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D061</attrlabl>
-    <attrdef>Family Linking Rule For Father: No Parent Of Person In Household [F0_No_parent_of_person_in_household]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D062</attrlabl>
-    <attrdef>Family Linking Rule For Father: Link To Head Od Household Or Spouse: Unambiguous [F11_Link_to_head_or_spouse_unambiguous]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D063</attrlabl>
-    <attrdef>Family Linking Rule For Father: Link To Head Od Household Or Spouse: Ambiguous [F12_Link_to_head_or_spouse_ambiguous]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D064</attrlabl>
-    <attrdef>Family Linking Rule For Father: Child-Grandchild, Within Constructed Child Cap [F22_Child_Grandchild_within_constructed_child_cap]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D065</attrlabl>
-    <attrdef>Family Linking Rule For Father: Child-Grandchild, Exceeds Child Cap [F23_Child_Grandchild_exceeds_child_cap]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D066</attrlabl>
-    <attrdef>Family Linking Rule For Father: Specified Other Relative, Within Constructed Child Cap [F32_Specified_Other_Relatives_within_constructed_child_cap]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D067</attrlabl>
-    <attrdef>Family Linking Rule For Father: Other Relatives, Within Constructed Child Cap [F42_Other_Relatives_within_constructed_child_cap]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D068</attrlabl>
-    <attrdef>Family Linking Rule For Father: Non-Relatives, Within Constructed Child Cap [F52_Non_Relatives_within_constructed_child_cap]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D069</attrlabl>
-    <attrdef>Spouse Link Rule: Rule 0 No Spouse Present [F0_No_spouse_present]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D070</attrlabl>
-    <attrdef>Spouse Link Rule: Rule 1 Strong Relationship Pairing Couple Adjacent [F1_Rule_1__strong_relationship_pairing_couple_adjacent]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D071</attrlabl>
-    <attrdef>Spouse Link Rule: Rule 2 Strong Relationship Pairing Couple Not Adjacent [F2_Rule_2__strong_relationship_pairing_couple_not_adjacent]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D072</attrlabl>
-    <attrdef>Spouse Link Rule: Rule 3 Weak Relationship Pairing Couple Adjacent [F3_Rule_3__weak_relationship_pairing_couple_adjacent]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D073</attrlabl>
-    <attrdef>Spouse Link Rule: Rule 4 Weak Relationship Pairing Couple Not Adjacent [F4_Rule_4__weak_relationship_pairing_couple_not_adjacent]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D074</attrlabl>
-    <attrdef>Spouse Link Rule: Rule 5 Weak Consensual Union Pairings [F5_Rule_5__weak_consensual_union_pairings]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D075</attrlabl>
-    <attrdef>Men Who Have No More Than One Wife Linked Via Spouses Location In Household (Sploc) [F0_No_more_than_one_wife_linked_via_SPLOC]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D076</attrlabl>
-    <attrdef>Number Of Family Members: 1 [F1]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D077</attrlabl>
-    <attrdef>Number Of Family Members: 2 [F2]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D078</attrlabl>
-    <attrdef>Number Of Family Members: 3 [F3]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D079</attrlabl>
-    <attrdef>Number Of Family Members: 4 [F4]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D080</attrlabl>
-    <attrdef>Number Of Family Members: 5 [F5]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D081</attrlabl>
-    <attrdef>Number Of Family Members: 6 [F6]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D082</attrlabl>
-    <attrdef>Number Of Family Members: 7 [F7]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D083</attrlabl>
-    <attrdef>Number Of Family Members: 8 [F8]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D084</attrlabl>
-    <attrdef>Number Of Family Members: 9 [F9]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D085</attrlabl>
-    <attrdef>Number Of Family Members: 10 [F10]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D086</attrlabl>
-    <attrdef>Number Of Family Members: 11 [F11]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D087</attrlabl>
-    <attrdef>Number Of Family Members: 12 [F12]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D088</attrlabl>
-    <attrdef>Number Of Family Members: 13 [F13]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D089</attrlabl>
-    <attrdef>Number Of Family Members: 14 [F14]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D090</attrlabl>
-    <attrdef>Number Of Family Members: 15 [F15]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D091</attrlabl>
-    <attrdef>Number Of Family Members: 16 [F16]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D092</attrlabl>
-    <attrdef>Number Of Family Members: 17 [F17]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D093</attrlabl>
-    <attrdef>Number Of Family Members: 18 [F18]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D094</attrlabl>
-    <attrdef>Number Of Family Members: 19 [F19]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D095</attrlabl>
-    <attrdef>Number Of Family Members: 20 [F20]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D096</attrlabl>
-    <attrdef>Number Of Family Members: 21 [F21]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D097</attrlabl>
-    <attrdef>Number Of Family Members: 22 [F22]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D098</attrlabl>
-    <attrdef>Number Of Family Members: 23 [F23]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D099</attrlabl>
-    <attrdef>Number Of Family Members: 24 [F24]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D100</attrlabl>
-    <attrdef>Number Of Family Members: 25 [F25]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D101</attrlabl>
-    <attrdef>Race: White [F10_White]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D102</attrlabl>
-    <attrdef>Race: Black [F20_Black]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>SUM_D103</attrlabl>
-    <attrdef>Race: Mixed Race [F50_Mixed_race]</attrdef>
-    <attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Year</attrlabl>
-    <attrdef>Year</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-  </detailed>
-  </eainfo>
-	<metainfo>
-		<metd>20210701</metd>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metc>
-			<cntinfo>
-				<cntperp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntperp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
-	<distinfo>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>Geopackage</formname>
-					<formspec>zip</formspec>
-				</digtinfo>
-			</digform>
-		</stdorder>
-		<resdesc>ev_cuba_demographic_adm2_2012</resdesc>
-		<distrib>
-		</distrib>
-	</distinfo>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2012</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+</idinfo>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<eainfo>
+	<detailed>
+		<enttyp>
+			<enttypl>Cuba_2012</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>ADM1_CODE</attrlabl>
+			<attrdef>Province Code [cod_prov]</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census cestor as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM1_NAME</attrlabl>
+			<attrdef>Province Name</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Name of Province the census sector falls in </udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM2_CODE</attrlabl>
+			<attrdef>Municipality Join Code [municipio]</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census cestor as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM2_NAME</attrlabl>
+			<attrdef>Municipality Name [nombre]</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Name of Municipality the census sector falls in </udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D001</attrlabl>
+			<attrdef>Sex: Male [F1_Male]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D002</attrlabl>
+			<attrdef>Sex: Female [F2_Female]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D003</attrlabl>
+			<attrdef>Marital Status: Single Never Married [F1_Single_never_married]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D004</attrlabl>
+			<attrdef>Marital Status: Married In A Union [F2_Married_in_union]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D005</attrlabl>
+			<attrdef>Marital Status: Separated, Divorced, Or Spose Absent [F3_Separated_divorced_spouse_absent]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D006</attrlabl>
+			<attrdef>Marital Status: Widowed [F4_Widowed]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D007</attrlabl>
+			<attrdef>Marital Status: Never Married And Never Cohabited [F111_Never_married_and_never_cohabited]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D008</attrlabl>
+			<attrdef>Marital Status: Married Formally [F210_Married_formally]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D009</attrlabl>
+			<attrdef>Marital Status: Censensual Union [F220_Consensual_union]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D010</attrlabl>
+			<attrdef>Marital Status: Separated [F330_Separated]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D011</attrlabl>
+			<attrdef>Marital Status: Divorced [F350_Divorced]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D012</attrlabl>
+			<attrdef>Marital Status: Widowed From Consensual Union Or Marriage [F411_Widowed_from_consensual_union_or_marriage]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D013</attrlabl>
+			<attrdef>Consensual Union: Yes  [F1_Yes_in_consensual_union]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D014</attrlabl>
+			<attrdef>Consensual Union: No, Married [F2_No_married]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D015</attrlabl>
+			<attrdef>Consensual Union: No Response [F9_NIU__not_in_universe_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D016</attrlabl>
+			<attrdef>Information About Stepmother: Biological Mother Present Or No Mother Present [F0_Biological_mother_or_no_mother_present]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D017</attrlabl>
+			<attrdef>Information About Stepmother: Explicitly Identified Stepmother [F3_Explicitly_identified_step_relationship]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D018</attrlabl>
+			<attrdef>Information About Stepmother: Age Difference Of Step Mother And Child Is Improbable [F5_Age_difference_implausible]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D019</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 0 To 4 [F0_4]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D020</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 5 To 9 [F5_9]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D021</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 10 To 14 [F10_14]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D022</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 15 To 19 [F15_19]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D023</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 12 To 24 [F12_24]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D024</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 25 To 29 [F25_29]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D025</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 30 To 34 [F30_34]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D026</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 35 To 39 [F35_39]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D027</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 40 To 44 [F40_44]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D028</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 45 To 49 [F45_49]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D029</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 50 To 54 [F50_54]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D030</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 55 To 59 [F55_59]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D031</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 60 To 64 [F60_64]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D032</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 65 To 69 [F65_69]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D033</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 70 To 74 [F70_74]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D034</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 75 To 79 [F75_79]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D035</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 80 Years And Older [F80_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D036</attrlabl>
+			<attrdef>Quinqennial Age Group Years: 85 To Years And Older [F85_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D037</attrlabl>
+			<attrdef>Family Size: 1 Person [F1_1_family_member_present]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D038</attrlabl>
+			<attrdef>Family Size: 2 Persons [F2_2_family_members_present]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D039</attrlabl>
+			<attrdef>Family Size: 3 Persons [F3_3_family_members_present]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D040</attrlabl>
+			<attrdef>Family Size: 4 Persons [F4_4]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D041</attrlabl>
+			<attrdef>Family Size: 5 Persons [F5_5]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D042</attrlabl>
+			<attrdef>Family Size: 6 Persons [F6_6]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D043</attrlabl>
+			<attrdef>Family Size: 7 Persons [F7_7]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D044</attrlabl>
+			<attrdef>Family Size: 8 Persons [F8_8]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D045</attrlabl>
+			<attrdef>Family Size: 9 Persons [F9_9]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D046</attrlabl>
+			<attrdef>Family Size: 10 Persons [F10_10]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D047</attrlabl>
+			<attrdef>Family Size: 11 Persons [F11_11]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D048</attrlabl>
+			<attrdef>Family Size: 12 Persons [F12_12]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D049</attrlabl>
+			<attrdef>Family Size: 13 Persons [F13_13]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D050</attrlabl>
+			<attrdef>Family Size: 14 Persons [F14_14]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D051</attrlabl>
+			<attrdef>Family Size: 15 Persons [F15_15]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D052</attrlabl>
+			<attrdef>Family Size: 16 Persons [F16_16]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D053</attrlabl>
+			<attrdef>Family Size: 17 Persons [F17_17]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D054</attrlabl>
+			<attrdef>Family Size: 18 Persons [F18_18]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D055</attrlabl>
+			<attrdef>Number Of Married Couple In The Household: No Married Couples [F0_No_married_couples_in_household]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D056</attrlabl>
+			<attrdef>Number Of Married Couple In The Household: 1 Married Couple [F1_1_couple]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D057</attrlabl>
+			<attrdef>Number Of Married Couple In The Household: 2 Married Couples [F2_2_couples]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D058</attrlabl>
+			<attrdef>Number Of Married Couple In The Household: 3 Married Couples [F3_3_couples]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D059</attrlabl>
+			<attrdef>Number Of Married Couple In The Household: 4 Married Couples [F4_4_couples]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D060</attrlabl>
+			<attrdef>Number Of Married Couple In The Household: 5 Married Couples [F5_5_couples]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D061</attrlabl>
+			<attrdef>Family Linking Rule For Father: No Parent Of Person In Household [F0_No_parent_of_person_in_household]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D062</attrlabl>
+			<attrdef>Family Linking Rule For Father: Link To Head Od Household Or Spouse: Unambiguous [F11_Link_to_head_or_spouse_unambiguous]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D063</attrlabl>
+			<attrdef>Family Linking Rule For Father: Link To Head Od Household Or Spouse: Ambiguous [F12_Link_to_head_or_spouse_ambiguous]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D064</attrlabl>
+			<attrdef>Family Linking Rule For Father: Child-Grandchild, Within Constructed Child Cap [F22_Child_Grandchild_within_constructed_child_cap]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D065</attrlabl>
+			<attrdef>Family Linking Rule For Father: Child-Grandchild, Exceeds Child Cap [F23_Child_Grandchild_exceeds_child_cap]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D066</attrlabl>
+			<attrdef>Family Linking Rule For Father: Specified Other Relative, Within Constructed Child Cap [F32_Specified_Other_Relatives_within_constructed_child_cap]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D067</attrlabl>
+			<attrdef>Family Linking Rule For Father: Other Relatives, Within Constructed Child Cap [F42_Other_Relatives_within_constructed_child_cap]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D068</attrlabl>
+			<attrdef>Family Linking Rule For Father: Non-Relatives, Within Constructed Child Cap [F52_Non_Relatives_within_constructed_child_cap]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D069</attrlabl>
+			<attrdef>Spouse Link Rule: Rule 0 No Spouse Present [F0_No_spouse_present]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D070</attrlabl>
+			<attrdef>Spouse Link Rule: Rule 1 Strong Relationship Pairing Couple Adjacent [F1_Rule_1__strong_relationship_pairing_couple_adjacent]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D071</attrlabl>
+			<attrdef>Spouse Link Rule: Rule 2 Strong Relationship Pairing Couple Not Adjacent [F2_Rule_2__strong_relationship_pairing_couple_not_adjacent]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D072</attrlabl>
+			<attrdef>Spouse Link Rule: Rule 3 Weak Relationship Pairing Couple Adjacent [F3_Rule_3__weak_relationship_pairing_couple_adjacent]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D073</attrlabl>
+			<attrdef>Spouse Link Rule: Rule 4 Weak Relationship Pairing Couple Not Adjacent [F4_Rule_4__weak_relationship_pairing_couple_not_adjacent]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D074</attrlabl>
+			<attrdef>Spouse Link Rule: Rule 5 Weak Consensual Union Pairings [F5_Rule_5__weak_consensual_union_pairings]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D075</attrlabl>
+			<attrdef>Men Who Have No More Than One Wife Linked Via Spouses Location In Household (Sploc) [F0_No_more_than_one_wife_linked_via_SPLOC]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D076</attrlabl>
+			<attrdef>Number Of Family Members: 1 [F1]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D077</attrlabl>
+			<attrdef>Number Of Family Members: 2 [F2]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D078</attrlabl>
+			<attrdef>Number Of Family Members: 3 [F3]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D079</attrlabl>
+			<attrdef>Number Of Family Members: 4 [F4]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D080</attrlabl>
+			<attrdef>Number Of Family Members: 5 [F5]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D081</attrlabl>
+			<attrdef>Number Of Family Members: 6 [F6]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D082</attrlabl>
+			<attrdef>Number Of Family Members: 7 [F7]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D083</attrlabl>
+			<attrdef>Number Of Family Members: 8 [F8]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D084</attrlabl>
+			<attrdef>Number Of Family Members: 9 [F9]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D085</attrlabl>
+			<attrdef>Number Of Family Members: 10 [F10]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D086</attrlabl>
+			<attrdef>Number Of Family Members: 11 [F11]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D087</attrlabl>
+			<attrdef>Number Of Family Members: 12 [F12]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D088</attrlabl>
+			<attrdef>Number Of Family Members: 13 [F13]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D089</attrlabl>
+			<attrdef>Number Of Family Members: 14 [F14]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D090</attrlabl>
+			<attrdef>Number Of Family Members: 15 [F15]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D091</attrlabl>
+			<attrdef>Number Of Family Members: 16 [F16]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D092</attrlabl>
+			<attrdef>Number Of Family Members: 17 [F17]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D093</attrlabl>
+			<attrdef>Number Of Family Members: 18 [F18]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D094</attrlabl>
+			<attrdef>Number Of Family Members: 19 [F19]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D095</attrlabl>
+			<attrdef>Number Of Family Members: 20 [F20]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D096</attrlabl>
+			<attrdef>Number Of Family Members: 21 [F21]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D097</attrlabl>
+			<attrdef>Number Of Family Members: 22 [F22]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D098</attrlabl>
+			<attrdef>Number Of Family Members: 23 [F23]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D099</attrlabl>
+			<attrdef>Number Of Family Members: 24 [F24]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D100</attrlabl>
+			<attrdef>Number Of Family Members: 25 [F25]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D101</attrlabl>
+			<attrdef>Race: White [F10_White]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D102</attrlabl>
+			<attrdef>Race: Black [F20_Black]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_D103</attrlabl>
+			<attrdef>Race: Mixed Race [F50_Mixed_race]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2012 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2012]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Year</attrlabl>
+			<attrdef>Year</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
+</eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_cuba_demographic_adm2_2012</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
+<metainfo>
+	<metd>20210701</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

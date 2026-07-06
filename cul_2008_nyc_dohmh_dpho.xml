@@ -7,8 +7,13 @@
 				<pubdate>2008</pubdate>
 				<title>New York City District Public Health Office Areas, 2008</title>
 				<geoform>vector digital data</geoform>
-				<ftname>All_DPHO_DOHMH_2008</ftname><pubinfo><pubplace>New York</pubplace><publish>New York (N.Y.). Department of Health and Mental Hygiene</publish></pubinfo>
-			<onlink>https://www.columbia.edu/acis/eds/gis/images/cul_2008_nyc_dohmh_dpho.zip</onlink></citeinfo>
+				<ftname>All_DPHO_DOHMH_2008</ftname>
+				<pubinfo>
+					<pubplace>New York</pubplace>
+					<publish>New York (N.Y.). Department of Health and Mental Hygiene</publish>
+				</pubinfo>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/cul_2008_nyc_dohmh_dpho.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>New York City District Public Health Office Areas, 2008 is a polygon theme representing all three DOHMH District Public HealthOffice areas.</abstract>
@@ -33,7 +38,13 @@
 				<northbc>40.862547</northbc>
 				<southbc>40.639801</southbc>
 			</bounding>
-			<lboundng><leftbc>994800.960119</leftbc><rightbc>1024287.560083</rightbc><bottombc>172406.149877</bottombc><topbc>253528.981568</topbc></lboundng></spdom>
+			<lboundng>
+				<leftbc>994800.960119</leftbc>
+				<rightbc>1024287.560083</rightbc>
+				<bottombc>172406.149877</bottombc>
+				<topbc>253528.981568</topbc>
+			</lboundng>
+		</spdom>
 		<keywords>
 			<theme>
 				<themekt>None</themekt>
@@ -44,10 +55,62 @@
 				<placekt>GeoNames</placekt>
 				<placekey>New York City (5128581)</placekey>
 			</place>
-			<place><placekt>Library of congress subject headings</placekt></place><theme><themekey>boundaries</themekey><themekey>health</themekey><themekt>ISO 19115 Topic Category</themekt><themekey>society</themekey></theme><place><placekt>none</placekt><placekey>NYC</placekey></place><temporal><tempkt>none</tempkt><tempkey>2008</tempkey></temporal></keywords>
+			<place>
+				<placekt>Library of congress subject headings</placekt>
+			</place>
+			<theme>
+				<themekey>boundaries</themekey>
+				<themekey>health</themekey>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+			</theme>
+			<place>
+				<placekt>none</placekt>
+				<placekey>NYC</placekey>
+			</place>
+			<temporal>
+				<tempkt>none</tempkt>
+				<tempkey>2008</tempkey>
+			</temporal>
+		</keywords>
 		<accconst>None</accconst>
 		<useconst>None</useconst>
-		<ptcontac><cntinfo><cntorgp><cntorg>GIS Center - NYC DOHMH</cntorg><cntper>Chris Goranson</cntper></cntorgp><cntvoice>212-788-2221</cntvoice><cntemail>giscenter@health.nyc.gov</cntemail><cntaddr><address>125 Worth Street</address><city>New York</city><state>NY</state><postal>10013</postal></cntaddr></cntinfo></ptcontac></idinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>GIS Center - NYC DOHMH</cntorg>
+					<cntper>Chris Goranson</cntper>
+				</cntorgp>
+				<cntvoice>212-788-2221</cntvoice>
+				<cntemail>giscenter@health.nyc.gov</cntemail>
+				<cntaddr>
+					<address>125 Worth Street</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10013</postal>
+				</cntaddr>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Bronx DPHO - Unlike either East Harlem (MN) or the Brooklyn DPHOs, the Bronx DPHO appears to be comprised of ZIP codes, whereas the other two are comprised by Community District boundaries.  The top portions of CD Boundaries 205 and 206 are not included in the "target area" for this DPHO boundary.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>This file was updated to reflect the expansion of the Brooklyn DPHO area to include Community Districts Brownsville (CD #316) and East New York (CD #305).  This file replaces the previous version All_DPHO_DOHMH_2006, and should be used instead of any DPHO feature classes dated 2005 or earlier</procdesc>
+				<procdate>June 2006</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The boundary for the Bronx DPHO was adjusted to better represent ZIP code area boundaries.  Square miles, acres, and perimeter miles were also added to the attribute table.</procdesc>
+				<procdate>May 2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>At the request of the Bronx DPHO the islands including Riker's Island were removed from the boundary.  </procdesc>
+				<procdate>September 2007</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -55,7 +118,15 @@
 				<sdtstype>G-polygon</sdtstype>
 				<ptvctcnt>3</ptvctcnt>
 			</sdtsterm>
-			<esriterm Name="All_DPHO_DOHMH_2008"><efeatyp>Simple</efeatyp><efeageom>Polygon</efeageom><esritopo>FALSE</esritopo><efeacnt>3</efeacnt><spindex>TRUE</spindex><linrefer>FALSE</linrefer></esriterm></ptvctinf>
+			<esriterm Name="All_DPHO_DOHMH_2008">
+				<efeatyp>Simple</efeatyp>
+				<efeageom>Polygon</efeageom>
+				<esritopo>FALSE</esritopo>
+				<efeacnt>3</efeacnt>
+				<spindex>TRUE</spindex>
+				<linrefer>FALSE</linrefer>
+			</esriterm>
+		</ptvctinf>
 	</spdoinfo>
 	<spref>
 		<horizsys>
@@ -68,14 +139,29 @@
 					</coordrep>
 					<plandu>survey feet</plandu>
 				</planci>
-				<mapproj><mapprojn>Lambert Conformal Conic</mapprojn><lambertc><stdparll>40.666667</stdparll><stdparll>41.033333</stdparll><longcm>-74.000000</longcm><latprjo>40.166667</latprjo><feast>984250.000000</feast><fnorth>0.000000</fnorth></lambertc></mapproj></planar>
+				<mapproj>
+					<mapprojn>Lambert Conformal Conic</mapprojn>
+					<lambertc>
+						<stdparll>40.666667</stdparll>
+						<stdparll>41.033333</stdparll>
+						<longcm>-74.000000</longcm>
+						<latprjo>40.166667</latprjo>
+						<feast>984250.000000</feast>
+						<fnorth>0.000000</fnorth>
+					</lambertc>
+				</mapproj>
+			</planar>
 			<geodetic>
 				<horizdn>North American Datum of 1983</horizdn>
 				<ellips>Geodetic Reference System 80</ellips>
 				<semiaxis>6378137.000000</semiaxis>
 				<denflat>298.257222</denflat>
 			</geodetic>
-			<cordsysn><geogcsn>GCS_North_American_1983</geogcsn><projcsn>NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn></cordsysn></horizsys>
+			<cordsysn>
+				<geogcsn>GCS_North_American_1983</geogcsn>
+				<projcsn>NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn>
+			</cordsysn>
+		</horizsys>
 		<vertdef>
 			<altsys>
 				<altres>1.000000</altres>
@@ -85,9 +171,32 @@
 	</spref>
 	<eainfo>
 		<detailed Name="All_DPHO_DOHMH_2008">
-			<attr><attrlabl>DPHO</attrlabl><attalias>DPHO</attalias><attrtype>String</attrtype><attwidth>50</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>District Public Health Office name.</attrdef></attr><attr><attrlabl>Shape</attrlabl><attalias>Shape</attalias><attrtype>String</attrtype><attwidth>75</attwidth><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr>
+			<attr>
+				<attrlabl>DPHO</attrlabl>
+				<attalias>DPHO</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>50</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>District Public Health Office name.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attalias>Shape</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>75</attwidth>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
 				<attrlabl>OFFICE</attrlabl>
-				<attrtype>Number</attrtype><attwidth>10</attwidth><attrdef>Long DPHO name.</attrdef></attr>
+				<attrtype>Number</attrtype>
+				<attwidth>10</attwidth>
+				<attrdef>Long DPHO name.</attrdef>
+			</attr>
 			<attr>
 				<attrlabl>OBJECTID</attrlabl>
 				<attrdef>Internal feature number.</attrdef>
@@ -95,22 +204,109 @@
 				<attrdomv>
 					<udom>Sequential unique whole numbers that are automatically generated.</udom>
 				</attrdomv>
-				<attrtype>String</attrtype><attwidth>75</attwidth></attr>
-			<attr><attrlabl>FID</attrlabl><attalias>FID</attalias><attrtype>Number</attrtype><attwidth>19</attwidth><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atnumdec>8</atnumdec></attr><attr><attrlabl>SQ_Miles</attrlabl><attalias>SQ_Miles</attalias><attrtype>Float</attrtype><attwidth>19</attwidth><atnumdec>11</atnumdec><attrdef>Area in Square miles</attrdef></attr><attr>
+				<attrtype>String</attrtype>
+				<attwidth>75</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrtype>Number</attrtype>
+				<attwidth>19</attwidth>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atnumdec>8</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>SQ_Miles</attrlabl>
+				<attalias>SQ_Miles</attalias>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<atnumdec>11</atnumdec>
+				<attrdef>Area in Square miles</attrdef>
+			</attr>
+			<attr>
 				<attrlabl>SHAPE</attrlabl>
 				<attrdef>Feature geometry.</attrdef>
 				<attrdefs>ESRI</attrdefs>
 				<attrdomv>
 					<udom>Coordinates defining the features.</udom>
 				</attrdomv>
-				<attrtype>Float</attrtype><attwidth>19</attwidth><atnumdec>11</atnumdec></attr>
-			<attr><attrlabl>Acres</attrlabl><attalias>Acres</attalias><attrtype>Double</attrtype><attwidth>16</attwidth><atprecis>15</atprecis><attscale>3</attscale><attrdef>Area in acres</attrdef></attr><enttyp>
+				<attrtype>Float</attrtype>
+				<attwidth>19</attwidth>
+				<atnumdec>11</atnumdec>
+			</attr>
+			<attr>
+				<attrlabl>Acres</attrlabl>
+				<attalias>Acres</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>16</attwidth>
+				<atprecis>15</atprecis>
+				<attscale>3</attscale>
+				<attrdef>Area in acres</attrdef>
+			</attr>
+			<enttyp>
 				<enttypl>All_DPHO_DOHMH_2008</enttypl>
-				<enttypt>Feature Class</enttypt><enttypc>3</enttypc><enttypd>District Public Health Office area</enttypd></enttyp>
-			<attr><attrlabl>area</attrlabl><attalias>area</attalias><attrtype>Double</attrtype><attwidth>19</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>Area in map units</attrdef></attr><attr><attrlabl>len</attrlabl><attalias>len</attalias><attrtype>Double</attrtype><attwidth>19</attwidth><atprecis>0</atprecis><attscale>0</attscale><attrdef>Perimeter in map units</attrdef></attr></detailed>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>3</enttypc>
+				<enttypd>District Public Health Office area</enttypd>
+			</enttyp>
+			<attr>
+				<attrlabl>area</attrlabl>
+				<attalias>area</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>19</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Area in map units</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>len</attrlabl>
+				<attalias>len</attalias>
+				<attrtype>Double</attrtype>
+				<attwidth>19</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Perimeter in map units</attrdef>
+			</attr>
+		</detailed>
 	</eainfo>
 	<distinfo>
 		<resdesc>cul_2008_nyc_dohmh_dpho</resdesc>
-		<stdorder><digform><digtinfo><transize>0.023</transize><dssize>0.023</dssize></digtinfo></digform></stdorder></distinfo>
-	<metainfo><metc><cntinfo><cntaddr><address>420 W. 118th St., 215 IAB, MC 3301</address><addrtype>mailing and physical address</addrtype><address>MS-561</address><city>New York</city><state>NY</state><postal>10027</postal></cntaddr><cntemail>data@library.columbia.edu</cntemail><cntorgp><cntorg>Research Data Services (RDS)</cntorg><cntper>GIS/Metadata Librarian</cntper></cntorgp></cntinfo></metc><metd>20141231</metd><metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><metsi><metsc>Unclassified</metsc></metsi></metainfo>
-	<dataqual><lineage><procstep><procdesc>Bronx DPHO - Unlike either East Harlem (MN) or the Brooklyn DPHOs, the Bronx DPHO appears to be comprised of ZIP codes, whereas the other two are comprised by Community District boundaries.  The top portions of CD Boundaries 205 and 206 are not included in the "target area" for this DPHO boundary.</procdesc></procstep><procstep><procdesc>This file was updated to reflect the expansion of the Brooklyn DPHO area to include Community Districts Brownsville (CD #316) and East New York (CD #305).  This file replaces the previous version All_DPHO_DOHMH_2006, and should be used instead of any DPHO feature classes dated 2005 or earlier</procdesc><procdate>June 2006</procdate></procstep><procstep><procdesc>The boundary for the Bronx DPHO was adjusted to better represent ZIP code area boundaries.  Square miles, acres, and perimeter miles were also added to the attribute table.</procdesc><procdate>May 2007</procdate></procstep><procstep><procdesc>At the request of the Bronx DPHO the islands including Riker's Island were removed from the boundary.  </procdesc><procdate>September 2007</procdate></procstep></lineage></dataqual></metadata>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.023</transize>
+					<dssize>0.023</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<address>420 W. 118th St., 215 IAB, MC 3301</address>
+					<addrtype>mailing and physical address</addrtype>
+					<address>MS-561</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntemail>data@library.columbia.edu</cntemail>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS)</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+			</cntinfo>
+		</metc>
+		<metd>20141231</metd>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+	</metainfo>
+</metadata>

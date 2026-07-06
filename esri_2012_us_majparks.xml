@@ -27,7 +27,8 @@
 				</pubinfo>
 				<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
 				<origin>Tom Tom Global Content B.V. (Firm)</origin>
-				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_majparks.zip</onlink></citeinfo>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_majparks.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>publication date</current>
@@ -83,7 +84,12 @@
 				<tempkt>None</tempkt>
 				<tempkey>1997</tempkey>
 			</temporal>
-			<theme><themekey>environment</themekey><themekt>ISO 19115 Topic Category</themekt><themekey>society</themekey></theme></keywords>
+			<theme>
+				<themekey>environment</themekey>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -115,30 +121,123 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_park_dtl.jpg</browsen><browsed>Thumbnail</browsed><browset>JPEG</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_park_dtl.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>JPEG</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>National Park Service</origin>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<publish>National Park Service</publish>
+							<pubplace>Washington, DC, USA</pubplace>
+						</pubinfo>
+						<pubdate>Unknown</pubdate>
+					</citeinfo>
+				</srccite>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>unknown</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>NPS</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Extracted the National Parks from the National Park Service, the National Forests from Esri ArcUSA 1:2M and the rest of the parks from TomTom North America, Inc. Dynamap/2000 v7.3. Converted to North American Datum of 1983 (NAD83).  Created ArcGIS layer file (.lyr).  Created projection file (.prj).  Ran ArcView GIS Avenue™ request ExportClean, and created spatial indices. Converted the data set to SDC.</procdesc>
+				<procsv>ArcView GIS 3.x</procsv>
+				<srcused>NPS</srcused>
+				<procdate>20000727</procdate>
+				<srcused>ArcUSA 1:2M</srcused>
+				<srcused>TomTom Dynamap/2000 v7.3</srcused>
+			</procstep>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<pubdate>19921001</pubdate>
+						<title>ArcUSA™ 1:2M</title>
+						<edition>1</edition>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<pubplace>Redlands, California, USA</pubplace>
+							<publish>Esri</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>2000000</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>19921001</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>ArcUSA 1:2M</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srcscale>100000</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srccitea>TomTom Dynamap/2000 v7.3</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+				<srccite>
+					<citeinfo>
+						<origin>TomTom North America, Inc.</origin>
+						<pubdate>199710</pubdate>
+						<title>Dynamap/2000 v7.3</title>
+						<edition>Version 7.3</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>TomTom Dynamap/2000</sername>
+							<issue>v7.3</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Lebanon, New Hampshire, USA</pubplace>
+							<publish>TomTom North America, Inc.</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>199710</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+			</srcinfo>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Added SQMI attribute and calculated its values.</procdesc>
+				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
+				<procdate>20040308</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Selected all National Forest features and calculated their FCC attribute values to 'D84'. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<procdate>20090501</procdate>
+				<procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The geospatial part of this data set was extracted from several sources at different scales.  The positional accuracy is unknown.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -273,7 +372,14 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 						</reccap>
 						<recfmt>UDF (Universal Disc Format)</recfmt>
 					</offoptn>
-					<onlinopt><computer><networka><networkr>http://www.ArcGIS.com</networkr></networka></computer></onlinopt></digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ArcGIS.com</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
 			</digform>
 			<fees>Software purchase price</fees>
 			<ordering>Data &amp; Maps is available only as part of Esri software.</ordering>
@@ -301,110 +407,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_us_majparks</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>National Park Service</origin>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<publish>National Park Service</publish>
-							<pubplace>Washington, DC, USA</pubplace>
-						</pubinfo>
-						<pubdate>Unknown</pubdate>
-					</citeinfo>
-				</srccite>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>unknown</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>NPS</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Extracted the National Parks from the National Park Service, the National Forests from Esri ArcUSA 1:2M and the rest of the parks from TomTom North America, Inc. Dynamap/2000 v7.3. Converted to North American Datum of 1983 (NAD83).  Created ArcGIS layer file (.lyr).  Created projection file (.prj).  Ran ArcView GIS Avenue™ request ExportClean, and created spatial indices. Converted the data set to SDC.</procdesc>
-				<procsv>ArcView GIS 3.x</procsv>
-				<srcused>NPS</srcused>
-				<procdate>20000727</procdate>
-				<srcused>ArcUSA 1:2M</srcused>
-				<srcused>TomTom Dynamap/2000 v7.3</srcused>
-			</procstep>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>19921001</pubdate>
-						<title>ArcUSA™ 1:2M</title>
-						<edition>1</edition>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<pubplace>Redlands, California, USA</pubplace>
-							<publish>Esri</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>2000000</srcscale>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>19921001</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>ArcUSA 1:2M</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srcscale>100000</srcscale>
-				<typesrc>CD-ROM</typesrc>
-				<srccitea>TomTom Dynamap/2000 v7.3</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-				<srccite>
-					<citeinfo>
-						<origin>TomTom North America, Inc.</origin>
-						<pubdate>199710</pubdate>
-						<title>Dynamap/2000 v7.3</title>
-						<edition>Version 7.3</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>TomTom Dynamap/2000</sername>
-							<issue>v7.3</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-							<publish>TomTom North America, Inc.</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>199710</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-			</srcinfo>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Added SQMI attribute and calculated its values.</procdesc>
-				<procsv>ArcView GIS 3, ArcGIS 9</procsv>
-				<procdate>20040308</procdate>
-			</procstep>
-			<procstep><procdesc>The following steps were performed by Esri: Selected all National Forest features and calculated their FCC attribute values to 'D84'. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc><procdate>20090501</procdate><procsv>ArcView GIS 3, ArcGIS 9, ArcSDE</procsv></procstep></lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The geospatial part of this data set was extracted from several sources at different scales.  The positional accuracy is unknown.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

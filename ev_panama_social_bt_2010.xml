@@ -1,774 +1,774 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Panama (3703430)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Panama</placekey>
-<placekey>Panama</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2010</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-82.876697</westbc>
-<eastbc>-77.964005</eastbc>
-<northbc>9.548949</northbc>
-<southbc>7.402479</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Panama (3703430)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Panama</placekey>
+				<placekey>Panama</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2010</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-82.876697</westbc>
+				<eastbc>-77.964005</eastbc>
+				<northbc>9.548949</northbc>
+				<southbc>7.402479</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Panama Social Census Data (5th level ADM), 2010 is a polygon theme representing Barrios (5th level administrative units) in Panama as of 2010.  Attribute data include social variables of the 2010 Panamanian census.
 Official population and housing data for Panama from the 2010 census. This census is provided a combination of barrio administrative level polygons (ADM5) and populated place administrative level polygons (ADM4) for a total of 13,124 polygons. Each census sector has 1188 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo: Hombre" was updated to BT_D001 and given the alias "Sex: Man[Sexo: Hombre]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social. BT relates to the Barrios and LP relates to the populated places). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Panama Social Census Data (5th level ADM), 2010</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Panama Social Census Data (5th level ADM), 2010</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_panama_social_bt_2010.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2010</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2010</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Panama_2010</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S001</attrlabl>
-    <attrdef>Hard of Hearing: Yes[Dificultad para Escuchar: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S002</attrlabl>
-    <attrdef>Hard of Hearing: No[Dificultad para Escuchar: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S003</attrlabl>
-    <attrdef>Hard of Hearing: Undeclared[Dificultad para Escuchar: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S005</attrlabl>
-    <attrdef>Difficulty Seeing: Yes[Dificultad para Ver: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S006</attrlabl>
-    <attrdef>Difficulty Seeing: No[Dificultad para Ver: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S007</attrlabl>
-    <attrdef>Difficulty Seeing: Undeclared[Dificultad para Ver: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S009</attrlabl>
-    <attrdef>Difficulty Walking: Yes[Dificultad para Caminar: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S010</attrlabl>
-    <attrdef>Difficulty Walking: No[Dificultad para Caminar: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S011</attrlabl>
-    <attrdef>Difficulty Walking: Undeclared[Dificultad para Caminar: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S013</attrlabl>
-    <attrdef>Difficulty Using Arms and Hands: Yes[Dificultad para Usar Brazos y Manos: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S014</attrlabl>
-    <attrdef>Difficulty Using Arms and Hands: No[Dificultad para Usar Brazos y Manos: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S015</attrlabl>
-    <attrdef>Difficulty Using Arms and Hands: Undeclared[Dificultad para Usar Brazos y Manos: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S017</attrlabl>
-    <attrdef>Difficulty Speaking: Yes[Dificultad para Hablar: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S018</attrlabl>
-    <attrdef>Difficulty Speaking: No[Dificultad para Hablar: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S019</attrlabl>
-    <attrdef>Difficulty Speaking: Undeclared[Dificultad para Hablar: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S021</attrlabl>
-    <attrdef>Difficulty Learning: Yes[Dificultad para Aprender: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S022</attrlabl>
-    <attrdef>Difficulty Learning: No[Dificultad para Aprender: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S023</attrlabl>
-    <attrdef>Difficulty Learning: Undeclared[Dificultad para Aprender: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S025</attrlabl>
-    <attrdef>Disability: Blindness[Discapacidad: Ceguera]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S026</attrlabl>
-    <attrdef>Disability: Deafness[Discapacidad: Sordera]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S027</attrlabl>
-    <attrdef>Disability: Mental Retardation[Discapacidad: Retraso Mental]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S028</attrlabl>
-    <attrdef>Disability: Cerebral Palsy[Discapacidad: Parálisis Cerebral]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S029</attrlabl>
-    <attrdef>Disability: Physical Deficiency[Discapacidad: Deficiencia Física]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S030</attrlabl>
-    <attrdef>Disability: Mental Deficiency[Discapacidad: Problemas Mentales]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S031</attrlabl>
-    <attrdef>Disability: Other[Discapacidad: Otra]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S032</attrlabl>
-    <attrdef>Disability: No[Discapacidad: Ninguna]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S033</attrlabl>
-    <attrdef>Disability: Unreported[Discapacidad: No Declarada]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S035</attrlabl>
-    <attrdef>Indigenous Group: Kuna[Grupo Indigena: Kuna]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S036</attrlabl>
-    <attrdef>Indigenous Group: Ngäbe[Grupo Indigena: Ngäbe]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S037</attrlabl>
-    <attrdef>Indigenous Group: Bugle[Grupo Indigena: Bugle]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S038</attrlabl>
-    <attrdef>Indigenous Group: Teribe/Naso[Grupo Indigena: Teribe/Naso]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S039</attrlabl>
-    <attrdef>Indigenous Group: Bokota[Grupo Indigena: Bokota]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S040</attrlabl>
-    <attrdef>Indigenous Group: Emberá[Grupo Indigena: Emberá]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S041</attrlabl>
-    <attrdef>Indigenous Group: Wounaan[Grupo Indigena: Wounaan]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S042</attrlabl>
-    <attrdef>Indigenous Group: Bri Bri[Grupo Indigena: Bri Bri]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S043</attrlabl>
-    <attrdef>Indigenous Group: Otro[Grupo Indigena: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S044</attrlabl>
-    <attrdef>Indigenous Group: Ninguno[Grupo Indigena: Ninguno]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S045</attrlabl>
-    <attrdef>Indigenous Group: Undeclared[Grupo Indigena: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S047</attrlabl>
-    <attrdef>Another Indigenous Group: Doraz[Otro Grupo Indigena: Doraz]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S048</attrlabl>
-    <attrdef>Another Indigenous Group: Indio Colombiano[Otro Grupo Indigena: Indio Colombiano]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S049</attrlabl>
-    <attrdef>Another Indigenous Group: Undeclared[Otro Grupo Indigena: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S050</attrlabl>
-    <attrdef>Another Indigenous Group: Wayupieyu[Otro Grupo Indigena: Wayupieyu]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S051</attrlabl>
-    <attrdef>Another Indigenous Group: Los bistoriani[Otro Grupo Indigena: Los bistoriani]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S052</attrlabl>
-    <attrdef>Another Indigenous Group: Cachiquel - Guatemala[Otro Grupo Indigena: Cachiquel - Guatemala]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S053</attrlabl>
-    <attrdef>Another Indigenous Group: Azteca[Otro Grupo Indigena: Azteca]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S054</attrlabl>
-    <attrdef>Another Indigenous Group: Inca[Otro Grupo Indigena: Inca]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S055</attrlabl>
-    <attrdef>Another Indigenous Group: Aimara (Bolivia)[Otro Grupo Indigena: Aimara (Bolivia)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S056</attrlabl>
-    <attrdef>Another Indigenous Group: Maya[Otro Grupo Indigena: Maya]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S057</attrlabl>
-    <attrdef>Another Indigenous Group: Parandai (Perú)[Otro Grupo Indigena: Parandai (Perú)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S058</attrlabl>
-    <attrdef>Another Indigenous Group: Chibcha (Colombia)[Otro Grupo Indigena: Chibcha (Colombia)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S059</attrlabl>
-    <attrdef>Another Indigenous Group: Ladino[Otro Grupo Indigena: Ladino]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S061</attrlabl>
-    <attrdef>Are You Considered: Afrocolonial[Se Consideria Usted: Afrocolonial]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S062</attrlabl>
-    <attrdef>Are You Considered: Afroantillano[Se Consideria Usted: Afroantillano(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S063</attrlabl>
-    <attrdef>Are You Considered: Afropanameño[Se Consideria Usted: Afropanameño(a)]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S064</attrlabl>
-    <attrdef>Are You Considered: Other[Se Consideria Usted: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S065</attrlabl>
-    <attrdef>Are You Considered: None of the Above[Se Consideria Usted: Ninguna]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S066</attrlabl>
-    <attrdef>Are You Considered: Undeclared[Se Consideria Usted: No declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S068</attrlabl>
-    <attrdef>Another Afrodescendant Ethnicity: Moreno[Otra Etnia Afrodescendiente: Moreno]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S069</attrlabl>
-    <attrdef>Another Afrodescendant Ethnicity: Chombo Blanco[Otra Etnia Afrodescendiente: Chombo Blanco]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S070</attrlabl>
-    <attrdef>Another Afrodescendant Ethnicity: Caraballi[Otra Etnia Afrodescendiente: Caraballi]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S071</attrlabl>
-    <attrdef>Another Afrodescendant Ethnicity: Mestizo[Otra Etnia Afrodescendiente: Mestizo]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S072</attrlabl>
-    <attrdef>Another Afrodescendant Ethnicity: Mulato[Otra Etnia Afrodescendiente: Mulato]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S073</attrlabl>
-    <attrdef>Another Afrodescendant Ethnicity: Undeclared[Otra Etnia Afrodescendiente: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S074</attrlabl>
-    <attrdef>Another Afrodescendant Ethnicity: Trigueño[Otra Etnia Afrodescendiente: Trigueño]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S075</attrlabl>
-    <attrdef>Another Afrodescendant Ethnicity: Criollo[Otra Etnia Afrodescendiente: Criollo]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S076</attrlabl>
-    <attrdef>Another Afrodescendant Ethnicity: Culisa[Otra Etnia Afrodescendiente: Culisa]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S077</attrlabl>
-    <attrdef>Another Afrodescendant Ethnicity: Zambo[Otra Etnia Afrodescendiente: Zambo]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S078</attrlabl>
-    <attrdef>Another Afrodescendant Ethnicity: Afroamericano[Otra Etnia Afrodescendiente: Afroamericano]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S079</attrlabl>
-    <attrdef>Another Afrodescendant Ethnicity: Caucásico[Otra Etnia Afrodescendiente: Caucásico]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S081</attrlabl>
-    <attrdef>Attends School: Yes[Asiste a la Escuela: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S082</attrlabl>
-    <attrdef>Attends School: No[Asiste a la Escuela: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S083</attrlabl>
-    <attrdef>Attends School: Undeclared[Asiste a la Escuela: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S085</attrlabl>
-    <attrdef>Literate: Yes[Sabe Leer y Escribir: Si]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S086</attrlabl>
-    <attrdef>Literate: No[Sabe Leer y Escribir: No]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>BT_S087</attrlabl>
-    <attrdef>Literate: Undeclared[Sabe Leer y Escribir: No Declarado]</attrdef>
-    <attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country</attrlabl>
-    <attrdef>Country</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Panama_2010</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S001</attrlabl>
+			<attrdef>Hard of Hearing: Yes[Dificultad para Escuchar: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S002</attrlabl>
+			<attrdef>Hard of Hearing: No[Dificultad para Escuchar: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S003</attrlabl>
+			<attrdef>Hard of Hearing: Undeclared[Dificultad para Escuchar: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S005</attrlabl>
+			<attrdef>Difficulty Seeing: Yes[Dificultad para Ver: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S006</attrlabl>
+			<attrdef>Difficulty Seeing: No[Dificultad para Ver: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S007</attrlabl>
+			<attrdef>Difficulty Seeing: Undeclared[Dificultad para Ver: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S009</attrlabl>
+			<attrdef>Difficulty Walking: Yes[Dificultad para Caminar: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S010</attrlabl>
+			<attrdef>Difficulty Walking: No[Dificultad para Caminar: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S011</attrlabl>
+			<attrdef>Difficulty Walking: Undeclared[Dificultad para Caminar: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S013</attrlabl>
+			<attrdef>Difficulty Using Arms and Hands: Yes[Dificultad para Usar Brazos y Manos: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S014</attrlabl>
+			<attrdef>Difficulty Using Arms and Hands: No[Dificultad para Usar Brazos y Manos: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S015</attrlabl>
+			<attrdef>Difficulty Using Arms and Hands: Undeclared[Dificultad para Usar Brazos y Manos: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S017</attrlabl>
+			<attrdef>Difficulty Speaking: Yes[Dificultad para Hablar: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S018</attrlabl>
+			<attrdef>Difficulty Speaking: No[Dificultad para Hablar: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S019</attrlabl>
+			<attrdef>Difficulty Speaking: Undeclared[Dificultad para Hablar: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S021</attrlabl>
+			<attrdef>Difficulty Learning: Yes[Dificultad para Aprender: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S022</attrlabl>
+			<attrdef>Difficulty Learning: No[Dificultad para Aprender: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S023</attrlabl>
+			<attrdef>Difficulty Learning: Undeclared[Dificultad para Aprender: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S025</attrlabl>
+			<attrdef>Disability: Blindness[Discapacidad: Ceguera]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S026</attrlabl>
+			<attrdef>Disability: Deafness[Discapacidad: Sordera]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S027</attrlabl>
+			<attrdef>Disability: Mental Retardation[Discapacidad: Retraso Mental]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S028</attrlabl>
+			<attrdef>Disability: Cerebral Palsy[Discapacidad: Parálisis Cerebral]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S029</attrlabl>
+			<attrdef>Disability: Physical Deficiency[Discapacidad: Deficiencia Física]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S030</attrlabl>
+			<attrdef>Disability: Mental Deficiency[Discapacidad: Problemas Mentales]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S031</attrlabl>
+			<attrdef>Disability: Other[Discapacidad: Otra]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S032</attrlabl>
+			<attrdef>Disability: No[Discapacidad: Ninguna]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S033</attrlabl>
+			<attrdef>Disability: Unreported[Discapacidad: No Declarada]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S035</attrlabl>
+			<attrdef>Indigenous Group: Kuna[Grupo Indigena: Kuna]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S036</attrlabl>
+			<attrdef>Indigenous Group: Ngäbe[Grupo Indigena: Ngäbe]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S037</attrlabl>
+			<attrdef>Indigenous Group: Bugle[Grupo Indigena: Bugle]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S038</attrlabl>
+			<attrdef>Indigenous Group: Teribe/Naso[Grupo Indigena: Teribe/Naso]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S039</attrlabl>
+			<attrdef>Indigenous Group: Bokota[Grupo Indigena: Bokota]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S040</attrlabl>
+			<attrdef>Indigenous Group: Emberá[Grupo Indigena: Emberá]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S041</attrlabl>
+			<attrdef>Indigenous Group: Wounaan[Grupo Indigena: Wounaan]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S042</attrlabl>
+			<attrdef>Indigenous Group: Bri Bri[Grupo Indigena: Bri Bri]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S043</attrlabl>
+			<attrdef>Indigenous Group: Otro[Grupo Indigena: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S044</attrlabl>
+			<attrdef>Indigenous Group: Ninguno[Grupo Indigena: Ninguno]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S045</attrlabl>
+			<attrdef>Indigenous Group: Undeclared[Grupo Indigena: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S047</attrlabl>
+			<attrdef>Another Indigenous Group: Doraz[Otro Grupo Indigena: Doraz]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S048</attrlabl>
+			<attrdef>Another Indigenous Group: Indio Colombiano[Otro Grupo Indigena: Indio Colombiano]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S049</attrlabl>
+			<attrdef>Another Indigenous Group: Undeclared[Otro Grupo Indigena: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S050</attrlabl>
+			<attrdef>Another Indigenous Group: Wayupieyu[Otro Grupo Indigena: Wayupieyu]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S051</attrlabl>
+			<attrdef>Another Indigenous Group: Los bistoriani[Otro Grupo Indigena: Los bistoriani]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S052</attrlabl>
+			<attrdef>Another Indigenous Group: Cachiquel - Guatemala[Otro Grupo Indigena: Cachiquel - Guatemala]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S053</attrlabl>
+			<attrdef>Another Indigenous Group: Azteca[Otro Grupo Indigena: Azteca]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S054</attrlabl>
+			<attrdef>Another Indigenous Group: Inca[Otro Grupo Indigena: Inca]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S055</attrlabl>
+			<attrdef>Another Indigenous Group: Aimara (Bolivia)[Otro Grupo Indigena: Aimara (Bolivia)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S056</attrlabl>
+			<attrdef>Another Indigenous Group: Maya[Otro Grupo Indigena: Maya]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S057</attrlabl>
+			<attrdef>Another Indigenous Group: Parandai (Perú)[Otro Grupo Indigena: Parandai (Perú)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S058</attrlabl>
+			<attrdef>Another Indigenous Group: Chibcha (Colombia)[Otro Grupo Indigena: Chibcha (Colombia)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S059</attrlabl>
+			<attrdef>Another Indigenous Group: Ladino[Otro Grupo Indigena: Ladino]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S061</attrlabl>
+			<attrdef>Are You Considered: Afrocolonial[Se Consideria Usted: Afrocolonial]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S062</attrlabl>
+			<attrdef>Are You Considered: Afroantillano[Se Consideria Usted: Afroantillano(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S063</attrlabl>
+			<attrdef>Are You Considered: Afropanameño[Se Consideria Usted: Afropanameño(a)]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S064</attrlabl>
+			<attrdef>Are You Considered: Other[Se Consideria Usted: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S065</attrlabl>
+			<attrdef>Are You Considered: None of the Above[Se Consideria Usted: Ninguna]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S066</attrlabl>
+			<attrdef>Are You Considered: Undeclared[Se Consideria Usted: No declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S068</attrlabl>
+			<attrdef>Another Afrodescendant Ethnicity: Moreno[Otra Etnia Afrodescendiente: Moreno]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S069</attrlabl>
+			<attrdef>Another Afrodescendant Ethnicity: Chombo Blanco[Otra Etnia Afrodescendiente: Chombo Blanco]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S070</attrlabl>
+			<attrdef>Another Afrodescendant Ethnicity: Caraballi[Otra Etnia Afrodescendiente: Caraballi]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S071</attrlabl>
+			<attrdef>Another Afrodescendant Ethnicity: Mestizo[Otra Etnia Afrodescendiente: Mestizo]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S072</attrlabl>
+			<attrdef>Another Afrodescendant Ethnicity: Mulato[Otra Etnia Afrodescendiente: Mulato]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S073</attrlabl>
+			<attrdef>Another Afrodescendant Ethnicity: Undeclared[Otra Etnia Afrodescendiente: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S074</attrlabl>
+			<attrdef>Another Afrodescendant Ethnicity: Trigueño[Otra Etnia Afrodescendiente: Trigueño]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S075</attrlabl>
+			<attrdef>Another Afrodescendant Ethnicity: Criollo[Otra Etnia Afrodescendiente: Criollo]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S076</attrlabl>
+			<attrdef>Another Afrodescendant Ethnicity: Culisa[Otra Etnia Afrodescendiente: Culisa]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S077</attrlabl>
+			<attrdef>Another Afrodescendant Ethnicity: Zambo[Otra Etnia Afrodescendiente: Zambo]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S078</attrlabl>
+			<attrdef>Another Afrodescendant Ethnicity: Afroamericano[Otra Etnia Afrodescendiente: Afroamericano]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S079</attrlabl>
+			<attrdef>Another Afrodescendant Ethnicity: Caucásico[Otra Etnia Afrodescendiente: Caucásico]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S081</attrlabl>
+			<attrdef>Attends School: Yes[Asiste a la Escuela: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S082</attrlabl>
+			<attrdef>Attends School: No[Asiste a la Escuela: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S083</attrlabl>
+			<attrdef>Attends School: Undeclared[Asiste a la Escuela: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S085</attrlabl>
+			<attrdef>Literate: Yes[Sabe Leer y Escribir: Si]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S086</attrlabl>
+			<attrdef>Literate: No[Sabe Leer y Escribir: No]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>BT_S087</attrlabl>
+			<attrdef>Literate: Undeclared[Sabe Leer y Escribir: No Declarado]</attrdef>
+			<attrdefs>National Institute of Statistics and Census (INEC) Panama, 2010 [Instituto Nacional de Estadística y Censo (INEC) Panamá, 2010]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_panama_social_bt_2010</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_panama_social_bt_2010</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

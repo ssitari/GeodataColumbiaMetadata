@@ -10,7 +10,9 @@
 					<pubplace>Washington, DC</pubplace>
 					<publish>United States. Bureau of Transportation Statistics</publish>
 				</pubinfo>
-				<pubdate>2013</pubdate><onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_dams.zip</onlink></citeinfo>
+				<pubdate>2013</pubdate>
+				<onlink>https://www.columbia.edu/acis/eds/gis/images/ntad_2013_dams.zip</onlink>
+			</citeinfo>
 		</citation>
 		<descript>
 			<abstract>This map layer portrays major dams of the United States, including Puerto Rico and the U.S. Virgin Islands. The map layer was created by extracting dams 50 feet or more in height, or with a normal storage capacity of 5,000 acre-feet or more, or with a maximum storage capacity of 25,000 acre-feet or more, from the 79,777 dams in the U.S. Army Corps of Engineers National Inventory of Dams. This is a replacement for the April 1994 map layer.</abstract>
@@ -102,7 +104,15 @@
 				<cntemail>answers@BTS.gov</cntemail>
 			</cntinfo>
 		</ptcontac>
-		<timeperd><timeinfo><sngdate><caldate>2013</caldate></sngdate></timeinfo><current>publication date</current></timeperd></idinfo>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2013</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+	</idinfo>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -498,37 +508,9 @@
 				<digtopt/>
 			</digform>
 		</stdorder>
-		<resdesc>ntad_2013_dams</resdesc></distinfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research and Innovative Technology Administration/Bureau of Transportation Statistics</cntorg>
-					<cntper>Office of Geospatial Information Systems (National Transportation Atlas Database (NTAD) 2013)</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>unknown</addrtype>
-					<address>1200 New Jersey Ave. SE</address>
-					<city>Washington</city>
-					<state>DC</state>
-					<postal>20590</postal>
-				</cntaddr>
-				<cntvoice>202-366-DATA</cntvoice>
-				<cntemail>answers@BTS.gov</cntemail>
-			</cntinfo>
-		</distrib>
-		<stdorder>
-			<digform>
-
-				<digtopt>
-					<offoptn>
-						<offmedia>dvd</offmedia>
-					</offoptn>
-				</digtopt>
-			</digform>
-			<ordering>Call (202-366-DATA), or E-mail (answers@bts.gov) RITA/BTS to request the National Transportation Atlas Databases (NTAD) 2013 DVD. The NTAD DVD can be ordered from the online bookstore at www.bts.gov. Individual datasets from the NTAD can also be downloaded from the Office of Geospatial Information Systems website at http://www.bts.gov/programs/geographic_information_services/</ordering>
-		</stdorder>
+		<resdesc>ntad_2013_dams</resdesc>
 	</distinfo>
+
 	<metainfo>
 		<metd>20140925</metd>
 		<metc>

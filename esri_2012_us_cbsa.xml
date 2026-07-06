@@ -26,12 +26,34 @@
 				</pubinfo>
 				<othercit>Location: \usa\census</othercit>
 				<origin>United States. Bureau of the Census</origin>
-				<origin>	Environmental Systems Research Institute (Redlands, Calif.)</origin><onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_cbsa.zip</onlink></citeinfo>
+				<origin>	Environmental Systems Research Institute (Redlands, Calif.)</origin>
+				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2012_us_cbsa.zip</onlink>
+			</citeinfo>
 		</citation>
 		<timeperd>
 			<current>ground condition: 2010; publication date: 20091201, 2011, 201112, 201003, 20111027</current>
 			<timeinfo>
-				<mdattim><sngdate><caldate>2010</caldate></sngdate><sngdate><caldate>20091201</caldate></sngdate><sngdate><caldate>2011</caldate></sngdate><sngdate><caldate>201112</caldate></sngdate><sngdate><caldate>201003</caldate></sngdate><sngdate><caldate>20111027</caldate></sngdate></mdattim></timeinfo>
+				<mdattim>
+					<sngdate>
+						<caldate>2010</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>20091201</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>2011</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>201112</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>201003</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>20111027</caldate>
+					</sngdate>
+				</mdattim>
+			</timeinfo>
 		</timeperd>
 		<status>
 			<progress>Complete</progress>
@@ -77,8 +99,15 @@
 			<temporal>
 				<tempkt>None</tempkt>
 				<tempkey>2010</tempkey>
-				<tempkey>2009</tempkey><tempkey>2011</tempkey></temporal>
-			<theme><themekey>society</themekey><themekt>ISO 19115 Topic Category</themekt><themekey>boundaries</themekey></theme></keywords>
+				<tempkey>2009</tempkey>
+				<tempkey>2011</tempkey>
+			</temporal>
+			<theme>
+				<themekey>society</themekey>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>boundaries</themekey>
+			</theme>
+		</keywords>
 		<accconst>For current Columbia affiliates only.</accconst>
 
 		<useconst>For educational, non-commercial use only.</useconst>
@@ -110,30 +139,176 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact Esri headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 			</cntinfo>
 		</ptcontac>
-		<browse><browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_cbsa.jpg</browsen><browsed>Thumbnail</browsed><browset>	JPEG</browset></browse></idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20130205</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+		<browse>
+			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_cbsa.jpg</browsen>
+			<browsed>Thumbnail</browsed>
+			<browset>	JPEG</browset>
+		</browse>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Department of Commerce, Census Bureau</origin>
+						<title>2010 Census TIGER/Line Shapefiles, 2012</title>
+						<serinfo>
+							<sername>Census TIGER/Line Shapefiles</sername>
+							<issue>2010</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Department of Commerce, Census Bureau</publish>
+							<pubplace>Washington, DC, USA</pubplace>
+						</pubinfo>
+						<pubdate>2011</pubdate>
+						<geoform>vector digital data</geoform>
+						<onlink>http://www.census.gov/geo/www/tiger/tgrshp2010/tgrshp2010.html</onlink>
+						<edition>2010</edition>
+						<othercit>The metropolitan and micropolitan statistical areas appearing in the 2010 TIGER/Line Shapefiles are the updates to metropolitan and micropolitan statistical areas as of December 2009, announced by the OMB on December 1, 2009.</othercit>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>2010</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20091201</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>2011</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>ground condition: 2010; publication date: 20091201, 2011</srccurr>
+				</srctime>
+				<srccitea>2010 Census TIGER/Line Shapefiles</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+				<srcscale>100000</srcscale>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>TomTom MultiNet Administrative Areas, 2012</title>
+						<origin>TomTom North America, Inc.</origin>
+						<pubdate>201112; 201003</pubdate>
+						<edition>Versions 2011.12 and 2010.03</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>TomTom MultiNet North America</sername>
+							<issue>Versions 2011.12 and 2010.03</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>TomTom North America, Inc.</publish>
+							<pubplace>Lebanon, New Hampshire, USA</pubplace>
+						</pubinfo>
+						<onlink>http://www.tomtom.com/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>DVD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>201112</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>201003</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>TomTom MultiNet North America Administrative Areas v. 2011.12 and v. 2010.03</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Department of Commerce, Census Bureau</origin>
+						<title>Summary File 1 (SF 1)</title>
+						<edition>2010</edition>
+						<serinfo>
+							<sername>Summary File 1 (SF 1)</sername>
+							<issue>2010</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>Department of Commerce, Census Bureau</publish>
+							<pubplace>Washington, DC, USA</pubplace>
+						</pubinfo>
+						<othercit>The Summary File 1 (SF 1) data is based on the 2010 Census of Population and Housing.</othercit>
+						<pubdate>2011</pubdate>
+						<onlink>http://www.census.gov/prod/cen2010/doc/sf1.pdf</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>2010</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>2011</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>ground condition: 2010; publication date: 2011</srccurr>
+				</srctime>
+				<srccitea>U.S. Census SF 1</srccitea>
+				<srccontr>Attribute data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Esri Data</title>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<pubdate>20111027</pubdate>
+						<edition>2011</edition>
+						<geoform>tabular digital data</geoform>
+						<serinfo>
+							<sername>Esri Data</sername>
+							<issue>2011</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Redlands, California, USA</pubplace>
+							<publish>Esri</publish>
+						</pubinfo>
+						<onlink>http://www.esri.com</onlink>
+					</citeinfo>
+				</srccite>
+				<srccitea>Esri Data</srccitea>
+				<srccontr>Attribute data</srccontr>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20111027</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<typesrc>DVD-ROM</typesrc>
+			</srcinfo>
+			<procstep>
+				<procdesc>The following steps were performed by Esri: Started with the CBSA data set from 2010 Census TIGER/Line Shapefiles. Projected the data set to World Geodetic System of 1984 (WGS 1984). Clipped to the coastline with Data &amp; Maps 2012 U.S. States. Attached and formatted the fields from 2010 Census Summary File 1 and Esri Data. Added field TYPE and calculated its values from values removed from the NAME field. Recalculated field SQMI with its values projected to Albers Equal Area. Recalculated POP00_SQMI and POP10_SQMI with new SQMI values. Reordered and renamed the fields. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<procdate>20120216</procdate>
+				<procsv>ArcGIS 10, ArcGIS 9</procsv>
+				<srcused>2010 Census TIGER/Line Shapefiles</srcused>
+				<srcused>TomTom MultiNet North America Administrative Areas v. 2011.12 and v. 2010.03</srcused>
+				<srcused>U.S. Census SF 1</srcused>
+				<srcused>Esri Data</srcused>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The positional accuracy of TIGER/Line varies with the source materials used. In areas where the Census Bureau has not realigned street features as part of MTAIP it meets, at best, the established National Map Accuracy standards (approximately +/-50 meters or 167 feet) where 1:100,000-scale maps from the USGS were the source. The Census Bureau cannot specify the accuracy of feature changes added by its field staff or local updates or of features derived from the GBF/DIME-Files or other sources. Thus, the level of positional accuracy in the TIGER/Line shapefiles may not be suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
 		<ptvctinf>
@@ -881,164 +1056,27 @@ Outside the United States, please direct all inquiries to your local Esri Office
 		<distliab>See use constraints.</distliab>
 		<resdesc>esri_2012_us_cbsa</resdesc>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>U.S. Department of Commerce, Census Bureau</origin>
-						<title>2010 Census TIGER/Line Shapefiles, 2012</title>
-						<serinfo>
-							<sername>Census TIGER/Line Shapefiles</sername>
-							<issue>2010</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>U.S. Department of Commerce, Census Bureau</publish>
-							<pubplace>Washington, DC, USA</pubplace>
-						</pubinfo>
-						<pubdate>2011</pubdate>
-						<geoform>vector digital data</geoform>
-						<onlink>http://www.census.gov/geo/www/tiger/tgrshp2010/tgrshp2010.html</onlink>
-						<edition>2010</edition>
-						<othercit>The metropolitan and micropolitan statistical areas appearing in the 2010 TIGER/Line Shapefiles are the updates to metropolitan and micropolitan statistical areas as of December 2009, announced by the OMB on December 1, 2009.</othercit>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>2010</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>20091201</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>2011</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>ground condition: 2010; publication date: 20091201, 2011</srccurr>
-				</srctime>
-				<srccitea>2010 Census TIGER/Line Shapefiles</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-				<srcscale>100000</srcscale>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>TomTom MultiNet Administrative Areas, 2012</title>
-						<origin>TomTom North America, Inc.</origin>
-						<pubdate>201112; 201003</pubdate>
-						<edition>Versions 2011.12 and 2010.03</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>TomTom MultiNet North America</sername>
-							<issue>Versions 2011.12 and 2010.03</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>TomTom North America, Inc.</publish>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-						</pubinfo>
-						<onlink>http://www.tomtom.com/</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>DVD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>201112</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>201003</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>TomTom MultiNet North America Administrative Areas v. 2011.12 and v. 2010.03</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Department of Commerce, Census Bureau</origin>
-						<title>Summary File 1 (SF 1)</title>
-						<edition>2010</edition>
-						<serinfo>
-							<sername>Summary File 1 (SF 1)</sername>
-							<issue>2010</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>Department of Commerce, Census Bureau</publish>
-							<pubplace>Washington, DC, USA</pubplace>
-						</pubinfo>
-						<othercit>The Summary File 1 (SF 1) data is based on the 2010 Census of Population and Housing.</othercit>
-						<pubdate>2011</pubdate>
-						<onlink>http://www.census.gov/prod/cen2010/doc/sf1.pdf</onlink>
-					</citeinfo>
-				</srccite>
-				<typesrc>online</typesrc>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>2010</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>2011</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>ground condition: 2010; publication date: 2011</srccurr>
-				</srctime>
-				<srccitea>U.S. Census SF 1</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Esri Data</title>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>20111027</pubdate>
-						<edition>2011</edition>
-						<geoform>tabular digital data</geoform>
-						<serinfo>
-							<sername>Esri Data</sername>
-							<issue>2011</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Redlands, California, USA</pubplace>
-							<publish>Esri</publish>
-						</pubinfo>
-						<onlink>http://www.esri.com</onlink>
-					</citeinfo>
-				</srccite>
-				<srccitea>Esri Data</srccitea>
-				<srccontr>Attribute data</srccontr>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>20111027</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<typesrc>DVD-ROM</typesrc>
-			</srcinfo>
-			<procstep>
-				<procdesc>The following steps were performed by Esri: Started with the CBSA data set from 2010 Census TIGER/Line Shapefiles. Projected the data set to World Geodetic System of 1984 (WGS 1984). Clipped to the coastline with Data &amp; Maps 2012 U.S. States. Attached and formatted the fields from 2010 Census Summary File 1 and Esri Data. Added field TYPE and calculated its values from values removed from the NAME field. Recalculated field SQMI with its values projected to Albers Equal Area. Recalculated POP00_SQMI and POP10_SQMI with new SQMI values. Reordered and renamed the fields. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-				<procdate>20120216</procdate>
-				<procsv>ArcGIS 10, ArcGIS 9</procsv>
-				<srcused>2010 Census TIGER/Line Shapefiles</srcused><srcused>TomTom MultiNet North America Administrative Areas v. 2011.12 and v. 2010.03</srcused><srcused>U.S. Census SF 1</srcused><srcused>Esri Data</srcused></procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The positional accuracy of TIGER/Line varies with the source materials used. In areas where the Census Bureau has not realigned street features as part of MTAIP it meets, at best, the established National Map Accuracy standards (approximately +/-50 meters or 167 feet) where 1:100,000-scale maps from the USGS were the source. The Census Bureau cannot specify the accuracy of feature changes added by its field staff or local updates or of features derived from the GBF/DIME-Files or other sources. Thus, the level of positional accuracy in the TIGER/Line shapefiles may not be suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using tools in ArcGIS.  The SDC data set is then imported into a file geodatabase to verify, validate, and if needed repair the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20130205</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

@@ -1,666 +1,666 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Nicaragua (3617476)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Republic of Nicaragua</placekey>
-<placekey>Nicaragua</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>1995</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-87.692194</westbc>
-<eastbc>-82.970746</eastbc>
-<northbc>15.029491</northbc>
-<southbc>10.707382</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Nicaragua (3617476)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Republic of Nicaragua</placekey>
+				<placekey>Nicaragua</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>1995</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-87.692194</westbc>
+				<eastbc>-82.970746</eastbc>
+				<northbc>15.029491</northbc>
+				<southbc>10.707382</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Nicaragua Demographic Census Data, 1995 is a polygon theme representing Barios (4th level administrative units) in Nicaragua. Attribute information includes demographic data from the 1995 census.
 Official population and housing data for Nicaragua from the 1995 census. This census is provided at the barrio administrative level (ADM4) and includes 8,136 polygons with 353 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo: Hombres" was updated to D001 and given the alias "Sex: Men [Hombres]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Nicaragua Demographic Census Data, 1995</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2021</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Nicaragua Demographic Census Data, 1995</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2021</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_nicaragua_demographic_1995.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>1995</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>1995</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Nicaragua_1995</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial Inc.</enttypds>
-  </enttyp>
-  <attr>
-  <attrlabl>CODE</attrlabl>
-  <attrdef>Coded Join Value [Código]</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a coded value</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>NAME</attrlabl>
-  <attrdef>Name Of Barrio [Barrio_o_Comunidad]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Identifier of the census sector as a named value</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D001</attrlabl>
-  <attrdef>Sex: Men [Hombres]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D002</attrlabl>
-  <attrdef>Sex: Women [Mujeres]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D003</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 00 - 04 [F00 a 04]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D004</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 5 - 9 [F05 a 09]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D005</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 10 - 14 [F10 a 14]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D006</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 15 - 19 [F15 a 19]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D007</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 20 - 24 [F20 a 24]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D008</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 25 - 29 [F25 a 29]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D009</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 30 - 34 [F30 a 34]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D010</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 35 - 39 [F35 a 39]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D011</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 40 - 44 [F40 a 44]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D012</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 45 - 49 [F45 a 49]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D013</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 50 - 54 [F50 a 54]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D014</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 55 - 59 [F55 a 59]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D015</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 60 - 64 [F60 a 64]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D016</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 65 - 69 [F65 a 69]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D017</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 70 - 74 [F70 a 74]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D018</attrlabl>
-  <attrdef>Quinquennial Age Groups In Years: 75 And More [F75 a más]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D019</attrlabl>
-  <attrdef>Marital Status: Under 12 [Menor de 12 años]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D020</attrlabl>
-  <attrdef>Marital Status: In A Union Or Couple [Unido a  juntado a ]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D021</attrlabl>
-  <attrdef>Marital Status: Married [Casado a ]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D022</attrlabl>
-  <attrdef>Marital Status: Separated [Separado a ]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D023</attrlabl>
-  <attrdef>Marital Status: Divorced [Divorciado a ]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D024</attrlabl>
-  <attrdef>Marital Status: Widower [Viudo a ]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D025</attrlabl>
-  <attrdef>Marital Status: Single [Soltero a ]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D026</attrlabl>
-  <attrdef>Women With Live Births In The Year Prevous To The Census: No Children Born In The Last 5 Years [Sin Hijo nacido en los últimos 5 años]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D027</attrlabl>
-  <attrdef>Women With Live Births In The Year Prevous To The Census: Last Child Born Alive In 5 Years [Ultimo hijo nacido vivo en los 5 años]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D028</attrlabl>
-  <attrdef>Women With Live Births In The Year Prevous To The Census: No Children Born In The Last Year [Sin Hijo el último año]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D029</attrlabl>
-  <attrdef>Women With Live Births In The Year Prevous To The Census: Child Born Alive In The Last Year [Hijo nacido vivo en el último año]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D030</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 0 [F0]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D031</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 1 [F1]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D032</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 2 [F2]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D033</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 3 [F3]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D034</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 4 [F4]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D035</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 5 [F5]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D036</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 6 [F6]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D037</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 7 [F7]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D038</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 8 [F8]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D039</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 9 [F9]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D040</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 10 [F10]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D041</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 11 [F11]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D042</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 12 [F12]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D043</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 13 [F13]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D044</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 14 [F14]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D045</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 15 [F15]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D046</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 16 [F16]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D047</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 17 [F17]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D048</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 18 [F18]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D049</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 19 [F19]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D050</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 20 [F20]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D051</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 21 [F21]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D052</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 22 [F22]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D053</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 23 [F23]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D054</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 24 [F24]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D055</attrlabl>
-  <attrdef>Total Number Of Children By Live Birth: 25 [F25]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D056</attrlabl>
-  <attrdef>Number Of Hosuehold Members Who Have Died: 1 [F1]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D057</attrlabl>
-  <attrdef>Number Of Hosuehold Members Who Have Died: 2 [F2]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D058</attrlabl>
-  <attrdef>Number Of Hosuehold Members Who Have Died: 3 [F3]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D059</attrlabl>
-  <attrdef>Number Of Hosuehold Members Who Have Died: 4 [F4]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D060</attrlabl>
-  <attrdef>Has Anyone In The Household Died In The Year Previous To The Census: Had At Least Oen Person Die [Tiene personas fallecidas]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>D061</attrlabl>
-  <attrdef>Has Anyone In The Household Died In The Year Previous To The Census: Has Had No Deaths [Sin personas fallecidas]</attrdef>
-  <attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
-  <attrdomv>
-    <udom>Frequency of response in the census sector</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>Country</attrlabl>
-  <attrdef>Country</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Country where census took place as 3-digit ISO code</udom>
-  </attrdomv>
-</attr>
-<attr>
-  <attrlabl>Year</attrlabl>
-  <attrdef>Year</attrdef>
-  <attrdefs>East View Geospatial Inc.</attrdefs>
-  <attrdomv>
-    <udom>Year census was conducted as YYYY</udom>
-  </attrdomv>
-</attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Nicaragua_1995</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial Inc.</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Coded Join Value [Código]</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>NAME</attrlabl>
+			<attrdef>Name Of Barrio [Barrio_o_Comunidad]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a named value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D001</attrlabl>
+			<attrdef>Sex: Men [Hombres]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D002</attrlabl>
+			<attrdef>Sex: Women [Mujeres]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D003</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 00 - 04 [F00 a 04]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D004</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 5 - 9 [F05 a 09]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D005</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 10 - 14 [F10 a 14]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D006</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 15 - 19 [F15 a 19]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D007</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 20 - 24 [F20 a 24]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D008</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 25 - 29 [F25 a 29]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D009</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 30 - 34 [F30 a 34]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D010</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 35 - 39 [F35 a 39]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D011</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 40 - 44 [F40 a 44]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D012</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 45 - 49 [F45 a 49]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D013</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 50 - 54 [F50 a 54]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D014</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 55 - 59 [F55 a 59]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D015</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 60 - 64 [F60 a 64]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D016</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 65 - 69 [F65 a 69]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D017</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 70 - 74 [F70 a 74]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D018</attrlabl>
+			<attrdef>Quinquennial Age Groups In Years: 75 And More [F75 a más]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D019</attrlabl>
+			<attrdef>Marital Status: Under 12 [Menor de 12 años]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D020</attrlabl>
+			<attrdef>Marital Status: In A Union Or Couple [Unido a  juntado a ]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D021</attrlabl>
+			<attrdef>Marital Status: Married [Casado a ]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D022</attrlabl>
+			<attrdef>Marital Status: Separated [Separado a ]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D023</attrlabl>
+			<attrdef>Marital Status: Divorced [Divorciado a ]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D024</attrlabl>
+			<attrdef>Marital Status: Widower [Viudo a ]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D025</attrlabl>
+			<attrdef>Marital Status: Single [Soltero a ]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D026</attrlabl>
+			<attrdef>Women With Live Births In The Year Prevous To The Census: No Children Born In The Last 5 Years [Sin Hijo nacido en los últimos 5 años]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D027</attrlabl>
+			<attrdef>Women With Live Births In The Year Prevous To The Census: Last Child Born Alive In 5 Years [Ultimo hijo nacido vivo en los 5 años]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D028</attrlabl>
+			<attrdef>Women With Live Births In The Year Prevous To The Census: No Children Born In The Last Year [Sin Hijo el último año]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D029</attrlabl>
+			<attrdef>Women With Live Births In The Year Prevous To The Census: Child Born Alive In The Last Year [Hijo nacido vivo en el último año]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D030</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 0 [F0]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D031</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 1 [F1]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D032</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 2 [F2]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D033</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 3 [F3]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D034</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 4 [F4]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D035</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 5 [F5]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D036</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 6 [F6]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D037</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 7 [F7]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D038</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 8 [F8]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D039</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 9 [F9]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D040</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 10 [F10]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D041</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 11 [F11]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D042</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 12 [F12]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D043</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 13 [F13]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D044</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 14 [F14]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D045</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 15 [F15]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D046</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 16 [F16]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D047</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 17 [F17]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D048</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 18 [F18]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D049</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 19 [F19]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D050</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 20 [F20]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D051</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 21 [F21]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D052</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 22 [F22]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D053</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 23 [F23]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D054</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 24 [F24]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D055</attrlabl>
+			<attrdef>Total Number Of Children By Live Birth: 25 [F25]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D056</attrlabl>
+			<attrdef>Number Of Hosuehold Members Who Have Died: 1 [F1]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D057</attrlabl>
+			<attrdef>Number Of Hosuehold Members Who Have Died: 2 [F2]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D058</attrlabl>
+			<attrdef>Number Of Hosuehold Members Who Have Died: 3 [F3]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D059</attrlabl>
+			<attrdef>Number Of Hosuehold Members Who Have Died: 4 [F4]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D060</attrlabl>
+			<attrdef>Has Anyone In The Household Died In The Year Previous To The Census: Had At Least Oen Person Die [Tiene personas fallecidas]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>D061</attrlabl>
+			<attrdef>Has Anyone In The Household Died In The Year Previous To The Census: Has Had No Deaths [Sin personas fallecidas]</attrdef>
+			<attrdefs>National Development Information Institute (INIDE) Nicaragua, 1995 [Instituto Nacional de Información de Desarrollo (INIDE) Nicaragua, 1995]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country</attrlabl>
+			<attrdef>Country</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Year</attrlabl>
+			<attrdef>Year</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
-
-<metainfo>
-<metd>20220801</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
-</metainfo>
 
 
 <distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_nicaragua_demographic_1995</resdesc>
-<distrib>
-</distrib>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_nicaragua_demographic_1995</resdesc>
+	<distrib>
+	</distrib>
 </distinfo>
+
+<metainfo>
+	<metd>20220801</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

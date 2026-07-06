@@ -1,2144 +1,2144 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-<idinfo>
-<keywords>
-<theme>
-<themekt>ISO 19115 Topic Category</themekt>
-<themekey>society</themekey>
-<themekey>boundaries</themekey>
-</theme>
-<theme>
-  <themekt>None</themekt>
-  <themekey>house-type</themekey>
-  <themekey>rural</themekey>
-  <themekey>literacy</themekey>
-  <themekey>demographics</themekey>
-  <themekey>occupancy</themekey>
-  <themekey>housing</themekey>
-  <themekey>census</themekey>
-  <themekey>occupants</themekey>
-  <themekey>ownership</themekey>
-  <themekey>families</themekey>
-  <themekey>households</themekey>
-  <themekey>urban</themekey>
-  <themekey>household</themekey>
-  <themekey>income</themekey>
-</theme>
-<place>
-	<placekt>GeoNames</placekt>
-	<placekey>Uruguay (3439705)</placekey>
-</place>
-<place>
-<placekt>None</placekt>
-<placekey>Oriental Republic of Uruguay</placekey>
-<placekey>Uruguay</placekey>
-</place>
-<temporal>
-<tempkt>None</tempkt>
-<tempkey>2011</tempkey>
-</temporal>
-</keywords>
-<spdom>
-<bounding>
-<westbc>-58.439349</westbc>
-<eastbc>-53.181051</eastbc>
-<northbc>-30.085502</northbc>
-<southbc>-34.974054</southbc>
-</bounding>
-</spdom>
-<descript>
-<abstract>
+	<idinfo>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>society</themekey>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>house-type</themekey>
+				<themekey>rural</themekey>
+				<themekey>literacy</themekey>
+				<themekey>demographics</themekey>
+				<themekey>occupancy</themekey>
+				<themekey>housing</themekey>
+				<themekey>census</themekey>
+				<themekey>occupants</themekey>
+				<themekey>ownership</themekey>
+				<themekey>families</themekey>
+				<themekey>households</themekey>
+				<themekey>urban</themekey>
+				<themekey>household</themekey>
+				<themekey>income</themekey>
+			</theme>
+			<place>
+				<placekt>GeoNames</placekt>
+				<placekey>Uruguay (3439705)</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Oriental Republic of Uruguay</placekey>
+				<placekey>Uruguay</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2011</tempkey>
+			</temporal>
+		</keywords>
+		<spdom>
+			<bounding>
+				<westbc>-58.439349</westbc>
+				<eastbc>-53.181051</eastbc>
+				<northbc>-30.085502</northbc>
+				<southbc>-34.974054</southbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>
 Uruguay Housing Census Data, 2011 is a polygon theme representing Census Tracts (3rd level administrative units) in Uruguay as of 2011.  Attribute data include housing variables from the 2011 Uruguayan census.
 Official population and housing data for Uruguay from the 2011 census. This census is provided at the census tract administrative level (ADM3) and includes 4,313 polygons with 730 attribute variables. Attribute descriptions retain Source-language names and unique identifier codes. All variable names were translated from Source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo: Hombre" was updated to D001 and given the alias "Sex: Man[Sexo: Hombre]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
 
 
-</abstract>
-</descript>
-<citation>
-<citeinfo>
-<title>Uruguay Housing Census Data, 2011</title>
-<origin>East View Cartographic, Inc.</origin>
-<pubdate>2019</pubdate>
-<geoform>map</geoform>
-<pubinfo>
-<publish>East View Geospatial (Firm)</publish>
-</pubinfo>
+			</abstract>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title>Uruguay Housing Census Data, 2011</title>
+				<origin>East View Cartographic, Inc.</origin>
+				<pubdate>2019</pubdate>
+				<geoform>map</geoform>
+				<pubinfo>
+					<publish>East View Geospatial (Firm)</publish>
+				</pubinfo>
 <onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_uruguay_housing_2011.zip
-</onlink>
-</citeinfo>
-</citation>
-<timeperd>
-<current>Ground condition</current>
-<timeinfo>
-<sngdate>
-<caldate>2011</caldate>
-</sngdate>
-</timeinfo>
-</timeperd>
-<status>
-<progress>Complete</progress>
-<update>Unknown</update>
-</status>
-<accconst>For current Columbia affiliates only.</accconst>
-<useconst>For educational, non-commercial use only.</useconst>
-<ptcontac>
-<cntinfo>
-<cntperp>
-<cntorg>East View Cartographic, Incorporated</cntorg>
-</cntperp>
-</cntinfo>
-</ptcontac>
-<datacred>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</datacred>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2011</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+	<datacred>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</datacred>
 </idinfo>
 <spdoinfo>
-<direct>Vector</direct>
-<ptvctinf>
-<sdtsterm>
-<sdtstype>G-polygon</sdtstype>
-</sdtsterm>
-</ptvctinf>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
 </spdoinfo>
 <spref>
-<horizsys>
-  <gridsys>GCS_WGS_1984</gridsys>
-</horizsys>
+	<horizsys>
+		<gridsys>GCS_WGS_1984</gridsys>
+	</horizsys>
 </spref>
 <eainfo>
-<detailed>
-  <enttyp>
-    <enttypl>Uruguay_2011</enttypl>
-    <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-    <enttypds>East View Geospatial</enttypds>
-  </enttyp>
-  <attr>
-    <attrlabl>CODE</attrlabl>
-    <attrdef>Code[Codigo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census sector as a coded value.</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H001</attrlabl>
-    <attrdef>Housing Identification: Private[Identificador De La Vivienda: Particular]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H002</attrlabl>
-    <attrdef>Housing Identification: Collective[Identificador De La Vivienda: Colectiva]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H003</attrlabl>
-    <attrdef>Housing Identification: Shelters[Identificador De La Vivienda: Refugios]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H004</attrlabl>
-    <attrdef>Housing Identification: Ignored[Identificador De La Vivienda: Ignorado Particular]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H005</attrlabl>
-    <attrdef>Type Of House: House[Tipo De Vivienda: Casa]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H006</attrlabl>
-    <attrdef>Type Of House: Apartment Building With An Elevator[Tipo De Vivienda: Apartamento En Edificio En Altura Con Ascensor]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H007</attrlabl>
-    <attrdef>Type Of House: Apartment Building Without An Elevator[Tipo De Vivienda: Apartamento En Edificio En Altura Sin Ascensor]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H008</attrlabl>
-    <attrdef>Type Of House: Apartment In Building A One-Story Building[Tipo De Vivienda: Apartamento En Edificio De Una Planta]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H009</attrlabl>
-    <attrdef>Type Of House: Apartment Or Room In Local Or Collective Housing[Tipo De Vivienda: Apartamento O Cuarto En Local O Vivienda Colectiva]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H010</attrlabl>
-    <attrdef>Type Of House: Local Not Built For Housing[Tipo De Vivienda: Local No Construido Para Vivienda]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H011</attrlabl>
-    <attrdef>Type Of House: Mobile Housing (Tent, Trailer, Etc.)[Tipo De Vivienda: Vivienda Móvil (Carpa, Casa Rodante, Etc.)]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H012</attrlabl>
-    <attrdef>Type Of House: Another Particular[Tipo De Vivienda: Otra Particular]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H013</attrlabl>
-    <attrdef>Type Of House: Hotel, Pension Or Other Lodging House[Tipo De Vivienda: Hotel, Pensión U Otra Casa De Hospedaje]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H014</attrlabl>
-    <attrdef>Type Of House: Hospital, Hospital (Inpatient)[Tipo De Vivienda: Hospital, Sanatorio (Con Internación)]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H015</attrlabl>
-    <attrdef>Type Of House: Residential Homes[Tipo De Vivienda: Residencial De Ancianos]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H016</attrlabl>
-    <attrdef>Type Of House: Residential Students[Tipo De Vivienda: Residencial De Estudiantes]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H017</attrlabl>
-    <attrdef>Type Of House: House For Workers[Tipo De Vivienda: Casa De Peones]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H018</attrlabl>
-    <attrdef>Type Of House: Religious Boarding[Tipo De Vivienda: Internado Religioso]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H019</attrlabl>
-    <attrdef>Type Of House: Establishment Of Imprisonment[Tipo De Vivienda: Establecimiento De Reclusión]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H020</attrlabl>
-    <attrdef>Type Of House: Foster Or Similar [Tipo De Vivienda: Hogar De Guarda O Similar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H021</attrlabl>
-    <attrdef>Type Of House: Military Or Police Headquarters[Tipo De Vivienda: Cuartel Militar O Policial]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H022</attrlabl>
-    <attrdef>Type Of House: Another Collective[Tipo De Vivienda: Otra Colectiva]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H023</attrlabl>
-    <attrdef>Type Of House: Shelters[Tipo De Vivienda: Refugios]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H024</attrlabl>
-    <attrdef>Type Of House: Ignored[Tipo De Vivienda: Ignorado Particular]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H025</attrlabl>
-    <attrdef>Condition Of Occupation: Busy With Residents Present[Condición De Ocupación: Ocupada Con Residentes Presentes]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H026</attrlabl>
-    <attrdef>Condition Of Occupation: Busy With Absent Residents[Condición De Ocupación: Ocupada Con Residentes Ausentes]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H027</attrlabl>
-    <attrdef>Condition Of Occupation: Temporary Use[Condición De Ocupación: De Uso Temporal]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H028</attrlabl>
-    <attrdef>Condition Of Occupation: To Rent Or Sell[Condición De Ocupación: Para Alquilar O Vender]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H029</attrlabl>
-    <attrdef>Condition Of Occupation: Under Construction Or Repair[Condición De Ocupación: En Construcción O Reparación]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H030</attrlabl>
-    <attrdef>Condition Of Occupation: Ruined, Destroyed Or Uninhabitable[Condición De Ocupación: Ruinosa, Destruida O Inhabitable]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H031</attrlabl>
-    <attrdef>Condition Of Occupation: Vacant[Condición De Ocupación: Vacante]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H032</attrlabl>
-    <attrdef>Condition Of Occupation: Ignored[Condición De Ocupación: Ignorado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H033</attrlabl>
-    <attrdef>Multuiple Households: Yes[Residencia De Otras Personas: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H034</attrlabl>
-    <attrdef>Multuiple Households: No[Residencia De Otras Personas: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H035</attrlabl>
-    <attrdef>Predominant Material Of Roofs: Concrete Slab Or Slab With Or Without Tiles[Material Predominante De Los Techos: Planchada De Hormigón O Bovedilla Con O Sin Tejas]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H036</attrlabl>
-    <attrdef>Predominant Material Of Roofs: Lightweight With Soffit[Material Predominante De Los Techos: Liviano Con Cielo Raso]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H037</attrlabl>
-    <attrdef>Predominant Material Of Roofs: Lightweight Without Soffit[Material Predominante De Los Techos: Liviano Sin Cielo Raso]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H038</attrlabl>
-    <attrdef>Predominant Material Of Roofs: Quincha[Material Predominante De Los Techos: Quincha]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H039</attrlabl>
-    <attrdef>Predominant Material Of Roofs: Waste Materials[Material Predominante De Los Techos: Materiales De Desecho]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H040</attrlabl>
-    <attrdef>Predominant Material Of Roofs: Other[Material Predominante De Los Techos: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H041</attrlabl>
-    <attrdef>Predominant Material Of Roofs: Not Relevant[Material Predominante De Los Techos: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H042</attrlabl>
-    <attrdef>Predominant Material Floor: Ceramic Tile, Flagstone, Wood, Carpeting, Linoleum, Etc.[Material Predominante De Los Pisos: Cerámica, Baldosas, Piedra Laja, Madera, Moqueta, Linóleo, Etc.]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H043</attrlabl>
-    <attrdef>Predominant Material Floor: Sand And Portland[Material Predominante De Los Pisos: Arena Y Portland]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H044</attrlabl>
-    <attrdef>Predominant Material Floor: Underlayment Only Floorless[Material Predominante De Los Pisos: Sólo Contrapiso Sin Piso]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H045</attrlabl>
-    <attrdef>Predominant Material Floor: Earth Without Floor And Underlayment[Material Predominante De Los Pisos: Tierra Sin Piso Ni Contrapiso]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H046</attrlabl>
-    <attrdef>Predominant Material Floor: Other[Material Predominante De Los Pisos: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H047</attrlabl>
-    <attrdef>Predominant Material Floor: Not Relevant[Material Predominante De Los Pisos: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H048</attrlabl>
-    <attrdef>Category Of Housing: Heavy Materials On Walls And Ceilings And Sturdy Floor[Categoría De La Vivienda: Materiales Pesados En Paredes Y Techos Y Piso Resistente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H049</attrlabl>
-    <attrdef>Category Of Housing: Heavy Materials In Walls, Ceiling And Floor Light Resist[Categoría De La Vivienda: Materiales Pesados En Paredes, Techo Liviano Y Piso Resisten]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H050</attrlabl>
-    <attrdef>Category Of Housing: Heavy Materials On Walls And Ceilings And No Sturdy Floor[Categoría De La Vivienda: Materiales Pesados En Paredes Y Techos Y Piso No Resistente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H051</attrlabl>
-    <attrdef>Category Of Housing: Heavy Materials In Walls, Ceilings And No Light Floor Resist[Categoría De La Vivienda: Materiales Pesados En Paredes, Techos Livianos Y Piso No Resistente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H052</attrlabl>
-    <attrdef>Category Of Housing: Lightweight Materials In Walls And Ceilings And Sturdy Floor[Categoría De La Vivienda: Materiales Livianos En Paredes Y Techos Y Piso Resistente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H053</attrlabl>
-    <attrdef>Category Of Housing: Lightweight Materials In Walls And Ceilings And No Sturdy Floor[Categoría De La Vivienda: Materiales Livianos En Paredes Y Techos Y Piso No Resistente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H054</attrlabl>
-    <attrdef>Category Of Housing: Mud Or Adobe Walls, Ceiling Light And Sturdy Floor[Categoría De La Vivienda: Paredes De Barro O Adobe, Techo Liviano Y Piso Resistente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H055</attrlabl>
-    <attrdef>Category Of Housing: Mud Or Adobe Walls, Ceiling Light And Not Resistant Floor[Categoría De La Vivienda: Paredes De Barro O Adobe, Techo Liviano Y Piso No Resistente]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H056</attrlabl>
-    <attrdef>Category Of Housing: Waste Materials On Walls Or Ceilings[Categoría De La Vivienda: Materiales De Desecho En Paredes O Techos]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H057</attrlabl>
-    <attrdef>Category Of Housing: Other Combinations Of Materials[Categoría De La Vivienda: Otras Combinaciones De Materiales]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H058</attrlabl>
-    <attrdef>Origin Of Water: OSE Or General Network[Origen Del Agua: OSE O Red General]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H059</attrlabl>
-    <attrdef>Origin Of Water: Protected Well[Origen Del Agua: Pozo Surgente Protegido]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H060</attrlabl>
-    <attrdef>Origin Of Water: Unprotected Well[Origen Del Agua: Pozo Surgente No Protegido]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H061</attrlabl>
-    <attrdef>Origin Of Water: Drain/Sewer[Origen Del Agua: Aljibe]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H062</attrlabl>
-    <attrdef>Origin Of Water: Pipe[Origen Del Agua: Cachimba]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H063</attrlabl>
-    <attrdef>Origin Of Water: Stream, River[Origen Del Agua: Arroyo, Río]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H064</attrlabl>
-    <attrdef>Origin Of Water: Other[Origen Del Agua: Otro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H065</attrlabl>
-    <attrdef>Origin Of Water: Not Relevant[Origen Del Agua: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H066</attrlabl>
-    <attrdef>Distance To Water Source: Piped Into Housing[Llegada De Agua: Por Cañería Dentro De La Vivienda]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H067</attrlabl>
-    <attrdef>Distance To Water Source: Less Than 100 M Away[Llegada De Agua: A Menos De 100 M De Distancia]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H068</attrlabl>
-    <attrdef>Distance To Water Source: More Than 100 M Away[Llegada De Agua: A Más De 100 M De Distancia]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H069</attrlabl>
-    <attrdef>Distance To Water Source: By Other Means[Llegada De Agua: Por Otros Medios]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H070</attrlabl>
-    <attrdef>Distance To Water Source: Not Relevant[Llegada De Agua: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H071</attrlabl>
-    <attrdef>Electric Lighting: Public Utility Or General Network[Principal Medio De Alumbrado Electrico: Utilidad Publica O Red General]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H072</attrlabl>
-    <attrdef>Electric Lighting: Wind Battery Charger[Principal Medio De Alumbrado Electrico: Cargador Eólico De Batería]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H073</attrlabl>
-    <attrdef>Electric Lighting: Solar Battery Charger[Principal Medio De Alumbrado Electrico: Cargador Solar De Bateria]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H074</attrlabl>
-    <attrdef>Electric Lighting: Own Generator[Principal Medio De Alumbrado Electrico: Grupo Electrógeno Propio]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H075</attrlabl>
-    <attrdef>Electric Lighting: Other Electrical[Principal Medio De Alumbrado Electrico: Otro Electrico]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H076</attrlabl>
-    <attrdef>Electric Lighting: Does Not Have[Principal Medio De Alumbrado Electrico: No Tiene]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H077</attrlabl>
-    <attrdef>Electric Lighting: Not Relevant[Principal Medio De Alumbrado Electrico: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H078</attrlabl>
-    <attrdef>Rural Area Urban: Urban[Area Urbano-Rural: Urbano]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H079</attrlabl>
-    <attrdef>Rural Area Urban: Rural[Area Urbano-Rural: Rural]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H080</attrlabl>
-    <attrdef>Home Ownership: Owner[Tenencia De La Vivienda: Propietario]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H081</attrlabl>
-    <attrdef>Home Ownership: Member Of A Housing Cooperative[Tenencia De La Vivienda: Integrante De Una Cooperativa De Vivienda]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H082</attrlabl>
-    <attrdef>Home Ownership: Tenant Or Lessee[Tenencia De La Vivienda: Inquilino O Arrendatario]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H083</attrlabl>
-    <attrdef>Home Ownership: Beneficial Owner Or Occupier[Tenencia De La Vivienda: Usufructuario U Ocupante]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H084</attrlabl>
-    <attrdef>Home Ownership: Not Relevant[Tenencia De La Vivienda: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H085</attrlabl>
-    <attrdef>Property Ownership: Paying Housing And Land [Características Propietario: De La Vivienda Y El Terreno Y La Está Pagando]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H086</attrlabl>
-    <attrdef>Property Ownership: Housing And Land Already Paid[Características Propietario: De La Vivienda Y El Terreno Y Ya La Pagó]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H087</attrlabl>
-    <attrdef>Property Ownership: Paying Only Housing [Características Propietario: Solamente De La Vivienda Y La Está Pagando]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H088</attrlabl>
-    <attrdef>Property Ownership: Only Housing And Already Paid[Características Propietario: Solamente De La Vivienda Y Ya La Pagó]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H089</attrlabl>
-    <attrdef>Property Ownership: Not Relevant[Características Propietario: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H090</attrlabl>
-    <attrdef>Features Beneficiary Or Occupier : Dependency Relation (Work)[Características Usufructuario U Ocupante: Por Relación De Dependencia (Trabajo)]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H091</attrlabl>
-    <attrdef>Features Beneficiary Or Occupier : Free, Awarded By The BPS[Características Usufructuario U Ocupante: Gratuito, Otorgada Por El BPS]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H092</attrlabl>
-    <attrdef>Features Beneficiary Or Occupier : Free ( Loaned)[Características Usufructuario U Ocupante: Gratuito (Se La Prestaron)]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H093</attrlabl>
-    <attrdef>Features Beneficiary Or Occupier : Without Permission From The Owner[Características Usufructuario U Ocupante: Sin Permiso Del Propietario]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H094</attrlabl>
-    <attrdef>Features Beneficiary Or Occupier : Not Relevant[Características Usufructuario U Ocupante: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H095</attrlabl>
-    <attrdef>Bathroom Present: Yes, With Drain/Sewer[Disponibilidad De Baño: Si, Con Drain/Sewera]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H096</attrlabl>
-    <attrdef>Bathroom Present: Yes, Without Drain/Sewer[Disponibilidad De Baño: Si, Sin Drain/Sewera]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H097</attrlabl>
-    <attrdef>Bathroom Present: No[Disponibilidad De Baño: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H098</attrlabl>
-    <attrdef>Bathroom Present: Not Relevant[Disponibilidad De Baño: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H099</attrlabl>
-    <attrdef>Use Bath: Exclusive Use Of Home[Uso Del Baño: De Uso Exclusivo Del Hogar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H100</attrlabl>
-    <attrdef>Use Bath: Shared With Other Households[Uso Del Baño: Compartido Con Otros Hogares]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H101</attrlabl>
-    <attrdef>Use Bath: Not Relevant[Uso Del Baño: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H102</attrlabl>
-    <attrdef>Waste Water Disposal: General Network[Evacuacion Del Servicio Sanitario: Red General]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H103</attrlabl>
-    <attrdef>Waste Water Disposal: Septic, Black Hole[Evacuacion Del Servicio Sanitario: Fosa Septica, Pozo Negro]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H104</attrlabl>
-    <attrdef>Waste Water Disposal: Piped Toward The Stream[Evacuacion Del Servicio Sanitario: Entubado Hacia El Arroyo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H105</attrlabl>
-    <attrdef>Waste Water Disposal: Other (Surface Hole In The Ground)[Evacuacion Del Servicio Sanitario: Otro (Superficie, Hueco En El Suelo)]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H106</attrlabl>
-    <attrdef>Waste Water Disposal: Not Relevant[Evacuacion Del Servicio Sanitario: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H107</attrlabl>
-    <attrdef>Place For Cooking: Yes, Private Home[Lugar Para Cocinar: Si, Privado De Este Hogar]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H108</attrlabl>
-    <attrdef>Place For Cooking: Yes, Shared With Other Households[Lugar Para Cocinar: Si, Compartido Con Otros Hogares]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H109</attrlabl>
-    <attrdef>Place For Cooking: No[Lugar Para Cocinar: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H110</attrlabl>
-    <attrdef>Place For Cooking: Not Relevant[Lugar Para Cocinar: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H111</attrlabl>
-    <attrdef>Power Source For Cooking: Electricity[Fuente De Energia Para Cocinar: Electricidad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H112</attrlabl>
-    <attrdef>Power Source For Cooking: Piped Gas[Fuente De Energia Para Cocinar: Gas Por Cañería]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H113</attrlabl>
-    <attrdef>Power Source For Cooking: Propane[Fuente De Energia Para Cocinar: Supergás]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H114</attrlabl>
-    <attrdef>Power Source For Cooking: Kerosene[Fuente De Energia Para Cocinar: Queroseno]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H115</attrlabl>
-    <attrdef>Power Source For Cooking: Wood Or Coal[Fuente De Energia Para Cocinar: Leña O Carbón]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H116</attrlabl>
-    <attrdef>Power Source For Cooking: Other[Fuente De Energia Para Cocinar: Otra]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H117</attrlabl>
-    <attrdef>Power Source For Cooking: No Cooking[Fuente De Energia Para Cocinar: Ninguna, No Cocina]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H118</attrlabl>
-    <attrdef>Power Source For Cooking: Not Relevant[Fuente De Energia Para Cocinar: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H119</attrlabl>
-    <attrdef>Power Source For Heating : Electricity[Fuente De Energía Para Calefaccionar: Electricidad]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H120</attrlabl>
-    <attrdef>Power Source For Heating : Firewood[Fuente De Energía Para Calefaccionar: Leña]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H121</attrlabl>
-    <attrdef>Power Source For Heating : Gas By Pipe[Fuente De Energía Para Calefaccionar: Gas Por Cañería]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H122</attrlabl>
-    <attrdef>Power Source For Heating : Propane[Fuente De Energía Para Calefaccionar: Supergás]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H123</attrlabl>
-    <attrdef>Power Source For Heating : Kerosene[Fuente De Energía Para Calefaccionar: Queroseno]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H124</attrlabl>
-    <attrdef>Power Source For Heating : Gas Oil[Fuente De Energía Para Calefaccionar: Gas Oil]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H125</attrlabl>
-    <attrdef>Power Source For Heating : Fuel Oil[Fuente De Energía Para Calefaccionar: Fuel Oil]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H126</attrlabl>
-    <attrdef>Power Source For Heating : Other[Fuente De Energía Para Calefaccionar: Otra]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H127</attrlabl>
-    <attrdef>Power Source For Heating : Any[Fuente De Energía Para Calefaccionar: Ninguna]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H128</attrlabl>
-    <attrdef>Power Source For Heating : Not Relevant[Fuente De Energía Para Calefaccionar: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H129</attrlabl>
-    <attrdef>Water Heaters, Termofón O Caldereta: Yes[Calefón, Termofón O Caldereta: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H130</attrlabl>
-    <attrdef>Water Heaters, Termofón O Caldereta: No[Calefón, Termofón O Caldereta: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H131</attrlabl>
-    <attrdef>Water Heaters, Termofón O Caldereta: Not Relevant[Calefón, Termofón O Caldereta: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H132</attrlabl>
-    <attrdef>Instant Water Heater : Yes[Calentador Instantáneo De Agua: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H133</attrlabl>
-    <attrdef>Instant Water Heater : No[Calentador Instantáneo De Agua: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H134</attrlabl>
-    <attrdef>Instant Water Heater : Not Relevant[Calentador Instantáneo De Agua: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H135</attrlabl>
-    <attrdef>Refrigerator Or Freezer: Yes[Refrigerador O Freezer: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H136</attrlabl>
-    <attrdef>Refrigerator Or Freezer: No[Refrigerador O Freezer: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H137</attrlabl>
-    <attrdef>Refrigerator Or Freezer: Not Relevant[Refrigerador O Freezer: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H138</attrlabl>
-    <attrdef>Dryer Machine: Yes[Máquina Secadora De Ropa: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H139</attrlabl>
-    <attrdef>Dryer Machine: No[Máquina Secadora De Ropa: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H140</attrlabl>
-    <attrdef>Dryer Machine: Not Relevant[Máquina Secadora De Ropa: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H141</attrlabl>
-    <attrdef>Radio: Yes[Radio: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H142</attrlabl>
-    <attrdef>Radio: No[Radio: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H143</attrlabl>
-    <attrdef>Radio: Not Relevant[Radio: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H144</attrlabl>
-    <attrdef>Color Tv (Quantity): 0[Tv Color (Cantidad): 0]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H145</attrlabl>
-    <attrdef>Color Tv (Quantity): 1[Tv Color (Cantidad): 1]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H146</attrlabl>
-    <attrdef>Color Tv (Quantity): 2[Tv Color (Cantidad): 2]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H147</attrlabl>
-    <attrdef>Color Tv (Quantity): 3[Tv Color (Cantidad): 3]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H148</attrlabl>
-    <attrdef>Color Tv (Quantity): 4[Tv Color (Cantidad): 4]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H149</attrlabl>
-    <attrdef>Color Tv (Quantity): 5[Tv Color (Cantidad): 5]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H150</attrlabl>
-    <attrdef>Color Tv (Quantity): 6[Tv Color (Cantidad): 6]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H151</attrlabl>
-    <attrdef>Color Tv (Quantity): 7[Tv Color (Cantidad): 7]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H152</attrlabl>
-    <attrdef>Color Tv (Quantity): 8[Tv Color (Cantidad): 8]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H153</attrlabl>
-    <attrdef>Color Tv (Quantity): 9[Tv Color (Cantidad): 9]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H154</attrlabl>
-    <attrdef>Color Tv (Quantity): Not Revieled[Tv Color (Cantidad): No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H155</attrlabl>
-    <attrdef>Landline: Yes[Telefono Fijo: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H156</attrlabl>
-    <attrdef>Landline: No[Telefono Fijo: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H157</attrlabl>
-    <attrdef>Landline: Not Relevant[Telefono Fijo: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H158</attrlabl>
-    <attrdef>Cell Phone: Yes[Telefono Celular: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H159</attrlabl>
-    <attrdef>Cell Phone: No[Telefono Celular: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H160</attrlabl>
-    <attrdef>Cell Phone: Not Relevant[Telefono Celular: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H161</attrlabl>
-    <attrdef>Xo Ceibal Plan (Quantity Per Household): 0[Xo Del Plan Ceibal (Cantidad Por Hogar): 0]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H162</attrlabl>
-    <attrdef>Xo Ceibal Plan (Quantity Per Household): 1[Xo Del Plan Ceibal (Cantidad Por Hogar): 1]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H163</attrlabl>
-    <attrdef>Xo Ceibal Plan (Quantity Per Household): 2[Xo Del Plan Ceibal (Cantidad Por Hogar): 2]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H164</attrlabl>
-    <attrdef>Xo Ceibal Plan (Quantity Per Household): 3[Xo Del Plan Ceibal (Cantidad Por Hogar): 3]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H165</attrlabl>
-    <attrdef>Xo Ceibal Plan (Quantity Per Household): 4[Xo Del Plan Ceibal (Cantidad Por Hogar): 4]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H166</attrlabl>
-    <attrdef>Xo Ceibal Plan (Quantity Per Household): 5[Xo Del Plan Ceibal (Cantidad Por Hogar): 5]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H167</attrlabl>
-    <attrdef>Xo Ceibal Plan (Quantity Per Household): 6[Xo Del Plan Ceibal (Cantidad Por Hogar): 6]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H168</attrlabl>
-    <attrdef>Xo Ceibal Plan (Quantity Per Household): 7[Xo Del Plan Ceibal (Cantidad Por Hogar): 7]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H169</attrlabl>
-    <attrdef>Xo Ceibal Plan (Quantity Per Household): 8[Xo Del Plan Ceibal (Cantidad Por Hogar): 8]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H170</attrlabl>
-    <attrdef>Xo Ceibal Plan (Quantity Per Household): 9[Xo Del Plan Ceibal (Cantidad Por Hogar): 9]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H171</attrlabl>
-    <attrdef>Xo Ceibal Plan (Quantity Per Household): Not Revieled[Xo Del Plan Ceibal (Cantidad Por Hogar): No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H172</attrlabl>
-    <attrdef>Pc Or Laptops (Quantity): 0[Pc O Laptops (Cantidad): 0]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H173</attrlabl>
-    <attrdef>Pc Or Laptops (Quantity): 1[Pc O Laptops (Cantidad): 1]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H174</attrlabl>
-    <attrdef>Pc Or Laptops (Quantity): 2[Pc O Laptops (Cantidad): 2]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H175</attrlabl>
-    <attrdef>Pc Or Laptops (Quantity): 3[Pc O Laptops (Cantidad): 3]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H176</attrlabl>
-    <attrdef>Pc Or Laptops (Quantity): 4[Pc O Laptops (Cantidad): 4]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H177</attrlabl>
-    <attrdef>Pc Or Laptops (Quantity): 5[Pc O Laptops (Cantidad): 5]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H178</attrlabl>
-    <attrdef>Pc Or Laptops (Quantity): 6[Pc O Laptops (Cantidad): 6]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H179</attrlabl>
-    <attrdef>Pc Or Laptops (Quantity): 7[Pc O Laptops (Cantidad): 7]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H180</attrlabl>
-    <attrdef>Pc Or Laptops (Quantity): 8[Pc O Laptops (Cantidad): 8]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H181</attrlabl>
-    <attrdef>Pc Or Laptops (Quantity): 9[Pc O Laptops (Cantidad): 9]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H182</attrlabl>
-    <attrdef>Pc Or Laptops (Quantity): Not Revieled[Pc O Laptops (Cantidad): No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H183</attrlabl>
-    <attrdef>Internet Access: Yes[Acceso A Internet: Si]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H184</attrlabl>
-    <attrdef>Internet Access: No[Acceso A Internet: No]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H185</attrlabl>
-    <attrdef>Internet Access: Not Relevant[Acceso A Internet: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H186</attrlabl>
-    <attrdef>NBI Materiality: No NBI[NBI Materialidad: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H187</attrlabl>
-    <attrdef>NBI Materiality: NBI[NBI Materialidad: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H188</attrlabl>
-    <attrdef>NBI Materiality: Not Relevant[NBI Materialidad: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H189</attrlabl>
-    <attrdef>NBI Living Space: No NBI[NBI Espacio Habitable: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H190</attrlabl>
-    <attrdef>NBI Living Space: NBI[NBI Espacio Habitable: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H191</attrlabl>
-    <attrdef>NBI Living Space: Not Relevant[NBI Espacio Habitable: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H192</attrlabl>
-    <attrdef>NBI Space Suitable For Cooking: No NBI[NBI Espacio Apropiado Para Cocinar: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H193</attrlabl>
-    <attrdef>NBI Space Suitable For Cooking: NBI[NBI Espacio Apropiado Para Cocinar: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H194</attrlabl>
-    <attrdef>NBI Space Suitable For Cooking: Not Relevant[NBI Espacio Apropiado Para Cocinar: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H195</attrlabl>
-    <attrdef>NBI Decent Housing: No NBI[NBI Vivienda Decorosa: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H196</attrlabl>
-    <attrdef>NBI Decent Housing: NBI[NBI Vivienda Decorosa: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H197</attrlabl>
-    <attrdef>NBI Decent Housing: Not Relevant[NBI Vivienda Decorosa: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H198</attrlabl>
-    <attrdef>NBI Water: No NBI[NBI Agua: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H199</attrlabl>
-    <attrdef>NBI Water: NBI[NBI Agua: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H200</attrlabl>
-    <attrdef>NBI Water: Not Relevant[NBI Agua: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H201</attrlabl>
-    <attrdef>NBI Sanitation: No NBI[NBI Saneamiento: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H202</attrlabl>
-    <attrdef>NBI Sanitation: NBI[NBI Saneamiento: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H203</attrlabl>
-    <attrdef>NBI Sanitation: Not Relevant[NBI Saneamiento: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H204</attrlabl>
-    <attrdef>NBI Electricity: No NBI[NBI Electricidad: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H205</attrlabl>
-    <attrdef>NBI Electricity: NBI[NBI Electricidad: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H206</attrlabl>
-    <attrdef>NBI Electricity: Not Relevant[NBI Electricidad: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H207</attrlabl>
-    <attrdef>NBIspace Heating : No NBI[NBI Calefacción De Ambientes: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H208</attrlabl>
-    <attrdef>NBIspace Heating : NBI[NBI Calefacción De Ambientes: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H209</attrlabl>
-    <attrdef>NBIspace Heating : Not Relevant[NBI Calefacción De Ambientes: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H210</attrlabl>
-    <attrdef>NBI Food Refrigeration: No NBI[NBI Refrigeración De Alimentos: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H211</attrlabl>
-    <attrdef>NBI Food Refrigeration: NBI[NBI Refrigeración De Alimentos: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H212</attrlabl>
-    <attrdef>NBI Food Refrigeration: Not Relevant[NBI Refrigeración De Alimentos: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H213</attrlabl>
-    <attrdef>NBI Hot Water Bath: No NBI[NBI Agua Caliente Para Baño: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H214</attrlabl>
-    <attrdef>NBI Hot Water Bath: NBI[NBI Agua Caliente Para Baño: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H215</attrlabl>
-    <attrdef>NBI Hot Water Bath: Not Relevant[NBI Agua Caliente Para Baño: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H216</attrlabl>
-    <attrdef>NBI Comfort: No NBI[NBI Confort: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H217</attrlabl>
-    <attrdef>NBI Comfort: NBI[NBI Confort: Con NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H218</attrlabl>
-    <attrdef>NBI Comfort: Not Relevant[NBI Confort: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H219</attrlabl>
-    <attrdef>Number Of NBI: No NBI[Cantidad De NBI: Sin NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H220</attrlabl>
-    <attrdef>Number Of NBI: One NBI[Cantidad De NBI: Una NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H221</attrlabl>
-    <attrdef>Number Of NBI: Two NBI[Cantidad De NBI: Dos NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H222</attrlabl>
-    <attrdef>Number Of NBI: Three Or More NBI[Cantidad De NBI: Tres O Más NBI]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H223</attrlabl>
-    <attrdef>Number Of NBI: Not Relevant[Cantidad De NBI: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H224</attrlabl>
-    <attrdef>Type Of Household: Individual[Tipo De Hogar: Unipersonal]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H225</attrlabl>
-    <attrdef>Type Of Household: Nuclear Without Children[Tipo De Hogar: Nuclear Sin Hijos]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H226</attrlabl>
-    <attrdef>Type Of Household: Nuclear With Children[Tipo De Hogar: Nuclear Con Hijos]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H227</attrlabl>
-    <attrdef>Type Of Household: Single Parent Nuclear[Tipo De Hogar: Nuclear Monoparental]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H228</attrlabl>
-    <attrdef>Type Of Household: Extended Childless Nuclear Base[Tipo De Hogar: Extendido Base Nuclear Sin Hijos]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H229</attrlabl>
-    <attrdef>Type Of Household: Extended Nuclear Base With Children[Tipo De Hogar: Extendido Base Nuclear Con Hijos]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H230</attrlabl>
-    <attrdef>Type Of Household: Extended Single Parent[Tipo De Hogar: Extendido Base Monoparental]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H231</attrlabl>
-    <attrdef>Type Of Household: Extended Without Nuclear Base[Tipo De Hogar: Extendido Sin Base Nuclear]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H232</attrlabl>
-    <attrdef>Type Of Household: Compound[Tipo De Hogar: Compuesto]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H233</attrlabl>
-    <attrdef>Type Of Household: Collective Household[Tipo De Hogar: Hogar Colectivo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H234</attrlabl>
-    <attrdef>Type Of Household: Not Relevant[Tipo De Hogar: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H235</attrlabl>
-    <attrdef>Ownership: Owner Of Housing And Land And Is Paying[Tenencia: Propietario De La Vivienda Y El Terreno Y La Está Pagando]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H236</attrlabl>
-    <attrdef>Ownership: Owner Of Housing And Land And Already Paid[Tenencia: Propietario De La Vivienda Y El Terreno Y Ya La Pagó]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H237</attrlabl>
-    <attrdef>Ownership: Only Owner Housing And Is Paying[Tenencia: Propietario Solamente De La Vivienda Y La Está Pagando]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H238</attrlabl>
-    <attrdef>Ownership: Only Owner Housing And Already Paid[Tenencia: Propietario Solamente De La Vivienda Y Ya La Pagó]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H239</attrlabl>
-    <attrdef>Ownership: Member Of A Housing Cooperative[Tenencia: Integrante De Una Cooperativa De Vivienda]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H240</attrlabl>
-    <attrdef>Ownership: Tenant Or Lessee[Tenencia: Inquilino O Arrendatario]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H241</attrlabl>
-    <attrdef>Ownership: Occupant Dependency Relation (Work)[Tenencia: Ocupante Por Relación De Dependencia (Trabajo)]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H242</attrlabl>
-    <attrdef>Ownership: Free Occupier, Awarded By The BPS[Tenencia: Ocupante Gratuito, Otorgada Por El BPS]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H243</attrlabl>
-    <attrdef>Ownership: Free Occupier (He Loaned)[Tenencia: Ocupante Gratuito (Se La Prestaron)]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H244</attrlabl>
-    <attrdef>Ownership: Without Permission Of The Owner Occupier[Tenencia: Ocupante Sin Permiso Del Propietario]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H245</attrlabl>
-    <attrdef>Ownership: Collective Household[Tenencia: Hogar Colectivo]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>H246</attrlabl>
-    <attrdef>Ownership: Not Relevant[Tenencia: No Relevado]</attrdef>
-    <attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
-    <attrdomv>
-      <udom>Frequency of response in the census sector</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Country Country</attrlabl>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Country where census took place as 3-digit ISO code</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>Census_Year</attrlabl>
-    <attrdef>Census Year</attrdef>
-    <attrdefs>East View Geospatial</attrdefs>
-    <attrdomv>
-      <udom>Year census was conducted as YYYY</udom>
-    </attrdomv>
-  </attr>
-</detailed>
+	<detailed>
+		<enttyp>
+			<enttypl>Uruguay_2011</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>CODE</attrlabl>
+			<attrdef>Code[Codigo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census sector as a coded value.</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H001</attrlabl>
+			<attrdef>Housing Identification: Private[Identificador De La Vivienda: Particular]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H002</attrlabl>
+			<attrdef>Housing Identification: Collective[Identificador De La Vivienda: Colectiva]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H003</attrlabl>
+			<attrdef>Housing Identification: Shelters[Identificador De La Vivienda: Refugios]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H004</attrlabl>
+			<attrdef>Housing Identification: Ignored[Identificador De La Vivienda: Ignorado Particular]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H005</attrlabl>
+			<attrdef>Type Of House: House[Tipo De Vivienda: Casa]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H006</attrlabl>
+			<attrdef>Type Of House: Apartment Building With An Elevator[Tipo De Vivienda: Apartamento En Edificio En Altura Con Ascensor]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H007</attrlabl>
+			<attrdef>Type Of House: Apartment Building Without An Elevator[Tipo De Vivienda: Apartamento En Edificio En Altura Sin Ascensor]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H008</attrlabl>
+			<attrdef>Type Of House: Apartment In Building A One-Story Building[Tipo De Vivienda: Apartamento En Edificio De Una Planta]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H009</attrlabl>
+			<attrdef>Type Of House: Apartment Or Room In Local Or Collective Housing[Tipo De Vivienda: Apartamento O Cuarto En Local O Vivienda Colectiva]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H010</attrlabl>
+			<attrdef>Type Of House: Local Not Built For Housing[Tipo De Vivienda: Local No Construido Para Vivienda]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H011</attrlabl>
+			<attrdef>Type Of House: Mobile Housing (Tent, Trailer, Etc.)[Tipo De Vivienda: Vivienda Móvil (Carpa, Casa Rodante, Etc.)]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H012</attrlabl>
+			<attrdef>Type Of House: Another Particular[Tipo De Vivienda: Otra Particular]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H013</attrlabl>
+			<attrdef>Type Of House: Hotel, Pension Or Other Lodging House[Tipo De Vivienda: Hotel, Pensión U Otra Casa De Hospedaje]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H014</attrlabl>
+			<attrdef>Type Of House: Hospital, Hospital (Inpatient)[Tipo De Vivienda: Hospital, Sanatorio (Con Internación)]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H015</attrlabl>
+			<attrdef>Type Of House: Residential Homes[Tipo De Vivienda: Residencial De Ancianos]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H016</attrlabl>
+			<attrdef>Type Of House: Residential Students[Tipo De Vivienda: Residencial De Estudiantes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H017</attrlabl>
+			<attrdef>Type Of House: House For Workers[Tipo De Vivienda: Casa De Peones]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H018</attrlabl>
+			<attrdef>Type Of House: Religious Boarding[Tipo De Vivienda: Internado Religioso]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H019</attrlabl>
+			<attrdef>Type Of House: Establishment Of Imprisonment[Tipo De Vivienda: Establecimiento De Reclusión]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H020</attrlabl>
+			<attrdef>Type Of House: Foster Or Similar [Tipo De Vivienda: Hogar De Guarda O Similar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H021</attrlabl>
+			<attrdef>Type Of House: Military Or Police Headquarters[Tipo De Vivienda: Cuartel Militar O Policial]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H022</attrlabl>
+			<attrdef>Type Of House: Another Collective[Tipo De Vivienda: Otra Colectiva]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H023</attrlabl>
+			<attrdef>Type Of House: Shelters[Tipo De Vivienda: Refugios]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H024</attrlabl>
+			<attrdef>Type Of House: Ignored[Tipo De Vivienda: Ignorado Particular]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H025</attrlabl>
+			<attrdef>Condition Of Occupation: Busy With Residents Present[Condición De Ocupación: Ocupada Con Residentes Presentes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H026</attrlabl>
+			<attrdef>Condition Of Occupation: Busy With Absent Residents[Condición De Ocupación: Ocupada Con Residentes Ausentes]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H027</attrlabl>
+			<attrdef>Condition Of Occupation: Temporary Use[Condición De Ocupación: De Uso Temporal]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H028</attrlabl>
+			<attrdef>Condition Of Occupation: To Rent Or Sell[Condición De Ocupación: Para Alquilar O Vender]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H029</attrlabl>
+			<attrdef>Condition Of Occupation: Under Construction Or Repair[Condición De Ocupación: En Construcción O Reparación]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H030</attrlabl>
+			<attrdef>Condition Of Occupation: Ruined, Destroyed Or Uninhabitable[Condición De Ocupación: Ruinosa, Destruida O Inhabitable]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H031</attrlabl>
+			<attrdef>Condition Of Occupation: Vacant[Condición De Ocupación: Vacante]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H032</attrlabl>
+			<attrdef>Condition Of Occupation: Ignored[Condición De Ocupación: Ignorado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H033</attrlabl>
+			<attrdef>Multuiple Households: Yes[Residencia De Otras Personas: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H034</attrlabl>
+			<attrdef>Multuiple Households: No[Residencia De Otras Personas: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H035</attrlabl>
+			<attrdef>Predominant Material Of Roofs: Concrete Slab Or Slab With Or Without Tiles[Material Predominante De Los Techos: Planchada De Hormigón O Bovedilla Con O Sin Tejas]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H036</attrlabl>
+			<attrdef>Predominant Material Of Roofs: Lightweight With Soffit[Material Predominante De Los Techos: Liviano Con Cielo Raso]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H037</attrlabl>
+			<attrdef>Predominant Material Of Roofs: Lightweight Without Soffit[Material Predominante De Los Techos: Liviano Sin Cielo Raso]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H038</attrlabl>
+			<attrdef>Predominant Material Of Roofs: Quincha[Material Predominante De Los Techos: Quincha]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H039</attrlabl>
+			<attrdef>Predominant Material Of Roofs: Waste Materials[Material Predominante De Los Techos: Materiales De Desecho]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H040</attrlabl>
+			<attrdef>Predominant Material Of Roofs: Other[Material Predominante De Los Techos: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H041</attrlabl>
+			<attrdef>Predominant Material Of Roofs: Not Relevant[Material Predominante De Los Techos: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H042</attrlabl>
+			<attrdef>Predominant Material Floor: Ceramic Tile, Flagstone, Wood, Carpeting, Linoleum, Etc.[Material Predominante De Los Pisos: Cerámica, Baldosas, Piedra Laja, Madera, Moqueta, Linóleo, Etc.]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H043</attrlabl>
+			<attrdef>Predominant Material Floor: Sand And Portland[Material Predominante De Los Pisos: Arena Y Portland]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H044</attrlabl>
+			<attrdef>Predominant Material Floor: Underlayment Only Floorless[Material Predominante De Los Pisos: Sólo Contrapiso Sin Piso]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H045</attrlabl>
+			<attrdef>Predominant Material Floor: Earth Without Floor And Underlayment[Material Predominante De Los Pisos: Tierra Sin Piso Ni Contrapiso]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H046</attrlabl>
+			<attrdef>Predominant Material Floor: Other[Material Predominante De Los Pisos: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H047</attrlabl>
+			<attrdef>Predominant Material Floor: Not Relevant[Material Predominante De Los Pisos: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H048</attrlabl>
+			<attrdef>Category Of Housing: Heavy Materials On Walls And Ceilings And Sturdy Floor[Categoría De La Vivienda: Materiales Pesados En Paredes Y Techos Y Piso Resistente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H049</attrlabl>
+			<attrdef>Category Of Housing: Heavy Materials In Walls, Ceiling And Floor Light Resist[Categoría De La Vivienda: Materiales Pesados En Paredes, Techo Liviano Y Piso Resisten]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H050</attrlabl>
+			<attrdef>Category Of Housing: Heavy Materials On Walls And Ceilings And No Sturdy Floor[Categoría De La Vivienda: Materiales Pesados En Paredes Y Techos Y Piso No Resistente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H051</attrlabl>
+			<attrdef>Category Of Housing: Heavy Materials In Walls, Ceilings And No Light Floor Resist[Categoría De La Vivienda: Materiales Pesados En Paredes, Techos Livianos Y Piso No Resistente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H052</attrlabl>
+			<attrdef>Category Of Housing: Lightweight Materials In Walls And Ceilings And Sturdy Floor[Categoría De La Vivienda: Materiales Livianos En Paredes Y Techos Y Piso Resistente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H053</attrlabl>
+			<attrdef>Category Of Housing: Lightweight Materials In Walls And Ceilings And No Sturdy Floor[Categoría De La Vivienda: Materiales Livianos En Paredes Y Techos Y Piso No Resistente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H054</attrlabl>
+			<attrdef>Category Of Housing: Mud Or Adobe Walls, Ceiling Light And Sturdy Floor[Categoría De La Vivienda: Paredes De Barro O Adobe, Techo Liviano Y Piso Resistente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H055</attrlabl>
+			<attrdef>Category Of Housing: Mud Or Adobe Walls, Ceiling Light And Not Resistant Floor[Categoría De La Vivienda: Paredes De Barro O Adobe, Techo Liviano Y Piso No Resistente]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H056</attrlabl>
+			<attrdef>Category Of Housing: Waste Materials On Walls Or Ceilings[Categoría De La Vivienda: Materiales De Desecho En Paredes O Techos]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H057</attrlabl>
+			<attrdef>Category Of Housing: Other Combinations Of Materials[Categoría De La Vivienda: Otras Combinaciones De Materiales]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H058</attrlabl>
+			<attrdef>Origin Of Water: OSE Or General Network[Origen Del Agua: OSE O Red General]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H059</attrlabl>
+			<attrdef>Origin Of Water: Protected Well[Origen Del Agua: Pozo Surgente Protegido]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H060</attrlabl>
+			<attrdef>Origin Of Water: Unprotected Well[Origen Del Agua: Pozo Surgente No Protegido]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H061</attrlabl>
+			<attrdef>Origin Of Water: Drain/Sewer[Origen Del Agua: Aljibe]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H062</attrlabl>
+			<attrdef>Origin Of Water: Pipe[Origen Del Agua: Cachimba]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H063</attrlabl>
+			<attrdef>Origin Of Water: Stream, River[Origen Del Agua: Arroyo, Río]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H064</attrlabl>
+			<attrdef>Origin Of Water: Other[Origen Del Agua: Otro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H065</attrlabl>
+			<attrdef>Origin Of Water: Not Relevant[Origen Del Agua: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H066</attrlabl>
+			<attrdef>Distance To Water Source: Piped Into Housing[Llegada De Agua: Por Cañería Dentro De La Vivienda]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H067</attrlabl>
+			<attrdef>Distance To Water Source: Less Than 100 M Away[Llegada De Agua: A Menos De 100 M De Distancia]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H068</attrlabl>
+			<attrdef>Distance To Water Source: More Than 100 M Away[Llegada De Agua: A Más De 100 M De Distancia]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H069</attrlabl>
+			<attrdef>Distance To Water Source: By Other Means[Llegada De Agua: Por Otros Medios]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H070</attrlabl>
+			<attrdef>Distance To Water Source: Not Relevant[Llegada De Agua: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H071</attrlabl>
+			<attrdef>Electric Lighting: Public Utility Or General Network[Principal Medio De Alumbrado Electrico: Utilidad Publica O Red General]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H072</attrlabl>
+			<attrdef>Electric Lighting: Wind Battery Charger[Principal Medio De Alumbrado Electrico: Cargador Eólico De Batería]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H073</attrlabl>
+			<attrdef>Electric Lighting: Solar Battery Charger[Principal Medio De Alumbrado Electrico: Cargador Solar De Bateria]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H074</attrlabl>
+			<attrdef>Electric Lighting: Own Generator[Principal Medio De Alumbrado Electrico: Grupo Electrógeno Propio]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H075</attrlabl>
+			<attrdef>Electric Lighting: Other Electrical[Principal Medio De Alumbrado Electrico: Otro Electrico]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H076</attrlabl>
+			<attrdef>Electric Lighting: Does Not Have[Principal Medio De Alumbrado Electrico: No Tiene]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H077</attrlabl>
+			<attrdef>Electric Lighting: Not Relevant[Principal Medio De Alumbrado Electrico: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H078</attrlabl>
+			<attrdef>Rural Area Urban: Urban[Area Urbano-Rural: Urbano]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H079</attrlabl>
+			<attrdef>Rural Area Urban: Rural[Area Urbano-Rural: Rural]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H080</attrlabl>
+			<attrdef>Home Ownership: Owner[Tenencia De La Vivienda: Propietario]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H081</attrlabl>
+			<attrdef>Home Ownership: Member Of A Housing Cooperative[Tenencia De La Vivienda: Integrante De Una Cooperativa De Vivienda]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H082</attrlabl>
+			<attrdef>Home Ownership: Tenant Or Lessee[Tenencia De La Vivienda: Inquilino O Arrendatario]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H083</attrlabl>
+			<attrdef>Home Ownership: Beneficial Owner Or Occupier[Tenencia De La Vivienda: Usufructuario U Ocupante]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H084</attrlabl>
+			<attrdef>Home Ownership: Not Relevant[Tenencia De La Vivienda: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H085</attrlabl>
+			<attrdef>Property Ownership: Paying Housing And Land [Características Propietario: De La Vivienda Y El Terreno Y La Está Pagando]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H086</attrlabl>
+			<attrdef>Property Ownership: Housing And Land Already Paid[Características Propietario: De La Vivienda Y El Terreno Y Ya La Pagó]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H087</attrlabl>
+			<attrdef>Property Ownership: Paying Only Housing [Características Propietario: Solamente De La Vivienda Y La Está Pagando]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H088</attrlabl>
+			<attrdef>Property Ownership: Only Housing And Already Paid[Características Propietario: Solamente De La Vivienda Y Ya La Pagó]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H089</attrlabl>
+			<attrdef>Property Ownership: Not Relevant[Características Propietario: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H090</attrlabl>
+			<attrdef>Features Beneficiary Or Occupier : Dependency Relation (Work)[Características Usufructuario U Ocupante: Por Relación De Dependencia (Trabajo)]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H091</attrlabl>
+			<attrdef>Features Beneficiary Or Occupier : Free, Awarded By The BPS[Características Usufructuario U Ocupante: Gratuito, Otorgada Por El BPS]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H092</attrlabl>
+			<attrdef>Features Beneficiary Or Occupier : Free ( Loaned)[Características Usufructuario U Ocupante: Gratuito (Se La Prestaron)]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H093</attrlabl>
+			<attrdef>Features Beneficiary Or Occupier : Without Permission From The Owner[Características Usufructuario U Ocupante: Sin Permiso Del Propietario]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H094</attrlabl>
+			<attrdef>Features Beneficiary Or Occupier : Not Relevant[Características Usufructuario U Ocupante: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H095</attrlabl>
+			<attrdef>Bathroom Present: Yes, With Drain/Sewer[Disponibilidad De Baño: Si, Con Drain/Sewera]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H096</attrlabl>
+			<attrdef>Bathroom Present: Yes, Without Drain/Sewer[Disponibilidad De Baño: Si, Sin Drain/Sewera]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H097</attrlabl>
+			<attrdef>Bathroom Present: No[Disponibilidad De Baño: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H098</attrlabl>
+			<attrdef>Bathroom Present: Not Relevant[Disponibilidad De Baño: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H099</attrlabl>
+			<attrdef>Use Bath: Exclusive Use Of Home[Uso Del Baño: De Uso Exclusivo Del Hogar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H100</attrlabl>
+			<attrdef>Use Bath: Shared With Other Households[Uso Del Baño: Compartido Con Otros Hogares]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H101</attrlabl>
+			<attrdef>Use Bath: Not Relevant[Uso Del Baño: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H102</attrlabl>
+			<attrdef>Waste Water Disposal: General Network[Evacuacion Del Servicio Sanitario: Red General]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H103</attrlabl>
+			<attrdef>Waste Water Disposal: Septic, Black Hole[Evacuacion Del Servicio Sanitario: Fosa Septica, Pozo Negro]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H104</attrlabl>
+			<attrdef>Waste Water Disposal: Piped Toward The Stream[Evacuacion Del Servicio Sanitario: Entubado Hacia El Arroyo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H105</attrlabl>
+			<attrdef>Waste Water Disposal: Other (Surface Hole In The Ground)[Evacuacion Del Servicio Sanitario: Otro (Superficie, Hueco En El Suelo)]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H106</attrlabl>
+			<attrdef>Waste Water Disposal: Not Relevant[Evacuacion Del Servicio Sanitario: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H107</attrlabl>
+			<attrdef>Place For Cooking: Yes, Private Home[Lugar Para Cocinar: Si, Privado De Este Hogar]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H108</attrlabl>
+			<attrdef>Place For Cooking: Yes, Shared With Other Households[Lugar Para Cocinar: Si, Compartido Con Otros Hogares]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H109</attrlabl>
+			<attrdef>Place For Cooking: No[Lugar Para Cocinar: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H110</attrlabl>
+			<attrdef>Place For Cooking: Not Relevant[Lugar Para Cocinar: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H111</attrlabl>
+			<attrdef>Power Source For Cooking: Electricity[Fuente De Energia Para Cocinar: Electricidad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H112</attrlabl>
+			<attrdef>Power Source For Cooking: Piped Gas[Fuente De Energia Para Cocinar: Gas Por Cañería]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H113</attrlabl>
+			<attrdef>Power Source For Cooking: Propane[Fuente De Energia Para Cocinar: Supergás]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H114</attrlabl>
+			<attrdef>Power Source For Cooking: Kerosene[Fuente De Energia Para Cocinar: Queroseno]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H115</attrlabl>
+			<attrdef>Power Source For Cooking: Wood Or Coal[Fuente De Energia Para Cocinar: Leña O Carbón]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H116</attrlabl>
+			<attrdef>Power Source For Cooking: Other[Fuente De Energia Para Cocinar: Otra]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H117</attrlabl>
+			<attrdef>Power Source For Cooking: No Cooking[Fuente De Energia Para Cocinar: Ninguna, No Cocina]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H118</attrlabl>
+			<attrdef>Power Source For Cooking: Not Relevant[Fuente De Energia Para Cocinar: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H119</attrlabl>
+			<attrdef>Power Source For Heating : Electricity[Fuente De Energía Para Calefaccionar: Electricidad]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H120</attrlabl>
+			<attrdef>Power Source For Heating : Firewood[Fuente De Energía Para Calefaccionar: Leña]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H121</attrlabl>
+			<attrdef>Power Source For Heating : Gas By Pipe[Fuente De Energía Para Calefaccionar: Gas Por Cañería]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H122</attrlabl>
+			<attrdef>Power Source For Heating : Propane[Fuente De Energía Para Calefaccionar: Supergás]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H123</attrlabl>
+			<attrdef>Power Source For Heating : Kerosene[Fuente De Energía Para Calefaccionar: Queroseno]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H124</attrlabl>
+			<attrdef>Power Source For Heating : Gas Oil[Fuente De Energía Para Calefaccionar: Gas Oil]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H125</attrlabl>
+			<attrdef>Power Source For Heating : Fuel Oil[Fuente De Energía Para Calefaccionar: Fuel Oil]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H126</attrlabl>
+			<attrdef>Power Source For Heating : Other[Fuente De Energía Para Calefaccionar: Otra]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H127</attrlabl>
+			<attrdef>Power Source For Heating : Any[Fuente De Energía Para Calefaccionar: Ninguna]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H128</attrlabl>
+			<attrdef>Power Source For Heating : Not Relevant[Fuente De Energía Para Calefaccionar: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H129</attrlabl>
+			<attrdef>Water Heaters, Termofón O Caldereta: Yes[Calefón, Termofón O Caldereta: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H130</attrlabl>
+			<attrdef>Water Heaters, Termofón O Caldereta: No[Calefón, Termofón O Caldereta: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H131</attrlabl>
+			<attrdef>Water Heaters, Termofón O Caldereta: Not Relevant[Calefón, Termofón O Caldereta: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H132</attrlabl>
+			<attrdef>Instant Water Heater : Yes[Calentador Instantáneo De Agua: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H133</attrlabl>
+			<attrdef>Instant Water Heater : No[Calentador Instantáneo De Agua: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H134</attrlabl>
+			<attrdef>Instant Water Heater : Not Relevant[Calentador Instantáneo De Agua: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H135</attrlabl>
+			<attrdef>Refrigerator Or Freezer: Yes[Refrigerador O Freezer: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H136</attrlabl>
+			<attrdef>Refrigerator Or Freezer: No[Refrigerador O Freezer: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H137</attrlabl>
+			<attrdef>Refrigerator Or Freezer: Not Relevant[Refrigerador O Freezer: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H138</attrlabl>
+			<attrdef>Dryer Machine: Yes[Máquina Secadora De Ropa: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H139</attrlabl>
+			<attrdef>Dryer Machine: No[Máquina Secadora De Ropa: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H140</attrlabl>
+			<attrdef>Dryer Machine: Not Relevant[Máquina Secadora De Ropa: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H141</attrlabl>
+			<attrdef>Radio: Yes[Radio: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H142</attrlabl>
+			<attrdef>Radio: No[Radio: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H143</attrlabl>
+			<attrdef>Radio: Not Relevant[Radio: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H144</attrlabl>
+			<attrdef>Color Tv (Quantity): 0[Tv Color (Cantidad): 0]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H145</attrlabl>
+			<attrdef>Color Tv (Quantity): 1[Tv Color (Cantidad): 1]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H146</attrlabl>
+			<attrdef>Color Tv (Quantity): 2[Tv Color (Cantidad): 2]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H147</attrlabl>
+			<attrdef>Color Tv (Quantity): 3[Tv Color (Cantidad): 3]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H148</attrlabl>
+			<attrdef>Color Tv (Quantity): 4[Tv Color (Cantidad): 4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H149</attrlabl>
+			<attrdef>Color Tv (Quantity): 5[Tv Color (Cantidad): 5]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H150</attrlabl>
+			<attrdef>Color Tv (Quantity): 6[Tv Color (Cantidad): 6]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H151</attrlabl>
+			<attrdef>Color Tv (Quantity): 7[Tv Color (Cantidad): 7]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H152</attrlabl>
+			<attrdef>Color Tv (Quantity): 8[Tv Color (Cantidad): 8]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H153</attrlabl>
+			<attrdef>Color Tv (Quantity): 9[Tv Color (Cantidad): 9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H154</attrlabl>
+			<attrdef>Color Tv (Quantity): Not Revieled[Tv Color (Cantidad): No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H155</attrlabl>
+			<attrdef>Landline: Yes[Telefono Fijo: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H156</attrlabl>
+			<attrdef>Landline: No[Telefono Fijo: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H157</attrlabl>
+			<attrdef>Landline: Not Relevant[Telefono Fijo: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H158</attrlabl>
+			<attrdef>Cell Phone: Yes[Telefono Celular: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H159</attrlabl>
+			<attrdef>Cell Phone: No[Telefono Celular: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H160</attrlabl>
+			<attrdef>Cell Phone: Not Relevant[Telefono Celular: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H161</attrlabl>
+			<attrdef>Xo Ceibal Plan (Quantity Per Household): 0[Xo Del Plan Ceibal (Cantidad Por Hogar): 0]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H162</attrlabl>
+			<attrdef>Xo Ceibal Plan (Quantity Per Household): 1[Xo Del Plan Ceibal (Cantidad Por Hogar): 1]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H163</attrlabl>
+			<attrdef>Xo Ceibal Plan (Quantity Per Household): 2[Xo Del Plan Ceibal (Cantidad Por Hogar): 2]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H164</attrlabl>
+			<attrdef>Xo Ceibal Plan (Quantity Per Household): 3[Xo Del Plan Ceibal (Cantidad Por Hogar): 3]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H165</attrlabl>
+			<attrdef>Xo Ceibal Plan (Quantity Per Household): 4[Xo Del Plan Ceibal (Cantidad Por Hogar): 4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H166</attrlabl>
+			<attrdef>Xo Ceibal Plan (Quantity Per Household): 5[Xo Del Plan Ceibal (Cantidad Por Hogar): 5]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H167</attrlabl>
+			<attrdef>Xo Ceibal Plan (Quantity Per Household): 6[Xo Del Plan Ceibal (Cantidad Por Hogar): 6]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H168</attrlabl>
+			<attrdef>Xo Ceibal Plan (Quantity Per Household): 7[Xo Del Plan Ceibal (Cantidad Por Hogar): 7]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H169</attrlabl>
+			<attrdef>Xo Ceibal Plan (Quantity Per Household): 8[Xo Del Plan Ceibal (Cantidad Por Hogar): 8]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H170</attrlabl>
+			<attrdef>Xo Ceibal Plan (Quantity Per Household): 9[Xo Del Plan Ceibal (Cantidad Por Hogar): 9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H171</attrlabl>
+			<attrdef>Xo Ceibal Plan (Quantity Per Household): Not Revieled[Xo Del Plan Ceibal (Cantidad Por Hogar): No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H172</attrlabl>
+			<attrdef>Pc Or Laptops (Quantity): 0[Pc O Laptops (Cantidad): 0]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H173</attrlabl>
+			<attrdef>Pc Or Laptops (Quantity): 1[Pc O Laptops (Cantidad): 1]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H174</attrlabl>
+			<attrdef>Pc Or Laptops (Quantity): 2[Pc O Laptops (Cantidad): 2]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H175</attrlabl>
+			<attrdef>Pc Or Laptops (Quantity): 3[Pc O Laptops (Cantidad): 3]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H176</attrlabl>
+			<attrdef>Pc Or Laptops (Quantity): 4[Pc O Laptops (Cantidad): 4]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H177</attrlabl>
+			<attrdef>Pc Or Laptops (Quantity): 5[Pc O Laptops (Cantidad): 5]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H178</attrlabl>
+			<attrdef>Pc Or Laptops (Quantity): 6[Pc O Laptops (Cantidad): 6]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H179</attrlabl>
+			<attrdef>Pc Or Laptops (Quantity): 7[Pc O Laptops (Cantidad): 7]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H180</attrlabl>
+			<attrdef>Pc Or Laptops (Quantity): 8[Pc O Laptops (Cantidad): 8]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H181</attrlabl>
+			<attrdef>Pc Or Laptops (Quantity): 9[Pc O Laptops (Cantidad): 9]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H182</attrlabl>
+			<attrdef>Pc Or Laptops (Quantity): Not Revieled[Pc O Laptops (Cantidad): No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H183</attrlabl>
+			<attrdef>Internet Access: Yes[Acceso A Internet: Si]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H184</attrlabl>
+			<attrdef>Internet Access: No[Acceso A Internet: No]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H185</attrlabl>
+			<attrdef>Internet Access: Not Relevant[Acceso A Internet: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H186</attrlabl>
+			<attrdef>NBI Materiality: No NBI[NBI Materialidad: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H187</attrlabl>
+			<attrdef>NBI Materiality: NBI[NBI Materialidad: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H188</attrlabl>
+			<attrdef>NBI Materiality: Not Relevant[NBI Materialidad: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H189</attrlabl>
+			<attrdef>NBI Living Space: No NBI[NBI Espacio Habitable: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H190</attrlabl>
+			<attrdef>NBI Living Space: NBI[NBI Espacio Habitable: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H191</attrlabl>
+			<attrdef>NBI Living Space: Not Relevant[NBI Espacio Habitable: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H192</attrlabl>
+			<attrdef>NBI Space Suitable For Cooking: No NBI[NBI Espacio Apropiado Para Cocinar: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H193</attrlabl>
+			<attrdef>NBI Space Suitable For Cooking: NBI[NBI Espacio Apropiado Para Cocinar: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H194</attrlabl>
+			<attrdef>NBI Space Suitable For Cooking: Not Relevant[NBI Espacio Apropiado Para Cocinar: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H195</attrlabl>
+			<attrdef>NBI Decent Housing: No NBI[NBI Vivienda Decorosa: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H196</attrlabl>
+			<attrdef>NBI Decent Housing: NBI[NBI Vivienda Decorosa: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H197</attrlabl>
+			<attrdef>NBI Decent Housing: Not Relevant[NBI Vivienda Decorosa: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H198</attrlabl>
+			<attrdef>NBI Water: No NBI[NBI Agua: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H199</attrlabl>
+			<attrdef>NBI Water: NBI[NBI Agua: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H200</attrlabl>
+			<attrdef>NBI Water: Not Relevant[NBI Agua: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H201</attrlabl>
+			<attrdef>NBI Sanitation: No NBI[NBI Saneamiento: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H202</attrlabl>
+			<attrdef>NBI Sanitation: NBI[NBI Saneamiento: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H203</attrlabl>
+			<attrdef>NBI Sanitation: Not Relevant[NBI Saneamiento: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H204</attrlabl>
+			<attrdef>NBI Electricity: No NBI[NBI Electricidad: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H205</attrlabl>
+			<attrdef>NBI Electricity: NBI[NBI Electricidad: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H206</attrlabl>
+			<attrdef>NBI Electricity: Not Relevant[NBI Electricidad: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H207</attrlabl>
+			<attrdef>NBIspace Heating : No NBI[NBI Calefacción De Ambientes: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H208</attrlabl>
+			<attrdef>NBIspace Heating : NBI[NBI Calefacción De Ambientes: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H209</attrlabl>
+			<attrdef>NBIspace Heating : Not Relevant[NBI Calefacción De Ambientes: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H210</attrlabl>
+			<attrdef>NBI Food Refrigeration: No NBI[NBI Refrigeración De Alimentos: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H211</attrlabl>
+			<attrdef>NBI Food Refrigeration: NBI[NBI Refrigeración De Alimentos: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H212</attrlabl>
+			<attrdef>NBI Food Refrigeration: Not Relevant[NBI Refrigeración De Alimentos: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H213</attrlabl>
+			<attrdef>NBI Hot Water Bath: No NBI[NBI Agua Caliente Para Baño: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H214</attrlabl>
+			<attrdef>NBI Hot Water Bath: NBI[NBI Agua Caliente Para Baño: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H215</attrlabl>
+			<attrdef>NBI Hot Water Bath: Not Relevant[NBI Agua Caliente Para Baño: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H216</attrlabl>
+			<attrdef>NBI Comfort: No NBI[NBI Confort: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H217</attrlabl>
+			<attrdef>NBI Comfort: NBI[NBI Confort: Con NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H218</attrlabl>
+			<attrdef>NBI Comfort: Not Relevant[NBI Confort: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H219</attrlabl>
+			<attrdef>Number Of NBI: No NBI[Cantidad De NBI: Sin NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H220</attrlabl>
+			<attrdef>Number Of NBI: One NBI[Cantidad De NBI: Una NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H221</attrlabl>
+			<attrdef>Number Of NBI: Two NBI[Cantidad De NBI: Dos NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H222</attrlabl>
+			<attrdef>Number Of NBI: Three Or More NBI[Cantidad De NBI: Tres O Más NBI]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H223</attrlabl>
+			<attrdef>Number Of NBI: Not Relevant[Cantidad De NBI: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H224</attrlabl>
+			<attrdef>Type Of Household: Individual[Tipo De Hogar: Unipersonal]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H225</attrlabl>
+			<attrdef>Type Of Household: Nuclear Without Children[Tipo De Hogar: Nuclear Sin Hijos]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H226</attrlabl>
+			<attrdef>Type Of Household: Nuclear With Children[Tipo De Hogar: Nuclear Con Hijos]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H227</attrlabl>
+			<attrdef>Type Of Household: Single Parent Nuclear[Tipo De Hogar: Nuclear Monoparental]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H228</attrlabl>
+			<attrdef>Type Of Household: Extended Childless Nuclear Base[Tipo De Hogar: Extendido Base Nuclear Sin Hijos]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H229</attrlabl>
+			<attrdef>Type Of Household: Extended Nuclear Base With Children[Tipo De Hogar: Extendido Base Nuclear Con Hijos]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H230</attrlabl>
+			<attrdef>Type Of Household: Extended Single Parent[Tipo De Hogar: Extendido Base Monoparental]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H231</attrlabl>
+			<attrdef>Type Of Household: Extended Without Nuclear Base[Tipo De Hogar: Extendido Sin Base Nuclear]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H232</attrlabl>
+			<attrdef>Type Of Household: Compound[Tipo De Hogar: Compuesto]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H233</attrlabl>
+			<attrdef>Type Of Household: Collective Household[Tipo De Hogar: Hogar Colectivo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H234</attrlabl>
+			<attrdef>Type Of Household: Not Relevant[Tipo De Hogar: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H235</attrlabl>
+			<attrdef>Ownership: Owner Of Housing And Land And Is Paying[Tenencia: Propietario De La Vivienda Y El Terreno Y La Está Pagando]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H236</attrlabl>
+			<attrdef>Ownership: Owner Of Housing And Land And Already Paid[Tenencia: Propietario De La Vivienda Y El Terreno Y Ya La Pagó]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H237</attrlabl>
+			<attrdef>Ownership: Only Owner Housing And Is Paying[Tenencia: Propietario Solamente De La Vivienda Y La Está Pagando]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H238</attrlabl>
+			<attrdef>Ownership: Only Owner Housing And Already Paid[Tenencia: Propietario Solamente De La Vivienda Y Ya La Pagó]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H239</attrlabl>
+			<attrdef>Ownership: Member Of A Housing Cooperative[Tenencia: Integrante De Una Cooperativa De Vivienda]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H240</attrlabl>
+			<attrdef>Ownership: Tenant Or Lessee[Tenencia: Inquilino O Arrendatario]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H241</attrlabl>
+			<attrdef>Ownership: Occupant Dependency Relation (Work)[Tenencia: Ocupante Por Relación De Dependencia (Trabajo)]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H242</attrlabl>
+			<attrdef>Ownership: Free Occupier, Awarded By The BPS[Tenencia: Ocupante Gratuito, Otorgada Por El BPS]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H243</attrlabl>
+			<attrdef>Ownership: Free Occupier (He Loaned)[Tenencia: Ocupante Gratuito (Se La Prestaron)]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H244</attrlabl>
+			<attrdef>Ownership: Without Permission Of The Owner Occupier[Tenencia: Ocupante Sin Permiso Del Propietario]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H245</attrlabl>
+			<attrdef>Ownership: Collective Household[Tenencia: Hogar Colectivo]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>H246</attrlabl>
+			<attrdef>Ownership: Not Relevant[Tenencia: No Relevado]</attrdef>
+			<attrdefs>National Institute of Statistics (INE) Uruguay, 2011 [Instituto Nacional de Estadística (INE) Uruguay, 2011]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Country Country</attrlabl>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Country where census took place as 3-digit ISO code</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Census_Year</attrlabl>
+			<attrdef>Census Year</attrdef>
+			<attrdefs>East View Geospatial</attrdefs>
+			<attrdomv>
+				<udom>Year census was conducted as YYYY</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
 </eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_uruguay_housing_2011</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
 
 
 <metainfo>
-<metd>20220901</metd>
-<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-<metstdv>FGDC-STD-001-1998</metstdv>
-<mettc>local time</mettc>
-<metc>
-<cntinfo>
-<cntperp>
-<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-<cntper>GIS/Metadata Librarian</cntper>
-</cntperp>
-<cntaddr>
-<addrtype>mailing and physical address</addrtype>
-<address>420 W. 118th St. 215 IAB, MC 3301</address>
-<city>New York</city>
-<state>NY</state>
-<postal>10027</postal>
-</cntaddr>
-<cntvoice>(212) 854-6012</cntvoice>
-<cntemail>data@library.columbia.edu</cntemail>
-</cntinfo>
-</metc>
+	<metd>20220901</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
 </metainfo>
-<distinfo>
-<stdorder>
-<digform>
-<digtinfo>
-<formname>Geopackage</formname>
-<formspec>zip</formspec>
-</digtinfo>
-</digform>
-</stdorder>
-<resdesc>ev_uruguay_housing_2011</resdesc>
-<distrib>
-</distrib>
-</distinfo>
 </metadata>

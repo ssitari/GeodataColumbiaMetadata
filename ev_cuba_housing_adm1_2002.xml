@@ -15,7 +15,7 @@
 			<place>
 				<placekt>None</placekt>
 				<placekey>Republic of Cuba</placekey>
-        <placekey>Cuba</placekey>
+				<placekey>Cuba</placekey>
 			</place>
 			<temporal>
 				<tempkt>None</tempkt>
@@ -33,7 +33,7 @@
 		<descript>
 			<abstract>
 Cuba Housing Census Data (Province), 2002 is a polygon theme representing Provinces (1st level administrative units) in Cuba as of 2002. Attribute data include summary results of the 2002 Cuban census questions regarding housing characteristics. The documentation of these variables can be found in the "Housing" section from the accompanying code book. This dataset is part of Cuba 2002 Census collection.
-</abstract>
+			</abstract>
 		</descript>
 		<citation>
 			<citeinfo>
@@ -45,1586 +45,1586 @@ Cuba Housing Census Data (Province), 2002 is a polygon theme representing Provin
 					<publish>East View Geospatial (Firm)</publish>
 				</pubinfo>
 				<onlink>https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_cuba_housing_adm1_2002.zip
-</onlink>
-			</citeinfo>
-		</citation>
-		<timeperd>
-			<current>Ground condition</current>
-			<timeinfo>
-				<sngdate>
-					<caldate>2002</caldate>
-				</sngdate>
-			</timeinfo>
-		</timeperd>
-		<status>
-			<progress>Complete</progress>
-			<update>Unknown</update>
-		</status>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntperp>
-					<cntorg>East View Cartographic, Incorporated</cntorg>
-				</cntperp>
-			</cntinfo>
-		</ptcontac>
-	</idinfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>G-polygon</sdtstype>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-  <eainfo>
-  <detailed>
-    <enttyp>
-      <enttypl>Cuba_2002</enttypl>
-      <enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
-      <enttypds>East View Geospatial</enttypds>
-    </enttyp>
-    <attr>
-    <attrlabl>ADM1_CODE</attrlabl>
-    <attrdef>Province Code [cod_prov]</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Identifier of the census cestor as a coded value</udom>
-    </attrdomv>
-  </attr>
-  <attr>
-    <attrlabl>ADM1_NAME</attrlabl>
-    <attrdef>Province Name</attrdef>
-    <attrdefs>East View Geospatial Inc.</attrdefs>
-    <attrdomv>
-      <udom>Name of Province the census sector falls in </udom>
-    </attrdomv>
-  </attr>
-	<attr>
-		<attrlabl>SUM_H001</attrlabl>
-		<attrdef>Collective Housing: Total Households [F10_Households]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H002</attrlabl>
-		<attrdef>Collective Housing : Collective Group Quarters [F20_Group_quarters__collective__n_s_]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H003</attrlabl>
-		<attrdef>Collective Housing: One Person Units Created By Splitting Up Large Household [F29_1_person_unit_created_by_splitting_large_household]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H004</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 1 [F1]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H005</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 2 [F2]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H006</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 3 [F3]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H007</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 4 [F4]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H008</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 5 [F5]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H009</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 6 [F6]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H010</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 7 [F7]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H011</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 8 [F8]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H012</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 9 [F9]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H013</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 10 [F10]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H014</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 11 [F11]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H015</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 12 [F12]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H016</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 13 [F13]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H017</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 14 [F14]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H018</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 15 [F15]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H019</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 16 [F16]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H020</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 17 [F17]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H021</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 18 [F18]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H022</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 19 [F19]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H023</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 20 [F20]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H024</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 21 [F21]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H025</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 22 [F22]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H026</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 23 [F23]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H027</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 25 [F25]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H028</attrlabl>
-		<attrdef>Number Of Persons Living In The Household: 27 [F27]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H029</attrlabl>
-		<attrdef>Number Of Unrelated Persons Living In The Household: 0 [0 0]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H030</attrlabl>
-		<attrdef>Number Of Unrelated Persons Living In The Household: 1 [1 1]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H031</attrlabl>
-		<attrdef>Number Of Unrelated Persons Living In The Household: 2 [2 2]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H032</attrlabl>
-		<attrdef>Number Of Unrelated Persons Living In The Household: 3 [3 3]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H033</attrlabl>
-		<attrdef>Number Of Unrelated Persons Living In The Household: 4 [4 4]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H034</attrlabl>
-		<attrdef>Number Of Unrelated Persons Living In The Household: 5 [5 5]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H035</attrlabl>
-		<attrdef>Number Of Unrelated Persons Living In The Household: 6 [6 6]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H036</attrlabl>
-		<attrdef>Number Of Unrelated Persons Living In The Household: 7 [7 7]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H037</attrlabl>
-		<attrdef>Number Of Unrelated Persons Living In The Household: 8 [8 8]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H038</attrlabl>
-		<attrdef>Number Of Unrelated Persons Living In The Household: 9 [9 9+]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H039</attrlabl>
-		<attrdef>Bathroom Facilities In The Household: Not In Universe [F0_NIU__not_in_universe_]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H040</attrlabl>
-		<attrdef>Bathroom Facilities In The Household: No Bathroom Facility [F1_No_bathing_facility]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H041</attrlabl>
-		<attrdef>Bathroom Facilities In The Household: Private Use Bathroom Facility [F3_Have_bathing_facility_exclusive_use]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H042</attrlabl>
-		<attrdef>Bathroom Facilities In The Household: Shared Use Bathroom Facility [F4_Have_bathing_facility_shared_use]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H043</attrlabl>
-		<attrdef>Bathroom Facilities In The Household: No Response [F9_Unknown]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H044</attrlabl>
-		<attrdef>Number Of Bedrooms In Household: 1 [F1_1]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H045</attrlabl>
-		<attrdef>Number Of Bedrooms In Household: 2 [F2_2]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H046</attrlabl>
-		<attrdef>Number Of Bedrooms In Household: 3 [F3_3]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H047</attrlabl>
-		<attrdef>Number Of Bedrooms In Household: 4 [F4_4]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H048</attrlabl>
-		<attrdef>Number Of Bedrooms In Household: No Response [F98_Unknown]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H049</attrlabl>
-		<attrdef>Electric Service: Yes [F1_Yes]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H050</attrlabl>
-		<attrdef>Electric Service: No [F2_No]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H051</attrlabl>
-		<attrdef>Electric Service: No Response [F9_Unknown]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H052</attrlabl>
-		<attrdef>Kitchen Facilities In The Household: No Kitchen [F10_No_kitchen]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H053</attrlabl>
-		<attrdef>Kitchen Facilities In The Household: Exclusive Use Of The Kitchen  [F24_Exclusive_use_of_kitchen]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H054</attrlabl>
-		<attrdef>Kitchen Facilities In The Household: Shared Use Of The Kitchen With Another Household [F25_Shared_use_of_kitchen_with_another_household]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H055</attrlabl>
-		<attrdef>Kitchen Facilities In The Household: No Response [F99_Unknown_missing]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H056</attrlabl>
-		<attrdef>Source Of Water In The Household: Piped Inside Dwelling [F11_Piped_inside_dwelling]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H057</attrlabl>
-		<attrdef>Source Of Water In The Household: Piped To Outside The Dwelling [F14_Piped_outside_the_dwelling]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H058</attrlabl>
-		<attrdef>Source Of Water In The Household: No Piped Water [F20_No_piped_water]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H059</attrlabl>
-		<attrdef>Source Of Water In The Household: No Response [F99_Unknown]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H060</attrlabl>
-		<attrdef>Sewage Disposal In The Household: Connected To Public Sewer Systenm [F11_Sewage_system__public_sewage_disposal_]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H061</attrlabl>
-		<attrdef>Sewage Disposal In The Household: Private Septic Tank [F12_Septic_tank__private_sewage_disposal_]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H062</attrlabl>
-		<attrdef>Sewage Disposal In The Household: Not Connected To A Sewage Disposal System [F20_Not_connected_to_sewage_disposal_system]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H063</attrlabl>
-		<attrdef>Sewage Disposal In The Household: No Response [F99_Unknown]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H064</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 1 [F1_1]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H065</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 2 [F2_2]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H066</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 3 [F3_3]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H067</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 4 [F4_4]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H068</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 5 [F5_5]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H069</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 6 [F6_6]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H070</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 7 [F7_7]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H071</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 8 [F8_8]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H072</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 9 [F9_9]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H073</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 10 [F10_10]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H074</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 11 [F11_11]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H075</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 12 [F12_12]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H076</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 13 [F13_13]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H077</attrlabl>
-		<attrdef>Number Of Rooms In The Household: 14 [F14_14]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H078</attrlabl>
-		<attrdef>Number Of Rooms In The Household: Unknown [F98_Unknown]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H079</attrlabl>
-		<attrdef>Does The Household Have A Toilet: No [F10_No_toilet]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H080</attrlabl>
-		<attrdef>Does The Household Have A Toilet: Yes [F20_Have_toilet_type_not_specified]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H081</attrlabl>
-		<attrdef>Does The Household Have A Toilet: No Response [F99_Unknown]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H082</attrlabl>
-		<attrdef>Year Of Household Construction: 1919 [F1919_1919]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H083</attrlabl>
-		<attrdef>Year Of Household Construction: 1933 [F1933_1933]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H084</attrlabl>
-		<attrdef>Year Of Household Construction: 1945 [F1945_1945]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H085</attrlabl>
-		<attrdef>Year Of Household Construction: 1958 [F1958_1958]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H086</attrlabl>
-		<attrdef>Year Of Household Construction: 1970 [F1970_1970]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H087</attrlabl>
-		<attrdef>Year Of Household Construction: 1981 [F1981_1981]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H088</attrlabl>
-		<attrdef>Year Of Household Construction: 1989 [F1989_1989]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H089</attrlabl>
-		<attrdef>Year Of Household Construction: 2002 [F2002_2002]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H090</attrlabl>
-		<attrdef>Year Of Household Construction: No Response [F9999_Unknown]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H091</attrlabl>
-		<attrdef>Household Classification: Single Person Household [F1_One_person_household]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H092</attrlabl>
-		<attrdef>Household Classification: Married Cohabiting Couple With No Children [F2_Married_cohab_couple_no_children]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H093</attrlabl>
-		<attrdef>Household Classification: Married Cohabiting Couple With Children [F3_Married_cohab_couple_with_children]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H094</attrlabl>
-		<attrdef>Household Classification: Single Parent Family [F4_Single_parent_family]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H095</attrlabl>
-		<attrdef>Household Classification: Extended Family With Relatives Only [F6_Extended_family_relatives_only]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H096</attrlabl>
-		<attrdef>Household Classification: Composite Household With Family And Non-Relatives [F7_Composite_household_family_and_non_relatives]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H097</attrlabl>
-		<attrdef>Household Classification: Non Family Household [F8_Non_family_household]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H098</attrlabl>
-		<attrdef>Household Classification: Group Housing [F11_Group_quarters]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H099</attrlabl>
-		<attrdef>Household Classification: Unclassifiable [F99_Unclassifiable]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H100</attrlabl>
-		<attrdef>Number Of Families Living In The Household: 1 Family [F1_1_family]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H101</attrlabl>
-		<attrdef>Number Of Families Living In The Household: 2 Families [F2_2_families]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H102</attrlabl>
-		<attrdef>Number Of Families Living In The Household: 3 Families [F3_3_families]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H103</attrlabl>
-		<attrdef>Number Of Families Living In The Household: 4 Families [F4_4_families]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H104</attrlabl>
-		<attrdef>Number Of Families Living In The Household: 5 Families [F5_5_families]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H105</attrlabl>
-		<attrdef>Number Of Families Living In The Household: 6 Families [F6_6_families]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H106</attrlabl>
-		<attrdef>Number Of Families Living In The Household: 7 Families [F7_7_families]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H107</attrlabl>
-		<attrdef>Number Of Families Living In The Household: 8 Families [F8_8_families]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H108</attrlabl>
-		<attrdef>Number Of Families Living In The Household: 9 Or More Families [F9_9_or_more_families]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H109</attrlabl>
-		<attrdef>Number Of Own Children Living In The Household: 0 [F0_0]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H110</attrlabl>
-		<attrdef>Number Of Own Children Living In The Household: 1 [F1_1]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H111</attrlabl>
-		<attrdef>Number Of Own Children Living In The Household: 2 [F2_2]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H112</attrlabl>
-		<attrdef>Number Of Own Children Living In The Household: 3 [F3_3]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H113</attrlabl>
-		<attrdef>Number Of Own Children Living In The Household: 4 [F4_4]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H114</attrlabl>
-		<attrdef>Number Of Own Children Living In The Household: 5 [F5_5]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H115</attrlabl>
-		<attrdef>Number Of Own Children Living In The Household: 6 [F6_6]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H116</attrlabl>
-		<attrdef>Number Of Own Children Living In The Household: 7 [F7_7]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H117</attrlabl>
-		<attrdef>Number Of Own Children Living In The Household: 8 [F8_8]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H118</attrlabl>
-		<attrdef>Number Of Own Children Living In The Household: 9 Or More Children [F9_9_or_more_children_in_household]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H119</attrlabl>
-		<attrdef>Number Of Children Under 5 Years Old In The Household: 0 [F0_0]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H120</attrlabl>
-		<attrdef>Number Of Children Under 5 Years Old In The Household: 1 [F1_1]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H121</attrlabl>
-		<attrdef>Number Of Children Under 5 Years Old In The Household: 2 [F2_2]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H122</attrlabl>
-		<attrdef>Number Of Children Under 5 Years Old In The Household: 3 [F3_3]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H123</attrlabl>
-		<attrdef>Number Of Children Under 5 Years Old In The Household: 4 [F4_4]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H124</attrlabl>
-		<attrdef>Relation To Head Of Household: Head Of Household [F1_Head]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H125</attrlabl>
-		<attrdef>Relation To Head Of Household: Spouse Or Partner [F2_Spouse_partner]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H126</attrlabl>
-		<attrdef>Relation To Head Of Household: Child [F3_Child]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H127</attrlabl>
-		<attrdef>Relation To Head Of Household: Other Relative [F4_Other_relative]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H128</attrlabl>
-		<attrdef>Relation To Head Of Household: Non-Relative [F5_Non_relative]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H129</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is Not In Household [F0]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H130</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 1St Person In The Household [F1]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H131</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 2Nd Person In The Household [F2]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H132</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 3Rd Person In The Household [F3]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H133</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 4Th Person In The Household [F4]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H134</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 5Th Person In The Household [F5]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H135</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 6Th Person In The Household [F6]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H136</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 7Th Person In The Household [F7]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H137</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 8Th Person In The Household [F8]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H138</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 9Th Person In The Household [F9]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H139</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 10Th Person In The Household [F10]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H140</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 11Th Person In The Household [F11]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H141</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 12Th Person In The Household [F12]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H142</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 13Th Person In The Household [F13]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H143</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 14Th Person In The Household [F14]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H144</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 15Th Person In The Household [F15]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H145</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 16Th Person In The Household [F16]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H146</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 17Th Person In The Household [F17]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H147</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 18Th Person In The Household [F18]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H148</attrlabl>
-		<attrdef>Location Of Father In Household: Persons Father Is The 21St Person In The Household [F21]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H149</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is Not In Household [F0]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H150</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 1St Person In The Household [F1]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H151</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 2Nd Person In The Household [F2]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H152</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 3Rd Person In The Household [F3]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H153</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 4Th Person In The Household [F4]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H154</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 5Th Person In The Household [F5]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H155</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 6Th Person In The Household [F6]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H156</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 7Th Person In The Household [F7]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H157</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 8Th Person In The Household [F8]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H158</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 9Th Person In The Household [F9]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H159</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 10Th Person In The Household [F10]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H160</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 11Th Person In The Household [F11]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H161</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 12Th Person In The Household [F12]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H162</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 13Th Person In The Household [F13]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H163</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 14Th Person In The Household [F14]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H164</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 15Th Person In The Household [F15]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H165</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 18Th Person In The Household [F18]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H166</attrlabl>
-		<attrdef>Location Of  Mother In Household: Persons  Mother Is The 20Th Person In The Household [F20]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H167</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is Not In Household [F0]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H168</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 1St Person In The Household [F1]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H169</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 2Nd Person In The Household [F2]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H170</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 3Rd Person In The Household [F3]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H171</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 4Th Person In The Household [F4]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H172</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 5Th Person In The Household [F5]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H173</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 6Th Person In The Household [F6]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H174</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 7Th Person In The Household [F7]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H175</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 8Th Person In The Household [F8]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H176</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 9Th Person In The Household [F9]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H177</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 10Th Person In The Household [F10]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H178</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 11Th Person In The Household [F11]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H179</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 12Th Person In The Household [F12]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H180</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 13Th Person In The Household [F13]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H181</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 14Th Person In The Household [F14]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H182</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 15Th Person In The Household [F15]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H183</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 16Th Person In The Household [F16]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H184</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 17Th Person In The Household [F17]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H185</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 18Th Person In The Household [F18]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-	<attr>
-		<attrlabl>SUM_H186</attrlabl>
-		<attrdef>Location Of Spouse In Household: Persons Spouse Is The 21St Person In The Household [F21]</attrdef>
-		<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
-		<attrdomv>
-			<udom>Frequency of response in the census sector</udom>
-		</attrdomv>
-	</attr>
-  </detailed>
-  </eainfo>
-	<metainfo>
-		<metd>20210701</metd>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metc>
-			<cntinfo>
-				<cntperp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntperp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
-	<distinfo>
-		<stdorder>
-			<digform>
-				<digtinfo>
-					<formname>Geopackage</formname>
-					<formspec>zip</formspec>
-				</digtinfo>
-			</digform>
-		</stdorder>
-		<resdesc>ev_cuba_housing_adm1_2002</resdesc>
-		<distrib>
-		</distrib>
-	</distinfo>
+			</onlink>
+		</citeinfo>
+	</citation>
+	<timeperd>
+		<current>Ground condition</current>
+		<timeinfo>
+			<sngdate>
+				<caldate>2002</caldate>
+			</sngdate>
+		</timeinfo>
+	</timeperd>
+	<status>
+		<progress>Complete</progress>
+		<update>Unknown</update>
+	</status>
+	<accconst>For current Columbia affiliates only.</accconst>
+	<useconst>For educational, non-commercial use only.</useconst>
+	<ptcontac>
+		<cntinfo>
+			<cntperp>
+				<cntorg>East View Cartographic, Incorporated</cntorg>
+			</cntperp>
+		</cntinfo>
+	</ptcontac>
+</idinfo>
+<spdoinfo>
+	<direct>Vector</direct>
+	<ptvctinf>
+		<sdtsterm>
+			<sdtstype>G-polygon</sdtstype>
+		</sdtsterm>
+	</ptvctinf>
+</spdoinfo>
+<eainfo>
+	<detailed>
+		<enttyp>
+			<enttypl>Cuba_2002</enttypl>
+			<enttypd>File Geodatabase representing census sectors and associated attribute tables.</enttypd>
+			<enttypds>East View Geospatial</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>ADM1_CODE</attrlabl>
+			<attrdef>Province Code [cod_prov]</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Identifier of the census cestor as a coded value</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>ADM1_NAME</attrlabl>
+			<attrdef>Province Name</attrdef>
+			<attrdefs>East View Geospatial Inc.</attrdefs>
+			<attrdomv>
+				<udom>Name of Province the census sector falls in </udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H001</attrlabl>
+			<attrdef>Collective Housing: Total Households [F10_Households]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H002</attrlabl>
+			<attrdef>Collective Housing : Collective Group Quarters [F20_Group_quarters__collective__n_s_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H003</attrlabl>
+			<attrdef>Collective Housing: One Person Units Created By Splitting Up Large Household [F29_1_person_unit_created_by_splitting_large_household]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H004</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 1 [F1]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H005</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 2 [F2]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H006</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 3 [F3]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H007</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 4 [F4]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H008</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 5 [F5]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H009</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 6 [F6]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H010</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 7 [F7]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H011</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 8 [F8]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H012</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 9 [F9]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H013</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 10 [F10]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H014</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 11 [F11]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H015</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 12 [F12]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H016</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 13 [F13]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H017</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 14 [F14]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H018</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 15 [F15]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H019</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 16 [F16]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H020</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 17 [F17]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H021</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 18 [F18]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H022</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 19 [F19]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H023</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 20 [F20]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H024</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 21 [F21]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H025</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 22 [F22]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H026</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 23 [F23]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H027</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 25 [F25]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H028</attrlabl>
+			<attrdef>Number Of Persons Living In The Household: 27 [F27]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H029</attrlabl>
+			<attrdef>Number Of Unrelated Persons Living In The Household: 0 [0 0]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H030</attrlabl>
+			<attrdef>Number Of Unrelated Persons Living In The Household: 1 [1 1]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H031</attrlabl>
+			<attrdef>Number Of Unrelated Persons Living In The Household: 2 [2 2]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H032</attrlabl>
+			<attrdef>Number Of Unrelated Persons Living In The Household: 3 [3 3]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H033</attrlabl>
+			<attrdef>Number Of Unrelated Persons Living In The Household: 4 [4 4]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H034</attrlabl>
+			<attrdef>Number Of Unrelated Persons Living In The Household: 5 [5 5]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H035</attrlabl>
+			<attrdef>Number Of Unrelated Persons Living In The Household: 6 [6 6]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H036</attrlabl>
+			<attrdef>Number Of Unrelated Persons Living In The Household: 7 [7 7]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H037</attrlabl>
+			<attrdef>Number Of Unrelated Persons Living In The Household: 8 [8 8]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H038</attrlabl>
+			<attrdef>Number Of Unrelated Persons Living In The Household: 9 [9 9+]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H039</attrlabl>
+			<attrdef>Bathroom Facilities In The Household: Not In Universe [F0_NIU__not_in_universe_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H040</attrlabl>
+			<attrdef>Bathroom Facilities In The Household: No Bathroom Facility [F1_No_bathing_facility]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H041</attrlabl>
+			<attrdef>Bathroom Facilities In The Household: Private Use Bathroom Facility [F3_Have_bathing_facility_exclusive_use]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H042</attrlabl>
+			<attrdef>Bathroom Facilities In The Household: Shared Use Bathroom Facility [F4_Have_bathing_facility_shared_use]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H043</attrlabl>
+			<attrdef>Bathroom Facilities In The Household: No Response [F9_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H044</attrlabl>
+			<attrdef>Number Of Bedrooms In Household: 1 [F1_1]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H045</attrlabl>
+			<attrdef>Number Of Bedrooms In Household: 2 [F2_2]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H046</attrlabl>
+			<attrdef>Number Of Bedrooms In Household: 3 [F3_3]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H047</attrlabl>
+			<attrdef>Number Of Bedrooms In Household: 4 [F4_4]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H048</attrlabl>
+			<attrdef>Number Of Bedrooms In Household: No Response [F98_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H049</attrlabl>
+			<attrdef>Electric Service: Yes [F1_Yes]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H050</attrlabl>
+			<attrdef>Electric Service: No [F2_No]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H051</attrlabl>
+			<attrdef>Electric Service: No Response [F9_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H052</attrlabl>
+			<attrdef>Kitchen Facilities In The Household: No Kitchen [F10_No_kitchen]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H053</attrlabl>
+			<attrdef>Kitchen Facilities In The Household: Exclusive Use Of The Kitchen  [F24_Exclusive_use_of_kitchen]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H054</attrlabl>
+			<attrdef>Kitchen Facilities In The Household: Shared Use Of The Kitchen With Another Household [F25_Shared_use_of_kitchen_with_another_household]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H055</attrlabl>
+			<attrdef>Kitchen Facilities In The Household: No Response [F99_Unknown_missing]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H056</attrlabl>
+			<attrdef>Source Of Water In The Household: Piped Inside Dwelling [F11_Piped_inside_dwelling]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H057</attrlabl>
+			<attrdef>Source Of Water In The Household: Piped To Outside The Dwelling [F14_Piped_outside_the_dwelling]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H058</attrlabl>
+			<attrdef>Source Of Water In The Household: No Piped Water [F20_No_piped_water]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H059</attrlabl>
+			<attrdef>Source Of Water In The Household: No Response [F99_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H060</attrlabl>
+			<attrdef>Sewage Disposal In The Household: Connected To Public Sewer Systenm [F11_Sewage_system__public_sewage_disposal_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H061</attrlabl>
+			<attrdef>Sewage Disposal In The Household: Private Septic Tank [F12_Septic_tank__private_sewage_disposal_]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H062</attrlabl>
+			<attrdef>Sewage Disposal In The Household: Not Connected To A Sewage Disposal System [F20_Not_connected_to_sewage_disposal_system]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H063</attrlabl>
+			<attrdef>Sewage Disposal In The Household: No Response [F99_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H064</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 1 [F1_1]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H065</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 2 [F2_2]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H066</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 3 [F3_3]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H067</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 4 [F4_4]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H068</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 5 [F5_5]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H069</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 6 [F6_6]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H070</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 7 [F7_7]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H071</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 8 [F8_8]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H072</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 9 [F9_9]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H073</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 10 [F10_10]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H074</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 11 [F11_11]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H075</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 12 [F12_12]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H076</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 13 [F13_13]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H077</attrlabl>
+			<attrdef>Number Of Rooms In The Household: 14 [F14_14]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H078</attrlabl>
+			<attrdef>Number Of Rooms In The Household: Unknown [F98_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H079</attrlabl>
+			<attrdef>Does The Household Have A Toilet: No [F10_No_toilet]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H080</attrlabl>
+			<attrdef>Does The Household Have A Toilet: Yes [F20_Have_toilet_type_not_specified]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H081</attrlabl>
+			<attrdef>Does The Household Have A Toilet: No Response [F99_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H082</attrlabl>
+			<attrdef>Year Of Household Construction: 1919 [F1919_1919]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H083</attrlabl>
+			<attrdef>Year Of Household Construction: 1933 [F1933_1933]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H084</attrlabl>
+			<attrdef>Year Of Household Construction: 1945 [F1945_1945]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H085</attrlabl>
+			<attrdef>Year Of Household Construction: 1958 [F1958_1958]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H086</attrlabl>
+			<attrdef>Year Of Household Construction: 1970 [F1970_1970]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H087</attrlabl>
+			<attrdef>Year Of Household Construction: 1981 [F1981_1981]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H088</attrlabl>
+			<attrdef>Year Of Household Construction: 1989 [F1989_1989]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H089</attrlabl>
+			<attrdef>Year Of Household Construction: 2002 [F2002_2002]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H090</attrlabl>
+			<attrdef>Year Of Household Construction: No Response [F9999_Unknown]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H091</attrlabl>
+			<attrdef>Household Classification: Single Person Household [F1_One_person_household]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H092</attrlabl>
+			<attrdef>Household Classification: Married Cohabiting Couple With No Children [F2_Married_cohab_couple_no_children]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H093</attrlabl>
+			<attrdef>Household Classification: Married Cohabiting Couple With Children [F3_Married_cohab_couple_with_children]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H094</attrlabl>
+			<attrdef>Household Classification: Single Parent Family [F4_Single_parent_family]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H095</attrlabl>
+			<attrdef>Household Classification: Extended Family With Relatives Only [F6_Extended_family_relatives_only]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H096</attrlabl>
+			<attrdef>Household Classification: Composite Household With Family And Non-Relatives [F7_Composite_household_family_and_non_relatives]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H097</attrlabl>
+			<attrdef>Household Classification: Non Family Household [F8_Non_family_household]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H098</attrlabl>
+			<attrdef>Household Classification: Group Housing [F11_Group_quarters]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H099</attrlabl>
+			<attrdef>Household Classification: Unclassifiable [F99_Unclassifiable]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H100</attrlabl>
+			<attrdef>Number Of Families Living In The Household: 1 Family [F1_1_family]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H101</attrlabl>
+			<attrdef>Number Of Families Living In The Household: 2 Families [F2_2_families]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H102</attrlabl>
+			<attrdef>Number Of Families Living In The Household: 3 Families [F3_3_families]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H103</attrlabl>
+			<attrdef>Number Of Families Living In The Household: 4 Families [F4_4_families]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H104</attrlabl>
+			<attrdef>Number Of Families Living In The Household: 5 Families [F5_5_families]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H105</attrlabl>
+			<attrdef>Number Of Families Living In The Household: 6 Families [F6_6_families]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H106</attrlabl>
+			<attrdef>Number Of Families Living In The Household: 7 Families [F7_7_families]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H107</attrlabl>
+			<attrdef>Number Of Families Living In The Household: 8 Families [F8_8_families]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H108</attrlabl>
+			<attrdef>Number Of Families Living In The Household: 9 Or More Families [F9_9_or_more_families]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H109</attrlabl>
+			<attrdef>Number Of Own Children Living In The Household: 0 [F0_0]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H110</attrlabl>
+			<attrdef>Number Of Own Children Living In The Household: 1 [F1_1]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H111</attrlabl>
+			<attrdef>Number Of Own Children Living In The Household: 2 [F2_2]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H112</attrlabl>
+			<attrdef>Number Of Own Children Living In The Household: 3 [F3_3]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H113</attrlabl>
+			<attrdef>Number Of Own Children Living In The Household: 4 [F4_4]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H114</attrlabl>
+			<attrdef>Number Of Own Children Living In The Household: 5 [F5_5]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H115</attrlabl>
+			<attrdef>Number Of Own Children Living In The Household: 6 [F6_6]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H116</attrlabl>
+			<attrdef>Number Of Own Children Living In The Household: 7 [F7_7]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H117</attrlabl>
+			<attrdef>Number Of Own Children Living In The Household: 8 [F8_8]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H118</attrlabl>
+			<attrdef>Number Of Own Children Living In The Household: 9 Or More Children [F9_9_or_more_children_in_household]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H119</attrlabl>
+			<attrdef>Number Of Children Under 5 Years Old In The Household: 0 [F0_0]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H120</attrlabl>
+			<attrdef>Number Of Children Under 5 Years Old In The Household: 1 [F1_1]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H121</attrlabl>
+			<attrdef>Number Of Children Under 5 Years Old In The Household: 2 [F2_2]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H122</attrlabl>
+			<attrdef>Number Of Children Under 5 Years Old In The Household: 3 [F3_3]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H123</attrlabl>
+			<attrdef>Number Of Children Under 5 Years Old In The Household: 4 [F4_4]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H124</attrlabl>
+			<attrdef>Relation To Head Of Household: Head Of Household [F1_Head]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H125</attrlabl>
+			<attrdef>Relation To Head Of Household: Spouse Or Partner [F2_Spouse_partner]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H126</attrlabl>
+			<attrdef>Relation To Head Of Household: Child [F3_Child]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H127</attrlabl>
+			<attrdef>Relation To Head Of Household: Other Relative [F4_Other_relative]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H128</attrlabl>
+			<attrdef>Relation To Head Of Household: Non-Relative [F5_Non_relative]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H129</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is Not In Household [F0]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H130</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 1St Person In The Household [F1]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H131</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 2Nd Person In The Household [F2]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H132</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 3Rd Person In The Household [F3]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H133</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 4Th Person In The Household [F4]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H134</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 5Th Person In The Household [F5]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H135</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 6Th Person In The Household [F6]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H136</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 7Th Person In The Household [F7]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H137</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 8Th Person In The Household [F8]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H138</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 9Th Person In The Household [F9]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H139</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 10Th Person In The Household [F10]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H140</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 11Th Person In The Household [F11]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H141</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 12Th Person In The Household [F12]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H142</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 13Th Person In The Household [F13]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H143</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 14Th Person In The Household [F14]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H144</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 15Th Person In The Household [F15]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H145</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 16Th Person In The Household [F16]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H146</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 17Th Person In The Household [F17]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H147</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 18Th Person In The Household [F18]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H148</attrlabl>
+			<attrdef>Location Of Father In Household: Persons Father Is The 21St Person In The Household [F21]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H149</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is Not In Household [F0]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H150</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 1St Person In The Household [F1]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H151</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 2Nd Person In The Household [F2]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H152</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 3Rd Person In The Household [F3]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H153</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 4Th Person In The Household [F4]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H154</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 5Th Person In The Household [F5]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H155</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 6Th Person In The Household [F6]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H156</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 7Th Person In The Household [F7]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H157</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 8Th Person In The Household [F8]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H158</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 9Th Person In The Household [F9]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H159</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 10Th Person In The Household [F10]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H160</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 11Th Person In The Household [F11]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H161</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 12Th Person In The Household [F12]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H162</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 13Th Person In The Household [F13]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H163</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 14Th Person In The Household [F14]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H164</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 15Th Person In The Household [F15]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H165</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 18Th Person In The Household [F18]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H166</attrlabl>
+			<attrdef>Location Of  Mother In Household: Persons  Mother Is The 20Th Person In The Household [F20]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H167</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is Not In Household [F0]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H168</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 1St Person In The Household [F1]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H169</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 2Nd Person In The Household [F2]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H170</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 3Rd Person In The Household [F3]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H171</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 4Th Person In The Household [F4]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H172</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 5Th Person In The Household [F5]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H173</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 6Th Person In The Household [F6]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H174</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 7Th Person In The Household [F7]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H175</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 8Th Person In The Household [F8]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H176</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 9Th Person In The Household [F9]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H177</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 10Th Person In The Household [F10]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H178</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 11Th Person In The Household [F11]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H179</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 12Th Person In The Household [F12]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H180</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 13Th Person In The Household [F13]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H181</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 14Th Person In The Household [F14]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H182</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 15Th Person In The Household [F15]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H183</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 16Th Person In The Household [F16]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H184</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 17Th Person In The Household [F17]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H185</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 18Th Person In The Household [F18]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>SUM_H186</attrlabl>
+			<attrdef>Location Of Spouse In Household: Persons Spouse Is The 21St Person In The Household [F21]</attrdef>
+			<attrdefs>National Office Of Statistics and Information (ONEI) Republic of Cuba, 2002 [Oficina Nacional De Estadistica E Información (ONEI) Republica de Cuba, 2002]</attrdefs>
+			<attrdomv>
+				<udom>Frequency of response in the census sector</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
+</eainfo>
+<distinfo>
+	<stdorder>
+		<digform>
+			<digtinfo>
+				<formname>Geopackage</formname>
+				<formspec>zip</formspec>
+			</digtinfo>
+		</digform>
+	</stdorder>
+	<resdesc>ev_cuba_housing_adm1_2002</resdesc>
+	<distrib>
+	</distrib>
+</distinfo>
+<metainfo>
+	<metd>20210701</metd>
+	<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+	<metstdv>FGDC-STD-001-1998</metstdv>
+	<mettc>local time</mettc>
+	<metc>
+		<cntinfo>
+			<cntperp>
+				<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+				<cntper>GIS/Metadata Librarian</cntper>
+			</cntperp>
+			<cntaddr>
+				<addrtype>mailing and physical address</addrtype>
+				<address>420 W. 118th St. 215 IAB, MC 3301</address>
+				<city>New York</city>
+				<state>NY</state>
+				<postal>10027</postal>
+			</cntaddr>
+			<cntvoice>(212) 854-6012</cntvoice>
+			<cntemail>data@library.columbia.edu</cntemail>
+		</cntinfo>
+	</metc>
+</metainfo>
 </metadata>

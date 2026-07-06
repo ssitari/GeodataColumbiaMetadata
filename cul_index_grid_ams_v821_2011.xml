@@ -1,84 +1,4 @@
 ﻿<metadata xml:lang="en">
-	<eainfo>
-		<detailed Name="index_grid_ams_v721">
-			<enttyp>
-				<enttypl>index_grid_ams_v821</enttypl>
-				<enttypt>Feature Class</enttypt>
-				<enttypc>0</enttypc>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attalias>FID</attalias>
-				<attrtype>OID</attrtype>
-				<attwidth>4</attwidth>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attalias>Shape</attalias>
-				<attrtype>Geometry</attrtype>
-				<attwidth>0</attwidth>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Y_INDEX</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>X_INDEX</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>X</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>Y</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>Number</attrlabl>
-				<attalias>Number</attalias>
-				<attrtype>Integer</attrtype>
-				<attwidth>9</attwidth>
-				<atprecis>9</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>Quad</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>RomNumber</attrlabl>
-				<attalias>RomNumber</attalias>
-				<attrtype>String</attrtype>
-				<attwidth>3</attwidth>
-				<atprecis>0</atprecis>
-				<attscale>0</attscale>
-			</attr>
-			<attr>
-				<attrlabl>Collection</attrlabl>
-				<attrdomv>
-					<edom>
-						<edomv>0</edomv>
-						<edomvd>Not held</edomvd>
-					</edom>
-					<edom>
-						<edomv>1</edomv>
-						<edomvd>held</edomvd>
-					</edom>
-				</attrdomv>
-				<attrdef>Indicates if in Columbia library collection</attrdef>
-			</attr>
-		</detailed>
-	</eainfo>
 	<idinfo>
 		<ptcontac>
 			<cntinfo>
@@ -235,6 +155,15 @@ col. maps 56 x 43 cm. or smaller.</othercit>
 			</procstep>
 		</lineage>
 	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>1030</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
 	<spref>
 		<horizsys>
 			<cordsysn>
@@ -242,6 +171,86 @@ col. maps 56 x 43 cm. or smaller.</othercit>
 			</cordsysn>
 		</horizsys>
 	</spref>
+	<eainfo>
+		<detailed Name="index_grid_ams_v721">
+			<enttyp>
+				<enttypl>index_grid_ams_v821</enttypl>
+				<enttypt>Feature Class</enttypt>
+				<enttypc>0</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attalias>FID</attalias>
+				<attrtype>OID</attrtype>
+				<attwidth>4</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attalias>Shape</attalias>
+				<attrtype>Geometry</attrtype>
+				<attwidth>0</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Y_INDEX</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>X_INDEX</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>X</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Y</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Number</attrlabl>
+				<attalias>Number</attalias>
+				<attrtype>Integer</attrtype>
+				<attwidth>9</attwidth>
+				<atprecis>9</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>Quad</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>RomNumber</attrlabl>
+				<attalias>RomNumber</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>3</attwidth>
+				<atprecis>0</atprecis>
+				<attscale>0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>Collection</attrlabl>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>Not held</edomvd>
+					</edom>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>held</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>Indicates if in Columbia library collection</attrdef>
+			</attr>
+		</detailed>
+	</eainfo>
 	<distinfo>
 		<distrib>
 			<cntinfo>
@@ -293,4 +302,4 @@ col. maps 56 x 43 cm. or smaller.</othercit>
 		</metc>
 		<metd>20130212</metd>
 	</metainfo>
-	<spdoinfo><direct>Vector</direct><ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype><ptvctcnt>1030</ptvctcnt></sdtsterm></ptvctinf></spdoinfo></metadata>
+</metadata>

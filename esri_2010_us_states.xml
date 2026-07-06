@@ -31,7 +31,10 @@ This dataset comes with an ESRI layer file symbolizing the features.</supplinf>
 		<timeperd>
 			<current>publication date</current>
 			<timeinfo>
-				<sngdate><caldate>2010</caldate></sngdate></timeinfo>
+				<sngdate>
+					<caldate>2010</caldate>
+				</sngdate>
+			</timeinfo>
 		</timeperd>
 		<status>
 			<progress>Complete</progress>
@@ -121,32 +124,255 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			</cntinfo>
 		</ptcontac>
 	</idinfo>
-	<metainfo>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-		<metd>20110729</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St. 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-				</cntaddr>
-				<cntvoice>(212) 854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-	</metainfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>ArcUSA™ 1:25M</title>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<pubdate>19920601</pubdate>
+						<edition>1</edition>
+						<geoform>vector digital data</geoform>
+						<pubinfo>
+							<publish>ESRI</publish>
+							<pubplace>Redlands, California, USA</pubplace>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>25000000</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>19920601</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>ArcUSA 1:25M</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Department of Commerce, Census Bureau</origin>
+						<title>Summary File 1 (SF1)</title>
+						<edition>2000</edition>
+						<serinfo>
+							<sername>Summary File 1 (SF1)</sername>
+							<issue>2000</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>Department of Commerce, Census Bureau</publish>
+							<pubplace>USA</pubplace>
+						</pubinfo>
+						<othercit>The Summary File 1 (SF1) data is based on the 2000 Census of Population.</othercit>
+						<pubdate>2001</pubdate>
+					</citeinfo>
+				</srccite>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2000</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Census SF1</srccitea>
+				<srccontr>Attribute data</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>ESRI Data - Updated Demographics, 2010</title>
+						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
+						<pubdate>2001; 200303; 200407; 20050519; 20070606; 20080606; 20090424; 20100504</pubdate>
+						<edition>2010</edition>
+						<geoform>tabular digital data</geoform>
+						<serinfo>
+							<sername>ESRI Data - Updated Demographics</sername>
+							<issue>2010</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Redlands, California, USA</pubplace>
+							<publish>ESRI</publish>
+						</pubinfo>
+						<onlink>http://www.esri.com/</onlink>
+						<othercit>Currently provides the POP2010 attribute. In the past has provided the POP2009, POP2008, POP2007, POP2005, POP2004, POP2003, and POP2001 attributes.</othercit>
+					</citeinfo>
+				</srccite>
+				<srccitea>ESRI Data - Updated Demographics</srccitea>
+				<srccontr>Attribute data</srccontr>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>2001</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>200303</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>200407</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20050519</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20070606</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20080606</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20090424</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>20100504</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<typesrc>electronic mail system, CD-ROM, DVD-ROM</typesrc>
+			</srcinfo>
+			<srcinfo>
+				<typesrc>CD-ROM, online</typesrc>
+				<srccitea>USDA Farm</srccitea>
+				<srccite>
+					<citeinfo>
+						<title>1997 Census of Agriculture; 2007 Census of Agriculture</title>
+						<origin>U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS)</origin>
+						<pubdate>199903; 20090204</pubdate>
+						<serinfo>
+							<sername>Census of Agriculture</sername>
+							<issue>1997; 2007</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>USA</pubplace>
+							<publish>U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS)</publish>
+						</pubinfo>
+						<othercit>The farm attributes come from data published by the U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS) based on the 2007 Census of Agriculture. In the past the attributes came from the 1997 Census of Agriculture.</othercit>
+						<edition>1997; 2007</edition>
+						<onlink>http://www.agcensus.usda.gov/Publications/2007/index.asp</onlink>
+						<onlink>http://www.agcensus.usda.gov/Publications/2007/Online_Highlights/Desktop_Application/index.asp</onlink>
+					</citeinfo>
+				</srccite>
+				<srccontr>Attribute data</srccontr>
+				<srctime>
+					<timeinfo>
+						<mdattim>
+							<sngdate>
+								<caldate>1997</caldate>
+							</sngdate>
+							<sngdate>
+								<caldate>2007</caldate>
+							</sngdate>
+						</mdattim>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Dynamap/Census Boundaries v4.0</title>
+						<origin>Tele Atlas North America, Inc.</origin>
+						<pubdate>200201</pubdate>
+						<edition>Version 4.0</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>Tele Atlas Dynamap/Census Boundaries</sername>
+							<issue>v4.0</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>Tele Atlas North America, Inc.</publish>
+							<pubplace>Lebanon, New Hampshire, USA</pubplace>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>100000</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>200201</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Tele Atlas Dynamap/Census Boundaries v4.0</srccitea>
+				<srccontr>Attribute and geospatial data</srccontr>
+			</srcinfo>
+			<procstep>
+				<srcused>ArcUSA 1:25M</srcused>
+				<srcused>Census SF1</srcused>
+				<srcused>ESRI Data - Updated Demographics</srcused>
+				<srcused>USDA Farm</srcused>
+				<srcused>Tele Atlas Dynamap/Census Boundaries v4.0</srcused>
+				<procdate>20020131</procdate>
+				<procdesc>The following steps were performed by ESRI for Data &amp; Maps 2002: Replaced demographic and agricultural attributes with the latest from 2000 Census SF1, ESRI Data, and 1997 Census of Agriculture.  Recreated ArcView GIS legend file (.avl) and ArcGIS layer file (.lyr).  Copied projection file (.prj).
+
+The following steps were performed by ESRI: Extracted and generalized the features from ArcUSA 1:25M.  Added demographic attributes from Summary Tape File-1A (STF-1A) data published by the U.S. Census Bureau based on the 1990 Census of Population. Added farm attributes from data published by the U.S. Census Bureau based on the 1987 Census of Agriculture.  Added Pop2000 attribute from ESRI.  Converted to North American Datum of 1983 (NAD83) by splitting the United States into-if present: Alaska, Hawaii, Puerto Rico, U.S. Virgin Islands-and the 48 contiguous states (including District of Columbia); converting each to NAD83; then merging them together.  Recalculated any attributes based on area.  Created ArcGIS layer file (.lyr).  Created ArcView GIS legend file (.avl).  Created projection file (.prj).  Ran ArcView GIS Avenue™ request ExportClean, and created spatial indices.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by ESRI: Copied the Molokai coastline from U.S. Counties (Generalized). Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
+				<srcused>ESRI Data - Updated Demographics</srcused>
+				<procdate>20021010</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by ESRI: Replaced POP2001 with POP2003 from ESRI. Converted the data set to SDC. Created the projection file (.prj) and spatial indices.</procdesc>
+				<procdate>20040311</procdate>
+				<srcused>ESRI Data - Updated Demographics</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by ESRI: Renamed attribute AREA to SQMI, moved it to the end of the attributes, and rounded its values to the nearest whole number. Replaced attribute POP2003 with POP2004. Added attribute POP04_SQMI and calculated its values.</procdesc>
+				<procdate>20050307</procdate>
+				<srcused>ESRI Data - Updated Demographics</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by ESRI: Replaced attribute POP2004 with POP2005 and attribute POP04_SQMI with POP05_SQMI. Expanded the values for attribute SUB_REGION. Changed POP00_SQMI to display its tenths place. Calculated new values for attributes POP00_SQMI, POP05_SQMI, and SQMI. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<srcused>ESRI Data - Updated Demographics</srcused>
+				<procdate>20060410</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by ESRI: Replaced attribute POP2005 with POP2007 and attribute POP05_SQMI with POP07_SQMI. Calculated new values for POP07_SQMI. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<procdate>20070718</procdate>
+				<srcused>ESRI Data - Updated Demographics</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>The following steps were performed by ESRI: Replaced attribute POP2007 with POP2008 and attribute POP07_SQMI with POP08_SQMI. Calculated new values for POP08_SQMI. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<srcused>ESRI Data - Updated Demographics</srcused>
+				<procdate>20080922</procdate>
+			</procstep>
+			<procstep>
+				<srcused>ESRI Data - Updated Demographics</srcused>
+				<procdesc>The following steps were performed by ESRI: Replaced attribute POP2008 with POP2009 and attribute POP08_SQMI with POP09_SQMI. Calculated new values for POP09_SQMI. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+				<srcused>USDA Farm</srcused>
+				<procdate>20090901</procdate>
+			</procstep>
+			<procstep>
+				<procdate>20100511</procdate>
+				<procdesc>The following steps were performed by ESRI: Copied 2009 Data Update U.S. States (Generalized) and renamed it. Removed all fields but STATE_NAME. Attached and formatted the fields from Edition 10 U.S. States. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
+			</procstep>
+		</lineage>
+		<posacc>
+			<horizpa>
+				<horizpar>The geospatial part of this data set was extracted from the ArcUSA 1:25M database, and then generalized. Generalizing reduces positional accuracy and the tolerance was not recorded so the positional accuracy exceeds that of the ArcUSA data set. The positional accuracy of the ArcUSA 1:25M data set is 1792 meters which is based on generalizing-to a tolerance of 500 meters-the 1:2,000,000-scale USGS Digital Line Graph (DLG) source data.</horizpar>
+			</horizpa>
+		</posacc>
+		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
+		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
+	</dataqual>
 	<spdoinfo>
 		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype></sdtsterm></ptvctinf>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
 	</spdoinfo>
 	<spref>
 		<horizsys>
@@ -705,246 +931,27 @@ Outside the United States, please direct all inquiries to your local ESRI Office
 			</cntinfo>
 		</distrib>
 	</distinfo>
-	<dataqual>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>ArcUSA™ 1:25M</title>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>19920601</pubdate>
-						<edition>1</edition>
-						<geoform>vector digital data</geoform>
-						<pubinfo>
-							<publish>ESRI</publish>
-							<pubplace>Redlands, California, USA</pubplace>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>25000000</srcscale>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>19920601</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>ArcUSA 1:25M</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>Department of Commerce, Census Bureau</origin>
-						<title>Summary File 1 (SF1)</title>
-						<edition>2000</edition>
-						<serinfo>
-							<sername>Summary File 1 (SF1)</sername>
-							<issue>2000</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>Department of Commerce, Census Bureau</publish>
-							<pubplace>USA</pubplace>
-						</pubinfo>
-						<othercit>The Summary File 1 (SF1) data is based on the 2000 Census of Population.</othercit>
-						<pubdate>2001</pubdate>
-					</citeinfo>
-				</srccite>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>2000</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-				<srccitea>Census SF1</srccitea>
-				<srccontr>Attribute data</srccontr>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>ESRI Data - Updated Demographics, 2010</title>
-						<origin>Environmental Systems Research Institute (Redlands, Calif.)</origin>
-						<pubdate>2001; 200303; 200407; 20050519; 20070606; 20080606; 20090424; 20100504</pubdate>
-						<edition>2010</edition>
-						<geoform>tabular digital data</geoform>
-						<serinfo>
-							<sername>ESRI Data - Updated Demographics</sername>
-							<issue>2010</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>Redlands, California, USA</pubplace>
-							<publish>ESRI</publish>
-						</pubinfo>
-						<onlink>http://www.esri.com/</onlink>
-						<othercit>Currently provides the POP2010 attribute. In the past has provided the POP2009, POP2008, POP2007, POP2005, POP2004, POP2003, and POP2001 attributes.</othercit>
-					</citeinfo>
-				</srccite>
-				<srccitea>ESRI Data - Updated Demographics</srccitea>
-				<srccontr>Attribute data</srccontr>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>2001</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>200303</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>200407</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>20050519</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>20070606</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>20080606</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>20090424</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>20100504</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<typesrc>electronic mail system, CD-ROM, DVD-ROM</typesrc>
-			</srcinfo>
-			<srcinfo>
-				<typesrc>CD-ROM, online</typesrc>
-				<srccitea>USDA Farm</srccitea>
-				<srccite>
-					<citeinfo>
-						<title>1997 Census of Agriculture; 2007 Census of Agriculture</title>
-						<origin>U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS)</origin>
-						<pubdate>199903; 20090204</pubdate>
-						<serinfo>
-							<sername>Census of Agriculture</sername>
-							<issue>1997; 2007</issue>
-						</serinfo>
-						<pubinfo>
-							<pubplace>USA</pubplace>
-							<publish>U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS)</publish>
-						</pubinfo>
-						<othercit>The farm attributes come from data published by the U.S. Department of Agriculture (USDA), National Agricultural Statistics Service (NASS) based on the 2007 Census of Agriculture. In the past the attributes came from the 1997 Census of Agriculture.</othercit>
-						<edition>1997; 2007</edition>
-						<onlink>http://www.agcensus.usda.gov/Publications/2007/index.asp</onlink>
-						<onlink>http://www.agcensus.usda.gov/Publications/2007/Online_Highlights/Desktop_Application/index.asp</onlink>
-					</citeinfo>
-				</srccite>
-				<srccontr>Attribute data</srccontr>
-				<srctime>
-					<timeinfo>
-						<mdattim>
-							<sngdate>
-								<caldate>1997</caldate>
-							</sngdate>
-							<sngdate>
-								<caldate>2007</caldate>
-							</sngdate>
-						</mdattim>
-					</timeinfo>
-					<srccurr>ground condition</srccurr>
-				</srctime>
-			</srcinfo>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<title>Dynamap/Census Boundaries v4.0</title>
-						<origin>Tele Atlas North America, Inc.</origin>
-						<pubdate>200201</pubdate>
-						<edition>Version 4.0</edition>
-						<geoform>vector digital data</geoform>
-						<serinfo>
-							<sername>Tele Atlas Dynamap/Census Boundaries</sername>
-							<issue>v4.0</issue>
-						</serinfo>
-						<pubinfo>
-							<publish>Tele Atlas North America, Inc.</publish>
-							<pubplace>Lebanon, New Hampshire, USA</pubplace>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>100000</srcscale>
-				<typesrc>CD-ROM</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>200201</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>Tele Atlas Dynamap/Census Boundaries v4.0</srccitea>
-				<srccontr>Attribute and geospatial data</srccontr>
-			</srcinfo>
-			<procstep>
-				<srcused>ArcUSA 1:25M</srcused>
-				<srcused>Census SF1</srcused>
-				<srcused>ESRI Data - Updated Demographics</srcused>
-				<srcused>USDA Farm</srcused>
-				<srcused>Tele Atlas Dynamap/Census Boundaries v4.0</srcused>
-				<procdate>20020131</procdate>
-				<procdesc>The following steps were performed by ESRI for Data &amp; Maps 2002: Replaced demographic and agricultural attributes with the latest from 2000 Census SF1, ESRI Data, and 1997 Census of Agriculture.  Recreated ArcView GIS legend file (.avl) and ArcGIS layer file (.lyr).  Copied projection file (.prj).
-
-The following steps were performed by ESRI: Extracted and generalized the features from ArcUSA 1:25M.  Added demographic attributes from Summary Tape File-1A (STF-1A) data published by the U.S. Census Bureau based on the 1990 Census of Population. Added farm attributes from data published by the U.S. Census Bureau based on the 1987 Census of Agriculture.  Added Pop2000 attribute from ESRI.  Converted to North American Datum of 1983 (NAD83) by splitting the United States into-if present: Alaska, Hawaii, Puerto Rico, U.S. Virgin Islands-and the 48 contiguous states (including District of Columbia); converting each to NAD83; then merging them together.  Recalculated any attributes based on area.  Created ArcGIS layer file (.lyr).  Created ArcView GIS legend file (.avl).  Created projection file (.prj).  Ran ArcView GIS Avenue™ request ExportClean, and created spatial indices.</procdesc>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Copied the Molokai coastline from U.S. Counties (Generalized). Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices. Converted the data set to SDC.</procdesc>
-				<srcused>ESRI Data - Updated Demographics</srcused>
-				<procdate>20021010</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Replaced POP2001 with POP2003 from ESRI. Converted the data set to SDC. Created the projection file (.prj) and spatial indices.</procdesc>
-				<procdate>20040311</procdate>
-				<srcused>ESRI Data - Updated Demographics</srcused>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Renamed attribute AREA to SQMI, moved it to the end of the attributes, and rounded its values to the nearest whole number. Replaced attribute POP2003 with POP2004. Added attribute POP04_SQMI and calculated its values.</procdesc>
-				<procdate>20050307</procdate>
-				<srcused>ESRI Data - Updated Demographics</srcused>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Replaced attribute POP2004 with POP2005 and attribute POP04_SQMI with POP05_SQMI. Expanded the values for attribute SUB_REGION. Changed POP00_SQMI to display its tenths place. Calculated new values for attributes POP00_SQMI, POP05_SQMI, and SQMI. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-				<srcused>ESRI Data - Updated Demographics</srcused>
-				<procdate>20060410</procdate>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Replaced attribute POP2005 with POP2007 and attribute POP05_SQMI with POP07_SQMI. Calculated new values for POP07_SQMI. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-				<procdate>20070718</procdate>
-				<srcused>ESRI Data - Updated Demographics</srcused>
-			</procstep>
-			<procstep>
-				<procdesc>The following steps were performed by ESRI: Replaced attribute POP2007 with POP2008 and attribute POP07_SQMI with POP08_SQMI. Calculated new values for POP08_SQMI. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-				<srcused>ESRI Data - Updated Demographics</srcused>
-				<procdate>20080922</procdate>
-			</procstep>
-			<procstep>
-				<srcused>ESRI Data - Updated Demographics</srcused>
-				<procdesc>The following steps were performed by ESRI: Replaced attribute POP2008 with POP2009 and attribute POP08_SQMI with POP09_SQMI. Calculated new values for POP09_SQMI. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-				<srcused>USDA Farm</srcused>
-				<procdate>20090901</procdate>
-			</procstep>
-			<procstep>
-				<procdate>20100511</procdate>
-				<procdesc>The following steps were performed by ESRI: Copied 2009 Data Update U.S. States (Generalized) and renamed it. Removed all fields but STATE_NAME. Attached and formatted the fields from Edition 10 U.S. States. Converted the data set to SDC. Created ArcGIS layer file (.lyr), projection file (.prj), and spatial indices.</procdesc>
-			</procstep>
-		</lineage>
-		<posacc>
-			<horizpa>
-				<horizpar>The geospatial part of this data set was extracted from the ArcUSA 1:25M database, and then generalized. Generalizing reduces positional accuracy and the tolerance was not recorded so the positional accuracy exceeds that of the ArcUSA data set. The positional accuracy of the ArcUSA 1:25M data set is 1792 meters which is based on generalizing-to a tolerance of 500 meters-the 1:2,000,000-scale USGS Digital Line Graph (DLG) source data.</horizpar>
-			</horizpa>
-		</posacc>
-		<logic>The shapefile is converted to SDC (Smart Data Compression) format using either tools in ArcGIS or ESRI SDC Data Development Kit Professional 2 (DDKP2).  The SDC data set is then imported into a file geodatabase to verify and validate the geometry.</logic>
-		<complete>After processing, the data set is checked for drawing display and number of records and file sizes compared with source materials.</complete>
-	</dataqual>
+	<metainfo>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metd>20110729</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+					<cntper>GIS/Metadata Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>420 W. 118th St. 215 IAB, MC 3301</address>
+					<city>New York</city>
+					<state>NY</state>
+					<postal>10027</postal>
+				</cntaddr>
+				<cntvoice>(212) 854-6012</cntvoice>
+				<cntemail>data@library.columbia.edu</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
 </metadata>

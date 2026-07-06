@@ -35,303 +35,310 @@
 			<bounding>
 				<westbc>
 -122.004005</westbc>
-				<eastbc>
+					<eastbc>
 177.989563</eastbc>
-				<northbc>
+						<northbc>
 58.549473</northbc>
-				<southbc>
+							<southbc>
 -45.661942</southbc>
-			</bounding>
-		</spdom>
-		<keywords>
-			<theme>
-				<themekt>ISO 19115 Topic Category</themekt>
-				<themekey>inlandWaters</themekey>
-				<themekey>inlandWaters</themekey>
-				<themekey>structure</themekey>
-			</theme>
-			<theme>
-				<themekt>None</themekt>
-				<themekey>Canals</themekey>
-				<themekey>aqueducts</themekey>
-			</theme>
-			<place>
-				<placekt>GeoNames</placekt>
-				<placekey>Earth (6295630)</placekey>
-			</place>
-			<place>
-				<placekt>Library of Congress Subject Headings</placekt>
-				<placekey>World</placekey>
-			</place>
-			<temporal>
-				<tempkt>None</tempkt>
-				<tempkey>1997</tempkey>
-			</temporal>
-		</keywords>
-		<accconst>For current Columbia affiliates only.</accconst>
-		<useconst>For educational, non-commercial use only.</useconst>
-		<ptcontac>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>PO Box 261961</address>
-					<city>Highlands Ranch</city>
-					<state>CO</state>
-					<postal>80163-1951</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>303-790-9730</cntvoice>
-				<cntemail>sales@landinfo.com</cntemail>
-			</cntinfo>
-		</ptcontac>
-		<browse>
-			<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/World_AquaCanals_LINES.jpg</browsen>
-			<browsed>Thumbnail Image</browsed>
-			<browset>JPEG</browset>
-		</browse>
-		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.6.1500</native>
-	</idinfo>
-	<dataqual>
-		<attracc>
-			<attraccr>100 percent of attribute codes were reviewed against the source manuscripts. No formal effort was undertaken to develop a quantitative attribute accuracy statement</attraccr>
-		</attracc>
-		<logic>All data were found to be topologically correct. No duplicate features are present. All areas are completely described as depicted on the source manuscripts. No undershoots or overshoots are present. All data were consistently captured using the rules described in the narrative associated with the Data Quality Table and in the various feature table narrative files present at the coverage level within the library.</logic>
-		<complete>100 percent of features depicted on the ONC source materials have been captured. 100 percent of the features have valid attribute codes assigned to them.</complete>
-		<posacc>
-			<horizpa>
-				<horizpar>The Horizontal Positional Accuracy Value represents overall accuracy. Source chart-specific accuracies are available as area feature attributes in the VMap-0 data quality coverage. The primary accuracy analysis was performed on one chart only in the prototyping phase of the DCW project. Horizontal Positional Accuracy is expressed in meters. Detailed horizontal accuracy figures were developed by comparing the positions of well-defined points in the roads, railroads, utility lines, and drainage coverages against sources of higher accuracy, measuring the offsets, and expressing differences as a Circular Map Accuracy figure at a 90% confidence interval. This figure was independently verified by adding known production errors to source chart accuracies in a root sum square calculation.</horizpar>
-			</horizpa>
-			<vertacc>
-				<vertaccr>This figure represents overall accuracy. Source chart-specific accuracies are available as area feature attributes in the V-Map 0 data quality coverage. Vertical Positional Accuracy is expressed in meters. Vertical accuracy figures were developed by comparing elevation contour locations on 1:24,000 scale maps to elevation values at the same location within the digital database. Some manual interpolation was necessary to complete this test. The analysis results are expressed as linear error at a 90% confidence interval.</vertaccr>
-			</vertacc>
-		</posacc>
-		<lineage>
-			<srcinfo>
-				<srccite>
-					<citeinfo>
-						<origin>United States. National Imagery and Mapping Agency</origin>
-						<pubdate>1994</pubdate>
-						<title>Operational Navigational Chart</title>
-						<pubinfo>
-							<pubplace>St. Louis, MO</pubplace>
-							<publish>National Imagery and Mapping Agency</publish>
-						</pubinfo>
-					</citeinfo>
-				</srccite>
-				<srcscale>1000000</srcscale>
-				<typesrc>stable-base material</typesrc>
-				<srctime>
-					<timeinfo>
-						<sngdate>
-							<caldate>1994</caldate>
-						</sngdate>
-					</timeinfo>
-					<srccurr>publication date</srccurr>
-				</srctime>
-				<srccitea>ONC</srccitea>
-				<srccontr>All information found on the source with the exception of aeronautical data</srccontr>
-			</srcinfo>
-			<procstep>
-				<procdesc>For the first edition DCW, stable-based positives were produced from the original reproduction negatives (up to 35 per ONC sheet). These were digitized either through a scanning-raster to vector conversion or hand digitized into vector form. The vector data was then tagged with attribute information using ARC-INFO software. Transformation to geographic coordinates was performed using the projection graticules for each sheet. Digital information was edge matched between sheets to create large regional datasets. These were then subdivided into 5 x 5 degree tiles and converted from ARC/INFO to VPF. The data was then pre-mastered for CD-ROM. QC was performed by a separate group for each step in the production process.</procdesc>
-				<procdate>1991</procdate>
-				<proccont>
-					<cntinfo>
-						<cntorgp>
-							<cntorg>Environmental Systems Research Institute</cntorg>
-						</cntorgp>
-						<cntaddr>
-							<addrtype>mailing and physical address</addrtype>
-							<address>380 New York St.</address>
-							<city>Redlands</city>
-							<state>CA</state>
-							<postal>92373</postal>
-							<country>USA</country>
-						</cntaddr>
-						<cntvoice>909-793-2853</cntvoice>
-						<cntfax>909-307-3025</cntfax>
-					</cntinfo>
-				</proccont>
-			</procstep>
-			<procstep>
-				<procdesc>Data transferred digitally directly into the VPF files.</procdesc>
-				<procdate>1994</procdate>
-				<proccont>
-					<cntinfo>
-						<cntorgp>
-							<cntorg>Geonex Corporation</cntorg>
-						</cntorgp>
-						<cntaddr>
-							<addrtype>mailing and physical address</addrtype>
-							<address>8950 North 9th Ave.</address>
-							<city>St. Petersburg</city>
-							<state>FL</state>
-							<postal>33702</postal>
-							<country>USA</country>
-						</cntaddr>
-						<cntvoice>813-578-0100</cntvoice>
-						<cntfax>813-577-6946</cntfax>
-					</cntinfo>
-				</proccont>
-			</procstep>
-			<procstep>
-				<procdesc>VPF files converted into Shapefile format</procdesc>
-				<procdate>Unknown</procdate>
-				<proccont>
-					<cntinfo>
-						<cntorgp>
-							<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
-						</cntorgp>
-						<cntaddr>
-							<addrtype>mailing address</addrtype>
-							<address>PO Box 261961</address>
-							<city>Highlands Ranch</city>
-							<state>CO</state>
-							<postal>80163-1951</postal>
-							<country>USA</country>
-						</cntaddr>
-						<cntvoice>303-790-9730</cntvoice>
-						<cntemail>sales@landinfo.com</cntemail>
-					</cntinfo>
-				</proccont>
-			</procstep>
-		</lineage>
-	</dataqual>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf>
-			<sdtsterm>
-				<sdtstype>String</sdtstype>
-				<ptvctcnt>3394</ptvctcnt>
-			</sdtsterm>
-		</ptvctinf>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.000000</latres>
-				<longres>0.000000</longres>
-				<geogunit>Decimal degrees</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<eainfo>
-		<detailed>
-			<enttyp>
-				<enttypl>
+							</bounding>
+						</spdom>
+						<keywords>
+							<theme>
+								<themekt>ISO 19115 Topic Category</themekt>
+								<themekey>inlandWaters</themekey>
+								<themekey>inlandWaters</themekey>
+								<themekey>structure</themekey>
+							</theme>
+							<theme>
+								<themekt>None</themekt>
+								<themekey>Canals</themekey>
+								<themekey>aqueducts</themekey>
+							</theme>
+							<place>
+								<placekt>GeoNames</placekt>
+								<placekey>Earth (6295630)</placekey>
+							</place>
+							<place>
+								<placekt>Library of Congress Subject Headings</placekt>
+								<placekey>World</placekey>
+							</place>
+							<temporal>
+								<tempkt>None</tempkt>
+								<tempkey>1997</tempkey>
+							</temporal>
+						</keywords>
+						<accconst>For current Columbia affiliates only.</accconst>
+						<useconst>For educational, non-commercial use only.</useconst>
+						<ptcontac>
+							<cntinfo>
+								<cntorgp>
+									<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
+								</cntorgp>
+								<cntaddr>
+									<addrtype>mailing address</addrtype>
+									<address>PO Box 261961</address>
+									<city>Highlands Ranch</city>
+									<state>CO</state>
+									<postal>80163-1951</postal>
+									<country>USA</country>
+								</cntaddr>
+								<cntvoice>303-790-9730</cntvoice>
+								<cntemail>sales@landinfo.com</cntemail>
+							</cntinfo>
+						</ptcontac>
+						<browse>
+							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/World_AquaCanals_LINES.jpg</browsen>
+							<browsed>Thumbnail Image</browsed>
+							<browset>JPEG</browset>
+						</browse>
+						<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.6.1500</native>
+					</idinfo>
+					<dataqual>
+						<attracc>
+							<attraccr>100 percent of attribute codes were reviewed against the source manuscripts. No formal effort was undertaken to develop a quantitative attribute accuracy statement</attraccr>
+						</attracc>
+						<logic>All data were found to be topologically correct. No duplicate features are present. All areas are completely described as depicted on the source manuscripts. No undershoots or overshoots are present. All data were consistently captured using the rules described in the narrative associated with the Data Quality Table and in the various feature table narrative files present at the coverage level within the library.</logic>
+						<complete>100 percent of features depicted on the ONC source materials have been captured. 100 percent of the features have valid attribute codes assigned to them.</complete>
+						<posacc>
+							<horizpa>
+								<horizpar>The Horizontal Positional Accuracy Value represents overall accuracy. Source chart-specific accuracies are available as area feature attributes in the VMap-0 data quality coverage. The primary accuracy analysis was performed on one chart only in the prototyping phase of the DCW project. Horizontal Positional Accuracy is expressed in meters. Detailed horizontal accuracy figures were developed by comparing the positions of well-defined points in the roads, railroads, utility lines, and drainage coverages against sources of higher accuracy, measuring the offsets, and expressing differences as a Circular Map Accuracy figure at a 90% confidence interval. This figure was independently verified by adding known production errors to source chart accuracies in a root sum square calculation.</horizpar>
+							</horizpa>
+							<vertacc>
+								<vertaccr>This figure represents overall accuracy. Source chart-specific accuracies are available as area feature attributes in the V-Map 0 data quality coverage. Vertical Positional Accuracy is expressed in meters. Vertical accuracy figures were developed by comparing elevation contour locations on 1:24,000 scale maps to elevation values at the same location within the digital database. Some manual interpolation was necessary to complete this test. The analysis results are expressed as linear error at a 90% confidence interval.</vertaccr>
+							</vertacc>
+						</posacc>
+						<lineage>
+							<srcinfo>
+								<srccite>
+									<citeinfo>
+										<origin>United States. National Imagery and Mapping Agency</origin>
+										<pubdate>1994</pubdate>
+										<title>Operational Navigational Chart</title>
+										<pubinfo>
+											<pubplace>St. Louis, MO</pubplace>
+											<publish>National Imagery and Mapping Agency</publish>
+										</pubinfo>
+									</citeinfo>
+								</srccite>
+								<srcscale>1000000</srcscale>
+								<typesrc>stable-base material</typesrc>
+								<srctime>
+									<timeinfo>
+										<sngdate>
+											<caldate>1994</caldate>
+										</sngdate>
+									</timeinfo>
+									<srccurr>publication date</srccurr>
+								</srctime>
+								<srccitea>ONC</srccitea>
+								<srccontr>All information found on the source with the exception of aeronautical data</srccontr>
+							</srcinfo>
+							<procstep>
+								<procdesc>For the first edition DCW, stable-based positives were produced from the original reproduction negatives (up to 35 per ONC sheet). These were digitized either through a scanning-raster to vector conversion or hand digitized into vector form. The vector data was then tagged with attribute information using ARC-INFO software. Transformation to geographic coordinates was performed using the projection graticules for each sheet. Digital information was edge matched between sheets to create large regional datasets. These were then subdivided into 5 x 5 degree tiles and converted from ARC/INFO to VPF. The data was then pre-mastered for CD-ROM. QC was performed by a separate group for each step in the production process.</procdesc>
+								<procdate>1991</procdate>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>Environmental Systems Research Institute</cntorg>
+										</cntorgp>
+										<cntaddr>
+											<addrtype>mailing and physical address</addrtype>
+											<address>380 New York St.</address>
+											<city>Redlands</city>
+											<state>CA</state>
+											<postal>92373</postal>
+											<country>USA</country>
+										</cntaddr>
+										<cntvoice>909-793-2853</cntvoice>
+										<cntfax>909-307-3025</cntfax>
+									</cntinfo>
+								</proccont>
+							</procstep>
+							<procstep>
+								<procdesc>Data transferred digitally directly into the VPF files.</procdesc>
+								<procdate>1994</procdate>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>Geonex Corporation</cntorg>
+										</cntorgp>
+										<cntaddr>
+											<addrtype>mailing and physical address</addrtype>
+											<address>8950 North 9th Ave.</address>
+											<city>St. Petersburg</city>
+											<state>FL</state>
+											<postal>33702</postal>
+											<country>USA</country>
+										</cntaddr>
+										<cntvoice>813-578-0100</cntvoice>
+										<cntfax>813-577-6946</cntfax>
+									</cntinfo>
+								</proccont>
+							</procstep>
+							<procstep>
+								<procdesc>VPF files converted into Shapefile format</procdesc>
+								<procdate>Unknown</procdate>
+								<proccont>
+									<cntinfo>
+										<cntorgp>
+											<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
+										</cntorgp>
+										<cntaddr>
+											<addrtype>mailing address</addrtype>
+											<address>PO Box 261961</address>
+											<city>Highlands Ranch</city>
+											<state>CO</state>
+											<postal>80163-1951</postal>
+											<country>USA</country>
+										</cntaddr>
+										<cntvoice>303-790-9730</cntvoice>
+										<cntemail>sales@landinfo.com</cntemail>
+									</cntinfo>
+								</proccont>
+							</procstep>
+						</lineage>
+					</dataqual>
+					<spdoinfo>
+						<direct>Vector</direct>
+						<ptvctinf>
+							<sdtsterm>
+								<sdtstype>String</sdtstype>
+								<ptvctcnt>3394</ptvctcnt>
+							</sdtsterm>
+						</ptvctinf>
+					</spdoinfo>
+					<spref>
+						<horizsys>
+							<geograph>
+								<latres>0.000000</latres>
+								<longres>0.000000</longres>
+								<geogunit>Decimal degrees</geogunit>
+							</geograph>
+							<geodetic>
+								<horizdn>D_WGS_1984</horizdn>
+								<ellips>WGS_1984</ellips>
+								<semiaxis>6378137.000000</semiaxis>
+								<denflat>298.257224</denflat>
+							</geodetic>
+						</horizsys>
+					</spref>
+					<eainfo>
+						<detailed>
+							<enttyp>
+								<enttypl>
 World_AquaCanals_LINES</enttypl>
-				<enttypd>Canals</enttypd>
-			</enttyp>
-			<attr>
-				<attrlabl>FID</attrlabl>
-				<attrdef>Internal feature number.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Sequential unique whole numbers that are automatically generated.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>Shape</attrlabl>
-				<attrdef>Feature geometry.</attrdef>
-				<attrdefs>ESRI</attrdefs>
-				<attrdomv>
-					<udom>Coordinates defining the features.</udom>
-				</attrdomv>
-			</attr>
-			<attr>
-				<attrlabl>LAYER</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>NAM</attrlabl>
-				<attrdef>Name</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>TILE_ID</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>EXSdesc</attrlabl>
-				<attrdef>Existence Category Description</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>LOC</attrlabl>
-				<attrdef>Location Category</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>EXS</attrlabl>
-				<attrdef>Existence Category</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>ID</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>F_CODE</attrlabl>
-				<attrdef>FACC Feature Code</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>F_CODEdesc</attrlabl>
-				<attrdef>FACC Feature Code Description</attrdef>
-			</attr>
-			<attr>
-				<attrlabl>EDG_ID</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>NAMdesc</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>LOCdesc</attrlabl>
-			</attr>
-		</detailed>
-	</eainfo>
-	<distinfo>
-		<distrib>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing address</addrtype>
-					<address>PO Box 261961</address>
-					<city>Highlands Ranch</city>
-					<state>CO</state>
-					<postal>80163-1961</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>303-790-9730</cntvoice>
-				<cntemail>sales@landinfo.com</cntemail>
-			</cntinfo>
-		</distrib>
-		<resdesc>landinfo_world_acquducts_1997</resdesc>
-		<stdorder><digform><digtinfo><formname>Geopackage</formname></digtinfo></digform></stdorder></distinfo>
-	<metainfo>
-		<metd>20081113</metd>
-		<metc>
-			<cntinfo>
-				<cntorgp>
-					<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
-					<cntper>GIS/Metadata Librarian</cntper>
-				</cntorgp>
-				<cntaddr>
-					<addrtype>mailing and physical address</addrtype>
-					<address>420 W. 118th St., 215 IAB, MC 3301</address>
-					<city>New York</city>
-					<state>NY</state>
-					<postal>10027</postal>
-					<country>USA</country>
-				</cntaddr>
-				<cntvoice>(212)854-6012</cntvoice>
-				<cntemail>data@library.columbia.edu</cntemail>
-			</cntinfo>
-		</metc>
-		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-</metadata>
+									<enttypd>Canals</enttypd>
+								</enttyp>
+								<attr>
+									<attrlabl>FID</attrlabl>
+									<attrdef>Internal feature number.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Sequential unique whole numbers that are automatically generated.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>Shape</attrlabl>
+									<attrdef>Feature geometry.</attrdef>
+									<attrdefs>ESRI</attrdefs>
+									<attrdomv>
+										<udom>Coordinates defining the features.</udom>
+									</attrdomv>
+								</attr>
+								<attr>
+									<attrlabl>LAYER</attrlabl>
+								</attr>
+								<attr>
+									<attrlabl>NAM</attrlabl>
+									<attrdef>Name</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>TILE_ID</attrlabl>
+								</attr>
+								<attr>
+									<attrlabl>EXSdesc</attrlabl>
+									<attrdef>Existence Category Description</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>LOC</attrlabl>
+									<attrdef>Location Category</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>EXS</attrlabl>
+									<attrdef>Existence Category</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>ID</attrlabl>
+								</attr>
+								<attr>
+									<attrlabl>F_CODE</attrlabl>
+									<attrdef>FACC Feature Code</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>F_CODEdesc</attrlabl>
+									<attrdef>FACC Feature Code Description</attrdef>
+								</attr>
+								<attr>
+									<attrlabl>EDG_ID</attrlabl>
+								</attr>
+								<attr>
+									<attrlabl>NAMdesc</attrlabl>
+								</attr>
+								<attr>
+									<attrlabl>LOCdesc</attrlabl>
+								</attr>
+							</detailed>
+						</eainfo>
+						<distinfo>
+							<distrib>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>LAND INFO Worldwide Mapping, LLC</cntorg>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing address</addrtype>
+										<address>PO Box 261961</address>
+										<city>Highlands Ranch</city>
+										<state>CO</state>
+										<postal>80163-1961</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>303-790-9730</cntvoice>
+									<cntemail>sales@landinfo.com</cntemail>
+								</cntinfo>
+							</distrib>
+							<resdesc>landinfo_world_acquducts_1997</resdesc>
+							<stdorder>
+								<digform>
+									<digtinfo>
+										<formname>Geopackage</formname>
+									</digtinfo>
+								</digform>
+							</stdorder>
+						</distinfo>
+						<metainfo>
+							<metd>20081113</metd>
+							<metc>
+								<cntinfo>
+									<cntorgp>
+										<cntorg>Research Data Services (RDS), Columbia University Libraries</cntorg>
+										<cntper>GIS/Metadata Librarian</cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype>mailing and physical address</addrtype>
+										<address>420 W. 118th St., 215 IAB, MC 3301</address>
+										<city>New York</city>
+										<state>NY</state>
+										<postal>10027</postal>
+										<country>USA</country>
+									</cntaddr>
+									<cntvoice>(212)854-6012</cntvoice>
+									<cntemail>data@library.columbia.edu</cntemail>
+								</cntinfo>
+							</metc>
+							<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+							<metstdv>FGDC-STD-001-1998</metstdv>
+							<mettc>local time</mettc>
+						</metainfo>
+					</metadata>

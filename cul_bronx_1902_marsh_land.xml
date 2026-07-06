@@ -56,7 +56,8 @@
 			<theme>
 				<themekt>ISO 19115 Topic Category</themekt>
 				<themekey>imageryBaseMapsEarthCover</themekey>
-				<themekey>biota</themekey></theme>
+				<themekey>biota</themekey>
+			</theme>
 		</keywords>
 		<descript>
 			<purpose>This map set was digitized for general use.  This dataset may be used in a GIS.</purpose>
@@ -151,12 +152,33 @@ Includes ill.</othercit>
 			</srcinfo>
 		</lineage>
 	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>120</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn>D_WGS_1984</horizdn>
+				<ellips>WGS_1984</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
 	<eainfo>
 		<detailed Name="aquaduct">
 			<enttyp>
 				<enttypt>Feature Class</enttypt>
 				<enttypc>0</enttypc>
-				<enttypl>marsh_land</enttypl><enttypd>marsh area</enttypd></enttyp>
+				<enttypl>marsh_land</enttypl>
+				<enttypd>marsh area</enttypd>
+			</enttyp>
 			<attr>
 				<attrlabl>OBJECTID</attrlabl>
 				<attalias>OBJECTID</attalias>
@@ -271,17 +293,4 @@ Includes ill.</othercit>
 		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
 		<metstdv>FGDC-STD-001-1998</metstdv>
 	</metainfo>
-	<spdoinfo>
-		<direct>Vector</direct>
-		<ptvctinf><sdtsterm><sdtstype>G-polygon</sdtstype><ptvctcnt>120</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
-		<spref>
-		<horizsys>
-			<geodetic>
-				<horizdn>D_WGS_1984</horizdn>
-				<ellips>WGS_1984</ellips>
-				<semiaxis>6378137.000000</semiaxis>
-				<denflat>298.257224</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
 </metadata>
