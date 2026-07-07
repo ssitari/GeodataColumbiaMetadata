@@ -3,6 +3,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>United States 111th Congressional Districts represents the political boundaries for the U.S. 111th congressional districts. The membership is current as of February 25, 2009.</abstract>
 			<purpose>United States 111th Congressional Districts provides the locations of congressional districts, primarily for national planning applications.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:1,000,000.
@@ -443,9 +444,9 @@ Line simplification and smoothing was performed with a tolerance of 0.005 decima
 			<digform>
 				<digtinfo>
 					<transize>3.478</transize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt/>
 			</digform>

@@ -4,7 +4,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; Esri ArcCatalog 9.3.1.3500</native>
 		<descript>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 			<abstract>United States Hospitals is a point theme representing Hospitals in the United States. </abstract>
 			<purpose>Geographic Names Information System, of which U.S. Geographic Names Information System Hospitals is a part, is the official repository of domestic geographic names data; the official vehicle for geographic names use by all departments of the Federal Government; and the source for applying geographic names to Federal electronic and printed products of all types in the United States. The feature locative information has been used in emergency preparedness, marketing, site-selection and analysis, genealogical and historical research, and transportation routing applications.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:24,000.</supplinf>
@@ -324,9 +324,9 @@ The source data is based upon the use of printed or electronic source graphics w
 				<digtinfo>
 					<transize>0.480</transize>
 					<dssize>0.480</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt>
 					<offoptn>

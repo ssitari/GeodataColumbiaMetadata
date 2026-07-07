@@ -15,6 +15,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>The data included in the GIS Traffic Stations Version database have been collected by the FHWA from the State DOTs. Location referencing information was derived from State offices of Transportation The attributes on the point elements of the database are used by FHWA for its Travel Monitoring and Analysis System and by State DOTs. The attributes for these databases have been intentionally limited to location referencing attributes since the core station description attribute data are contained within the Station Description Tables (SDT). here is a separate Station Description Table (SDT) for each of the station types. The attributes in the Station Description Table correspond with the Station Description Record found in Chapter 6 of the latest Traffic Monitoring Guide. The SDT contains the most recent stations available for each state and station type. This table was derived from files provided UTCTR by FHWA. The Station Description Table can be linked to the station shapefile via the STNNKEY field. Some station where not located in the US, and were beyond available geographic extents causing display problems. These were moved to Lat and Long 0,0. This is in recognition that the locations of these stations where in error, but were moved to a less obtrusive area.</abstract>
 			<purpose>Data from ATR stations (recored in this database) are used in the TVT system to process the continuous traffic volume data and produce the monthly Traffic Volume Trends report. The VTRIS is used to process the vehicle classification and truck weight data collected as part of the annual Truck Weight Study. Both are microcomputer database management systems that process, validate, summarize, and maintain traffic data. TVT and VTRIS may be used by anyone with data in the formats described in this section and can be retrieved from the FHWA web site at http://www.fhwa.dot.gov/ohim/tvtw/tvtwpage.htm The data collection program has been approved by the Office of Management and Budget, OMB # 2125-0587, and has a current expiration date of April 30, 2004.</purpose>
 		</descript>
@@ -978,6 +979,7 @@
 		<digform>
 			<digtinfo>
 				<formname>GeoPackage</formname>
+				<transize>TBD</transize>
 			</digtinfo>
 		</digform>
 	</stdorder>

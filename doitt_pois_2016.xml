@@ -18,7 +18,7 @@
 <abstract>New York City Points of Interest, 2016 is a point theme representing points of interest in New York City as of 2016. Point of Interest (aka Common Place) are point representations of locations that can be referred to by name and may or may not have an address. The data is a compilation of a variety of agency data and is a component of the CSCL database.
 Columbia Libraries staff downloaded this dataset from NYC Open Data at https://data.cityofnewyork.us/City-Government/Points-Of-Interest/rxuy-2muj and reformatted to the geopackage format in September of 2023.  Additional information about the data may be found at https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_PointsOfInterest.md</abstract>
 			<purpose>Use of the data is for analytic and cartographic purposes.</purpose>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 		</descript>
 		<timeperd>
 			<timeinfo>
@@ -379,6 +379,7 @@ DOE = NYC Dept. of Education</attrdef>
 				<digtinfo>
 					<formname>GeoPackage</formname>
 					<formspec>zip</formspec>
+					<transize>TBD</transize>
 				</digtinfo>
 			</digform>
 		</stdorder>

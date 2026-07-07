@@ -4,7 +4,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; Esri ArcCatalog 9.1.0.722</native>
 		<descript>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 			<abstract>United States Rivers and Streams is a line theme representing detailed rivers and streams in the United States.</abstract>
 			<purpose>United States Rivers and Streams provides a database of linear water features that interconnects and identifies the stream segments or reaches that comprise the surface water drainage system of United States.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:24,000.</supplinf>
@@ -472,9 +472,9 @@ Deleted name and GNIS Id values from NHD features where GNIS feature type is val
 				<digtinfo>
 					<transize>293.265</transize>
 					<dssize>293.265</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt>
 					<offoptn>

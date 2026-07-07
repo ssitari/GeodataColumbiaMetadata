@@ -20,6 +20,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>Tokelau World Gazetteer Locations is a point theme representing the locations and proper names for map features in Tokelau. The gazetteer includes attribute and annotation name information from various layers of the Digital Chart of the World.</abstract>
 			<purpose>Tokelau World Gazetteer Locations provides a base map layer that may be used to find locations by their proper name in Tokelau. The categories include airports, coastal features, drainage features, land features, ocean features, islands, political features, and populated places.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:1,000,000.</supplinf>
@@ -445,9 +446,9 @@ Outside the United States, please direct all inquiries to your local ESRI Intern
 							<stdorder>
 								<digform>
 									<digtinfo>
-										<formname>SDC</formname>
-										<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
-										<filedec>ArcGIS software</filedec>
+										<formname>GeoPackage</formname>
+										
+										
 										<transize>3.766</transize>
 									</digtinfo>
 									<digtopt>

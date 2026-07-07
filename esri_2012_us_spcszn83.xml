@@ -4,7 +4,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; Esri ArcCatalog 9.1.0.706</native>
 		<descript>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 			<abstract>United States State Plane Zones (NAD 1983) represents the State Plane Coordinate System (SPCS) Zones for the 1983 North American Datum within United States. Several State Plane Coordinate System zones are not shown in this dataset, including Puerto Rico, the U.S. Virgin Islands, American Samoa, Guam, and Louisiana's offshore zone.</abstract>
 			<purpose>United States State Plane Zones (NAD 1983)) is generalized and an approximation of the actual State Plane Coordinate System zone boundaries for the 1983 North American Datum.  It is intended for visual reference at small and medium map scales.  Please check with state authorities if you have a question about a zone boundary.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:5,000,000.</supplinf>
@@ -347,9 +347,9 @@ The following steps were performed by Esri: Downloaded the ArcView GIS Shapefile
 				<digtinfo>
 					<transize>0.077</transize>
 					<dssize>0.077</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt>
 					<offoptn>

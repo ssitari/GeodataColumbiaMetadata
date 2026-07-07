@@ -29,6 +29,7 @@
 			</bounding>
 		</spdom>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>
 New York City NYPD Complaint Data, 2023 is a point theme representing each complaint call that NYPD has received 2023. This dataset was derived from NYC Open Data (https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i) in July 2024. Each record represents a criminal complaint in NYC and includes information about the type of crime, the location and time of enforcement. In addition, information related to victim and suspect demographics is also included. Columbia Libraries staff extracted each half year's records and converted them to geopackage format by state plane x/y coordinates. Some records lack geolocation information, and they have coordinates 0,0. Columbia Libraries staff has provided the data in the geopackage format, and a codebook and a has been included in the download package. A penal law codebook provided by NYC Open Data is also included.
 			</abstract>
@@ -107,6 +108,7 @@ New York City NYPD Complaint Data, 2023 is a point theme representing each compl
 			<digtinfo>
 				<formname>GeoPackage</formname>
 				<formspec>zip</formspec>
+				<transize>TBD</transize>
 			</digtinfo>
 		</digform>
 	</stdorder>

@@ -47,6 +47,8 @@
 			</bounding>
 		</spdom>
 		<descript>
+			<langdata>eng</langdata>
+			<langdata>spa</langdata>
 			<abstract>
 Nicaragua Housing Census Data, 1995 is a polygon theme representing Barios (4th level administrative units) in Nicaragua. Attribute information includes housing data from the 1995 census.
 Official population and housing data for Nicaragua from the 1995 census. This census is provided at the barrio administrative level (ADM4) and includes 8,136 polygons with 353 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo: Hombres" was updated to D001 and given the alias "Sex: Men [Hombres]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
@@ -1877,6 +1879,7 @@ Official population and housing data for Nicaragua from the 1995 census. This ce
 			<digtinfo>
 				<formname>GeoPackage</formname>
 				<formspec>zip</formspec>
+				<transize>TBD</transize>
 			</digtinfo>
 		</digform>
 	</stdorder>

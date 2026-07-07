@@ -18,7 +18,7 @@
 <abstract>New York City Shoreline, 2017 is a line theme representing the shoreline in New York City as of 2017. This dataset derived from the 2017 Light Detection and Ranging (LiDAR) data capture. In most areas LiDAR was captured during low tide (defined here as a range between Mean Lower Low Water (MLLW) and MLLW + 30% of the mean tide range). All bathymetric LiDAR and most near-infrared (NIR) LiDAR was captured during low tide. Flights flown over NIR LiDAR shoreline areas that are largely made up of sea walls and riprap were not flown during low tide. See dataset attributes for which areas are tidally-coordinated. Tidal gauges used to determine low tide: Kings Point, Bergen West, Sandy Hook, and The Battery.
 Columbia Libraries staff downloaded this dataset from NYC Open Data at https://data.cityofnewyork.us/Environment/Tidally-Coordinated-Shoreline/pawq-tjb4 and reformatted to the geopackage format in September of 2023.  Additional information about the data may be found at https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_TidalShoreline.md </abstract>
 			<purpose>Use of the data is for analytic and cartographic purposes.</purpose>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 		</descript>
 		<timeperd>
 			<timeinfo>
@@ -149,6 +149,7 @@ Columbia Libraries staff downloaded this dataset from NYC Open Data at https://d
 				<digtinfo>
 					<formname>GeoPackage</formname>
 					<formspec>zip</formspec>
+					<transize>TBD</transize>
 				</digtinfo>
 			</digform>
 		</stdorder>

@@ -15,6 +15,7 @@
 		</citeinfo>
 	</citation>
 	<descript>
+		<langdata>eng</langdata>
       <abstract> Chile Manzanas with Demographic Census Data, 2017 is a polygon theme representing Manzanas (6th level administrative units) in Chile as of 2017.  Attribute information includes official population and housing data for Chile from the 2017 census. This census is provided at the manzana administrative level (ADM6) and includes 151,545 polygons with 54 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "TOTAL_PERS" was updated to D001 and given the alias "Total Number of People[TOTAL_PERS]", the letter D was given as it relates to the Demographic theme table. D = Demographic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
 	</abstract>
 	<purpose>This dataset provides population statistics for Chile, with correlating administrative boundaries in vector format, for use in GIS software.</purpose>
@@ -274,6 +275,7 @@
 			<digtinfo>
 				<formname>GeoPackage</formname>
 				<formspec>zip</formspec>
+				<transize>TBD</transize>
 			</digtinfo>
 		</digform>
 	</stdorder>

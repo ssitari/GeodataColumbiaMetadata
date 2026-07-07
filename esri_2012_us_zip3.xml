@@ -4,7 +4,7 @@
 	<idinfo>
 		<native>Microsoft Windows Vista Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.3.1.4000</native>
 		<descript>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 			<abstract>United States Three -Digit ZIP Code Areas is a polygon theme representing  the first three digits of a ZIP Code. The first digit of a five-digit ZIP Code divides the United States into 10 large groups of states numbered from 0 in the Northeast to 9 in the far West. Within these areas, each state is divided into an average of 10 smaller geographic areas, identified by the second and third digits. These digits, in conjunction with the first digit, represent a sectional center facility or a mail processing facility area. These areas are serviced by the U.S. Post Office Sectional Center Facility (SCF). Note that a single SCF often services multiple three-digit areas.</abstract>
 			<purpose>United States Three -Digit ZIP Code Areas provides area and population for each three-digit ZIP Code area in the United States.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:50,000.</supplinf>
@@ -417,9 +417,9 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 				<digtinfo>
 					<transize>45.362</transize>
 					<dssize>45.362</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt>
 					<offoptn>

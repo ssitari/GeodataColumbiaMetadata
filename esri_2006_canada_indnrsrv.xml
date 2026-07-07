@@ -22,6 +22,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>Canada Indian Reserves represents the Indian Reserves within Canada.  The Indian Reserves are based on the National Atlas Information Service (NAIS) 1:2 million digital maps created by Natural Resources Canada for publishing of the National Atlas of Canada.</abstract>
 			<purpose>Canada Indian Reserves provides Indian Reserves with detail appropriate for national, regional, and provincial levels.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:1,000,000.</supplinf>
@@ -267,9 +268,9 @@ Outside the United States, please direct all inquiries to your local ESRI Intern
 							<stdorder>
 								<digform>
 									<digtinfo>
-										<formname>SDC</formname>
-										<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
-										<filedec>ArcGIS software</filedec>
+										<formname>GeoPackage</formname>
+										
+										
 										<transize>0.073</transize>
 									</digtinfo>
 									<digtopt>

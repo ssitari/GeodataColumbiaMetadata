@@ -28,6 +28,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>The hydro polygon/arc coverages were created using TIGER/LINE 2000 shapefile data gathered from ESRI's Geography Network. The individual county hydrography line shapefiles were processed into Arc/Info coverages and then appended together to create complete state coverages. They were then edited to remove unwanted features, leaving a state-by-state database of both important and navigable water features. Attributes were added to denote navigable features and names. Also, an attribute was added to the polygons to denote which were water and which were land features. The state databases were then appended together to create a single, nationwide hydrography network containing named arcs and polygons. These features also contain a state FIPS. Because some of the hydro features are represented by lines instead of polygons, the complete hydro dataset consists of 2 shapefiles, one for lines and one for polygons. They must be used together to paint a complete picture.</abstract>
 			<purpose>The RITA/BTS desires a single nationwide database that has polygons/attributes for major rivers and lakes, is consistent across state lines, and has the most accurate data available. This database will be used primarily for map production, basic queries, and will be distributed as part of the National Transportation Atlas Databases (NTAD) 2013.</purpose>
 			<supplinf>The RITA/BTS HYDRO Database contains TIGER 2000 geometry and attributes. UTCTR flagged this database to represent major water features and edited the geometry to insure polygons would fill for cartographic representation. To find out more about TIGER/Line files and other Census TIGER data base derived data sets visit http://www.census.gov/geo/www/tiger.</supplinf>
@@ -292,6 +293,7 @@
 			<digform>
 				<digtinfo>
 					<formname>GeoPackage</formname>
+					<transize>TBD</transize>
 				</digtinfo>
 
 				<digtopt>

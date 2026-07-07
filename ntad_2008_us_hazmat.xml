@@ -34,6 +34,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 <abstract>Hazardous Materials Routes is a line theme representing routs as described in the National Hazardous Material Route Registry (NMHRR). The on-line NMHRR linkage is http://hazmat.fmcsa.dot.gov/nhmrr/index.asp
 
 With the exception of 13 features that were not identified with the Tiger/Lines, Hazmat routes were created by extracting the TIGER/Line segments that corresponded to each individual route.  Hazmat routes in the NTAD, are organized into 3 database files, hazmat.shp, hmroutes.dbf, and hmstcnty.dbf.  Each record in each database represents a unique Tiger/Line segment.  These Tiger/Line segments are grouped into routes identified as character strings in the ROUTE_ID field in the hmroutes.dbf table.  The route name appearing in the ROUTE_ID is assigned by FMCSA and is unique for each State [this sentence could be deleted - it doesn't add a lot to it].  The hmstcnty.dbf table allows the user to select routes by State and County.  A single geopackage, called hazmat.shp, represents geometry for all routes in the United States.</abstract>
@@ -487,6 +488,7 @@ ROUTENUM - the route number of the related Hazmat feature.</eadetcit>
 									<digtinfo>
 										<formname>GeoPackage</formname>
 
+										<transize>TBD</transize>
 									</digtinfo>
 									<digtopt>
 									</digtopt>

@@ -4,7 +4,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; Esri ArcCatalog 9.3.0.1770</native>
 		<descript>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 			<abstract>United States Highways is a polyline theme representing the major and minor highways of the United States. These include interstates, U.S. highways, state highways, major roads, and minor roads. This dataset is a subset of the Streets dataset. It contains all Class 1, 2, and 3 road segments plus any other roads segments necessary to provide network connectivity for the Class_Rte field. Attribute information includes the highway type, class, direction and name. </abstract>
 			<purpose>United States Highways provides a subset of highways and roads from the Streets dataset for national, state, and regional display.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:100,000.</supplinf>
@@ -506,9 +506,9 @@ The level of positional accuracy in the StreetMap™ files is not suitable for h
 				<digtinfo>
 					<transize>37.439</transize>
 					<dssize>37.439</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt>
 					<offoptn>

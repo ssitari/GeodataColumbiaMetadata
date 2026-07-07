@@ -4,7 +4,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; Esri ArcCatalog 9.3.1.3500</native>
 		<descript>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 			<abstract>World Latitude and Longitude Grid is a polygon theme representing a 1- by 1-degree latitude-longitude grid covering the world with attributes that allow it to display grids at intervals of 1, 5, 10, 15, 20, and 30 degrees. To display a grid with a 1-degree interval, simply display all of the lines. To display a coarser grid (e.g., a 15-degree interval), in the Layer Properties dialog box, add the DEGREE15 attribute value equal to Y.</abstract>
 			<purpose>World Latitude and Longitude Grids provides latitude and longitude lines for use as an overlay for world-level maps.</purpose>
 		</descript>
@@ -381,9 +381,9 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 				<digtinfo>
 					<transize>0.914</transize>
 					<dssize>0.914</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt>
 					<offoptn>

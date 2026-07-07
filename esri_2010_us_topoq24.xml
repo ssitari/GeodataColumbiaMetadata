@@ -3,6 +3,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>United States Geological Survey (USGS) 1:24,000 Topographic Quadrangle Series Index is a polygon theme representing the geographic extent of USGS 1:24,000 topographic maps (7.5- by 7.5-minute quadrangles) for the coterminous U.S. forty-eight states and District of Columbia. This dataset is a part of the 2010 ESRI Data &amp; Maps collection</abstract>
 			<purpose>United States Geological Survey (USGS) 1:24,000 Topographic Quadrangle Series Index provides quadrangle name, identification number, publication data, and map coverage by state for each quadrangle. This large-scale index grid is appropriate for display at more detailed scales.</purpose>
 			<supplinf>This dataset comes with an ESRI layer file symbolizing the features.</supplinf>
@@ -413,9 +414,9 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			<digform>
 				<digtinfo>
 					<transize>2.168</transize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt/>
 			</digform>

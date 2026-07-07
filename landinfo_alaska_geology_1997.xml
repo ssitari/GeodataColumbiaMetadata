@@ -16,6 +16,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>Alaska Geologic Formations is a polygon theme representing geologic formations throughout Alaska.  This dataset consists of a polygon coverage and associated attribute data derived from the 1980 Geologic Map of Alaska compiled by H.M.  Beikman and published by the US Geological Survey.  The map is a regional summary of geologic formations and units that can be shown cartographically at 1:2,500,000.  This digital dataset includes all (184) map units from the original map.  182 are geologic units; the others are polygons for large glaciers and lakes. This coverage is not intended to be a complete representation of the printed geologic map.  It does NOT include the following features:  faults, locations of volcanoes or volcanic vents, the map explanation, correlation charts or description of map units.</abstract>
 			<purpose>This coverage is intended to provide digital features (polygons) representing generalized geologic units in Alaska for use in small-scale spatial analysis (statewide) with other coverages such as vegetation types, soils, geochemical values etc.</purpose>
 			<supplinf>The linework was digitized from a paper copy of the 1980 map at the EROS Data Center in Sioux Falls, South Dakota, and the resulting coverage (ARC/INFO version 5) transferred to the EROS Alaska Field Office.  Although the latitude/ longitude grid shown on the published Beikman map was an Albers equal area projection, the geologic polygons were not in the same projection since they did not align with an Albers equal area coverage of the Alaskan coastline.  A rubber-sheeting operation was performed on the geologic polygons using points along the coastline and major rivers to match an Albers equal area projection.  In 1997, this coverage was imported into ARC/INFO version 7.0.4, and edited by the Alaska Section, Geologic Divsion, USGS.  Map unit (polygon)locations and attributes were checked by three reviewers, by comparing a printed copy of the coverage to the original map.  Metadata were collected using document.aml v.  7.1.1, distributed by ESRI, Inc.</supplinf>
@@ -203,6 +204,7 @@ alaska_geo</enttypl>
 								<digform>
 									<digtinfo>
 										<formname>GeoPackage</formname>
+										<transize>TBD</transize>
 									</digtinfo>
 								</digform>
 							</stdorder>

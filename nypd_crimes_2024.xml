@@ -29,6 +29,7 @@
 			</bounding>
 		</spdom>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>
 New York City Crimes by Precinct, 2024 is a polygon theme representing police precincts in New York City in 2024.  Attribute information includes totals of felony, misdemeanor and violation incidents for the 2024 calendar year.  This dataset was derived from NYPD provided tables downloaded from the web site at: https://www.nyc.gov/site/nypd/stats/crime-statistics/historical.page in August 2025. The precinct boundaries are version 25a from New York City Planning as found on this web site: https://www.nyc.gov/content/planning/pages/resources/datasets/police-precincts in August 2025.  Columbia Libraries staff appended the crime statistics to the precinct boundaries and has provided the data in the geopackage format.  NOTE:  in mid-December of 2024 the 116th precinct was created in Queens County.  The geography and reported data from that precinct are provided here (this is why the geographies are derived from the 2025 boundary definitions) although it did not exist for the majority of the calendar year. Exaclty how the NYPD mediated the crime statistics for that and neighboring precincts is not documented on the download page. A codebook and has been included in the download package.
 			</abstract>
@@ -274,6 +275,7 @@ New York City Crimes by Precinct, 2024 is a polygon theme representing police pr
 			<digtinfo>
 				<formname>GeoPackage</formname>
 				<formspec>zip</formspec>
+				<transize>TBD</transize>
 			</digtinfo>
 		</digform>
 	</stdorder>

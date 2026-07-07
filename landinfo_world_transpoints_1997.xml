@@ -16,6 +16,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>World Miscellaneous Transportation Points is a point theme representing Transportation Structures located throughout the world.  Features represented in this dataset have FACC (Feature and Attribute Coding Catalogue) Codes AQ040 -"Bridge/Overpass/Viaduct", AQ064 - "Causeway", AQ070 - "Ferry Crossing", AQ130 - "Tunnel", or BH070 - "Ford".  This dataset is part of the Vector Map Level 0 database. The Vector Map (VMap) Level 0 database represents the third edition of the Digital Chart of the World. VMap Level 0 is a comprehensive 1:1,000,000 scale vector of the world. It consists of cartographic, attribute, and textual data stored on compact disc read only memory (CD-ROM). The primary source for the database is the National Imagery and Mapping Agency's (NIMA) Operational Navigation Chart (ONC) series. This is the largest scale unclassified map series in existence that provides consistent, continuous global coverage of essential basemap features. The data includes major road and rail networks, major hydrologic drainage systems, major utility networks (cross-country pipelines and communication lines), all major airports, elevation contours (1000 foot(ft), with 500ft and 250ft supplemental contours), coastlines, international boundaries and populated places.</abstract>
 			<purpose>The VMap Level 0 is a general purpose global database designed to support designed to support Geographic Information Systems applications. Geographic Information Systems applications.</purpose>
 			<supplinf>The majority of data contained within the transportation layer were derived from Digital Chart of the World, edition 1, July 1992. Data were updated and reviewed for positional accuracy and attribute content. Additional ancillary sources were also used in the preparation of the transportation coverage; in particular, large scale maps (1:250,000 scale Joint Operations Graphics) were used to establish road classifications in selected urban areas, and additional data for airport/airfield (GB005) attribution were taken from DAFIF (Digital Aeronautical Flight Information File) sources in areas where such information is available.</supplinf>
@@ -303,6 +304,7 @@ World_TransportationPoints_POINTS</enttypl>
 								<digform>
 									<digtinfo>
 										<formname>GeoPackage</formname>
+										<transize>TBD</transize>
 									</digtinfo>
 								</digform>
 							</stdorder>

@@ -4,7 +4,7 @@
 	<idinfo>
 		<native>Microsoft Windows Vista Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.3.1.4000</native>
 		<descript>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 			<abstract>United States Historic Earthquakes is a point theme representing the locations of significant, historic earthquakes in United States and adjacent Canada and Mexico that caused deaths, property damage, and geological effects, or were otherwise experienced by the resident populations. Attribute information includes the depth, maximum magnitude, Modified Mercalli Intensity, location, date and time of the earthquakes.</abstract>
 			<purpose>U.S. National Atlas Historic Earthquakes provides the locations of significant, historic earthquakes for geographic display and analysis at regional and national levels. This data set is intended for a mixed audience of specialists and non-specialists alike who have a need for general, non-technical information about significant U.S. earthquakes.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:1,000,000.</supplinf>
@@ -528,9 +528,9 @@ After processing, the data set is checked for drawing display and number of reco
 				<digtinfo>
 					<transize>0.352</transize>
 					<dssize>0.352</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt>
 					<offoptn>

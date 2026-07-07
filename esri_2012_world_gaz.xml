@@ -4,7 +4,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; Esri ArcCatalog 9.2.4.1420</native>
 		<descript>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 			<abstract>World Gazetteer is a point theme representing the locations and proper names for map features around the world. The gazetteer includes attribute and annotation name information from various layers of the Digital Chart of the World. Attribute information includes the name, country category and description of the features. </abstract>
 			<purpose>World Gazetteer provides a base map layer that may be used to find locations by their proper name anywhere around the world. The categories include airports, coastal features, drainage features, land features, ocean features, islands, political features, and populated places.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:1,000,000.</supplinf>
@@ -579,9 +579,9 @@ Since the features are derived from annotation, they do not correspond with the 
 				<digtinfo>
 					<transize>3.292</transize>
 					<dssize>3.292</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt>
 					<offoptn>

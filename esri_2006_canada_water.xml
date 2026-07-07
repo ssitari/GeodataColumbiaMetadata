@@ -22,6 +22,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>Canada Water Bodies represents the major fresh water bodies within Canada including lakes/lac, large rivers/fleuve, reservoirs, and bays/baie. The boundaries are based on Statistics Canada data.</abstract>
 			<purpose>Canada Water Bodies provides the larger water bodies of Canada with detail appropriate for national, regional, and local levels.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:100,000.</supplinf>
@@ -265,9 +266,9 @@ Outside the United States, please direct all inquiries to your local ESRI Intern
 							<stdorder>
 								<digform>
 									<digtinfo>
-										<formname>SDC</formname>
-										<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
-										<filedec>ArcGIS software</filedec>
+										<formname>GeoPackage</formname>
+										
+										
 										<transize>1.485</transize>
 									</digtinfo>
 									<digtopt>

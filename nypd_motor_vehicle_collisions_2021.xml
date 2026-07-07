@@ -30,6 +30,7 @@
 			</bounding>
 		</spdom>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>
 New York City Motor Vehicle Collisions, 2021 is a point theme representing the location of motor vehicle collisions in the year 2021 as reported by the New York City Police Department. Attributes include the date and time of the accidents, the number of people killed or injured, the type of vehicle(s) involved in the collision, and other factors that were involved in the collision. This dataset was derived from NYC Open Data (https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95) in January 2023. Columbia Libraries staff extracted each year's records and converted them to geopackage format by latitude and longitude in World Geodetic System (1984) coordinates. Some records lack geolocation information, and they have coordinates 0,0. Columbia Libraries staff has also manipulated the column names to fit them with geopackage format, and a codebook has been included in the download package.
 			</abstract>
@@ -107,6 +108,7 @@ New York City Motor Vehicle Collisions, 2021 is a point theme representing the l
 			<digtinfo>
 				<formname>GeoPackage</formname>
 				<formspec>zip</formspec>
+				<transize>TBD</transize>
 			</digtinfo>
 		</digform>
 	</stdorder>

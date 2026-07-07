@@ -41,6 +41,7 @@
 			</bounding>
 		</spdom>
 		<descript>
+			<langdata>eng</langdata>
   <abstract>New York City Tax Lots, 2009 is a polygon theme representing tax lots in New York City as of 2009. This dataset represents a compilation of data from various government agencies throughout the City of New York.  The underlying geography is derived from the Tax Lot Polygon feature class which is part of the Department of Finance's Digital Tax Map (DTM).  The tax lots have been clipped to the shoreline, as defined by NYCMap planimetric features.  The attribute information is from the Department of City Planning's PLUTO data.  The attribute data pertains to tax lot and building characteristics and geographic, political and administrative information for each tax lot in New York City. A codebook documenting the attribute data is included with the download files for this dataset.
   The Tax Lot Polygon feature class and PLUTO are derived from different sources.   As a result, some PLUTO records did not have a corresponding tax lot in the Tax Lot polygon feature class at the time of release.
   DCP Mapping Lots includes some features that are not on the tax maps.  They have been added by DCP for cartographic purposes.  They include street center 'malls', traffic islands and some built streets through parks.  These features have very few associated attributes.</abstract>
@@ -121,6 +122,7 @@
 			<digtinfo>
 				<formname>GeoPackage</formname>
 				<formspec>zip</formspec>
+				<transize>TBD</transize>
 			</digtinfo>
 		</digform>
 	</stdorder>

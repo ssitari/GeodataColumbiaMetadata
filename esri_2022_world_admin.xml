@@ -22,6 +22,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>World Administrative Units, 2022 represents the boundaries for the first-level administrative divisions of the world.</abstract>
 			<purpose>World Administrative Divisions provides a detailed basemap layer for the country first-level administrative divisions of the world. It has been designed to be used as a basemap and includes a Disputed Boundaries layer that can be used to edit boundaries to fit your needs. Included are fields for name and ISO codes, along with notes identifying disputed boundaries and continent information. Particularly useful are the LAND_TYPE and LAND_RANK fields that separate polygons based on their size. These fields are helpful for rendering at different scales by providing the ability to turn off small islands that may clutter small-scale views.</purpose>
 		</descript>
@@ -440,7 +441,8 @@ Outside the United States, direct all inquiries to your local Esri Office. This 
 			<digtinfo>
 				<formname>GeoPackage</formname>
 				<formcont>To use this data requires software that works with FGDB files.</formcont>
-				<filedec>ArcGIS software</filedec>
+				
+				<transize>TBD</transize>
 			</digtinfo>
 			<digtopt>
 				<onlinopt>

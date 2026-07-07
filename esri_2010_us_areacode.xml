@@ -3,6 +3,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>United States Telephone Area Code Boundaries is a polygon theme representing the telephone area codes for the United States. They are also known as Numbering Plan Areas (NPA). The Numbering Plan Areas reflect current and accurate boundary changes both where new NPAs "split" from existing NPAs and where new NPAs "overlay" existing NPAs.</abstract>
 			<purpose>U.S. Telephone Area Code Boundaries provides the telephone area codes of the United States for use in telecommunications analysis.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:250,000.
@@ -275,9 +276,9 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			<digform>
 				<digtinfo>
 					<transize>13.131</transize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt/>
 			</digform>

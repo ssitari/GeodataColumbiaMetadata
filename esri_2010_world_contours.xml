@@ -3,6 +3,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>World Contours is a line theme representing elevation at 600-meter intervals world-wide.</abstract>
 			<purpose>World Contours provides a base map layer for contours of the world.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:250,000.
@@ -217,9 +218,9 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			<digform>
 				<digtinfo>
 					<transize>230.454</transize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt/>
 			</digform>

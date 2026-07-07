@@ -15,6 +15,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>Ore Deposits is a point theme representing ore deposits throughout the world, locational and attribute information is taken from the 1999 Mineral Resource Data System (MRDS).  MRDS contains variable-length records of metallic and nonmetallic mineral resources of the world. A record contains descriptive information about mineral deposits and mineral commodities. The types of information in the data base include deposit name, location, commodity, deposit description, geologic characteristics, production, reserves, potential resources, and references. The Mineral Resource Data System master database is not accessible via the WWW. The large number of multi-valued fields make it difficult to import all the fields into a data format that can be utilized by the ArcView Internet Map Server Software. This dataset contains all MRDS locations, but only 44 of the possible 226 fields. A data structure was created in Access 97. Data was imported into the file structure and then processed into Arc View, where it was transformed into shape files that are used by the IMS software to serve the MRDS data and permit access via the www.</abstract>
 			<purpose>To make Mineral Resource Data System data available via the World Wide Web for use in future spatial analysis by a variety of users.</purpose>
 		</descript>
@@ -487,6 +488,7 @@ usaa26</enttypl>
 								<digform>
 									<digtinfo>
 										<formname>GeoPackage</formname>
+										<transize>TBD</transize>
 									</digtinfo>
 								</digform>
 							</stdorder>

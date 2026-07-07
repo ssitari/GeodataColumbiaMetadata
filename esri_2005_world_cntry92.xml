@@ -21,6 +21,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>World Countries 1992 represents the boundaries for the countries of the world, as they existed in 1992 showing the Soviet Union, Yugoslavia, and Czechoslovakia as single nations.</abstract>
 			<purpose>World Countries 1992 provides political boundaries for the world in 1992.  To display World Political Organization Membership attributes or CountryWatch Demographics attributes, join these tables to this attribute table using Fips_cntry or Cntry_name as the common field.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:15,000,000.</supplinf>
@@ -418,9 +419,9 @@ Outside the United States, please direct all inquiries to your local ESRI Intern
 							<stdorder>
 								<digform>
 									<digtinfo>
-										<formname>SDC</formname>
+										<formname>GeoPackage</formname>
 										<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial and attribute indexes. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
-										<filedec>ArcGIS software</filedec>
+										
 										<transize>0.812</transize>
 									</digtinfo>
 									<digtopt>

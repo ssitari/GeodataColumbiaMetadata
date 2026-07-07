@@ -3,6 +3,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>United States Populated Places is a polygon theme representing populated place areas such as census designated places, consolidated cities, and incorporated places within United States identified by the U.S. Census Bureau. Attribute information includes the name, class, population classification, population density, number of housing units and size of the areas. This dataset is a part of the 2010 ESRI Data &amp; Maps collection.</abstract>
 			<purpose>United States Populated Places provides areal locations for populated places including attributes—name, FIPS code, census class, area, and selected demographic data from the U.S. Census.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:50,000.
@@ -505,9 +506,9 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			<digform>
 				<digtinfo>
 					<transize>30.991</transize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt/>
 			</digform>

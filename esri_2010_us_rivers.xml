@@ -3,6 +3,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>United States Rivers (Generalized) is a polyline theme representing the major rivers within the United States. Attribute information includes the name, system and length of the river. This dataset is a part of the 2010 ESRI Data &amp; Maps collection.</abstract>
 			<purpose>United States Rivers (Generalized) provides a base map layer of major rivers of the United States.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:5,000,000.
@@ -355,9 +356,9 @@ Copyright: © 2009 i-cubed; i-cubed, Ft. Collins, CO, USA</othercit>
 			<digform>
 				<digtinfo>
 					<transize>0.031</transize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt/>
 			</digform>

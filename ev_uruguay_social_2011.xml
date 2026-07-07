@@ -47,6 +47,8 @@
 			</bounding>
 		</spdom>
 		<descript>
+			<langdata>eng</langdata>
+			<langdata>spa</langdata>
 			<abstract>
 Uruguay Social Census Data, 2011 is a polygon theme representing Census Tracts (3rd level administrative units) in Uruguay as of 2011.  Attribute data include social variables from the 2011 Uruguayan census.
 Official population and housing data for Uruguay from the 2011 census. This census is provided at the census tract administrative level (ADM3) and includes 4,313 polygons with 730 attribute variables. Attribute descriptions retain Source-language names and unique identifier codes. All variable names were translated from Source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of "Sexo: Hombre" was updated to D001 and given the alias "Sex: Man[Sexo: Hombre]", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration, S = Social and T = Transportation). All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration, Social and Transportation. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format "English translation field description[Source language field description]". Vector data was analyzed for accuracy and compared with national boundaries.
@@ -773,6 +775,7 @@ Official population and housing data for Uruguay from the 2011 census. This cens
 			<digtinfo>
 				<formname>GeoPackage</formname>
 				<formspec>zip</formspec>
+				<transize>TBD</transize>
 			</digtinfo>
 		</digform>
 	</stdorder>

@@ -29,6 +29,7 @@
 			</bounding>
 		</spdom>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>
 New York City NYPD Stop, Question and Frisk Data, 2015 is a point theme representing individuals from the NYPD "Stop, Question, and Frisk" database from 2015. This dataset was derived from NYPD provided tables downloaded from the web site at: https://www.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page in August 2023. Each record represents a variety of characteristics about the person detained and the circumstances of the stop. Columbia Libraries staff extracted each half year's records and converted them to geopackage format by state plane x/y coordinates. Some records may lack geolocation information, and they have coordinates 0,0. Columbia Libraries staff has provided the data in the geopackage format, and a codebook and a has been included in the download package.
 			</abstract>
@@ -107,6 +108,7 @@ New York City NYPD Stop, Question and Frisk Data, 2015 is a point theme represen
 			<digtinfo>
 				<formname>GeoPackage</formname>
 				<formspec>zip</formspec>
+				<transize>TBD</transize>
 			</digtinfo>
 		</digform>
 	</stdorder>

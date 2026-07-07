@@ -4,7 +4,7 @@
 	<idinfo>
 		<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; Esri ArcCatalog 8.3.0.800</native>
 		<descript>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 			<abstract>United States Geological Survey (USGS) 1:100,000 Topographic Quadrangle Series Indexes is a polygon theme representing the geographic extent of USGS 1:100,000 topographic maps (30- by 60-minute quadrangles) for the coterminous U.S. forty-eight states and District of Columbia. </abstract>
 			<purpose>United States Geological Survey (USGS) 1:100,000 Topographic Quadrangle Series Indexe provides quadrangle name, identification number, publication data, and map coverage by state for each quadrangle.  This medium-scale index grid can be a handy visual reference for regional displays.</purpose>
 		</descript>
@@ -403,9 +403,9 @@ For other questions or comments, you may contact Esri headquarters by e-mail, te
 				<digtinfo>
 					<transize>0.282</transize>
 					<dssize>0.282</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt>
 					<offoptn>

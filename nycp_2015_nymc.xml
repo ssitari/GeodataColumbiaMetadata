@@ -21,7 +21,7 @@
 		<descript>
 			<abstract>New York City Municipal Court Districts, 2015 is a polygon theme representing municipal court districts in New York City as of 2015. </abstract>
 			<purpose>These districts were created by the Department of City Planning to aid city agencies in administering public services.</purpose>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 		</descript>
 		<timeperd>
 			<timeinfo>
@@ -249,6 +249,7 @@
 								<atnumdec>11</atnumdec>
 							</attr>
 						</detailed>
+						</eainfo>
 						<distinfo>
 							<distrib>
 								<cntinfo>
@@ -266,13 +267,15 @@
 								</cntinfo>
 							</distrib>
 							<resdesc>nycp_2015_nymc</resdesc>
-							<stdorder>
-								<digform>
-								</digform>
-							</stdorder>
+													<stdorder>
+							<digform>
+								<digtinfo>
+									<formname>GeoPackage</formname>
+									<transize>TBD</transize>
+								</digtinfo>
+							</digform>
+						</stdorder>
 						</distinfo>
-
-					</eainfo>
 					<metainfo>
 						<metd>20170519</metd>
 						<metc>

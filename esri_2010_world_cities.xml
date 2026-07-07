@@ -3,6 +3,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>World Cities is a point theme representing the locations of major cities of the world. Attribute information includes the name, country and population classification of the city. This dataset is a part of the 2010 ESRI Data and Maps Collection</abstract>
 			<purpose>World Cities provides a base map layer of the cities for the world. The cities include national capitals, provincial capitals, major population centers, and landmark cities.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:15,000,000.
@@ -710,9 +711,9 @@ The following steps were performed by ESRI: Extracted the features from ArcWorld
 			<digform>
 				<digtinfo>
 					<transize>0.161</transize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt/>
 			</digform>

@@ -30,6 +30,7 @@
 			</bounding>
 		</spdom>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>
 New York City Citibike Stations, 2022 is a point theme representing the location of bike docking stations used in the Citibike share program in 2022. Attributes include the station ID and name, as well as the number of trips begun and concluded at the station for each month it was in service. This dataset was derived from the trip data extracts found at the Citibike System Data page (https://citibikenyc.com/system-data) accessed in June 2024. Columbia Libraries staff extracted each month's records, calculated the trip totals by station and converted them to geopackage format by state plane x/y coordinates.  Note that trip total data is not authoritative data, see the original trip files for detailed tables.
 			</abstract>
@@ -281,6 +282,7 @@ New York City Citibike Stations, 2022 is a point theme representing the location
 			<digtinfo>
 				<formname>GeoPackage</formname>
 				<formspec>zip</formspec>
+				<transize>TBD</transize>
 			</digtinfo>
 		</digform>
 	</stdorder>

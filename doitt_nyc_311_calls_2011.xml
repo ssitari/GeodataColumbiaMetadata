@@ -29,6 +29,7 @@
 			</bounding>
 		</spdom>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>
 New York City 311 Service Requests, 2011 is a point theme representing the location of incidents reported to NYC311 in 2011. Attributes include each service request's open and closed date, the reported location, and the type and description of the service request. This dataset was derived from NYC Open Data (https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) in January 2023. Columbia Libraries staff extracted each month's records and converted them to geopackage format by state plane x/y coordinates. Some records may lack geolocation information, and they have coordinates 0,0.  A codebook is included with the download package.
 			</abstract>
@@ -119,6 +120,7 @@ New York City 311 Service Requests, 2011 is a point theme representing the locat
 			<digtinfo>
 				<formname>GeoPackage</formname>
 				<formspec>zip</formspec>
+				<transize>TBD</transize>
 			</digtinfo>
 		</digform>
 	</stdorder>

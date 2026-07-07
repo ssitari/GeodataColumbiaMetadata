@@ -4,7 +4,7 @@
 	<idinfo>
 		<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; Esri ArcCatalog 8.3.0.800</native>
 		<descript>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 			<abstract>World Wildlife Fund Marine Ecoregions is a polygon theme representing global marine ecoregions. Ecoregions are defined as relatively large areas of land or water in the world containing a characteristic set of natural communities that share a large majority of their species, dynamics, and environmental conditions. This data set contains the marine ecoregions of the Global 200. Global 200 ecoregions are a collection of the Earth's most outstanding and diverse terrestrial, freshwater, and marine habitats where the Earth's biological wealth is most distinctive and rich, where its loss will be most severely felt, and we must protect if we are to preserve the web of life. For more information, contact http://www.worldwildlife.org.</abstract>
 			<purpose>World Wildlife Fund Marine Ecoregions provides a global view of marine ecoregions defined by the World Wildlife Fund Conservation Science Program 2001, and can be used for geographic display.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:50,000,000.</supplinf>
@@ -351,9 +351,9 @@ We then identified published regional classification systems to be used as a bas
 				<digtinfo>
 					<transize>0.020</transize>
 					<dssize>0.020</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt>
 					<offoptn>

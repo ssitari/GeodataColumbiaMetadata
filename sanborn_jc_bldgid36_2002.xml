@@ -14,6 +14,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>Sanborn CitySets Jersey City Building Roof Elevations is a polygon theme representing roof elevations for selected structures in Jersey City, New Jersey.  There may be multiple polygons for single buildings with the same BLDGID.</abstract>
 			<purpose>For use in building 3D building models.</purpose>
 <supplinf>Building heights are measured at the highest point of the roof over habitable space. The distance is measured in feet from the building height to the average ground level around the building. The average ground level is accurate within five feet. At least one building height is placed on each building. Residential buildings have only one point measured for each building polygon at the highest occupy-able rooftop. Ninety percent of the building height measurements shall be within five feet of the true height of the measured point. The building height calculation, therefore, is accurate within 10 feet 90 percent of the time.
@@ -200,6 +201,7 @@ jer_bldgid3d</enttypl>
 								<digform>
 									<digtinfo>
 										<formname>GeoPackage</formname>
+										<transize>TBD</transize>
 									</digtinfo>
 								</digform>
 							</stdorder>

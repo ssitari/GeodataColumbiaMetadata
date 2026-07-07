@@ -4,7 +4,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; Esri ArcCatalog 9.1.0.722</native>
 		<descript>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 			<abstract>United States Airports is a point theme representing airports in the United States, Puerto Rico, U.S. Virgin Islands, and U.S. Possessions with airport passenger enplanements of greater than or equal to 100 passengers per year. Attribute information includes the name, field, state, enplanements and type of airport. </abstract>
 			<purpose>United States Airports provides information about the locations, names, location identifiers, and enplanements of airports for conducting geographic analysis on national and large regional scales.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:2,000,000.</supplinf>
@@ -512,9 +512,9 @@ Airports of the United States, Puerto Rico and the U.S. Virgin Islands 1999 was 
 				<digtinfo>
 					<transize>0.089</transize>
 					<dssize>0.089</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt>
 					<offoptn>

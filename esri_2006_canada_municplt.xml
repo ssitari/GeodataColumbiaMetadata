@@ -22,6 +22,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>Canada Municipalities represents the municipalities (townships) within Canada of types including cities, cantons, hamlets, towns/ville, villages, Indian reserves, parishes/paroisse, communities, unorganized, districts, and terre Inuite. The boundaries are digitized from CanMap.</abstract>
 			<purpose>Canada Municipalities provides the municipalities of Canada with detail appropriate for national, regional, and local levels.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:50,000.</supplinf>
@@ -599,9 +600,9 @@ Outside the United States, please direct all inquiries to your local ESRI Intern
 							<stdorder>
 								<digform>
 									<digtinfo>
-										<formname>SDC</formname>
-										<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
-										<filedec>ArcGIS software</filedec>
+										<formname>GeoPackage</formname>
+										
+										
 										<transize>4.735</transize>
 									</digtinfo>
 									<digtopt>

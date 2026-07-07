@@ -4,7 +4,7 @@
 	<idinfo>
 		<native>Microsoft Windows Vista Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.3.1.4000</native>
 		<descript>
-			<langdata>en</langdata>
+			<langdata>eng</langdata>
 			<abstract>United States Census Block Centroid Populations is a point theme representing the populations of the 2010 U.S. Census blocks for United States. U.S. Census blocks are the smallest geographic entities within a county for which the Census Bureau tabulates population.. U.S. Census blocks nest within all other tabulated census geographic entities and are the basis for all tabulated data.</abstract>
 			<purpose>U.S. Census Block Centroid Populations provides population and other demographic information for each U.S. Census block centroid within the United States.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:100,000.</supplinf>
@@ -433,9 +433,9 @@ The Summary File 1 (SF 1) data is based on the 2010 Census of Population and Hou
 				<digtinfo>
 					<transize>101.044</transize>
 					<dssize>101.044</dssize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt>
 					<offoptn>

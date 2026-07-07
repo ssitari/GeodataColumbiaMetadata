@@ -18,6 +18,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>New York City Bus Routes 2012 is a line theme representing Metropolitan Transit Authority (MTA) bus routes in New York City. Ridership statistics are included in the Route attributes. Statistics are for Average Weekday, Average Saturday, Average Sunday, and Annual Totals. Data also include the route name, number ID, type, headway, vehicle capacity, vehicles per hour, total capacity and fare. Information was obtained from the New York City Transit Authority. Files are provided in the projection NAD83 to align with the NYCMap basemap. The realigned data has not been thoroughly checked for accuracy.</abstract>
 			<purpose>Cartographic representation of bus routes, as of 2012. This dataset was developed for use with the NYCMap basemap. Contains information on NYC Transit and MTA (formerly NYC Department of Transportation) buses.</purpose>
 			<supplinf>See the accompanying Excel file bus_ridership.xls for original ridership statistics, including "other" categories per borough. Ridership data is not available for all routes.  Some routes have been combined or split over time.</supplinf>
@@ -584,6 +585,7 @@ busroute</enttypl>
 								<digform>
 									<digtinfo>
 										<formname>GeoPackage</formname>
+										<transize>TBD</transize>
 									</digtinfo>
 								</digform>
 							</stdorder>

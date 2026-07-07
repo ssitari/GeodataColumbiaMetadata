@@ -3,6 +3,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>United States ZIP Code (points) is a point theme representing the five-digit U.S. ZIP Code areas as points by placing their location using delivery-based centroids, plus all ZIP Codes that have no area and are represented as points rather than areas such as post office box ZIP Codes and unique ZIP Codes (single site, building, or organization). This dataset is a part of the 2010 ESRI Data &amp; Maps collection.</abstract>
 			<purpose>United States ZIP Code (points) provides the post office name, types, and area for each ZIP Code location in the United States.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:50,000.
@@ -449,9 +450,9 @@ Product currentness date: April 2009.</othercit>
 		<digform>
 			<digtinfo>
 				<transize>2.393</transize>
-				<formname>SDC</formname>
-				<filedec>ArcGIS software</filedec>
-				<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+				<formname>GeoPackage</formname>
+				
+				
 			</digtinfo>
 			<digtopt/>
 		</digform>

@@ -19,6 +19,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>New York City Bus Stops, 1998 is a point theme representing Metropolitan Transit Authority (MTA) bus stop locations in New York City as of 1998.  Attribute data include identification information, the latitude and longitude coordinates of each stop, and the field MILEPOST showing the mile point along route (routes start at mile 0).  The 1998 file is provided as a historical reference.  Information was obtained from the New York City Transit Authority.  Files are provided in the projection NAD83 to align with the NYCMap basemap.  The realigned data has not been thoroughly checked for accuracy.</abstract>
 			<purpose>The original New York City bus route and station data were intended to register reasonably well with existing NYC Department of City Planning base map data, e.g. the LION file or the tax block map.  ComCarto has adjusted alignment to the NYCMap base.  A new dataset was released in 2007 depicting routes as of 2004.</purpose>
 		</descript>
@@ -231,6 +232,7 @@ busstop98</enttypl>
 								<digform>
 									<digtinfo>
 										<formname>GeoPackage</formname>
+										<transize>TBD</transize>
 									</digtinfo>
 								</digform>
 							</stdorder>

@@ -3,6 +3,7 @@
 	<idinfo>
 		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>United States Airports is a polygon theme representing airport grounds and airport runways within the United States. All airports have a boundary, and most have at least one runway.</abstract>
 			<purpose>U.S. Airports provides the boundaries for thousands of airports and runways. There are many attributes that describe each airport, for example, location id (airport code), owner, elevation, congestion level, large certified air carrier enplanements, foreign enplanements, hub size, and tower type.</purpose>
 			<supplinf>Largest scale when displaying the data: 1:50,000.
@@ -600,9 +601,9 @@ For other questions or comments, you may contact ESRI headquarters by e-mail, te
 			<digform>
 				<digtinfo>
 					<transize>2.246</transize>
-					<formname>SDC</formname>
-					<filedec>ArcGIS software</filedec>
-					<formspec>The SDC file contains the geospatial and attribute data. The SDI file contains the spatial index. The PRJ file contains the coordinate system information (optional). The XML file (*.sdc.xml) contains the metadata describing the data set (optional).</formspec>
+					<formname>GeoPackage</formname>
+					
+					
 				</digtinfo>
 				<digtopt/>
 			</digform>

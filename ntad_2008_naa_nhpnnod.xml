@@ -29,6 +29,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>National Highway Planning Network Points is a point theme representing nodes in the major highway system of the United States.  It consists of the nation's highways comprised of Rural Arterials, Urban Principal Arterials and all National Highway System routes. The data set covers the 48 contiguous States plus the District of Columbia, Alaska, Hawaii, and Puerto Rico. The nominal scale of the data set is 1:100,000 with a maximal positional error of 80 meters.</abstract>
 			<purpose>The primary purpose of this geospatial data set is to serve the FHWA needs in highway planning, policy analysis, visualization of the Highway Performance Monitoring System (HPMS) database and network modeling.  The NHPN is the digital source used for coding and publishing the FHWA approved National Highway System maps.</purpose>
 			<supplinf>The NHPN version 2005.08 contains 8 polyline features (RECIDs 4000057, 4000855, 41000287, 41002220, 48000952, 72001074, 72001170, and 72001488) that are each defined by more than 500 shape points.  These features will not import correctly into the workstation version of ArcInfo, which has a 500 shapepoint limit.  When importing into the workstation version of ArcInfo, the 8 features will be automatically split into 2 features each.  As part of this process, attributes are simply duplicated on the split features.  Because of this, additional nodes are added.  The additional nodes will have incomplete attribution.</supplinf>
@@ -702,6 +703,7 @@ nhpnnod</enttypl>
 										<formname>GeoPackage</formname>
 
 
+										<transize>TBD</transize>
 									</digtinfo>
 									<digtopt>
 									</digtopt>

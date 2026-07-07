@@ -22,6 +22,7 @@
 			</citeinfo>
 		</citation>
 		<descript>
+			<langdata>eng</langdata>
 			<abstract>World Countries, 2022 is a polygon theme that represents the boundaries for the countries of the world.</abstract>
 			<purpose>World Countries provides a detailed basemap layer for the countries of the world. It has been designed to be used as a basemap and includes a Disputed Boundaries layer that can be used to edit boundaries to fit your needs. It has fields for local and official names and country codes, along with capital, continent, and display fields. Particularly useful are the LAND_TYPE and LAND_RANK fields that separate polygons based on their size. These fields are helpful for rendering at different scales by providing the ability to turn off small islands that may clutter small-scale views.</purpose>
 		</descript>
@@ -506,7 +507,8 @@ Outside the United States, direct all inquiries to your local Esri Office. This 
 			<digtinfo>
 				<formname>GeoPackage</formname>
 				<formcont>To use this data requires software that works with FGDB files.</formcont>
-				<filedec>ArcGIS software</filedec>
+				
+				<transize>TBD</transize>
 			</digtinfo>
 			<digtopt>
 				<onlinopt>
