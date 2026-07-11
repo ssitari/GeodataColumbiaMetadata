@@ -1,0 +1,66 @@
+{
+  "id": "ntad_2008_us_atr",
+  "dct_title_s": "United States Automatic Traffic Recorders (ATR), 2008",
+  "dct_accessRights_s": "public",
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_mdVersion_s": "Aardvark",
+  "dct_alternative_sm": [],
+  "dct_description_sm": [
+    "Automatic Traffic Recorders (ATR) is a point theme representing Weigh-in-Motion (WIM), and Automatic Traffic Counters (ATR) in the United States The data included in the GIS Traffic Stations Version database have been assimilated from station description files provided by FHWA for Weigh-in-Motion (WIM), and Automatic Traffic Counters (ATR). Location referencing information was derived from the National Highway Planning Network version 4.0. and State offices of Transportation The attributes on the point elements of the database have come from two primary sources, the Station Description Records and the National Highway Planning Network's Linear Referencing System. The attributes for these databases have been intentionally limited to location referencing attributes since the core station description attribute data are contained within the Station Description Tables (SDT). There is a separate Station Description Table (SDT) for each of the different station types; WIM, and ATR. The attributes in the Station Description Table correspond with the Station Description Record found in Chapter 6 of the latest Traffic Monitoring Guide. The SDT contains the most recent stations available for each state and station type. This table was derived from files provided UTCTR by FHWA. The Station Description Table can be linked to the station geopackage via the STNNKEY field . A single exception table containing records for those stations that could not be located is provided for WIM, and ATR stations. Generally, this table contains records where location descriptions were not clear enough to locate a station. It is hoped that FHWA will be able to contact the States for a more detailed description"
+  ],
+  "dct_language_sm": [
+    "eng"
+  ],
+  "gbl_displayNote_sm": [],
+  "dct_creator_sm": [
+    "Federal Highway Administration Resource Center (U.S.)",
+    "United States. Bureau of Transportation Statistics"
+  ],
+  "dct_publisher_sm": [
+    "United States. Bureau of Transportation Statistics"
+  ],
+  "gbl_resourceType_sm": [
+    "Point data"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Transportation"
+  ],
+  "dcat_keyword_sm": [
+    "Automatic Traffic counters",
+    "Automatic Traffic Recorders"
+  ],
+  "dct_temporal_sm": [],
+  "dct_spatial_sm": [
+    "United States"
+  ],
+  "dct_identifier_sm": [],
+  "dct_rights_sm": [
+    "None"
+  ],
+  "dct_rightsHolder_sm": [
+    "United States. Department of Transportation. Research and Innovative Technology Administration"
+  ],
+  "dct_license_sm": [],
+  "pcdm_memberOf_sm": [],
+  "dct_isPartOf_sm": [],
+  "dct_source_sm": [],
+  "dct_isVersionOf_sm": [],
+  "dct_replaces_sm": [],
+  "dct_isReplacedBy_sm": [],
+  "dct_relation_sm": [],
+  "dct_format_s": "GeoPackage",
+  "schema_provider_s": "Columbia",
+  "dct_issued_s": "2006",
+  "gbl_indexYear_im": "2008",
+  "dcat_bbox": "ENVELOPE(-159.404750, -67.370607, 64.979661, 19.502810)",
+  "locn_geometry": "ENVELOPE(-159.404750, -67.370607, 64.979661, 19.502810)",
+  "dcat_centroid": "42.2412355,-113.3876785",
+  "gbl_georeferenced_b": true,
+  "gbl_wxsIdentifier_s": "sde:columbia.ntad_2008_us_atr",
+  "gbl_suppressed_b": false,
+  "gbl_fileSize_s": "0.526 MB",
+  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/ntad_2008_us_atr.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/ntad-2008-us-atr\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "ntad_2013_hydrolin",
+  "dct_title_s": "United States Hydrographic Lines, 2013",
+  "dct_accessRights_s": "public",
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_mdVersion_s": "Aardvark",
+  "dct_alternative_sm": [],
+  "dct_description_sm": [
+    "The hydro polygon/arc coverages were created using TIGER/LINE 2000 shapefile data gathered from ESRI's Geography Network. The individual county hydrography line shapefiles were processed into Arc/Info coverages and then appended together to create complete state coverages. They were then edited to remove unwanted features, leaving a state-by-state database of both important and navigable water features. Attributes were added to denote navigable features and names. Also, an attribute was added to the polygons to denote which were water and which were land features. The state databases were then appended together to create a single, nationwide hydrography network containing named arcs and polygons. These features also contain a state FIPS. Because some of the hydro features are represented by lines instead of polygons, the complete hydro dataset consists of 2 shapefiles, one for lines and one for polygons. They must be used together to paint a complete picture."
+  ],
+  "dct_language_sm": [
+    "eng"
+  ],
+  "gbl_displayNote_sm": [],
+  "dct_creator_sm": [
+    "United States. Bureau of Transportation Statistics",
+    "United States. Bureau of the Census"
+  ],
+  "dct_publisher_sm": [
+    "United States. Bureau of Transportation Statistics"
+  ],
+  "gbl_resourceType_sm": [
+    "Line data"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Economy",
+    "Inland Waters",
+    "Oceans",
+    "Transportation"
+  ],
+  "dcat_keyword_sm": [],
+  "dct_temporal_sm": [],
+  "dct_spatial_sm": [
+    "United States"
+  ],
+  "dct_identifier_sm": [],
+  "dct_rights_sm": [
+    "None"
+  ],
+  "dct_rightsHolder_sm": [
+    "United States. Department of Transportation. Research and Innovative Technology Administration"
+  ],
+  "dct_license_sm": [],
+  "pcdm_memberOf_sm": [],
+  "dct_isPartOf_sm": [],
+  "dct_source_sm": [],
+  "dct_isVersionOf_sm": [],
+  "dct_replaces_sm": [],
+  "dct_isReplacedBy_sm": [],
+  "dct_relation_sm": [],
+  "dct_format_s": "GeoPackage",
+  "schema_provider_s": "Columbia",
+  "dct_issued_s": "2011",
+  "gbl_indexYear_im": "2011",
+  "dcat_bbox": "ENVELOPE(-179.252851, 179.830623, 71.441056, 17.831509)",
+  "locn_geometry": "ENVELOPE(-179.252851, 179.830623, 71.441056, 17.831509)",
+  "dcat_centroid": "44.6362825,0.288886",
+  "gbl_georeferenced_b": true,
+  "gbl_wxsIdentifier_s": "sde:columbia.ntad_2013_hydrolin",
+  "gbl_suppressed_b": false,
+  "gbl_fileSize_s": "0.018 MB",
+  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/ntad_2013_hydrolin.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/ntad-2013-hydrolin\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+}

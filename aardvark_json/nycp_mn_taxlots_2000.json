@@ -1,0 +1,78 @@
+{
+  "id": "nycp_mn_taxlots_2000",
+  "dct_title_s": "Manhattan Tax Lots, 2000",
+  "dct_accessRights_s": "public",
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_mdVersion_s": "Aardvark",
+  "dct_alternative_sm": [],
+  "dct_description_sm": [
+    "Manhattan Tax Lots, 2000 is a polygon theme representing tax lots in New York County, NY as of 2000. This dataset represents a compilation of data from various government agencies throughout the City of New York. The underlying geography is derived from the Tax Lot Polygon feature class which is part of the Department of Finance's Digital Tax Map (DTM). The tax lots have been clipped to the shoreline, as defined by NYCMap planimetric features. The attribute information is from the Department of City Planning's PLUTO data. The attribute data pertains to tax lot and building characteristics and geographic, political and administrative information for each tax lot in New York City. The Tax Lot Polygon feature class and PLUTO are derived from different sources. As a result, some PLUTO records did not have a corresponding tax lot in the Tax Lot polygon feature class at the time of release. These records are included in a separate non-geographic PLUTO Only DBase (*.dbf) table. There are a number of reasons why there can be a tax lot in PLUTO that does not match the DTM; the most common reason is that the various source files are maintained by different departments and divisions with varying update cycles and criteria for adding and removing records. The attribute definitions for the PLUTO Only table are the same as those for MapPLUTO. DCP Mapping Lots includes some features that are not on the tax maps. They have been added by DCP for cartographic purposes. They include street center 'malls', traffic islands and some built streets through parks. These features have very few associated attributes."
+  ],
+  "dct_language_sm": [
+    "eng"
+  ],
+  "gbl_displayNote_sm": [],
+  "dct_creator_sm": [
+    "New York (N.Y.). Department of City Planning"
+  ],
+  "dct_publisher_sm": [
+    "New York (N.Y.). Department of City Planning"
+  ],
+  "gbl_resourceType_sm": [
+    "Polygon data"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Property"
+  ],
+  "dcat_keyword_sm": [
+    "Parcels",
+    "Tax Lot",
+    "DTM",
+    "PLUTO",
+    "MapPLUTO",
+    "Boundaries",
+    "RPAD"
+  ],
+  "dct_temporal_sm": [],
+  "dct_spatial_sm": [
+    "New York City",
+    "New York (State)",
+    "New York (N.Y.)",
+    "Brooklyn (New York, N.Y.)",
+    "Bronx (New York, N.Y.)",
+    "Queens (New York, N.Y.)",
+    "Manhattan (New York, N.Y.)",
+    "Staten Island (New York, N.Y.)",
+    "NYC"
+  ],
+  "dct_identifier_sm": [],
+  "dct_rights_sm": [
+    "None"
+  ],
+  "dct_rightsHolder_sm": [
+    "New York (N.Y.). Department of City Planning"
+  ],
+  "dct_license_sm": [],
+  "pcdm_memberOf_sm": [],
+  "dct_isPartOf_sm": [],
+  "dct_source_sm": [],
+  "dct_isVersionOf_sm": [],
+  "dct_replaces_sm": [],
+  "dct_isReplacedBy_sm": [],
+  "dct_relation_sm": [],
+  "dct_format_s": "GeoPackage",
+  "schema_provider_s": "Columbia",
+  "dct_issued_s": "2000",
+  "gbl_indexYear_im": "2000",
+  "dcat_bbox": "ENVELOPE(-74.047751, -73.906786, 40.879138, 40.683884)",
+  "locn_geometry": "ENVELOPE(-74.047751, -73.906786, 40.879138, 40.683884)",
+  "dcat_centroid": "40.781511,-73.9772685",
+  "gbl_georeferenced_b": true,
+  "gbl_wxsIdentifier_s": "sde:columbia.nycp_mn_taxlots_2000",
+  "gbl_suppressed_b": false,
+  "gbl_fileSize_s": "7.567 MB",
+  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/nycp_mn_taxlots_2000.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/nycp-mn-taxlots-2000\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+}
