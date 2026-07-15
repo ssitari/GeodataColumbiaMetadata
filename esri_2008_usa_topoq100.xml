@@ -108,13 +108,7 @@ Please direct all inquiries regarding software/data pricing, sales, support, and
 For other questions or comments, you may contact ESRI headquarters by e-mail, telephone, or fax or write to us.</cntinst>
 							</cntinfo>
 						</ptcontac>
-						<browse>
-							<browsen>http://www.columbia.edu/acis/eds/gis/pix/cat/esri_93_usa_topoq100.jpg</browsen>
-							<browsed>Thumbnail</browsed>
-							<browset>JPEG</browset>
-						</browse>
 						<datacred>United States Geological Survey</datacred>
-						<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.3.0.800</native>
 					</idinfo>
 					<dataqual>
 						<logic>The shapefile is converted to SDC (Smart Data Compression) format using either ESRI SDC Data Development Kit Professional 2 (DDKP2) or tools in ArcGIS.  The SDC data set is then loaded into ArcSDE to verify and validate the geometry. Occasionally, USGS actual quadrangles depart from a completely rectangular format mainly because of map sheet production considerations in coastal areas and offshore islands that result in rotation, offset, over edge, and inset sheet layouts. These are not represented precisely by the data set, but the correct attribute information is included.</logic>
