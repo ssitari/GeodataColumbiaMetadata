@@ -1,28 +1,49 @@
 {
-  "id": "ntad_2013_boc_uza",
   "dct_title_s": "United States Urbanized Area Boundaries, 2013",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-158.231296, -65.620648, 64.920732, 17.929405)",
+  "dct_issued_s": "2013",
+  "gbl_fileSize_s": "9.475 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-158.231296, -65.620648, 64.920732, 17.929405)",
+  "id": "ntad_2013_boc_uza",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "United States Urbanized Area Boundaries, 2013 is a polygon theme representing the U.S. Census Bureau boundaries for Urbanized Areas in the US. The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. After each decennial census, the Census Bureau delineates urban areas that represent densely developed territory, encompassing residential, commercial, and other nonresidential urban land uses. In general, this territory consists of areas of high population density and urban land use resulting in a representation of the \"urban footprint.\" There are two types of urban areas: urbanized areas (UAs) that contain 50,000 or more people and urban clusters (UCs) that contain at least 2,500 people, but fewer than 50,000 people (except in the U.S. Virgin Islands and Guam which each contain urban clusters with populations greater than 50,000). Each urban area is identified by a 5-character numeric census code that may contain leading zeroes."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.ntad_2013_boc_uza",
   "dct_creator_sm": [
     "United States. Bureau of Transportation Statistics",
     "United States. Bureau of the Census. Geography Division"
   ],
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "United States Urbanized Area Boundaries, 2013 is a polygon theme representing the U.S. Census Bureau boundaries for Urbanized Areas in the US. The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. After each decennial census, the Census Bureau delineates urban areas that represent densely developed territory, encompassing residential, commercial, and other nonresidential urban land uses. In general, this territory consists of areas of high population density and urban land use resulting in a representation of the \"urban footprint.\" There are two types of urban areas: urbanized areas (UAs) that contain 50,000 or more people and urban clusters (UCs) that contain at least 2,500 people, but fewer than 50,000 people (except in the U.S. Virgin Islands and Guam which each contain urban clusters with populations greater than 50,000). Each urban area is identified by a 5-character numeric census code that may contain leading zeroes."
+  ],
+  "dcat_keyword_sm": [
+    "Urban Areas",
+    "Urbanized Area Boundaries",
+    "Census"
+  ],
+  "dct_language_sm": [
+    "eng"
+  ],
   "dct_publisher_sm": [
     "United States. Bureau of Transportation Statistics"
   ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
   "gbl_resourceType_sm": [
     "Polygon data"
+  ],
+  "dct_rights_sm": [
+    "None"
+  ],
+  "dct_rightsHolder_sm": [
+    "United States. Department of Transportation. Research and Innovative Technology Administration"
+  ],
+  "dct_spatial_sm": [
+    "United States"
   ],
   "dct_subject_sm": [],
   "dcat_theme_sm": [
@@ -30,22 +51,14 @@
     "Economy",
     "Society"
   ],
-  "dcat_keyword_sm": [
-    "Urban Areas",
-    "Urbanized Area Boundaries",
-    "Census"
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2013
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "United States"
-  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
   "dct_identifier_sm": [],
-  "dct_rights_sm": [
-    "None"
-  ],
-  "dct_rightsHolder_sm": [
-    "United States. Department of Transportation. Research and Innovative Technology Administration"
-  ],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -54,16 +67,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2013",
-  "gbl_indexYear_im": "2013",
-  "dcat_bbox": "ENVELOPE(-158.231296, -65.620648, 64.920732, 17.929405)",
-  "locn_geometry": "ENVELOPE(-158.231296, -65.620648, 64.920732, 17.929405)",
-  "dcat_centroid": "41.4250685,-111.925972",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.ntad_2013_boc_uza",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "9.475 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/ntad_2013_boc_uza.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/ntad-2013-boc-uza\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/ntad_2013_boc_uza.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/ntad-2013-boc-uza\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

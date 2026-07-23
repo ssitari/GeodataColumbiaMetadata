@@ -1,33 +1,21 @@
 {
-  "id": "ev_panama_housing_2000",
   "dct_title_s": "Panama Housing Census Data, 2000",
-  "dct_accessRights_s": "restricted",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-82.876697, -77.964005, 9.548949, 7.402479)",
+  "dct_issued_s": "2021",
+  "gbl_fileSize_s": "19.0 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-82.876697, -77.964005, 9.548949, 7.402479)",
+  "id": "ev_panama_housing_2000",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "Panama Housing Census Data, 2000 is a polygon theme representing Barrios (5th level administrative units) in Panama. Attribute information includes housing variables from the 2000 Census. Official population and housing data for Panama from the 2000 census. This census is provided a combination of barrio administrative level polygons (ADM5) and populated place administrative level polygons (ADM4), for 2000 compared to 2010 these two administrative units are combined into one shapefile. for a total of 11,647 polygons. Each census theme has 759 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of \"MUERTE DE ALGUN MIEMBRO: SI\" was updated to D001 and given the alias \"A Household Member Has Died In The Past Year: Yes [MUERTE DE ALGUN MIEMBRO: SI]\", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social. All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format \"English translation field description[Source language field description]\". Vector data was analyzed for accuracy and compared with national boundaries."
-  ],
-  "dct_language_sm": [
-    "eng",
-    "spa"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "restricted",
   "dct_creator_sm": [
     "East View Cartographic, Inc."
   ],
-  "dct_publisher_sm": [
-    "East View Geospatial (Firm)"
-  ],
-  "gbl_resourceType_sm": [
-    "Polygon data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Society",
-    "Boundaries"
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "Panama Housing Census Data, 2000 is a polygon theme representing Barrios (5th level administrative units) in Panama. Attribute information includes housing variables from the 2000 Census. Official population and housing data for Panama from the 2000 census. This census is provided a combination of barrio administrative level polygons (ADM5) and populated place administrative level polygons (ADM4), for 2000 compared to 2010 these two administrative units are combined into one shapefile. for a total of 11,647 polygons. Each census theme has 759 attribute variables. Attribute descriptions retain source-language names and unique identifier codes. All variable names were translated from source language (Spanish). Field name prefixes, originally written with coded titles, were renamed to create unique names across the geodatabase (e.g. Original variable of \"MUERTE DE ALGUN MIEMBRO: SI\" was updated to D001 and given the alias \"A Household Member Has Died In The Past Year: Yes [MUERTE DE ALGUN MIEMBRO: SI]\", the letter D was given as it relates to the Demographic theme table. D = Demographic, E = Economic, H = Housing, M = Migration and S = Social. All variables from the original data were reviewed for completeness and organized into their relevant themes of Demographic, Economic, Housing, Migration and Social. The geodatabase was built to hold these specific tables with all geographic names and codes represented as text fields and census data represented as doubles or long integers. Automated tools were run to apply aliases in the format \"English translation field description[Source language field description]\". Vector data was analyzed for accuracy and compared with national boundaries."
   ],
   "dcat_keyword_sm": [
     "house-type",
@@ -45,18 +33,42 @@
     "household",
     "income"
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "Panama",
-    "Republic of Panama"
+  "dct_language_sm": [
+    "eng",
+    "spa"
   ],
-  "dct_identifier_sm": [],
+  "dct_publisher_sm": [
+    "East View Geospatial (Firm)"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Polygon data"
+  ],
   "dct_rights_sm": [
     "For educational, non-commercial use only."
   ],
   "dct_rightsHolder_sm": [
     "East View Cartographic, Inc."
   ],
+  "dct_spatial_sm": [
+    "Panama",
+    "Republic of Panama"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Society",
+    "Boundaries"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2000
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -65,15 +77,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2021",
-  "gbl_indexYear_im": "2000",
-  "dcat_bbox": "ENVELOPE(-82.876697, -77.964005, 9.548949, 7.402479)",
-  "locn_geometry": "ENVELOPE(-82.876697, -77.964005, 9.548949, 7.402479)",
-  "dcat_centroid": "8.475714,-80.420351",
-  "gbl_georeferenced_b": true,
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "19.0 MB",
-  "dct_references_s": "{\"download\":\"https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_panama_housing_2000.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/ev-panama-housing-2000\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/ev_panama_housing_2000.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/ev-panama-housing-2000\"}"
 }

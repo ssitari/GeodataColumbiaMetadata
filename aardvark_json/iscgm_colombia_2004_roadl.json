@@ -1,48 +1,61 @@
 {
-  "id": "iscgm_colombia_2004_roadl",
   "dct_title_s": "Colombia Roads, 2004",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-78.780823, -67.457474, 12.253999, -0.177975)",
+  "dct_issued_s": "2004",
+  "gbl_fileSize_s": "1.513 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-78.780823, -67.457474, 12.253999, -0.177975)",
+  "id": "iscgm_colombia_2004_roadl",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "Colombia Roads is a line theme representing roadways in Colombia. This layer is a component of the Global Map, a 1:1,000,000 scale framework dataset of the world. It consists of vector and raster layers of transport, administrative boundaries, drainage, elevation, vegetation, land use and land cover data. The data were prepared from information provided by national mapping and other organizations worldwide."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.iscgm_colombia_2004_roadl",
   "dct_creator_sm": [
     "International Steering Committee for Global Mapping"
   ],
-  "dct_publisher_sm": [
-    "International Steering Committee for Global Mapping"
-  ],
-  "gbl_resourceType_sm": [
-    "Line data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Transportation"
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "Colombia Roads is a line theme representing roadways in Colombia. This layer is a component of the Global Map, a 1:1,000,000 scale framework dataset of the world. It consists of vector and raster layers of transport, administrative boundaries, drainage, elevation, vegetation, land use and land cover data. The data were prepared from information provided by national mapping and other organizations worldwide."
   ],
   "dcat_keyword_sm": [
     "Roadways",
     "Streets",
     "Roads"
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "Colombia"
+  "dct_language_sm": [
+    "eng"
   ],
-  "dct_identifier_sm": [],
+  "dct_publisher_sm": [
+    "International Steering Committee for Global Mapping"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Line data"
+  ],
   "dct_rights_sm": [
     "None"
   ],
   "dct_rightsHolder_sm": [
     "International Steering Committee for Global Mapping"
   ],
+  "dct_spatial_sm": [
+    "Colombia"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Transportation"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2004
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -51,16 +64,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2004",
-  "gbl_indexYear_im": "2004",
-  "dcat_bbox": "ENVELOPE(-78.780823, -67.457474, 12.253999, -0.177975)",
-  "locn_geometry": "ENVELOPE(-78.780823, -67.457474, 12.253999, -0.177975)",
-  "dcat_centroid": "6.038012,-73.1191485",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.iscgm_colombia_2004_roadl",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "1.513 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/iscgm_colombia_2004_roadl.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/iscgm-colombia-2004-roadl\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/iscgm_colombia_2004_roadl.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/iscgm-colombia-2004-roadl\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

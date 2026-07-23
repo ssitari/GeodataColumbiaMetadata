@@ -1,46 +1,59 @@
 {
-  "id": "ciesin_drc_2025_healthfac_kasaicentral",
   "dct_title_s": "Democratic Republic of the Congo, Kasai Central Province, GRID3 COD - Health Facilities v8.0, 2025",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(21.44, 23.78, -4.394, -7.904)",
+  "dct_issued_s": "2025",
+  "gbl_fileSize_s": ".599 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(21.44, 23.78, -4.394, -7.904)",
+  "id": "ciesin_drc_2025_healthfac_kasaicentral",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.ciesin_drc_2025_healthfac_kasaicentral",
+  "dct_creator_sm": [
+    "Center for International Earth Science Information Network"
+  ],
+  "gbl_dateRange_drsim": [],
   "dct_description_sm": [
     "Democratic Republic of the Congo, Kasai Central Province, GRID3 COD - Health Facilities v8.0, 2025 is a point theme representing health facilities in the Kasai Central Province of the Democratic Republic of the Congo. Complete documentation and codebook can be found in the full download package. Also available from Columbia Academic Commons at https://doi.org/10.7916/f1ft-y872"
   ],
+  "dcat_keyword_sm": [],
   "dct_language_sm": [
     "eng"
-  ],
-  "gbl_displayNote_sm": [],
-  "dct_creator_sm": [
-    "Center for International Earth Science Information Network"
   ],
   "dct_publisher_sm": [
     "Center for International Earth Science Information Network"
   ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
   "gbl_resourceType_sm": [
     "Point data"
   ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Health"
-  ],
-  "dcat_keyword_sm": [],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "Democratic Republic of the Congo",
-    "Congo (Democratic Republic)",
-    "Kasai Central (Congo)"
-  ],
-  "dct_identifier_sm": [],
   "dct_rights_sm": [
     "None"
   ],
   "dct_rightsHolder_sm": [
     "Center for International Earth Science Information Network"
   ],
+  "dct_spatial_sm": [
+    "Democratic Republic of the Congo",
+    "Congo (Democratic Republic)",
+    "Kasai Central (Congo)"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Health"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2025
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -49,16 +62,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2025",
-  "gbl_indexYear_im": "2025",
-  "dcat_bbox": "ENVELOPE(21.44, 23.78, -4.394, -7.904)",
-  "locn_geometry": "ENVELOPE(21.44, 23.78, -4.394, -7.904)",
-  "dcat_centroid": "-6.149,22.61",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.ciesin_drc_2025_healthfac_kasaicentral",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": ".599 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/ciesin_drc_2025_healthfac_kasaicentral.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/ciesin-drc-2025-healthfac-kasaicentral\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/ciesin_drc_2025_healthfac_kasaicentral.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/ciesin-drc-2025-healthfac-kasaicentral\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

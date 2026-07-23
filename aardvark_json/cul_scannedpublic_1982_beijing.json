@@ -1,28 +1,49 @@
 {
-  "id": "cul_scannedpublic_1982_beijing",
   "dct_title_s": "Beijing, 1982",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Maps"
-  ],
+  "dcat_bbox": "ENVELOPE(116.079614, 116.548222, 40.082143, 39.80254)",
+  "dct_issued_s": "1982",
+  "gbl_fileSize_s": "330.573 MB",
+  "dct_format_s": "TIFF",
+  "locn_geometry": "ENVELOPE(116.079614, 116.548222, 40.082143, 39.80254)",
+  "id": "cul_scannedpublic_1982_beijing",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "This is a scanned version of the 1982 paper map entitled: Beijing published by the United States Central Intelligence Agency. The map was scanned at 300 dots per inch and is in the TIFF format."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.cul_scannedpublic_1982_beijing",
   "dct_creator_sm": [
     "Columbia University. Libraries",
     "United States. Central Intelligence Agency"
   ],
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "This is a scanned version of the 1982 paper map entitled: Beijing published by the United States Central Intelligence Agency. The map was scanned at 300 dots per inch and is in the TIFF format."
+  ],
+  "dcat_keyword_sm": [
+    "Maps",
+    "Scanned maps"
+  ],
+  "dct_language_sm": [
+    "eng"
+  ],
   "dct_publisher_sm": [
     "United States. Central Intelligence Agency"
   ],
+  "gbl_resourceClass_sm": [
+    "Maps"
+  ],
   "gbl_resourceType_sm": [
     "Raster data"
+  ],
+  "dct_rights_sm": [
+    "None"
+  ],
+  "dct_rightsHolder_sm": [
+    "Columbia University. Libraries"
+  ],
+  "dct_spatial_sm": [
+    "Beijing",
+    "Beijing (China)"
   ],
   "dct_subject_sm": [
     "Beijing (China) --Maps."
@@ -31,22 +52,14 @@
     "Imagery",
     "Society"
   ],
-  "dcat_keyword_sm": [
-    "Maps",
-    "Scanned maps"
+  "gbl_georeferenced_b": false,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    1982
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "Beijing",
-    "Beijing (China)"
-  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
   "dct_identifier_sm": [],
-  "dct_rights_sm": [
-    "None"
-  ],
-  "dct_rightsHolder_sm": [
-    "Columbia University. Libraries"
-  ],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -55,16 +68,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "TIFF",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "1982",
-  "gbl_indexYear_im": "1982",
-  "dcat_bbox": "ENVELOPE(116.079614, 116.548222, 40.082143, 39.80254)",
-  "locn_geometry": "ENVELOPE(116.079614, 116.548222, 40.082143, 39.80254)",
-  "dcat_centroid": "39.9423415,116.313918",
-  "gbl_georeferenced_b": false,
-  "gbl_wxsIdentifier_s": "sde:columbia.cul_scannedpublic_1982_beijing",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "330.573 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/cul_scannedpublic_1982_beijing.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/cul-scannedpublic-1982-beijing\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/cul_scannedpublic_1982_beijing.zip\", \"label\": \"TIFF\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/cul-scannedpublic-1982-beijing\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

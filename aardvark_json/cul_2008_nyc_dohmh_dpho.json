@@ -1,27 +1,48 @@
 {
-  "id": "cul_2008_nyc_dohmh_dpho",
   "dct_title_s": "New York City District Public Health Office Areas, 2008",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-73.961983, -73.855254, 40.862547, 40.639801)",
+  "dct_issued_s": "2008",
+  "gbl_fileSize_s": "0.030 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-73.961983, -73.855254, 40.862547, 40.639801)",
+  "id": "cul_2008_nyc_dohmh_dpho",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.cul_2008_nyc_dohmh_dpho",
+  "dct_creator_sm": [
+    "New York (N.Y.). Department of Health and Mental Hygiene"
+  ],
+  "gbl_dateRange_drsim": [],
   "dct_description_sm": [
     "New York City District Public Health Office Areas, 2008 is a polygon theme representing all three DOHMH District Public HealthOffice areas."
+  ],
+  "dcat_keyword_sm": [
+    "District Public Health Office",
+    "DPHO"
   ],
   "dct_language_sm": [
     "eng"
   ],
-  "gbl_displayNote_sm": [],
-  "dct_creator_sm": [
-    "New York (N.Y.). Department of Health and Mental Hygiene"
-  ],
   "dct_publisher_sm": [
     "New York (N.Y.). Department of Health and Mental Hygiene"
   ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
   "gbl_resourceType_sm": [
     "Polygon data"
+  ],
+  "dct_rights_sm": [
+    "None"
+  ],
+  "dct_rightsHolder_sm": [
+    "New York (N.Y.). Department of Health and Mental Hygiene"
+  ],
+  "dct_spatial_sm": [
+    "New York City",
+    "NYC"
   ],
   "dct_subject_sm": [],
   "dcat_theme_sm": [
@@ -29,22 +50,14 @@
     "Health",
     "Society"
   ],
-  "dcat_keyword_sm": [
-    "District Public Health Office",
-    "DPHO"
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2008
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "New York City",
-    "NYC"
-  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
   "dct_identifier_sm": [],
-  "dct_rights_sm": [
-    "None"
-  ],
-  "dct_rightsHolder_sm": [
-    "New York (N.Y.). Department of Health and Mental Hygiene"
-  ],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -53,16 +66,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2008",
-  "gbl_indexYear_im": "2008",
-  "dcat_bbox": "ENVELOPE(-73.961983, -73.855254, 40.862547, 40.639801)",
-  "locn_geometry": "ENVELOPE(-73.961983, -73.855254, 40.862547, 40.639801)",
-  "dcat_centroid": "40.751174,-73.9086185",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.cul_2008_nyc_dohmh_dpho",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "0.030 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/cul_2008_nyc_dohmh_dpho.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/cul-2008-nyc-dohmh-dpho\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/cul_2008_nyc_dohmh_dpho.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/cul-2008-nyc-dohmh-dpho\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

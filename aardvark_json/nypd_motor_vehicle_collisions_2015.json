@@ -1,46 +1,59 @@
 {
-  "id": "nypd_motor_vehicle_collisions_2015",
   "dct_title_s": "New York City Motor Vehicle Collisions, 2015",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-74.257061, -73.699273, 40.915087, 40.498294)",
+  "dct_issued_s": "2019",
+  "gbl_fileSize_s": "19.325 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-74.257061, -73.699273, 40.915087, 40.498294)",
+  "id": "nypd_motor_vehicle_collisions_2015",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.nypd_motor_vehicle_collisions_2015",
+  "dct_creator_sm": [
+    "New York (N.Y.). Police Department"
+  ],
+  "gbl_dateRange_drsim": [],
   "dct_description_sm": [
     "New York City Motor Vehicle Collisions, 2015 is a point theme representing the location of motor vehicle collisions in the year 2015 as reported by the New York City Police Department. Attributes include the date and time of the accidents, the number of people killed or injured, the type of vehicle(s) involved in the collision, and other factors that were involved in the collision. This dataset was derived from NYC Open Data (https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95) in July 2019. Columbia Libraries staff extracted each year's records and converted them to geopackage format by latitude and longitude in World Geodetic System (1984) coordinates. Some records lack geolocation information, and they have coordinates 0,0. Columbia Libraries staff has also manipulated the column names to fit them with geopackage format, and a codebook has been included in the download package."
   ],
+  "dcat_keyword_sm": [],
   "dct_language_sm": [
     "eng"
-  ],
-  "gbl_displayNote_sm": [],
-  "dct_creator_sm": [
-    "New York (N.Y.). Police Department"
   ],
   "dct_publisher_sm": [
     "New York (N.Y.). Police Department"
   ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
   "gbl_resourceType_sm": [
     "Point data"
   ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Society",
-    "Transportation"
-  ],
-  "dcat_keyword_sm": [],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "New York City",
-    "NYC"
-  ],
-  "dct_identifier_sm": [],
   "dct_rights_sm": [
     "None"
   ],
   "dct_rightsHolder_sm": [
     "New York (N.Y.). Police Department"
   ],
+  "dct_spatial_sm": [
+    "New York City",
+    "NYC"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Society",
+    "Transportation"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2015
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -49,16 +62,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2019",
-  "gbl_indexYear_im": "2015",
-  "dcat_bbox": "ENVELOPE(-74.257061, -73.699273, 40.915087, 40.498294)",
-  "locn_geometry": "ENVELOPE(-74.257061, -73.699273, 40.915087, 40.498294)",
-  "dcat_centroid": "40.7066905,-73.978167",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.nypd_motor_vehicle_collisions_2015",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "19.325 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/nypd_motor_vehicle_collisions_2015.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/nypd-motor-vehicle-collisions-2015\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/nypd_motor_vehicle_collisions_2015.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/nypd-motor-vehicle-collisions-2015\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

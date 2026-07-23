@@ -1,49 +1,61 @@
 {
-  "id": "landinfo_barcelona_imagery_2006",
   "dct_title_s": "Barcelona Orthoimagery, 2006",
-  "dct_accessRights_s": "restricted",
-  "gbl_resourceClass_sm": [
-    "Imagery"
-  ],
+  "dcat_bbox": "ENVELOPE(1.980759, 2.186739, 41.466142, 41.262792)",
+  "dct_issued_s": "2006",
+  "gbl_fileSize_s": "1412 MB",
+  "dct_format_s": "TIFF",
+  "locn_geometry": "ENVELOPE(1.980759, 2.186739, 41.466142, 41.262792)",
+  "id": "landinfo_barcelona_imagery_2006",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "Barcelona Orthoimagery is a set of digital orthophotos representing Barcelona, Spain. The dataset is comprised of eight tiles; the photos were taken in 2005 and have a 60 centimeter resolution. The tiles may be downloaded through the Barcelona Orthoimagery Index, a polygon layer that serves as an index for the orthroimagery tiles. The index can be downloaded through the link below, the URLs needed to download the tiles is embedded in the attribute information the index."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "restricted",
   "dct_creator_sm": [
     "LAND INFO Worldwide Mapping, LLC"
   ],
-  "dct_publisher_sm": [
-    "Land Info (Firm)"
-  ],
-  "gbl_resourceType_sm": [
-    "Raster data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Imagery"
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "Barcelona Orthoimagery is a set of digital orthophotos representing Barcelona, Spain. The dataset is comprised of eight tiles; the photos were taken in 2005 and have a 60 centimeter resolution."
   ],
   "dcat_keyword_sm": [
     "Orthophoto",
     "Remote sensing",
     "Tiles"
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "Barcelona",
-    "Barcelona (Spain)"
+  "dct_language_sm": [
+    "eng"
   ],
-  "dct_identifier_sm": [],
+  "dct_publisher_sm": [
+    "Land Info (Firm)"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Raster data"
+  ],
   "dct_rights_sm": [
     "For educational, non-commercial use only."
   ],
   "dct_rightsHolder_sm": [
     "LAND INFO Worldwide Mapping, LLC"
   ],
+  "dct_spatial_sm": [
+    "Barcelona",
+    "Barcelona (Spain)"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Imagery"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2006
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -52,15 +64,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "TIFF",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2006",
-  "gbl_indexYear_im": "2006",
-  "dcat_bbox": "ENVELOPE(1.980759, 2.186739, 41.466142, 41.262792)",
-  "locn_geometry": "ENVELOPE(1.980759, 2.186739, 41.466142, 41.262792)",
-  "dcat_centroid": "41.364467,2.083749",
-  "gbl_georeferenced_b": true,
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "0.010 MB",
-  "dct_references_s": "{\"download\":\"https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/landinfo_barcelona_index_2006.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/landinfo-barcelona-imagery-2006\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/landinfo_barcelona_imagery_2006.zip\", \"label\": \"TIFF\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/landinfo-barcelona-imagery-2006\"}"
 }

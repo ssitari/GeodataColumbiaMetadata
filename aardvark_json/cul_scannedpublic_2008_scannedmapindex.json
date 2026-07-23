@@ -1,31 +1,24 @@
 {
-  "id": "cul_scannedpublic_2008_scannedmapindex",
   "dct_title_s": "Index to the Lehman Scanned Map Collection, 2008",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Maps"
-  ],
+  "dcat_bbox": "ENVELOPE(-180.000000, 180.000000, 90.000000, -90.000000)",
+  "dct_issued_s": "2008",
+  "gbl_fileSize_s": "0.036 MB",
+  "dct_format_s": "TIFF",
+  "locn_geometry": "ENVELOPE(-180.000000, 180.000000, 90.000000, -90.000000)",
+  "id": "cul_scannedpublic_2008_scannedmapindex",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "Index to the Lehman Scanned Map Collection is a polygon theme that serves as an index to scanned sheets from the Lehman Map collection. Each feature represents the approximate extent of a map sheet or map set. Attribute information includes the name of the map, a url to the metadata record in the CUL Spatial Data catalog and a url to a thumbnail detail of the map. This dataset will be updated regularly."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.cul_scannedpublic_2008_scannedmapindex",
   "dct_creator_sm": [
     "Columbia University. Libraries"
   ],
-  "dct_publisher_sm": [
-    "Columbia University. Libraries"
+  "gbl_dateRange_drsim": [
+    "[2008 TO 2015]"
   ],
-  "gbl_resourceType_sm": [
-    "Polygon data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Imagery"
+  "dct_description_sm": [
+    "Index to the Lehman Scanned Map Collection is a polygon theme that serves as an index to scanned sheets from the Lehman Map collection. Each feature represents the approximate extent of a map sheet or map set. Attribute information includes the name of the map, a url to the metadata record in the CUL Spatial Data catalog and a url to a thumbnail detail of the map. This dataset will be updated regularly."
   ],
   "dcat_keyword_sm": [
     "Scanned maps",
@@ -33,17 +26,46 @@
     "Index",
     "Lehman map collection"
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "World"
+  "dct_language_sm": [
+    "eng"
   ],
-  "dct_identifier_sm": [],
+  "dct_publisher_sm": [
+    "Columbia University. Libraries"
+  ],
+  "gbl_resourceClass_sm": [
+    "Maps"
+  ],
+  "gbl_resourceType_sm": [
+    "Polygon data"
+  ],
   "dct_rights_sm": [
     "None"
   ],
   "dct_rightsHolder_sm": [
     "Columbia University. Libraries"
   ],
+  "dct_spatial_sm": [
+    "World"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Imagery"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -52,17 +74,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "TIFF",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2008",
-  "gbl_indexYear_im": "2008|2009|2010|2011|2012|2013|2014|2015",
-  "dcat_bbox": "ENVELOPE(-180.000000, 180.000000, 90.000000, -90.000000)",
-  "locn_geometry": "ENVELOPE(-180.000000, 180.000000, 90.000000, -90.000000)",
-  "dcat_centroid": "0,0",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.cul_scannedpublic_2008_scannedmapindex",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "0.036 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/cul_scannedpublic_2008_scannedmapindex.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/cul-scannedpublic-2008-scannedmapindex\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}",
-  "gbl_dateRange_drsim": "[2008 TO 2015]"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/cul_scannedpublic_2008_scannedmapindex.zip\", \"label\": \"TIFF\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/cul-scannedpublic-2008-scannedmapindex\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

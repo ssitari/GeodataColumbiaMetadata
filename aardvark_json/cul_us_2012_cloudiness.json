@@ -1,34 +1,25 @@
 {
-  "id": "cul_us_2012_cloudiness",
   "dct_title_s": "United States Cloudiness, Mean Number of Days (Clear, Partly Cloudy, Cloudy), 2012",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-170.711, 171.383, 71.287, 6.967)",
+  "dct_issued_s": "2012",
+  "gbl_fileSize_s": "0.043 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-170.711, 171.383, 71.287, 6.967)",
+  "id": "cul_us_2012_cloudiness",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "United States Cloudiness, Mean Number of Days (Clear, Partly Cloudy, Cloudy) is a point theme representing the mean number of cloudy days as measured at weather stations throughout the United States, Puerto Rico, and Pacific Islands."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.cul_us_2012_cloudiness",
   "dct_creator_sm": [
     "National Climatic Data Center (U.S.)",
     "United States. National Environmental Satellite, Data, and Information Service",
     "United States. National Oceanic and Atmospheric Administration",
     "Columbia University. Libraries"
   ],
-  "dct_publisher_sm": [
-    "National Climatic Data Center (U.S.)"
-  ],
-  "gbl_resourceType_sm": [
-    "Point data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Climate"
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "United States Cloudiness, Mean Number of Days (Clear, Partly Cloudy, Cloudy) is a point theme representing the mean number of cloudy days as measured at weather stations throughout the United States, Puerto Rico, and Pacific Islands."
   ],
   "dcat_keyword_sm": [
     "clouds",
@@ -37,18 +28,40 @@
     "sunny",
     "weather"
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "United States",
-    "Puerto Rico"
+  "dct_language_sm": [
+    "eng"
   ],
-  "dct_identifier_sm": [],
+  "dct_publisher_sm": [
+    "National Climatic Data Center (U.S.)"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Point data"
+  ],
   "dct_rights_sm": [
     "None"
   ],
   "dct_rightsHolder_sm": [
     "National Climatic Data Center (U.S.)"
   ],
+  "dct_spatial_sm": [
+    "United States",
+    "Puerto Rico"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2012
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -57,16 +70,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2012",
-  "gbl_indexYear_im": "2012",
-  "dcat_bbox": "ENVELOPE(-170.711, 171.383, 71.287, 6.967)",
-  "locn_geometry": "ENVELOPE(-170.711, 171.383, 71.287, 6.967)",
-  "dcat_centroid": "39.127,0.336",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.cul_us_2012_cloudiness",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "0.043 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/cul_us_2012_cloudiness.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/cul-us-2012-cloudiness\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/cul_us_2012_cloudiness.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/cul-us-2012-cloudiness\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

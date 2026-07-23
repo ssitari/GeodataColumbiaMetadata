@@ -1,45 +1,58 @@
 {
-  "id": "ntad_2013_hpms",
   "dct_title_s": "United States Highway Performance Monitoring System, 2013",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-176.650128, -66.980046, 71.343723, 19.058095)",
+  "dct_issued_s": "2011",
+  "gbl_fileSize_s": "0.018 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-176.650128, -66.980046, 71.343723, 19.058095)",
+  "id": "ntad_2013_hpms",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "The Federal Highway Administration (FHWA) has the responsibility to assure that adequate highway transportation information is available to support its functions and responsibilities, including those of the Administration and the Congress. The primary purpose of the Highway Performance Monitoring System (HPMS) is to serve these data and information needs. The HPMS provides data that reflects the extent, condition, performance, use, and operating characteristics of the nation's highways. The HPMS by itself is not geospatial data. It is linked to another FHWA dataset, the National Highway Planning Network (NHPN), through linear referencing. The NHPN provides the geospatial component of this dataset. The hpms data on the 2013 NTAD represents 2011 hpms. 2011 is the latest complete compilation of hpms data."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.ntad_2013_hpms",
   "dct_creator_sm": [
     "United States. Bureau of Transportation Statistics",
     "United States. Federal Highway Administration"
   ],
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "The Federal Highway Administration (FHWA) has the responsibility to assure that adequate highway transportation information is available to support its functions and responsibilities, including those of the Administration and the Congress. The primary purpose of the Highway Performance Monitoring System (HPMS) is to serve these data and information needs. The HPMS provides data that reflects the extent, condition, performance, use, and operating characteristics of the nation's highways. The HPMS by itself is not geospatial data. It is linked to another FHWA dataset, the National Highway Planning Network (NHPN), through linear referencing. The NHPN provides the geospatial component of this dataset. The hpms data on the 2013 NTAD represents 2011 hpms. 2011 is the latest complete compilation of hpms data."
+  ],
+  "dcat_keyword_sm": [],
+  "dct_language_sm": [
+    "eng"
+  ],
   "dct_publisher_sm": [
     "United States. Bureau of Transportation Statistics"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
   ],
   "gbl_resourceType_sm": [
     "Line data"
   ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Transportation"
-  ],
-  "dcat_keyword_sm": [],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "United States"
-  ],
-  "dct_identifier_sm": [],
   "dct_rights_sm": [
     "None"
   ],
   "dct_rightsHolder_sm": [
     "United States. Department of Transportation. Research and Innovative Technology Administration"
   ],
+  "dct_spatial_sm": [
+    "United States"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Transportation"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2011
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -48,16 +61,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2011",
-  "gbl_indexYear_im": "2011",
-  "dcat_bbox": "ENVELOPE(-176.650128, -66.980046, 71.343723, 19.058095)",
-  "locn_geometry": "ENVELOPE(-176.650128, -66.980046, 71.343723, 19.058095)",
-  "dcat_centroid": "45.200909,-121.815087",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.ntad_2013_hpms",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "0.018 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/ntad_2013_hpms.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/ntad-2013-hpms\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/ntad_2013_hpms.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/ntad-2013-hpms\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

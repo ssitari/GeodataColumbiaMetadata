@@ -206,9 +206,11 @@ for fname in sorted(set(glob.glob('*.xml')) | set(glob.glob('*.XML'))):
     resource_rows.append(row)
 
     # --- Distributions ---
+    # download must always be a labeled array per Aardvark/GBL 3.0 spec, even for one file;
+    # label is the button text shown in GeoBlacklight, so use the record's Format.
     onlink = text(citeinfo.find('onlink')) if citeinfo is not None else ''
     if onlink:
-        dist_rows.append({'ID': rid, 'Type': 'download', 'URL': onlink, 'Label': ''})
+        dist_rows.append({'ID': rid, 'Type': 'download', 'URL': onlink, 'Label': formname})
     else:
         issues.append((fname, 'no onlink for distributions'))
 

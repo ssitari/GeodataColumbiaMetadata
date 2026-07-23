@@ -1,45 +1,58 @@
 {
-  "id": "nypd_complaint_2007a",
   "dct_title_s": "New York City NYPD Complaint Data, January-June 2007",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-74.257061, -73.699273, 40.915087, 40.498294)",
+  "dct_issued_s": "2019",
+  "gbl_fileSize_s": "28 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-74.257061, -73.699273, 40.915087, 40.498294)",
+  "id": "nypd_complaint_2007a",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.nypd_complaint_2007a",
+  "dct_creator_sm": [
+    "New York (N.Y.). Police Department"
+  ],
+  "gbl_dateRange_drsim": [],
   "dct_description_sm": [
     "New York City NYPD Complaint Data, January-June 2007 is a point theme representing each complaint call that NYPD has received in the first half of the year 2007. This dataset was derived from NYC Open Data (https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i) in July 2019. Each record represents a criminal complaint in NYC and includes information about the type of crime, the location and time of enforcement. In addition, information related to victim and suspect demographics is also included. Columbia Libraries staff extracted each half year's records and converted them to geopackage format by state plane x/y coordinates. Some records lack geolocation information, and they have coordinates 0,0. Columbia Libraries staff has provided the data in the geopackage format, and a codebook and a has been included in the download package. A penal law codebook provided by NYC Open Data is also included."
   ],
+  "dcat_keyword_sm": [],
   "dct_language_sm": [
     "eng"
-  ],
-  "gbl_displayNote_sm": [],
-  "dct_creator_sm": [
-    "New York (N.Y.). Police Department"
   ],
   "dct_publisher_sm": [
     "New York (N.Y.). Police Department"
   ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
   "gbl_resourceType_sm": [
     "Point data"
   ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Society"
-  ],
-  "dcat_keyword_sm": [],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "New York City",
-    "NYC"
-  ],
-  "dct_identifier_sm": [],
   "dct_rights_sm": [
     "None"
   ],
   "dct_rightsHolder_sm": [
     "New York (N.Y.). Police Department"
   ],
+  "dct_spatial_sm": [
+    "New York City",
+    "NYC"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Society"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2007
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -48,16 +61,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2019",
-  "gbl_indexYear_im": "2007",
-  "dcat_bbox": "ENVELOPE(-74.257061, -73.699273, 40.915087, 40.498294)",
-  "locn_geometry": "ENVELOPE(-74.257061, -73.699273, 40.915087, 40.498294)",
-  "dcat_centroid": "40.7066905,-73.978167",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.nypd_complaint_2007a",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "28 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/nypd_complaint_2007a.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/nypd-complaint-2007a\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/nypd_complaint_2007a.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/nypd-complaint-2007a\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

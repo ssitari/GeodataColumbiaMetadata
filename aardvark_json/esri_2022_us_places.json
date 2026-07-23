@@ -1,33 +1,22 @@
 {
-  "id": "esri_2022_us_places",
   "dct_title_s": "United States Census Populated Place Points, 2020",
-  "dct_accessRights_s": "restricted",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-176.630736, -66.989843, 71.272735, 19.041498)",
+  "dct_issued_s": "2022",
+  "gbl_fileSize_s": "2.1 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-176.630736, -66.989843, 71.272735, 19.041498)",
+  "id": "esri_2022_us_places",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "U.S. Census Populated Place Points represents the 2020 U.S. Census populated place locations of the United States that include incorporated places, cities, and census designated places identified by the U.S. Census Bureau."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "restricted",
   "dct_creator_sm": [
     "U.S. Census Bureau",
     "Environmental Systems Research Institute (Redlands, Calif.)"
   ],
-  "dct_publisher_sm": [
-    "Environmental Systems Research Institute (Redlands, Calif.)"
-  ],
-  "gbl_resourceType_sm": [
-    "Point data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Location",
-    "Society"
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "U.S. Census Populated Place Points represents the 2020 U.S. Census populated place locations of the United States that include incorporated places, cities, and census designated places identified by the U.S. Census Bureau."
   ],
   "dcat_keyword_sm": [
     "point",
@@ -43,17 +32,40 @@
     "Location",
     "Society"
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "United States"
+  "dct_language_sm": [
+    "eng"
   ],
-  "dct_identifier_sm": [],
+  "dct_publisher_sm": [
+    "Environmental Systems Research Institute (Redlands, Calif.)"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Point data"
+  ],
   "dct_rights_sm": [
     "For educational, non-commercial use only."
   ],
   "dct_rightsHolder_sm": [
     "Environmental Systems Research Institute (Redlands, Calif.)"
   ],
+  "dct_spatial_sm": [
+    "United States"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Location",
+    "Society"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2022
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -62,15 +74,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2022",
-  "gbl_indexYear_im": "2022",
-  "dcat_bbox": "ENVELOPE(-176.630736, -66.989843, 71.272735, 19.041498)",
-  "locn_geometry": "ENVELOPE(-176.630736, -66.989843, 71.272735, 19.041498)",
-  "dcat_centroid": "45.1571165,-121.8102895",
-  "gbl_georeferenced_b": true,
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "2.1 MB",
-  "dct_references_s": "{\"download\":\"https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2022_us_places.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/esri-2022-us-places\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/esri_2022_us_places.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/esri-2022-us-places\"}"
 }

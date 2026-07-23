@@ -1,47 +1,60 @@
 {
-  "id": "iscgm_mozambique_2008_polbndl",
   "dct_title_s": "Mozambique Political Boundaries, 2008",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(32.576389, 40.516666, -12.983334, -25.931944)",
+  "dct_issued_s": "2008",
+  "gbl_fileSize_s": "1.580 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(32.576389, 40.516666, -12.983334, -25.931944)",
+  "id": "iscgm_mozambique_2008_polbndl",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "Mozambique Political Boundaries is a line theme representing political boundaries in Mozambique . This layer is a component of the Global Map, a 1:1,000,000 scale framework dataset of the world. It consists of vector and raster layers of transport, administrative boundaries, drainage, elevation, vegetation, land use and land cover data. The data were prepared from information provided by national mapping and other organizations worldwide."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.iscgm_mozambique_2008_polbndl",
   "dct_creator_sm": [
     "International Steering Committee for Global Mapping"
   ],
-  "dct_publisher_sm": [
-    "International Steering Committee for Global Mapping"
-  ],
-  "gbl_resourceType_sm": [
-    "Line data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Boundaries"
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "Mozambique Political Boundaries is a line theme representing political boundaries in Mozambique . This layer is a component of the Global Map, a 1:1,000,000 scale framework dataset of the world. It consists of vector and raster layers of transport, administrative boundaries, drainage, elevation, vegetation, land use and land cover data. The data were prepared from information provided by national mapping and other organizations worldwide."
   ],
   "dcat_keyword_sm": [
     "Territories",
     "Administrative boundaries"
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "Mozambique"
+  "dct_language_sm": [
+    "eng"
   ],
-  "dct_identifier_sm": [],
+  "dct_publisher_sm": [
+    "International Steering Committee for Global Mapping"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Line data"
+  ],
   "dct_rights_sm": [
     "None"
   ],
   "dct_rightsHolder_sm": [
     "International Steering Committee for Global Mapping"
   ],
+  "dct_spatial_sm": [
+    "Mozambique"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Boundaries"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2008
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -50,16 +63,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2008",
-  "gbl_indexYear_im": "2008",
-  "dcat_bbox": "ENVELOPE(32.576389, 40.516666, -12.983334, -25.931944)",
-  "locn_geometry": "ENVELOPE(32.576389, 40.516666, -12.983334, -25.931944)",
-  "dcat_centroid": "-19.457639,36.5465275",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.iscgm_mozambique_2008_polbndl",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "1.580 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/iscgm_mozambique_2008_polbndl.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/iscgm-mozambique-2008-polbndl\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/iscgm_mozambique_2008_polbndl.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/iscgm-mozambique-2008-polbndl\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

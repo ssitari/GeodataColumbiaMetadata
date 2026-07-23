@@ -1,31 +1,21 @@
 {
-  "id": "halcrow_subwaylines_nyc_2006",
   "dct_title_s": "New York City Subway Lines, 2006",
-  "dct_accessRights_s": "restricted",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-74.254209, -73.754256, 40.903532, 40.512144)",
+  "dct_issued_s": "2006",
+  "gbl_fileSize_s": "0.081 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-74.254209, -73.754256, 40.903532, 40.512144)",
+  "id": "halcrow_subwaylines_nyc_2006",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "New York City Subway Lines, 2006 is a line theme representing the New York City subway lines. Attribute data include the names of the lines and indication whether the segments of the lines are above or below ground. The raw data for the line files is from the New York State Department of Transportation. Files are provided in the projection NAD83 to align with the NYCMap basemap."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "restricted",
   "dct_creator_sm": [
     "CommunityCartography (Firm)"
   ],
-  "dct_publisher_sm": [
-    "Halcrow Group Limited"
-  ],
-  "gbl_resourceType_sm": [
-    "Line data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Transportation"
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "New York City Subway Lines, 2006 is a line theme representing the New York City subway lines. Attribute data include the names of the lines and indication whether the segments of the lines are above or below ground. The raw data for the line files is from the New York State Department of Transportation. Files are provided in the projection NAD83 to align with the NYCMap basemap."
   ],
   "dcat_keyword_sm": [
     "Subway lines",
@@ -33,7 +23,24 @@
     "Public transit",
     "Trains"
   ],
-  "dct_temporal_sm": [],
+  "dct_language_sm": [
+    "eng"
+  ],
+  "dct_publisher_sm": [
+    "Halcrow Group Limited"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Line data"
+  ],
+  "dct_rights_sm": [
+    "For educational, non-commercial use only."
+  ],
+  "dct_rightsHolder_sm": [
+    "Halcrow Group Limited"
+  ],
   "dct_spatial_sm": [
     "New York City",
     "New York (N.Y.)",
@@ -43,13 +50,18 @@
     "Manhattan (New York, N.Y.)",
     "Staten Island (New York, N.Y.)"
   ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Transportation"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2006
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
   "dct_identifier_sm": [],
-  "dct_rights_sm": [
-    "For educational, non-commercial use only."
-  ],
-  "dct_rightsHolder_sm": [
-    "Halcrow Group Limited"
-  ],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -58,15 +70,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2006",
-  "gbl_indexYear_im": "2006",
-  "dcat_bbox": "ENVELOPE(-74.254209, -73.754256, 40.903532, 40.512144)",
-  "locn_geometry": "ENVELOPE(-74.254209, -73.754256, 40.903532, 40.512144)",
-  "dcat_centroid": "40.707838,-74.0042325",
-  "gbl_georeferenced_b": true,
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "0.081 MB",
-  "dct_references_s": "{\"download\":\"https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/halcrow_subwaylines_nyc_2006.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/halcrow-subwaylines-nyc-2006\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/halcrow_subwaylines_nyc_2006.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/halcrow-subwaylines-nyc-2006\"}"
 }

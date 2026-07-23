@@ -1,48 +1,60 @@
 {
-  "id": "meridian_globaldams_2011",
   "dct_title_s": "Global Dams",
-  "dct_accessRights_s": "restricted",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-176.735000, 174.516667, 71.266667, -43.683333)",
+  "dct_issued_s": "2011",
+  "gbl_fileSize_s": "5.2 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-176.735000, 174.516667, 71.266667, -43.683333)",
+  "id": "meridian_globaldams_2011",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "Global Dams is a point theme representing dams Worldwide. A variety of attribute information is provided, including names, type classifications, state-level information (1st level administrative division) and country data. This dataset is provided in both .txt files and a ESRI Geodatabase format."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "restricted",
   "dct_creator_sm": [
     "Meridian Data, Inc."
   ],
-  "dct_publisher_sm": [
-    "Meridian Data, Inc."
-  ],
-  "gbl_resourceType_sm": [
-    "Point data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Inland Waters",
-    "Structure"
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "Global Dams is a point theme representing dams Worldwide. A variety of attribute information is provided, including names, type classifications, state-level information (1st level administrative division) and country data. This dataset is provided in both .txt files and a ESRI Geodatabase format."
   ],
   "dcat_keyword_sm": [
     "Dams"
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "Earth",
-    "World"
+  "dct_language_sm": [
+    "eng"
   ],
-  "dct_identifier_sm": [],
+  "dct_publisher_sm": [
+    "Meridian Data, Inc."
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Point data"
+  ],
   "dct_rights_sm": [
     "For educational, non-commercial use only."
   ],
   "dct_rightsHolder_sm": [
     "Meridian Data, Inc."
   ],
+  "dct_spatial_sm": [
+    "Earth",
+    "World"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Inland Waters",
+    "Structure"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2011
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -51,15 +63,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2011",
-  "gbl_indexYear_im": "2011",
-  "dcat_bbox": "ENVELOPE(-176.735000, 174.516667, 71.266667, -43.683333)",
-  "locn_geometry": "ENVELOPE(-176.735000, 174.516667, 71.266667, -43.683333)",
-  "dcat_centroid": "13.791667,-1.1091665",
-  "gbl_georeferenced_b": true,
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "5.2 MB",
-  "dct_references_s": "{\"download\":\"https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/meridian_globaldams_2011.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/meridian-globaldams-2011\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/meridian_globaldams_2011.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/meridian-globaldams-2011\"}"
 }

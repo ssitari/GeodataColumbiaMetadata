@@ -1,32 +1,23 @@
 {
-  "id": "ntad_2008_us_naa_cm",
   "dct_title_s": "United States Non-Attainment Areas: Carbon Monoxide, 2008",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-150.046795, -70.923791, 64.863618, 31.739711)",
+  "dct_issued_s": "2006",
+  "gbl_fileSize_s": "0.821 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-150.046795, -70.923791, 64.863618, 31.739711)",
+  "id": "ntad_2008_us_naa_cm",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "Non-Attainment Areas: Carbon Monoxide is a polygon theme representing areas in the United States that do not meet the National Ambient Air Quality Standard for carbon monoxide."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.ntad_2008_us_naa_cm",
   "dct_creator_sm": [
     "United States. Bureau of Transportation Statistics",
     "United States. Federal Highway Administration"
   ],
-  "dct_publisher_sm": [
-    "United States. Bureau of Transportation Statistics"
-  ],
-  "gbl_resourceType_sm": [
-    "Polygon data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Environment"
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "Non-Attainment Areas: Carbon Monoxide is a polygon theme representing areas in the United States that do not meet the National Ambient Air Quality Standard for carbon monoxide."
   ],
   "dcat_keyword_sm": [
     "Nonattainment area",
@@ -35,17 +26,39 @@
     "Carbon Monoxide",
     "Air Quality"
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "United States"
+  "dct_language_sm": [
+    "eng"
   ],
-  "dct_identifier_sm": [],
+  "dct_publisher_sm": [
+    "United States. Bureau of Transportation Statistics"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Polygon data"
+  ],
   "dct_rights_sm": [
     "None"
   ],
   "dct_rightsHolder_sm": [
     "United States. Department of Transportation. Research and Innovative Technology Administration"
   ],
+  "dct_spatial_sm": [
+    "United States"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Environment"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2008
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -54,16 +67,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2006",
-  "gbl_indexYear_im": "2008",
-  "dcat_bbox": "ENVELOPE(-150.046795, -70.923791, 64.863618, 31.739711)",
-  "locn_geometry": "ENVELOPE(-150.046795, -70.923791, 64.863618, 31.739711)",
-  "dcat_centroid": "48.3016645,-110.485293",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.ntad_2008_us_naa_cm",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "0.821 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/ntad_2008_us_naa_cm.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/ntad-2008-us-naa-cm\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/ntad_2008_us_naa_cm.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/ntad-2008-us-naa-cm\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

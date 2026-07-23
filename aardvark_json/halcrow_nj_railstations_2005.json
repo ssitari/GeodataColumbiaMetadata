@@ -1,31 +1,21 @@
 {
-  "id": "halcrow_nj_railstations_2005",
   "dct_title_s": "New Jersey Rail Road Stations, 2005",
-  "dct_accessRights_s": "restricted",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-75.211435, -73.976472, 41.475128, 39.359127)",
+  "dct_issued_s": "2005",
+  "gbl_fileSize_s": "0.022 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-75.211435, -73.976472, 41.475128, 39.359127)",
+  "id": "halcrow_nj_railstations_2005",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "NJ Rail Road Stations is a point theme representing public and private railroad stations in New Jersey. Attribute information includes the line and station name and the municipality the station is in. The station data is derived from files from the New Jersey Port Authority with a source scale of 1:100,000. These data were projected to align with the CommunityCartography New York City datasets. PATH data (PANYNJ lines and stations) includes lines run by the Port Authority, and were digitized based on printed Port Authority documents."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "restricted",
   "dct_creator_sm": [
     "CommunityCartography (Firm)"
   ],
-  "dct_publisher_sm": [
-    "Halcrow Group Limited"
-  ],
-  "gbl_resourceType_sm": [
-    "Point data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Transportation"
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "NJ Rail Road Stations is a point theme representing public and private railroad stations in New Jersey. Attribute information includes the line and station name and the municipality the station is in. The station data is derived from files from the New Jersey Port Authority with a source scale of 1:100,000. These data were projected to align with the CommunityCartography New York City datasets. PATH data (PANYNJ lines and stations) includes lines run by the Port Authority, and were digitized based on printed Port Authority documents."
   ],
   "dcat_keyword_sm": [
     "Rail roads",
@@ -37,17 +27,39 @@
     "NJ Commuter Rail",
     "Air Train"
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "New Jersey"
+  "dct_language_sm": [
+    "eng"
   ],
-  "dct_identifier_sm": [],
+  "dct_publisher_sm": [
+    "Halcrow Group Limited"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Point data"
+  ],
   "dct_rights_sm": [
     "For educational, non-commercial use only."
   ],
   "dct_rightsHolder_sm": [
     "Halcrow Group Limited"
   ],
+  "dct_spatial_sm": [
+    "New Jersey"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Transportation"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2005
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -56,15 +68,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2005",
-  "gbl_indexYear_im": "2005",
-  "dcat_bbox": "ENVELOPE(-75.211435, -73.976472, 41.475128, 39.359127)",
-  "locn_geometry": "ENVELOPE(-75.211435, -73.976472, 41.475128, 39.359127)",
-  "dcat_centroid": "40.4171275,-74.5939535",
-  "gbl_georeferenced_b": true,
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "0.022 MB",
-  "dct_references_s": "{\"download\":\"https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/halcrow_nj_railstations_2005.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/halcrow-nj-railstations-2005\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www1.columbia.edu/sec/acis/eds/dgate/studies/C1301/data/halcrow_nj_railstations_2005.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/halcrow-nj-railstations-2005\"}"
 }

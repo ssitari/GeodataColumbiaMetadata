@@ -1,19 +1,16 @@
 {
-  "id": "cul_scannedpublic_1869_haringfarm",
   "dct_title_s": "Map of the Haring or Herring Farm, 1869",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Maps"
-  ],
+  "dcat_bbox": "ENVELOPE(-74.0106245343846, -73.9863026535477, 40.7374402929887, 40.720174921565)",
+  "dct_issued_s": "1869",
+  "gbl_fileSize_s": "33.8 MB",
+  "dct_format_s": "TIFF",
+  "locn_geometry": "ENVELOPE(-74.0106245343846, -73.9863026535477, 40.7374402929887, 40.720174921565)",
+  "id": "cul_scannedpublic_1869_haringfarm",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "This is a scanned version of the 1869 paper map entitled: Map of the Haring or Herring Farm. The map was scanned at 300 dots per inch and is in the TIFF format."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.cul_scannedpublic_1869_haringfarm",
   "dct_creator_sm": [
     "Holmes, J. B. (John Bute)",
     "Columbia University. Libraries",
@@ -21,11 +18,37 @@
     "Smith, Wm. V. (William V.)",
     "New York (N.Y.). City Surveyor"
   ],
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "This is a scanned version of the 1869 paper map entitled: Map of the Haring or Herring Farm. The map was scanned at 300 dots per inch and is in the TIFF format."
+  ],
+  "dcat_keyword_sm": [
+    "Maps",
+    "Scanned maps"
+  ],
+  "dct_language_sm": [
+    "eng"
+  ],
   "dct_publisher_sm": [
     "New York (N.Y.). City Surveyor"
   ],
+  "gbl_resourceClass_sm": [
+    "Maps"
+  ],
   "gbl_resourceType_sm": [
     "Raster data"
+  ],
+  "dct_rights_sm": [
+    "None"
+  ],
+  "dct_rightsHolder_sm": [
+    "Columbia University. Libraries"
+  ],
+  "dct_spatial_sm": [
+    "New York City",
+    "New York (N.Y.)",
+    "Manhattan (New York, N.Y.)",
+    "NYC"
   ],
   "dct_subject_sm": [
     "Haring, David --Homes and haunts --Maps",
@@ -40,24 +63,14 @@
     "Property",
     "Structure"
   ],
-  "dcat_keyword_sm": [
-    "Maps",
-    "Scanned maps"
+  "gbl_georeferenced_b": false,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    1784
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "New York City",
-    "New York (N.Y.)",
-    "Manhattan (New York, N.Y.)",
-    "NYC"
-  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
   "dct_identifier_sm": [],
-  "dct_rights_sm": [
-    "None"
-  ],
-  "dct_rightsHolder_sm": [
-    "Columbia University. Libraries"
-  ],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -66,16 +79,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "TIFF",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "1869",
-  "gbl_indexYear_im": "1784",
-  "dcat_bbox": "ENVELOPE(-74.0106245343846, -73.9863026535477, 40.7374402929887, 40.720174921565)",
-  "locn_geometry": "ENVELOPE(-74.0106245343846, -73.9863026535477, 40.7374402929887, 40.720174921565)",
-  "dcat_centroid": "40.728807607277,-73.998463593966",
-  "gbl_georeferenced_b": false,
-  "gbl_wxsIdentifier_s": "sde:columbia.cul_scannedpublic_1869_haringfarm",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "33.8 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/cul_scannedpublic_1869_haringfarm.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/cul-scannedpublic-1869-haringfarm\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/cul_scannedpublic_1869_haringfarm.zip\", \"label\": \"TIFF\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/cul-scannedpublic-1869-haringfarm\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

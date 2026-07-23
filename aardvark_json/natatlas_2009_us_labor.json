@@ -1,31 +1,24 @@
 {
-  "id": "natatlas_2009_us_labor",
   "dct_title_s": "United States Labor Statistics 2005-2009",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(170, -64, 72, 17)",
+  "dct_issued_s": "2010",
+  "gbl_fileSize_s": "3.358 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(170, -64, 72, 17)",
+  "id": "natatlas_2009_us_labor",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "This data set portrays labor statistics annual averages for the years 2005 to 2009, shown by county, for the United States and Puerto Rico. The data set was created by merging data from the Bureau of Labor Statistics with a file showing year 2001 county boundaries. Included is the total labor force, the number of employed and unemployed, and the unemployment rate for each county."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.natatlas_2009_us_labor",
   "dct_creator_sm": [
     "Geological Survey (U.S.)"
   ],
-  "dct_publisher_sm": [
-    "Geological Survey (U.S.)"
+  "gbl_dateRange_drsim": [
+    "[2005 TO 2009]"
   ],
-  "gbl_resourceType_sm": [
-    "Polygon data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Society"
+  "dct_description_sm": [
+    "This data set portrays labor statistics annual averages for the years 2005 to 2009, shown by county, for the United States and Puerto Rico. The data set was created by merging data from the Bureau of Labor Statistics with a file showing year 2001 county boundaries. Included is the total labor force, the number of employed and unemployed, and the unemployment rate for each county."
   ],
   "dcat_keyword_sm": [
     "Employment",
@@ -34,7 +27,24 @@
     "Labor Force",
     "Unemployment rate"
   ],
-  "dct_temporal_sm": [],
+  "dct_language_sm": [
+    "eng"
+  ],
+  "dct_publisher_sm": [
+    "Geological Survey (U.S.)"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Polygon data"
+  ],
+  "dct_rights_sm": [
+    "None"
+  ],
+  "dct_rightsHolder_sm": [
+    "Geological Survey (U.S.)"
+  ],
   "dct_spatial_sm": [
     "United States",
     "USA",
@@ -90,13 +100,22 @@
     "Wisconsin",
     "Wyoming"
   ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Society"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
   "dct_identifier_sm": [],
-  "dct_rights_sm": [
-    "None"
-  ],
-  "dct_rightsHolder_sm": [
-    "Geological Survey (U.S.)"
-  ],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -105,17 +124,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2010",
-  "gbl_indexYear_im": "2005|2006|2007|2008|2009",
-  "dcat_bbox": "ENVELOPE(170, -64, 72, 17)",
-  "locn_geometry": "ENVELOPE(170, -64, 72, 17)",
-  "dcat_centroid": "44.5,53",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.natatlas_2009_us_labor",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "3.358 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/natatlas_2009_us_labor.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/natatlas-2009-us-labor\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}",
-  "gbl_dateRange_drsim": "[2005 TO 2009]"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/natatlas_2009_us_labor.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/natatlas-2009-us-labor\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

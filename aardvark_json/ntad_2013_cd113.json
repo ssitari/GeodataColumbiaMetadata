@@ -1,44 +1,57 @@
 {
-  "id": "ntad_2013_cd113",
   "dct_title_s": "United States 113th Congressional Districts Boundaries, 2013",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-179.147340, 179.778470, 71.352561, 17.884813)",
+  "dct_issued_s": "2013",
+  "gbl_fileSize_s": "5.780 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-179.147340, 179.778470, 71.352561, 17.884813)",
+  "id": "ntad_2013_cd113",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.ntad_2013_cd113",
+  "dct_creator_sm": [
+    "United States. Bureau of Transportation Statistics"
+  ],
+  "gbl_dateRange_drsim": [],
   "dct_description_sm": [
     "The TIGER/Line shapefiles and related database files (.dbf) are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line shapefile is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. Congressional Districts are the 435 areas from which people are elected to the U.S. House of Representatives. After the apportionment of congressional seats among the States based on census population counts, each State is responsible for establishing congressional districts for the purpose of electing representatives. Each congressional district is to be as equal in population to all other congressional districts in a State as practicable. The congressional districts for the 113th Congress (January 2013 to 2015) are the first Congressional Districts based on 2010 Census data. The TIGER/Line shapefiles for the District of Columbia, Puerto Rico, and the Island Areas (American Samoa, Guam, the Commonwealth of the Northern Mariana Islands, and the U.S. Virgin Islands) each contain a single record for the non-voting delegate district in these areas. The boundaries of all other congressional districts are provided to the Census Bureau through the Redistricting Data Program (RDP)."
   ],
+  "dcat_keyword_sm": [],
   "dct_language_sm": [
     "eng"
-  ],
-  "gbl_displayNote_sm": [],
-  "dct_creator_sm": [
-    "United States. Bureau of Transportation Statistics"
   ],
   "dct_publisher_sm": [
     "United States. Bureau of Transportation Statistics"
   ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
   "gbl_resourceType_sm": [
     "Polygon data"
   ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Boundaries"
-  ],
-  "dcat_keyword_sm": [],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "United States"
-  ],
-  "dct_identifier_sm": [],
   "dct_rights_sm": [
     "None"
   ],
   "dct_rightsHolder_sm": [
     "United States. Department of Transportation. Research and Innovative Technology Administration"
   ],
+  "dct_spatial_sm": [
+    "United States"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Boundaries"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2013
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -47,16 +60,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2013",
-  "gbl_indexYear_im": "2013",
-  "dcat_bbox": "ENVELOPE(-179.147340, 179.778470, 71.352561, 17.884813)",
-  "locn_geometry": "ENVELOPE(-179.147340, 179.778470, 71.352561, 17.884813)",
-  "dcat_centroid": "44.618687,0.315565",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.ntad_2013_cd113",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "5.780 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/ntad_2013_cd113.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/ntad-2013-cd113\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/ntad_2013_cd113.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/ntad-2013-cd113\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

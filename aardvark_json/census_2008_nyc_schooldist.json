@@ -1,38 +1,45 @@
 {
-  "id": "census_2008_nyc_schooldist",
   "dct_title_s": "New York City Elementary School Districts, 2008",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(-74.257232, -73.699479, 40.915407, 40.495973)",
+  "dct_issued_s": "2008",
+  "gbl_fileSize_s": ".503 MB",
+  "dct_format_s": "GeoPackage",
+  "locn_geometry": "ENVELOPE(-74.257232, -73.699479, 40.915407, 40.495973)",
+  "id": "census_2008_nyc_schooldist",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "New York City Elementary School Districts, 2008 is a polygon theme representing elementary school districts in New York City in 2008."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.census_2008_nyc_schooldist",
   "dct_creator_sm": [
     "United States. Bureau of the Census. Geography Division"
   ],
-  "dct_publisher_sm": [
-    "U.S. Department of Commerce Bureau of the Census Geography Division"
-  ],
-  "gbl_resourceType_sm": [
-    "Polygon data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Boundaries",
-    "Society"
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "New York City Elementary School Districts, 2008 is a polygon theme representing elementary school districts in New York City in 2008."
   ],
   "dcat_keyword_sm": [
     "State or equivalent entity",
     "Polygon"
   ],
-  "dct_temporal_sm": [],
+  "dct_language_sm": [
+    "eng"
+  ],
+  "dct_publisher_sm": [
+    "U.S. Department of Commerce Bureau of the Census Geography Division"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Polygon data"
+  ],
+  "dct_rights_sm": [
+    "None"
+  ],
+  "dct_rightsHolder_sm": [
+    "United States. Bureau of the Census. Geography Division"
+  ],
   "dct_spatial_sm": [
     "New York City",
     "New York (N.Y.)",
@@ -43,13 +50,19 @@
     "Staten Island (New York, N.Y.)",
     "NYC"
   ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Boundaries",
+    "Society"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2008
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
   "dct_identifier_sm": [],
-  "dct_rights_sm": [
-    "None"
-  ],
-  "dct_rightsHolder_sm": [
-    "United States. Bureau of the Census. Geography Division"
-  ],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -58,16 +71,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GeoPackage",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2008",
-  "gbl_indexYear_im": "2008",
-  "dcat_bbox": "ENVELOPE(-74.257232, -73.699479, 40.915407, 40.495973)",
-  "locn_geometry": "ENVELOPE(-74.257232, -73.699479, 40.915407, 40.495973)",
-  "dcat_centroid": "40.70569,-73.9783555",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.census_2008_nyc_schooldist",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": ".503 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/census_2008_nyc_schooldist.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/census-2008-nyc-schooldist\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/census_2008_nyc_schooldist.zip\", \"label\": \"GeoPackage\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/census-2008-nyc-schooldist\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }

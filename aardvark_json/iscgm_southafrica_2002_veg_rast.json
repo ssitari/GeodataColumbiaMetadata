@@ -1,48 +1,61 @@
 {
-  "id": "iscgm_southafrica_2002_veg_rast",
   "dct_title_s": "South Africa Vegetation, 2002",
-  "dct_accessRights_s": "public",
-  "gbl_resourceClass_sm": [
-    "Datasets"
-  ],
+  "dcat_bbox": "ENVELOPE(15, 35, -20, -35)",
+  "dct_issued_s": "2002",
+  "gbl_fileSize_s": "0.1 MB",
+  "dct_format_s": "GRID",
+  "locn_geometry": "ENVELOPE(15, 35, -20, -35)",
+  "id": "iscgm_southafrica_2002_veg_rast",
   "gbl_mdVersion_s": "Aardvark",
-  "dct_alternative_sm": [],
-  "dct_description_sm": [
-    "South Africa Vegetation is a raster theme representing percentages of tree cover throughout South Africa at a resolution of 30 arc seconds. This layer is a component of the Global Map a 1:1,000,000 scale framework dataset of the world. It consists of vector and raster layers of transport, administrative boundaries, drainage, elevation, vegetation, land use and land cover data. The data were prepared from information provided by national mapping and other organizations worldwide."
-  ],
-  "dct_language_sm": [
-    "eng"
-  ],
-  "gbl_displayNote_sm": [],
+  "gbl_mdModified_dt": "2026-07-22T17:19:05Z",
+  "schema_provider_s": "Columbia",
+  "dct_accessRights_s": "public",
+  "gbl_wxsIdentifier_s": "sde:columbia.iscgm_southafrica_2002_veg_rast",
   "dct_creator_sm": [
     "South Africa. Chief Directorate: Surveys and Mapping",
     "International Steering Committee for Global Mapping"
   ],
-  "dct_publisher_sm": [
-    "International Steering Committee for Global Mapping"
-  ],
-  "gbl_resourceType_sm": [
-    "Raster data"
-  ],
-  "dct_subject_sm": [],
-  "dcat_theme_sm": [
-    "Biology"
+  "gbl_dateRange_drsim": [],
+  "dct_description_sm": [
+    "South Africa Vegetation is a raster theme representing percentages of tree cover throughout South Africa at a resolution of 30 arc seconds. This layer is a component of the Global Map a 1:1,000,000 scale framework dataset of the world. It consists of vector and raster layers of transport, administrative boundaries, drainage, elevation, vegetation, land use and land cover data. The data were prepared from information provided by national mapping and other organizations worldwide."
   ],
   "dcat_keyword_sm": [
     "Trees",
     "Vegetation"
   ],
-  "dct_temporal_sm": [],
-  "dct_spatial_sm": [
-    "South Africa"
+  "dct_language_sm": [
+    "eng"
   ],
-  "dct_identifier_sm": [],
+  "dct_publisher_sm": [
+    "International Steering Committee for Global Mapping"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Raster data"
+  ],
   "dct_rights_sm": [
     "None"
   ],
   "dct_rightsHolder_sm": [
     "International Steering Committee for Global Mapping"
   ],
+  "dct_spatial_sm": [
+    "South Africa"
+  ],
+  "dct_subject_sm": [],
+  "dcat_theme_sm": [
+    "Biology"
+  ],
+  "gbl_georeferenced_b": true,
+  "gbl_suppressed_b": false,
+  "gbl_indexYear_im": [
+    2002
+  ],
+  "dct_alternative_sm": [],
+  "gbl_displayNote_sm": [],
+  "dct_identifier_sm": [],
   "dct_license_sm": [],
   "pcdm_memberOf_sm": [],
   "dct_isPartOf_sm": [],
@@ -51,16 +64,6 @@
   "dct_replaces_sm": [],
   "dct_isReplacedBy_sm": [],
   "dct_relation_sm": [],
-  "dct_format_s": "GRID",
-  "schema_provider_s": "Columbia",
-  "dct_issued_s": "2002",
-  "gbl_indexYear_im": "2002",
-  "dcat_bbox": "ENVELOPE(15, 35, -20, -35)",
-  "locn_geometry": "ENVELOPE(15, 35, -20, -35)",
-  "dcat_centroid": "-27.5,25",
-  "gbl_georeferenced_b": true,
-  "gbl_wxsIdentifier_s": "sde:columbia.iscgm_southafrica_2002_veg_rast",
-  "gbl_suppressed_b": false,
-  "gbl_fileSize_s": "0.1 MB",
-  "dct_references_s": "{\"download\":\"https://www.columbia.edu/acis/eds/gis/images/iscgm_southafrica_2002_veg_rast.zip\",\"url\":\"https://geodata.library.columbia.edu/catalog/iscgm-southafrica-2002-veg-rast\",\"wfs\":\"https://geoserver.cul.columbia.edu/geoserver/sde/ows\",\"wms\":\"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
+  "dct_temporal_sm": [],
+  "dct_references_s": "{\"http://schema.org/downloadUrl\": [{\"url\": \"https://www.columbia.edu/acis/eds/gis/images/iscgm_southafrica_2002_veg_rast.zip\", \"label\": \"GRID\"}], \"http://schema.org/url\": \"https://geodata.library.columbia.edu/catalog/iscgm-southafrica-2002-veg-rast\", \"http://www.opengis.net/def/serviceType/ogc/wfs\": \"https://geoserver.cul.columbia.edu/geoserver/sde/ows\", \"http://www.opengis.net/def/serviceType/ogc/wms\": \"https://geoserver.cul.columbia.edu/geoserver/wms/sde\"}"
 }
